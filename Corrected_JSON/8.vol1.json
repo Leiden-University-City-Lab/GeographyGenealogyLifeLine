@@ -1,0 +1,184 @@
+{
+  "FirstName": "Ludovicus",
+  "LastName": "CAPELLUS",
+  "Affix": "Louis",
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "LA CAPELLE,CAPPEL, MENAMBERT, MONIAMBERT",
+  "education": [
+    {
+      "subject": "Reis",
+      "location": "Gen\u00e8ve",
+      "date": "1547",
+      "source": "10"
+    },
+    {
+      "subject": "Stud. Jur.",
+      "location": "Bordeaux",
+      "date": "1555",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1560",
+      "source": "8"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Onderwijs Coll\u00e8ge Kardinaal Le Moine",
+      "location": "Parijs",
+      "date": "1550",
+      "source": "10",
+      "is_side_job": false
+    },
+    {
+      "job": "Onderwijs Grieks",
+      "location": "Bordeaux",
+      "date": null,
+      "source": "10",
+      "is_side_job": false
+    },
+    {
+      "job": "Wijding",
+      "location": "Parijs",
+      "date": "1560",
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Pred.",
+      "location": "Meaux",
+      "date": null,
+      "source": "10",
+      "is_side_job": false
+    },
+    {
+      "job": "Verblijf (pred.?)",
+      "location": "Gen\u00e8vye",
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Verblijf (pred.?)",
+      "location": "Sedan",
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Pred.",
+      "location": "Antwerpen",
+      "date": "1569",
+      "source": "5,8",
+      "is_side_job": false
+    },
+    {
+      "job": "Pred.",
+      "location": "Clermont",
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Verblijf (pred.?)",
+      "location": "Sedan",
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Envoy\u00e9 naar Prot.Prinsen",
+      "location": "Duitsland",
+      "date": "1572",
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Verblijf",
+      "location": "Engeland",
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "26-04-1575/08-1575",
+      "source": "2,14,27",
+      "is_side_job": false
+    },
+    {
+      "job": "Legerpred. Paltzgraaf Johann Casimir",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Sedan",
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Pred.",
+      "location": "Sedan",
+      "date": null,
+      "source": null,
+      "is_side_job": false
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Monjaubert of Mongombert (Menambert, Moniambert)",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catherine",
+      "LastName": "CAPELLUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "10",
+      "alternative_last_names": "le Sieur",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacques",
+      "LastName": "CAPELLUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8,10",
+      "alternative_last_names": "",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 75,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Parijs",
+  "BirthDate": "15-01-1534",
+  "DeathDate": "16-01-1586",
+  "DeathCity": "Sedan"
+}

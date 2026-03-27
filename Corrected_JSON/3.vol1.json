@@ -1,0 +1,228 @@
+{
+  "FirstName": "Jeremias",
+  "LastName": "BASTINGIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Onderwijs Klass. Talen",
+      "location": "Emden",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Lat. school",
+      "location": "Bremen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol., Phil., Hebreeuws en Grieks",
+      "location": "Gen\u00e8ve",
+      "date": "1574/10-06-1575",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "18-05-1573",
+      "source": null
+    },
+    {
+      "subject": "Verblijf",
+      "location": "Straatsburg",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "18-11-1573",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Heidelberg",
+      "date": "18-12-1576",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Pred.",
+      "location": "Antwerpen",
+      "date": "11-1577",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Vaste aanstelling",
+      "location": "Antwerpen",
+      "date": "03-09-1579",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Dordrecht",
+      "date": "17-08-1585/1593",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Tijdelijk Pred.",
+      "location": "Utrecht",
+      "date": "12-1589/02-1590",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Regent Staten Coll.",
+      "location": "Leiden",
+      "date": "10-03-1593/12-12-1594",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "24-05-1595",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid Synode",
+      "location": "Den Haag",
+      "date": "1586",
+      "source": null
+    },
+    {
+      "particularity": "Curator Lat. School",
+      "location": "Dordrecht",
+      "date": "1586/1593",
+      "source": null
+    },
+    {
+      "particularity": "Bijbelvertaler Z-Holl. Synode",
+      "location": "Zuid-Holland",
+      "date": "1587",
+      "source": null
+    },
+    {
+      "particularity": "Praeses Z-Holl. Synode",
+      "location": "Zuid-Holland",
+      "date": "1588",
+      "source": null
+    },
+    {
+      "particularity": "Inspector",
+      "location": "Classis Dordrecht",
+      "date": "1588/1589 + 1592",
+      "source": null
+    },
+    {
+      "particularity": "Assessor Z-Holl. Syn.",
+      "location": "Zuid-Holland",
+      "date": "1591/1592",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "Taenemans",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willemn",
+      "LastName": "Bastynck",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Guilielnmus",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1581",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeremias",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": "1646",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mauritius",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1594",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Ieperen or Calais",
+  "BirthDate": "1551 or 1554",
+  "DeathDate": "20-10-1595",
+  "DeathCity": "Leiden"
+}

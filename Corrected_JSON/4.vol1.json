@@ -1,0 +1,262 @@
+{
+  "FirstName": "Carolus",
+  "LastName": "BOERS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Onderwijs Henricus Hoogeveen",
+      "location": "Breda",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Onderwijs Henricus Hoogeveen",
+      "location": "Dordrecht",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": "1766",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Groningen",
+      "date": "10-09-1766",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Utrecht",
+      "date": "06-12-1768",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Roosendaal",
+      "location": "Roosendaal",
+      "date": "15-01-1769/16-09-1770",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Waddinxveen",
+      "location": "Waddinxveen",
+      "date": "30-09-1770/19-02-1775",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Muiden",
+      "location": "Muiden",
+      "date": "12-03-1775/14-04-1776",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Amersfoort",
+      "location": "Amersfoort",
+      "date": "28-04-1776/09-11-1777",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Haarlem",
+      "location": "Haarlem",
+      "date": "23-11-1777/16-05-1779",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "08-02-1779/21-02-1795",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Regent Staten College Leiden",
+      "location": "Leiden",
+      "date": "20-09-1779/14-03-1795",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1784-1785",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "06-02-1802",
+      "source": "14",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Oranjegezind",
+      "location": null,
+      "date": null,
+      "source": "14"
+    },
+    {
+      "particularity": "Salaris in de 18e eeuw: f 2500",
+      "location": null,
+      "date": null,
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Lucia",
+      "LastName": "AMESHOFF",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1801",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella Louise",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": null,
+      "source": "2,6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1732-10-22",
+      "DeathDate": "1789-04-27",
+      "DeathCity": "Groningen"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "BOERS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1771-09-03",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara Dorothea",
+      "LastName": "MUSKETIER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1702-03-25",
+      "DeathDate": "1773-02-08",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Carolus",
+      "LastName": "BOERS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1679-10-15",
+      "DeathDate": "1748-06-29",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "SEELE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "MUSKETIER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "de RISPIE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Phillipa Joh.",
+      "LastName": "Petronella",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1780-03-04",
+      "DeathDate": "1825-10-19",
+      "DeathCity": "Delft"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Voorschoten",
+  "BirthDate": "06-06-1746",
+  "DeathDate": "20-05-1814",
+  "DeathCity": "Leiden"
+}

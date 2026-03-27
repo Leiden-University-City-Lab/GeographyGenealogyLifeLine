@@ -1,0 +1,172 @@
+{
+  "FirstName": "Elias Annes",
+  "LastName": "BORGER",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lagere school",
+      "location": "Joure",
+      "date": "1788",
+      "source": null
+    },
+    {
+      "subject": "Priveles Klass. Talen",
+      "location": "Langweer",
+      "date": "1797",
+      "source": null
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "15-09-1801",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "06-06-1807",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector, Theol. (Gewijde Uitlegkunde)",
+      "location": "Leiden",
+      "date": "05-12-1807",
+      "source": "oratie",
+      "is_side_job": null
+    },
+    {
+      "job": "Buitengewoon Hoogl. Theol. (Gew.Uitlegk.)",
+      "location": "Leiden",
+      "date": "1811",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. (Gew. Welsprekendheid)",
+      "location": "Leiden",
+      "date": "1815",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Griekse Lett. en Alg. Geschiedenis",
+      "location": "Leiden",
+      "date": "1817",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lidmaatschappen (a): Holl. Maatschappij voor Kunsten, Koninklijk Tnstituut",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Abrahamina",
+      "LastName": "van der Meulen",
+      "Affix": null,
+      "Gender": null,
+      "source": "7,a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Ijsselstein",
+      "BirthDate": "Unknown",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "Scheltema",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Franeker",
+      "BirthDate": "1784-08-08",
+      "DeathDate": "1820-02-01",
+      "DeathCity": "Unknown"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Anne Kerstos (Kerstens)",
+      "LastName": "BORGER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1810-11-05",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sibbeltje Tieles",
+      "LastName": "Tieleman",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1827-09-20",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "BORGER",
+      "Affix": null,
+      "Gender": null,
+      "source": "a,2",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1815",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Unknown",
+      "LastName": "BORGER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Joure",
+  "BirthDate": "26-02-1784",
+  "DeathDate": "12-10-1820",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,166 @@
+{
+  "FirstName": "Bro\u00ebrius",
+  "LastName": "BROES",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "Brou\u00ebrius, Brouerius",
+  "education": [
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "10-09-1773",
+      "source": "(17)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Amsterdam",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Proponent",
+      "location": null,
+      "date": "1779",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "08-06-1784",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Vuren en Dalem",
+      "date": "29-08-1779",
+      "source": "(6)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Vlissingen",
+      "date": "23-07-1780",
+      "source": "(6)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "21-02-1784",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. (oratie)",
+      "location": "Leiden",
+      "date": "14-06-1784",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1792/1793",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Uitlegkunde van het Nieuwe Test.",
+      "location": "Leiden",
+      "date": "05-01-1799",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Patriot",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "Broes",
+      "Affix": null,
+      "Gender": null,
+      "source": "(4a,6)",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1726-07-09",
+      "DeathDate": "1797-10-26",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Brouwer",
+      "Affix": null,
+      "Gender": null,
+      "source": "(a,2)",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1783-05-29",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "Broes",
+      "Affix": "Jr.",
+      "Gender": null,
+      "source": "(a,2)",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Boonen",
+      "Affix": "Jansdr.",
+      "Gender": null,
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Brou\u00ebrius",
+      "LastName": "Brouwer",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Velp (G)",
+  "BirthDate": "1757",
+  "DeathDate": "24-02-1799",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,167 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "ALBERTI",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "Joan",
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": null,
+      "date": null,
+      "source": "(6)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Franeker",
+      "date": "02-10-1713",
+      "source": "(7)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "12-04-1720",
+      "source": null
+    },
+    {
+      "subject": "Proponent",
+      "location": "Leiden",
+      "date": "11-1720",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Hoogwoud",
+      "date": "26-02-1721",
+      "source": "(6)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Krommenie",
+      "date": "22-08-1726",
+      "source": "(intrede)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Haarlem",
+      "date": "15-02-1728/18-09-1740",
+      "source": "(6)",
+      "is_side_job": null
+    },
+    {
+      "job": "Buitenlandse reis",
+      "location": null,
+      "date": "1740",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "12-07-1740",
+      "source": "(52)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "05-10-1740",
+      "source": "(52)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1748/1749",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Korenmolenaar",
+      "location": null,
+      "date": null,
+      "source": "(6)"
+    },
+    {
+      "particularity": "Drentse Volksalmanak 1844, pp. 182-208; 1845, pp. 3-275 1838, pp. 139-142",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Katharina",
+      "LastName": "ALBERTI",
+      "Affix": "vean Ravestein",
+      "Gender": "Vrouw",
+      "source": "(2,6)",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1697-04-12",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Paulus",
+      "LastName": "van Ravestein",
+      "Affix": "Mr.",
+      "Gender": "Man",
+      "source": "(6)",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "van de Kapelle",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Philips",
+      "LastName": "van Ravesteyn",
+      "Affix": "Heer",
+      "Gender": "Man",
+      "source": "(6)",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Assen",
+  "BirthDate": "06-03-1698",
+  "DeathDate": "13-08-1762",
+  "DeathCity": "Leiden"
+}

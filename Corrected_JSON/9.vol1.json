@@ -1,0 +1,369 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "CLARISSE",
+  "Affix": "Joannes",
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Gymnasium",
+      "location": "Schiedam",
+      "date": "1783/01-08-1785",
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Litt.",
+      "location": "Leiden",
+      "date": "08-08-1787",
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": "1789",
+      "source": "5,2"
+    },
+    {
+      "subject": "Ingeschreven",
+      "location": "Utrecht",
+      "date": "1792",
+      "source": "18"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": null,
+      "date": "1792",
+      "source": "43"
+    },
+    {
+      "subject": "Preparatoir examen",
+      "location": "Classis Amsterdam",
+      "date": "02-04-1792",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Doorn",
+      "date": "16-09-1797",
+      "source": "43",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Enkhuizen",
+      "date": "05-07-1797",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Schoolopziener",
+      "location": "Enkhuizen",
+      "date": "1798",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Harderwijk",
+      "date": "20-03-1804/1812",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Harderwijk",
+      "date": "1803",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1806",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Rotterdam",
+      "date": "19-07-1812",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "10-12-1814/1841",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Leiden",
+      "date": "10-12-1814/11-10-1840",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Zo\u00f6logie en Mineralogie",
+      "location": "Leiden",
+      "date": "1819/1823",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1821/1822",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Emeritaat",
+      "location": null,
+      "date": "1841",
+      "source": "6",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lidmaatschappen",
+      "location": null,
+      "date": null,
+      "source": "6"
+    },
+    {
+      "particularity": "Maatschappij der Nederlandse Letterkunde",
+      "location": null,
+      "date": "1804",
+      "source": null
+    },
+    {
+      "particularity": "Maatschappij van Wetenschappen",
+      "location": "Haarlem",
+      "date": "1806",
+      "source": null
+    },
+    {
+      "particularity": "Zeeuws Genootschap van Wetenschappen",
+      "location": null,
+      "date": "1816",
+      "source": null
+    },
+    {
+      "particularity": "3e Klasse van het Koniklijk Nederlandsch Instituut",
+      "location": null,
+      "date": "1828",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina Cornelia",
+      "LastName": "van Eck",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Pompe",
+      "Affix": "van Meerdervoort",
+      "Gender": "Vrouw",
+      "source": "6a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Zwolle",
+      "BirthDate": "1794-08-13",
+      "DeathDate": "1832-04-28",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Theodurus Adrianus",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elselina Elisabeth",
+      "LastName": "van der Duijff",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana Maria",
+      "LastName": "van der Vis",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Theodorus Adrianus",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1795",
+      "DeathDate": "1828",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1797",
+      "DeathDate": "1818",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1827",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abraham Adrianus",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1802",
+      "DeathDate": "1829",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Walrand Cornelis Lodewijk",
+      "LastName": "CLARISSE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1811-04-17",
+      "DeathDate": "1845-12-25",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Schiedam",
+  "BirthDate": "19-10-1770",
+  "DeathDate": "29-11-1846",
+  "DeathCity": "Rheden"
+}

@@ -1,0 +1,190 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "COCCEJUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "KOCH, COCK, COCH",
+  "education": [
+    {
+      "subject": "Priv\u00e9les Andreas Widmarius",
+      "location": "Bremen",
+      "date": "1608",
+      "source": "14"
+    },
+    {
+      "subject": "Gymnasium illustre",
+      "location": "Bremen",
+      "date": null,
+      "source": "Unknown"
+    },
+    {
+      "subject": "Les Joodse geleerden",
+      "location": "Hamburg",
+      "date": "1625",
+      "source": "8"
+    },
+    {
+      "subject": "Stud. o.a. Oosterse talen",
+      "location": "Franeker",
+      "date": "09-1626/1629",
+      "source": "15"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Groningen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Franeker",
+      "date": "02-02-1644",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Philologie Gymnasium illustre",
+      "location": "Bremen",
+      "date": "18-11-1630",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Oosterse talen",
+      "location": "Franeker",
+      "date": "28-05-1636",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Waarnemend Hoogleraar Grieks",
+      "location": "Franeker",
+      "date": "1637/1639",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Franeker",
+      "date": "09-12-1643",
+      "source": "26",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1645/1646",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "08-06-1650",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1659/1660",
+      "source": "6",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "DEICHMANN",
+      "Affix": null,
+      "Gender": null,
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Bremen",
+      "BirthDate": "Unknown",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Timannus",
+      "LastName": "GOCH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "BAKEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Unnamed",
+      "LastName": "COCCHEJUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Henricus",
+      "LastName": "COCCHEJUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Bremen",
+  "BirthDate": "09-08-1603",
+  "DeathDate": "05-11-1669",
+  "DeathCity": "Leiden"
+}
