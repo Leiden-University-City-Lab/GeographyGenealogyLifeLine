@@ -316,13 +316,13 @@ def main():
         print(f"No JSON files found in {args.json_dir}", file=sys.stderr) 
         sys.exit(1)  
 
-    sql_lines = ["START TRANSACTION;"]  # Start building the SQL script as a list of lines.
-    #     "START TRANSACTION;",  # Begin a transaction so all changes can be committed together
-    #     "INSERT INTO event_type (event_type_name) SELECT 'birth' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'birth');",  # Ensure 'birth' exists in event_type.
-    #     "INSERT INTO event_type (event_type_name) SELECT 'death' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'death');",  # Ensure 'death' exists in event_type.
-    #     "INSERT INTO event_type (event_type_name) SELECT 'education' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'education');",  # Ensure 'education' exists in event_type.
-    #     "INSERT INTO event_type (event_type_name) SELECT 'career' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'career');",  # Ensure 'career' exists in event_type.
-    # ]
+    sql_lines = [  # Start building the SQL script as a list of lines.
+        "START TRANSACTION;",  # Begin a transaction so all changes can be committed together
+        "INSERT INTO event_type (event_type_name) SELECT 'birth' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'birth');",  # Ensure 'birth' exists in event_type.
+        "INSERT INTO event_type (event_type_name) SELECT 'death' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'death');",  # Ensure 'death' exists in event_type.
+        "INSERT INTO event_type (event_type_name) SELECT 'education' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'education');",  # Ensure 'education' exists in event_type.
+        "INSERT INTO event_type (event_type_name) SELECT 'career' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'career');",  # Ensure 'career' exists in event_type.
+    ]
 
     for path in files:  # Process each discovered JSON file one by one
         build_sql_for_file(path, sql_lines)  
