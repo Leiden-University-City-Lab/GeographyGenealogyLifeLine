@@ -1,0 +1,243 @@
+{
+  "FirstName": "Caspar Janszoon",
+  "LastName": "COOLHAES",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "KOOLHAES, KOOLHAAS, COELAES, KOULHASTUS, KOLHAESE, COOLHAZE",
+  "education": [
+    {
+      "subject": "Student",
+      "location": "Keulen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Hogeschool Joh. Monhemius",
+      "location": "D\u00fcsseldorf",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Voorbereiding tot de geestelijke stand",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Karthuizer monnik",
+      "location": "Koblenz",
+      "date": "1554",
+      "source": "9",
+      "is_side_job": null
+    },
+    {
+      "job": "Hulppred.",
+      "location": "Winningen (Zweibr\u00fccken)",
+      "date": "1560",
+      "source": "10",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Trarbach",
+      "date": "1561",
+      "source": "50",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Bielstein",
+      "date": "1563",
+      "source": "b",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Siegen (Nassau-Siegen)",
+      "date": null,
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Deventer",
+      "date": "1566-09-15/1567-05-06",
+      "source": "b",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Essen",
+      "date": "1567",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Monsheim",
+      "date": "1571/1573",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Gorinchem",
+      "date": "1573/05-1574",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Rotterdam",
+      "date": "1574",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Leiden",
+      "date": "1574",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1575-01-08/1575-07",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Stoker gedistilleerde dranken",
+      "location": "Leiden",
+      "date": "1582",
+      "source": "not mentioned",
+      "is_side_job": null
+    },
+    {
+      "job": "Stoker",
+      "location": "Amsterdam",
+      "date": "1591",
+      "source": "6",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "N.B. WELLICHT NOOIT ECHT HOOGLERAAR GEWEEST en slechts les gegeven in theologische faculteit",
+      "location": null,
+      "date": null,
+      "source": "not mentioned"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Griete or Grietje",
+      "LastName": "CASPARSDR",
+      "Affix": null,
+      "Gender": null,
+      "source": "2,b",
+      "alternative_last_names": null,
+      "BirthCountry": "not mentioned",
+      "BirthCity": "not mentioned",
+      "BirthDate": "not mentioned",
+      "DeathDate": "not mentioned",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "not mentioned",
+      "LastName": "not mentioned",
+      "Affix": null,
+      "Gender": "not mentioned",
+      "source": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Adolf",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Caspar",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Keulen",
+  "BirthDate": "1534-01-24",
+  "DeathDate": "1615-01-15",
+  "DeathCity": "Leiden or Amsterdam"
+}

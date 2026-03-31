@@ -1,0 +1,128 @@
+{
+  "FirstName": "Joannes",
+  "LastName": "ESGERS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Amsterdam",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Grieks en Oosterse Talen",
+      "location": "Amsterdam",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "12-09-1714",
+      "source": null
+    },
+    {
+      "subject": "Examen",
+      "location": "Classis Amsterdam",
+      "date": "02-05-1718",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Oost- en West-Blokker",
+      "location": "Oost- en West-Blokker",
+      "date": "18-09-1718",
+      "source": "bev.",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Naarden?",
+      "location": "Naarden",
+      "date": "12-08-1725",
+      "source": "bev.",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Alkmaar",
+      "location": "Alkmaar",
+      "date": "12-08-1725",
+      "source": "bev.",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Middelburg",
+      "location": "Middelburg",
+      "date": "14-05-1730",
+      "source": "bev.",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Amsterdam",
+      "location": "Amsterdam",
+      "date": "26-02-1736",
+      "source": "bev.",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "12-07-1740",
+      "source": "28",
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Onderwijs Hebreeuwse Oudheden Leiden",
+      "location": "Leiden",
+      "date": "21-12-1750",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1752-1753",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Secr. Senaat Leiden",
+      "location": "Leiden",
+      "date": "1750",
+      "source": "27",
+      "is_side_job": true
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Leonard Nicolaas",
+      "LastName": "ESGERS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1696-11-30",
+  "DeathDate": "1755-05-28",
+  "DeathCity": "Leiden"
+}

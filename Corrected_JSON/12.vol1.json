@@ -1,0 +1,145 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "COUWENBURG DU BOIS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Schiedam",
+      "date": null,
+      "source": "17"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1720-10-14",
+      "source": "17"
+    },
+    {
+      "subject": "Preparatoir examen",
+      "location": "Classis Leiden en Neder-Rijnland",
+      "date":"05-11-1726",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Graft",
+      "location": "Graft",
+      "date": "1728-08-08/1729-09-11",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Maassluis",
+      "location": "Maassluis",
+      "date": "1729-09-15/1730-10-15",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Deventer",
+      "location": "Deventer",
+      "date": "1730-11-05/1731-07-08",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Leiden (gedeeltelijk halve taak)",
+      "location": "Leiden",
+      "date": "1731-07-15/1762-08-13",
+      "source": "54",
+      "is_side_job": null
+    },
+    {
+      "job": "Onderregent Staten Coll. en Onderwijs Leiden",
+      "location": "Leiden",
+      "date": "1748-05-14/1762-08-14",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "1762-08-14",
+      "source": "54",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "DOORM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dominicus",
+      "LastName": "DOORM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1658-12-13",
+      "DeathDate": "1739-05-21",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margarita",
+      "LastName": "PESSER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1668-08-29",
+      "DeathDate": "1753-08-14",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Godefridus",
+      "LastName": "du BOIS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Kruiningen",
+  "BirthDate": "1703-11-05",
+  "DeathDate": "1764-03-07",
+  "DeathCity": "Leiden"
+}
