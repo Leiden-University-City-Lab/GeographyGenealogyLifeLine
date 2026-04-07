@@ -1,0 +1,96 @@
+{
+  "FirstName": "Gulielmus",
+  "LastName": "FEUGERAEUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": null,
+  "careers": [
+    {
+      "job": "Pred. te Dieppe, Vire, Quevilly",
+      "location": "Dieppe, Vire, Quevilly",
+      "date": "1562",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Pred. te Esneval",
+      "location": "Esneval",
+      "date": "1565",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Vlucht (Bartheloneus Nacht)",
+      "location": "London",
+      "date": "1572",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol",
+      "location": "Leiden",
+      "date": "17-07-1575",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Opvoeder Justinius van Nassau, zn. Prins Willem",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1576/1577",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Onstlag genomen",
+      "location": "Leiden",
+      "date": "23-03-1579",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Rouen",
+      "date": "1583",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Verblijf",
+      "location": "Dieppe",
+      "date": "1590",
+      "source": null,
+      "is_side_job": null
+    }
+
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Rouen",
+  "BirthDate": null,
+  "DeathDate": "1613 (14)",
+  "DeathCity": "Rouen (of Dieppe)"
+}

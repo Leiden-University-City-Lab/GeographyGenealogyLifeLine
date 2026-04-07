@@ -1,0 +1,220 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "GAILLARD",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Montauban",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "24-12-1667",
+      "source": "31"
+    },
+    {
+      "subject": "Ingeschreven als Dr.Phil.",
+      "location": "Leiden",
+      "date": "14-12-1668",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Montauban",
+      "location": "Montauban",
+      "date": "1647",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Phil. Montauban",
+      "location": "Montauban",
+      "date": "1647 of 1648",
+      "source": "7,a",
+      "is_side_job": null
+    },
+    {
+      "job": "Verbannen",
+      "location": null,
+      "date": "1659",
+      "source": "7,a",
+      "is_side_job": null
+    },
+    {
+      "job": "Waals Pred. ts-Hertogenbosch",
+      "location": "ts-Hertogenbosch",
+      "date": "09 of 10-1662",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Waals Pred. Leiden",
+      "location": "Leiden",
+      "date": "03-05-1666",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Lector Theol. Leiden",
+      "location": "Leiden",
+      "date": "06-12-1667",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Regent Waalse Coll. Leiden",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "08-02-1686",
+      "source": "14",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Adviseur affaire \"de Labadie",
+      "location": "1667",
+      "date": null,
+      "source": "7,38"
+    },
+    {
+      "particularity": "Boekencensor Mod\u00e9ratenur Waalse Syn.",
+      "location": "1669 1679 1684",
+      "date": null,
+      "source": "7,38"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jeanne",
+      "LastName": "Verdier",
+      "Affix": null,
+      "Gender": null,
+      "source": "10",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Montauban",
+      "BirthDate": "-",
+      "DeathDate": null,
+      "DeathCity": "-"
+    },
+    {
+      "FirstName": "Suzanne",
+      "LastName": "Lavergne",
+      "Affix": null,
+      "Gender": null,
+      "source": "10",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "-",
+      "BirthDate": "-",
+      "DeathDate": null,
+      "DeathCity": "-"
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "Renaud",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "-",
+      "BirthDate": "-",
+      "DeathDate": null,
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Paul",
+      "LastName": "GAILLARD",
+      "Affix": null,
+      "Gender": null,
+      "source": "10",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "-",
+      "BirthDate": "-",
+      "DeathDate": null,
+      "DeathCity": "-"
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Suzanne",
+      "LastName": "-",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "-",
+      "BirthDate": "-",
+      "DeathDate": null,
+      "DeathCity": "-"
+    },
+    {
+      "FirstName": "Catherine",
+      "LastName": "-",
+      "Affix": null,
+      "Gender": null,
+      "source": "-",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "-",
+      "BirthDate": "1650",
+      "DeathDate": null,
+      "DeathCity": "-"
+    },
+    {
+      "FirstName": "Jean",
+      "LastName": "-",
+      "Affix": null,
+      "Gender": null,
+      "source": "-",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "-",
+      "BirthDate": "1656",
+      "DeathDate": null,
+      "DeathCity": "-"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Montanban",
+  "BirthDate": "1620",
+  "DeathDate": "17-07-1688",
+  "DeathCity": "Leiden"
+}

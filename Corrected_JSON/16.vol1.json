@@ -1,0 +1,195 @@
+{
+  "FirstName": "Franciscus",
+  "LastName": "FABRICIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1681-10-05",
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol. en Oosterse Talen",
+      "location": "Amsterdam",
+      "date": "1686/1687",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1705-12-11",
+      "source": "34"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Velzen",
+      "date": "1687-11-23",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1696-05-07",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1705-11-08",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1708/1709",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1716/1717",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Gewijde Welsprekendheid",
+      "location": "Leiden",
+      "date": "1721-11-08",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1724/1725",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Emeritaat Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1736/1737",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Secr. Senaat Leiden",
+      "location": "Leiden",
+      "date": "1711",
+      "source": "27",
+      "is_side_job": true
+    },
+    {
+      "job": "Secr. Senaat Leiden",
+      "location": "Leiden",
+      "date": "1726",
+      "source": "27",
+      "is_side_job": true
+    },
+    {
+      "job": "Secr. Senaat Leiden",
+      "location": "Leiden",
+      "date": "1733",
+      "source": "27",
+      "is_side_job": true
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "van Teylingen",
+      "Affix": null,
+      "Gender": null,
+      "source": "54",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "Fabricius",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Katharina",
+      "LastName": "Felbier",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "Felbier",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "FABRICIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1691-01-26",
+      "DeathDate": "1715",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1663-04-10",
+  "DeathDate": "1738-07-27",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,178 @@
+{
+  "FirstName": "Aegidius",
+  "LastName": "GILLISSEN",
+  "Affix": "GILLISEN",
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Middelburg",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Groningen",
+      "date": "1732-08-23",
+      "source": null
+    },
+    {
+      "subject": "Proponent Classis Walcheren",
+      "location": "Walcheren",
+      "date": "1736-11-01",
+      "source": null
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Franeker",
+      "date": "1748-04-01",
+      "source": "b"
+    },
+    {
+      "subject": "Doct.Phil. Hon. Causa",
+      "location": "Franeker",
+      "date": "1748-04-03",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Borselen",
+      "location": "Borselen",
+      "date": "1737-05-31",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Geref. Pred. Terneuzen",
+      "location": "Terneuzen",
+      "date": "1740-12-09",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Geref. Pred. Bergen op Zoom",
+      "location": "Bergen op Zoom",
+      "date": "1744-11-10",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Geref. Pred. Vlissingen",
+      "location": "Vlissingen",
+      "date": "1745-11-07",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Hoogleraar Theol. Franeker",
+      "location": "Franeker",
+      "date": "1747-03-03",
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Academiepred. Franeker",
+      "location": "Franeker",
+      "date": "1765-05-29",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Rector Magnificus Franeker",
+      "location": "Franeker",
+      "date": "1760/1761",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "1765-01-30",
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": null,
+      "date": "1768/1769",
+      "source": null,
+      "is_side_job": true
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Cornelia Petronella",
+      "LastName": "Willekens",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Middelburg",
+      "BirthDate": "1730",
+      "DeathDate": "1799-05-28",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacoh",
+      "LastName": "Willekens",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "before 1752",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Zuydhoeck",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Aegidins",
+      "LastName": "Willekens Gillissen",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1841-01-15",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Middelburg",
+  "BirthDate": "1712-07-12",
+  "DeathDate": "1800-06-13",
+  "DeathCity": "Leiden"
+}
