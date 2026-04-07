@@ -2,9 +2,17 @@ import os
 from functools import lru_cache
 
 import dash
-from dash import Dash, dcc, html, Input, Output, State, dash_table, no_update
+from dash import Dash, dcc, html, Input, Output, State, dash_table
 import pandas as pd
 import plotly.graph_objects as go
+import numpy as np
+
+try:
+    from PIL import Image
+except ImportError as e:
+    raise SystemExit(
+        "Pillow is required for the cube floor map. Install with: pip install pillow"
+    ) from e
 
 try:
     import pymonetdb
@@ -27,6 +35,7 @@ EVENT_COLORS = {
     "career": "#ff7f0e",
     "death": "#d62728",
 }
+FLOOR_MAP_PATH = "floor_map.png"
 
 
 def get_connection():
@@ -317,6 +326,20 @@ app.layout = html.Div(
                             style={"height": "76vh"},
                             config={"displayModeBar": True},
                         ),
+                        html.Div(
+                            [
+                                html.H4("Space-time cube", style={"marginTop": "0.75rem", "marginBottom": "0.35rem"}),
+                                html.Div(
+                                    "Longitude and latitude form the ground plane; time is shown vertically as year. This view follows the selected people and main time interval.",
+                                    style={"color": "#666", "marginBottom": "0.5rem"},
+                                ),
+                                dcc.Graph(
+                                    id="space-time-cube",
+                                    style={"height": "62vh"},
+                                    config={"displayModeBar": True},
+                                ),
+                            ]
+                        ),
                     ],
                     style={"flex": "3", "minWidth": "700px"},
                 ),
@@ -510,10 +533,73 @@ def empty_pie_figure(message: str) -> go.Figure:
     return fig
 
 
+def empty_cube_figure(message: str) -> go.Figure:
+    fig = go.Figure()
+    fig.update_layout(
+        template="plotly_white",
+        scene=dict(
+            xaxis_title="Longitude",
+            yaxis_title="Latitude",
+            zaxis_title="Year",
+        ),
+        annotations=[
+            {
+                "text": message,
+                "xref": "paper",
+                "yref": "paper",
+                "x": 0.5,
+                "y": 0.5,
+                "showarrow": False,
+                "font": {"size": 16},
+            }
+        ],
+        margin={"l": 10, "r": 10, "t": 10, "b": 10},
+    )
+    return fig
+
+
 def center_for(df: pd.DataFrame):
     if df.empty:
         return {"lat": 20, "lon": 0}
     return {"lat": float(df["latitude"].mean()), "lon": float(df["longitude"].mean())}
+
+
+def add_floor_map_surface(fig, df: pd.DataFrame, image_path=FLOOR_MAP_PATH):
+    if df.empty or not os.path.exists(image_path):
+        return
+
+    img = Image.open(image_path).convert("L")
+    img_array = np.array(img)
+
+    lon_min = float(df["longitude"].min())
+    lon_max = float(df["longitude"].max())
+    lat_min = float(df["latitude"].min())
+    lat_max = float(df["latitude"].max())
+    year_min = float(df["year"].min())
+
+    lon_pad = max(0.5, (lon_max - lon_min) * 0.08)
+    lat_pad = max(0.5, (lat_max - lat_min) * 0.08)
+
+    x_vals = np.linspace(lon_min - lon_pad, lon_max + lon_pad, img_array.shape[1])
+    y_vals = np.linspace(lat_min - lat_pad, lat_max + lat_pad, img_array.shape[0])
+
+    X, Y = np.meshgrid(x_vals, y_vals)
+    Z = np.full_like(X, year_min, dtype=float)
+
+    fig.add_trace(
+        go.Surface(
+            x=X,
+            y=Y,
+            z=Z,
+            surfacecolor=img_array,
+            colorscale="Greys",
+            cmin=0,
+            cmax=255,
+            showscale=False,
+            opacity=0.55,
+            hoverinfo="skip",
+        )
+    )
 
 
 def build_event_count_figure(df: pd.DataFrame, year_range, selected_people=None) -> go.Figure:
@@ -834,7 +920,7 @@ def build_selected_timeline(all_visible_df: pd.DataFrame, selected_people):
 
     if selected_df.empty:
         return html.Div(
-            "No visible events for the selected people in this interval.",
+            "No visible events for the selected people in this view.",
             style={"color": "#666"},
         )
 
@@ -1006,6 +1092,103 @@ def build_arrivals_for_location(df: pd.DataFrame, lat: float, lon: float, year_r
     return out
 
 
+def build_space_time_cube_figure(df: pd.DataFrame, selected_people):
+    if df.empty:
+        return empty_cube_figure("No events available for the selected timeframe.")
+
+    selected_people = selected_people or []
+    cube_df = df.copy()
+
+    if selected_people:
+        selected_df = cube_df[cube_df["person_id"].isin(selected_people)].copy()
+        if not selected_df.empty:
+            cube_df = selected_df
+
+    if cube_df.empty:
+        return empty_cube_figure("No events available for the selected people in this timeframe.")
+
+    fig = go.Figure()
+
+    add_floor_map_surface(fig, cube_df, image_path=FLOOR_MAP_PATH)
+
+    if not selected_people:
+        for _, person_df in cube_df.groupby("person_id"):
+            person_df = person_df.sort_values(["event_date", "event_order"])
+            if len(person_df) < 2:
+                continue
+
+            fig.add_trace(
+                go.Scatter3d(
+                    x=person_df["longitude"],
+                    y=person_df["latitude"],
+                    z=person_df["year"],
+                    mode="lines",
+                    line=dict(width=3, color="#7f8c8d"),
+                    opacity=0.35,
+                    hoverinfo="skip",
+                    showlegend=False,
+                )
+            )
+    else:
+        for _, person_df in cube_df.groupby("person_id"):
+            person_df = person_df.sort_values(["event_date", "event_order"])
+            if len(person_df) >= 2:
+                fig.add_trace(
+                    go.Scatter3d(
+                        x=person_df["longitude"],
+                        y=person_df["latitude"],
+                        z=person_df["year"],
+                        mode="lines",
+                        line=dict(width=7, color="#c0392b"),
+                        opacity=0.95,
+                        hoverinfo="skip",
+                        showlegend=False,
+                    )
+                )
+
+    for event_type, group in cube_df.groupby("event_type_name"):
+        fig.add_trace(
+            go.Scatter3d(
+                x=group["longitude"],
+                y=group["latitude"],
+                z=group["year"],
+                mode="markers",
+                marker=dict(
+                    size=5 if not selected_people else 7,
+                    color=EVENT_COLORS.get(event_type, "#636efa"),
+                    opacity=0.9,
+                ),
+                name=event_type.title(),
+                customdata=group[["person_id", "person_name"]].assign(kind="cube_event").values,
+                hovertext=group["hover_text"],
+                hovertemplate="%{hovertext}<br>Year %{z}<extra></extra>",
+            )
+        )
+
+    lon_min, lon_max = float(cube_df["longitude"].min()), float(cube_df["longitude"].max())
+    lat_min, lat_max = float(cube_df["latitude"].min()), float(cube_df["latitude"].max())
+    year_min, year_max = int(cube_df["year"].min()), int(cube_df["year"].max())
+
+    lon_pad = max(0.5, (lon_max - lon_min) * 0.08)
+    lat_pad = max(0.5, (lat_max - lat_min) * 0.08)
+
+    fig.update_layout(
+        template="plotly_white",
+        margin=dict(l=10, r=10, t=10, b=10),
+        legend=dict(orientation="h", y=0.01, x=0.01),
+        scene=dict(
+            xaxis=dict(title="Longitude", range=[lon_min - lon_pad, lon_max + lon_pad]),
+            yaxis=dict(title="Latitude", range=[lat_min - lat_pad, lat_max + lat_pad]),
+            zaxis=dict(title="Year", range=[year_min, year_max]),
+            aspectmode="manual",
+            aspectratio=dict(x=1.2, y=1.0, z=1.3),
+            camera=dict(eye=dict(x=1.45, y=1.45, z=1.15)),
+        ),
+    )
+
+    return fig
+
+
 @app.callback(
     Output("year-slider", "value"),
     Input("event-count-bar", "clickData"),
@@ -1064,6 +1247,7 @@ def sync_selection(click_data, dropdown_value, selected_people):
         if customdata:
             if len(customdata) == 5:
                 return selected_people, dropdown_value
+
             try:
                 person_id = int(customdata[0])
                 if person_id in selected_people:
@@ -1085,23 +1269,24 @@ def sync_selection(click_data, dropdown_value, selected_people):
     Input("arrival-location-dropdown", "value"),
     State("year-slider", "value"),
     State("clicked-location", "data"),
+    State("arrival-location-dropdown", "value"),
     prevent_initial_call=True,
 )
-def store_selected_location(click_data, dropdown_value, selected_range, current_clicked_location):
+def store_selected_location(click_data, dropdown_value, selected_range, current_clicked_location, current_dropdown):
     ctx = dash.callback_context
     if not ctx.triggered:
-        return current_clicked_location, dropdown_value
+        return current_clicked_location, current_dropdown
 
     trigger = ctx.triggered[0]["prop_id"].split(".")[0]
     start_year, end_year = sorted(selected_range)
 
     if trigger == "lifepath-map":
         if not click_data or not click_data.get("points"):
-            return current_clicked_location, dropdown_value
+            return current_clicked_location, current_dropdown
 
         customdata = click_data["points"][0].get("customdata")
         if not customdata or len(customdata) != 5:
-            return current_clicked_location, dropdown_value
+            return current_clicked_location, current_dropdown
 
         lat, lon, location_label, marker_start_year, marker_end_year = customdata
         value = encode_location_value(float(lat), float(lon), location_label)
@@ -1132,7 +1317,7 @@ def store_selected_location(click_data, dropdown_value, selected_range, current_
             dropdown_value,
         )
 
-    return current_clicked_location, dropdown_value
+    return current_clicked_location, current_dropdown
 
 
 @app.callback(
@@ -1396,6 +1581,7 @@ def update_arrivals_view(clicked_location, arrival_range, selected_people):
 @app.callback(
     Output("event-count-bar", "figure"),
     Output("lifepath-map", "figure"),
+    Output("space-time-cube", "figure"),
     Output("selection-summary", "children"),
     Output("person-table", "data"),
     Output("selected-person-timeline", "children"),
@@ -1405,12 +1591,17 @@ def update_arrivals_view(clicked_location, arrival_range, selected_people):
     Input("direction-mode", "value"),
     Input("background-opacity", "value"),
 )
-def update_map(selected_range, selected_people, display_mode, direction_mode, background_opacity):
+def update_map_and_cube(selected_range, selected_people, display_mode, direction_mode, background_opacity):
     if DF.empty:
-        empty_bar = build_event_count_figure(pd.DataFrame(columns=["year", "person_id"]), selected_range, selected_people)
+        empty_bar = build_event_count_figure(
+            pd.DataFrame(columns=["year", "person_id"]),
+            selected_range,
+            selected_people,
+        )
         return (
             empty_bar,
             empty_figure("No geocoded events found in the database."),
+            empty_cube_figure("No data available."),
             "No data available.",
             [],
             html.Div("No data available.", style={"color": "#666"}),
@@ -1419,69 +1610,84 @@ def update_map(selected_range, selected_people, display_mode, direction_mode, ba
     selected_people = selected_people or []
     start_year, end_year = sorted(selected_range)
 
-    visible_df = filter_year_range(DF, [start_year, end_year])
-    year_df = visible_df.copy()
+    path_df = DF[DF["year"] <= end_year].copy()
+    interval_df = DF[(DF["year"] >= start_year) & (DF["year"] <= end_year)].copy()
+    cube_df = interval_df.copy()
 
     bar_fig = build_event_count_figure(DF, [start_year, end_year], selected_people)
 
-    if visible_df.empty:
+    if path_df.empty:
         return (
             bar_fig,
-            empty_figure("No events available in this interval."),
-            f"No events available in {start_year}–{end_year}.",
+            empty_figure("No events available up to this year."),
+            empty_cube_figure("No events available in this timeframe."),
+            f"No events available up to {end_year}.",
             [],
-            html.Div("No events available for this interval.", style={"color": "#666"}),
+            html.Div("No events available.", style={"color": "#666"}),
         )
 
     fig = go.Figure()
 
     if display_mode == "all":
-        for _, person_df in visible_df.groupby("person_id"):
+        for _, person_df in path_df.groupby("person_id"):
             add_path_trace(fig, person_df, selected=False, opacity=background_opacity)
             if direction_mode == "all":
                 add_direction_markers(fig, person_df, selected=False)
+
     elif selected_people:
-        selected_visible = visible_df[visible_df["person_id"].isin(selected_people)]
-        for _, person_df in selected_visible.groupby("person_id"):
+        selected_visible_paths = path_df[path_df["person_id"].isin(selected_people)]
+        for _, person_df in selected_visible_paths.groupby("person_id"):
             add_path_trace(fig, person_df, selected=False, opacity=0.16)
             if direction_mode == "all":
                 add_direction_markers(fig, person_df, selected=False)
 
     if selected_people:
-        highlighted = visible_df[visible_df["person_id"].isin(selected_people)]
+        highlighted_paths = path_df[path_df["person_id"].isin(selected_people)]
 
-        for _, person_df in highlighted.groupby("person_id"):
+        for _, person_df in highlighted_paths.groupby("person_id"):
             add_path_trace(fig, person_df, selected=True, opacity=1)
             if direction_mode in {"selected", "all"}:
                 add_direction_markers(fig, person_df, selected=True)
 
-        add_event_markers(fig, highlighted, set(selected_people))
-        add_year_location_markers(fig, aggregate_year_locations(highlighted, [start_year, end_year]))
+        highlighted_interval = interval_df[interval_df["person_id"].isin(selected_people)]
+        add_event_markers(fig, highlighted_interval, set(selected_people))
+        add_year_location_markers(
+            fig,
+            aggregate_year_locations(highlighted_interval, [start_year, end_year]),
+        )
     else:
-        add_event_markers(fig, visible_df, set())
-        add_year_location_markers(fig, aggregate_year_locations(visible_df, [start_year, end_year]))
+        add_event_markers(fig, interval_df, set())
+        add_year_location_markers(
+            fig,
+            aggregate_year_locations(interval_df, [start_year, end_year]),
+        )
 
     fig.update_layout(
         template="plotly_white",
         margin={"l": 10, "r": 10, "t": 10, "b": 10},
         legend={"orientation": "h", "y": 0.01, "x": 0.01},
         map={
-            "style": "open-street-map",
-            "center": center_for(visible_df),
+            "style": "carto-positron",
+            "center": center_for(path_df),
             "zoom": 2.2,
         },
     )
 
+    cube_fig = build_space_time_cube_figure(cube_df, selected_people)
+
     if selected_people:
-        selection_df = visible_df[visible_df["person_id"].isin(selected_people)]
+        selection_df = path_df[path_df["person_id"].isin(selected_people)]
+        selection_interval_df = interval_df[interval_df["person_id"].isin(selected_people)]
+
         summary = html.Div(
             [
                 html.Div(f"Interval: {start_year}–{end_year}"),
                 html.Div(f"Selected people: {len(selected_people)}"),
-                html.Div(f"Visible events for selection: {len(selection_df)}"),
-                html.Div(f"Events in selected interval: {len(selection_df)}"),
+                html.Div(f"Visible path events up to {end_year}: {len(selection_df)}"),
+                html.Div(f"Events in selected interval: {len(selection_interval_df)}"),
             ]
         )
+
         table_df = (
             selection_df.sort_values(["person_name", "event_date"])
             .groupby(["person_id", "person_name"], as_index=False)
@@ -1496,13 +1702,14 @@ def update_map(selected_range, selected_people, display_mode, direction_mode, ba
         summary = html.Div(
             [
                 html.Div(f"Interval: {start_year}–{end_year}"),
-                html.Div(f"Visible people: {visible_df['person_id'].nunique()}"),
-                html.Div(f"Visible geocoded events in interval: {len(visible_df)}"),
-                html.Div(f"Events in selected interval: {len(year_df)}"),
+                html.Div(f"Visible people up to {end_year}: {path_df['person_id'].nunique()}"),
+                html.Div(f"Visible geocoded path events up to {end_year}: {len(path_df)}"),
+                html.Div(f"Events in selected interval: {len(interval_df)}"),
             ]
         )
+
         table_df = (
-            visible_df.sort_values(["person_name", "event_date"])
+            path_df.sort_values(["person_name", "event_date"])
             .groupby(["person_id", "person_name"], as_index=False)
             .agg(
                 visible_events=("event_type_name", "count"),
@@ -1513,8 +1720,16 @@ def update_map(selected_range, selected_people, display_mode, direction_mode, ba
             .head(20)
         )
 
-    timeline_children = build_selected_timeline(visible_df, selected_people)
-    return bar_fig, fig, summary, table_df.to_dict("records"), timeline_children
+    timeline_children = build_selected_timeline(path_df, selected_people)
+
+    return (
+        bar_fig,
+        fig,
+        cube_fig,
+        summary,
+        table_df.to_dict("records"),
+        timeline_children,
+    )
 
 
 if __name__ == "__main__":

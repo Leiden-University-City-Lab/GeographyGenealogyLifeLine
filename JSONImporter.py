@@ -50,6 +50,8 @@ def normalize_single_date(token):  # convert a single data into a range
       11-1720        -> 1720-11-01, 1720-11-30
       1740           -> 1740-01-01, 1740-12-31
       1784-1785      -> 1784-01-01, 1785-12-31
+      1698-03-06     -> 1698-03-06, 1698-03-06   
+      1720-11        -> 1720-11-01, 1720-11-30   
 
     Invalid values return (None, None).
     """
@@ -57,9 +59,18 @@ def normalize_single_date(token):  # convert a single data into a range
     if token is None:  
         return None, None  
 
-    token = token.replace("–", "-").replace("—", "-").strip()  # change different dash characters to a plain hyphen.
+    token = token.replace("–", "-").replace("—", "-").strip()  
 
-    m = re.fullmatch(r"(\d{2})-(\d{2})-(\d{4})", token)  # match DD-MM-YYYY format exactly.
+    # YYYY-MM-DD (ISO format)
+    m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", token)
+    if m:
+        year, month, day = map(int, m.groups())
+        iso = safe_date_iso(year, month, day)
+        if iso is None:
+            return None, None
+        return iso, iso
+
+    m = re.fullmatch(r"(\d{2})-(\d{2})-(\d{4})", token)  
     if m:  
         day, month, year = map(int, m.groups())  
         iso = safe_date_iso(year, month, day) 
@@ -67,7 +78,17 @@ def normalize_single_date(token):  # convert a single data into a range
             return None, None  
         return iso, iso 
 
-    m = re.fullmatch(r"(\d{2})-(\d{4})", token)  # match MM-YYYY format exactly.
+    #  YYYY-MM
+    m = re.fullmatch(r"(\d{4})-(\d{2})", token)
+    if m:
+        year, month = map(int, m.groups())
+        if not (1 <= month <= 12):
+            return None, None
+        begin = safe_date_iso(year, month, 1)
+        end = safe_date_iso(year, month, last_day_of_month(year, month))
+        return begin, end
+
+    m = re.fullmatch(r"(\d{2})-(\d{4})", token)  
     if m: 
         month, year = map(int, m.groups()) 
         if not (1 <= month <= 12):  
@@ -76,14 +97,14 @@ def normalize_single_date(token):  # convert a single data into a range
         end = safe_date_iso(year, month, last_day_of_month(year, month))  
         return begin, end  
 
-    m = re.fullmatch(r"(\d{4})", token)  # match a single year.
+    m = re.fullmatch(r"(\d{4})", token)  
     if m:  
         year = int(m.group(1))  
         begin = safe_date_iso(year, 1, 1)  
         end = safe_date_iso(year, 12, 31)  
         return begin, end  
 
-    m = re.fullmatch(r"(\d{4})-(\d{4})", token)  # match  year range like 1784-1785
+    m = re.fullmatch(r"(\d{4})-(\d{4})", token)  
     if m:  
         year1, year2 = map(int, m.groups())  
         if year2 < year1: 
