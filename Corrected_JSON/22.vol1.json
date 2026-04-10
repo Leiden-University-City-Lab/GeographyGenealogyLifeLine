@@ -1,0 +1,139 @@
+{
+  "FirstName": "Abraham",
+  "LastName": "VAN DER HEYDEN",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. School Mattheus Sladus",
+      "location": "Amsterdam",
+      "date": "1608",
+      "source": "8,21"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "01-05-1614/30-06-1619",
+      "source": "38"
+    },
+    {
+      "subject": "Prep. examen",
+      "location": "Leiden",
+      "date": "11-10-1618",
+      "source": "38"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "22-09-1619",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Basel",
+      "date": "01-1620",
+      "source": "21"
+    },
+    {
+      "subject": "Cand. Theol.",
+      "location": "Basel",
+      "date": "25-03.-1620",
+      "source": "27"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "05-1620",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. /Waals Pred.",
+      "location": "Naarden",
+      "date": "1623",
+      "source": "38",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "11-06-1627",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "13-09-1648",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1654/1655",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1662/1663",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1671/1672",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Ontslag",
+      "location": "Leiden",
+      "date": "04-05-1676",
+      "source": "6,8,2",
+      "is_side_job": null
+    },
+    {
+      "job": "Praeses Prov. Synode",
+      "location": "Gorinchem",
+      "date": "03-07-1669",
+      "source": "7",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Sara",
+      "LastName": "Loten",
+      "Affix": null,
+      "Gender": null,
+      "source": "6,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1608",
+      "DeathDate": "1669",
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Frankenthal (Palts)",
+  "BirthDate": "10-08-1597",
+  "DeathDate": "15-10-1678",
+  "DeathCity": "Leiden"
+}
