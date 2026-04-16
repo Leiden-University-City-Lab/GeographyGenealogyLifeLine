@@ -1,0 +1,134 @@
+{
+  "FirstName": "Lucas",
+  "LastName": "TRELCATIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "TRELCAT",
+  "education": [
+    {
+      "subject": null,
+      "location": "Douay",
+      "date": null,
+      "source": "(10)"
+    },
+    {
+      "subject": null,
+      "location": "lille",
+      "date": null,
+      "source": "(10)"
+    },
+    {
+      "subject": null,
+      "location": "Parijs",
+      "date": null,
+      "source": "(10)"
+    },
+    {
+      "subject": "Theologie",
+      "location": "Orleans",
+      "date": null,
+      "source": "(2)"
+    },
+    {
+      "subject": "Theologie",
+      "location": "Londen",
+      "date": null,
+      "source": "(5)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoofd Lat. school Loniden",
+      "location": null,
+      "date": "ca. 1570",
+      "source": "(10)",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Lille",
+      "date": "ca. 1578",
+      "source": "(10,48)",
+      "is_side_job": null
+    },
+    {
+      "job": "Tijdel. Pred.",
+      "location": "Gent",
+      "date": "1581",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Brussel",
+      "date": "6 jaar",
+      "source": "(10)",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Antwerpen",
+      "date": "1585",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "Leiden",
+      "date": "05-04-1585",
+      "source": "(42)",
+      "is_side_job": null
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "04-05-1587",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "10-08-1591",
+      "source": "(714)",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: als Buitengew. Hoogl. f 300 Gewoon Hoogleraar f 600",
+      "location": null,
+      "date": null,
+      "source": "(48)"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Imcas",
+      "LastName": "TRELCATIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Erin (bij Douay)",
+  "BirthDate": "1542",
+  "DeathDate": "1602-08-28",
+  "DeathCity": "Ledden"
+}

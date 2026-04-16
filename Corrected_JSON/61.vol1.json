@@ -1,0 +1,260 @@
+{
+  "FirstName": "Hermannus",
+  "LastName": "WITSIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Enkhuizen",
+      "date": "1642",
+      "source": "2,8"
+    },
+    {
+      "subject": "Priv\u00e9-onderwijs",
+      "location": "Enkhuizen",
+      "date": "1645",
+      "source": "2,8"
+    },
+    {
+      "subject": "Stud. Theol., Phil. en Hebreeuws",
+      "location": "Utrecht",
+      "date": "1651-04",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. DTheol.",
+      "location": "Groningen",
+      "date": "1654-11-20",
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": "10-1655",
+      "source": "143"
+    },
+    {
+      "subject": "Preparatoir exramen",
+      "location": "Classis Enkhuizen",
+      "date": "1656-05-29",
+      "source": "a"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Franeker",
+      "date": "1675-03-22",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Wes twoud",
+      "date": "1657-07-08",
+      "source": "PSVr",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Wormer",
+      "date": "1661-10-20",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Goes",
+      "date": "1666-06-20",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leenwarden",
+      "date": "1668-04-11",
+      "source": "bev.",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1675-01-07",
+      "source": "39 b)",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred. Franeker",
+      "location": "Franeker",
+      "date": "1675-04-15",
+      "source": "oratie",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Groningen",
+      "date": "1680-04-29",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Groningen",
+      "date": "1680-04-25",
+      "source": "bev.",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1698-10-16",
+      "source": "oratie",
+      "is_side_job": null
+    },
+    {
+      "job": "Regent",
+      "location": "Staten Col1. Leiden",
+      "date": "1699-09-18",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Emeritaat",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Scriba",
+      "location": "Vergadering van Predikanten",
+      "date": "1672-06-12",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred. Ned. Gezantschap naar Engeland",
+      "location": null,
+      "date": "1685-08-04",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Bestuurder",
+      "location": "Classis Utrecht",
+      "date": null,
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Voorzitter",
+      "location": "Synode Utrecht",
+      "date": "1685/1696",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1687/1688, 1697/1698",
+      "source": "a",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 1200 tractement Ff 500 persoonlijke toelage 7 300 huishuur",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Aletta",
+      "LastName": "VAN BORCH",
+      "Affix": null,
+      "Gender": null,
+      "source": "2,5",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1684",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Claes Jacobsz.",
+      "LastName": "WITSIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1599",
+      "DeathDate": "1669-10-06",
+      "DeathCity": "Enkhuizen"
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "Hermanus",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1669-10-18",
+      "DeathCity": "Enkhuizen"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "WITS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hermanus",
+      "LastName": "Gerardi",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Enkhuizen",
+  "BirthDate": "1636-02-12",
+  "DeathDate": "1708-10-22",
+  "DeathCity": "Leiden"
+}

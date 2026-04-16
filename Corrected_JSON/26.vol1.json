@@ -1,0 +1,168 @@
+{
+  "FirstName": "Taco Hajo",
+  "LastName": "VAN DEN HONERT",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": null,
+  "careers": [
+    {
+      "job": "Onderwijs Dordrecht",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Hendrik-Ido-Ambacht",
+      "location": "Hendrik-Ido-Ambacht",
+      "date": "1689",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Brielle",
+      "location": "Brielle",
+      "date": "1694-03-21",
+      "source": "6",
+      "is_side_job": true
+    },
+    {
+      "job": "Amsterdam",
+      "location": "Amsterdam",
+      "date": "1698-04-24",
+      "source": "6",
+      "is_side_job": true
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "1714-08-29",
+      "source": "74",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1720/1721",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Hoogleraar Hebreeuwse Oudheden Leiden",
+      "location": "Leiden",
+      "date": "1721-10-18",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Vervangen wegens ouderdom",
+      "location": "Leiden",
+      "date": "1734-07-12",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Secr. Senaat Leiden",
+      "location": "Leiden",
+      "date": "1727",
+      "source": "27",
+      "is_side_job": true
+    },
+    {
+      "job": "Deputaat Classis Amsterdam",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "6",
+      "is_side_job": true
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Jacomina",
+      "LastName": "van Asperen",
+      "Affix": null,
+      "Gender": null,
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1665-12-21",
+      "DeathDate": "1705-08-10",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "van Midlum",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "s-Graveland",
+      "BirthDate": "1666",
+      "DeathDate": "1729-03-20",
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [
+    {
+      "FirstName": "Joan",
+      "LastName": "van den Honert",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1610",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Take",
+      "LastName": "Hajen",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johan",
+      "LastName": "VAN DEN HONERT",
+      "Affix": null,
+      "Gender": null,
+      "source": "a,6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701-04-05",
+      "DeathDate": "1779-07-15",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Norden (Hannover)",
+  "BirthDate": "1666-03-16",
+  "DeathDate": "1740-02-23",
+  "DeathCity": "Leiden"
+}

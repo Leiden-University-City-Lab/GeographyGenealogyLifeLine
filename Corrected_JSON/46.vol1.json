@@ -1,0 +1,235 @@
+{
+  "FirstName": "Frederik Jr.",
+  "LastName": "SPANHEIM",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Theology and Philosophy",
+      "location": "Leiden",
+      "date": "1643-11-03",
+      "source": "8"
+    },
+    {
+      "subject": "Philosophy",
+      "location": "Leiden",
+      "date": "1648-10-17",
+      "source": "8"
+    },
+    {
+      "subject": "Liberal Arts",
+      "location": "Leiden",
+      "date": "1651",
+      "source": "2"
+    },
+    {
+      "subject": "Theology",
+      "location": "Leiden",
+      "date": "1655",
+      "source": "2"
+    },
+    {
+      "subject": "Philosophy",
+      "location": "Leiden",
+      "date": "1655-04-27",
+      "source": "7"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Professor of Theology",
+      "location": "Heidelberg",
+      "date": "1655-04",
+      "source": "27",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Heidelberg",
+      "date": "1660",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Professor of Theology",
+      "location": "Leiden",
+      "date": "1670-02-07",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Extraordinary Pastor (Waalse kerk)",
+      "location": "Leiden",
+      "date": "after 1670",
+      "source": "27",
+      "is_side_job": null
+    },
+    {
+      "job": "Teaching Church Antiquities and History",
+      "location": "Leiden",
+      "date": "1671-01-12",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Librarian",
+      "location": "Leiden",
+      "date": "1672-10-07",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1673-1674, 1680-1681, 1687-1688, 1692-1693",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Primary Professor (without teaching obligations)",
+      "location": "Leiden",
+      "date": "1684-08-28",
+      "source": "14",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salary: 2000",
+      "location": null,
+      "date": null,
+      "source": "35"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "EHlisabeth",
+      "LastName": "Bilderbeek",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1668",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "du Fay",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1679",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ursula",
+      "LastName": "van Heimbach",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1683",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Frtedrich",
+      "LastName": "Spanheim",
+      "Affix": null,
+      "Gender": null,
+      "source": "8",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Charlotte",
+      "LastName": "du Port",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Wigand (Johannes W.)",
+      "LastName": "Spanheim",
+      "Affix": null,
+      "Gender": null,
+      "source": "8",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1620",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ren6e",
+      "LastName": "Tossan",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": "Tonssaint, Tossanus",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Frederik",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": "Rechtsgeleerde",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Gen\u00e8ve",
+  "BirthDate": "1632-05-01",
+  "DeathDate": "1704-05-18",
+  "DeathCity": "Leiden"
+}

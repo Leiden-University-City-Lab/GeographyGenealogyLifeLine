@@ -1,0 +1,138 @@
+{
+  "FirstName": "Constantijn",
+  "LastName": "L' EMPEREUR VAN OPWIJCK",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Litt.",
+      "location": "Leiden",
+      "date": "1607-05-19",
+      "source": "6"
+    },
+    {
+      "subject": "Theol., Oosterse Falen en Hebreeuwse Oud.",
+      "location": "Franeker",
+      "date": "1614-04-08",
+      "source": "6"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Franeker",
+      "date": "1617-03-23",
+      "source": "12,15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Theol. en Hebreeuws",
+      "location": "Harderwijk",
+      "date": "1619-10-07",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Hebhreeuws (later ook Aramees)",
+      "location": "Leiden",
+      "date": "1627-02-09",
+      "source": "6,7",
+      "is_side_job": null
+    },
+    {
+      "job": "Onderwijs Joodse versohil- e punten",
+      "location": "Leiden",
+      "date": "1633",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theocl.",
+      "location": "Leiden",
+      "date": "1646-12-10",
+      "source": "14",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris als hoogleraar Hebreeuws",
+      "location": null,
+      "date": null,
+      "source": "6 7 600 tractement 7 100 extraordinarius (vanaf 1630 7 200) later: f 1300 (34)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Wientgen",
+      "LastName": "DE WITT",
+      "Affix": null,
+      "Gender": null,
+      "source": "27",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "UYTERLIMNMIGE",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Dantzig",
+      "BirthDate": "1589",
+      "DeathDate": "1653",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hans",
+      "LastName": "THIJS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1556",
+      "DeathDate": "1611",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Sara",
+      "LastName": "DU TOUR DE LA POMMERAED",
+      "Affix": null,
+      "Gender": null,
+      "source": "a,c,d",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1672",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Bremen",
+  "BirthDate": "1591-07",
+  "DeathDate": "1648-07-01",
+  "DeathCity": "Leiden"
+}

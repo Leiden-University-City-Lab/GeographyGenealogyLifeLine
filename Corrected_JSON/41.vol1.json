@@ -1,0 +1,289 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "SARAVIA",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "SER(R)AVIA, SERAFIA, ZARAVIA, ZARAPHYA, SORAVIA, SAR AVIUS",
+  "education": [
+    {
+      "subject": "Franciscaan",
+      "location": "St. Omer",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "Parijs",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "Londen",
+      "date": "1561-06-22",
+      "source": "a"
+    },
+    {
+      "subject": "Headmaster Elisabeth Coll.",
+      "location": "Guernsey",
+      "date": "1563",
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "St. Peters, Guernsey",
+      "date": "1564-09-01",
+      "source": "4"
+    },
+    {
+      "subject": "Headmaster King Edward VI school",
+      "location": "Southampton",
+      "date": "1572",
+      "source": "a"
+    },
+    {
+      "subject": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1584-05-12",
+      "source": "a"
+    },
+    {
+      "subject": "Bijbelvertaler",
+      "location": null,
+      "date": "1607",
+      "source": "4"
+    },
+    {
+      "subject": null,
+      "location": "Oxford",
+      "date": "1590-07-09",
+      "source": "20"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Pred.",
+      "location": null,
+      "date": "1561",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Lid Reformed Congregation of Austin Friars",
+      "location": null,
+      "date": "1561",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Waals pred.",
+      "location": null,
+      "date": "1562-01-22",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": null,
+      "date": "1564-09-01",
+      "source": "4",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": null,
+      "date": "1570",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": null,
+      "date": "1578-10",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Waals en Geref. Pred.",
+      "location": null,
+      "date": "1582-11",
+      "source": "48, a",
+      "is_side_job": null
+    },
+    {
+      "job": "Veldpred. Prins v. Oranje",
+      "location": null,
+      "date": "1568-04-11",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": null,
+      "date": "1588-01",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": null,
+      "date": "1595",
+      "source": "a,7",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": null,
+      "date": "1610-02-25",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Kannunik Gloucester Cathedral",
+      "location": null,
+      "date": "1591-10-22",
+      "source": "9",
+      "is_side_job": null
+    },
+    {
+      "job": "Kannunik Canterbury Cathedral",
+      "location": null,
+      "date": "1595-12-06",
+      "source": "44",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Inspecteur Theoi. Hogeschool",
+      "location": null,
+      "date": "1580-08-10",
+      "source": "a"
+    },
+    {
+      "particularity": "Voorz. Prov. Synode Vlaamse Kerken",
+      "location": null,
+      "date": "1582-03-08",
+      "source": "a"
+    },
+    {
+      "particularity": "Rector Magnificus Leiden",
+      "location": null,
+      "date": "1585",
+      "source": "a"
+    },
+    {
+      "particularity": "Rector Magnificus Leiden",
+      "location": null,
+      "date": "1586",
+      "source": "a"
+    },
+    {
+      "particularity": "Assesor van Rector Leiden",
+      "location": null,
+      "date": "1587",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharine",
+      "LastName": "d'Allez",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "St. Omer",
+      "BirthDate": null,
+      "DeathDate": "1606-02-01",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marguerite",
+      "LastName": "Wijts",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christofle de",
+      "LastName": "SARAVIA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a, 7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1572-11-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Boulanger",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a, 7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1578-12-28",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Thomas",
+      "LastName": "SARAVIA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1588-12-28",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "UNKNOWN",
+      "LastName": "SARAVIA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Vieil-Hesdin",
+  "BirthDate": null,
+  "DeathDate": "1613-01-15",
+  "DeathCity": null
+}

@@ -1,0 +1,73 @@
+{
+  "FirstName": "Hadrianus",
+  "LastName": "JUNIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "DE JONGHE",
+  "education": [
+    {
+      "subject": "Med.",
+      "location": "Bologna",
+      "date": "1540",
+      "source": null
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Bologna",
+      "date": "1540",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Gouverneur Kroonprins van Denemarken",
+      "location": "Denemarken",
+      "date": "1562/1563",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Stadsgeneesheer",
+      "location": "Haarlem",
+      "date": "1563",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Lat. school",
+      "location": "Haarlem",
+      "date": "1563",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Stadsgeneesheer",
+      "location": "Middelburg",
+      "date": "1574",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1575",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Hoorn",
+  "BirthDate": "1511-07-01",
+  "DeathDate": "1575-06-16",
+  "DeathCity": "Arnemuiden of Middelburg"
+}

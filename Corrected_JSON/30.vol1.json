@@ -1,0 +1,449 @@
+{
+  "FirstName": "Franciscus",
+  "LastName": "JUNIUS (DU JON)",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Huisonderwijs",
+      "location": "Bourges",
+      "date": "1550",
+      "source": "c"
+    },
+    {
+      "subject": "Openbare school",
+      "location": "Bourges",
+      "date": "1557",
+      "source": "6,8"
+    },
+    {
+      "subject": "Stud. Jur.",
+      "location": "Bourges",
+      "date": "1558",
+      "source": "6j"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Lyons",
+      "date": "1560-1561",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Jur.",
+      "location": "Bourges",
+      "date": "1561/03-1562",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Litt. en Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "17-03-1562/04.1565",
+      "source": "a,8"
+    },
+    {
+      "subject": "Verblijf",
+      "location": "Heidelberg",
+      "date": "14-11-1584",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Heidelberg",
+      "date": "17-12.1584",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Huisonderwijzer",
+      "location": "Gen\u00f2ve",
+      "date": "6",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Waalse pred.",
+      "location": "Antwerpen",
+      "date": "05-1565/1566",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Gent (Brugge, Damme",
+      "date": "09-1566",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Hagepred.",
+      "location": "Limburg, Soumagne, Hodimont",
+      "date": "Ltot 04-1567",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Reis",
+      "location": "Bourges, Parijs, Sedan, Metz",
+      "date": "1567",
+      "source": "C",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Sch\u00f6nau (Palts)",
+      "date": "10-1567/voorjaar 1568",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Legerpred.",
+      "location": "Willem van Oranje",
+      "date": "1568",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Sch\u00f6nau",
+      "date": "1568/1573",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Bijbelvertaler",
+      "location": "Keurvorst Palts Beidelberg",
+      "date": "1573/03-1578",
+      "source": "6,0c",
+      "is_side_job": null
+    },
+    {
+      "job": "Verblijf",
+      "location": "Frankfurt",
+      "date": "voorjaar 1578",
+      "source": "c",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Exegese en Hebreeuws",
+      "location": "Neustadt",
+      "date": "winter 1578/1584",
+      "source": "a,0c",
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Waalse pred.",
+      "location": "St. Lambert",
+      "date": "1578/begin 1580",
+      "source": "a,c",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Otterberg",
+      "date": "eind 1579/07-05-1582",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Heidelberg",
+      "date": "30-11-1584/1592",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Waalse pred.",
+      "location": "Heidelberg",
+      "date": "1587",
+      "source": "b",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Heidelberg",
+      "date": "30-11-1584/1592",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Waalse pred.",
+      "location": "Heidelberg",
+      "date": "1587",
+      "source": "b",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Heidelberg",
+      "date": "30-11-1584/1592",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Waalse pred.",
+      "location": "Heidelberg",
+      "date": "1587",
+      "source": "b",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Heidelberg",
+      "date": "30-11-1584/1592",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Waalse pred.",
+      "location": "Heidelberg",
+      "date": "1587",
+      "source": "b",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Heidelberg",
+      "date": "30-11-1584/1592",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Waalse pred.",
+      "location": "Heidelberg",
+      "date": "1587",
+      "source": "b",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Heidelberg",
+      "date": "30-11-1584/1592",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salariss f 1200 in 1593",
+      "location": null,
+      "date": null,
+      "source": "c"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Agnes",
+      "LastName": "de Meef gen. Chenpion",
+      "Affix": null,
+      "Gender": null,
+      "source": "6,0c",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "van de Corput",
+      "Affix": null,
+      "Gender": null,
+      "source": "6,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "1'Hermite",
+      "Affix": null,
+      "Gender": null,
+      "source": "6,a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "Glaser",
+      "Affix": null,
+      "Gender": null,
+      "source": "6,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "D\u00e9nys",
+      "LastName": "du Jon (Dionysius)",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacqueline",
+      "LastName": "Huga(u)ld",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "8,a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Guillaume",
+      "LastName": "du Jon",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "Tndre",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "van goede familie",
+      "LastName": "",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "Cc",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Vroeggestorven zoon",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "Cc",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan Casimir",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1582",
+      "DeathDate": "1624",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1583",
+      "DeathDate": "1641",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": "1626",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": "Janneken",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1588",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1589",
+      "DeathDate": "1677",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Bourges",
+  "BirthDate": "1545-05-01",
+  "DeathDate": "1602-10-23",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,248 @@
+{
+  "FirstName": "Antonius",
+  "LastName": "THYSIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Onderwijs",
+      "location": "Lier",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "School van Vulcanius",
+      "location": "Antwerpen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Litt., Phil., en Theol.",
+      "location": "Leiden",
+      "date": "1580",
+      "source": null
+    },
+    {
+      "subject": "stud. Theol.",
+      "location": "Neustadt (Acad. van Heidelberg)",
+      "date": "1582",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1583",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "1585",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1591",
+      "source": null
+    },
+    {
+      "subject": "Opleiding tot pred.",
+      "location": "Staden",
+      "date": "1543",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1617",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hulppred.",
+      "location": "Amsterdam",
+      "date": "1594",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Emden",
+      "date": "1594",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Harderwijk",
+      "date": "1601",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1619",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Eector Magnificus",
+      "location": "Leiden",
+      "date": "1633/1634",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Eector Magnificus",
+      "location": "Leiden",
+      "date": "1658/1659",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Leiden",
+      "date": "1619",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Deelnemer Prov. Synodes Gelderland",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Afgevaardigde Gelderland bij Nationale Synode",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Deelnemer Part. Synode van 7-Holland",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Vertaler O-Testament",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Raadsheer Prins",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "de Raet",
+      "Affix": null,
+      "Gender": null,
+      "source": "30",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Not mentioned",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christoffel",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,21",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": "Not mentioned",
+      "BirthCity": "Not mentioned",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martha",
+      "LastName": "GILLIS",
+      "Affix": null,
+      "Gender": "Woman",
+      "source": "2,21",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": "Not mentioned",
+      "BirthCity": "Not mentioned",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "THIJS",
+      "Affix": null,
+      "Gender": null,
+      "source": "4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": "Not mentioned",
+      "BirthCity": "Not mentioned",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Anthony",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": "Not mentioned",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1603-01-01",
+      "DeathDate": "1665-01-25",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Francois",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Not mentioned",
+      "source": "4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": "Not mentioned",
+      "BirthCity": "Not mentioned",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Not mentioned",
+  "BirthCountry": null,
+  "BirthCity": "Antwerpen",
+  "BirthDate": "1565-08-09",
+  "DeathDate": "1640-11-07",
+  "DeathCity": "Leiden"
+}

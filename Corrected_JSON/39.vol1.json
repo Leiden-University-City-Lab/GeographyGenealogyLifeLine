@@ -1,0 +1,96 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "RIETVELD",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1756-09-17",
+      "source": "17"
+    },
+    {
+      "subject": "Doct.Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1781-02-10",
+      "source": "17"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Zuiderwoude",
+      "location": "Zuiderwoude",
+      "date": "1766",
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Geref. Pred. Zwolle",
+      "location": "Zwolle",
+      "date": "1767",
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Geref. Pred. Delft",
+      "location": "Delft",
+      "date": "1767",
+      "source": null,
+      "is_side_job": false
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "1781",
+      "source": null,
+      "is_side_job": false
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anna Maria",
+      "LastName": "Farret",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1745-11-07",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hermanus",
+      "LastName": "RIETVELD",
+      "Affix": null,
+      "Gender": null,
+      "source": "53,a",
+      "second_names": null,
+      "alternative_last_names": "Muil, Muylman",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1739-07-31",
+  "DeathDate": "1784-06-22",
+  "DeathCity": "Leiden"
+}

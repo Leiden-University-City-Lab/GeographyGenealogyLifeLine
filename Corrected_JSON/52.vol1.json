@@ -1,0 +1,39 @@
+{
+  "FirstName": "Lucas",
+  "LastName": "TRELCATIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": null,
+  "careers": [],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Lucas",
+      "LastName": "TRELCATIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "28-04-1638",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Londen",
+  "BirthDate": "25-04-1573",
+  "DeathDate": "12-09-1607",
+  "DeathCity": "Leiden"
+}

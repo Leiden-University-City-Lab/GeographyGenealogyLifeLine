@@ -1,0 +1,265 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "HOORNBEEK",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "HOORNBEQUIUS, HOORNBEECK, HORENBEE(C)K",
+  "education": [
+    {
+      "subject": "Onderwijs (klass. talen)",
+      "location": "Haarlem",
+      "date": "1623",
+      "source": "(a)"
+    },
+    {
+      "subject": "Stud. Theol., Phid., Litt.",
+      "location": "Leiden",
+      "date": "1633-04-15",
+      "source": "(17,6)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": "1635-09-1636",
+      "source": "(6)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1636-04-1637",
+      "source": "(6)"
+    },
+    {
+      "subject": "Proponent",
+      "location": null,
+      "date": "1638-04-24",
+      "source": "(a)"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Utrecht",
+      "date": "1643-12-21",
+      "source": "(a)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. (Ned. gem.)",
+      "location": "M\u00fcilheim (bij Keulen)",
+      "date": "1639-03-01/1643",
+      "source": "(6)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Utrecht",
+      "date": "1644-05-03",
+      "source": "(7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Pred.",
+      "location": "Utrecht",
+      "date": "1645-10-25/1654-05-02",
+      "source": "(a)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1650",
+      "source": "(a)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1653-08-26",
+      "source": "(7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Geref. Pred.",
+      "location": "Leiden",
+      "date": "1654",
+      "source": "(a)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1664/1665",
+      "source": "(27)",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ouderling Utrecht",
+      "location": null,
+      "date": "1645-07-27",
+      "source": "(6,a)"
+    },
+    {
+      "particularity": "Gedeputeerde van Utrecht in Part. Synode van Z-Holl, Gorinchem",
+      "location": null,
+      "date": "1652",
+      "source": null
+    },
+    {
+      "particularity": "Voorz. Part. Syn. Z-Holl.",
+      "location": "Leiden",
+      "date": "1658",
+      "source": null
+    },
+    {
+      "particularity": "Gedep. Classis Leiden in Part. Syn. Z-Holl.",
+      "location": "Ijsselstein",
+      "date": "1665-07-07/15",
+      "source": "(a)"
+    },
+    {
+      "particularity": "Visitator Classis Leiden en Meder-Rijnland",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris /1200 tractement F7 200 extraordinaria F7 300 huishuur",
+      "location": null,
+      "date": null,
+      "source": "(a)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "Bernard",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(b, a, 7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1631",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Tobias",
+      "LastName": "Hoornbeek",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1588",
+      "DeathDate": "1637",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Janneke of Jacqdueline",
+      "LastName": "Baert(s)",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(6,b,a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Wesel",
+      "BirthDate": "1596",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johanries",
+      "LastName": "Hoornbeeck",
+      "Affix": null,
+      "Gender": null,
+      "source": "(6)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Isaak",
+      "LastName": "Bernard",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Isa\u00ebik",
+      "LastName": "Hoornbeek",
+      "Affix": null,
+      "Gender": null,
+      "source": "(a,b,6)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1655/1656",
+      "DeathDate": "1727-06-17",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Hendrik Emilius",
+      "LastName": "Hoornbeek",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Hoornbeek",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Haarlem",
+  "BirthDate": "1617-11-04",
+  "DeathDate": "1666-09-01",
+  "DeathCity": "Leiden"
+}

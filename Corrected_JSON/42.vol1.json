@@ -1,0 +1,237 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VAN SCHELLE",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Joh. Jensius Rotterdam",
+      "location": "Rotterdam",
+      "date": "2",
+      "source": null
+    },
+    {
+      "subject": "Stud. Phid. en Theod.",
+      "location": "Leiden",
+      "date": "1742-09-17",
+      "source": "2,7"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1758-10-10",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Bergen (NH)",
+      "location": "Bergen",
+      "date": "1749-05-04",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Overschie",
+      "location": "Overschie",
+      "date": "1755-01-26",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Edam",
+      "location": "Edam",
+      "date": "1756-11-07",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Ams terdam",
+      "location": "Amsterdam",
+      "date": "1757-05-08",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theold.",
+      "location": "Leiden",
+      "date": "1758-07-05",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Leiden",
+      "location": "Leiden",
+      "date": "1759-01-21",
+      "source": "2",
+      "is_side_job": null
+    },
+    {
+      "job": "Secr. Senaat Leiden",
+      "location": "Leiden",
+      "date": "1762",
+      "source": "27",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Johnanna",
+      "LastName": "HOVENDAAL",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1718-03-24",
+      "DeathDate": "1795-11-21",
+      "DeathCity": "Ledden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "van Schelle",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": "Maria van Arendonck",
+      "alternative_last_names": "Petronella van den Bos (moeder van Johannes)",
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1685-12-30",
+      "DeathDate": "1776-01-02",
+      "DeathCity": "Rotterdam"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gijsbert Ariensz.",
+      "LastName": "van Schelle",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1652-09-04",
+      "DeathDate": "1692-07-08",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Meertje",
+      "LastName": "Marchy",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1658-07-21",
+      "DeathDate": "1702-04-22",
+      "DeathCity": "Hotterdam"
+    },
+    {
+      "FirstName": "Gerrit Lucasz.",
+      "LastName": "van Arendonck",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maertje Jansdr.",
+      "LastName": "Gordy",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Boudewijn",
+      "LastName": "van den Bos",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": "grootvader Johannes",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "Boutkamp",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Maria",
+      "LastName": "van Arendonck",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1684-12-24",
+      "DeathDate": "1717-06-24",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "van den Bos",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1682",
+      "DeathDate": "1724-09-16",
+      "DeathCity": "Rotterdam"
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": "Netherlands",
+  "BirthCity": "Rotterdam",
+  "BirthDate": "1723-11-05",
+  "DeathDate": "1762-06-24",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,143 @@
+{
+  "FirstName": "Christophorus",
+  "LastName": "WITTICHIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Jur., Theol., en Phil.",
+      "location": "Bremen",
+      "date": "1642",
+      "source": "7,5"
+    },
+    {
+      "subject": "Phil. en Theol.",
+      "location": "Groningen",
+      "date": "1644-06-17",
+      "source": "16"
+    },
+    {
+      "subject": "unknown",
+      "location": "Leiden",
+      "date": "1646",
+      "source": "unknown"
+    },
+    {
+      "subject": "Phil.",
+      "location": "Duisburg",
+      "date": "1655",
+      "source": "unknown"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Math.",
+      "location": "Herborn",
+      "date": "1651",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Theol. Lector",
+      "location": "unknown",
+      "date": "unknown",
+      "source": "7",
+      "is_side_job": true
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Duisburg",
+      "date": "1652",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Duisburg",
+      "date": "1652",
+      "source": "7",
+      "is_side_job": true
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Nijmegen",
+      "date": "1655",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Reotor Magnificus",
+      "location": "Nijmegen",
+      "date": "1655/1656",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1671-08-15,1671-11-10",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "unknown",
+      "location": "Leiden",
+      "date": "1686-02-08",
+      "source": "unknown",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1684",
+      "source": "7"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "unknown",
+      "LastName": "WITTICHIUS",
+      "Affix": null,
+      "Gender": "unknown",
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "unknown",
+      "LastName": "WITTICHIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": null,
+      "alternative_last_names": "Superintendent van de evangelische kerken van het Hertogdom",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": "Neder-Silezi\u00eb",
+  "BirthCity": "Brieg (Brzeg)",
+  "BirthDate": "67-10-1625",
+  "DeathDate": "1687-05-19",
+  "DeathCity": "Leiden"
+}

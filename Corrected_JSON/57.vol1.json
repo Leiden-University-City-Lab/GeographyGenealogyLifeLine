@@ -1,0 +1,221 @@
+{
+  "FirstName": "Conradus",
+  "LastName": "VORSTIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "FORSTIUS",
+  "education": [
+    {
+      "subject": null,
+      "location": "Keulen",
+      "date": null,
+      "source": "(2)"
+    },
+    {
+      "subject": "Bedber?",
+      "location": null,
+      "date": null,
+      "source": "(5)"
+    },
+    {
+      "subject": null,
+      "location": "Aken?",
+      "date": null,
+      "source": "(2)"
+    },
+    {
+      "subject": "Stud.",
+      "location": "D\u00fcsseldorf",
+      "date": "1583/1586",
+      "source": "(8)"
+    },
+    {
+      "subject": "Stud. St. Laurentius College",
+      "location": "Keulen",
+      "date": "1587",
+      "source": "(a)"
+    },
+    {
+      "subject": "Bekwamen voor Handel (Math., Frans, Italiaans)",
+      "location": null,
+      "date": "1587/1589",
+      "source": "(7)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Herborn",
+      "date": "1589/1593",
+      "source": "(7)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "1593-04-18",
+      "source": "(23)"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Heidelberg",
+      "date": "1594-07",
+      "source": "(8)"
+    },
+    {
+      "subject": "Reis Zwitserland, Duitsland en Frankrijk (Disputeren)",
+      "location": "Basel en Gen\u00e8ve",
+      "date": "1595",
+      "source": "(5,7,8)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Gouverneur",
+      "location": "Heidelberg",
+      "date": "1593",
+      "source": "(8)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Gymnasium",
+      "location": "Steinfurt (Bentheim)",
+      "date": "1596/1610",
+      "source": "(7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Steinfurt",
+      "date": "1605",
+      "source": "(a,8)",
+      "is_side_job": null
+    },
+    {
+      "job": "Consistorieassessor",
+      "location": "Steinfurt",
+      "date": "1605",
+      "source": "(8)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1610-05-06",
+      "source": "(7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Verbod colleges te geven",
+      "location": "Leiden",
+      "date": "1612",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Verbod uitoefenen hoogleraarschap en kerkelijke ambten door Synode Dordrecht (in verband. socianisme)",
+      "location": null,
+      "date": "1619-05-04",
+      "source": "(5)",
+      "is_side_job": null
+    },
+    {
+      "job": "Verbanning uit Republiek",
+      "location": null,
+      "date": "1619",
+      "source": "(7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Ondergedoken",
+      "location": "Utrecht",
+      "date": "1619/1622",
+      "source": "(8)",
+      "is_side_job": null
+    },
+    {
+      "job": "Vertrek naar T\u00f6nningen",
+      "location": null,
+      "date": "1622-06-04",
+      "source": "(3)",
+      "is_side_job": null
+    },
+    {
+      "job": "Leraar Theol.",
+      "location": "T\u00f6nningen",
+      "date": "1622-07-19 (aankomst)",
+      "source": "(2)",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Diederik",
+      "LastName": "VORST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(7,8)",
+      "second_names": null,
+      "alternative_last_names": "Theodoor",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophie",
+      "LastName": "STERCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": "Sterk",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Wilheim Heinrich",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Guernerus",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1682",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Keulen",
+  "BirthDate": "1569-07-19",
+  "DeathDate": "1622-09-29",
+  "DeathCity": "T\u00f6nningen (Sleeswijk-Holstein)"
+}

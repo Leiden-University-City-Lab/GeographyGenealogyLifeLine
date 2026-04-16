@@ -1,0 +1,39 @@
+{
+  "FirstName": "Gerardus",
+  "LastName": "VAN DBEE MEULEN",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Theol.",
+      "location": "Leiden",
+      "date": "13-09-1665",
+      "source": "17"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Theol.",
+      "location": "Leiden",
+      "date": "08-11-1667",
+      "source": "14",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

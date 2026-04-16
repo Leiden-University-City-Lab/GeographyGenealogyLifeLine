@@ -1,0 +1,187 @@
+{
+  "FirstName": "Jan Jacob",
+  "LastName": "SCHULTENS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": "Joannes Jacobus",
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Theol.",
+      "location": "Leiden",
+      "date": "1730-03-09",
+      "source": "(7,17)"
+    },
+    {
+      "subject": "Litt.",
+      "location": "Leiden",
+      "date": "1733-09-14",
+      "source": "(17)"
+    },
+    {
+      "subject": null,
+      "location": "Leiden",
+      "date": "1742",
+      "source": "(2)"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Leiden",
+      "date": "1743-07-11",
+      "source": "(31)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Oosterse talen",
+      "location": "Herborn",
+      "date": "1744",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogl. Theod. en Oosterse talen",
+      "location": "Leiden",
+      "date": "1749-07-29",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Interpres Llegati Warneriani",
+      "location": "Leiden",
+      "date": "1750",
+      "source": "(5)",
+      "is_side_job": null
+    },
+    {
+      "job": "Regent Staten Coll.",
+      "location": "Leiden",
+      "date": "1751-02-01",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1760-1761",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1757",
+      "source": null,
+      "is_side_job": true
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. de utilitate dialectorum orient. ad tuendam integritatem codicis Hebraei",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Suzanna Amalia",
+      "LastName": "Schramm",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Albert",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": null,
+      "source": "(2,7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Groningen",
+      "BirthDate": "1686-08-22",
+      "DeathDate": "1750-01-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Eligabeth",
+      "LastName": "Dozy",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2,7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1717",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "Schuitens",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Betta",
+      "LastName": "Bothenius",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Hendrik Albert",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": null,
+      "source": "(2,7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Herborn",
+      "BirthDate": "1749-02-25",
+      "DeathDate": "1793-08-12",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Franeker",
+  "BirthDate": "1716-09-19",
+  "DeathDate": "1778-11-27",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,250 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "WESSELIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Theologie",
+      "location": "Groningen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Theologie",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Doct. Theologie",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "proponent",
+      "location": "Franeker",
+      "date": null,
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Akkrum en Terhorne",
+      "date": "1692-11-09",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "St. Jacobiparochie",
+      "date": "1694-09-29",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Purmerend",
+      "date": "1700",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Rotterdarm",
+      "date": "1705-07-26",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theologie en Kerkelijke Geschiedenis",
+      "location": "Rotterdam",
+      "date": "1705",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1712-02-08",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred,",
+      "location": "Leiden",
+      "date": "1712-09",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1728/1729",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Gewijde Welsprekendheid",
+      "location": "Leiden",
+      "date": "1738-08-08",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1740/1741",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "Ruitenburgh",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": "van Ruytenburg",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1667",
+      "DeathDate": "1705-02-02",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agatha",
+      "LastName": "van Hogendorp",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": "Margaretha",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1671-07-12",
+      "DeathDate": "1753-03-19",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Bermanrus",
+      "LastName": "WESSELIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Leer (0-Friesland)",
+      "BirthDate": null,
+      "DeathDate": "1678",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Griske",
+      "LastName": "RENEMAN",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1699",
+      "DeathCity": "Leeuwarden"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Hermannus",
+      "LastName": "WESSELIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1627",
+      "DeathCity": "Gedesweer"
+    },
+    {
+      "FirstName": "Elske",
+      "LastName": "Dirks",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1672",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Herman",
+      "LastName": "RENEMAN",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Leeuwarden",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "N.",
+      "LastName": "Kolde",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Adriana Johanna",
+      "LastName": "WESSELIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1705-01-20",
+      "DeathDate": "1769-02-25",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Embden",
+  "BirthDate": "1671-10-20",
+  "DeathDate": null,
+  "DeathCity": "Leiden"
+}

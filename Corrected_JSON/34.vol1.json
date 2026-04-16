@@ -1,0 +1,171 @@
+{
+  "FirstName": "Bernhardinus",
+  "LastName": "DE MOOR",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Gouda",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Litt. en Theol.",
+      "location": "Leiden",
+      "date": "1725-09-14",
+      "source": "2,17"
+    },
+    {
+      "subject": "Stud. Utrecht",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Proponentsexamen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1736-09-25",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Ingen (G)",
+      "date": "1732-02-24",
+      "source": "57",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Broek in Waterland",
+      "date": "1734-06-13",
+      "source": "26",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Zaandam",
+      "date": "1738-10-26",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Enkhuizen",
+      "date": "1743-03-24",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1744-03-02",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Franeker",
+      "date": "1744-03-02",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1745-03-03",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1745-10-10/1764",
+      "source": "80 (halve taak), 5 08/1745/1769",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1756/1757",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Emeritaat",
+      "location": "Leiden",
+      "date": "1779-04-19",
+      "source": "14",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Alida Frederica",
+      "LastName": "Montanus",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1768",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Bernhardinus",
+      "LastName": "de Moor",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1743",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Bartholomaeus",
+      "LastName": "de Moor",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Kapelle (Z.H.)",
+      "BirthDate": "1649-02-11",
+      "DeathDate": "1724-06-23",
+      "DeathCity": "Harderwijk"
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Maaslandsluis",
+  "BirthDate": "1709-01-29",
+  "DeathDate": "1780-07-18",
+  "DeathCity": "Gouda"
+}

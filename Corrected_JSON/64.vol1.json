@@ -1,0 +1,262 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "\u00c0 MARCK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": null,
+  "alternative_last_names": "VAN MARCK",
+  "education": [
+    {
+      "subject": null,
+      "location": "Sneek",
+      "date": null,
+      "source": "(2)"
+    },
+    {
+      "subject": "Phil.",
+      "location": "Franeker",
+      "date": "1670-02-10",
+      "source": "(15)"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Leiden",
+      "date": "1673-09-19",
+      "source": "(17)"
+    },
+    {
+      "subject": null,
+      "location": "Franeker",
+      "date": "1675-04-13",
+      "source": "(2)"
+    },
+    {
+      "subject": "Phil.",
+      "location": "Franeker",
+      "date": "1675-06-28",
+      "source": "(2)"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Franeker",
+      "date": "1675-06-29",
+      "source": "(2)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Midlum",
+      "date": "1675-05-09",
+      "source": "(29)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1676-09-15",
+      "source": "(26)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Franeker",
+      "location": "Franeker",
+      "date": "1681",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Groningen",
+      "date": "1682-06-01",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Academie pred.",
+      "location": "Groningen",
+      "date": null,
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Onderwijs Kerkgesch.",
+      "location": "Groningen",
+      "date": "1683-05-09",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1689-12-05",
+      "source": "(5)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": null,
+      "source": "(5)",
+      "is_side_job": true
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1695/1696",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Kerkelijke Gesch.",
+      "location": "Leiden",
+      "date": "1702-01-09",
+      "source": "(5)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magn. Leiden",
+      "location": "Leiden",
+      "date": "1712-1713",
+      "source": "(2)",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Secr. Senaat Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "(27)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Helena",
+      "LastName": "Bukholt",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2,29)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1686-05-30",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Ursinus",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2,29)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "\u00c0 MARCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1667-09-16",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "Cloppenburg",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": "Cloppenburch",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1656-07-27",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "Cloppenburg",
+      "Affix": null,
+      "Gender": null,
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1592-05-13",
+      "DeathDate": "1652-07-30",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Wessels",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(5)",
+      "second_names": null,
+      "alternative_last_names": "Bessels",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "\u00c0 MARCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(5)",
+      "second_names": "Wilhelmus",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Unnamed daughter",
+      "LastName": "\u00c0 MARCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Sneek",
+  "BirthDate": "1656-01-10",
+  "DeathDate": "1731-01-30",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,228 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VAN VOORST",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Delft",
+      "date": null,
+      "source": "(2)"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1772-09-10",
+      "source": "(17)"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Franeker",
+      "date": "1788-03-03",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Hall",
+      "date": "1778-10-11",
+      "source": "(56)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Wageningen",
+      "date": "1780-07-23",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Zierikzee",
+      "date": "1781-10-28",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1788-02-20",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector",
+      "location": null,
+      "date": "1791",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Arnhem",
+      "date": "1797-06-25",
+      "source": "(ber.)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Arnhem",
+      "date": "1797-08-06",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Phil. (Theol., Christelijke Oudheden, Chr. Leerstellingen)",
+      "location": "Leiden",
+      "date": "1799-03-20",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Phil. (Theol., Christelijke Oudheden, Chr. Leerstellingen)",
+      "location": "Leiden",
+      "date": "1803",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Phil. (Theol., Christelijke Oudheden, Chr. Leerstellingen)",
+      "location": "Leiden",
+      "date": "1799-06-01",
+      "source": "(5)",
+      "is_side_job": null
+    },
+    {
+      "job": "Onderwijs Uite legging Nieuwe Test.",
+      "location": "Leiden",
+      "date": "1800-04-10",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1803-1804",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1803-10-15",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1808-1809",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1816-1817",
+      "source": "(3)",
+      "is_side_job": null
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Leiden",
+      "date": "1815-1821",
+      "source": "(7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Adjunct Bibliothecaris",
+      "location": "Leiden",
+      "date": "1816-1820",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Eerste Bibliothecaris",
+      "location": "Leiden",
+      "date": "1820-1833",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Emeritaat",
+      "location": "Leiden",
+      "date": "1827",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 2200",
+      "location": null,
+      "date": null,
+      "source": "(34)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Henrica Amalia",
+      "LastName": "VAN VOORST",
+      "Affix": "Vrouwe",
+      "Gender": null,
+      "source": "(2,7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "VAN VOORST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "VAN DEN BERG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(7)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Delft",
+  "BirthDate": "1757-03-17",
+  "DeathDate": "1833-07-29",
+  "DeathCity": "Leiden"
+}

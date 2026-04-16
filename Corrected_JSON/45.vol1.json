@@ -1,0 +1,181 @@
+{
+  "FirstName": "Frederik",
+  "LastName": "SPANHEIM",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "Friedrich, Fredericus",
+  "education": [
+    {
+      "subject": "Phil.",
+      "location": "Altdorf",
+      "date": "1613-04-08",
+      "source": "21"
+    },
+    {
+      "subject": "Phil. en Philologie",
+      "location": "Heidelberg",
+      "date": "1614-11-04",
+      "source": "2,23"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1620-07-04",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Gouverneur voor kinderen Jean de Bonne, Baron de Britolle of Vicomte de Vitrolles ambrun (Dauphin\u00e9)",
+      "location": "Britolle of Vitrolles ambrun (Dauphin\u00e9)",
+      "date": "1620/1623",
+      "source": "8",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Phil.",
+      "location": "Gen\u00e8ve",
+      "date": "1626/1631",
+      "source": "21",
+      "is_side_job": null
+    },
+    {
+      "job": "Tevens Geref. Pred.",
+      "location": "Gen\u00e8ve",
+      "date": "1630/1637",
+      "source": "21",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1631/1642",
+      "source": "21",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Gen\u00e8ve",
+      "date": "1633/1637",
+      "source": "8",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1641-06-21",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Waalse Pred.",
+      "location": "Leiden",
+      "date": "1648-07-03",
+      "source": "7",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Charlotte",
+      "LastName": "du Port",
+      "Affix": null,
+      "Gender": null,
+      "source": "8,21",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Poitou",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes Wigandus",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1620",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "Tossanus",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Ezechi\u00ebl",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Andreas",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frederik",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Amberg (Palts)",
+  "BirthDate": "1600-01-01",
+  "DeathDate": "1649-05-14",
+  "DeathCity": "Leiden"
+}

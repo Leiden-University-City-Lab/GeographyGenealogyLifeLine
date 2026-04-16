@@ -1,0 +1,338 @@
+{
+  "FirstName": "Gerard Johan",
+  "LastName": "NAHUIJS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": "Gerardus Johannes",
+  "alternative_last_names": "NAHUYS",
+  "education": [
+    {
+      "subject": null,
+      "location": "Utrecht",
+      "date": null,
+      "source": "14"
+    },
+    {
+      "subject": null,
+      "location": "Hieronymusschool Utrecht",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Utrecht",
+      "date": "1761",
+      "source": "18"
+    },
+    {
+      "subject": null,
+      "location": "Utrecht",
+      "date": "1762-06-01",
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "Utrecht",
+      "date": "1762-04-28",
+      "source": "a"
+    },
+    {
+      "subject": "Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1781-02-10",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Ede",
+      "date": "1762-09-05",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": null,
+      "location": "Ede",
+      "date": "1762-12-05",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Oud-Beyerland",
+      "date": "1764-09-22",
+      "source": "62",
+      "is_side_job": null
+    },
+    {
+      "job": null,
+      "location": "Oud-Beyerland",
+      "date": "1764-12-23",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Middelburg",
+      "date": "1765-09-22",
+      "source": "62",
+      "is_side_job": null
+    },
+    {
+      "job": null,
+      "location": "Middelburg",
+      "date": "1765-12-01",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Rotterdam",
+      "date": "1770-05-08",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": null,
+      "location": "Rotterdam",
+      "date": "1770-08-12",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Phil. en Zedekunde",
+      "location": "Rotterdam",
+      "date": "1772-08",
+      "source": "43",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Amsterdam",
+      "date": "1778-06-17",
+      "source": "43",
+      "is_side_job": null
+    },
+    {
+      "job": null,
+      "location": "Amsterdam",
+      "date": "1778-06-28",
+      "source": "43",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. en Kerkelijke Geschiedenis",
+      "location": "Leiden",
+      "date": "1780-10-16",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": null,
+      "location": "Leiden",
+      "date": "1781-04-30",
+      "source": "43",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1781-06-20",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Bijbelcorrector",
+      "location": "Rotterdam",
+      "date": "1775-11-08",
+      "source": "7",
+      "is_side_job": true
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid Holl. Maatschappij, Zeeuwsch Genootschap",
+      "location": null,
+      "date": null,
+      "source": "43"
+    },
+    {
+      "particularity": "Salaris: f 2300",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina Walburg",
+      "LastName": "Mansvelt",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Utrecht",
+      "BirthDate": "1742-03-19",
+      "DeathDate": "1781-10-06",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": "Gerardus",
+      "BirthCountry": null,
+      "BirthCity": "Delfshaven",
+      "BirthDate": "1695-05-27",
+      "DeathDate": "1776-09-26",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Margdetha",
+      "LastName": "Pott",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1713-10-18",
+      "DeathDate": "1782-12-20",
+      "DeathCity": "Utrecht"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": "Henricus",
+      "alternative_last_names": "Nahuijs",
+      "BirthCountry": null,
+      "BirthCity": "Oirschot",
+      "BirthDate": "1656-01",
+      "DeathDate": "1722-09-04",
+      "DeathCity": "Delfshaven"
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Gerard Hendrik",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1772-01-27",
+      "DeathDate": "1776-08-13",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Arnouda Margaretha",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1773-08-26",
+      "DeathDate": "1751-02-25",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Henrietta Hiliegonda",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1774-10-27",
+      "DeathDate": "1855-03-23",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Gerard",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1776-08-01",
+      "DeathDate": "1785-09-19",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Petronella Catharina",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1778-03-11",
+      "DeathDate": "1779-12-02",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Johanna Maria",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1780-01-20",
+      "DeathDate": "1848-05-02",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Pieter Huibert",
+      "LastName": "NAHUIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1781-07-13",
+      "DeathDate": "1863-04-18",
+      "DeathCity": "Utrecht"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Utrecht",
+  "BirthDate": "1738-02-01",
+  "DeathDate": "1781-10-09",
+  "DeathCity": "Leiden"
+}

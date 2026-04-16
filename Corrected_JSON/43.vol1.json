@@ -1,0 +1,80 @@
+{
+  "FirstName": "Hermannus",
+  "LastName": "SCHOLTEN",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Stud. Phil. en Philologie",
+      "location": "Harderwijk",
+      "date": "1744-09-13",
+      "source": "14"
+    },
+    {
+      "subject": "Proponent",
+      "location": null,
+      "date": "1747",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Gronau",
+      "location": "Gronau",
+      "date": "1753",
+      "source": "8",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Diepenheim",
+      "location": "Diepenheim",
+      "date": "1756-06-06",
+      "source": "54",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "1765-01-30",
+      "source": "14",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Leiden",
+      "location": "Leiden",
+      "date": "1765-12-01",
+      "source": "54",
+      "is_side_job": true
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1772/1773",
+      "source": "2",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aantekening in Leidse Universiteitsbibliotheek",
+      "location": null,
+      "date": null,
+      "source": "5"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Haaksbergen",
+  "BirthDate": "1726-05-28",
+  "DeathDate": "1783-10-10",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,267 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "KERKHOVEN",
+  "Affix": "A",
+  "Gender": "Man",
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. School",
+      "location": "Emden",
+      "date": "7",
+      "source": null
+    },
+    {
+      "subject": "Phil. en Hebreeuws",
+      "location": "Bremen",
+      "date": "1582",
+      "source": "4"
+    },
+    {
+      "subject": "Theol. en Phil.",
+      "location": "Heidelberg",
+      "date": "18-06-1586",
+      "source": "23"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1589",
+      "source": "21"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Dordrecht",
+      "date": "17-01-1619",
+      "source": "7"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Waalse pred.",
+      "location": "Leiden",
+      "date": "14/15-08-1591 (ben.)",
+      "source": "42",
+      "is_side_job": null
+    },
+    {
+      "job": "Scholarch",
+      "location": "Dordrecht",
+      "date": "1592",
+      "source": "7",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoog. Logica en Ethica",
+      "location": "Dordrecht",
+      "date": "1602-1606",
+      "source": "21",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "23-02-1611",
+      "source": "21",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoog. Logica en Ethica",
+      "location": "Dordrecht",
+      "date": "1602/1606",
+      "source": "21",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "23-02-1611",
+      "source": "21",
+      "is_side_job": null
+    },
+    {
+      "job": "Waalse Pred.",
+      "location": "Leiden",
+      "date": "02-1613/1646",
+      "source": "42,21",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1613/1614,1617/1618,1627/1628,1628/1629,1635/1636",
+      "source": "",
+      "is_side_job": null
+    },
+    {
+      "job": "Professor Primarius",
+      "location": "Leiden",
+      "date": "1639",
+      "source": "35",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1640/1641,1645/1646",
+      "source": "",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 1000 tractement 200 huishuur : 7 100 emolumenten (34): gedurende AOer jaren f 1200 tractement f 300 huishuur f 200 extraordinarius",
+      "location": null,
+      "date": null,
+      "source": "35"
+    },
+    {
+      "particularity": "Uit oud Gents patrici\u00ebrsgeslacht, gevliucht naar Palts",
+      "location": null,
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "a) Jaarboek van het Centraal Bureau voor de Genealogie 23 (1969), Pe 1117",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "b) De Nederlandsche Leeuw 39 (1921), P. 100",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Judith",
+      "LastName": "Nuyts",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Carelsd.",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "Polyander",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "09-09-1535",
+      "DeathDate": "08-10-1598",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christina",
+      "LastName": "van Houten",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "30-10-1587",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Livinus",
+      "LastName": "van den Kerckhove",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "Codde",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "No61",
+      "LastName": "Dubois",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "van Kerckhoven",
+      "Affix": null,
+      "Gender": null,
+      "source": "48",
+      "second_names": null,
+      "alternative_last_names": "Polyander",
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Mets (Vlaanderen)?",
+  "BirthDate": "28-03-1568",
+  "DeathDate": "04-02-1646",
+  "DeathCity": "Lididen"
+}

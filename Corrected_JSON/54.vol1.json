@@ -1,0 +1,265 @@
+{
+  "FirstName": "Jacobus Jr.",
+  "LastName": "TRIGLANDUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": "TRIGLANDIUS, TRIGLAND",
+  "education": [
+    {
+      "subject": null,
+      "location": "Harderwijk",
+      "date": "1667-07-20",
+      "source": "(2)"
+    },
+    {
+      "subject": "Phil. en Litt.",
+      "location": "Leiden",
+      "date": "1669-02-19",
+      "source": "(17)"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Leiden",
+      "date": "1686-03-19",
+      "source": "(31)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Thamen aan de Amstel",
+      "date": "1676",
+      "source": "(2,41)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Breda",
+      "date": "1678",
+      "source": "(2,41)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Ttrecht",
+      "date": "1680",
+      "source": "(2,41)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1681",
+      "source": "(2,41)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1686-02-08",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1689/1690",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1699/1700",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogi. Hebreeuwse Oud-heden",
+      "location": "Leiden",
+      "date": "1701-12-24",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1695",
+      "source": "(27)",
+      "is_side_job": true
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Isabella Sophia",
+      "LastName": "de Geer",
+      "Affix": "Jonkvrouwe",
+      "Gender": "Vrouw",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "Loten",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1657-11-09",
+      "DeathDate": "1691-12-01",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "de Mares",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christina",
+      "LastName": "Stoof",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1682",
+      "DeathDate": "1746-01-01",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johanna Sophia",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aletta Maria",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1688-04-25",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Juliana Louise",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1689-09-21",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth Constantia",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(a)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1691-01-17",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Haarlem",
+  "BirthDate": "1652-05-08",
+  "DeathDate": "1705-09-22",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,166 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VALCKENIER",
+  "Affix": "VALKENIER, FALKENARIUS, FALCKENIER",
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1636-08-13",
+      "source": "17"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1646",
+      "source": "7"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Leiden",
+      "date": "1646",
+      "source": "7"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. Amsterdam",
+      "location": "Amsterdam",
+      "date": "1645",
+      "source": "a",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Harderwijk",
+      "location": "Harderwijk",
+      "date": "1645-11-13",
+      "source": "aanv.",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Franeker",
+      "location": "Franeker",
+      "date": "1654-03-24",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Rector Magn. Harderwijk",
+      "location": "Harderwijk",
+      "date": "1650",
+      "source": null,
+      "is_side_job": true
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "1668-05-22",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: Franeker: f 1000, v.a. 1655 F 1200",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Harderwijk: 1652: f 800",
+      "location": null,
+      "date": null,
+      "source": "30"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Hest(h)er",
+      "LastName": "Hochepied",
+      "Affix": null,
+      "Gender": null,
+      "source": "7",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Keulen",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "VALCKENIER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": "Isaac",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Hambach",
+      "Affix": null,
+      "Gender": null,
+      "source": "30",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Zoon",
+      "LastName": "VALCKENIER",
+      "Affix": null,
+      "Gender": null,
+      "source": "35",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Isaac",
+      "LastName": "Hochepied",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Keulen",
+  "BirthDate": "1617-11-02",
+  "DeathDate": "1670-12-08",
+  "DeathCity": "Leiden"
+}

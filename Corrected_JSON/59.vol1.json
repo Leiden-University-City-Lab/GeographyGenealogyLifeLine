@@ -1,0 +1,271 @@
+{
+  "FirstName": "Jona Willem",
+  "LastName": "TE WATER",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Theologie en Litt.",
+      "location": "Utrecht",
+      "date": "1755",
+      "source": "(7)"
+    },
+    {
+      "subject": "Proponentsexamen Classis Utrecht",
+      "location": null,
+      "date": "1761-03-11",
+      "source": "(5)"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1785-03-19",
+      "source": "(31)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": "Walcheren",
+      "date": "1761-09-07",
+      "source": "(c)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Haamstede",
+      "date": "1761-10-25",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Veere",
+      "date": "1763-08-14",
+      "source": "(c)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Veere",
+      "date": "1763-11-20",
+      "source": "(c)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Vlissingen",
+      "date": "1765-10-27",
+      "source": "(c)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Phil. en Vaderl. Gesch. Illustre School",
+      "location": "Middelburg",
+      "date": "1779-08-09",
+      "source": "(c)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. en Kerkelijke Gesch.",
+      "location": "Leiden",
+      "date": "1784-10-30",
+      "source": "(e)",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. en Kerkelijke Gesch.",
+      "location": "Leiden",
+      "date": "1785-04-09",
+      "source": "(5)",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. (halve taak)",
+      "location": "Leiden",
+      "date": "1785-05-01",
+      "source": "(2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Emeritaat",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "(c)",
+      "is_side_job": null
+    },
+    {
+      "job": "Emeritaat (Pred.)",
+      "location": "Leiden",
+      "date": "1816",
+      "source": "(2)",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Geschiedsschrijver van Zeeland (ben. door Staten)",
+      "location": null,
+      "date": "1776-09-20",
+      "source": null
+    },
+    {
+      "particularity": "Rector Magnificus Leiden",
+      "location": null,
+      "date": "1789/1790",
+      "source": null
+    },
+    {
+      "particularity": "Voorz. Maatschappij der Ned. Letterk.",
+      "location": null,
+      "date": "1793/1822",
+      "source": null
+    },
+    {
+      "particularity": "Onderwijs Grieks Leiden",
+      "location": null,
+      "date": "1797-08-22",
+      "source": null
+    },
+    {
+      "particularity": "Lid Commissie van Zaken van de Ned. Herv. Kerk",
+      "location": null,
+      "date": "1806/1810",
+      "source": null
+    },
+    {
+      "particularity": "Lid Consulerende Comm. voor Kerkelijke Zaken van Lodewijk Napoleon",
+      "location": null,
+      "date": "1809",
+      "source": "(7)"
+    },
+    {
+      "particularity": "Lid Comm. tot Tegeling van de Protestantse Kerkel. Zaken",
+      "location": null,
+      "date": "1812",
+      "source": "(7)"
+    },
+    {
+      "particularity": "Bestuurder Haagse Genootschap",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Paulina Cornelia",
+      "LastName": "Mounier",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(b)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1738-10-16",
+      "DeathDate": "1814-09-14",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "TE WATER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1698-06-25",
+      "DeathDate": "1764-03-26",
+      "DeathCity": "Axel"
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "van Middelhoven",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "TE (THO) WATER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Keurst",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "Biscop",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jona",
+      "LastName": "van Middelhoven",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Zaamslag",
+  "BirthDate": "1740-10-28",
+  "DeathDate": "1822-10-19",
+  "DeathCity": "Leiden"
+}

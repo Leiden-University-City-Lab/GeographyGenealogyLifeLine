@@ -1,0 +1,173 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "TRIGLANDUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Lat. School",
+      "location": "Gouda",
+      "date": "2,8",
+      "source": null
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leuven",
+      "date": "1598",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "25-05-1634",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Rector School Vianen",
+      "location": "Vianen",
+      "date": "1602",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Stolkwijk",
+      "location": "Stolkwijk",
+      "date": "1607",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Amsterdam",
+      "location": "Amsterdam",
+      "date": "24-12-1610/05-1634",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Tijdelijk Geref. Pred. Den Haag",
+      "location": "Den Haag",
+      "date": "1617",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol. Leiden",
+      "location": "Leiden",
+      "date": "29-12-1633",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred. Leiden",
+      "location": "Leiden",
+      "date": "23-08-1637",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": null,
+      "date": "1643-1644",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: 7 1200 tractement 300 huishuur 200 extraordinadr plus emolumenten Later (na 1649) 7f 2000",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christina (Stijntje)",
+      "LastName": "STOOF",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": "Netherlands",
+      "BirthCity": "unknown",
+      "BirthDate": null,
+      "DeathDate": "around 1643",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Theodoor",
+      "LastName": "STOOF",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1609 or 1610",
+      "DeathDate": "1672-08-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodorns",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1620",
+      "DeathDate": "1679-10-25",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1664",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Vianen",
+  "BirthDate": "1583-07-22",
+  "DeathDate": "1654-04-05",
+  "DeathCity": "Leiden"
+}

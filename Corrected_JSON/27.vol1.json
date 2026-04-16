@@ -1,0 +1,250 @@
+{
+  "FirstName": "Nicolaas",
+  "LastName": "HOOGVLIET",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Groningen",
+      "date": "1746-09-13",
+      "source": "6"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1748-09-18",
+      "source": "6"
+    },
+    {
+      "subject": "Proponent",
+      "location": null,
+      "date": "1751-06-14",
+      "source": "6"
+    },
+    {
+      "subject": "Peremptoir examen",
+      "location": null,
+      "date": "1753-03-06",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1770-11-23",
+      "source": "371"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiderdorp",
+      "date": "1753-04-01",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Delft (Gasthuiskerk)",
+      "date": "1756-06-13",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1757-10-30",
+      "source": "6",
+      "is_side_job": null
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1770-08-27",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1776/1777",
+      "source": null,
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Johanma Sara",
+      "LastName": "Meerhout",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "unknown",
+      "DeathDate": "1758-06",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Elisabeth Anna",
+      "LastName": "Tatum",
+      "Affix": null,
+      "Gender": null,
+      "source": "6",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "Meerhout",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "Park",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Joannes",
+      "LastName": "van Hoogervliet",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1653-01-26",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Paspoort",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerardt",
+      "LastName": "den Appel",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joanna",
+      "LastName": "Juist",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Frans Cornelis",
+      "LastName": "HOOGVLIET",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Delft",
+      "BirthDate": "1757-03-25",
+      "DeathDate": "1803-12-08",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "HOOGVLIET",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Vlaardingen",
+      "BirthDate": "1690-10-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "den Appel",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Delft",
+      "BirthDate": "1694-02-19",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Delft",
+  "BirthDate": "1729-09-16",
+  "DeathDate": "1777-04-29",
+  "DeathCity": "Leiden"
+}

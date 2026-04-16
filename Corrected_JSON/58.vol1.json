@@ -1,0 +1,319 @@
+{
+  "FirstName": "Antonius",
+  "LastName": "WALAEUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": "Antoine",
+  "alternative_last_names": "VAN WALE, DE WAELE",
+  "education": [
+    {
+      "subject": "classical languages education",
+      "location": null,
+      "date": "1581/1582",
+      "source": "(a,8)"
+    },
+    {
+      "subject": "Latin school",
+      "location": null,
+      "date": "1587/04-1596",
+      "source": "(a,8)"
+    },
+    {
+      "subject": "Theology, Hebrew, Classical languages",
+      "location": null,
+      "date": "11-07-1596",
+      "source": "(4,17)"
+    },
+    {
+      "subject": null,
+      "location": null,
+      "date": "1599",
+      "source": "(21)"
+    },
+    {
+      "subject": null,
+      "location": null,
+      "date": null,
+      "source": "(8)"
+    },
+    {
+      "subject": null,
+      "location": null,
+      "date": null,
+      "source": "(21,22)"
+    },
+    {
+      "subject": "Theology",
+      "location": null,
+      "date": "20-08-1599 or 20-07 1599 to 01-08-1600",
+      "source": "(22,21)"
+    },
+    {
+      "subject": "Theology",
+      "location": null,
+      "date": "15-08-1600  to 27-03-1601",
+      "source": "(27, 22, 21)"
+    },
+    {
+      "subject": null,
+      "location": null,
+      "date": "1601",
+      "source": "(217)"
+    },
+    {
+      "subject": "Theology",
+      "location": null,
+      "date": "1619",
+      "source": "(4)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Minister",
+      "location": "Koudekerke",
+      "date": "12-1602",
+      "source": "(56)",
+      "is_side_job": null
+    },
+    {
+      "job": "Army Minister",
+      "location": null,
+      "date": "1604",
+      "source": "(a)",
+      "is_side_job": null
+    },
+    {
+      "job": "Minister",
+      "location": "Middelburg",
+      "date": "19-03-1605 to 10-09-1619",
+      "source": "(56,2)",
+      "is_side_job": null
+    },
+    {
+      "job": "Curator Latin School",
+      "location": "Middelburg",
+      "date": "1607",
+      "source": "(a)",
+      "is_side_job": null
+    },
+    {
+      "job": "Greek and Philosophy Teacher",
+      "location": "Middelburg",
+      "date": null,
+      "source": "(a)",
+      "is_side_job": null
+    },
+    {
+      "job": "Temporary Court Minister",
+      "location": "Den Haag",
+      "date": "1617/1618",
+      "source": "(a,2,7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Professor of Theology",
+      "location": "Leiden",
+      "date": "18-08-1619",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Founder and Director of Walaeum Seminary",
+      "location": "Leiden",
+      "date": "01-04-1622/1632",
+      "source": "(4,8,7)",
+      "is_side_job": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1625/1626, 1626/1627, 1639/1640",
+      "source": "(8)",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Delegate of Zeeland at Synod Dordrecht",
+      "location": null,
+      "date": "1618",
+      "source": "(4)"
+    },
+    {
+      "particularity": "Assessor University Leiden",
+      "location": null,
+      "date": "1619-1622",
+      "source": "(4)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Paschasie",
+      "LastName": "van Isenhoudt",
+      "Affix": null,
+      "Gender": "Female",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": "Paschijntjen, Paschasia, Passchijntgen",
+      "BirthCountry": null,
+      "BirthCity": "Middelburg",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicolas",
+      "LastName": "van Isenhoudt",
+      "Affix": null,
+      "Gender": "Male",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacques",
+      "LastName": "de Waele",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "Wagenaers",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": "Koudekerke",
+      "BirthDate": "27-12-1604",
+      "DeathDate": "05-06-1649",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Balduinus",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esterchen",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Unknown",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Unknown",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Unknown",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theology",
+  "BirthCountry": "Belgium",
+  "BirthCity": "Gent",
+  "BirthDate": "1573-10-03",
+  "DeathDate": "1639-07-09",
+  "DeathCity": "Leiden"
+}
