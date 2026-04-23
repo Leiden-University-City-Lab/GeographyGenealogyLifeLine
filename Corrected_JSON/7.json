@@ -1,0 +1,160 @@
+{
+  "FirstName": "Franco",
+  "LastName": "BURGERSDYK",
+  "BirthDate": "03-05-1390",
+  "BirthCity": "Lier",
+  "DeathDate": "19-02-1635",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Anmersfoort",
+      "date": "1604 -1606",
+      "source": null
+    },
+    {
+      "subject": "L\u00e1tijnse school",
+      "location": "Delft",
+      "date": "1606 -1610",
+      "source": null
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "06-05-1610",
+      "source": null
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Saumur",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1619",
+      "source": null
+    },
+    {
+      "subject": "Mag.Phil.",
+      "location": "Leiden",
+      "date": "31-03-1620",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Saumur",
+      "date": "1614 -1619",
+      "source": null
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "25-03-1620",
+      "source": null
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "10-1620",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Leiden",
+      "date": "08-02-1621",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Leiden",
+      "date": "09-05-1628",
+      "source": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1631",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gepasseerd als subregent Statencollege in 1619",
+      "source": null
+    },
+    {
+      "particularity": "Hoogleraar in Saumur door du Plessis Mornay",
+      "source": null
+    },
+    {
+      "particularity": "Promotor Willebrord Snellius",
+      "source": null
+    },
+    {
+      "particularity": "Conflicder. Jecchaec us",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Ursula Neeltje",
+      "LastName": "Verboom",
+      "BirthDate": null,
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": "(22)"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": null,
+      "LastName": "BURGERSDYK",
+      "extra_info": "Landbouwer onder de Lier",
+      "source": "(22)"
+    },
+    {
+      "FirstName": null,
+      "LastName": "BURGERSDYK",
+      "extra_info": "Zuster van Hugo Blotius Bibliothecaris Rudolf II",
+      "source": "(22)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "FirstName": null,
+      "LastName": "Verboom",
+      "extra_info": "Lid vroedschap en burgemeester van Leiden",
+      "source": null
+    },
+    {
+      "FirstName": null,
+      "LastName": "Cranendonck",
+      "extra_info": "Zuster van Hugo Blotius Bibliothecaris Rudolf II",
+      "source": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "BURGERSDYK",
+      "extra_info": "Claude Rivet (1603-1647),zoon prof. Rivet,ingenieur en mathematicus Prederik Hendrik",
+      "source": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "BURGERSDYK",
+      "extra_info": "Pensionaris van Leiden,Secretaris Curatoren Leidse universiteit; ondt.1.Leiden 28-07-1644 Anna le Bleu; ondt.2.Leiden 07-05-1670 Constantia verspeet",
+      "source": null
+    }
+  ],
+  "far_family": null
+}

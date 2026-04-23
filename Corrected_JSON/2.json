@@ -1,0 +1,98 @@
+{
+  "FirstName": "Franciscus",
+  "LastName": "DU BAN (DUBAN)",
+  "BirthDate": "+159",
+  "BirthCity": null,
+  "DeathDate": "mei 164",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Stud. Pont-d-Mousson",
+      "location": null,
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "Stud.. Parijs",
+      "location": null,
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "Stud.Theol. Leiden",
+      "location": null,
+      "date": "01-02-1630",
+      "source": "(14)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Leraar(publiek) humaniora",
+      "location": "Pont-\u00e0-Mousson",
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "job": "welsprekendheid,theologie La Fl\u00e8che,Reims,en vanaf 1620 filosofie",
+      "location": "Moulins",
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "job": "Buitengewoon Hoogieraar Redeneerkunde",
+      "location": "Leiden",
+      "date": "1-08-1636",
+      "source": "(13)"
+    },
+    {
+      "job": "Hooglerdar Zedekunde",
+      "location": "Leiden",
+      "date": "1641",
+      "source": "(13)"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Steun Vossius en van Baerle bij sollicitatie naar Utrecht 1634",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Via van Baerle gesteund door curator Cats in Leiden in 1635",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Met steun hertog van Lansberg huisonderwijzer Winterkoning",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Woont Rapenburg in 1633",
+      "source": "(a)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Philippa",
+      "LastName": "de Borsu (Borsseu)",
+      "BirthDate": null,
+      "BirthCity": "Namur",
+      "DeathDate": "Ondt.Leiden 24-03-1633",
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": "(a)"
+    }
+  ],
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Charles-Felix",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(a)"
+    }
+  ],
+  "far_family": null
+}

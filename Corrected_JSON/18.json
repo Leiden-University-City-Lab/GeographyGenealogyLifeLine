@@ -1,0 +1,92 @@
+{
+  "FirstName": "Samuel Carolus",
+  "LastName": "KECHEL(IUS) (VAN HOLLESTEYN)",
+  "BirthDate": "1611",
+  "BirthCity": "Praag",
+  "DeathDate": "maart 1668",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "PHil.",
+      "location": "Leiden",
+      "date": "16-10-1632",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Mathematicus",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "job": "Toekenning jaarwedde ad f200 voor Leiden vs8-402-1662",
+      "location": null,
+      "date": "32 jaar diensten tot voortzetting",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bekend met Hevelius, Chr. Huygens, van Schooten",
+      "source": null
+    },
+    {
+      "particularity": "Woont Klokstraat Rapenburg 30",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Alida",
+      "LastName": "Lus",
+      "BirthDate": null,
+      "BirthCity": "Amsterdam",
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": "Ondt.Leiden 05-11-1643",
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan/Hans",
+      "LastName": "Kechel von Hollenstein",
+      "extra_info": "rijke burger Praag, als calvinist gevlucht in 1620",
+      "source": null
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "FirstName": "Anna",
+      "LastName": "Baudius",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": null,
+      "extra_info": "Ged. Leiden 17-08-1644",
+      "source": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": null,
+      "extra_info": "Ged. Leiden 08-08-1645",
+      "source": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": null,
+      "extra_info": "Ged. Leiden 03-10-1646",
+      "source": null
+    }
+  ],
+  "far_family": null
+}

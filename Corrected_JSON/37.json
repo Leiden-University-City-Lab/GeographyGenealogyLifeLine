@@ -1,0 +1,277 @@
+{
+  "FirstName": "Gerardus Johannes",
+  "LastName": "VOSSIUS",
+  "BirthDate": "1577",
+  "BirthCity": "Heidelbers",
+  "DeathDate": "17-07-1649",
+  "DeathCity": "Amsterdam",
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Dordrecht",
+      "date": "44",
+      "source": null
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "21-09-1595",
+      "source": "44"
+    },
+    {
+      "subject": "Mag. Artium",
+      "location": "Leiden",
+      "date": "13-03-1598",
+      "source": "44"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verlaf openbare colleges",
+      "location": "Leiden",
+      "date": "29-09-1599",
+      "source": "44"
+    },
+    {
+      "job": "Conrector Latijns2 school",
+      "location": "Dordrecht",
+      "date": "04-1600",
+      "source": "44"
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Dordrecht",
+      "date": "1600",
+      "source": "44"
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1615",
+      "source": "13"
+    },
+    {
+      "job": "Lector Welsprekendheid",
+      "location": "Leiden",
+      "date": "1620",
+      "source": "13"
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid en Algemene Tijdrekenkunde",
+      "location": "Leiden",
+      "date": "08-11-1622",
+      "source": "13"
+    },
+    {
+      "job": "Lessen Griekse taal",
+      "location": "Leiden",
+      "date": "1625",
+      "source": "13"
+    },
+    {
+      "job": "Hoogleraar Griekse taal",
+      "location": "Leiden",
+      "date": "08-05-1626",
+      "source": "183"
+    },
+    {
+      "job": "Hoogleraar Geschiedenis en Staatswetenschappen",
+      "location": "Amsterdan",
+      "date": "9:08-01-1632",
+      "source": "44"
+    },
+    {
+      "job": "Rector",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "44"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Na dood vader opgenomen door Barbara van der Myle, weduwe ran bevriende predikant te Dordrecht",
+      "source": "44"
+    },
+    {
+      "particularity": "Omdat oma Caelen hem zijn erfdeel onthoudt is hij bursaal in het Statencollege te Leiden",
+      "source": "44"
+    },
+    {
+      "particularity": "Leermeester van Jacob de Witt",
+      "source": "44"
+    },
+    {
+      "particularity": "Aanbiedingen hoogleraarschap Steinfurt 1614/5 en Cambridge 1625 afgewezen",
+      "source": "44"
+    },
+    {
+      "particularity": "Woont Spinhuissteeg en Oudezijds Achterburgwal Amsterdam",
+      "source": "44"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "van den Corput",
+      "BirthDate": "1578",
+      "BirthCity": null,
+      "DeathDate": "12-02-1602",
+      "DeathCity": "Dordrecht",
+      "marriage": "12-02-1606",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Junius",
+      "BirthDate": "1585",
+      "BirthCity": "Heidelberg",
+      "DeathDate": "1659",
+      "DeathCity": "Amsterdam",
+      "marriage": "283-08-1607",
+      "extra_info": null,
+      "source": "44"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joannes",
+      "LastName": "Vossius",
+      "extra_info": "Predikant bij Heidelberg, Leimuiden,Venrne and Dordrecnt",
+      "source": "44"
+    },
+    {
+      "FirstName": null,
+      "LastName": "van Buel",
+      "extra_info": "zijn familie bekleed publieke ambten in en. bij Roermond",
+      "source": "44"
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "Vossius",
+      "extra_info": "zoon van Gerard Vossius,een aanzienlijk Roermonds burger",
+      "source": "44"
+    },
+    {
+      "FirstName": "Judith",
+      "LastName": "Caelen",
+      "extra_info": "dochter van Joannes Caelen,lid vroedschap Roermond",
+      "source": "44"
+    },
+    {
+      "FirstName": null,
+      "LastName": "van Buel",
+      "extra_info": "zijn familie bekleed publieke ambten in en. bij Roermond",
+      "source": "44"
+    },
+    {
+      "FirstName": null,
+      "LastName": "Nicolaasd. Martels",
+      "extra_info": null,
+      "source": "44"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "van den Corput",
+      "extra_info": "Predikant Dordrecht",
+      "source": "44"
+    },
+    {
+      "FirstName": null,
+      "LastName": "van Bregt",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "Junius",
+      "extra_info": "Hoogieraar Theologie Leiden",
+      "source": "44"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "van den Corput",
+      "extra_info": null,
+      "source": "44"
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Cornelia",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Joannes",
+      "LastName": "Vossius",
+      "extra_info": "Figcaal V.O.C.",
+      "source": "44"
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "Vossius",
+      "extra_info": "Advocaat",
+      "source": "44"
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Matthaeus",
+      "LastName": "Vossius",
+      "extra_info": "Stadsbibliothecaris Amsterdam",
+      "source": "44"
+    },
+    {
+      "FirstName": "Dionysius",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Isaac",
+      "LastName": "Vossius",
+      "extra_info": "Bibliothecaris Christina van Zweden,Geschiedschrijver van Holland en Zeeland,kanunnik van Windsor",
+      "source": "44"
+    },
+    {
+      "FirstName": "Gerardus",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Vossius",
+      "extra_info": null,
+      "source": "44"
+    }
+  ],
+  "far_family": null
+}

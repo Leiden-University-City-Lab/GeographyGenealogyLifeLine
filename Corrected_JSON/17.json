@@ -1,0 +1,180 @@
+{
+  "FirstName": "Gilbertus",
+  "LastName": "JACCHAEUS (JACK)",
+  "BirthDate": "1578 of 1585",
+  "BirthCity": "Aberdeen",
+  "DeathDate": "18-04-1628",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Marischal College (Hovaeus) Aberdeen",
+      "location": null,
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "(Duncan) Helmstadt",
+      "location": "02-05-1598",
+      "date": null,
+      "source": "(12)"
+    },
+    {
+      "subject": "Herborn",
+      "location": "07-1601",
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "MTheol. Leiden",
+      "location": "25-05-1605",
+      "date": null,
+      "source": "(14)"
+    },
+    {
+      "subject": "Med. Leiden",
+      "location": null,
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "Doct.Med. Leiden",
+      "location": "1671",
+      "date": null,
+      "source": "(3)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Herborn",
+      "location": null,
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "job": "Verlsf exercitii causa (Isagoge) Leiden",
+      "location": "19-09-1603",
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "job": "Buitengewoon Hocglefaar Leiden",
+      "location": "08/10-08-1605",
+      "date": null,
+      "source": "(13)"
+    },
+    {
+      "job": "Hoogleraar Redeneer- en Leiden",
+      "location": "08-02-1612",
+      "date": null,
+      "source": "(13)"
+    },
+    {
+      "job": "Hoogleraar Natuurkunde Leiden",
+      "location": "08-08-1617",
+      "date": null,
+      "source": "(13)"
+    },
+    {
+      "job": "Schorsing Leiden",
+      "location": "1619",
+      "date": null,
+      "source": "(13)"
+    },
+    {
+      "job": "Drie maanden Lles natnurkunde Leiden",
+      "location": "1620",
+      "date": null,
+      "source": "(13)"
+    },
+    {
+      "job": "Hoogleraar Natuurkunde Leiden",
+      "location": "08-02-171623",
+      "date": null,
+      "source": "(13)"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met vooraanstaande remonstranten als Barlaeus, Grotius, Vossius etc.",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Woont Rapenburg 18",
+      "source": "(a)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Marijtgen Willemsd.",
+      "LastName": "Grosgiers",
+      "BirthDate": null,
+      "BirthCity": "Leiden",
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": "(b)"
+    }
+  ],
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Isabel",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Jacomijrat je",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Zeger",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Andries",
+      "LastName": null,
+      "extra_info": "Ged. Leiden 23-03-1622",
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": null,
+      "extra_info": "Ged. Leiden 13-03-1624",
+      "source": "(b,c)"
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": null,
+      "extra_info": "Ged. Leiden 16-12-1626",
+      "source": "(b,c)"
+    }
+  ],
+  "far_family": null
+}

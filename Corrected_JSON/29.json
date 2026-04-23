@@ -1,0 +1,37 @@
+{
+  "FirstName": "Wolferdus",
+  "LastName": "S(Z)ENGUERDIUS",
+  "BirthDate": "04-07-1646",
+  "BirthCity": "Utrecht",
+  "DeathDate": "26-01-1724",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Stud.Phil. Zur. Leiden",
+      "location": null,
+      "date": "17-09-1667",
+      "source": "(14)"
+    },
+    {
+      "subject": "Doct.Phil. Leiden",
+      "location": null,
+      "date": "07-12-1667",
+      "source": "(15)"
+    },
+    {
+      "subject": "Doct.Iur. Harderwijk",
+      "location": null,
+      "date": "29-09-1681",
+      "source": "(11)"
+    }
+  ],
+  "careers": null,
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

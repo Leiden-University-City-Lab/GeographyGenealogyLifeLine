@@ -1,0 +1,76 @@
+{
+  "FirstName": "Wilhelmus",
+  "LastName": "LA BORDUS",
+  "BirthDate": "1693",
+  "BirthCity": "Leiden",
+  "DeathDate": "febr.1757",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Stud. Leiden",
+      "location": "Leiden",
+      "date": "16-09-177",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Informator arithmeticae et geometricae",
+      "location": "Leiden",
+      "date": "voor 1731",
+      "source": null
+    },
+    {
+      "job": "Lector Nederduitsche Math\u00e9matique",
+      "location": "Leiden",
+      "date": "09-08-1734",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Wogat gengegracht",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Magdalena",
+      "LastName": "van der Valk",
+      "BirthDate": null,
+      "BirthCity": "Noordw.jk aan Zee",
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": "Ondt.Leiden 12-04-1720",
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dominicus",
+      "LastName": "la Bordus",
+      "extra_info": "Lakenwever te Leiden",
+      "source": null
+    }
+  ],
+  "grand_parents_father": [
+    {
+      "FirstName": "Guillaume",
+      "LastName": "Lor\u00e9",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "grand_parents_mother": [
+    {
+      "FirstName": "Catherine",
+      "LastName": "le Maistre",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

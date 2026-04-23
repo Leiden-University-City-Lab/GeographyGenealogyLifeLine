@@ -1,0 +1,150 @@
+{
+  "FirstName": "Jan Frederik",
+  "LastName": "VAN BEECK CALKOEN",
+  "BirthDate": "22-10-1778",
+  "BirthCity": "DUtrecht",
+  "DeathDate": "03-10-1846",
+  "DeathCity": "Cothen",
+  "education": [
+    {
+      "subject": "Stud. Utrecht",
+      "location": "Utrecht",
+      "date": "14-11-1795",
+      "source": null
+    },
+    {
+      "subject": "Doct. Phil. Utrecht",
+      "location": "Utrecht",
+      "date": "J5-1795",
+      "source": null
+    },
+    {
+      "subject": "Doct.Wis-en Natk. Utrecht",
+      "location": "Utrecht",
+      "date": "05-1795",
+      "source": null
+    },
+    {
+      "subject": "Doct.Phil.h.c. Leiden",
+      "location": "Leiden",
+      "date": "02-10-1799",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "31-05-1799",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Leiden",
+      "date": "12-11-1803",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Utrecht",
+      "date": "Unknown",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.De horologiis veterum",
+      "source": "3"
+    },
+    {
+      "particularity": "Lid wetenschappelijke genootschappen in G\u00f6ttingen",
+      "source": "52"
+    },
+    {
+      "particularity": "Haardem,Amsterdam,Zeeland,Utrecht en de Maatschappij van Letterkunde re Leiden",
+      "source": "Unknown"
+    },
+    {
+      "particularity": "Lid 7e klasse Koninklijk Instituut van Wetenschappen",
+      "source": "52"
+    },
+    {
+      "particularity": "Vertr .t it Leiden naar Utrecht vanwege zijn vrouw",
+      "source": "55"
+    },
+    {
+      "particularity": "Woont Rapenburg",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Isabella Antonia Lucretia",
+      "LastName": "van Westrenen",
+      "BirthDate": "22-10-1778",
+      "BirthCity": "DUtrecht",
+      "DeathDate": "03-10-1846",
+      "DeathCity": "Cothen",
+      "marriage": "15-08-1803",
+      "extra_info": "Vrouwe van Rijnesteijn en Steenisweerd",
+      "source": "52"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Wilhelmus Jabes",
+      "LastName": "Calkoen",
+      "extra_info": "Predikant Blokzijl 1759,Nijkerk 1762 Gorinchem 1763,Groningen 1772 Amsterdam 1776",
+      "source": "52"
+    },
+    {
+      "FirstName": "Wilhelmina Marda",
+      "LastName": "Verborcht",
+      "extra_info": "Unknown",
+      "source": "52"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "FirstName": "Mr.Aagenoud Jan",
+      "LastName": "van Westrenen",
+      "extra_info": "Heer van Vuylkoop en Kockengem (52)",
+      "source": null
+    },
+    {
+      "FirstName": "Antoinetta Charlotte",
+      "LastName": "Godin",
+      "extra_info": "32",
+      "source": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Wilhelmina Maria",
+      "LastName": null,
+      "extra_info": "Geb. Leiden 12-04-1304 Gest.Jsbrechtum 22-11-1877 Getr.Utrecht 22-08-1823 Mr.Sjuck van Welderen baron Rengers (1799-1870),,Grietman van Wymbritseradeel Lid Tweede Kamer, Lid Eerste Kamer, Lid GS Friesland, Curator Athenaeum Franeker",
+      "source": "52"
+    },
+    {
+      "FirstName": "Mr.Aarnoud Jan",
+      "LastName": null,
+      "extra_info": "Geb. Leiden 13-04-1805 Ged. Leiden 12-05-1805 Gest.Utrecht 16-12-1874 Lid Gemeenteraad Utrecht, Lid GS Utrecht, Hoogheemraad van de Lekdijk-Bovendans Getr.Utrecht 31-07-1834 Angelique Henristte Hora Siccama (18083-1872)",
+      "source": "52"
+    },
+    {
+      "FirstName": "Mr.Willem Jabes ",
+      "LastName": null,
+      "extra_info": "Geb. Utrecht 10-09-1806 Ged. VUtrecht 19-10-1806 Gest.Cothen 21-08-1895 Hoogheemraad van de Lekdijk-Bovendams Getr.Middelburg 30-11-1832 Susanna Elisabeth Sluymer \u2019s-Graenwen",
+      "source": "52"
+    },
+    {
+      "FirstName": "Antoinette Charlotte",
+      "LastName": null,
+      "extra_info": "Geb. Utrecht 24-07-1908 Gest.Utrecnt 23-12-1809",
+      "source": "52"
+    }
+  ],
+  "far_family": null
+}

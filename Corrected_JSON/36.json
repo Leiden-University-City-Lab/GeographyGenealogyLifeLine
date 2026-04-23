@@ -1,0 +1,109 @@
+{
+  "FirstName": "Burchardus",
+  "LastName": "DE VOLDER",
+  "BirthDate": "26-07-1643",
+  "BirthCity": "Amsterdam",
+  "DeathDate": "28-03-1709",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Stud. Amsterdam",
+      "location": "Amsterdam",
+      "date": "47",
+      "source": null
+    },
+    {
+      "subject": "Mag.en Doct.Phil.",
+      "location": "Utrecht",
+      "date": "18-10-1660 (18)",
+      "source": null
+    },
+    {
+      "subject": "Stud. Leiden",
+      "location": "Leiden",
+      "date": "22-02-1661 (14)",
+      "source": null
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "03-07-1664 (15)",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts Remonstrantse Amsterdam",
+      "location": "1664 - 1070 (36)",
+      "date": null,
+      "source": null
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "07-02-1670 (13)",
+      "source": null
+    },
+    {
+      "job": "Lessen physica",
+      "location": "Leiden",
+      "date": "08-11-1670 (13)",
+      "source": null
+    },
+    {
+      "job": "Reis Engeland",
+      "location": "Engeland",
+      "date": "1674 (36)",
+      "source": null
+    },
+    {
+      "job": "Lessen proefondervindelijke wijsbegeerte",
+      "location": "Leiden",
+      "date": "26-01-1675 (13)",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar Wiskunde",
+      "location": "Leiden",
+      "date": "25-04-1682 (13)",
+      "source": null
+    },
+    {
+      "job": "Vroeg ontslag wegens ziekte",
+      "location": "Leiden",
+      "date": "06-10-1705 (13)",
+      "source": null
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1697 -1693 (14)",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disp.med.De natura Dbij prof.Sglvius (47)",
+      "source": null
+    },
+    {
+      "particularity": "Hij is doopsgezind,gaat over naar Waalse kerk in Leiden als voorwaarde voor zijn hoogleraarschap (47)",
+      "source": null
+    },
+    {
+      "particularity": "Steun Johan Hudde bij verkrijgen hoogleraarschap (47)",
+      "source": null
+    },
+    {
+      "particularity": "Met Wittich en Heidanus in verzet tegen anti-cartesiaanse bepalingen;Willem III weigert hem daarom in 1675 tot rector te maken",
+      "source": null
+    }
+  ],
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

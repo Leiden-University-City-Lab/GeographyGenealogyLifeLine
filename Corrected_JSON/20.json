@@ -1,0 +1,146 @@
+{
+  "FirstName": "Christiaan",
+  "LastName": "MARKGRAVE",
+  "BirthDate": "1626",
+  "BirthCity": "Liebstadt",
+  "DeathDate": "1687",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Stud.Med. Leiden",
+      "location": null,
+      "date": "03-06-1652",
+      "source": "14"
+    },
+    {
+      "subject": "Stud.Med. Franeker",
+      "location": null,
+      "date": "20-01-1659",
+      "source": "7"
+    },
+    {
+      "subject": "Doct.Med. Franeker",
+      "location": null,
+      "date": "31-07-1659",
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Leiden",
+      "location": null,
+      "date": "26-05-1666",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "38"
+    },
+    {
+      "job": "Privaatdocent Scheikunde",
+      "location": "Leiden",
+      "date": null,
+      "source": "38,13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disp. De divino in morbis quod magnus Hippocrates in prognosticis observare medicum iussit bij Vorstius",
+      "source": "38"
+    },
+    {
+      "particularity": "Aangeklaagd wegens laster tegen Hollandse regering door schout Gool",
+      "source": "3,39"
+    },
+    {
+      "particularity": "Ruzie met concurrent le Mort (later hoogleraar)",
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Rapenburg 23",
+      "source": "39"
+    },
+    {
+      "particularity": "Gepasseerd bij erfenis broer Georg,boos op prof.Gool",
+      "source": "38"
+    }
+  ],
+  "spouses": null,
+  "parents": [
+    {
+      "FirstName": "Georg",
+      "LastName": "Marggraf",
+      "extra_info": "Hoofd school Liebstadt 1609-1620, pastor van Dobra",
+      "source": "40"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Simon",
+      "extra_info": null,
+      "source": "40,53"
+    },
+    {
+      "FirstName": "Johann",
+      "LastName": "Simon",
+      "extra_info": "pastor Liebstadt",
+      "source": "53"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Adrian Elisabeth",
+      "LastName": null,
+      "extra_info": null,
+      "source": "a"
+    },
+    {
+      "FirstName": "Georgius",
+      "LastName": null,
+      "extra_info": null,
+      "source": "a"
+    },
+    {
+      "FirstName": "Theodora",
+      "LastName": null,
+      "extra_info": null,
+      "source": "a"
+    },
+    {
+      "FirstName": "Christiaen",
+      "LastName": null,
+      "extra_info": null,
+      "source": "a"
+    },
+    {
+      "FirstName": "Widhelmus",
+      "LastName": null,
+      "extra_info": null,
+      "source": "a"
+    },
+    {
+      "FirstName": "Johannes Godefridus",
+      "LastName": null,
+      "extra_info": null,
+      "source": "a"
+    },
+    {
+      "FirstName": "Jagobus",
+      "LastName": null,
+      "extra_info": null,
+      "source": "a"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": "Zijn broer Georg Marggraf was astronoom in Brazili\u00eb",
+      "source": "40"
+    }
+  ]
+}

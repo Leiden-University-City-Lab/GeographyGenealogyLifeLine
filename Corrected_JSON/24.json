@@ -1,0 +1,262 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "VAN MUSSCHENBROEK",
+  "BirthDate": "14-03-1692",
+  "BirthCity": "Leiden",
+  "DeathDate": "19-09-1761",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Leiden",
+      "date": "14-03-1708",
+      "source": "28,42"
+    },
+    {
+      "subject": "Stud.Wis. Nat. Med.",
+      "location": "Leiden",
+      "date": "05-03-1704",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "12-11-1715",
+      "source": "15"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Duisburg",
+      "date": "28-07-1719",
+      "source": "42"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "42"
+    },
+    {
+      "job": "Hoogdleraar Wiskunde en Wijsbegeerte",
+      "location": "Duisburg",
+      "date": "23-1C-1719",
+      "source": "42"
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde",
+      "location": "Duisburg",
+      "date": "1741",
+      "source": "42"
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Utrecht",
+      "date": "07-06-1723",
+      "source": "42"
+    },
+    {
+      "job": "Hoogleraar Sterrekunde",
+      "location": "Utrecht",
+      "date": "1732",
+      "source": "42"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1729 -1730",
+      "source": "42"
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "15-12-1739",
+      "source": "13"
+    },
+    {
+      "job": "Rector",
+      "location": "Leiden",
+      "date": "09-25-01-1740",
+      "source": "13"
+    },
+    {
+      "job": "Ontheven van proefonder-",
+      "location": "Leiden",
+      "date": "08-06-1744",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Med. De aSris praesentia in humoribus animalibus bij prof. Rau",
+      "source": "42"
+    },
+    {
+      "particularity": "Frederik Willem I van Pruisen haalt hem naar Duisburg",
+      "source": "42"
+    },
+    {
+      "particularity": "Utrechts stadbestuur moet veel moeite doen hem los te krijgen bij magistraat Duisburg",
+      "source": "37"
+    },
+    {
+      "particularity": "Aanbiedingen Kopenhagen(1732),Gettingen(1734 ad f6000), Berlijn(1740) Utrecht(1750/51 ad f2000),Spanje(1753 ad f25.000) afgeslagen",
+      "source": "42"
+    },
+    {
+      "particularity": "Lid Hollandse Maatschappij der Wetenschappen Amsterdam, Acad\u00e9mie Royale des Sciences Parijs, Royal Society te Londen, Akademie der Wissenschaften Berlijn, academies te Stockholm, St.Petersburg, Bologna, Montpellier",
+      "source": "42"
+    },
+    {
+      "particularity": "Woont Pieterskerkkoorsteeg 36",
+      "source": "24"
+    },
+    {
+      "particularity": "Salaris: f600(Duisburg),fi000(1723),r1700(1739)",
+      "source": "28,37"
+    },
+    {
+      "particularity": "Onderwees Willem Iy 1727-1729",
+      "source": "55"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "van de Water",
+      "BirthDate": "19-01-1694",
+      "BirthCity": "Utrecht",
+      "DeathDate": "08-05-1732",
+      "DeathCity": null,
+      "marriage": "16-07-1724 c",
+      "extra_info": "",
+      "source": "28"
+    },
+    {
+      "FirstName": "Helena",
+      "LastName": "Alstorphius",
+      "BirthDate": "12-06-1692",
+      "BirthCity": "Amsterdam",
+      "DeathDate": "1760",
+      "DeathCity": null,
+      "marriage": "06-04-1738",
+      "extra_info": "",
+      "source": "28,42"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "van Musschenbroek",
+      "extra_info": "Instrumentmaker te Leiden",
+      "source": "28"
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "van der Straeten",
+      "extra_info": "",
+      "source": "28"
+    }
+  ],
+  "grand_parents_father": [
+    {
+      "FirstName": "Joost Adriaensz.",
+      "LastName": "van Musschenbroek",
+      "extra_info": "Geelkopergieter,dampmaker, ijker over Leiden en Rijnland",
+      "source": "23"
+    },
+    {
+      "FirstName": "Maijke Samuelsd.",
+      "LastName": "van Middelen",
+      "extra_info": "",
+      "source": "28,53"
+    }
+  ],
+  "grand_parents_mother": [
+    {
+      "FirstName": "",
+      "LastName": "Pieter van der Straeten",
+      "extra_info": "",
+      "source": "28"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Goodschalk",
+      "extra_info": "",
+      "source": "28"
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Willem",
+      "LastName": "van de Water",
+      "extra_info": "Boekverkoper te Utrecht",
+      "source": "b"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "Ouzeel",
+      "extra_info": "",
+      "source": "b"
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "Alstorphius",
+      "extra_info": "Koopman,Gecommitteerde in admiralitedt Amsterdam namens Friesland",
+      "source": "c"
+    },
+    {
+      "FirstName": "Helena",
+      "LastName": "van Gesseler",
+      "extra_info": "",
+      "source": "c"
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Maria",
+      "LastName": null,
+      "extra_info": "Getr.28-10-1748 Herman van Alphen,Hoogleraar Theologie te Hanau",
+      "source": "d"
+    },
+    {
+      "FirstName": "Mr.Jan Willem",
+      "LastName": null,
+      "extra_info": "Lid vroedschap en burgomeester Utrecht, Getr.Leiden 15-09-1760 Cornelia Luchtmans (1734-1804), zijn nicht",
+      "source": "b"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Jan",
+      "LastName": "van Musschenbroek",
+      "extra_info": "instrumentmaker,assisteert prof. Gravesande,weigert hoogleraarschap",
+      "source": "28,42"
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "van Musschenbroek",
+      "extra_info": "huwde haar neef Samuel Luchtmans, de Leidge drukker",
+      "source": "28"
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "van de Water",
+      "extra_info": "griffier Hof van Utrecht, huwde zijn schoonzuster Widhelmina Alstorphius",
+      "source": "b"
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Alstorphius",
+      "extra_info": "huwde haar neef Ernst Willem Westenberg,hoogleraar medicijnen te Harderwijk",
+      "source": "c"
+    },
+    {
+      "FirstName": "Johannes Ortwinus",
+      "LastName": "Westenberg",
+      "extra_info": "hoogleraar rechten te Leiden (neef van zijn tweede echtgenote )",
+      "source": "neef"
+    }
+  ]
+}

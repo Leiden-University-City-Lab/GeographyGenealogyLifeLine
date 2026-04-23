@@ -1,0 +1,49 @@
+{
+  "FirstName": "Jacob",
+  "LastName": "WESTERHOVIUJS",
+  "BirthDate": null,
+  "BirthCity": null,
+  "DeathDate": null,
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Doct. Med. Reims",
+      "location": "Reims",
+      "date": "54",
+      "source": "(54)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Medicijnen",
+      "location": "Reims",
+      "date": "54",
+      "source": "(54)"
+    },
+    {
+      "job": "Hoogleraar Physica buiten Leiden",
+      "location": "Leiden",
+      "date": "1583",
+      "source": "(13)"
+    },
+    {
+      "job": "Afgezet",
+      "location": "Leiden",
+      "date": "1584",
+      "source": "(18)"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "salaris: f250(1584)",
+      "source": "(54)"
+    }
+  ],
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

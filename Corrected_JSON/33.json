@@ -1,0 +1,74 @@
+{
+  "FirstName": "Pi:bo",
+  "LastName": "STEENSTRA",
+  "BirthDate": null,
+  "BirthCity": null,
+  "DeathDate": "21-07-1788",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Stud. Franeker",
+      "location": "v8-V6-1754",
+      "date": "1754-1756",
+      "source": "7"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leidem",
+      "date": "24-065-1763",
+      "source": "4"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Mathematicus Franeker",
+      "location": "Franeker",
+      "date": "1759",
+      "source": "4"
+    },
+    {
+      "job": "Lector Nederduitsche",
+      "location": "Leiden",
+      "date": "16-08-1759",
+      "source": "13"
+    },
+    {
+      "job": "Lector Astronomie",
+      "location": "Amsterdam",
+      "date": "21-11-1763",
+      "source": "1,13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.De pulveris pyrii theoria",
+      "source": "4"
+    },
+    {
+      "particularity": "Beschermeling van prof.Nic.Ypey",
+      "source": "4"
+    },
+    {
+      "particularity": "Dingt vergeefs naar hoogleraarschap Amsterdam 1771",
+      "source": "1"
+    },
+    {
+      "particularity": "Salaris: fdoo (1759)",
+      "source": "4"
+    }
+  ],
+  "spouses": null,
+  "parents": [
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": "tichelaarsknecht",
+      "source": "4"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

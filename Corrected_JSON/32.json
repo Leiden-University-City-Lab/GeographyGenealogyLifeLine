@@ -1,0 +1,124 @@
+{
+  "FirstName": "Simon",
+  "LastName": "SPEYERT VAN DER EyYK",
+  "BirthDate": "26-03-1771",
+  "BirthCity": "Den Briel",
+  "DeathDate": "20-09-1837",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Iur.",
+      "location": "Leiden",
+      "date": "01-09-1789",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Diaken Waalse kerk",
+      "location": "Den Briel",
+      "date": null,
+      "source": "32"
+    },
+    {
+      "job": "Lector Natuurkunde",
+      "location": "Leijen",
+      "date": "11-06-1796",
+      "source": "13"
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "03-06-1797",
+      "source": "13"
+    },
+    {
+      "job": "Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": "31-05-1799",
+      "source": "13"
+    },
+    {
+      "job": "Onderwijs Mathesis en Physiologie",
+      "location": "Leiden",
+      "date": "1812",
+      "source": "13"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1807,1816 -1813",
+      "source": "13"
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1835",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid Genootschap der proefondervindelijke wijsbegeerte te Rotterdam en Zeeuwsch Genootschap der Wetenschappen te Vlissingen",
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Christina",
+      "LastName": "Sprecher de Bernegg",
+      "BirthDate": null,
+      "BirthCity": "Breda",
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": "Den Briel 09-07-1797",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Mr.Adriaan Dirk",
+      "LastName": "van der Eyk",
+      "extra_info": "Lid vroedschap (#767-1788) en burgemeester (1776) Den Briel",
+      "source": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Speyert",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "grand_parents_father": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "van der Eyk",
+      "extra_info": "Baljuw van Abbenbroek",
+      "source": null
+    },
+    {
+      "FirstName": "Johanna Jacoba",
+      "LastName": "van der Burg",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "grand_parents_mother": [
+    {
+      "FirstName": "Ssimon",
+      "LastName": "Speyert",
+      "extra_info": "Commandeur op\u2019s Llands uytlegger",
+      "source": null
+    },
+    {
+      "FirstName": "Wijnanda Maria",
+      "LastName": "van Haaften",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

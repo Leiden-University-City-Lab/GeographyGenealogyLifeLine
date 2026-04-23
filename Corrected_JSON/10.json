@@ -1,0 +1,38 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "CUYPERS",
+  "BirthDate": "4 1714",
+  "BirthCity": "Den Haag",
+  "DeathDate": "09-04-1759",
+  "DeathCity": null,
+  "education": null,
+  "careers": [
+    {
+      "job": "Lector Nederduitsche Math\u00e9matique",
+      "location": "Leiden",
+      "date": "08-02-1758",
+      "source": null
+    }
+  ],
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "CUYPERS",
+      "extra_info": "Arts te Leiden",
+      "source": null
+    },
+    {
+      "FirstName": "Adriana Helena",
+      "LastName": null,
+      "extra_info": "Ged. Leiden 22-08-1799.",
+      "source": null
+    }
+  ],
+  "far_family": null
+}

@@ -1,0 +1,182 @@
+{
+  "FirstName": "Jacques",
+  "LastName": "BERNARD",
+  "BirthDate": "01-09-1658",
+  "BirthCity": "Nyons",
+  "DeathDate": "27-04-1718",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Die",
+      "location": null,
+      "date": null,
+      "source": "13"
+    },
+    {
+      "subject": "Phil.",
+      "location": "Gen\u00e8ve",
+      "date": "02-02-1674",
+      "source": "9"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "21-05-1674",
+      "source": "9"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "05-07-1678",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Venterol",
+      "date": "1679",
+      "source": "3"
+    },
+    {
+      "job": "Predikant",
+      "location": "Vinsobres",
+      "date": "1680",
+      "source": "9"
+    },
+    {
+      "job": "Leraar",
+      "location": "Gen\u00e8eve",
+      "date": null,
+      "source": "9"
+    },
+    {
+      "job": "Leraar",
+      "location": "Lausanne",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "job": "Buitengewoon predikant",
+      "location": "Gouda",
+      "date": "1685",
+      "source": "3"
+    },
+    {
+      "job": "Geeft cursussen wiskunde",
+      "location": "Den Haag",
+      "date": "1689",
+      "source": "3"
+    },
+    {
+      "job": "Redacteur",
+      "location": "Den Haag",
+      "date": "1691-1693",
+      "source": "3"
+    },
+    {
+      "job": "Redacteur",
+      "location": "Den Haag",
+      "date": "1699-1710",
+      "source": "3"
+    },
+    {
+      "job": "Redacteur",
+      "location": "Den Haag",
+      "date": "1716-1718",
+      "source": "3"
+    },
+    {
+      "job": "Predikant",
+      "location": "Waalse kerk Leiden",
+      "date": "1705",
+      "source": "3"
+    },
+    {
+      "job": "Lector Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "08-11-1705",
+      "source": "16"
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "08-02-1712",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "zijn predikantsbenoeming in Leiden lang opgehouden door verzet stad die deze volgeling van Descartes en Newton te progressief vond",
+      "source": "3"
+    },
+    {
+      "particularity": "Willem IIT irriteerde hij door een republikeins geschrift",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Lucr\u00e8ece",
+      "LastName": "Chauli\u00f3",
+      "BirthDate": null,
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": "getr. 1687",
+      "extra_info": null,
+      "source": "3"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Salomon",
+      "LastName": "Bernard",
+      "extra_info": "Predikant Nyons,Vinsobres,Venterol,Spion voor Engeland, vlucht in 1680 naar Zwitserland",
+      "source": "9"
+    },
+    {
+      "FirstName": "Madeleine",
+      "LastName": "Galatin",
+      "extra_info": "uit Gen\u00e8ve",
+      "source": "3,9"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Salomon",
+      "LastName": "Bernard",
+      "extra_info": "Ged.Gouda 05-09-1688",
+      "source": null
+    },
+    {
+      "FirstName": "Jean",
+      "LastName": "Bernard",
+      "extra_info": "Ged. Den Haag 25-12-1700",
+      "source": null
+    },
+    {
+      "FirstName": "Jacques-Philippe",
+      "LastName": "Bernard",
+      "extra_info": "Ged.Den Haag 09-07-1702",
+      "source": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": "7 Rapenburgproject (subfaculteit kunstgeschiedenis Leiden)",
+      "source": null
+    },
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": "Waalse Fiches CBG",
+      "source": null
+    }
+  ]
+}

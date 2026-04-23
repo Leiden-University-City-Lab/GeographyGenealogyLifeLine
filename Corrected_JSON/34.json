@@ -1,0 +1,56 @@
+{
+  "FirstName": "Adam",
+  "LastName": "Stuart",
+  "BirthDate": "1591",
+  "BirthCity": "Schotland",
+  "DeathDate": "1654",
+  "DeathCity": "Leiden",
+  "education": null,
+  "careers": [
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Sedan",
+      "date": null,
+      "source": null
+    },
+    {
+      "job": "Professor ordinarius",
+      "location": "Leiden",
+      "date": "22-08-1644",
+      "source": null
+    },
+    {
+      "job": "Onderwees tevens Natuurkunde",
+      "location": "Leiden",
+      "date": "09-02-1645",
+      "source": null
+    },
+    {
+      "job": "Onderwijs wijsbegeerte en physica",
+      "location": "Leiden",
+      "date": "1648",
+      "source": null
+    },
+    {
+      "job": "Onderwijs metaphysica",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    }
+  ],
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "David",
+      "LastName": null,
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "far_family": null
+}

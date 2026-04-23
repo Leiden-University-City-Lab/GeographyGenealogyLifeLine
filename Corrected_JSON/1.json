@@ -1,0 +1,145 @@
+{
+  "FirstName": "Johannes Nicolaus Sebastianus",
+  "LastName": "ALLAMAND",
+  "BirthDate": "18-09-1713",
+  "BirthCity": "Lausanne",
+  "DeathDate": "02-03-1787",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Lausanne",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "02-09-1740",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Phil.h.c.",
+      "location": "Franeker",
+      "date": "03-04-1748",
+      "source": "8"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Lausanne",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "job": "Huisonderwijzer",
+      "location": "Holland",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Franeker",
+      "date": "03-03-1747",
+      "source": "3"
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "01-02-1749",
+      "source": "13"
+    },
+    {
+      "job": "Opdracht tot beheer ordening Kabinet van Natuurlijke Historie",
+      "location": "Leiden",
+      "date": "1751",
+      "source": "33"
+    },
+    {
+      "job": "Hoogleraar Physica experimentale",
+      "location": "Leiden",
+      "date": "19-09-1761",
+      "source": "13"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1759 -1760",
+      "source": "3"
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1784",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ezecuteur-testamentair van prof.Gravesande en huisonderwijzer van diens kinderen",
+      "source": "3"
+    },
+    {
+      "particularity": "Op nominatie hoogleraarschap philosopnie Deventer 1745",
+      "source": "3"
+    },
+    {
+      "particularity": "Assisteert prof.van Musschenbroek bij proef Leidse fles",
+      "source": "3"
+    },
+    {
+      "particularity": "Samen met Joncourt Job vertaald en samen op voordracht Franeker e",
+      "source": "3"
+    },
+    {
+      "particularity": "Lid Hollandse Maatschappij van Wetenschappen Haarlem en Royal Society London",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f800(1747)",
+      "source": "6"
+    },
+    {
+      "particularity": "Wnont Ranenburg 10",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Magdalena",
+      "LastName": "Crommelin",
+      "BirthDate": null,
+      "BirthCity": "Rotterdam",
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": "1",
+      "extra_info": "Getr.1.Justus Louis Schlemm,koopman te Rotterdam",
+      "source": "45"
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "Crommelin",
+      "BirthDate": null,
+      "BirthCity": "Leiden",
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": "2",
+      "extra_info": null,
+      "source": "b"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": "Jean Crommelin (1689-1767),praeceptor Llord Droghead in Irelandn\\nEsther Blaqui\\u00ebre",
+      "source": "45"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

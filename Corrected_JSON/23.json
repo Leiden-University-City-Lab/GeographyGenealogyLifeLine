@@ -1,0 +1,49 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "MORDISON(IUS)",
+  "BirthDate": "1568",
+  "BirthCity": "Schotland",
+  "DeathDate": "1405",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "24-11-1599",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector Latijnse school",
+      "location": "Middelburg",
+      "date": "1592",
+      "source": "3"
+    },
+    {
+      "job": "Lector Physica",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "13"
+    },
+    {
+      "job": "Hoogleraar Redeneerkunst",
+      "location": "Leiden",
+      "date": "09-11-1603",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Steun van Heinsius en Grotius bij curator van der Mijle voor zijn hoogleraarschap in 1603",
+      "source": "3"
+    }
+  ],
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

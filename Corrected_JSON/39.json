@@ -1,0 +1,197 @@
+{
+  "FirstName": "Dionysius",
+  "LastName": "VAN DE WYNPERSSE",
+  "BirthDate": "18-03-1724",
+  "BirthCity": "Middelburg",
+  "DeathDate": "08-10-1603",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Middelburg",
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "Stud. Utrecht",
+      "location": "Utrecht",
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "UVtrecht",
+      "date": "1745",
+      "source": "(3)"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "19-08-1747",
+      "source": "(14)"
+    },
+    {
+      "subject": "Doct.Theol.hn.c.",
+      "location": "Groningen",
+      "date": "01-09-1752",
+      "source": "(3)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant Baarland",
+      "location": "Baarland",
+      "date": "1749",
+      "source": "(3)"
+    },
+    {
+      "job": "Predikant Zierikzee",
+      "location": "Zierikzee",
+      "date": "1750",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Groningen",
+      "date": "1752",
+      "source": "(3,10)"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1759",
+      "source": "(10)"
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "19-12-1768",
+      "source": "613"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1778-1779",
+      "source": "(2)"
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "07-06-1805",
+      "source": "(13)"
+    },
+    {
+      "job": "Assistentie van zoon",
+      "location": "Leiden",
+      "date": "22-08-1803",
+      "source": "(13)"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Phil. De legum Dei physicarum harmonia",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Aanbbd buitengewoon hoogleraarschap theologie Groningen in 1759 afgeslagen",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Aanbod gewoon hoogleraarschap theologie Groningen in 1772 afgeslagen",
+      "source": "(10)"
+    },
+    {
+      "particularity": "Met prof.Allamand advies over Haarlemmermeer en Y",
+      "source": "(2)"
+    },
+    {
+      "particularity": "Lid Academiae naturae criosorum,Hollandse Maatschappij van Wetenschappen en Zeeuwsch Genootschap van Wetenschappen",
+      "source": "(2)"
+    },
+    {
+      "particularity": "Woont Rapenburg",
+      "source": "(3)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Di(e)derica",
+      "LastName": "Thiens",
+      "BirthDate": "02-12-1721",
+      "BirthCity": null,
+      "DeathDate": "06-04-1794",
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": "Getr. 1751",
+      "source": "(a)"
+    },
+    {
+      "FirstName": "Mr.Samuel",
+      "LastName": "Thiens",
+      "BirthDate": null,
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": "1693-1730, Lid vroedschap Utrecht",
+      "source": "10"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "van de Wijnpersse",
+      "extra_info": "1686-1742",
+      "source": "(a)"
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Hulsius",
+      "extra_info": "1686-1733",
+      "source": "(a)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Jacobus Thiens",
+      "LastName": "van de Wijnpersse",
+      "extra_info": "Arts",
+      "source": "(1)"
+    },
+    {
+      "FirstName": "Johannes Hulsius",
+      "LastName": "van de Wijnpersse",
+      "extra_info": "Predikant de Bildt 1787,Zierikzee 1788, Amersfoort 1794, Den Haag 1795",
+      "source": "(1)"
+    },
+    {
+      "FirstName": "Samuel",
+      "LastName": "van de Wijnpersse",
+      "extra_info": "Moogleraar Redeneer-,Bovennatuur- en Zedekunde Leiden, Getr. 1.21-17-1784 Wilheimina Jacobine Verbrugge, Getr. 2.Sloterdijk 19-10-1795 Maria Antonia van Couwenhoven, Getr3.Eligabeth van Revershorst (1765-1817)",
+      "source": "(1)"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "A.L.Everwijn",
+      "LastName": null,
+      "extra_info": null,
+      "source": "(3)"
+    },
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": null,
+      "source": "(a,b)"
+    },
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": null,
+      "source": "(a,c,3,13)"
+    }
+  ]
+}

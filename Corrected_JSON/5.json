@@ -1,0 +1,90 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "BODECHERUS BANNTNGIUS",
+  "BirthDate": "1606",
+  "BirthCity": "Loosdrecht",
+  "DeathDate": "1642",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "03-06-1629",
+      "source": "14"
+    },
+    {
+      "subject": "Magister",
+      "location": "Leiden",
+      "date": "29-06-1624",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "21-11-1629",
+      "source": "13"
+    },
+    {
+      "job": "Zedekunde",
+      "location": "Leiden",
+      "date": "0:03-12-1629",
+      "source": "13"
+    },
+    {
+      "job": "Aanstelling verlengd Leiden",
+      "location": "Leiden",
+      "date": "09-11-1630",
+      "source": "13"
+    },
+    {
+      "job": "Buitendewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "21-08-1635",
+      "source": "13"
+    },
+    {
+      "job": "Fijdelijk ontslag wegens",
+      "location": "Leiden",
+      "date": "09-02-1638",
+      "source": "13"
+    },
+    {
+      "job": "reis naar Brazili\u00eb in dienst der W.I.C.",
+      "location": null,
+      "date": "1640",
+      "source": "13"
+    },
+    {
+      "job": "Krankzinnig geworden",
+      "location": "Brazili\u00eb",
+      "date": "1640",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Nadat hij in 1631 studenten gehekeld heeft in een satire, ontstaan er ongeregeldheden waarbij de Senaat ingrijpt",
+      "source": "1"
+    },
+    {
+      "particularity": "Salaris: f300(1629),f500(1631),fs800(1635),f400(1640)",
+      "source": "1"
+    }
+  ],
+  "spouses": null,
+  "parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "Bodicherus",
+      "extra_info": "Predikant Loosdrecht, Alkmaar en daar als remonstrant afgezet",
+      "source": "1"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

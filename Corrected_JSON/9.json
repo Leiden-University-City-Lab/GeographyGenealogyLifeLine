@@ -1,0 +1,98 @@
+{
+  "FirstName": "Carolus (Charles)",
+  "LastName": "CLUSIUS",
+  "BirthDate": "19-02-1526",
+  "BirthCity": "Atrecht",
+  "DeathDate": "04-04-1609",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Kapittelschool",
+      "location": "st.Vaast",
+      "date": "1540 -1542",
+      "source": null
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Gent",
+      "date": "1543 -1546",
+      "source": null
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leuven",
+      "date": "07-1546",
+      "source": null
+    },
+    {
+      "subject": "Lic.Iur.",
+      "location": "Leuven",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Iur.Theol.",
+      "location": "Marburg",
+      "date": "1548 -1549",
+      "source": null
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Wittenberg",
+      "date": "1549 -1550",
+      "source": null
+    },
+    {
+      "subject": "Stud. FrankfortaMain",
+      "location": null,
+      "date": "1550",
+      "source": null
+    },
+    {
+      "subject": "Stud. Straatsburg",
+      "location": null,
+      "date": "1550",
+      "source": null
+    },
+    {
+      "subject": "Stud. Lausanne,Gen\u00e8ve",
+      "location": null,
+      "date": "1551",
+      "source": null
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Montpellier",
+      "date": "1561 -7554",
+      "source": null
+    },
+    {
+      "subject": "Stud. Marburg ",
+      "location": "Gen8ve ",
+      "date": "1540 -1542",
+      "source": null
+    },
+    {
+      "subject": null,
+      "location": "FrankfortaMain",
+      "date": "1550",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": null,
+      "location": null,
+      "date": "1587",
+      "source": null
+    }
+  ],
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

@@ -1,0 +1,25 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "VAN SCHOOTEN",
+  "BirthDate": "22-02-1634",
+  "BirthCity": "Leiden",
+  "DeathDate": "30-11-1679",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Stud.Wisk. Leiden",
+      "location": null,
+      "date": "11-01-1652",
+      "source": "(14)"
+    }
+  ],
+  "careers": null,
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

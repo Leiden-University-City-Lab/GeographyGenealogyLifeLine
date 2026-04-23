@@ -1,0 +1,211 @@
+{
+  "FirstName": "Joannes",
+  "LastName": "LE FRANCA VAN BERKHEY",
+  "BirthDate": "23-01-1729",
+  "BirthCity": "Leiden",
+  "DeathDate": "13-03-1812",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "School",
+      "location": "Katwijk",
+      "date": "1741",
+      "source": "3,41"
+    },
+    {
+      "subject": "Stud. Leiden",
+      "location": "Leiden",
+      "date": "22-09-1747",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Med. LLeiden",
+      "location": null,
+      "date": "12-12-1760",
+      "source": "15"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "02-06-1764",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Amsterdam",
+      "date": "1764/1762",
+      "source": "41"
+    },
+    {
+      "job": "Tolmeester Leidse trekvaart",
+      "location": "Warmond",
+      "date": "1766",
+      "source": "41"
+    },
+    {
+      "job": "Lector Natuurlijke Hastorie",
+      "location": "Leiden",
+      "date": "1773",
+      "source": "13"
+    },
+    {
+      "job": "zes weken schors\u00f9ng",
+      "location": "Leiden",
+      "date": "1783",
+      "source": "41"
+    },
+    {
+      "job": "Ontslag Leiden",
+      "location": null,
+      "date": "1795",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Expositio de structura florum qui dicuntur compositi",
+      "source": "3"
+    },
+    {
+      "particularity": "Promotor is prof.B.S.Albinus",
+      "source": "48"
+    },
+    {
+      "particularity": "Lid schildersacademie Leiden 1747 met Petrus Camper",
+      "source": "41"
+    },
+    {
+      "particularity": "In 1761 belast met ordenen natuurkundig kabinet Leiden",
+      "source": "3"
+    },
+    {
+      "particularity": "Vurig Orangist",
+      "source": "41"
+    },
+    {
+      "particularity": "Woont \"Leevliet te Warmond,Rapenburg ,Koepoortsgracht",
+      "source": "3"
+    },
+    {
+      "particularity": "Armoede dwingt hem in 1783 tot verkoop rariteitenkabinet",
+      "source": "41"
+    },
+    {
+      "particularity": "Geen toestemming te huwen met Hesthez Diedering",
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Gerritje",
+      "LastName": "van Nier",
+      "BirthDate": "16-12-1727",
+      "BirthCity": null,
+      "DeathDate": "20-08-1750",
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": "25,a"
+    },
+    {
+      "FirstName": "HBester",
+      "LastName": "Diedering",
+      "BirthDate": "08-12-1735",
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": "25,a"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Evert",
+      "LastName": "le Francq",
+      "extra_info": "Wolhandelaar",
+      "source": "25"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "Berkhey",
+      "extra_info": "3",
+      "source": null
+    },
+    {
+      "FirstName": "Carel",
+      "LastName": "Lle Francq",
+      "extra_info": "Wolhandelaar",
+      "source": "41"
+    },
+    {
+      "FirstName": "Geertje",
+      "LastName": "Bleijkersveld",
+      "extra_info": "a",
+      "source": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "Berkhey",
+      "extra_info": "Handelaar in kunst en rariteiten",
+      "source": "25"
+    },
+    {
+      "FirstName": "Judith",
+      "LastName": "van Landeloos",
+      "extra_info": "(a)",
+      "source": null
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "van Nier",
+      "extra_info": "Brandewijnverkoper",
+      "source": "a"
+    },
+    {
+      "FirstName": "Geertje",
+      "LastName": "Taalspel",
+      "extra_info": "a",
+      "source": null
+    },
+    {
+      "FirstName": "David",
+      "LastName": "van Die(n)d(e)rin(g)",
+      "extra_info": "Droogscheerder",
+      "source": "a"
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "Brug",
+      "extra_info": "a",
+      "source": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Maria",
+      "LastName": "(a)",
+      "extra_info": "Getr.Leiden 18-01-1799 Jan Verel",
+      "source": "41,a"
+    },
+    {
+      "FirstName": "Geertje",
+      "LastName": "(a)",
+      "extra_info": "Getr. ? Hoefman,apotheker",
+      "source": "25,a"
+    },
+    {
+      "FirstName": "Dirk",
+      "LastName": "(a)",
+      "extra_info": null,
+      "source": "a"
+    }
+  ],
+  "far_family": null
+}

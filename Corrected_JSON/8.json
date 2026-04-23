@@ -1,0 +1,88 @@
+{
+  "FirstName": "Ludolf",
+  "LastName": "VAN CEULEN",
+  "BirthDate": "28-01-15540",
+  "BirthCity": "Hildesheim",
+  "DeathDate": "31-12-1610",
+  "DeathCity": null,
+  "education": null,
+  "careers": [
+    {
+      "job": "Leraar Wiskunde",
+      "location": "Delft",
+      "date": "1582",
+      "source": null
+    },
+    {
+      "job": "Leraar Schermen",
+      "location": "Delft",
+      "date": "06-d10-1584",
+      "source": null
+    },
+    {
+      "job": "Hoofd schermschool en wiskundeleraar",
+      "location": "Leiden",
+      "date": "09-06-1594",
+      "source": null
+    },
+    {
+      "job": "Lector Wiskunde",
+      "location": "Leiden",
+      "date": "10-01-1600",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Simon Stevin en Jan de Groot",
+      "source": null
+    },
+    {
+      "particularity": "Woont verwersdijk te Delft en Rapenburg 18 in Leiden;",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f400(1600),f450(1603)",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "Sijmons",
+      "BirthDate": null,
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": "weduwe van mr. Bartholomeus Cdloot te Delft, Gest.Leiden 1627",
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": null,
+      "LastName": "CEULEN",
+      "extra_info": "Johannes von",
+      "source": "(3,21)"
+    },
+    {
+      "FirstName": null,
+      "LastName": "CEULEN",
+      "extra_info": "Besther de Roode",
+      "source": "(3)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": null,
+      "LastName": null,
+      "extra_info": "12 in getal; Getr.Den Haag 14-01-1610 Samuel Cloot,ingenieur (3)",
+      "source": null
+    }
+  ],
+  "far_family": null
+}

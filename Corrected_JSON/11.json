@@ -1,0 +1,81 @@
+{
+  "FirstName": "Hendrik",
+  "LastName": "COETS",
+  "BirthDate": "08-10-1652",
+  "BirthCity": "Ged. Arnhem",
+  "DeathDate": "23-01-1730",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": null,
+      "location": "Nijmegen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": null,
+      "location": "Utrecht",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": null,
+      "location": "Duisburg 239-08-1674",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Phil",
+      "location": "Leiden",
+      "date": "29-11-1675",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": null,
+      "location": null,
+      "date": "18-05-1701",
+      "source": null
+    }
+  ],
+  "particularities": null,
+  "spouses": [
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "Tulleken",
+      "BirthDate": null,
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": "(51)"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": null,
+      "LastName": "Coets",
+      "extra_info": "Hendrik Coets,Secretaris Arnhem",
+      "source": "(51)"
+    },
+    {
+      "FirstName": null,
+      "LastName": "Verstegen",
+      "extra_info": "Hendrik Verstegen,Secretaris Arnhem",
+      "source": "(51)"
+    },
+    {
+      "FirstName": null,
+      "LastName": "Coets",
+      "extra_info": "Ameldonck Coets,Secretaris Nijmegen",
+      "source": "(a)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

@@ -1,0 +1,119 @@
+{
+  "FirstName": "Christiaan Hendrik",
+  "LastName": "DAMEN",
+  "BirthDate": "03-11-1754",
+  "BirthCity": "Den Haag",
+  "DeathDate": "03-04-1793",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Latijnse school Den Haag",
+      "location": null,
+      "date": null,
+      "source": "(49)"
+    },
+    {
+      "subject": "Apothekersexamen",
+      "location": null,
+      "date": "17-08-1772",
+      "source": "(3)"
+    },
+    {
+      "subject": "Stud.Wis. & Natk. JUtrecht",
+      "location": "Utrecht",
+      "date": "1780",
+      "source": "(17)"
+    },
+    {
+      "subject": "Doct.Phil. Utrecht",
+      "location": "Utrecht",
+      "date": "23-01-1783",
+      "source": "(18)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Wis-,Krijgs-",
+      "location": "Leiden",
+      "date": "03-09-1785",
+      "source": "(13)"
+    },
+    {
+      "job": "Hoogleraar Natuurkunde en praefectus fysiologisch laboratorium",
+      "location": "Leiden",
+      "date": "10-03-1787",
+      "source": "(13)"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Verdedigt positiones philosophicae bij prof.Hennert",
+      "source": "(18)"
+    },
+    {
+      "particularity": "08 nominatie Franeker maar curatoren deinzen terug vanwege zijn Lutheranisme",
+      "source": "3,35)"
+    },
+    {
+      "particularity": "Lid Hollandse Maatschappij der Wetenschappen Haarlern",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Met steun curator van Bleiswijk in Leiden benoemd",
+      "source": "(35,49)"
+    },
+    {
+      "particularity": "Woont op Rapenburg",
+      "source": "(49)"
+    },
+    {
+      "particularity": "Leraar van de erfprins (koning Willem I)",
+      "source": "(49)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Dina Elisabeth",
+      "LastName": "Huntum",
+      "BirthDate": "1761",
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": "Amsterdam 29-03-1787",
+      "extra_info": null,
+      "source": "(49)"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "Damen",
+      "extra_info": "Meester-Apotheker Den Haag",
+      "source": "(3)"
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "Reimers",
+      "extra_info": null,
+      "source": "(3)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Sophia Johanna",
+      "LastName": "Damen",
+      "extra_info": "Ged. Leiden 20-07-1788 Getr. Pieter van der Mersch",
+      "source": "(49,a)"
+    },
+    {
+      "FirstName": "Paulus Jacobus",
+      "LastName": "Damen",
+      "extra_info": "Ged. Leiden O8-177-1792",
+      "source": "(49,a,b)"
+    }
+  ],
+  "far_family": null
+}

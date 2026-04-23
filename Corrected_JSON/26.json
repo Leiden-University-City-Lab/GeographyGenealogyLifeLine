@@ -1,0 +1,38 @@
+{
+  "FirstName": "Frans",
+  "LastName": "VAN SCHOOTEN",
+  "BirthDate": "1581 of 1582",
+  "BirthCity": "Nieuwkerke",
+  "DeathDate": "11-12-1645",
+  "DeathCity": null,
+  "education": [
+    {
+      "subject": "Opleiding tot landmeter",
+      "location": "van Ceulen of Dou",
+      "date": null,
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Nederduitsche mathematique en wiskunde",
+      "location": "Leiden",
+      "date": "15-02-16172",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar Nederduitsche mathematique en wiskunde",
+      "location": "Leiden",
+      "date": "08-02-1615",
+      "source": null
+    }
+  ],
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

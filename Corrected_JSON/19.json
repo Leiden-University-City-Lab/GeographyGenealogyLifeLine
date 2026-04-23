@@ -1,0 +1,152 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "LULOFS",
+  "BirthDate": "07-08-1711",
+  "BirthCity": "Zutphen",
+  "DeathDate": "04-11-1768",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Zutphen",
+      "date": "25-01-1719",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Utrecht",
+      "location": null,
+      "date": "1729",
+      "source": "17"
+    },
+    {
+      "subject": "Doct-Pnil. Utrecht",
+      "location": null,
+      "date": "15-U6-1731",
+      "source": "18"
+    },
+    {
+      "subject": "Stud. Leiden",
+      "location": null,
+      "date": "24-09-1733",
+      "source": "14"
+    },
+    {
+      "subject": "Stud. Utrecht",
+      "location": null,
+      "date": null,
+      "source": "17"
+    },
+    {
+      "subject": "Doct.Iun. Vtrecht",
+      "location": null,
+      "date": "16-12-1734",
+      "source": "18"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Wis- en Sterrekunde",
+      "location": "Leiden",
+      "date": "12-06-1742",
+      "source": "13"
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte (Ethica)",
+      "location": "Leiden",
+      "date": "08-02-1744",
+      "source": "13"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1755 -1756",
+      "source": "a"
+    },
+    {
+      "job": "Inspecteur-Generaal der rivieren in Holland en West-Friesland",
+      "location": null,
+      "date": "sinds 08-05-1754",
+      "source": "a"
+    },
+    {
+      "job": "Secretaris Senaat",
+      "location": null,
+      "date": "1762 -1763",
+      "source": "a"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Pnil. De aurora boreali bij prof. Od\u00e9",
+      "source": "18"
+    },
+    {
+      "particularity": "Diss.Iur. Ad leg.2 C De mathemat.et malefic. bij prof.Otto",
+      "source": "18"
+    },
+    {
+      "particularity": "Lid Maatschappij Nederlandse Letterkunde Leiden",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f1000 (1742),f1200 (1744),f1600 (1749)",
+      "source": "a"
+    },
+    {
+      "particularity": "93200 (1754:helft prof. helft inspecteur)",
+      "source": "a,b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Wijnanda Mechteld",
+      "LastName": "Lulofs",
+      "BirthDate": "1710",
+      "BirthCity": "Steenderen",
+      "DeathDate": "18-05-1787",
+      "DeathCity": null,
+      "marriage": "getr. 1",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "LULOFS",
+      "extra_info": "Koopman Zutphen",
+      "source": "b"
+    },
+    {
+      "FirstName": "Maria Elisabeth",
+      "LastName": "Od\u00e9",
+      "extra_info": null,
+      "source": "c"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "FirstName": "Hendrik Jam",
+      "LastName": "Lulofs",
+      "extra_info": null,
+      "source": null
+    },
+    {
+      "FirstName": "Geertruid",
+      "LastName": "van Lochteren Stakebrant",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Hendrik Jan",
+      "LastName": "Lulofs",
+      "extra_info": "Controleur convooien en licenten Zutphen",
+      "source": null
+    }
+  ],
+  "far_family": null
+}

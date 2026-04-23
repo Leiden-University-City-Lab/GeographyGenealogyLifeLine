@@ -1,0 +1,46 @@
+{
+  "FirstName": "Christiaan",
+  "LastName": "MELDER (MELLER)",
+  "BirthDate": "13",
+  "BirthCity": "Utrecht",
+  "DeathDate": "26-11-1681",
+  "DeathCity": "Leiden",
+  "education": null,
+  "careers": [
+    {
+      "job": "Hoogleraar Wiskunde",
+      "location": "Leiden",
+      "date": "05-05-1668",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Op nominatie opvolging broer Gerard als lector vestingbouwkunde te Utrecht 1661, afgewezen",
+      "source": "30"
+    },
+    {
+      "particularity": "Salaris: f1200 (1668)",
+      "source": "30"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Lidia",
+      "LastName": "Langly",
+      "BirthDate": null,
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": "Rapenburgproject (subfaculteit kunstgeschiedenis Leiden)",
+      "source": "a"
+    }
+  ],
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

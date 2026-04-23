@@ -1,0 +1,170 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "EKAMA",
+  "BirthDate": "31-03-1773",
+  "BirthCity": "Paesens",
+  "DeathDate": "24-02-1826",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "De Crane Dokkum",
+      "date": "1781",
+      "source": "6"
+    },
+    {
+      "subject": "Latijnse schaol",
+      "location": "De Crane Enkhuizen",
+      "date": "1788",
+      "source": "6"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "De Crane Franeker",
+      "date": "1789",
+      "source": "6"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Franeker",
+      "date": "25-08-1790",
+      "source": "7"
+    },
+    {
+      "subject": "Doct.Phil.h.c.",
+      "location": "Franeker",
+      "date": "17-05-1800",
+      "source": "8"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": "Elkerzee",
+      "date": "09-10-1796",
+      "source": "3"
+    },
+    {
+      "job": "Lector honorarius in de Zierikzee",
+      "location": "Zierikzee",
+      "date": "23-01-1803",
+      "source": "3"
+    },
+    {
+      "job": "Lector Wis-",
+      "location": "Zierikzee",
+      "date": "16-05-1804",
+      "source": "3"
+    },
+    {
+      "job": "Lector Mathesis",
+      "location": "Zierikzee",
+      "date": "27-02-1805",
+      "source": "3"
+    },
+    {
+      "job": "Hoogleraar Rede-",
+      "location": "Franeker",
+      "date": "18-10-1797",
+      "source": "6,27"
+    },
+    {
+      "job": "Hoogleraar Wis- en Sterrekunde",
+      "location": "Leiden",
+      "date": "1811",
+      "source": "13"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1822 -1823",
+      "source": "3"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid van vele wetenschappelijke genootschappen",
+      "source": "3"
+    },
+    {
+      "particularity": "Zijn oom prof.de Crane ondersteuride zijn studie",
+      "source": "27"
+    },
+    {
+      "particularity": "Woont Rapenburg 71",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Susanna Cornelia",
+      "LastName": "le Poole",
+      "BirthDate": "28-03-1794",
+      "BirthCity": "Leiden",
+      "DeathDate": "22-01-1845",
+      "DeathCity": "Leiden",
+      "marriage": null,
+      "extra_info": "Getr.Leiden 24-07-1818",
+      "source": "b"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes Cornelis",
+      "LastName": "Ekama",
+      "extra_info": "Predikant Paesens 1770, Morrha 1777",
+      "source": "26"
+    },
+    {
+      "FirstName": "Hendrika Lieuwes",
+      "LastName": "Postma",
+      "extra_info": "",
+      "source": "26"
+    }
+  ],
+  "grand_parents_father": [
+    {
+      "FirstName": "Cornelius",
+      "LastName": "Ekama",
+      "extra_info": "Schoolmeester en voorzanger Kuinre",
+      "source": "26"
+    }
+  ],
+  "grand_parents_mother": [
+    {
+      "FirstName": "Lieuwe",
+      "LastName": "Lieuwes",
+      "extra_info": "Executuer van Opsterland",
+      "source": "26"
+    }
+  ],
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Samuel",
+      "LastName": "EKAMA",
+      "extra_info": "Getr.17-03-1848 Sara Catharina de Klopper (1820-1884)",
+      "source": "26"
+    },
+    {
+      "FirstName": "Anna Johanna",
+      "LastName": "Henrica EKAMA",
+      "extra_info": "",
+      "source": "26"
+    },
+    {
+      "FirstName": "Cornelius",
+      "LastName": "EKAMA",
+      "extra_info": "Stadsgeneesheer Haarlem, Bibliothecaris Teylersstichting",
+      "source": "26"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Johannes Arent F45",
+      "LastName": "Ekama",
+      "extra_info": "Ged. Leiden 29-08-1742, Gest.Leiden 15-11-1817",
+      "source": "13"
+    }
+  ]
+}

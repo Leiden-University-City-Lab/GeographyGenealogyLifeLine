@@ -1,0 +1,151 @@
+{
+  "FirstName": "Wilhelmus Jacobus",
+  "LastName": "STORM VAN \u2019S GRAVESANDE",
+  "BirthDate": "26-09-1688",
+  "BirthCity": "Den Bosch",
+  "DeathDate": "28-02-1742",
+  "DeathCity": "Leiden",
+  "education": [
+    {
+      "subject": "Huisonderwijzer",
+      "location": "Tourton Den Bosch",
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "06-06-1704",
+      "source": "(14)"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "25-10-1707",
+      "source": "(15)"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "19-06-1703",
+      "source": "(50)"
+    },
+    {
+      "job": "Uitgever en auteur",
+      "location": "Journal de la Den Haag",
+      "date": "1713",
+      "source": "(3) R\u00e9publique des Llettrest"
+    },
+    {
+      "job": "Eerste secretaris gezantschap Engeland",
+      "location": null,
+      "date": "23-09-1715",
+      "source": "(50) na\u00ebr Engeland - t."
+    },
+    {
+      "job": "Hoogleraar Wis- en Sterrekunde",
+      "location": "Leiden",
+      "date": "19-05-1717",
+      "source": "(13)"
+    },
+    {
+      "job": "Doctor Burgerlijke Krijgsbouwkunde",
+      "location": "Leiden",
+      "date": "V8-08-1730",
+      "source": "(13)"
+    },
+    {
+      "job": "Hoogleraar Gehele Wijsbegeerte",
+      "location": "Leiden",
+      "date": "12-07.1734",
+      "source": "(13)"
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1723 -1724",
+      "source": "(20)"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ontmeet Newton in1715 die hem aanbeveelt bij de gezant Arend van Wassenaer van Duvenvoorde die hem weer bij de curatoren van de Leidse universiteit aanbeveelt",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Diss.De autocheira",
+      "source": "(50)"
+    },
+    {
+      "particularity": "Bevriend met Voltaire",
+      "source": "(Fro)"
+    },
+    {
+      "particularity": "Bezoek aan Landgraaf van Hessen-Kassel in 1721 en 1724",
+      "source": "(20)"
+    },
+    {
+      "particularity": "Orthodoxe calvinisten achtten hem te vooruitstrevend",
+      "source": "(3)"
+    },
+    {
+      "particularity": "Aanbiedingen St.Petersburg (1724) en Berlijn (1740)",
+      "source": "(3) afgeslagen"
+    },
+    {
+      "particularity": "Lid Royal Society Londen",
+      "source": "(20)"
+    },
+    {
+      "particularity": "Woont Rapenburg 12",
+      "source": "(a)"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "Sacrelaire",
+      "BirthDate": null,
+      "BirthCity": null,
+      "DeathDate": null,
+      "DeathCity": null,
+      "marriage": null,
+      "extra_info": "ondt.Leiden 27-09-1720",
+      "source": "(c)"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "Storm van\u2019s Gravesande",
+      "extra_info": "Lid vroedschap en schepen Den Bosch,ontvanger:generaal der beurzen en geestelijke goederen,controleur licenten en ontvanger domeinen Prins van Oranje in Meijerij",
+      "source": "(b, 8)"
+    },
+    {
+      "FirstName": "Anna Josina",
+      "LastName": "Blom",
+      "extra_info": null,
+      "source": "(b,50)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "Storm van\u2019s Gravesande",
+      "extra_info": null,
+      "source": "(20,50)"
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "Storm van\u2019s Gravesande",
+      "extra_info": null,
+      "source": "(20,50)"
+    }
+  ],
+  "far_family": null
+}
