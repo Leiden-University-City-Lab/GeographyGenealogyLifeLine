@@ -1,0 +1,543 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "BURMANNUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BURMAN"
+  ],
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Utrecht",
+      "date": "1679",
+      "source": "2"
+    },
+    {
+      "subject": "Onderwijs bij J. Graevius",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Litt.",
+      "location": "Leiden",
+      "date": "1685-09-24",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": "1687",
+      "source": "35"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Utrecht",
+      "date": "1688-03-26",
+      "source": "36"
+    },
+    {
+      "subject": "Reis Duitsland en Zwitserland",
+      "location": "Duitsland en Zwitserland",
+      "date": "1690",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Rechtsgeleerde",
+      "location": "Utrecht",
+      "date": "1690",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontvanger bisschoppelijke en geestelijke tienden",
+      "location": "Utrecht",
+      "date": "1691-12-01",
+      "source": "34",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geschiedenis",
+      "location": "Utrecht",
+      "date": "1696-12-10",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis",
+      "location": "Utrecht",
+      "date": "1698",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Politices",
+      "location": "Utrecht",
+      "date": "1703",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1703",
+      "source": "34",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1711",
+      "source": "34",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal",
+      "location": "Leiden",
+      "date": "1715-05-29",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historie en Welsprekendheid",
+      "location": "Leiden",
+      "date": "1715-07-02",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis der Verenigde Nederlanden",
+      "location": "Leiden",
+      "date": "1716-11-24",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Dichtkunde",
+      "location": "Leiden",
+      "date": "1725-08-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Titel Professor Politices",
+      "location": "Leiden",
+      "date": "1725",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1727",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1735",
+      "source": "a",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Staatsgezind",
+      "location": null,
+      "date": null,
+      "source": "36"
+    },
+    {
+      "particularity": "Diss. De transactionibus bij prof. van Muyden",
+      "location": null,
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Met steun prof. Graevius, een vriend van zijn vader, hoogleraar in Utrecht geworden",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Twisten met prof. le Clerc en prof. Leydecker",
+      "location": null,
+      "date": null,
+      "source": "56"
+    },
+    {
+      "particularity": "Conflict met predikanten en vroedschap van Utrecht over toneel",
+      "location": null,
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Aanbod salarisverhoging van f400 weerhoudt hem niet van vertrek uit Utrecht",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Als Bibliothecaris van de Leidse universiteit koopt hij de brieven van Lipsius aan",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bezit het buitenverblijf Batestein",
+      "location": null,
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Woont Rapenburg 53",
+      "location": "Leiden",
+      "date": null,
+      "source": "b"
+    },
+    {
+      "particularity": "Salaris: \u00a3400 (1696), f600 (1701), f1400 (1714)",
+      "location": null,
+      "date": null,
+      "source": "2,34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Eva",
+      "LastName": "CLOTTERBOOKE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Brielle",
+      "BirthDate": "1668-10-22",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "BURMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1628",
+      "DeathDate": "1679",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "HEYDANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "BURMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1577",
+      "DeathDate": "1630",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "BALDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1601",
+      "DeathDate": "1667",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "HEYDANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1597",
+      "DeathDate": "1678",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "LOTEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1608",
+      "DeathDate": "1669",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Caspar",
+      "LastName": "CLOTTERBOOKE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "58,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1632",
+      "DeathDate": "1672",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "COUWENHOVE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1743",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "BURMANNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "BURMANNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "BURMANNUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BURMANNUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frans",
+      "LastName": "BURMANNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1694",
+      "DeathDate": null,
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Caspar",
+      "LastName": "BURMANNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1696-04-12",
+      "DeathDate": "1755-08-22",
+      "DeathCity": "Kamerik"
+    },
+    {
+      "FirstName": "Eva Maria",
+      "LastName": "BURMANNUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701-07-25",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Caspar",
+      "LastName": "CLOTTERBOOKE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "CLOTTERBOOKE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frans",
+      "LastName": "BURMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "II"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "BURMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Secundus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frans",
+      "LastName": "BURMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "II"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "BURMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1668-06-06",
+  "DeathDate": "1741-03-31",
+  "DeathCity": "Leiden"
+}

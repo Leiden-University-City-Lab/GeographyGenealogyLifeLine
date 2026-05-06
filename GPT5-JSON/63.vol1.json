@@ -1,0 +1,235 @@
+{
+  "FirstName": "Constantijn",
+  "LastName": "L' EMPEREUR VAN OPWIJCK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Constantinus"
+  ],
+  "alternative_last_names": [
+    "DE OPWIJCK",
+    "AB OPPIJCK",
+    "VAN OPPIJCK",
+    "IMPERATOR"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Litt.",
+      "location": "Leiden",
+      "date": "1607-05-19",
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol., Oosterse Talen en Hebreeuwse Oudheden",
+      "location": "Franeker",
+      "date": "1614-04-08",
+      "source": "6"
+    },
+    {
+      "subject": "Doct.",
+      "location": "Franeker",
+      "date": "1617-03-23",
+      "source": "12,15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Theol. en Hebreeuws",
+      "location": "Harderwijk",
+      "date": "1619-10-07",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws (later ook Aramees)",
+      "location": "Leiden",
+      "date": "1627-02-09",
+      "source": "6,7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Joodse verschilpunten",
+      "location": "Leiden",
+      "date": "1633",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1646-12-10",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1638",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raad van graaf Johan Maurits van Brazili\u00eb",
+      "location": null,
+      "date": "1639",
+      "source": "6",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris als hoogleraar Hebreeuws: f 600 tractement; f 100 extraordinarius (vanaf 1630 f 200); later f 1300",
+      "location": "Leiden",
+      "date": null,
+      "source": "6,34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Wientgen",
+      "LastName": "DE WITT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "THIJS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Polen",
+      "BirthCity": "Dantzig",
+      "BirthDate": "1589",
+      "DeathDate": "1653",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "IMPERATOR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [
+        "CAESAR"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "MEULEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "MEULEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "SEGERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Hans",
+      "LastName": "THIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [
+        "PHYSIUS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1556",
+      "DeathDate": "1611",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BOEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Sara",
+      "LastName": "L' EMPEREUR VAN OPWIJCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Bremen",
+  "BirthDate": "1591-07",
+  "DeathDate": "1648-07-01",
+  "DeathCity": "Leiden"
+}

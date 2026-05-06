@@ -1,0 +1,556 @@
+{
+  "FirstName": "Albertus",
+  "LastName": "SCHULTENS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school (Greven)",
+      "location": "Groningen",
+      "date": null,
+      "source": "50"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Groningen",
+      "date": "1700-09-06",
+      "source": "23"
+    },
+    {
+      "subject": "Disp.",
+      "location": "Groningen",
+      "date": "1702",
+      "source": "72"
+    },
+    {
+      "subject": "Stud.Litt. (Orientaals)",
+      "location": "Leiden",
+      "date": "1706-09-10",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Groningen",
+      "date": "1709",
+      "source": "72"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Studie Oosterse handschriften",
+      "location": "Leiden",
+      "date": "1709",
+      "source": "64",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Wassenaar",
+      "date": "1711",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Franeker",
+      "date": "1713-07-16",
+      "source": "17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1719",
+      "source": "17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1728",
+      "source": "17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1729-10-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oosterse talen",
+      "location": "Leiden",
+      "date": "1732-05-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuwse Oudeheden",
+      "location": "Leiden",
+      "date": "1740-07-12",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1739",
+      "source": "64",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1740",
+      "source": "64",
+      "is_side_job": 0
+    },
+    {
+      "job": "Academieprediker",
+      "location": "Franeker",
+      "date": "1717-01-08",
+      "source": "17",
+      "is_side_job": 1
+    },
+    {
+      "job": "Interpres legati Warneriani",
+      "location": "Leiden",
+      "date": "1729",
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Theol. De utilitate linguae Arabicae in interpretanda sacra scriptura bij prof. Braun",
+      "location": null,
+      "date": null,
+      "source": "64"
+    },
+    {
+      "particularity": "Prof. van Til geeft hem de oosterse handschriften ter inzage",
+      "location": null,
+      "date": null,
+      "source": "64"
+    },
+    {
+      "particularity": "Twist met prof. T.H. van den Honert",
+      "location": null,
+      "date": null,
+      "source": "64"
+    },
+    {
+      "particularity": "Salaris: f 700 (1713), f 900 (1717)",
+      "location": null,
+      "date": null,
+      "source": "17"
+    },
+    {
+      "particularity": "Titel: Doctor Oosterse talen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Overlijdensdatum in bronnen verschillend: 26-01-1750 (127) of 20-01-1750 (81)",
+      "location": null,
+      "date": null,
+      "source": "127,81"
+    },
+    {
+      "particularity": "Zijn tweede schoonmoeder is een zuster van zijn derde schoonvader",
+      "location": null,
+      "date": null,
+      "source": "b"
+    },
+    {
+      "particularity": "Zijn eerste en vierde schoonmoeder zijn zusters",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Broer van eerste en vierde schoonmoeder is Abraham Drolenvaux, lid vroedschap Leiden en schoonvader prof. Boerhaave",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DOZY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1684-08-04",
+      "DeathDate": "1717-10-03",
+      "DeathCity": "Franeker"
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "LANDREBEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "17,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Haarlem",
+      "BirthDate": null,
+      "DeathDate": "1726",
+      "DeathCity": "Franeker"
+    },
+    {
+      "FirstName": "Katharina",
+      "LastName": "STANSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1706",
+      "DeathDate": "1744-04-27",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Joanna Maria",
+      "LastName": "PARKER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "17,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1771-08-01",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Casparus",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "81",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Betta",
+      "LastName": "BOTHENIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Pierre",
+      "LastName": "DOZY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1648",
+      "DeathDate": "1712",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "DROLENVAUX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1652",
+      "DeathDate": "1724",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Arnoldus",
+      "LastName": "LANDREBEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "STANSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maurits",
+      "LastName": "STANSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1670",
+      "DeathDate": "1710",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hesther",
+      "LastName": "VLST",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Thomas",
+      "LastName": "PARKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "DROLENVAUX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Dochter",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": "Wassenaar"
+    },
+    {
+      "FirstName": "Elisabeth Hester",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1714-04-15",
+      "DeathDate": "1781-02-19",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": null,
+      "DeathDate": "1793-04-22",
+      "DeathCity": "Groningen"
+    },
+    {
+      "FirstName": "Jan Jacob",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1716-09-19",
+      "DeathDate": "1778-11-27",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Alegonda",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1717-09-14",
+      "DeathDate": "1755-02-25",
+      "DeathCity": "Herborn"
+    },
+    {
+      "FirstName": "Mauricius Albertus",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1735-11-16",
+      "DeathDate": "1735-11-29",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Hesther Catharina",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1737-02-27",
+      "DeathDate": "1781",
+      "DeathCity": "Groningen"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Johan Hendrik",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Barthold",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "DROLENVAUX",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Groningen",
+  "BirthDate": "1686-09-22",
+  "DeathDate": "1750-01",
+  "DeathCity": "Leiden"
+}

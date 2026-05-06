@@ -1,0 +1,175 @@
+{
+  "FirstName": "Josephus",
+  "LastName": "SCALIGER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Justus"
+  ],
+  "alternative_last_names": [
+    "DE LA SCALA"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school (Muretus)",
+      "location": "Bordeaux",
+      "date": "1551",
+      "source": "a"
+    },
+    {
+      "subject": "Les vader",
+      "location": "Agen",
+      "date": "1554",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Latijn en Grieks",
+      "location": "Parijs",
+      "date": "1559",
+      "source": "a"
+    },
+    {
+      "subject": "Reis met Muretus",
+      "location": "Itali\u00eb",
+      "date": "1565",
+      "source": "2"
+    },
+    {
+      "subject": "Reis Engeland",
+      "location": "Engeland",
+      "date": "1566",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verblijf bij Cujacius",
+      "location": "Valence",
+      "date": "1570",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid missie naar Polen o.l.v. Monlue, niet doorgegaan",
+      "location": "Polen",
+      "date": "1572",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht na Bloedbruiloft",
+      "location": null,
+      "date": "1572",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Gen\u00e8ve",
+      "date": "1572",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf kasteel van Touraine (La Rochepozay)",
+      "location": "Touraine",
+      "date": "1574",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geen hoogleraar, vrijheid lessen te geven in Latijnse spraak, oudheden en historie",
+      "location": "Leiden",
+      "date": "1593-08-26",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Noord-Holland (herfst)",
+      "location": "Noord-Holland",
+      "date": "1593",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Calvinist",
+      "location": null,
+      "date": "1562",
+      "source": "2"
+    },
+    {
+      "particularity": "Bevriend met Grotius, Heinsius, de Thou",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Pogingen Leiden hem te halen via Baudius en Tuningh",
+      "location": null,
+      "date": "1591",
+      "source": "b"
+    },
+    {
+      "particularity": "Woont Rapenburg 42",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 2000",
+      "location": null,
+      "date": "1593",
+      "source": "b"
+    },
+    {
+      "particularity": "Autodidact",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Julius Caesar",
+      "LastName": "SCALIGER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Andiette",
+      "LastName": "ROQUES-LOBIECA",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Agen",
+  "BirthDate": "1540-08-05",
+  "DeathDate": "1609-01-21",
+  "DeathCity": "Leiden"
+}

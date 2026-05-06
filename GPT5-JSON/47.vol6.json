@@ -1,0 +1,239 @@
+{
+  "FirstName": "Jan",
+  "LastName": "ROYEN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.h.c.",
+      "location": "Leiden",
+      "date": "1738-09-23",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1749-04-28",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Secretaris",
+      "location": "Stompwijk",
+      "date": null,
+      "source": "3,20",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad",
+      "location": "Leiden",
+      "date": null,
+      "source": "3,20",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris",
+      "location": "Leiden",
+      "date": null,
+      "source": "3,20",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1753-08-08",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Ad legum XIX D. de rito nuptiarum",
+      "location": null,
+      "date": null,
+      "source": "3,10"
+    },
+    {
+      "particularity": "Kinderloos",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Getr. Schiedam 1760-02",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Esch. Leiden 1771-08-23",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Broer vader Hoogleraar Medicijnen Leiden",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Zwager moeder Secretaris Curatoren Universiteit",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Broer echtgenote Hoogleraar Medicijnen Franeker",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna Elisabeth",
+      "LastName": "LILLE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1734-12-19",
+      "DeathDate": "1781-02-27",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "David",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1699",
+      "DeathDate": "1764",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": "1779",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "GROENENDYCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1737",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "3,20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1664",
+      "DeathDate": "1755",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "TEYLINGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Willem",
+      "LastName": "LILLE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1693",
+      "DeathDate": "1740",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elizabeth",
+      "LastName": "VAILLANT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1726-11-26",
+  "DeathDate": "1783-02-02",
+  "DeathCity": "Leiden"
+}

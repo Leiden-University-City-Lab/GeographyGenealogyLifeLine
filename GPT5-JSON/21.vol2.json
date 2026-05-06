@@ -1,0 +1,366 @@
+{
+  "FirstName": "Johannes David",
+  "LastName": "HAHN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Gymnasium van J.D. Andreae",
+      "location": "Heidelberg",
+      "date": "1738-01-08",
+      "source": "86"
+    },
+    {
+      "subject": "Voorjaarspromotie Gymnasium",
+      "location": "Heidelberg",
+      "date": "1744",
+      "source": "86"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Heidelberg",
+      "date": "1744-03-27",
+      "source": "18"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1745-08-28",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": "1751-04-23",
+      "source": "21"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1751-04-23",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Philosophie, Physica en Astronomie",
+      "location": "Utrecht",
+      "date": "1753-06-21",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Chemie en Botanie",
+      "location": "Utrecht",
+      "date": "1753",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1755",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1772",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Practische Geneeskunde en Scheikunde",
+      "location": "Leiden",
+      "date": "1775-05-24",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens ziekte",
+      "location": null,
+      "date": "1763-10-11",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Med.: De efficacia mixtionis in mutandis corporum voluminibus.",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Diss. Phil.: De consuetudine.",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Aanbod hoogleraarschap G\u00f6ttingen afgewezen.",
+      "location": "G\u00f6ttingen",
+      "date": null,
+      "source": "7"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christina Elisabeth",
+      "LastName": "LEISLER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Hanau",
+      "BirthDate": "1735-11-21",
+      "DeathDate": "1782-12-10",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Heinrich Casper",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1688",
+      "DeathDate": "1738",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva Catharina",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1702",
+      "DeathDate": "1771",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann Caspar",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "RETTEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johann Christoph",
+      "LastName": "GAUB",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1748",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "ROHRMANN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1662",
+      "DeathDate": "1732",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johann Adam",
+      "LastName": "LEISLER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1704",
+      "DeathDate": "1764",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "CR\u00c9GUT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701",
+      "DeathDate": "1740",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Frederik Hendrik",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1757-07-19",
+      "DeathDate": "1776-05",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Eva Catharina",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": null,
+      "DeathDate": "1834-11-24",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Johan Adam",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1759-10-29",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob George Jeronimo",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72,1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1761-09-12",
+      "DeathDate": "1822-11-22",
+      "DeathCity": "Haarlem"
+    },
+    {
+      "FirstName": "Charlotte",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1765-01-02",
+      "DeathDate": "1831-06-07",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Christina Elisabeth",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1769-07-15",
+      "DeathDate": "1844-12-13",
+      "DeathCity": "Haarlem"
+    },
+    {
+      "FirstName": "Anna Sarah",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1770-12-06",
+      "DeathDate": "1809-06-05",
+      "DeathCity": "Kesselstadt"
+    },
+    {
+      "FirstName": "Johanna Frederika",
+      "LastName": "HAHN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1775-12-28",
+      "DeathDate": "1862-05-09",
+      "DeathCity": "Brussel"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Heidelberg",
+  "BirthDate": "1729-07-09",
+  "DeathDate": "1784-03-19",
+  "DeathCity": "Leiden"
+}

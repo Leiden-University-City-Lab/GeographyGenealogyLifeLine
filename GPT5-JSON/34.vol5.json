@@ -1,0 +1,408 @@
+{
+  "FirstName": "Joan",
+  "LastName": "LUZAC",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Leiden",
+      "date": "1756",
+      "source": "38"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1760-09-16",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1767-02-05",
+      "source": "2,38"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Redacteur en uitgever Gazette de Leyde",
+      "location": "Leiden",
+      "date": "1772",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal en Vaderlandse Geschiedenis",
+      "location": "Leiden",
+      "date": "1785-04-09",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afgezet als Hoogleraar Vaderlandse Geschiedenis",
+      "location": "Leiden",
+      "date": "1796-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Neemt ontslag als Hoogleraar Grieks",
+      "location": "Leiden",
+      "date": "1796-03",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "In ambt hersteld als hoogleraar",
+      "location": "Leiden",
+      "date": "1802-02-06",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Vaderlandse Geschiedenis en Beschaafde Letteren",
+      "location": "Leiden",
+      "date": "1802-06-15",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1794",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Waals",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Diss. Iur. Specimen academicum exhibens observationes nonnullas apologeticas pro iureconsultis Romanis ad locum Ciceronis pro Murena XI-ALIT",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Lectoraat Grieks Groningen 1763 afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Hoogleraarschap rechten Leiden 1765 afgeslagen, aanbod door steun Ruhnkenius en Voorda",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Steunt met Voltelen Voorda bij diens ontslag in 1787",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Kort herstel in ambt 1797",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Gazette 1798 verboden",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bevriend met John Adams en George Washington",
+      "location": null,
+      "date": null,
+      "source": "45"
+    },
+    {
+      "particularity": "Woont Rapenburg 112, later Garenmarkt",
+      "location": null,
+      "date": null,
+      "source": "38,a"
+    },
+    {
+      "particularity": "Lid Maatschappij Nederlandse Letterkunde 1792",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f2000 (1785), f1600 (1796)",
+      "location": null,
+      "date": null,
+      "source": "75"
+    },
+    {
+      "particularity": "Neef van zijn moeder is prof. L.C. Valckenaer, de vader van prof. J. Valckenaer, beiden hoogleraar te Leiden",
+      "location": null,
+      "date": null,
+      "source": "77"
+    },
+    {
+      "particularity": "Zijn broer huwt zuster van prof. J. Valckenaer",
+      "location": null,
+      "date": null,
+      "source": "77"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria Adriana Geertruyd",
+      "LastName": "PERSIJN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1758-01-05",
+      "DeathDate": "1806-03-26",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jean",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "77",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1783",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Hillegonda",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "77",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1718",
+      "DeathDate": "1760",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jean",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1646",
+      "DeathDate": "1729",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie Judith",
+      "LastName": "LANDE",
+      "Affix": "de la",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1744",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Isaac",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "77",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1666",
+      "DeathDate": "1734",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "DUYVENSTEIN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "77",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1684",
+      "DeathDate": "1770",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "PERSIJN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1716",
+      "DeathDate": "1780",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Petronella",
+      "LastName": "CAMPER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1720",
+      "DeathDate": "1798",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jean",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1785-10-11",
+      "DeathDate": "1798-05-22",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Nicolas Florent",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "C",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1787-08-01",
+      "DeathDate": "1844-03-01",
+      "DeathCity": "Luik"
+    },
+    {
+      "FirstName": "Etienne",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1789-09-04",
+      "DeathDate": "1791-12-16",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adrien",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "C",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1790-12-23",
+      "DeathDate": "1815-02-19",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Etienne Louis",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1792-03-01",
+      "DeathDate": "1794-06-03",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Doodgeboren dochter",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1794-11-16",
+      "DeathDate": "1794-11-16",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Corneille Jean",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1796-12-13",
+      "DeathDate": "1861-08-30",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Letteren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1746-08-02",
+  "DeathDate": "1807-01-12",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,276 @@
+{
+  "FirstName": "Nicolaas George",
+  "LastName": "OOSTERDIJK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Bevorderd tot academische diessen",
+      "location": "Utrecht",
+      "date": "1754-01-24",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Med. h.c.",
+      "location": "Leiden",
+      "date": "1760-06-30",
+      "source": "20"
+    },
+    {
+      "subject": "Stud. Natuurkunde en Med.",
+      "location": "Utrecht",
+      "date": "1761",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Med",
+      "location": "Utrecht",
+      "date": "1762-06-15",
+      "source": "27"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Stadsarts",
+      "location": "Utrecht",
+      "date": "1763-04-18",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Harderwijk",
+      "date": "1770-10-23",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Scheikunde en Kruidkunde",
+      "location": "Harderwijk",
+      "date": "1771-06-12",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1773-06-16",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Theoretische Geneeskunde)",
+      "location": "Leiden",
+      "date": "1775-04-24",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Theoretische Geneeskunde",
+      "location": "Leiden",
+      "date": "1775-10-17",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1778-06-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus met behoud van de titel Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1786",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.: Chemica de aceto bij prof. Hahn (magno omnium cum applausu)",
+      "location": null,
+      "date": null,
+      "source": "27"
+    },
+    {
+      "particularity": "Woont Langebrug bij Zonneveldsteeg",
+      "location": "Leiden",
+      "date": null,
+      "source": "38"
+    },
+    {
+      "particularity": "Huwelijk met Cornelia Wilhelmina Graswinckel",
+      "location": null,
+      "date": "1789-04-14",
+      "source": "38"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Bartha",
+      "LastName": "WEVERINGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1783",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia Wilhelmina",
+      "LastName": "GRASWINCKEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Eindhoven",
+      "BirthDate": null,
+      "DeathDate": "1807-01-26",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "OOSTERDIJK SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1704",
+      "DeathDate": "1755",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Aletta",
+      "LastName": "MOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Herman",
+      "LastName": "OOSTERDIJK SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1744",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "STOFFE",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "WEVERINGH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "156",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": "1768",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martina",
+      "LastName": "BAERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "46",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1705",
+      "DeathDate": "1783",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerard Johan",
+      "LastName": "GRASWINCKEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1712",
+      "DeathDate": "1770",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Geertruid",
+      "LastName": "ALPHEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1714",
+      "DeathDate": "1779",
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1740-02-16",
+  "DeathDate": "1817-09-03",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,89 @@
+{
+  "FirstName": "Daniel",
+  "LastName": "SINAPIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "MOSTAART"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Harderwijk",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1607-05-12",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verving Thysius als hoogleraar Theologie (bij Synode te Dordrecht)",
+      "location": "Leiden",
+      "date": "1618",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1619-07-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Zedekunde",
+      "location": "Leiden",
+      "date": "1635-08-21",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: \u00a3800",
+      "location": null,
+      "date": "1619",
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "Mostaard",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1589",
+  "DeathDate": "1638-10-22",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,252 @@
+{
+  "FirstName": "Bernhardus Siegfried",
+  "LastName": "ALBINUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Voorbereidend onderwijs",
+      "location": "Leiden",
+      "date": null,
+      "source": "49,2"
+    },
+    {
+      "subject": "Stud.Litt.h.c.",
+      "location": "Leiden",
+      "date": "1709-09-16",
+      "source": "20"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1712",
+      "source": "3"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Frankrijk",
+      "date": "1718",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Parijs",
+      "date": "1719-06",
+      "source": "3"
+    },
+    {
+      "subject": "Doct.Med.h.c.",
+      "location": "Leiden",
+      "date": "1719-09-19",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Ontleed- en Heelkunde",
+      "location": "Leiden",
+      "date": "1719-06-29",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Ontleed- en Heelkunde",
+      "location": "Leiden",
+      "date": "1721-10-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde en Physiologie",
+      "location": "Leiden",
+      "date": "1745-08-30",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1726",
+      "source": "493",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1738",
+      "source": "493",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Hoogleraarschap Halle afgeslagen",
+      "location": null,
+      "date": "1743",
+      "source": "2"
+    },
+    {
+      "particularity": "Hoogleraarschap G\u00f6ttingen afgeslagen",
+      "location": null,
+      "date": "1752",
+      "source": "3"
+    },
+    {
+      "particularity": "Woont tot 1736 bij moeder in Steenschuur (gekocht van prof. Boerhaave), daarna met 2 zusters in Breestraat nr. 42.",
+      "location": null,
+      "date": null,
+      "source": "98"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Clara Magdalena",
+      "LastName": "DUPEYROU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1724-04-19",
+      "DeathDate": "1796-10-30",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Bernhardus",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "70,2,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1653",
+      "DeathDate": "1721",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Catharina",
+      "LastName": "RING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,98",
+      "second_names": [],
+      "alternative_last_names": [
+        "RINGS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1745",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Christodorus",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "70,83",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1622",
+      "DeathDate": "1706",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rebecca",
+      "LastName": "STIELER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "70",
+      "second_names": [],
+      "alternative_last_names": [
+        "STILLERS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1677",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Thomas Siegfried",
+      "LastName": "RING",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "RINGS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1544",
+      "DeathDate": "1707",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Maria",
+      "LastName": "SCHOLTZ VON HERMENSDORFF",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Steven Andries",
+      "LastName": "DUPEYROU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "36",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": "1761",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha Clara",
+      "LastName": "MUYSSART",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "36",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1702",
+      "DeathDate": "1761",
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Frankfurt/Oder",
+  "BirthDate": "1697-02-24",
+  "DeathDate": "1770-09-09",
+  "DeathCity": "Leiden"
+}

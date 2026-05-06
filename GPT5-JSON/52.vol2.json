@@ -1,0 +1,369 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "WALAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN WALE",
+    "DE WALE"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Middelburg",
+      "date": null,
+      "source": "71"
+    },
+    {
+      "subject": "Stud. Litt. Phil. h.c.",
+      "location": "Leiden",
+      "date": "1621-07-24",
+      "source": "20,71"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": null,
+      "source": "71"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1631-06-24",
+      "source": "71"
+    },
+    {
+      "subject": "Studiereis met Frans Thysius",
+      "location": "Frankrijk",
+      "date": "1631",
+      "source": "71"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Parijs",
+      "date": "1632",
+      "source": "71"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Geneeskunde",
+      "location": "Leiden",
+      "date": "1632-11-16",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1633-08-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1648-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waarnemer Collegium Practicum",
+      "location": "Leiden",
+      "date": "1647-08-27",
+      "source": "71",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disputatie medica de foribus",
+      "location": null,
+      "date": null,
+      "source": "71"
+    },
+    {
+      "particularity": "Woont Rapenburg, Groenhazengracht",
+      "location": "Leiden",
+      "date": null,
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 125 (als Lector)",
+      "location": null,
+      "date": "1632-11-16",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 250",
+      "location": null,
+      "date": "1633-08-08",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1634-11-14",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": "1638-02-09",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1640-11-06",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": "1641-05-24",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1644-08-23",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 1200",
+      "location": null,
+      "date": "1645-11-14",
+      "source": "71"
+    },
+    {
+      "particularity": "Salaris: f 1400",
+      "location": null,
+      "date": "1646-12-11",
+      "source": "71"
+    },
+    {
+      "particularity": "Alternatieve geboortedatum: 1604-11-27 (71)",
+      "location": null,
+      "date": null,
+      "source": "71"
+    },
+    {
+      "particularity": "Alternatieve overlijdensdatum: 1649-06-06 (71)",
+      "location": null,
+      "date": null,
+      "source": "71"
+    },
+    {
+      "particularity": "Huwelijk te Delft of Leiden in 1637-08 (dag onbekend)",
+      "location": null,
+      "date": null,
+      "source": "71"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catarina",
+      "LastName": "VECKESTAERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "71,31",
+      "second_names": [],
+      "alternative_last_names": [
+        "VOCKESTAERT"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1616",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1573",
+      "DeathDate": "1634",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paschasia",
+      "LastName": "ISENHOUDT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "WAELE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "WAGENAERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "ISENHOUDT",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Gerrit",
+      "LastName": "VOCKESTAERT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "71,2,31",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1628",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "CRANENDONCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "71",
+      "second_names": [
+        "Jacobsdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": "1661",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1640-02-29",
+      "DeathDate": "1686-06-15",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerart",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1642-04-16",
+      "DeathDate": "1642-04-29",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paschasia",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1643-07-22",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geraert",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1646-08-26",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Koudekerke",
+  "BirthDate": "1604-12-27",
+  "DeathDate": "1649-06-05",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,259 @@
+{
+  "FirstName": "Carolus",
+  "LastName": "SCHAAF",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Lector Hebreeuwsch",
+      "location": "Leiden",
+      "date": "1680-08-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlengd voor vier jaar",
+      "location": "Leiden",
+      "date": "1681-11-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toestemming voor examens",
+      "location": "Leiden",
+      "date": "1682",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Nog \u201cministerii candidatus\u201d",
+      "location": "Leiden",
+      "date": "1685",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1720-01-15",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leiding correspondentie met Thomaschristenen op Malabar; met steun van zijn zoon Johannes Henricus",
+      "location": "Malabar",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Vakgebied: Hebreeuwsch, Chaldeeuwsch, Syrisch en Oosterse talen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Ondertrouw met Geertruid Huisman",
+      "location": "Leiden",
+      "date": "1693-07-30",
+      "source": "a"
+    },
+    {
+      "particularity": "Ondertrouw met Maria Elisabeth Jahnen (Janin)",
+      "location": "Leiden",
+      "date": "1700-06-11",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "HUISMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Homburg",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Elisabeth",
+      "LastName": "JAHNEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "JANIN"
+      ],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Alberstadt",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Katharina",
+      "LastName": "KEHLS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Carolus",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1695-10-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Christina",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1697-12-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Henricus",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1699-09-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Henricus",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1701-09-16",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christian Frederick",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1703-07-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1708-01-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Corona",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1712-06-26",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonius Wilhelmus",
+      "LastName": "SCHAAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1714-11-07",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Neuss",
+  "BirthDate": "1646-08-28",
+  "DeathDate": "1729-11-04",
+  "DeathCity": "Leiden"
+}

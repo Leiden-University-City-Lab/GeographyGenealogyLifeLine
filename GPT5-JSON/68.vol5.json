@@ -1,0 +1,182 @@
+{
+  "FirstName": "Allardus",
+  "LastName": "UCHTMANNUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.h.c.",
+      "location": "Leiden",
+      "date": "1644-12-08",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector Latijnse school",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1648-06-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1648-09-28",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Grieks",
+      "location": "Leiden",
+      "date": "1668-11-13",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks en Hebreeuws",
+      "location": "Leiden",
+      "date": "1670-01-29",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs alleen Hebreeuws",
+      "location": "Leiden",
+      "date": "1672-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag aangezegd wegens onvoldoende en onbehoorlijk gedrag",
+      "location": "Leiden",
+      "date": "1678-11-21",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toch gehandhaafd",
+      "location": "Leiden",
+      "date": "1679",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woonde Lokhorststeeg",
+      "location": "Leiden",
+      "date": "1645",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Aaltje",
+      "LastName": "KNOTTERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Trijnrje",
+      "LastName": "CORNELIS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "UCHTMANNUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1646-07-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christoffel",
+      "LastName": "UCHTMANNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1650-05-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelius",
+      "LastName": "UCHTMANNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1652-04-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerrit",
+      "LastName": "UCHTMANNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1648-08-26",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Groningen",
+  "BirthDate": "1611",
+  "DeathDate": "1680-01-18",
+  "DeathCity": "Leiden"
+}

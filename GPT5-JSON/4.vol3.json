@@ -1,0 +1,141 @@
+{
+  "FirstName": "Johannes Frederik",
+  "LastName": "B\u00d6CKELMANN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Steinfurt",
+      "date": "1651-1654",
+      "source": "5S"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Heidelberg",
+      "date": "1656-02-05",
+      "source": "23"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Heidelberg",
+      "date": "1659-03",
+      "source": "5"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Instituten",
+      "location": "Heidelberg",
+      "date": "1659-03-22",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Pandecten",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Heidelberg",
+      "date": "1660-1661",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (onderwijs Romeins Recht)",
+      "location": "Leiden",
+      "date": "1670-11-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Staats- en Volkenrecht",
+      "location": "Leiden",
+      "date": "1671-07-03",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1675",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer van de keurvorst van de Palts en assessor in het gerechtshof (Rath und Hofgerichtsbeisitzer)",
+      "location": null,
+      "date": "1661",
+      "source": "5",
+      "is_side_job": 1
+    },
+    {
+      "job": "Ondervoorzitter Hofr (Vicehofrichter)",
+      "location": null,
+      "date": "1665",
+      "source": "5",
+      "is_side_job": 1
+    },
+    {
+      "job": "Staatsraad en vice-president hoogste gerechtshof",
+      "location": null,
+      "date": "na 1665",
+      "source": "5",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Verdient in Leiden veel met juridische adviezen",
+      "location": "Leiden",
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "Ruzie met prof. Drelincourt door uitspraak dat de artsen in Rome slaven waren",
+      "location": null,
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "Testament stelt legaat in voor rechtenstudenten",
+      "location": "Leiden",
+      "date": "1674-12-20",
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Friedrich",
+      "LastName": "B\u00d6CKELMANN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Steinfurt",
+  "BirthDate": "1632-04-18",
+  "DeathDate": "1681-10-23",
+  "DeathCity": "Leiden"
+}

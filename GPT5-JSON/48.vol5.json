@@ -1,0 +1,245 @@
+{
+  "FirstName": "Johan Hendrik",
+  "LastName": "REGENBOGEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1785-09-16",
+      "source": "18"
+    },
+    {
+      "subject": "Doct.Theol.h.c.",
+      "location": "Franeker",
+      "date": "1800-01-27",
+      "source": "19"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Jutrijp en Hommerts",
+      "date": "1789-09-27",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant en rector Latijnse school",
+      "location": "Stavoren",
+      "date": "1791-12-10",
+      "source": "2,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Franeker",
+      "date": "1791-11-01",
+      "source": "2,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kerkgeschiedenis",
+      "location": "Franeker",
+      "date": "1798-09-25",
+      "source": "2,17,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Uitlegkunde (Phil. Fac.)",
+      "location": "Franeker",
+      "date": "1798-12-04",
+      "source": "2,17,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Franeker",
+      "date": "1799-06-03",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar in Theol. Fac.",
+      "location": "Franeker",
+      "date": "1803",
+      "source": "72,17,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1803",
+      "source": "2,17,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1809",
+      "source": "2,17,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Bespiegelende Wijsbegeerte en Letteren",
+      "location": "Leiden",
+      "date": "1811",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1812-11-03",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bibliothecaris",
+      "location": "Franeker",
+      "date": "1799",
+      "source": "47",
+      "is_side_job": 1
+    },
+    {
+      "job": "Academieprediker",
+      "location": "Franeker",
+      "date": "1803",
+      "source": "47",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Steun dominee Katerberg bij studie",
+      "location": null,
+      "date": null,
+      "source": "47"
+    },
+    {
+      "particularity": "Twist met prof. Lotze",
+      "location": null,
+      "date": null,
+      "source": "47"
+    },
+    {
+      "particularity": "Bekend door inzending op Franse prijsvraag 1809",
+      "location": null,
+      "date": "1809",
+      "source": "47"
+    },
+    {
+      "particularity": "Geheugenverlies",
+      "location": null,
+      "date": "1813",
+      "source": "47"
+    },
+    {
+      "particularity": "Woont Oudevest",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 1400 (1798), f 1700 (1810), \u00a3 1275 (1812)",
+      "location": null,
+      "date": null,
+      "source": "17,47"
+    },
+    {
+      "particularity": "Onderwijs: Algemene Geschiedenis",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Sibilla",
+      "LastName": "EDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Neuenhaus",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Coenraad",
+      "LastName": "REGENBOGEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,17,47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "HOLMERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,17,47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Coenraad",
+      "LastName": "REGENBOGEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1800",
+      "DeathDate": "1821-05-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "REGENBOGEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1796",
+      "DeathDate": "1822-05-11",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Schuttorf",
+  "BirthDate": "1767-12-09",
+  "DeathDate": "1814-02-22",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,217 @@
+{
+  "FirstName": "Fredericus Bernhardus",
+  "LastName": "ALBINUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Frederik Bernard' in Fredericus Bernhardus (Frederik Bernard)"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Litt. h.c.",
+      "location": "Leiden",
+      "date": "1771-06-15",
+      "source": "20"
+    },
+    {
+      "subject": "Stud. Phil., Math., Med.",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Studie reis",
+      "location": "Parijs en Londen",
+      "date": "1737",
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Leiden",
+      "date": "1740-12-22",
+      "source": "21"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1740-12-22",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts ontleedkunde",
+      "location": "Amsterdam",
+      "date": "1741-1745",
+      "source": "2,88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Heel- en Ontleedkunde",
+      "location": "Leiden",
+      "date": "1745-08-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Heel- en Ontleedkunde",
+      "location": "Leiden",
+      "date": null,
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1748-06-09",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1754-1755",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1756-1757",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Phil. De meteoris ignitis.",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Diss. Med. De glutatione.",
+      "location": null,
+      "date": null,
+      "source": "21,2"
+    },
+    {
+      "particularity": "Woont met twee zusters in Steenschuur (gekocht van prof. Boerhaave).",
+      "location": "Leiden",
+      "date": "1745",
+      "source": null
+    },
+    {
+      "particularity": "Woonde op Rapenburg nr. 34.",
+      "location": "Leiden",
+      "date": "1772",
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Bernhardus",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "70,2,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1635",
+      "DeathDate": "1721",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Catharina",
+      "LastName": "RING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,98",
+      "second_names": [],
+      "alternative_last_names": [
+        "RINGS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1745",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Christophorus",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "70,83",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1622",
+      "DeathDate": "1706",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rebecca",
+      "LastName": "STTELER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "70",
+      "second_names": [],
+      "alternative_last_names": [
+        "STILLERS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1677",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Thomas Siegfried",
+      "LastName": "RING",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "RINGS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1644",
+      "DeathDate": "1707",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Maria",
+      "LastName": "VON SCHOITZ VON HERMENSDORFF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1715-06-20",
+  "DeathDate": "1778-05-23",
+  "DeathCity": "Leiden"
+}

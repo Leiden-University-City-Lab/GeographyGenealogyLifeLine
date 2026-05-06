@@ -1,0 +1,162 @@
+{
+  "FirstName": "Jeronimo",
+  "LastName": "DE BOSCH",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Apothekersopleiding",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Latijnse school (v/d Wilp)",
+      "location": "Amsterdam",
+      "date": "1757",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Apotheker",
+      "location": "Amsterdam",
+      "date": "1760",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eerste klerk secretarie",
+      "location": "Amsterdam",
+      "date": "1773",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1798-12-04",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Dichter",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Bevriend met Ruhnkenius, Wyttenbach, Burmannus Secundus, Nieuwland, van Beeck Calkoen",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Lid Maatschappij tot bevordering van de Landbouw; Maatschappij van Wetenschappen Haarlem; Maatschappij Nederlandse Letterkunde Leiden; Provinciaal Utrechts Genootschap; Koninklijke Maatschappij van Wetenschappen te Gottingen; Koninklijk Instituut van Wetenschappen, Letterkunde en Schone Kunsten",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Herstelt Kluit, Luzac en Boers in ambren",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Jeronimo",
+      "LastName": "DE BOSCH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1711",
+      "DeathDate": "1779",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "HEYDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1710",
+      "DeathDate": "1795",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jeronimo",
+      "LastName": "DE BOSCH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1677",
+      "DeathDate": "1767",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Judith",
+      "LastName": "WILLINK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "HEYDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1740-03-23",
+  "DeathDate": "1811-06-01",
+  "DeathCity": "Amsterdam"
+}

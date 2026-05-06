@@ -1,0 +1,292 @@
+{
+  "FirstName": "Otto",
+  "LastName": "HEURNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN HEURNE"
+  ],
+  "education": [
+    {
+      "subject": "Les Nicolaus Stochius",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1590-05-02",
+      "source": "20"
+    },
+    {
+      "subject": "Artium liberalium magister",
+      "location": "Leiden",
+      "date": "1599-08-24",
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1601-07-07",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Les Rhetorica",
+      "location": "Leiden",
+      "date": "1600-05-08",
+      "source": "17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1601-08-30",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1611-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Anatomie en Chirurgie",
+      "location": "Leiden",
+      "date": "1618",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Vriend Johan van Oldenbarnevelt",
+      "location": null,
+      "date": null,
+      "source": "77"
+    },
+    {
+      "particularity": "Salaris: f 300",
+      "location": null,
+      "date": "1601",
+      "source": "31"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1603",
+      "source": "31"
+    },
+    {
+      "particularity": "Salaris: f 430",
+      "location": null,
+      "date": "1607",
+      "source": "31"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1609",
+      "source": "31"
+    },
+    {
+      "particularity": "Salaris: f 650",
+      "location": null,
+      "date": "1613",
+      "source": "31"
+    },
+    {
+      "particularity": "Salaris: f 700",
+      "location": null,
+      "date": "1614",
+      "source": "31"
+    },
+    {
+      "particularity": "Ondertrouw",
+      "location": "Leiden",
+      "date": "1602-07-05",
+      "source": "2,b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "SWAENSWIJK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,b",
+      "second_names": [
+        "Laurensdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1668-09-29",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1543",
+      "DeathDate": "1601",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christine",
+      "LastName": "BEIERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1555",
+      "DeathDate": "1604",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Otto",
+      "LastName": "HEURNE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1515",
+      "DeathDate": "1583",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruida",
+      "LastName": "VELDE",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1604",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmus",
+      "LastName": "BEYER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "102,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "LIJSTER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "102,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Laurens",
+      "LastName": "SWAENSWIJK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "VISSCHER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [
+        "Derks"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1665-12-03",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1668-09-29",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1577-09-08",
+  "DeathDate": "1652-07-14",
+  "DeathCity": "Leiden"
+}

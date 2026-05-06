@@ -1,0 +1,162 @@
+{
+  "FirstName": "Nicolaas",
+  "LastName": "CROMHOUT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1577-12-30",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Raadsheer Hof van Holland",
+      "location": "Den Haag",
+      "date": "1591",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "President-Hoofdingeland",
+      "location": "Beemster",
+      "date": "1608",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "resident Hof van Holland",
+      "location": "Den Haag",
+      "date": "1620",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1626-1635",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Abigael",
+      "LastName": "FAGEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Nieuwkerk",
+      "BirthDate": "1567-08-16",
+      "DeathDate": "1591-04-15",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan Reynertsz.",
+      "LastName": "CROMHOUT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1516",
+      "DeathDate": "1588",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Neel",
+      "LastName": "REYERSD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1525",
+      "DeathDate": "1586",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Reynert",
+      "LastName": "CLAASZ.",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1485",
+      "DeathDate": "1540",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeske",
+      "LastName": "ALBERTSD",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Francois",
+      "LastName": "FAGEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agneta",
+      "LastName": "POIGNET",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": "1561-12-09",
+  "DeathDate": "1641-03-23",
+  "DeathCity": "Den Haag"
+}

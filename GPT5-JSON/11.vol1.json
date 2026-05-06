@@ -1,0 +1,291 @@
+{
+  "FirstName": "Caspar",
+  "LastName": "COOLHAES",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Janszoon"
+  ],
+  "alternative_last_names": [
+    "KOOLHAES",
+    "KOOLHAAS",
+    "COELAES",
+    "KOULHASTUS",
+    "KOLHAESE",
+    "COOLHAZE"
+  ],
+  "education": [
+    {
+      "subject": "stud.",
+      "location": "Keulen",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Hogeschool bij Joh. Morhemius",
+      "location": "D\u00fcsseldorf",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Voorbereiding tot de geestelijke stand",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Karthuizer monnik",
+      "location": "Koblenz",
+      "date": "1554",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hulpprediker",
+      "location": "Winningen (Moezel)",
+      "date": "1560",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Trarbach",
+      "date": "1561",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Bielstein",
+      "date": "1563",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Siegen (Nassau-Siegen)",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Deventer",
+      "date": "1566-09-15",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Essen",
+      "date": "1567",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Monsheim",
+      "date": "1571",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Gorinchem",
+      "date": "1573-05",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Rotterdam",
+      "date": "1574",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1574",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1575-01-08",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontzet uit ambt predikant door Holl. Synode",
+      "location": "Haarlem",
+      "date": "1582-03-25",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stoker gedistilleerde dranken",
+      "location": "Leiden",
+      "date": "1582",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Stoker",
+      "location": "Amsterdam",
+      "date": "1591",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Uitgever religieuze prenten",
+      "location": "Amsterdam",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Gerehabiliteerd door Nationale Synode",
+      "location": "Den Haag",
+      "date": "1586",
+      "source": "9",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Wellicht nooit echt hoogleraar geweest en slechts les gegeven in theologische faculteit",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Verblijf? Gouda",
+      "location": "Gouda",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "17 kinderen, waarvan 12 jong gestorven",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Huwelijk in 1561",
+      "location": null,
+      "date": "1561",
+      "source": "a,b"
+    },
+    {
+      "particularity": "Ouders rooms-katholiek; niet onaanzienlijk",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Griete",
+      "LastName": "CASPARSDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,6,b",
+      "second_names": [
+        "Grietje"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Adolf",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Caspar",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Keulen",
+  "BirthDate": "1534-01-24",
+  "DeathDate": "1615-01-15",
+  "DeathCity": null
+}

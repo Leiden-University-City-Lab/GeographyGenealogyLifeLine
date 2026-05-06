@@ -1,0 +1,264 @@
+{
+  "FirstName": "Everhardus",
+  "LastName": "BRONCKHORST",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school bij vader en de broers Pythopaeus",
+      "location": "Deventer",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Keulen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Privaatdocent",
+      "location": "Keulen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Marburg",
+      "date": "1577-04-16",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Erfurt",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Wittenberg",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Bazel",
+      "date": "1579-08-17",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verblijf",
+      "location": "Lyon",
+      "date": "1579",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Docent",
+      "location": "Wittenberg",
+      "date": "1579-1580",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Docent",
+      "location": "Erfurt",
+      "date": "1580-1582",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terug in Deventer",
+      "location": "Deventer",
+      "date": "1582",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid vroedschap (voor 1587)",
+      "location": "Deventer",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vlucht voor Spanjaarden naar Leiden",
+      "location": "Leiden",
+      "date": "1587",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1587-08-24",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1621-08-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1604",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanbod Franeker afgewezen",
+      "location": "Franeker",
+      "date": "1597",
+      "source": null
+    },
+    {
+      "particularity": "In Leiden door steun Leoninus en prof. Beijna (ontmoet in Wittenberg)",
+      "location": "Leiden",
+      "date": null,
+      "source": "48"
+    },
+    {
+      "particularity": "Woont Rapenburg 42",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f400 (1587), f500 (1588), f550 (1591), f600 (1592), f700 (1593), f800 (voor 1621)",
+      "location": null,
+      "date": null,
+      "source": "102,49"
+    },
+    {
+      "particularity": "Ontslag wegens gezondheid met behoud volle wedde",
+      "location": "Leiden",
+      "date": null,
+      "source": "49"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adelheid",
+      "LastName": "MIDDELBURCH",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "BRONCKHORST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1494",
+      "DeathDate": "1570",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara",
+      "LastName": "COSTER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "COSTER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "B",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aaltje",
+      "LastName": "HAAR",
+      "Affix": "ter",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Gerardus",
+      "LastName": "BRONCKHORST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "BRONCKHORST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Zwolle",
+      "BirthDate": "1587-02-26",
+      "DeathDate": "1617-07-15",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Deventer",
+  "BirthDate": "1554-03-27",
+  "DeathDate": "1627-05-27",
+  "DeathCity": "Leiden"
+}

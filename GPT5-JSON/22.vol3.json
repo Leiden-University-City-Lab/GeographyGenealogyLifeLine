@@ -1,0 +1,176 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "LINDERSHAUSEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "LINDERSHUYSEN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Herborn",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Douai",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud., Lic.Iur.",
+      "location": "Marburg",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1613-01-04",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Rechten (Instituten)",
+      "location": "Leiden",
+      "date": "1603",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten; onderwijs Instituten",
+      "location": "Leiden",
+      "date": "1611-02-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten; onderwijs Instituten",
+      "location": "Leiden",
+      "date": "1613-08-03",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Pandecten",
+      "location": "Leiden",
+      "date": "1633",
+      "source": "35",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1639",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanvankelijk deelt hij aanstelling met Lettingius",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Op nominatie voor rectoraat, zonder gevolg",
+      "location": null,
+      "date": "1621",
+      "source": "2"
+    },
+    {
+      "particularity": "Ondertrouw met Magdalena de Brandijnst",
+      "location": "Leiden",
+      "date": "1610-07-29",
+      "source": "a"
+    },
+    {
+      "particularity": "Dochter Catrijna ondertrouwd met Albertus Cuperus (de hoogleraar?), dr.phil.",
+      "location": "Leiden",
+      "date": "1644-06-01",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Magdalena",
+      "LastName": "BRANDIJNST",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "LINDERSHAUSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rombout",
+      "LastName": "LINDERSHAUSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catrijna",
+      "LastName": "LINDERSHAUSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Schwelm",
+  "BirthDate": "1571",
+  "DeathDate": "1645-08-08",
+  "DeathCity": "Leiden"
+}

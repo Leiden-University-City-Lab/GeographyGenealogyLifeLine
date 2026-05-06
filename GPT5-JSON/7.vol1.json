@@ -1,0 +1,184 @@
+{
+  "FirstName": "Bro\u00ebrius",
+  "LastName": "BROES",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Brou\u00ebrius",
+    "Brouerius"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1773-09-10",
+      "source": "17"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Proponent",
+      "location": null,
+      "date": "1779",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1784-06-08",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Vuren en Dalem",
+      "date": "1779-08-29",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Vlissingen",
+      "date": "1780-07-23",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1784-02-21",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1792",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1793",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Uitlegkunde van het Nieuwe Test. (tev.)",
+      "location": "Leiden",
+      "date": "1799-01-05",
+      "source": "14",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Patriot",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Oratie als Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1784-06-14",
+      "source": "56"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "BROES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4a,6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1726-07-09",
+      "DeathDate": "1797-10-26",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "BROUWER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "BROES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Jr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BOONEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Jansdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Brou\u00ebrius",
+      "LastName": "BROUWER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Velp",
+  "BirthDate": "1757",
+  "DeathDate": "1799-02-24",
+  "DeathCity": "Leiden"
+}

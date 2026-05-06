@@ -1,0 +1,168 @@
+{
+  "FirstName": "Frans",
+  "LastName": "VAN SCHOOTEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Onderwijs bij Remonstrantse dominee J. Batelier",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Wisk.",
+      "location": "Leiden",
+      "date": "1631-05-15",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatcolleges",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof om colleges van vader over te nemen",
+      "location": "Leiden",
+      "date": "1635-06-08",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Frankrijk via Londen, Dublin, Engeland, Blois, Parijs",
+      "location": "Frankrijk",
+      "date": "1641",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Nederduitsche math\u00e9matigue en Wiskunde",
+      "location": "Leiden",
+      "date": "1646-02-08",
+      "source": "18",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Mersenne, Fermat, Mylon, Hardy, Wallis, Descartes, Constantijn Huygens",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Leermeester van Johan de Witt, Christiaan Huygens en Hudde",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Ondanks zijn arminianisme met steun van Descartes, Constantijn Huygens en de Winterkoningin toch hoogleraar in 1646",
+      "location": null,
+      "date": "1646",
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Herensteeg",
+      "location": "Herensteeg",
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1646",
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": "1647",
+      "source": "34"
+    },
+    {
+      "particularity": "Gehuwd met Margrieta Wijnandt",
+      "location": "Leiden",
+      "date": "1652-07-19",
+      "source": "3,34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Margrieta",
+      "LastName": "WIJNANDT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3,34",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "VAN SCHOOTEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,13",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1645",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "VAN HOOGERVORST",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "VAN SCHOOTEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1615",
+  "DeathDate": "1660-05-29",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,234 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "DRUSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN DEN DRIESSCHE"
+  ],
+  "education": [
+    {
+      "subject": "Lagere school",
+      "location": "Gent",
+      "date": "1560",
+      "source": "17,33"
+    },
+    {
+      "subject": "School",
+      "location": "Leuven",
+      "date": "1563",
+      "source": "33"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": "1567",
+      "source": "2Z"
+    },
+    {
+      "subject": "Mag.art.",
+      "location": "Leuven",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Cambridge",
+      "date": "1569-08-03",
+      "source": "14"
+    },
+    {
+      "subject": "B.A. (Merton College)",
+      "location": "Oxford",
+      "date": "1572-07-15",
+      "source": "33"
+    },
+    {
+      "subject": "M.A. (Merton College)",
+      "location": "Oxford",
+      "date": "1573-10-08",
+      "source": "33"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Frankrijk",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leuven",
+      "date": "1576",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Hebreeuws, Chaldeeuwsch en Syrisch (Merton College)",
+      "location": "Oxford",
+      "date": "1572-1576",
+      "source": "2,33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuwse, Chaldeeusche en Syrische talen",
+      "location": "Leiden",
+      "date": "1577-06-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1584-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Franeker",
+      "date": "1585",
+      "source": "2,33",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Arminius die hem via Uyttenbogaert helpt bij opdracht voor commentaar Oude Testament",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Aanbiedingen Engeland afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "79"
+    },
+    {
+      "particularity": "Door Lipsius aanbevolen in Franeker",
+      "location": "Franeker",
+      "date": null,
+      "source": "288"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": "Franeker",
+      "date": "1585",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": "Franeker",
+      "date": "1587",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 700",
+      "location": "Franeker",
+      "date": "1595",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "VARENT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Gent",
+      "BirthDate": null,
+      "DeathDate": "1599",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Clemens",
+      "LastName": "DRIESSCHE",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elizabeth",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Agneta",
+      "LastName": "DRUSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "DRUSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1587",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "DRUSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,33",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1588-06-26",
+      "DeathDate": "1609",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Oudenaarde",
+  "BirthDate": "1550-06-28",
+  "DeathDate": "1616-02-12",
+  "DeathCity": "Franeker"
+}

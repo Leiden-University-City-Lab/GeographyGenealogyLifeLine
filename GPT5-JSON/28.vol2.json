@@ -1,0 +1,223 @@
+{
+  "FirstName": "Albertus",
+  "LastName": "KYPER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "KYPERUS",
+    "CUPERUS",
+    "CYPERUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Med.",
+      "location": "Koningsbergen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1638-06-30",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1640-10-23",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Physica",
+      "location": "Leiden",
+      "date": "1643-09-20",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuur- en Geneeskunde",
+      "location": "Breda",
+      "date": "1646",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Algemene Pathologie, Therapie, Speciale Pathologie en Heelkunde)",
+      "location": "Leiden",
+      "date": "1650-06-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1655",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofd Kliniek",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lijfarts prins Frederik Hendrik",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Afgewezen als hoogleraar Philosophie",
+      "location": "Leiden",
+      "date": "1640",
+      "source": "78"
+    },
+    {
+      "particularity": "Diss. De lue venerea",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Luthers, later gereformeerd",
+      "location": null,
+      "date": null,
+      "source": "9"
+    },
+    {
+      "particularity": "Oranjegezind",
+      "location": null,
+      "date": null,
+      "source": "9"
+    },
+    {
+      "particularity": "Beschermeling David le Leu de Wilhem (zwager Huygens) (vgl. Schuyl)",
+      "location": null,
+      "date": null,
+      "source": "78"
+    },
+    {
+      "particularity": "Salaris: f 250",
+      "location": "Leiden",
+      "date": "1644",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 300",
+      "location": "Leiden",
+      "date": "1645",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 1200",
+      "location": "Leiden",
+      "date": "1646",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 1200",
+      "location": "Leiden",
+      "date": "1650",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 1400",
+      "location": "Leiden",
+      "date": "1651",
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "Linderhuysen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "9",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Onbekend",
+      "LastName": "KYPER",
+      "Affix": null,
+      "Gender": null,
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1648-06-22",
+      "DeathCity": "Breda"
+    },
+    {
+      "FirstName": "Albertus",
+      "LastName": "KYPER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1647-06-26",
+      "DeathDate": "1647-08-07",
+      "DeathCity": "Breda"
+    },
+    {
+      "FirstName": "Gerardus",
+      "LastName": "KYPER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1649-04",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "KYPER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1650-08-15",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Koningsbergen",
+  "BirthDate": "1600",
+  "DeathDate": "1655-09-15",
+  "DeathCity": "Leiden"
+}

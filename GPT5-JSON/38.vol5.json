@@ -1,0 +1,53 @@
+{
+  "FirstName": "Joannes Franciscus",
+  "LastName": "MIELLE",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Officier de l'Universit\u00e9 de France",
+      "location": null,
+      "date": null,
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Franse letterkunde",
+      "location": "Leiden",
+      "date": "1812",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid commissie van landbouw, handel en industrie",
+      "location": "Parijs",
+      "date": null,
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid van Soci\u00e9t\u00e9 de statistique",
+      "location": null,
+      "date": null,
+      "source": "7",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "D\u00f4le",
+  "BirthDate": "1758-04-24",
+  "DeathDate": null,
+  "DeathCity": null
+}

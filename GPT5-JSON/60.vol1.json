@@ -1,0 +1,350 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "WESSELIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Theol.",
+      "location": "Groningen",
+      "date": "1689-04-25",
+      "source": "16"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1689-12-08",
+      "source": "17"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1699-10-02",
+      "source": "a"
+    },
+    {
+      "subject": "Proponent",
+      "location": "Franeker",
+      "date": "1692",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Akkrum en Terhorne",
+      "date": "1692-11-09",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "St. Jacobiparochie",
+      "date": "1694-09",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Purmerend",
+      "date": "1700",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Rotterdam",
+      "date": "1705-07-26",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. en Kerkelijke Geschiedenis",
+      "location": "Rotterdam",
+      "date": "1705-07",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. en Kerkelijke Geschiedenis",
+      "location": "Rotterdam",
+      "date": "1711-01-05",
+      "source": "45",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1712-02-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (halve taak)",
+      "location": "Leiden",
+      "date": "1712-09",
+      "source": "45",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1728",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1729",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Gewijde Welsprekendheid",
+      "location": "Leiden",
+      "date": "1738-08-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1740",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1741",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1717",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1734",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "RUYTENBURG",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [
+        "RUITENBURGH"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1667",
+      "DeathDate": "1705-02-02",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agatha",
+      "LastName": "HOGENDORP",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Margaretha"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1671-07-12",
+      "DeathDate": "1753-03-19",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Bermanrus",
+      "LastName": "WESSELIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Leer",
+      "BirthDate": null,
+      "DeathDate": "1678",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gesina",
+      "LastName": "RENEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Griske"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1699",
+      "DeathCity": "Leeuwarden"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Hermannus",
+      "LastName": "WESSELIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1627",
+      "DeathCity": "Gedesweer"
+    },
+    {
+      "FirstName": "Elske",
+      "LastName": "DIRKS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Herman",
+      "LastName": "RENEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "N.",
+      "LastName": "KOLDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Gerard Constantijn",
+      "LastName": "RUITENBURGH",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [
+        "RUYTENBURG"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "PAUW",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan Diederick",
+      "LastName": "HOGENDORP",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "KETTING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Adriana Johanna",
+      "LastName": "WESSELIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1705-01-20",
+      "DeathDate": "1769-02-25",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Embden",
+  "BirthDate": "1671-10-20",
+  "DeathDate": null,
+  "DeathCity": "Leiden"
+}

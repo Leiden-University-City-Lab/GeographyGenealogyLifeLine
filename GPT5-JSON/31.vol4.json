@@ -1,0 +1,118 @@
+{
+  "FirstName": "Pibo",
+  "LastName": "STEENSTRA",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1754",
+      "source": "7"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Leiden",
+      "date": "1763",
+      "source": "4"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Mathematicus",
+      "location": "Franeker",
+      "date": null,
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Nederduitsche mathematique",
+      "location": "Leiden",
+      "date": "1759-08-16",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector mathematique",
+      "location": "Leiden",
+      "date": "1759-11-05",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Astronomie",
+      "location": "Amsterdam",
+      "date": "1763-11-21",
+      "source": "1,13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De pulveris pyrii theoria",
+      "location": null,
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Beschermeling van prof. Nic. Ypey",
+      "location": null,
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Dingt vergeefs naar hoogleraarschap Amsterdam",
+      "location": "Amsterdam",
+      "date": "1771",
+      "source": "1"
+    },
+    {
+      "particularity": "Salaris: fdoo",
+      "location": null,
+      "date": "1759",
+      "source": "4"
+    },
+    {
+      "particularity": "Vader tichelaarsknecht",
+      "location": null,
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Wis- en Zeevaartkunde",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Onbekend",
+      "LastName": "STEENSTRA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": "1788-07-21",
+  "DeathCity": null
+}

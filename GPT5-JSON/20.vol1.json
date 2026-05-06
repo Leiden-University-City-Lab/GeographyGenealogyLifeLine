@@ -1,0 +1,290 @@
+{
+  "FirstName": "Aegidius",
+  "LastName": "GILLISSEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Gillis' in Aegidius (Gillis)"
+  ],
+  "alternative_last_names": [
+    "GILLISEN"
+  ],
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Middelburg",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Groningen",
+      "date": "1732-08-23",
+      "source": "6"
+    },
+    {
+      "subject": "Proponent Classis Walcheren",
+      "location": "Walcheren",
+      "date": "1736-11-01",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Franeker",
+      "date": "1748-04-01",
+      "source": "b"
+    },
+    {
+      "subject": "Doct. Phil. Hon. Causa",
+      "location": "Franeker",
+      "date": "1748-04-03",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred. (beroepen)",
+      "location": "Borselen",
+      "date": "1737-05-31",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (intrede)",
+      "location": "Borselen",
+      "date": "1737-09-08",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (afscheid)",
+      "location": "Borselen",
+      "date": "1741-04-12",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (beroepen)",
+      "location": "Terneuzen",
+      "date": "1740-12-09",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (intrede)",
+      "location": "Terneuzen",
+      "date": "1741-03-19",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (afscheid)",
+      "location": "Terneuzen",
+      "date": "1745-05-02",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (beroepen)",
+      "location": "Bergen op Zoom",
+      "date": "1744-11-10",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (bevestigd)",
+      "location": "Bergen op Zoom",
+      "date": "1745-05-16",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (afscheid)",
+      "location": "Bergen op Zoom",
+      "date": "1746-03-06",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (beroepen)",
+      "location": "Vlissingen",
+      "date": "1745-11-07",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (intrede)",
+      "location": "Vlissingen",
+      "date": "1746-03-13",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (afscheid)",
+      "location": "Vlissingen",
+      "date": "1747-07-30",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1747-03-03",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Franeker",
+      "date": "1765-05",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1760-1761",
+      "source": "6,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1765-01-30",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. (intrede)",
+      "location": "Leiden",
+      "date": "1765-06-17",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1789-01-07",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritaat",
+      "location": "Leiden",
+      "date": null,
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1768-1769",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": null,
+  "spouses": [
+    {
+      "FirstName": "Cornelia Petronella",
+      "LastName": "Willekens",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1730",
+      "DeathDate": "1799-05-28",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gillis",
+      "LastName": "Gillissen",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,bb",
+      "second_names": [
+        "'Gilles' in Gillis (Gilles)"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Kuypers",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,bb",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": null,
+  "in_laws": [
+    {
+      "FirstName": "Jacoh",
+      "LastName": "Willekens",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Zuydhoeck",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Aegidins Willekens",
+      "LastName": "GILLISSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1841-01-15",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Middelburg",
+  "BirthDate": "1712-07-12",
+  "DeathDate": "1800-06-13",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,151 @@
+{
+  "FirstName": "Johannes Arent",
+  "LastName": "FAS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Wiskunde",
+      "location": "Leiden",
+      "date": "1760-08-27",
+      "source": "14"
+    },
+    {
+      "subject": "Doct. Phil. h.c.",
+      "location": "Leiden",
+      "date": "1774-03-14",
+      "source": "15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Wiskunde",
+      "location": "Leiden",
+      "date": "1763",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wis-, Sterre- en Zeevaartkunde",
+      "location": "Leiden",
+      "date": "1773",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1812",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus met behoud titel en rang van buitengewoon hoogleraar",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Langebrug",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "TIERI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "TIRI"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1765-07-15",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "FAS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "NOORTIEE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "NOORTJE",
+        "NORTJE"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Arent",
+      "LastName": "FAS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerritje",
+      "LastName": "Diest?",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1742-08-29",
+  "DeathDate": "1817-11-15",
+  "DeathCity": "Leiden"
+}

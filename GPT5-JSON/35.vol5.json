@@ -1,0 +1,39 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "MAKOLO",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Toestemming om twee maal per week het Organon van Aristoteles te verklaren",
+      "location": "Leiden",
+      "date": "1597-11-20",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bleef zeer kort",
+      "location": "Leiden",
+      "date": null,
+      "source": "27"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Schotland",
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

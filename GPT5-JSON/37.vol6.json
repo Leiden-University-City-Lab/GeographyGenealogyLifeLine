@@ -1,0 +1,99 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "DE VILLEMANDIE",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Montauban",
+      "date": null,
+      "source": "b"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Saumur",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Saintonge",
+      "date": null,
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Saumur",
+      "date": "1669-1683",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Saumur",
+      "date": "1676",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht",
+      "location": null,
+      "date": "1685",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Prep. Examen Proponent",
+      "location": null,
+      "date": "1687",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Waals College",
+      "location": "Leiden",
+      "date": "1688-11-08",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Cartesiaan",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Verzoek lector te worden door Curatoren afgewezen",
+      "location": null,
+      "date": "1685-1686",
+      "source": "b"
+    },
+    {
+      "particularity": "Woont Papegracht bij Langebrug",
+      "location": null,
+      "date": null,
+      "source": "b"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "La Rochefoucauld",
+  "BirthDate": "1636",
+  "DeathDate": "1703-03-06",
+  "DeathCity": "Leiden"
+}

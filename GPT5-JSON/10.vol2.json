@@ -1,0 +1,66 @@
+{
+  "FirstName": "Hubertus",
+  "LastName": "BIJLIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BILIUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1609-02-14",
+      "source": "20"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Padua",
+      "date": "1614",
+      "source": "23"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1615-08-18",
+      "source": "20"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proefles anatomie",
+      "location": "Leiden",
+      "date": "1617-11-27",
+      "source": "19,33",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Niet aangenomen na proefles",
+      "location": "Leiden",
+      "date": "1617-11-27",
+      "source": null
+    },
+    {
+      "particularity": "In Padua met studiebeurs Staten-Generaal",
+      "location": "Padua",
+      "date": null,
+      "source": "20"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amersfoort",
+  "BirthDate": "1590-07-04",
+  "DeathDate": null,
+  "DeathCity": null
+}

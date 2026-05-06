@@ -1,0 +1,198 @@
+{
+  "FirstName": "Cornelius",
+  "LastName": "SWANENBURG",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Paulinus"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Iur.",
+      "location": "Douai",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Lic. Iur.",
+      "location": "Douai",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1595-09-06",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur. h.c.",
+      "location": "Leiden",
+      "date": "1597",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1597-11-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten; onderwijs Instituten, later Pandecten",
+      "location": "Leiden",
+      "date": "1611",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1615",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1616",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Pas na herroepen eed Douai doctoraal examen Leiden",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Op nominatie rectoraat 1613 en 1622",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Verdedigt meermalen belangen universiteit bij Staten van Holland",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 500, meermalen verhoogd",
+      "location": null,
+      "date": "1603",
+      "source": "2,54"
+    },
+    {
+      "particularity": "Buitengewoon hoogleraarschap met Pijnacker",
+      "location": "Leiden",
+      "date": "1597-11-09",
+      "source": "25"
+    },
+    {
+      "particularity": "Ondertrouw met Wilhelmina van Tetrode",
+      "location": "Leiden",
+      "date": "1602-12-17",
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "Tetrode",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [
+        "gezegd van Weesp"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Bartholomeus",
+      "LastName": "Tetrode",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Dirksz."
+      ],
+      "alternative_last_names": [
+        "gezegd van Weesp"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1537",
+      "DeathDate": "1604",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alijt",
+      "LastName": "Borgers",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Jacobsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "Brouchoven",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Paulus",
+      "LastName": "SWANENBURG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1607",
+      "DeathDate": "1674-02-04",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1574-09-12",
+  "DeathDate": "1630-05-12",
+  "DeathCity": "Leiden"
+}

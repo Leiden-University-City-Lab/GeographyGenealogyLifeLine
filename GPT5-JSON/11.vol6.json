@@ -1,0 +1,120 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "POLYANDER A KERKHOVEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "POLYANDER VAN KERCKHOVEN"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Surintendant van Maria Stuart",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Luitenant-Houtvester van Holland",
+      "location": "Holland",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Kerckhoven, Heenvliet en Sassenheim",
+      "location": null,
+      "date": null,
+      "source": "a) De vroedschap van Amsterdam - J.E. Elias"
+    },
+    {
+      "particularity": "Ondertrouw met Anna van Wesick",
+      "location": "Amsterdam",
+      "date": "1619-12-06",
+      "source": null
+    },
+    {
+      "particularity": "Getrouwd met Lady Catherine Wotton",
+      "location": "Engeland",
+      "date": "1641",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "Wesick",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1598",
+      "DeathDate": "1640",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catherine",
+      "LastName": "Wotton",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Lady"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "Carel",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a) De vroedschap van Amsterdam - J.E. Elias",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1545",
+      "DeathDate": "1616",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomina",
+      "LastName": "Florisd.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a) De vroedschap van Amsterdam - J.E. Elias",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Dordrecht",
+  "BirthDate": "1594-08-24",
+  "DeathDate": "1660-03-07",
+  "DeathCity": "Sassenheim"
+}

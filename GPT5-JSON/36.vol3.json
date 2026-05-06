@@ -1,0 +1,364 @@
+{
+  "FirstName": "Nicolaas",
+  "LastName": "SMALLENBURG",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Delft",
+      "date": "1779-03-12",
+      "source": "10"
+    },
+    {
+      "subject": "Stud. Litt.",
+      "location": "Leiden",
+      "date": "1779-03-03",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1785",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": null,
+      "date": "1785",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris kapittel St. Marie",
+      "location": "Utrecht",
+      "date": "1785",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Notaris",
+      "location": "Utrecht",
+      "date": "1787",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1788-04-26",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten, onderwijs",
+      "location": "Leiden",
+      "date": "1790-06-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs burgerlijk recht",
+      "location": "Leiden",
+      "date": "1790",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Code Napoleon",
+      "location": "Leiden",
+      "date": "1813",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd, onderwijs Instituten, burgerlijk en Nederlands recht",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus (1795-1796)",
+      "location": "Leiden",
+      "date": "1795",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus (1805-1806)",
+      "location": "Leiden",
+      "date": "1805",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus (1820-1821)",
+      "location": "Leiden",
+      "date": "1820",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1834",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Iur. Ad fragmentum Iuliani ex libro eius 16 Digestorum, quod extat in l. VIII pr. D. de condict. caus. dat. caus. non sec., bij prof. B. Voorda",
+      "location": null,
+      "date": null,
+      "source": "26a,26b"
+    },
+    {
+      "particularity": "Door Willem V zelf voorgedragen in Franeker",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Lid Hollandse Maatschappij der Wetenschappen te Haarlem",
+      "location": null,
+      "date": "1810",
+      "source": "10"
+    },
+    {
+      "particularity": "Lid Koninklijk Nederlands Instituut 3e klasse",
+      "location": null,
+      "date": "1821",
+      "source": null
+    },
+    {
+      "particularity": "Ridder Nederlandse Leeuw",
+      "location": null,
+      "date": null,
+      "source": "70"
+    },
+    {
+      "particularity": "Salaris: f 1150",
+      "location": null,
+      "date": "1788",
+      "source": "10"
+    },
+    {
+      "particularity": "Broer, oom en neef van zijn vrouw zijn lid van de vroedschap te Den Haag",
+      "location": null,
+      "date": null,
+      "source": "b"
+    },
+    {
+      "particularity": "Neef van zijn vrouw is pensionaris van Haarlem",
+      "location": null,
+      "date": null,
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Hachel",
+      "LastName": "KASTEELE",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1767-02-01",
+      "DeathDate": "1821-10-10",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Frederik",
+      "LastName": "SMALLENBURG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1712",
+      "DeathDate": "1778",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agatha",
+      "LastName": "BREEST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1725",
+      "DeathDate": "1806",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Frederik",
+      "LastName": "SMALLENBURG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1658",
+      "DeathDate": "1718",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriaantje Frederiksd.",
+      "LastName": "FEEKEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hermannus",
+      "LastName": "BREEST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "KATS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1702",
+      "DeathDate": "1752",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Wilhelmus Bartholomeus",
+      "LastName": "KASTEELE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1724",
+      "DeathDate": "1812",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "MEER",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1723",
+      "DeathDate": "1807",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Frederik Willem",
+      "LastName": "SMALLENBURG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1789-08-07",
+      "DeathDate": "1832-05-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Willem Bartholomeus",
+      "LastName": "SMALLENBURG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1791-12-09",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba Wilhelmina Adriana",
+      "LastName": "SMALLENBURG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1793-10-17",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Leonora Agatha",
+      "LastName": "SMALLENBURG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1796-02-14",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Nootdorp",
+  "BirthDate": "1761-12-01",
+  "DeathDate": "1836-07-20",
+  "DeathCity": "Warmond"
+}

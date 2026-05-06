@@ -1,0 +1,198 @@
+{
+  "FirstName": "Daniel Albert",
+  "LastName": "WYTTENBACH",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Marburg",
+      "date": "1760",
+      "source": "2,5"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Gottingen",
+      "date": "1768-06-02",
+      "source": "21"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1770-10-19",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Phil.h.c.",
+      "location": "Leiden",
+      "date": "1811-12-24",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Letteren en Wijsbegeerte, Remonstrants Seminarium",
+      "location": "Amsterdam",
+      "date": "1771-06-04",
+      "source": "2,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Letteren en Wijsbegeerte, Remonstrants Seminarium",
+      "location": "Amsterdam",
+      "date": "1771-11-09",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Studiereis",
+      "location": "Parijs",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Amsterdam",
+      "date": "1779-10-25",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bibliothecaris",
+      "location": "Leiden",
+      "date": "1798",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse en Latijnse Letteren, Algemene Geschiedenis, Welsprekendheid, Dichtkunde en Oudheden",
+      "location": "Leiden",
+      "date": "1799-01-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse en Latijnse Letteren, Algemene Geschiedenis, Welsprekendheid, Dichtkunde en Oudheden",
+      "location": "Leiden",
+      "date": "1799-05-04",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als bibliothecaris",
+      "location": "Leiden",
+      "date": "1816",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1817",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gesteund door Ruhnkenius, Bosch en Cras",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Wil niet naast Ruhnkenius komen als opvolger Valckenaer",
+      "location": null,
+      "date": "1785",
+      "source": null
+    },
+    {
+      "particularity": "Aanbiedingen uit Duitsland, Zwitserland en Bern (1788, 1797) afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "2,5"
+    },
+    {
+      "particularity": "Ruzie met Luzac",
+      "location": null,
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "Lid Be Klasse Koninklijk Instituut, Societas Ienensis, Franse Academie van Wetenschappen",
+      "location": null,
+      "date": "1814",
+      "source": "2"
+    },
+    {
+      "particularity": "Woonde Rapenburg bij de Vliet, huis verwoest",
+      "location": "Leiden",
+      "date": "1807",
+      "source": "a"
+    },
+    {
+      "particularity": "Bezit landgoed \"De hoge boom\"",
+      "location": "Oegstgeest",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 4000",
+      "location": null,
+      "date": "1798",
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "WYTTENBACH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1706",
+      "DeathDate": "1779",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina Rosina",
+      "LastName": "LOMBACH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Zwitserland",
+  "BirthCity": "Bern",
+  "BirthDate": "1740-08-07",
+  "DeathDate": "1820-01-17",
+  "DeathCity": "Oegstgeest"
+}

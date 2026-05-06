@@ -1,0 +1,96 @@
+{
+  "FirstName": "Georgius Conradus",
+  "LastName": "CRUSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "CRUCIUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Phil.",
+      "location": "Harderwijk",
+      "date": "1659-05-11",
+      "source": "20"
+    },
+    {
+      "subject": null,
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": null,
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Franeker",
+      "date": "1669-09-22",
+      "source": "12"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Rechten (onderwijs)",
+      "location": "Leiden",
+      "date": "1669-12-13",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1670-11-20",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Jong overleden door te weinig lichaamsbeweging en te veel studie",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Diss. Ex Ulpiano Libro IV ad edictum de pacis et conventionibus bij prof. Glins",
+      "location": null,
+      "date": null,
+      "source": "12"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Bernhardus",
+      "LastName": "CRUSINS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "CRUSIUS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Zutphen",
+  "BirthDate": "1644-05-14",
+  "DeathDate": "1676-03-31",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,257 @@
+{
+  "FirstName": "Diderious",
+  "LastName": "VAN DER KEMP",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Erasmiaanse school",
+      "location": "Rotterdam",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": "1752-11-01",
+      "source": "6"
+    },
+    {
+      "subject": "Lic. Theol.",
+      "location": "Utrecht",
+      "date": "1756",
+      "source": "6"
+    },
+    {
+      "subject": "Proponent Classis",
+      "location": "Rotterdam",
+      "date": "1756-01-13",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1766-05-27",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Streefkerk",
+      "date": "1756-11-14",
+      "source": "6,49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Zwijndrecht",
+      "date": "1757-10-30",
+      "source": "6,49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Purmerend",
+      "date": "1759-06-17",
+      "source": "6,49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Dordrecht",
+      "date": "1760-06-28",
+      "source": "6,49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1764-11-04",
+      "source": "6,49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kerkelijke Geschiedenis (Fac. der Kunsten en Wetenschappen)",
+      "location": "Leiden",
+      "date": "1766-04-29",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1779-02-01",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1775-1776",
+      "source": "17",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Margaretha Elisabeth",
+      "LastName": "Wall",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1741-12-04",
+      "DeathDate": "1789-09-26",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelidus",
+      "LastName": "Kemp",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dirksland",
+      "BirthDate": "1702-11-07",
+      "DeathDate": "1772-07-08",
+      "DeathCity": "Woerden"
+    },
+    {
+      "FirstName": "Anna Marda",
+      "LastName": "Teylingen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1707-08-23",
+      "DeathDate": "1771",
+      "DeathCity": "Rotterdam"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "Kemp",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1664-03-20",
+      "DeathDate": "1718-11-17",
+      "DeathCity": "Dirksland"
+    },
+    {
+      "FirstName": "Alida",
+      "LastName": "Rogge",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Direk",
+      "LastName": "Teylingen",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1656-04-28",
+      "DeathDate": "1734-08-13",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Bosch",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1668-07-17",
+      "DeathDate": "1743-04-13",
+      "DeathCity": "Rotterdam"
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "Wall",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Hanau",
+      "BirthDate": "1693-02-22",
+      "DeathDate": "1759-10-08",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Margaretha Elisabeth",
+      "LastName": "Heelbo",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1705-10-05",
+      "DeathDate": "1758-07-03",
+      "DeathCity": "Dordrecht"
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes Cornelius",
+      "LastName": "VAN DER KEMP",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1768-02-11",
+      "DeathDate": "1823-11-23",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Rotterdam",
+  "BirthDate": "1731-12-14",
+  "DeathDate": "1780-08-04",
+  "DeathCity": "Leiden"
+}

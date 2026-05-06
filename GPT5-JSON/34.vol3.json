@@ -1,0 +1,204 @@
+{
+  "FirstName": "Anton",
+  "LastName": "SCHULTINGH",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Triviale school",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1675-09-19",
+      "source": "10,26"
+    },
+    {
+      "subject": "Doct.Iur",
+      "location": "Leiden",
+      "date": "1683-10-19",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatdocent",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Harderwijk",
+      "date": "1691-04-07",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1693",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1694",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1694-11-16",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1701",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1711",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1713-10-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1717",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1718",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens leeftijd",
+      "location": "Leiden",
+      "date": "1733-03-14",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Doch bleef tot dood",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Kiest rechten als hoofdvak door prof. Rijcke",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Disp. De naturali obligatione bij prof. Voet",
+      "location": null,
+      "date": null,
+      "source": "26a"
+    },
+    {
+      "particularity": "Prof. R\u00fcicker erft zijn manuscripten en geeft ze uit",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "SCHULTINGH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "25,28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1630",
+      "DeathDate": "1666",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Isaac",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "a,28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1595",
+      "DeathDate": "1665",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BUISSONET DE LA CANE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1599",
+      "DeathDate": "1669",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Nijmegen",
+  "BirthDate": "1659-07-23",
+  "DeathDate": "1734-03-12",
+  "DeathCity": "Leiden"
+}

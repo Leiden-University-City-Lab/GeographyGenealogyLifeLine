@@ -1,0 +1,46 @@
+{
+  "FirstName": "Laurens",
+  "LastName": "OORSCHOT",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Delft",
+      "date": null,
+      "source": "73",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor der Griekse scientie",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Geen medisch onderwijs gegeven, hervat praktijk in Delft snel",
+      "location": "Delft",
+      "date": null,
+      "source": "73"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

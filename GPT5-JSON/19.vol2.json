@@ -1,0 +1,307 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "FOREEST",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [
+    "'Petrus' in Pieter (Petrus)"
+  ],
+  "alternative_last_names": [
+    "FORESTUS"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Alkmaar",
+      "date": null,
+      "source": "57"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leuven",
+      "date": "1536",
+      "source": "57"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leuven",
+      "date": "1539",
+      "source": "57"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Padua",
+      "date": null,
+      "source": "57"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Veneti\u00eb",
+      "date": null,
+      "source": "57"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Ferrara",
+      "date": null,
+      "source": "57"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Bologna",
+      "date": "1543",
+      "source": "57"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": "1543",
+      "source": "57"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verblijf",
+      "location": "Rome",
+      "date": "1543",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Legerarts Keizerlijk leger",
+      "location": "Donaulanden en Spanje",
+      "date": "1544",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Parijs",
+      "date": "1545",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Bordeaux",
+      "date": "1545",
+      "source": "57,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Alkmaar",
+      "date": "1546",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Delft",
+      "date": "1558",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid Papengilde",
+      "location": "Alkmaar",
+      "date": "1546",
+      "source": "37"
+    },
+    {
+      "particularity": "Geboorte genoteerd als okt. of nov. 1521; ook genoemd 1522",
+      "location": null,
+      "date": null,
+      "source": "37,57"
+    },
+    {
+      "particularity": "Huwelijk met Eva van Teylingen in 1546",
+      "location": null,
+      "date": null,
+      "source": "37"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Eva",
+      "LastName": "TEYLINGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "37",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1525",
+      "DeathDate": "1595",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jorden",
+      "LastName": "FOREEST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "37",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1494",
+      "DeathDate": "1559",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "BEYERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "37",
+      "second_names": [
+        "Nannings"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1546",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jorden",
+      "LastName": "FOREEST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "37",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aleid",
+      "LastName": "JANSDR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "37",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Augustijn",
+      "LastName": "TEYLINGEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "37,57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1475",
+      "DeathDate": "1553",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "EGMOND VAN DEN NIJENBURG",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "37",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1484",
+      "DeathDate": "1556",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Augustijn",
+      "LastName": "FOREEST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "77",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1552",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "FOREEST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "37",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "FOREEST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "77",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1574",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "FOREEST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "37",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Alkmaar",
+  "BirthDate": "1521",
+  "DeathDate": "1597-03-10",
+  "DeathCity": "Alkmaar"
+}

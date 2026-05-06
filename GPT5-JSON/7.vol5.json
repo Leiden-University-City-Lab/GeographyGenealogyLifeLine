@@ -1,0 +1,52 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "BOTESIUS DI GRANDIVILLA",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Hoogleraar Philosophie en Theologie",
+      "location": "Frankrijk",
+      "date": null,
+      "source": "69",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1643-12-29",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Van de Dominicanen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Tot 1647 als Lector Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1647",
+      "source": "27"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": null,
+  "BirthDate": "1610",
+  "DeathDate": null,
+  "DeathCity": null
+}

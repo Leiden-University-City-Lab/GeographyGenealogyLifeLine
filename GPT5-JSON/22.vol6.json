@@ -1,0 +1,285 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "CABELIAU",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Alumnus Statencollege",
+      "location": "Leiden",
+      "date": "1622-02-15",
+      "source": "9"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1641-09-18",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Theol.h.c.",
+      "location": "Leiden",
+      "date": "1662-10-23",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Schermerhorn",
+      "date": "1633",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leeuwarden",
+      "date": "1638",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1641",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1659-03-19",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opdracht Staten-Generaal om met Sterremontius het archief van de Statenvertaling te ordenen",
+      "location": null,
+      "date": "1662",
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ondertrouw met Haesje van Spruytenboom",
+      "location": "Leiden",
+      "date": "1636-03-13",
+      "source": "3"
+    },
+    {
+      "particularity": "Vader Willem Cabeljauw, lakenkoper uit Gent, naar Leiden gevlucht",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Haesje",
+      "LastName": "SPRUYTENBOOM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [
+        "SPRUITENBOOM"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "CABELJAUW"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abigael",
+      "LastName": "BOLLYS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Michael",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martijntje",
+      "LastName": "CUYPERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "SPRUITENBOOM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "SPRUYTENBOOM"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "CRIJNEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Willem",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1641-12-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1644-05-16",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1647-12-22",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petrus",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1650-11-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abigael",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1653-04-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "CABELIAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1655-07-07",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1610-12-17",
+  "DeathDate": "1668-03-20",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,163 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "MEURSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1606-11-04",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Orl\u00e9ans",
+      "date": "1608",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Onderwijzer zonen van van Oldebarneveld",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Griekse taal en geschiedenis",
+      "location": "Leiden",
+      "date": "1610-08-09",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal",
+      "location": "Leiden",
+      "date": "1612-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schorsing",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal",
+      "location": "Leiden",
+      "date": "1620-08-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek",
+      "location": null,
+      "date": "1625-02",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis en Staatkunde",
+      "location": "Soroe",
+      "date": "1625",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "BILDERBEECK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "MEURS",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [
+        "Cornelisz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "BILDERBEECK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "MEURSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": "Soroe"
+    },
+    {
+      "FirstName": "Mary",
+      "LastName": "MEURSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Loosduinen",
+  "BirthDate": "1579",
+  "DeathDate": "1639-09-20",
+  "DeathCity": "Soroe"
+}

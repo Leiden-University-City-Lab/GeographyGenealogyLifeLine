@@ -1,0 +1,195 @@
+{
+  "FirstName": "Johannes Jacobus",
+  "LastName": "RAU",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "ROUW"
+  ],
+  "education": [
+    {
+      "subject": "Chirurgijnsopleiding",
+      "location": "Straatsburg",
+      "date": null,
+      "source": "83"
+    },
+    {
+      "subject": "Chirurgijnsopleiding",
+      "location": "Regensburg",
+      "date": null,
+      "source": "17"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Parijs",
+      "date": null,
+      "source": "1"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1694-03-23",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1694-05-11",
+      "source": "21"
+    },
+    {
+      "subject": "Opnieuw ingeschreven",
+      "location": "Leiden",
+      "date": "1702-05-06",
+      "source": "20"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Assistent van chirurgijn",
+      "location": "Bergen (Noorw.)",
+      "date": "1685",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Scheepsarts oorlogsschepen",
+      "location": null,
+      "date": null,
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reizen",
+      "location": "Spanje, Engeland",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsarts",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "1,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsoperateur van den steen",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "83",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsoperateur van den steen",
+      "location": "Leiden",
+      "date": null,
+      "source": "83",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs medicijnen en anatomie (officieel na 1696)",
+      "location": "Amsterdam",
+      "date": "1696",
+      "source": "1,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Anatomische demonstraties",
+      "location": "Leiden",
+      "date": "1705-11-25",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Ontleed- en Heelkunde)",
+      "location": "Leiden",
+      "date": "1713-07-31",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens ziekte",
+      "location": "Leiden",
+      "date": "1719-06-29",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1717",
+      "source": "1",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De ortu et regeneratione dentium bij prof. Drelincourt",
+      "location": null,
+      "date": null,
+      "source": "1"
+    },
+    {
+      "particularity": "Als arts mee op schip van vice-admiraal Schey met de vloot van Willem III naar Engeland in 1688",
+      "location": null,
+      "date": "1688",
+      "source": "83"
+    },
+    {
+      "particularity": "Ruzie met prof. Ruysch (1698) en prof. Bidloo (1705)",
+      "location": null,
+      "date": null,
+      "source": "83"
+    },
+    {
+      "particularity": "Erfgenaam is prof. Oosterdijk Schacht",
+      "location": null,
+      "date": null,
+      "source": "83"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "RAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "MULLER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Baden-Baden",
+  "BirthDate": "1668",
+  "DeathDate": "1719-09-18",
+  "DeathCity": "Leiden"
+}

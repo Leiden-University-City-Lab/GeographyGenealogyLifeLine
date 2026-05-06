@@ -1,0 +1,442 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "BERTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DE BERT"
+  ],
+  "education": [
+    {
+      "subject": "Priv\u00e9-onderwijs (Christiaan de Ryck en Pieternella Lansberg)",
+      "location": "Londen",
+      "date": "1572",
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse school (Stochius)",
+      "location": "Leiden",
+      "date": "1577-1582",
+      "source": "72"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1589-02-10",
+      "source": "28"
+    },
+    {
+      "subject": "Thesis",
+      "location": "Leiden",
+      "date": "1590-03-31",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1591-05-09",
+      "source": "72"
+    },
+    {
+      "subject": "Mag.art.h.c.",
+      "location": "Leiden",
+      "date": "1604-07-17",
+      "source": "42"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Docent",
+      "location": "Holland",
+      "date": "1582",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Antwerpen",
+      "date": "1582",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Oostende",
+      "date": "1582-1583",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Middelburg",
+      "date": "1583-1584",
+      "source": "472",
+      "is_side_job": 0
+    },
+    {
+      "job": "Werkt met vader aan de Latijnse school",
+      "location": "Goes",
+      "date": "1584-1589",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Docent oude talen Latijnse school onder Stochius",
+      "location": "Leiden",
+      "date": "1589-1590",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Leiden",
+      "date": "1590-1591",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis met Lipsius",
+      "location": "Duitsland",
+      "date": "1591",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Docent",
+      "location": "Straatsburg",
+      "date": "1591-1592",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Beroep van Leidse universiteit",
+      "location": "Straatsburg",
+      "date": "1592-02-08",
+      "source": "472",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis met Poolse edelman (Baro) door Beieren, Bohemen, Silezi\u00eb, Polen en Rusland",
+      "location": "Altdorf; Beieren; Bohemen; Silezi\u00eb; Polen; Rusland",
+      "date": "1592-1593",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1593-07-11",
+      "source": "727",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Zedekunde (op eigen aanbod)",
+      "location": "Leiden",
+      "date": "1599-06-15",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Zedekunde",
+      "location": "Leiden",
+      "date": "1600-02-07",
+      "source": "727",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waarnemend regent Statencollege",
+      "location": "Leiden",
+      "date": "1606",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege, afstand van hoogleraarstitel",
+      "location": "Leiden",
+      "date": "1607",
+      "source": "727",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regentschap neergelegd",
+      "location": "Leiden",
+      "date": "1615-04-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Leiden",
+      "date": "1615-04-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Benoemd tot Koninklijk geograaf van Lodewijk XIII",
+      "location": "Leiden",
+      "date": "1617-07-23",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Frankrijk",
+      "location": "Frankrijk",
+      "date": "1618",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens Arminianisme",
+      "location": "Leiden",
+      "date": "1619-08-31",
+      "source": "727",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek naar Frankrijk",
+      "location": "Frankrijk",
+      "date": "1620-04",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bekeerd tot katholicisme",
+      "location": "Parijs",
+      "date": "1620-06-25",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid aan Coll\u00e8ge de Boncourt van Sorbonne",
+      "location": "Parijs",
+      "date": "1620-10-20",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Koninklijk Geschiedschrijver",
+      "location": "Parijs",
+      "date": "1622",
+      "source": "242",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Mathematica aan Coll\u00e8ge Royal de France",
+      "location": "Parijs",
+      "date": "1622-06-21",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opdracht een catalogus van de bibliotheek te maken",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Remonstrants, later katholiek",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Woont als student bij Stochius en prof. Renecher",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Bevriend met Arminius, Colonius, Casaubonus, Vossius, Grotius",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Studiebeurs Staten van Holland",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Betrokken bij oproer in Statencollege in 1594 waardoor het regentschap hem langere tijd niet toegekend wordt; curator van der Mijle herstelt dit",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Studievriend Gideon van Boetzelaer (gezant te Parijs) introduceert hem bij De Thou en diens neven Du Puy; hierdoor verkrijgt hij opdracht van Lodewijk XIII",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": "1593",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1595",
+      "source": null
+    },
+    {
+      "particularity": "Geen secretaris Senaat door oproer 1594",
+      "location": null,
+      "date": "1594",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Maria",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1578",
+      "DeathDate": "1647-01-17",
+      "DeathCity": "Parijs"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "BERTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Pieter Michielsz."
+      ],
+      "alternative_last_names": [
+        "DE BERT"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomijne",
+      "LastName": "BERTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1606",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Meria",
+      "LastName": "BLEISWIJK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "BERTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1605",
+      "DeathDate": "1647-10-28",
+      "DeathCity": "Den Bosch"
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "BERTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1610-03-15",
+      "DeathDate": "1683-10-04",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Wenceslaus",
+      "LastName": "BERTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1612-07-19",
+      "DeathDate": "1643-09-10",
+      "DeathCity": "Tripoli"
+    },
+    {
+      "FirstName": "Joannes",
+      "LastName": "BERTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1615-03-06",
+      "DeathDate": "1662-10-27",
+      "DeathCity": "Malta"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Beveren",
+  "BirthDate": "1565-11-14",
+  "DeathDate": "1629-10-03",
+  "DeathCity": "Parijs"
+}

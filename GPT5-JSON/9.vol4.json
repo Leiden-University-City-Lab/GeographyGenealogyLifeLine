@@ -1,0 +1,356 @@
+{
+  "FirstName": "Carolus",
+  "LastName": "CLUSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Charles' in Carolus (Charles)"
+  ],
+  "alternative_last_names": [
+    "DE L\u2019ESCLUSE"
+  ],
+  "education": [
+    {
+      "subject": "Kapittelschool (oom Martin Quincault)",
+      "location": "St. Vaast",
+      "date": "1540",
+      "source": null
+    },
+    {
+      "subject": "Latijnse school (Paul Houckaert)",
+      "location": "Gent",
+      "date": "1543",
+      "source": null
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leuven",
+      "date": "1546-07",
+      "source": null
+    },
+    {
+      "subject": "Lic.Iur.",
+      "location": "Leuven",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Iur.Theol.",
+      "location": "Marburg",
+      "date": "1548",
+      "source": null
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Wittenberg",
+      "date": "1549",
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Frankfort a Main",
+      "date": "1550",
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Straatsburg",
+      "date": "1550",
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Lausanne, Gen\u00e8ve",
+      "date": "1551",
+      "source": null
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Montpellier",
+      "date": "1551",
+      "source": null
+    },
+    {
+      "subject": "Reis",
+      "location": "Avignon, Antwerpen",
+      "date": "1554",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Reis naar Engeland",
+      "location": "Engeland",
+      "date": "1561",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Als mentor van Thomas Rehdiger",
+      "location": "Parijs",
+      "date": "1561",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hugenoots complot; vlucht naar Nederlanden",
+      "location": "Parijs",
+      "date": "1562",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis met Jacob Fugger",
+      "location": "Spanje, Portugal",
+      "date": "1564",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Steunt calvinisten",
+      "location": "Brugge",
+      "date": "1566",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf bij Jean de Brancion",
+      "location": "Mechelen",
+      "date": "1567",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Engeland",
+      "location": "Engeland",
+      "date": "1571",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Stichter kruidentuin (op verzoek van Maximiliaan II)",
+      "location": "Wenen",
+      "date": "1573",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens protestantisme door Rudolf II",
+      "location": "Wenen",
+      "date": "1576",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Hongarije",
+      "location": "Hongarije",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Kassel en Engeland",
+      "location": "Kassel; Engeland",
+      "date": "1579",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer in Wenen",
+      "location": "Wenen",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Engeland en Nederlanden",
+      "location": "Engeland en Nederlanden",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer in Wenen",
+      "location": "Wenen",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis door Oostenrijk en Hongarije",
+      "location": "Oostenrijk en Hongarije",
+      "date": "1581",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Frankfort a Main",
+      "date": "1588",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor honoraris botanie met toezicht op kruidhof",
+      "location": "Leiden",
+      "date": "1593-10-19",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Watenes",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Protestant sinds Marburg",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Melanchthon adviseert hem medicijnenstudie",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Calvinist sinds Gen\u00e8ve",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Bevriend met paltsgraaf Balthasar de Battydny en sir Francis Drake",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Lipsius vraagt hem voor Leiden",
+      "location": null,
+      "date": "1587",
+      "source": null
+    },
+    {
+      "particularity": "Van Hoghelande bemiddelt; officieel aanbod",
+      "location": null,
+      "date": "1592",
+      "source": null
+    },
+    {
+      "particularity": "Woont bij weduwe Nic. Stockius op Pieterskerkgracht",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: 7500",
+      "location": null,
+      "date": "1573",
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Michel",
+      "LastName": "DE L\u2019ESCLUSE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "31",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1573",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Guillemette",
+      "LastName": "QUINCAULT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "31",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pierre",
+      "LastName": "DE L\u2019ESCLUSE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "31",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "DU BOYS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "31",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pierre",
+      "LastName": "QUINCAULT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "31",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "MONTMORENCY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "31",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Atrecht",
+  "BirthDate": "1526-02-19",
+  "DeathDate": "1609-04-04",
+  "DeathCity": "Leiden"
+}

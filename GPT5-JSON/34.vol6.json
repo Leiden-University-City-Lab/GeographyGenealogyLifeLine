@@ -1,0 +1,180 @@
+{
+  "FirstName": "Daniel",
+  "LastName": "COLONIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN CEULEN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1584",
+      "source": "7"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Heidelberg",
+      "date": "1585-12-31",
+      "source": "7"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1589-08-14",
+      "source": "9"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1589",
+      "source": "10"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1590",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Waals Predikant",
+      "location": "Rotterdam",
+      "date": "1591",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Waals College",
+      "location": "Leiden",
+      "date": "1605",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1612-06-14",
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Waals gezant Synode van Dordrecht",
+      "location": "Dordrecht",
+      "date": "1619",
+      "source": "a",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bev.",
+      "location": "Leiden",
+      "date": "1606-05-30",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "BECQUERE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "ACKERMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Pierre",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1598",
+      "DeathDate": "1624",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1601-08-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1608-04-18",
+      "DeathDate": "1672-07-09",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Metz",
+  "BirthDate": "1566-09-20",
+  "DeathDate": "1635-12-19",
+  "DeathCity": "Leiden"
+}

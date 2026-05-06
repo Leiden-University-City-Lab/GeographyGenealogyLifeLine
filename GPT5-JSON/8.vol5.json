@@ -1,0 +1,263 @@
+{
+  "FirstName": "Marcus",
+  "LastName": "BOXHORNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "ZUERIUS",
+    "VAN BOXHORN",
+    "VAN BOXHOORN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1626-08-12",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Welsprekendheid",
+      "location": "Leiden",
+      "date": "1632",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1636-08-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid",
+      "location": "Leiden",
+      "date": "1640-05-09",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lessen Staatkunde en Historie (op proef)",
+      "location": "Leiden",
+      "date": "1643",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historie",
+      "location": "Leiden",
+      "date": "1648-06-08",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanbod uit Zweden van Oxenstierna afgeslagen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Woonde Steenschuur",
+      "location": "Leiden",
+      "date": "1639",
+      "source": null
+    },
+    {
+      "particularity": "Ondertrouwd met Susanna Duvelaer",
+      "location": "Leiden",
+      "date": "1639-11-07",
+      "source": "b"
+    },
+    {
+      "particularity": "De halfbroer van zijn echtgenote is burgemeester van Middelburg",
+      "location": null,
+      "date": null,
+      "source": "c"
+    },
+    {
+      "particularity": "De halfzuster van zijn echtgenote is gehuwd met Carel de Maets, hoogleraar theologie Utrecht en moeder van Carel de Maets jr., hoogleraar medicijnen Leiden",
+      "location": null,
+      "date": null,
+      "source": "c"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Susanna",
+      "LastName": "DUVELAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "ZUERIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1617",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BOXHORN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Marcus",
+      "LastName": "ZUERIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1603",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maijken",
+      "LastName": "BOLLAERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "BOXHORN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1544",
+      "DeathDate": "1631",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sybilla",
+      "LastName": "STIJLS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "DUVELAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [
+        "Joosten"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "PUTTE",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "BOXHORNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1643-01-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Justina",
+      "LastName": "BOXHORNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1651-02-03",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Bergen op Zoom",
+  "BirthDate": "1612-09-25",
+  "DeathDate": "1653-10-02",
+  "DeathCity": "Leiden"
+}

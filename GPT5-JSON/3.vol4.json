@@ -1,0 +1,316 @@
+{
+  "FirstName": "Jan Frederik",
+  "LastName": "VAN BEECK CALKOEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": "1795-11-14",
+      "source": "17"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Utrecht",
+      "date": "1795-05",
+      "source": "18"
+    },
+    {
+      "subject": "Doct. Wis- en Natk.",
+      "location": "Utrecht",
+      "date": "1795-05",
+      "source": "18"
+    },
+    {
+      "subject": "Studiereis wiskunde en astronomie",
+      "location": "Duitse universiteiten (Leipzig, G\u00f6ttingen, Jena, Gotha)",
+      "date": null,
+      "source": "52"
+    },
+    {
+      "subject": "Doct. Phil. h.c.",
+      "location": "Leiden",
+      "date": "1799-10-02",
+      "source": "15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Natuurlijke Wijsbegeerte en Wiskunde, speciaal Sterrekunde en Hydraulica",
+      "location": "Leiden",
+      "date": "1799-05-31",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Natuurlijke Wijsbegeerte en Wiskunde, speciaal Sterrekunde en Hydraulica (aanvaarding)",
+      "location": "Leiden",
+      "date": "1799-10-05",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurlijke Wijsbegeerte en Wiskunde, speciaal Sterrekunde en Hydraulica",
+      "location": "Leiden",
+      "date": "1803-11-12",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek uit Leiden",
+      "location": "Leiden",
+      "date": "1805-06-20",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Utrecht",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eervol ontslag wegens gezondheid",
+      "location": "Utrecht",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De horologiis veterum",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Lid wetenschappelijke genootschappen in G\u00f6ttingen, Haarlem, Amsterdam, Zeeland, Utrecht en de Maatschappij van Letterkunde te Leiden",
+      "location": null,
+      "date": null,
+      "source": "52"
+    },
+    {
+      "particularity": "Lid 7e klasse Koninklijk Instituut van Wetenschappen",
+      "location": null,
+      "date": null,
+      "source": "52"
+    },
+    {
+      "particularity": "Vertrek uit Leiden naar Utrecht vanwege zijn vrouw",
+      "location": null,
+      "date": null,
+      "source": "55"
+    },
+    {
+      "particularity": "Woont Rapenburg",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Isabella Antonia Lucretia",
+      "LastName": "VAN WESTRENEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1778-10-22",
+      "DeathDate": "1846-10-03",
+      "DeathCity": "Cothen"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Wilhelmus Jabes",
+      "LastName": "CALKOEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1735",
+      "DeathDate": "1802",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina Maria",
+      "LastName": "VERBORCHT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1734",
+      "DeathDate": "1784",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "CALKOEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1709",
+      "DeathDate": "1778",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "VAN BEECK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1711",
+      "DeathDate": "1745",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Isaac",
+      "LastName": "VERBORCHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1690",
+      "DeathDate": "1765",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magtilda",
+      "LastName": "BOSSCHAERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1705",
+      "DeathDate": "1737",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Aagenoud Jan",
+      "LastName": "VAN WESTRENEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antoinetta Charlotte",
+      "LastName": "GODIN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Wilhelmina Maria",
+      "LastName": "VAN BEECK CALKOEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1804-04-12",
+      "DeathDate": "1877-11-22",
+      "DeathCity": "Ysbrechtum"
+    },
+    {
+      "FirstName": "Aarnoud Jan",
+      "LastName": "VAN BEECK CALKOEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1805-04-13",
+      "DeathDate": "1874-12-16",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Willem Jabes",
+      "LastName": "VAN BEECK CALKOEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1806-09-10",
+      "DeathDate": "1895-08-21",
+      "DeathCity": "Cothen"
+    },
+    {
+      "FirstName": "Antoinette Charlotte",
+      "LastName": "VAN BEECK CALKOEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1808-07-24",
+      "DeathDate": "1809-12-23",
+      "DeathCity": "Utrecht"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Groningen",
+  "BirthDate": "1772-02-05",
+  "DeathDate": "1811-03-25",
+  "DeathCity": "Utrecht"
+}

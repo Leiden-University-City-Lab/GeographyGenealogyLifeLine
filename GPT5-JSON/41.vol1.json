@@ -1,0 +1,384 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "SARAVIA",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Adrien"
+  ],
+  "alternative_last_names": [
+    "SER(R)AVIA",
+    "SERAFIA",
+    "ZARAVIA",
+    "ZARAPHYA",
+    "SORAVIA",
+    "SAR AVIUS"
+  ],
+  "education": [
+    {
+      "subject": "Franciscaan",
+      "location": "St. Omer",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "Parijs",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "Londen",
+      "date": "1561-06-22",
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "Oxford",
+      "date": "1590-07-09",
+      "source": "20"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Londen",
+      "date": "1561",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Reformed Congregation of Austin Friars",
+      "location": "Londen",
+      "date": "1561",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals predikant",
+      "location": "Antwerpen",
+      "date": "1562",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Headmaster Elisabeth College",
+      "location": "Guernsey",
+      "date": "1563",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant St. Peter's",
+      "location": "Guernsey",
+      "date": "1564-09-01",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Veldprediker van de Prins van Oranje",
+      "location": null,
+      "date": "1568-04-11",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Vlissingen",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Headmaster King Edward VI School",
+      "location": "Southampton",
+      "date": "1572",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant St. Salvator",
+      "location": "Gent",
+      "date": "1578-10",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals en Gereformeerd predikant",
+      "location": "Leiden",
+      "date": "1582-11",
+      "source": "48,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1584-05-12",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Tatenhill (Staffordshire)",
+      "date": "1588-01",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik",
+      "location": "Gloucester Cathedral",
+      "date": "1591-10-22",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik",
+      "location": "Canterbury Cathedral",
+      "date": "1595-12-06",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Lewisham (Rochester)",
+      "date": "1595",
+      "source": "a,7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik",
+      "location": "St. Peter's, Westminster",
+      "date": "1601",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Great Chart (Kent)",
+      "date": "1610-02-25",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Inspecteur Theologische Hogeschool",
+      "location": "Gent",
+      "date": "1580-10-08",
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Voorzitter Provinciale Synode Vlaamse Kerken",
+      "location": "Gent",
+      "date": "1582-03-08",
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1585",
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1586",
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1587",
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Assessor van de Rector",
+      "location": "Leiden",
+      "date": "1587",
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bijbelvertaler",
+      "location": null,
+      "date": "1607",
+      "source": "4",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Vlucht Engeland",
+      "location": "Engeland",
+      "date": "1559",
+      "source": "2"
+    },
+    {
+      "particularity": "Verblijf",
+      "location": "Gent",
+      "date": "1559-07-06",
+      "source": "a"
+    },
+    {
+      "particularity": "Verblijf zuidelijke Nederlanden",
+      "location": "Zuidelijke Nederlanden",
+      "date": "1561-05-29",
+      "source": "a"
+    },
+    {
+      "particularity": "Verblijf",
+      "location": "Antwerpen",
+      "date": "1566",
+      "source": "a"
+    },
+    {
+      "particularity": "Vergadering Verbond van Edelen",
+      "location": "St. Truyen",
+      "date": "1566-07-15",
+      "source": "2,a"
+    },
+    {
+      "particularity": "Naturalisatie Engeland",
+      "location": "Engeland",
+      "date": "1568-02-10",
+      "source": "a"
+    },
+    {
+      "particularity": "Vlucht",
+      "location": "Den Haag",
+      "date": "1587",
+      "source": "7,3"
+    },
+    {
+      "particularity": "Verbannen uit Leiden",
+      "location": "Leiden",
+      "date": "1588-01-13",
+      "source": "25"
+    },
+    {
+      "particularity": "Ontslag",
+      "location": "Leiden",
+      "date": "1587-11-02",
+      "source": "14"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharine",
+      "LastName": "D'ALLEZ",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Frankrijk",
+      "BirthCity": "St. Omer",
+      "BirthDate": null,
+      "DeathDate": "1606-02-01",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marguerite",
+      "LastName": "WIJTS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1576",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christofle",
+      "LastName": "SARAVIA",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1572-11-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "BOULANGER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1578-12-28",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": null,
+  "in_laws": [
+    {
+      "FirstName": "John",
+      "LastName": "WIJTS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Thomas",
+      "LastName": "SARAVIA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1588-12-28",
+      "DeathCity": "Tatenhill"
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "SARAVIA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Vieil-Hesdin (Artois)",
+  "BirthDate": "1532-01",
+  "DeathDate": "1613-01-15",
+  "DeathCity": "Canterbury"
+}

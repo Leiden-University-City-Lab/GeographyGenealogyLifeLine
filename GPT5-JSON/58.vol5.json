@@ -1,0 +1,39 @@
+{
+  "FirstName": "Johan Caspar",
+  "LastName": "SEELMATTER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Toestemming lessen Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1675-02-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek",
+      "location": null,
+      "date": "1675",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

@@ -1,0 +1,326 @@
+{
+  "FirstName": "Govert",
+  "LastName": "BIDLOO",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Govart",
+    "Godefridus"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Leerling bij chirurg",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "3"
+    },
+    {
+      "subject": "Onderwijs bij Fred. Ruysch",
+      "location": null,
+      "date": null,
+      "source": "3,81"
+    },
+    {
+      "subject": "Reis Frankrijk en Duitsland",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Cand. Med.",
+      "location": "Franeker",
+      "date": "1682-05-02",
+      "source": "73"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Franeker",
+      "date": "1682-05-05",
+      "source": "714"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "81",
+      "is_side_job": 0
+    },
+    {
+      "job": "Legerarts",
+      "location": null,
+      "date": "1685",
+      "source": "92",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Anatomie",
+      "location": "Den Haag",
+      "date": "1688-01-24",
+      "source": "92,52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Superintendent-Generaal van artsen, apothekers en chirurgen van legerhospitalen en ziekenhuizen",
+      "location": null,
+      "date": "1690",
+      "source": "99",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofd Geneeskundige Dienst van het Engelse leger",
+      "location": "Engeland",
+      "date": "1692",
+      "source": "924",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reizen Engeland",
+      "location": "Engeland",
+      "date": "1695",
+      "source": "93",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Ontleedkunde",
+      "location": "Leiden",
+      "date": "1694-02-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1694-03",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Titel Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1702-11-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Gerechtelijke Geneeskunde",
+      "location": "Leiden",
+      "date": "1709",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1696",
+      "source": "81",
+      "is_side_job": 0
+    },
+    {
+      "job": "Dichter en schrijver (toneel, pamfletten)",
+      "location": null,
+      "date": null,
+      "source": "92",
+      "is_side_job": 1
+    },
+    {
+      "job": "Schouwburgpachter",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "92",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secretaris Engelse ambassadeur",
+      "location": null,
+      "date": null,
+      "source": "a",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secretaris Senaat Leidse universiteit",
+      "location": "Leiden",
+      "date": null,
+      "source": "81",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lijfarts van Willem III",
+      "location": null,
+      "date": null,
+      "source": "81,92",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Eerst staatsgezind, later fel prinsgezind",
+      "location": null,
+      "date": null,
+      "source": "92"
+    },
+    {
+      "particularity": "Doopsgezind",
+      "location": null,
+      "date": null,
+      "source": "92"
+    },
+    {
+      "particularity": "Zeer omstreden",
+      "location": null,
+      "date": null,
+      "source": "92"
+    },
+    {
+      "particularity": "Diss. De variis anatomica-medicis positiontbus",
+      "location": null,
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Salaris: f 1400,-",
+      "location": "Den Haag",
+      "date": null,
+      "source": "92"
+    },
+    {
+      "particularity": "Salaris: f 1000,-",
+      "location": "Leiden",
+      "date": null,
+      "source": "92"
+    },
+    {
+      "particularity": "Salaris: f 1600,-",
+      "location": "Leiden",
+      "date": "1694",
+      "source": "92"
+    },
+    {
+      "particularity": "Salaris: f 1800,-",
+      "location": "Leiden",
+      "date": null,
+      "source": "92"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Hendrina",
+      "LastName": "KISKES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "92,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1648",
+      "DeathDate": "1730-05",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Govert",
+      "LastName": "EIDLOO",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "92,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1603",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "FELIERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "92,a",
+      "second_names": [],
+      "alternative_last_names": [
+        "VELIER",
+        "FEERIS"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Hoorn",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Hanneke",
+      "LastName": "GOVAERTS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Govard",
+      "LastName": "BIDLOO",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "92,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Lambert",
+      "LastName": "BIDLOO",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "81",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "BIDLOO",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1649-03-21",
+  "DeathDate": "1713-04-21",
+  "DeathCity": "Leiden"
+}

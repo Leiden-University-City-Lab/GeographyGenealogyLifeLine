@@ -1,0 +1,149 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "RIETVELD",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1756-09-17",
+      "source": "17"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1781-02-10",
+      "source": "17"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Zuiderwoude",
+      "date": "1764-03-04",
+      "source": "53",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Zwolle",
+      "date": "1766-01-05",
+      "source": "53",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Delft",
+      "date": "1767-11-15",
+      "source": "53",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1780-10-16",
+      "source": "53",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. (oratie)",
+      "location": "Leiden",
+      "date": "1781-05-07",
+      "source": "5",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anna Maria",
+      "LastName": "FARRET",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1745-11-07",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hermanus",
+      "LastName": "RIETVELD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "53,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Regista",
+      "LastName": "MUILMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "53,a",
+      "second_names": [],
+      "alternative_last_names": [
+        "MUIL",
+        "MUYLMAN"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "FARRET",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Tiel",
+      "BirthDate": "1704-06-29",
+      "DeathDate": "1772-11-18",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Dina Maria",
+      "LastName": "CANZIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1719-12-20",
+      "DeathDate": "1755-01-13",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1739-07-31",
+  "DeathDate": "1784-06-22",
+  "DeathCity": "Leiden"
+}

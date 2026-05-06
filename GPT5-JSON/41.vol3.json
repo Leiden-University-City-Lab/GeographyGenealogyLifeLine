@@ -1,0 +1,175 @@
+{
+  "FirstName": "Gerard",
+  "LastName": "TUNING",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "TUNINGIUS",
+    "TUNINGHIUS"
+  ],
+  "education": [
+    {
+      "subject": "Klerk advocaat",
+      "location": "Enkhuizen",
+      "date": null,
+      "source": "69"
+    },
+    {
+      "subject": "Vertrekt met handelsplannen naar Lissabon maar keert door storm op zee terug",
+      "location": "Lissabon",
+      "date": "1583",
+      "source": "69"
+    },
+    {
+      "subject": "Leert Latijn en Grieks",
+      "location": null,
+      "date": null,
+      "source": "69"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1584-05-31",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1587-10-06",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": null,
+      "source": "69",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten (Instituten)",
+      "location": "Leiden",
+      "date": "1590",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Instituten, later Pandecten)",
+      "location": "Leiden",
+      "date": "1592-08-08",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Theses diss. De revocandis donationibus bij Donellus (Beyma?)",
+      "location": null,
+      "date": null,
+      "source": "2,26a,26b"
+    },
+    {
+      "particularity": "Onderhandelt met Scaliger met steun van Baudius",
+      "location": null,
+      "date": "1591",
+      "source": "2"
+    },
+    {
+      "particularity": "Woont in huis van vader, Rapenburg 104",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "102 v"
+    },
+    {
+      "particularity": "Beheerst Frans, Spaans, Italiaans, Latijn en Grieks",
+      "location": null,
+      "date": null,
+      "source": "69"
+    },
+    {
+      "particularity": "Salaris: f 300",
+      "location": null,
+      "date": "1590",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": "1592",
+      "source": "2"
+    },
+    {
+      "particularity": "Ongehuwd",
+      "location": null,
+      "date": null,
+      "source": "69"
+    },
+    {
+      "particularity": "Kinderloos",
+      "location": null,
+      "date": null,
+      "source": "69"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "TUNING",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "69,102 v",
+      "second_names": [
+        "Gerijtsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Niesgen",
+      "LastName": "GERIJTSD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "69,102 v",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Johan",
+      "LastName": "TUNING",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "69",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1566",
+  "DeathDate": "1610-08-19",
+  "DeathCity": "Brussel"
+}

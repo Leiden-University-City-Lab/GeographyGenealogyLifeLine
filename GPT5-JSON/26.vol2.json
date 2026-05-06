@@ -1,0 +1,160 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "HOTTON",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Illustere School",
+      "location": "Amsterdam",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1666-10-27",
+      "source": null
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1672-06-30",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verblijf",
+      "location": "Denemarken",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis",
+      "location": "Aken",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts Waalse Gemeente",
+      "location": "Amsterdam",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Opzichter Artsenijtuin",
+      "location": "Amsterdam",
+      "date": "1692",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct van prof. Ruysch",
+      "location": "Amsterdam",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicinae et Botanices",
+      "location": "Leiden",
+      "date": "1673-05-11",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Eervol ontslag bij terugkeer",
+      "location": "Leiden",
+      "date": "1682-08-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde en Kruidkunde",
+      "location": "Leiden",
+      "date": "1695-02-28",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Positiones quaedam medicae bij prof. Sylvius",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Lid Koninklijke Genootschappen in Londen en Berlijn en van de Academia Leopoldina te Leipzig",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Aanbod hoogleraarschap Groningen afgewezen",
+      "location": "Groningen",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 600 en vrij huis in Nonnensteeg",
+      "location": "Leiden",
+      "date": "1679",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 1400",
+      "location": "Leiden",
+      "date": "1695",
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Godefroy",
+      "LastName": "HOTTON",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1596",
+      "DeathDate": "1656",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anncmarie",
+      "LastName": "ROS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde en Kruidkunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1648-06-18",
+  "DeathDate": "1709-01-11",
+  "DeathCity": "Leiden"
+}

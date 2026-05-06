@@ -1,0 +1,258 @@
+{
+  "FirstName": "Albert Nicolaas",
+  "LastName": "VAN BEVEREN VAN SCHAGEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN BEYEREN VAN SCHAGEN"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Lid Ridderschap Holland",
+      "location": "Den Haag",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raad en Rekenmeester Domeinen Holland",
+      "location": "Den Haag",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bewindhebber V.O.C. Noorderkwartier",
+      "location": "Noorderkwartier",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad Rijnland",
+      "location": "Leiden",
+      "date": "1723",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Oud- en Nieuw-Goudriaan",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "VAN BEYEREN VAN SCHAGEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1659-03-03",
+      "DeathDate": "1705-09-29",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Isabella",
+      "LastName": "VAN AERSSEN VAN HOOGERHEIDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1683-08-15",
+      "DeathDate": "1748-03-13",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Albrecht Nicolaas",
+      "LastName": "VAN BEYEREN VAN SCHAGEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1639",
+      "DeathDate": "1666",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hillegonda",
+      "LastName": "VAN SOLCAMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1645",
+      "DeathDate": "1738",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "VAN BEYEREN VAN SCHAGEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1604",
+      "DeathDate": "1660",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "VAN MATHENESSE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Tjerk",
+      "LastName": "SOLCAMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "SAECKMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johan Francois",
+      "LastName": "VAN BEYEREN VAN SCHAGEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1634",
+      "DeathDate": "1680",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "VAN ZEVENDER VAN KENENBURG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VAN AERSSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "VAN AERSSEN VAN HOOGERHEIDE"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1646",
+      "DeathDate": "1728",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "PAUW",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1653",
+      "DeathDate": "1733",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Anna Albertina",
+      "LastName": "VAN BEVEREN VAN SCHAGEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1699-05-06",
+      "DeathDate": "1762-04-01",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": "1667",
+  "DeathDate": "1727-04-23",
+  "DeathCity": "Den Haag"
+}

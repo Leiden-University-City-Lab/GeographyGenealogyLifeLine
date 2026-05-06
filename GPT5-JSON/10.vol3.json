@@ -1,0 +1,461 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "CUNAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN DER CUN"
+  ],
+  "education": [
+    {
+      "subject": "Voorbereidend onderwijs",
+      "location": "Middelburg",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Litt. (oude letteren)",
+      "location": "Leiden",
+      "date": "1601-05-23",
+      "source": null
+    },
+    {
+      "subject": "Stud. Litt.",
+      "location": "Leiden",
+      "date": "1603",
+      "source": null
+    },
+    {
+      "subject": "Oosterse talen, Iur., Theol.",
+      "location": "Franeker",
+      "date": "1606-08-23",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1607-11-30",
+      "source": null
+    },
+    {
+      "subject": "Doct. Iur. h.c.",
+      "location": "Leiden",
+      "date": "1615",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Latijn (Horatius)",
+      "location": "Leiden",
+      "date": "1611",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Latijn (en Grieks)",
+      "location": "Leiden",
+      "date": "1612-02-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Latijn",
+      "location": "Leiden",
+      "date": "1613-08-07",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk rechtspraktijk (met verlof)",
+      "location": "Den Haag",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Staatkunde",
+      "location": "Leiden",
+      "date": "1614-02-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Staatkunde en Rechten (Digesten)",
+      "location": "Leiden",
+      "date": "1615-11-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Codex en Romeins Recht",
+      "location": "Leiden",
+      "date": "1630-06-20",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1623",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1624",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1633",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1638",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid bestuur Collegium Oratorium",
+      "location": null,
+      "date": "1620-11",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Raad voor zaken van handel van Staten van Holland",
+      "location": "Holland",
+      "date": null,
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Historieschrijver van Zeeland",
+      "location": "Zeeland",
+      "date": null,
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Onder leiding van Ambrosius Regemorterus, verwant van zijn moeder.",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Reis naar Engeland",
+      "location": "Engeland",
+      "date": "1603",
+      "source": null
+    },
+    {
+      "particularity": "Ongeordelijkheden onder studenten door zijn Satyra Menippea",
+      "location": null,
+      "date": "1613",
+      "source": null
+    },
+    {
+      "particularity": "Synode te Leiden eiste herroeping van de Satyra wegens Arminianisme; hij weigerde",
+      "location": "Leiden",
+      "date": "1619",
+      "source": null
+    },
+    {
+      "particularity": "Promotor is prof. Swanenburg",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Tijdens Haags verlof bevriend met raadsheer Scottius",
+      "location": "Den Haag",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Grote invloed op hoogleraarsbenoemingen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Na vertrek Vossius tractementsverhoging en titel Raad der universiteit",
+      "location": "Leiden",
+      "date": "1631",
+      "source": null
+    },
+    {
+      "particularity": "In 1634 gaf Utrecht pogingen hem daar te krijgen op, uit vrees voor sancties van Holland",
+      "location": "Utrecht",
+      "date": "1634",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "ZEIJST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1596-04-15",
+      "DeathDate": "1639-01-21",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "VAN DER CUN"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "ZEIJST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johan Andreas",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob Adriaan",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1679-12-17",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Petrus",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "80,87",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1633-07-14",
+      "DeathDate": "1663",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": "1673-05-12",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622-03-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Niclaes",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1623-09-27",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1626-06-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1627-02-21",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1629-11-25",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1632-01-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Assnerus",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1634-12-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Niclaes",
+      "LastName": "CUNAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1636-06-05",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Vlissingen",
+  "BirthDate": "1586",
+  "DeathDate": "1638-12-02",
+  "DeathCity": "Leiden"
+}

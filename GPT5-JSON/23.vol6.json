@@ -1,0 +1,281 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "CUCHLINUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "TLes J. Pincerius",
+      "location": "Wetter",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Wetter",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1565-08-12",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1572-10-17",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Rector school Neustadt",
+      "location": "Neustadt",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Tackenheim",
+      "date": "1576",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Hessen",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Embden",
+      "date": "1577",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Amsterdam",
+      "date": "1578-08-31",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1592",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Nam ontslag",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1595-06-01",
+      "source": "B",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "JACOBS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1586",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hester",
+      "LastName": "HERMANS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertgen",
+      "LastName": "JACOBSD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Oudewater",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [
+        "Maria"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "CRAMER",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [
+        "CARMER"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Herman",
+      "LastName": "KUCHLEIN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1581-08-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marijtge",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": "1633",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1583-10-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1583-10-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Herman",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1586-03-06",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Wetter",
+  "BirthDate": "1546",
+  "DeathDate": "1606-07-03",
+  "DeathCity": "Leiden"
+}

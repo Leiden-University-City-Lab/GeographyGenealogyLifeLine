@@ -1,0 +1,142 @@
+{
+  "FirstName": "Lucas",
+  "LastName": "TRELCATIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "TRELCAT"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs",
+      "location": "Douay",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "Onderwijs",
+      "location": "Lille",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "Onderwijs",
+      "location": "Parijs",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": null,
+      "location": "Orleans",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Londen",
+      "date": null,
+      "source": "5"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoofd Latijnse school",
+      "location": "Londen",
+      "date": "1570",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Lille",
+      "date": "1578",
+      "source": "10,48",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk Predikant",
+      "location": "Gent",
+      "date": "1581",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Brussel",
+      "date": null,
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf (pred.)",
+      "location": "Antwerpen",
+      "date": "1585",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Predikant",
+      "location": "Leiden",
+      "date": "1585-04-05",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1587-05-04",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1591-08-10",
+      "source": "714",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: als Buitengewoon Hoogleraar f 300",
+      "location": "Leiden",
+      "date": null,
+      "source": "48"
+    },
+    {
+      "particularity": "Salaris: als Gewoon Hoogleraar f 600",
+      "location": "Leiden",
+      "date": null,
+      "source": "48"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Lucas",
+      "LastName": "TRELCATIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Erin",
+  "BirthDate": "1542",
+  "DeathDate": "1602-08-28",
+  "DeathCity": "Leiden"
+}

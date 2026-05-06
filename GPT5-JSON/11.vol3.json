@@ -1,0 +1,327 @@
+{
+  "FirstName": "Nicolaas",
+  "LastName": "DEDEL",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Litt.",
+      "location": "Leiden",
+      "date": "1616-05-17",
+      "source": "26"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1619-10-22",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1620-07-06",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1624-05-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1626-02-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Instituten",
+      "location": "Leiden",
+      "date": null,
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Digesten",
+      "location": "Leiden",
+      "date": "1640",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ondertrouw met Maria van Bleiswijk",
+      "location": "Leiden",
+      "date": "1630-07-03",
+      "source": "81"
+    },
+    {
+      "particularity": "Ondertrouw/huwelijk te Delft",
+      "location": "Delft",
+      "date": "1630-07-28",
+      "source": "81"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "BLEISWIJK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "81",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1598",
+      "DeathDate": "1635-11-26",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ida",
+      "LastName": "DUSSEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Joost",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [
+        "Willemszn."
+      ],
+      "alternative_last_names": [
+        "PORSMEN"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "LEEUWEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "40",
+      "second_names": [
+        "Claasdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bruno",
+      "LastName": "DUSSEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [
+        "Jacobsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Machteld",
+      "LastName": "GROENEWEGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "40",
+      "second_names": [
+        "Jansdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "BLEISWIJK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "81",
+      "second_names": [
+        "Evertsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margriet",
+      "LastName": "EIJK",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "81",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1631-10-30",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "40,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1631-11-26",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerrit",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40,e",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1635-11-21",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Willem",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joost",
+      "LastName": "DEDEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Delft",
+  "BirthDate": "1597-01-26",
+  "DeathDate": "1646-02-27",
+  "DeathCity": "Leiden"
+}

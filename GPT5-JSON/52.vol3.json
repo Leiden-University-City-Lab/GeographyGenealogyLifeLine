@@ -1,0 +1,394 @@
+{
+  "FirstName": "Justus",
+  "LastName": "LIPSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "LIPS"
+  ],
+  "education": [
+    {
+      "subject": "Kapelleschool",
+      "location": "Brussel",
+      "date": "1553",
+      "source": "458"
+    },
+    {
+      "subject": "School",
+      "location": "Ath",
+      "date": "1557",
+      "source": "45"
+    },
+    {
+      "subject": "Gymnasium Cucanum (bursa nova triconorata; jezu\u00eftenschool van Leonard Qdessel; dependance universiteit van Keulen)",
+      "location": "Keulen",
+      "date": "1559",
+      "source": "2,45"
+    },
+    {
+      "subject": "Ouders verhinderen intrede bij de Jezu\u00efeten",
+      "location": null,
+      "date": "1563",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Keulen",
+      "date": "1563-04-20",
+      "source": "45"
+    },
+    {
+      "subject": "Bacc.Litt.",
+      "location": "Keulen",
+      "date": "1564-01-19",
+      "source": "45"
+    },
+    {
+      "subject": "Stud.Phil. Iur., Physica, Oudheidkunde, Geschiedenis, Oude Talen",
+      "location": "Leuven",
+      "date": "1564-08-14",
+      "source": "2,27"
+    },
+    {
+      "subject": "Stud.Iur. (Iurisconsultus)",
+      "location": "Leuven",
+      "date": "1575",
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leuven",
+      "date": "1576-01-23",
+      "source": "97"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Secretaris kardinaal Granvelle",
+      "location": "Rome en Napels",
+      "date": "1568-08",
+      "source": "45",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf Hof Maximiliaan II",
+      "location": "Wenen",
+      "date": "1572-06",
+      "source": "2,97",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis en Welsprekendheid",
+      "location": "Jena",
+      "date": "1572-10-23",
+      "source": "2,45",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reist van Keulen naar Overijssche",
+      "location": "Keulen -> Overijssche",
+      "date": "1574-03",
+      "source": "3,97",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oudheid",
+      "location": "Leuven",
+      "date": "1576",
+      "source": "97",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vlucht naar Plantijn",
+      "location": "Antwerpen",
+      "date": "1578-01",
+      "source": "45",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Histori\u00ebn en het Recht",
+      "location": "Leiden",
+      "date": "1578-04-05",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1579",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vraagt ontslag; verlof voor reis naar Duitsland",
+      "location": "Leiden",
+      "date": "1586",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1587",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opnieuw verlof voor reis naar Duitsland",
+      "location": "Leiden",
+      "date": "1591-03",
+      "source": "2,72",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verzoening met katholieke kerk; intrede broederschap van Maria",
+      "location": "Mainz",
+      "date": null,
+      "source": "2,72",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oudheid",
+      "location": "Leuven",
+      "date": "1592-09-12",
+      "source": "2,41,72",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Latijn",
+      "location": "Leuven",
+      "date": "1592-11-24",
+      "source": "2,41,72",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hofgeschiedschrijver Koning van Spanje",
+      "location": null,
+      "date": "1595-12-14",
+      "source": "75,83",
+      "is_side_job": 1
+    },
+    {
+      "job": "Honorair-lid Geheime Raad",
+      "location": null,
+      "date": "1605-02",
+      "source": "41,83",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Vriend Jan van der Does haalt hem naar Leiden",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Invloed op militaire vernieuwingen prins Maurits",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Stad Leiden biedt zilveren schaal aan",
+      "location": "Leiden",
+      "date": "1589",
+      "source": "102"
+    },
+    {
+      "particularity": "Testament bij not. van Hout",
+      "location": null,
+      "date": "1579-12-20",
+      "source": "78"
+    },
+    {
+      "particularity": "Testament bij not. van Hout",
+      "location": null,
+      "date": "1584-09-09",
+      "source": "78"
+    },
+    {
+      "particularity": "Testament bij not. van Hout",
+      "location": null,
+      "date": "1591-03-09",
+      "source": "78"
+    },
+    {
+      "particularity": "Twist met Coornhert; directe reden vertrek uit Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "72"
+    },
+    {
+      "particularity": "Aanbiedingen van paus Clemens VIII, Hendrik IV van Frankrijk, Willem van Beieren, de aartsbisschop van Keulen, de bisschoppen van W\u00fcrzburg, Salzburg en Breslau, Ferdinand de Medici en Veneti\u00eb; allen afgeslagen na vertrek uit Leiden",
+      "location": null,
+      "date": null,
+      "source": "75"
+    },
+    {
+      "particularity": "Benoemd in Leuven met steun van Torrentius, bisschop van Luik",
+      "location": "Leuven",
+      "date": "1592",
+      "source": "72"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": "Leiden",
+      "date": "1578-04",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": "Leiden",
+      "date": "1578-08",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": "Leiden",
+      "date": "1581-04-26",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": "Leiden",
+      "date": "1591-02-10",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "VAN DEN CALSTERE",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "75,97",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Leuven",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gilles",
+      "LastName": "LIPS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DU RIEU",
+      "Affix": "du",
+      "Gender": "Vrouw",
+      "source": "52,2,45",
+      "second_names": [
+        "Isabella?"
+      ],
+      "alternative_last_names": [
+        "PETRIRIVIA"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "LIPS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "45,52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "VAN DEN EECKHOUT",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Lodewijk",
+      "LastName": "VAN DEN CALSTERE",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "2,97",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anne",
+      "LastName": "VAN HULLEGAERDE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "97",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Marinus",
+      "LastName": "LIPS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "52,97",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Overijssche",
+  "BirthDate": "1547-10-18",
+  "DeathDate": "1606-03-24",
+  "DeathCity": "Leuven"
+}

@@ -1,0 +1,347 @@
+{
+  "FirstName": "Antonius",
+  "LastName": "WALAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Antoine"
+  ],
+  "alternative_last_names": [
+    "VAN WALE",
+    "DE WAELE"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs (klass. talen)",
+      "location": "St. Nicolaas",
+      "date": "1581/1582",
+      "source": "a,8"
+    },
+    {
+      "subject": "Lat. school",
+      "location": "Middelburg",
+      "date": "1588/04-1596",
+      "source": "a,8"
+    },
+    {
+      "subject": "Stud. Theol., Hebreeuws, Klass. talen",
+      "location": "Leiden",
+      "date": "1596-07-11",
+      "source": "4,17"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": "1599",
+      "source": "21"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Vienne",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Orl\u00e9ans",
+      "date": null,
+      "source": "21,22"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1599-07-20",
+      "source": "22"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1600-08-01",
+      "source": "21"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Basel",
+      "date": "1600-08-15",
+      "source": "27"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Basel",
+      "date": "1601-03-27",
+      "source": "21"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1601",
+      "source": "217"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "4"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Koudekerke",
+      "date": "1602-12",
+      "source": "56",
+      "is_side_job": 0
+    },
+    {
+      "job": "Legerpredikant",
+      "location": null,
+      "date": "1604",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Middelburg",
+      "date": "1605",
+      "source": "56",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant (afscheid)",
+      "location": "Middelburg",
+      "date": "1619-09-10",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Latijnse school",
+      "location": "Middelburg",
+      "date": "1607",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Grieks en Filosofie",
+      "location": "Middelburg",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk Hofprediker",
+      "location": "Den Haag",
+      "date": "1617-1618",
+      "source": "a,2,7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1619-08-18",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stichter en Regent Seminarium Walaeum (Opleiding Pred. voor Koloni\u00ebn)",
+      "location": "Leiden",
+      "date": "1622-04-01/1632",
+      "source": "4,8,7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1625-1626",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1626-1627",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1639-1640",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afgevaardigde van Zeeland bij Synode Dordrecht",
+      "location": "Dordrecht",
+      "date": "1618",
+      "source": "4",
+      "is_side_job": 1
+    },
+    {
+      "job": "Assessor Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1619-1622",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Bijbelvertaler Synode Dordrecht",
+      "location": "Dordrecht",
+      "date": "1625",
+      "source": "4,a",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 1200",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "f 300 huishuur",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "f 200 opslag laatste jaren plus emolumenten",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Paschasie",
+      "LastName": "ISENHOUDT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Paschijntjen",
+        "Paschasia",
+        "Passchijntgen"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacques",
+      "LastName": "WAELE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "2,4,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "WAGENAERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,4,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": null,
+  "in_laws": [
+    {
+      "FirstName": "Nicolas",
+      "LastName": "ISENHOUDT",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "4",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Koudekerke",
+      "BirthDate": "1604-12-27",
+      "DeathDate": "1649-06-05",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Balduinus",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1673",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esterchen",
+      "LastName": "WALAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": null,
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Gent",
+  "BirthDate": "1573-10-03",
+  "DeathDate": "1639-07-09",
+  "DeathCity": "Leiden"
+}

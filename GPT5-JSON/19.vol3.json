@@ -1,0 +1,410 @@
+{
+  "FirstName": "Joan Melchior",
+  "LastName": "KEMPER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Amsterdam",
+      "date": "1791-09",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Amsterdam",
+      "date": "1791-10-10",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1796-12-12",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1796-10-17",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Amsterdam",
+      "date": "1796",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Harderwijk",
+      "date": "1798-07-28",
+      "source": "2,71",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1801",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Burgerlijk Recht",
+      "location": "Amsterdam",
+      "date": "1806-01",
+      "source": "71",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten; onderwijs natuur- en volkenrecht en geschiedenis van Europa sedert Maximiliaan I",
+      "location": "Leiden",
+      "date": "1809-02-01",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs lijfstraffelijke rechtsgeleerdheid en wetboek van koophandel",
+      "location": "Leiden",
+      "date": "1810",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs natuur- en volkenrecht",
+      "location": "Leiden",
+      "date": "1813",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd in ambt",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1815",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De iuris consultorum romanorum in principio: quod contra bonos mores fiat id iure ratum esse non oportere bij Cras en Pestel",
+      "location": null,
+      "date": null,
+      "source": "2,71"
+    },
+    {
+      "particularity": "In 1800 op nominatie Utrecht",
+      "location": "Utrecht",
+      "date": "1800",
+      "source": "2"
+    },
+    {
+      "particularity": "Aanbod Groningen 1802 afgewezen",
+      "location": null,
+      "date": "1802",
+      "source": "18"
+    },
+    {
+      "particularity": "Aanbod Franeker 1802 (f 1800), 1804 (f 2000), 1805 afgewezen",
+      "location": null,
+      "date": null,
+      "source": "18,71"
+    },
+    {
+      "particularity": "Benoemd in Harderwijk met steun van prof. Cras uit Amsterdam",
+      "location": null,
+      "date": null,
+      "source": "2,18"
+    },
+    {
+      "particularity": "In Harderwijk schrijft hij anoniem tegen Napoleon",
+      "location": "Harderwijk",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Geadeld (jonkheer)",
+      "location": null,
+      "date": "1813",
+      "source": "2"
+    },
+    {
+      "particularity": "Aanbod Raad van State afgewezen",
+      "location": null,
+      "date": "1818",
+      "source": "2,71"
+    },
+    {
+      "particularity": "Salaris: f 1000 (1798), f 1100 (1799), f 1450 (1801), f 2000 (1806), f 4500 (1809)",
+      "location": null,
+      "date": null,
+      "source": "71"
+    },
+    {
+      "particularity": "Woonde Breestraat 109, eigenaar buitenhuis Krachtwijk aan de Eem",
+      "location": null,
+      "date": null,
+      "source": "71"
+    },
+    {
+      "particularity": "Ondertekent proclamatie 1813 te Amsterdam",
+      "location": "Amsterdam",
+      "date": "1813",
+      "source": "71,2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christina Catharina",
+      "LastName": "VRIES",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1772-04-14",
+      "DeathDate": "1856-07-04",
+      "DeathCity": "Baarn"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joan Hendrik",
+      "LastName": "KEMPER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1750",
+      "DeathDate": "1786",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "BEKKER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1753",
+      "DeathDate": "1786",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Philip",
+      "LastName": "KEMPER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1722",
+      "DeathDate": "1756",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Maria Sophia",
+      "LastName": "VOORTMEYER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1720",
+      "DeathDate": "1802",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerrit",
+      "LastName": "BEKKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hermine",
+      "LastName": "STELLING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Gerrit",
+      "LastName": "VRIES",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1744",
+      "DeathDate": "1810",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BOSCH",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1745",
+      "DeathDate": "1810",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "KEMPER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1799-03-13",
+      "DeathDate": "1871-05-20",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "KEMPER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1801-11-07",
+      "DeathDate": "1871-05-09",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Christina Bernardina",
+      "LastName": "KEMPER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Hoogland",
+      "BirthDate": "1804-07-08",
+      "DeathDate": "1844-03-12",
+      "DeathCity": "Denekamp"
+    },
+    {
+      "FirstName": "Jeronimo de Bosch",
+      "LastName": "KEMPER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1808-03-23",
+      "DeathDate": "1878-10-20",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Joan Melchior",
+      "LastName": "KEMPER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1810-08-14",
+      "DeathDate": "1841-10-27",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Jeronimo",
+      "LastName": "BOSCH",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "b,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeronimo",
+      "LastName": "VRIES",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "2,71",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1776-04-26",
+  "DeathDate": "1824-07-20",
+  "DeathCity": "Leiden"
+}

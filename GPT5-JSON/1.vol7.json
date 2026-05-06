@@ -1,0 +1,387 @@
+{
+  "FirstName": "Francois",
+  "LastName": "VAN AERSSEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1588-09-27",
+      "source": "9"
+    },
+    {
+      "subject": "Disp.",
+      "location": "Leiden",
+      "date": "1592-04-17",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": "1593",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lid gevolg Philippe du Pliessis-Mornay",
+      "location": "Frankrijk",
+      "date": "1594",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Itali\u00eb",
+      "location": "Itali\u00eb",
+      "date": "1596",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Itali\u00eb",
+      "location": "Itali\u00eb",
+      "date": "1597",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris van Oldenbarnevelt tijdens missie naar Frankrijk",
+      "location": "Frankrijk",
+      "date": "1598",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Agent Staten-Generaal Frankrijk",
+      "location": "Parijs",
+      "date": "1598-04-26",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ambassadeur Staten-Generaal Frankrijk",
+      "location": "Parijs",
+      "date": "1609-09-18",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": null,
+      "date": "1613",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap van Holland",
+      "location": "Den Haag",
+      "date": "1619-01-19",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Venetie",
+      "location": "Venetie",
+      "date": "1620",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1621",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1624-08-12",
+      "source": "B",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1625",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Raad van State",
+      "location": "Den Haag",
+      "date": "1625-10-23",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1625",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1627",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afstand als Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1633",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1639",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten-Generaal",
+      "location": "Den Haag",
+      "date": "1640",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1641",
+      "source": "22",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Geadeld",
+      "location": null,
+      "date": "1605",
+      "source": "3"
+    },
+    {
+      "particularity": "Ridder orde St. Michel",
+      "location": null,
+      "date": "1612",
+      "source": "3"
+    },
+    {
+      "particularity": "Baron",
+      "location": null,
+      "date": "1636",
+      "source": "3"
+    },
+    {
+      "particularity": "Bevriend met Maurits en Frederik Hendrik",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Tegenstander van Oldenbarneveldt en van der Mijle",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Petronella",
+      "LastName": "BORRE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1578",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VAN AERSSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1545",
+      "DeathDate": "1627",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Emerentiana",
+      "LastName": "DE REGNIERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1549",
+      "DeathDate": "1627",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VAN AERSSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacques",
+      "LastName": "DE REGNIERS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agnes",
+      "LastName": "VAN TEMSEKE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jeronimus",
+      "LastName": "BORRE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "VAN TELSHOUT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VAN AERSSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Frankrijk",
+      "BirthCity": "Parijs",
+      "BirthDate": "1600",
+      "DeathDate": "1662-11-09",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Emerentiana",
+      "LastName": "VAN AERSSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1677-11-15",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "VAN AERSSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Frankrijk",
+      "BirthCity": "Parijs",
+      "BirthDate": "1606-09-20",
+      "DeathDate": "1677-11-25",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "VAN AERSSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Brussel",
+  "BirthDate": "1572",
+  "DeathDate": "1641-12-27",
+  "DeathCity": "Den Haag"
+}

@@ -1,0 +1,407 @@
+{
+  "FirstName": "Sebald Justinus",
+  "LastName": "BRUGMANS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Huisles vader",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse School",
+      "location": "Groningen",
+      "date": null,
+      "source": "90"
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Groningen",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Groningen",
+      "date": "1778-02-02",
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Groningen",
+      "date": "1784-06-23",
+      "source": "13"
+    },
+    {
+      "subject": "Cand.Med.",
+      "location": "Groningen",
+      "date": "1783",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1783-09-07",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Groningen",
+      "date": "1785-06-15",
+      "source": "15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Natuurkunde, Logica, Astronomie en Metafysica",
+      "location": "Franeker",
+      "date": "1785-11-01",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Botanie (niet in faculteit der Medicijnen)",
+      "location": "Leiden",
+      "date": "1786-06-01",
+      "source": "79,90",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurlijke Historie",
+      "location": "Leiden",
+      "date": "1787-03-10",
+      "source": "71,59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Prefectus van het kabinet van natuurlijke historie",
+      "location": "Leiden",
+      "date": "1787-06-18",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen (zonder plichten of rechten)",
+      "location": "Leiden",
+      "date": "1791-05-13",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen (met rechten en emolumenten)",
+      "location": "Leiden",
+      "date": "1795-09-19",
+      "source": "78",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Chemie",
+      "location": "Leiden",
+      "date": "1795-10-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Chemie",
+      "location": "Leiden",
+      "date": "1799-11-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vrijwillig aftreden",
+      "location": null,
+      "date": "1813-12-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1813",
+      "source": "29",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1814",
+      "source": "29",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar in de Faculteit van Wis- en Natuurkunde (Botanie, Chemie, Natuurlijke Historie)",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Commissie Reorganisatie Militair-Geneeskundige Dienst",
+      "location": null,
+      "date": "1795",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Leiding Bureau van Gezondheid over de hospitalen en de Armee",
+      "location": null,
+      "date": "1795-07-18",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "M\u00e9decin Consultant Louis Napoleon",
+      "location": null,
+      "date": "1807",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Staatsraad in buitengewone dienst",
+      "location": "Itali\u00eb",
+      "date": "1809",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Inspecteur van de Militair-Geneeskundige Dienst",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Phil. De lapidibus et saxris agri Groningani",
+      "location": null,
+      "date": null,
+      "source": "45"
+    },
+    {
+      "particularity": "Diss.Med. De puogeni, sive mediis quibus natura utitur in creando puer...",
+      "location": null,
+      "date": null,
+      "source": "75"
+    },
+    {
+      "particularity": "Wint prijsvragen Dijon, Bordeaux en Berlijn",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Wijst aanbod Ministerschap van Oorlog door Uitvoerend Bewind af",
+      "location": null,
+      "date": "1798-02-02",
+      "source": "2"
+    },
+    {
+      "particularity": "Lid van 23 genootschappen waaronder: Koninklijke Academie van Wetenschappen Dijon; Koninklijke Academie Geneeskunde Edinburgh; Natuurhistorische Soci\u00ebteit Edinburgh; Geneeskundige Soci\u00ebteit Londen; Gronings Genootschap ex colendo solo patrio; Nabuur-Geneeskundig Gezelschap Den Haag.",
+      "location": null,
+      "date": null,
+      "source": "2,90"
+    },
+    {
+      "particularity": "Gematigd Orangist.",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Reizen in Duitsland (Brunswijk, Berlijn, Dresden) in 1797.",
+      "location": null,
+      "date": null,
+      "source": "90"
+    },
+    {
+      "particularity": "Reis naar Parijs in 1805, 1811 en 1815.",
+      "location": null,
+      "date": null,
+      "source": "90"
+    },
+    {
+      "particularity": "Salaris: f 1800",
+      "location": "Leiden",
+      "date": "1786",
+      "source": "72"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina Maria",
+      "LastName": "DAM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1776-10-17",
+      "DeathDate": "1836-03-13",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1732",
+      "DeathDate": "1789",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Frederika",
+      "LastName": "MANGER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Piebo",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "WIERSEMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sebald Gottfried",
+      "LastName": "MANGER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1703",
+      "DeathDate": "1795",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva Justina",
+      "LastName": "SCHWEIDNITZ",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "IJsbrand",
+      "LastName": "DAM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie Fran\u00e7oise",
+      "LastName": "DROLENVAUX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johanna Maria",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1800-05-24",
+      "DeathDate": "1857-06-11",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Louise Fran\u00e7oise",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1804",
+      "DeathDate": "1858-05-08",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Franeker",
+  "BirthDate": "1763-03-24",
+  "DeathDate": "1819-07-22",
+  "DeathCity": "Leiden"
+}

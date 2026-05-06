@@ -1,0 +1,176 @@
+{
+  "FirstName": "Ludolf",
+  "LastName": "CEULEN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": null,
+  "careers": [
+    {
+      "job": "Verblijf",
+      "location": "Keulen",
+      "date": "1569",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Lijfland",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Antwerpen",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar Wiskunde",
+      "location": "Delft",
+      "date": "1582",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar Schermen",
+      "location": "Delft",
+      "date": "1584-10-06",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Arnhem",
+      "date": "1589",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schermmeester",
+      "location": "Delft",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofd schermschool en wiskundeleraar",
+      "location": "Leiden",
+      "date": "1594-06-09",
+      "source": "3,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wiskunde",
+      "location": "Leiden",
+      "date": "1600-01-10",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Simon Stevin en Jan de Groot",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Verwersdijk te Delft en Rapenburg 18 in Leiden",
+      "location": null,
+      "date": null,
+      "source": "3,a"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1600",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 450",
+      "location": null,
+      "date": "1603",
+      "source": "3"
+    },
+    {
+      "particularity": "Zijn grafsteen toonde het getal pi",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Professor Duytsche Math\u00e9matiquen. Onderwijs: Rekenen, Landmeten en Sterktebouw",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "SIJMONS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1627",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "CEULEN",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "3,21",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Besther",
+      "LastName": "ROODE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null,
+  "type_of_person": 3,
+  "faculty": "Wiskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Hildesheim",
+  "BirthDate": "1540-01-28",
+  "DeathDate": "1610-12-31",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,336 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "GRONOVIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Les van vader",
+      "location": "Deventer",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Les van vader",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1659-02-22",
+      "source": "28"
+    },
+    {
+      "subject": "Verblijf bij oom",
+      "location": "Hamburg",
+      "date": "1665",
+      "source": "72"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Oxford",
+      "date": "1670",
+      "source": "33"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Cambridge",
+      "date": "1671",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Reis naar Parijs",
+      "location": "Parijs",
+      "date": "1671",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer na dood vader",
+      "location": "Leiden",
+      "date": "1671",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid gezantschap A. Paedts",
+      "location": "Spanje",
+      "date": "1672",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Italie",
+      "location": "Italie",
+      "date": "1673",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Pisa",
+      "date": "1674",
+      "source": "72",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf te Deventer",
+      "location": "Deventer",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal en Historie",
+      "location": "Leiden",
+      "date": "1679-01-13",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid",
+      "location": "Leiden",
+      "date": "1692",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Casaubonus, Stanley, Pocock, Pearson, Chapelain, Valois",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "In Pisa door steun van Magliabecchi, bibliothecaris Laurentiana te Florence, bij groothertrog van Toscane.",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Aanbiedingen Deventer (1672), Pisa (1677), Venetie en Kiel afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Vermogend na overlijden grootvader ten Nuyl",
+      "location": null,
+      "date": null,
+      "source": "b"
+    },
+    {
+      "particularity": "Woont Rapenburg 52",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adelheid",
+      "LastName": "VREDENBURCH",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1652-01-23",
+      "DeathDate": "1732-12-14",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes Fredericus",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "27",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1611",
+      "DeathDate": "1671",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adelheid",
+      "LastName": "NUYL",
+      "Affix": "ten",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1619",
+      "DeathDate": "1656",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "David",
+      "LastName": "GRONOUW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1575",
+      "DeathDate": "1633",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "LANGERMANN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1594",
+      "DeathDate": "1655",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "NUYL",
+      "Affix": "ten",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "MORLETH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Willem",
+      "LastName": "VREDENBURCH",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "WOUW",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Alida",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1683-03-01",
+      "DeathDate": "1735-01-20",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johan Frederik",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1686-02-10",
+      "DeathDate": "1762-07-10",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1695-06-24",
+      "DeathDate": "1775-08-10",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Clara Wilhelmina",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1697-07-25",
+      "DeathDate": "1716-09-12",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Deventer",
+  "BirthDate": "1645-10-10",
+  "DeathDate": "1716-10-21",
+  "DeathCity": "Leiden"
+}

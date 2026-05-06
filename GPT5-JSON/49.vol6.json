@@ -1,0 +1,114 @@
+{
+  "FirstName": "Joachim",
+  "LastName": "WEVELINCHOVEN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "WEWELINCHOVEN"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1635-03-01",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Pensionaris van Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1662",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Rapenburg",
+      "location": null,
+      "date": "1658",
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Agatha",
+      "LastName": "BURCH",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": null,
+      "DeathDate": "1679-10-04",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "WEVELINCHOVEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Reyer",
+      "LastName": "BURCH",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alida",
+      "LastName": "GRAAF",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": "1669-08-31",
+  "DeathCity": null
+}

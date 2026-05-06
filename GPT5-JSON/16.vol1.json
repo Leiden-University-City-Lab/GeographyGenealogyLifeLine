@@ -1,0 +1,225 @@
+{
+  "FirstName": "Franciscus",
+  "LastName": "FABRICIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "FABRITIUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1681-10-05",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol. en Oosterse Talen",
+      "location": "Amsterdam",
+      "date": "1686-1687",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1705-12-11",
+      "source": "34"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Velzen",
+      "date": "1687-11-23",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1696-05-07",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1705-11-08",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. (oratie)",
+      "location": "Leiden",
+      "date": "1705-12-15",
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1708-1709",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1716-1717",
+      "source": "17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Gewijde Welsprekendheid",
+      "location": "Leiden",
+      "date": "1721-11-08",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Gewijde Welsprekendheid (oratie)",
+      "location": "Leiden",
+      "date": "1722-06-17",
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1724-1725",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens ouderdom",
+      "location": "Leiden",
+      "date": "1734-07-12",
+      "source": "714",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritaat",
+      "location": "Leiden",
+      "date": "1734-08",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1736-1737",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1711",
+      "source": "27",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1726",
+      "source": "27",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1733",
+      "source": "27",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "TEYLINGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "FABRICIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Katharina",
+      "LastName": "FELBIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "FELBIER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "FABRICIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1691-01-26",
+      "DeathDate": "1715",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1663-04-10",
+  "DeathDate": "1738-07-27",
+  "DeathCity": "Leiden"
+}

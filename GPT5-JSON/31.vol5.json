@@ -1,0 +1,188 @@
+{
+  "FirstName": "Georgius",
+  "LastName": "HORNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "HORN",
+    "HORNE",
+    "VAN HORN",
+    "VAN HORNE"
+  ],
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Neurenberg",
+      "date": "1635",
+      "source": "5"
+    },
+    {
+      "subject": "Stud.Theol. en Med.",
+      "location": "Altdorf",
+      "date": "1637",
+      "source": "5"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Groningen",
+      "date": "1638-10-27",
+      "source": "23"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1644-06-21",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Leiden",
+      "date": "1649",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hofmeester Engels edelman",
+      "location": "Engeland",
+      "date": "1645-1646",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis en Aardrijkskunde",
+      "location": "Harderwijk",
+      "date": "1648",
+      "source": "2,5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1652-1653",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geschiedenis",
+      "location": "Leiden",
+      "date": "1653-11-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor Publica Historium",
+      "location": "Leiden",
+      "date": "1653-11-30",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis",
+      "location": "Leiden",
+      "date": "1654-03-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kerkelijke Geschiedenis",
+      "location": "Leiden",
+      "date": "1655-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Benoemd te Heidelberg",
+      "location": "Heidelberg",
+      "date": "1668",
+      "source": "27,2,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": "Leiden",
+      "date": "1670-11-08",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "E : H",
+      "location": null,
+      "date": null,
+      "source": "27"
+    },
+    {
+      "particularity": "Latijnse titel betekent geen ordinariaat",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "In 1647 met J.F. Gronovius op nominatie",
+      "location": null,
+      "date": "1647",
+      "source": "2"
+    },
+    {
+      "particularity": "Likeurstoker",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Aanbiedingen Frankfurt/Oder (1648), Heidelberg (1648) en Nijmegen (1654) afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "3,5"
+    },
+    {
+      "particularity": "Vijand prof. de Raey",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": "1652",
+      "source": null
+    },
+    {
+      "particularity": "Krankzinnig, hersteld",
+      "location": "Leiden",
+      "date": "1668",
+      "source": "27,2,3"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Anthony",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Kemnath",
+  "BirthDate": "1620",
+  "DeathDate": "1670-11-10",
+  "DeathCity": "Leiden"
+}

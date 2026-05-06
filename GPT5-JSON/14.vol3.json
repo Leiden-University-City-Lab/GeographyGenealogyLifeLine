@@ -1,0 +1,141 @@
+{
+  "FirstName": "Dirk",
+  "LastName": "VAN EGMOND VAN DE NYENBURG",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN EGMOND VAN DE NIJENBURG"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Raadsheer Hof van Holland",
+      "location": "Den Haag",
+      "date": "1573",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1575-02-12",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hof van Holland",
+      "location": "Den Haag",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hoge Raad",
+      "location": "Den Haag",
+      "date": "1582-02-06",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "President Hoge Raad",
+      "location": "Den Haag",
+      "date": "1592",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant naar keurvorst van Saksen",
+      "location": null,
+      "date": "1586",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "De eerste ordonnanti\u00ebn der Leidse universiteit zijn door hem getekend",
+      "location": "Leiden",
+      "date": "1575",
+      "source": null
+    },
+    {
+      "particularity": "Hij gaf enkele colleges maar trok zich snel terug",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Deliana",
+      "LastName": "BLOKHUYSEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "VAN EGMOND VAN DE NIJENBURG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalene",
+      "LastName": "HOOICK",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "VAN EGMOND VAN DE NIJENBURG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": "1537-12-17",
+  "DeathDate": "1596-01-07",
+  "DeathCity": null
+}

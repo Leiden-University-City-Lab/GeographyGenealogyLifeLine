@@ -1,0 +1,427 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "LINDEN",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [
+    "Antonides"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Les bij oom ds. Herman Antonides",
+      "location": "Naarden",
+      "date": "1619-1621",
+      "source": "67"
+    },
+    {
+      "subject": "Latijnse School van rector Willem van Nieuwenhuigzen",
+      "location": "Enkhuizen",
+      "date": "1621-1625",
+      "source": "67"
+    },
+    {
+      "subject": "Stud. Litt., Natuurkunde, Phil., Med.",
+      "location": "Leiden",
+      "date": "1625-10-23",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Franeker",
+      "date": "1629-12-04",
+      "source": "15"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Franeker",
+      "date": "1630-10-15",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts bij vader",
+      "location": "Amsterdam",
+      "date": "1631-1633",
+      "source": "2,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Inspector Collegii Medici",
+      "location": "Amsterdam",
+      "date": "1637",
+      "source": "2,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen, Kruidkunde en Ontleedkunde",
+      "location": "Franeker",
+      "date": "1639-04-26",
+      "source": "2,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Praktische Geneeskunde",
+      "location": "Leiden",
+      "date": "1651-02-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Praktische Geneeskunde",
+      "location": "Leiden",
+      "date": "1651-03-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Medische Instituten",
+      "location": "Leiden",
+      "date": "1660-02-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Franeker",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bibliothecaris Universiteitsbibliotheek",
+      "location": "Franeker",
+      "date": "1648",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De virulentia venerea bij zijn hospes prof. Winsemius",
+      "location": null,
+      "date": null,
+      "source": "2,11"
+    },
+    {
+      "particularity": "Aanbod hoogleraarschap Utrecht afgewezen in 1649",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bevriend met Nicolaas Tulp en Cocceius",
+      "location": null,
+      "date": null,
+      "source": "78"
+    },
+    {
+      "particularity": "Salaris: f 900",
+      "location": null,
+      "date": "1639",
+      "source": "67"
+    },
+    {
+      "particularity": "Salaris: f 1400",
+      "location": null,
+      "date": "1651",
+      "source": "67"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Helena",
+      "LastName": "GRONDT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "67,69,12",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Keulen",
+      "BirthDate": "1614-03-31",
+      "DeathDate": "1688",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1570",
+      "DeathDate": "1633",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "SWEERTS DE WEERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "NERDENUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66,67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1546",
+      "DeathDate": "1614",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ludovica",
+      "LastName": "WIJNCOOP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [
+        "Hesberti"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "WEERT",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara",
+      "LastName": "WONDERER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "N.",
+      "LastName": "GRONDT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "FARTINGT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "67,63",
+      "second_names": [
+        "Antonius"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1635-01-03",
+      "DeathDate": "1681-04-04",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "67,69",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "67,69",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "47,69",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1644-01",
+      "DeathDate": "1736-02-02",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anthony",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "67,69",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "67,69",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1711-10-28",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a) DTB GA Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1651-11-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Casper",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a) DTB GA Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1653-03-16",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Helena",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a) DTB GA Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1655-04-11",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rijnsburg",
+      "LastName": "LINDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "67,69,a) DTB GA Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1657-03-28",
+      "DeathDate": "1696-03-05",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Enkhuizen",
+  "BirthDate": "1609-01-13",
+  "DeathDate": "1664-03-05",
+  "DeathCity": "Leiden"
+}

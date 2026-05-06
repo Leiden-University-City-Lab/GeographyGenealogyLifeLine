@@ -1,0 +1,351 @@
+{
+  "FirstName": "Tiberius",
+  "LastName": "HEMSTERHUIS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school (Greven)",
+      "location": "Groningen",
+      "date": "1696",
+      "source": "50"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Groningen",
+      "date": "1698-08-25",
+      "source": "23"
+    },
+    {
+      "subject": "Reis met vader door Republiek",
+      "location": "Republiek",
+      "date": "1701",
+      "source": "2,50"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1702-09-30",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Harderwijk",
+      "date": "1705-01-25",
+      "source": "24"
+    },
+    {
+      "subject": "Doct.Phil.h.c.",
+      "location": "Harderwijk",
+      "date": "1705-01-26",
+      "source": "25"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Opdracht ordening oosterse Handschriften Warner",
+      "location": "Leiden",
+      "date": "1702-01-01",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophie en Mathesis",
+      "location": "Amsterdam",
+      "date": "1704-12-20",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Franeker",
+      "date": "1717-08-26",
+      "source": "2,17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Vaderlandse Geschiedenis",
+      "location": "Franeker",
+      "date": "1738",
+      "source": "2,17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1723",
+      "source": "2,17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1729",
+      "source": "2,17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1738",
+      "source": "2,17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal en Vaderlandse Geschiedenis",
+      "location": "Leiden",
+      "date": "1740-09-12",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Wegens hoge ouderdom gedeeltelijk vervangen voor onderwijs in Griekse taal",
+      "location": "Leiden",
+      "date": "1757-02-01",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1747",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1765-10-18",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar vaderlandse geschiedenis Willem IV",
+      "location": null,
+      "date": "1726",
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Erepromotor prof. G.Wijnen",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Wonderkind",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Conflict met curatoren Amsterdam over brieven naar Frankrijk",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "In 1715 voorkomt prof. Burman dat hij naar Leiden komt",
+      "location": null,
+      "date": "1715",
+      "source": "2"
+    },
+    {
+      "particularity": "Orangist",
+      "location": null,
+      "date": null,
+      "source": "50"
+    },
+    {
+      "particularity": "Woont Rapenburg 47",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1717",
+      "source": "10"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Cornelia Maria",
+      "LastName": "WILDE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "2,45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1685-03-26",
+      "DeathDate": "1766-04-13",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Franciscus",
+      "LastName": "HEMSTERHUIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GROENWOUT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "GRONWOLS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Tiberius",
+      "LastName": "HEMSTERHUIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Judith",
+      "LastName": "TEGNEJUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "WILDE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "2,45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrina",
+      "LastName": "VEEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "HEMSTERHUIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "HEMSTERHUIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1722-01-17",
+      "DeathDate": "1790-07-23",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Tiberius",
+      "LastName": "HEMSTERHUIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1724-06-15",
+      "DeathDate": "1749",
+      "DeathCity": "Franeker"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "HEMSTERHUIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Groningen",
+  "BirthDate": "1685-01-08",
+  "DeathDate": "1766-04-07",
+  "DeathCity": "Leiden"
+}

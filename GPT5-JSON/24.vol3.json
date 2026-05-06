@@ -1,0 +1,294 @@
+{
+  "FirstName": "Stephanus",
+  "LastName": "MARCHANT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Stephan",
+    "Etienne"
+  ],
+  "alternative_last_names": [
+    "MARCHAND"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1642-05-16",
+      "source": "26"
+    },
+    {
+      "subject": "Stud. Iur. Dr. h.c.",
+      "location": "Leiden",
+      "date": "1659-11-22",
+      "source": "26"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Rechten",
+      "location": "Leiden",
+      "date": "1658-08-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1660-11-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1661-11-07",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Huwelijkse voorwaarden not. v/d Houve",
+      "location": "Delft",
+      "date": "1669-12-03",
+      "source": "89"
+    },
+    {
+      "particularity": "Testament: seclusieboek A, weeskamer",
+      "location": "Leiden",
+      "date": null,
+      "source": "89"
+    },
+    {
+      "particularity": "Testament echtgenote: not. W. v. Ruyven",
+      "location": "Delft",
+      "date": "1691-12-15",
+      "source": "89"
+    },
+    {
+      "particularity": "Woonde Rapenburg 49",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "VERBURGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b;96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1631-11-19",
+      "DeathDate": "1709-07-15",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Francois",
+      "LastName": "MARCHANT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "89",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "WIJNHOFF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "89",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Esdras",
+      "LastName": "MARCHANT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "89",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "COLLASSE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "89",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Herman",
+      "LastName": "WIJNHOFF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "89",
+      "second_names": [
+        "Mr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BIESE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "89",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Bendrik",
+      "LastName": "VERBURGH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "89",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1597",
+      "DeathDate": "1640",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "AA",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "89",
+      "second_names": [
+        "Adamsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1609",
+      "DeathDate": "1631",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Sara",
+      "LastName": "MARCHANT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "89,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1661-09-24",
+      "DeathDate": "1662-08-18",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "MARCHANT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "89,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1662-12-18",
+      "DeathDate": "1664-11-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "MARCHANT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "89,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1664-06-29",
+      "DeathDate": "1701-11-26",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "MARCHANT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "89,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1668-03-15",
+      "DeathDate": "1739-01-27",
+      "DeathCity": "Geertruidenberg"
+    },
+    {
+      "FirstName": "Mattheus",
+      "LastName": "MARCHANT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "89,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1666-03-03",
+      "DeathDate": null,
+      "DeathCity": "Barsora (Perzi\u00eb)"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": "1670-01-30",
+  "DeathCity": "Leiden"
+}

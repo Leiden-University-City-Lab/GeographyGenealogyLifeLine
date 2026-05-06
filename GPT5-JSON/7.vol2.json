@@ -1,0 +1,262 @@
+{
+  "FirstName": "Reinier",
+  "LastName": "BONTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Reinerus",
+    "Regnerus"
+  ],
+  "alternative_last_names": [
+    "DE BONT",
+    "BONDT"
+  ],
+  "education": [
+    {
+      "subject": "Litt., Phil., Math., Med.",
+      "location": "Leiden",
+      "date": "1589-02-12",
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1599-08-16",
+      "source": "27"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Philosophie",
+      "location": "Leiden",
+      "date": "1599-10-11",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Filosofie",
+      "location": "Leiden",
+      "date": "1603",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde en Physica",
+      "location": "Leiden",
+      "date": "1606-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1607",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": "1611-02-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Leiden",
+      "date": "1617-08-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Medische Instituten",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1620",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1621",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lijfarts Frederik Hendrik en Maurits",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Theses medicae de pleuritidine",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Schrijft toneelstuk over Ontzet Leiden",
+      "location": null,
+      "date": null,
+      "source": "42"
+    },
+    {
+      "particularity": "Alternatieve overlijdensdatum",
+      "location": "Leiden",
+      "date": "1632-06-13",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Leonora",
+      "LastName": "FABIUSDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clementia",
+      "LastName": "AG",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gerardus",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1536",
+      "DeathDate": "1599",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "JEMSDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Clara",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aealtje",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerrit",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nillern",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1576",
+  "DeathDate": "1623-06-12",
+  "DeathCity": "Leiden"
+}

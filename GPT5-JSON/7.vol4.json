@@ -1,0 +1,289 @@
+{
+  "FirstName": "Franco",
+  "LastName": "BURGERSDYK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BURGERSDIJCK"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school (Gesselius)",
+      "location": "Amersfoort",
+      "date": "1604",
+      "source": "3"
+    },
+    {
+      "subject": "Latijnse school (Lassonius en Daniel Plancius)",
+      "location": "Delft",
+      "date": "1606",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1610-05-06",
+      "source": "3,14"
+    },
+    {
+      "subject": "Reis Frankrijk",
+      "location": "Frankrijk",
+      "date": "1614",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Saumur",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "3,22"
+    },
+    {
+      "subject": "Mag.Phil.",
+      "location": "Leiden",
+      "date": "1620-03-31",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Saumur",
+      "date": "1614",
+      "source": "3,22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Redeneerkunde",
+      "location": "Leiden",
+      "date": "1620-03-25",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Zedekunde",
+      "location": "Leiden",
+      "date": "1620-10",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneer- en Zedekunde",
+      "location": "Leiden",
+      "date": "1621-02-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuur- en Redeneerkunde",
+      "location": "Leiden",
+      "date": "1628-05-09",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1629",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1631",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1634",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lessen logica gegeven",
+      "location": "Leiden",
+      "date": null,
+      "source": "22",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gepasseerd als subregent Statencollege",
+      "location": null,
+      "date": "1619",
+      "source": "3"
+    },
+    {
+      "particularity": "Hoogleraar in Saumur door du Plessis Mornay benoemd",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Promotor Willebrord Snellius",
+      "location": null,
+      "date": null,
+      "source": "22"
+    },
+    {
+      "particularity": "Moeder was zuster van Hugo Blotius, bibliothecaris van Rudolf II",
+      "location": null,
+      "date": null,
+      "source": "22"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Ursula Neeltje",
+      "LastName": "VERBOOM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter Vrancksz.",
+      "LastName": "BURGERSDYK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BURGERSDYK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Vranck Dirksz.",
+      "LastName": "BURGERSDYK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1540",
+      "DeathDate": "1584",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maritgen Pietersd.",
+      "LastName": "BURGERSDYK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "VERBOOM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertje Jacobsd.",
+      "LastName": "CRANENDONCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "BURGERSDYK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1622-10-11",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "BURGERSDYK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "22,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1623-11-01",
+      "DeathDate": "1691-10-18",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Filosofie",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Lier",
+  "BirthDate": "1590-05-03",
+  "DeathDate": "1635-02-19",
+  "DeathCity": "Leiden"
+}

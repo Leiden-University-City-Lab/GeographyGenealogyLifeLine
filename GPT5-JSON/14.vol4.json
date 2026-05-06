@@ -1,0 +1,446 @@
+{
+  "FirstName": "Joannes",
+  "LastName": "LE FRANCQ VAN BERKHEY",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "School",
+      "location": "Katwijk",
+      "date": "1741",
+      "source": "3,41"
+    },
+    {
+      "subject": "Reis naar Indi\u00eb",
+      "location": "Indi\u00eb",
+      "date": null,
+      "source": "25"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1747-09-22",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1760-12-12",
+      "source": "15"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1764-06-02",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "41",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tolmeester Leidse trekvaart",
+      "location": "Warmond",
+      "date": "1766",
+      "source": "41",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Natuurlijke Historie",
+      "location": "Leiden",
+      "date": "1773",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1773-11-01",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Zes weken schorsing",
+      "location": "Leiden",
+      "date": "1783",
+      "source": "41",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": "Leiden",
+      "date": "1795",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Expositio de structura florum qui dicuntur compositi",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Promotor is prof. B. S. Albinus",
+      "location": null,
+      "date": null,
+      "source": "48"
+    },
+    {
+      "particularity": "Lid schildersacademie met Petrus Camper",
+      "location": "Leiden",
+      "date": "1747",
+      "source": "41"
+    },
+    {
+      "particularity": "In 1761 belast met ordenen natuurkundig kabinet",
+      "location": "Leiden",
+      "date": "1761",
+      "source": "3"
+    },
+    {
+      "particularity": "Vurig Orangist",
+      "location": null,
+      "date": null,
+      "source": "41"
+    },
+    {
+      "particularity": "Woont \"Leevliet\" te Warmond, Rapenburg, Koepoortsgracht",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Armoede dwingt hem in 1783 tot verkoop rariteitenkabinet",
+      "location": null,
+      "date": "1783",
+      "source": "41"
+    },
+    {
+      "particularity": "Geen toestemming te huwen met Hester Diedering",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Gerritje",
+      "LastName": "Nier",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "25,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1727-12-16",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hester",
+      "LastName": "Diedering",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "25,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1735-12-08",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Evert",
+      "LastName": "Francq",
+      "Affix": "le",
+      "Gender": "Man",
+      "source": "25",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "Berkhey",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Carel",
+      "LastName": "Francq",
+      "Affix": "le",
+      "Gender": "Man",
+      "source": "41",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertje",
+      "LastName": "Bleijkersveld",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "Berkhey",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "25",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Judith",
+      "LastName": "Landeloos",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "Nier",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertje",
+      "LastName": "Taalspel",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "David",
+      "LastName": "Diedering",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "Brug",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Maria",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "41,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1752-11-12",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertje",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "25,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1755-05-11",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dirk",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1759-10-28",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Carel David",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Constantijn",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lodewijk",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Evert Johannes",
+      "LastName": "LE FRANCQ VAN BERKHEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1729-01-23",
+  "DeathDate": "1812-03-13",
+  "DeathCity": "Leiden"
+}

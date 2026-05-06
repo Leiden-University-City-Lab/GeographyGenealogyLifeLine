@@ -1,0 +1,204 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "SCHOOTEN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Wisk.",
+      "location": "Leiden",
+      "date": "1652-01-11",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Wiskunde, Leidse ingenieursschool",
+      "location": "Leiden",
+      "date": "1660",
+      "source": "3,2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1661-11-07",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Militaire Wiskunde (Nederduitsche mathematique)",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Latijnse mathesis",
+      "location": "Leiden",
+      "date": "1669",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof voor wiskunde (2x per week) in Latijn",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Elders werkzaam",
+      "location": null,
+      "date": "1672",
+      "source": "30",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f200",
+      "location": null,
+      "date": "1664",
+      "source": "30"
+    },
+    {
+      "particularity": "Salaris: f400",
+      "location": null,
+      "date": "1574",
+      "source": "30"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "SCHOOTEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "3,13",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1645",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "SCHOOTEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Claes Pietersz.",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Neeltje",
+      "LastName": "SIMONSD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,3",
+      "second_names": [],
+      "alternative_last_names": [
+        "ADRIAANSD."
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Frans",
+      "LastName": "SCHOOTEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "GOLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petrus",
+      "LastName": "GOLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Wiskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1634-02-22",
+  "DeathDate": "1679-11-30",
+  "DeathCity": "Leiden"
+}

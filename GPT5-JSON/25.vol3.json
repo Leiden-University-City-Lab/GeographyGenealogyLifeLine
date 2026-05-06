@@ -1,0 +1,360 @@
+{
+  "FirstName": "Anronius (III)",
+  "LastName": "MATTHAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Groningen",
+      "date": "1647",
+      "source": "41"
+    },
+    {
+      "subject": "Stud.Tur.",
+      "location": "Utrecht",
+      "date": "1652",
+      "source": "33"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Franeker",
+      "date": "1656-02-23",
+      "source": "11"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Utrecht",
+      "date": "1659-10-04",
+      "source": "34"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Rechten",
+      "location": "Utrecht",
+      "date": "1659-10-17",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar (Instituten en Pandecten)",
+      "location": "Utrecht",
+      "date": "1660",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Utrecht",
+      "date": "1662",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1672-10-20",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Weinig populair bij zijn studenten",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Promotie bij prof. Paulus Voet",
+      "location": null,
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Aanbod Groningen afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "32"
+    },
+    {
+      "particularity": "Aanbod Leiden afgekocht door weddeverhoging",
+      "location": null,
+      "date": null,
+      "source": "32"
+    },
+    {
+      "particularity": "Voor lagere wedde dan Leiden de eerste maal bood vertrekt hij naar Leiden met een vrijgeleide van de hertog van Luxemburg door bemiddeling van Willem III",
+      "location": null,
+      "date": null,
+      "source": "32"
+    },
+    {
+      "particularity": "Salaris in Utrecht: f 1500",
+      "location": null,
+      "date": null,
+      "source": "32"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "PATER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Antonius (II)",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1601",
+      "DeathDate": "1654",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "PONTANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Antonius (I)",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1564",
+      "DeathDate": "1637",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "SCHULER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1576",
+      "DeathDate": "1648",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "PONTANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [
+        "Isaaksz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1571",
+      "DeathDate": "1639",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anneke",
+      "LastName": "HEERDE",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Antonius (IV)",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,100,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1672-01-26",
+      "DeathDate": "1719-09-26",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonia",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Philippus",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Conradus",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christophorus",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Helena",
+      "LastName": "PONTANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Philippus",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Conradus",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "100",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1633-12-18",
+  "DeathDate": "1710-08-25",
+  "DeathCity": "Leiden"
+}

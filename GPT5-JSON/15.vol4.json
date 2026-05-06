@@ -1,0 +1,465 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "GOLIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "GOOL"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs",
+      "location": "Den Haag",
+      "date": null,
+      "source": "38"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1610-03-13",
+      "source": "14"
+    },
+    {
+      "subject": "Disp.",
+      "location": "Leiden",
+      "date": "1616",
+      "source": "38"
+    },
+    {
+      "subject": "Zelfstudie op buiten vader",
+      "location": "Naaldwijk",
+      "date": "1616",
+      "source": "33"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1618-03",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Reis naar Frankrijk met hertogin de la Tr\u00e9mouille",
+      "location": "Frankrijk",
+      "date": "1621",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aangesteld als leraar Grieks door regering La Rochelle",
+      "location": "La Rochelle",
+      "date": null,
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid gezantschap",
+      "location": "Marokko",
+      "date": "1622",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Arabisch",
+      "location": "Leiden",
+      "date": "1625-05-12",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof studiereis: kanselier bij Nederlands consulaat",
+      "location": "Aleppo, Syri\u00eb, Mesopotami\u00eb",
+      "date": "1625",
+      "source": "3,13,33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde",
+      "location": "Leiden",
+      "date": "1629-09-21",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof bezoek aan Antwerpen voor Jezuit uit China",
+      "location": "Antwerpen",
+      "date": "1654-06",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1642",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1651",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1656",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1665",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adviseur Staten-Generaal inzake Oosterse kwesties",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Als student in huis bij Daniel Colonius",
+      "location": null,
+      "date": null,
+      "source": "33"
+    },
+    {
+      "particularity": "Disp. De natura visus",
+      "location": null,
+      "date": null,
+      "source": "33"
+    },
+    {
+      "particularity": "Steun curator Pauw doorslaggevend bij verlof 1625 (de broer van Pauw was consul in Aleppo)",
+      "location": null,
+      "date": "1625",
+      "source": "33"
+    },
+    {
+      "particularity": "Aanbod hofgeograaf van sultan Moerad IV te worden afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Vertaalde Bijbel en Calvijn in Arabisch en Turks",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Oprichter Sterrewacht",
+      "location": null,
+      "date": "1633",
+      "source": "3"
+    },
+    {
+      "particularity": "Grondlegger Arabische collectie UB",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Bevriend met Descartes, Tudde, Huygens",
+      "location": null,
+      "date": null,
+      "source": "33"
+    },
+    {
+      "particularity": "Woont Rapenburg 12 sinds 1638",
+      "location": "Leiden",
+      "date": "1638",
+      "source": "33"
+    },
+    {
+      "particularity": "Ondertrouw",
+      "location": "Leiden",
+      "date": "1631-04-15",
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Reinsburg",
+      "LastName": "GOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "3,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "HEMELAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "33",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Janneke",
+      "LastName": "MAHIEU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "HEMELAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "FEBRE",
+      "Affix": "le",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Matthias",
+      "LastName": "GOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aleyt",
+      "LastName": "BEVEREN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [
+        "Jacobsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "GOLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Theodorus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1679-09-21",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Matthias",
+      "LastName": "GOLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1720",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Aleyt",
+      "LastName": "GOLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "GOLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Jan",
+      "LastName": "HEMELAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petrus",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "MIJLE",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3,43",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Den Haag",
+  "BirthDate": "1596",
+  "DeathDate": "1667-09-28",
+  "DeathCity": "Leiden"
+}

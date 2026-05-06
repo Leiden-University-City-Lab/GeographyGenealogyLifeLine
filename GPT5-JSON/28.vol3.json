@@ -1,0 +1,423 @@
+{
+  "FirstName": "Frederik Willem",
+  "LastName": "PESTEL",
+  "Affix": "von",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "PESTEL"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Rintelen",
+      "date": "1739",
+      "source": "30"
+    },
+    {
+      "subject": "Stud.",
+      "location": "G\u00f6ttingen",
+      "date": "1743-10-09",
+      "source": "15,30"
+    },
+    {
+      "subject": "Lic. Iur.",
+      "location": "Rintelen",
+      "date": "1745",
+      "source": "93"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Rintelen",
+      "date": "1747",
+      "source": "93"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Zedekunde",
+      "location": "Rintelen",
+      "date": "1747",
+      "source": "30",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Rintelen",
+      "date": "1748",
+      "source": "30",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (onderwijs natuur-, staats- en canoniek recht)",
+      "location": "Leiden",
+      "date": "1763-05-16",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1765",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1777",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1788",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": "Leiden",
+      "date": "1795-08-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer naar Duitsland bij oom die rechter te Celle is (1795-1802)",
+      "location": "Duitsland",
+      "date": "1795",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1802-02-06",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer naar Leiden",
+      "location": "Leiden",
+      "date": "1803",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hofmeester van Friedrich Otto von M\u00fcnchhausen",
+      "location": null,
+      "date": null,
+      "source": "93",
+      "is_side_job": 1
+    },
+    {
+      "job": "Hessisch Regeringsraad",
+      "location": null,
+      "date": "1762",
+      "source": "93",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secretaris Stolpisch legaat",
+      "location": null,
+      "date": "1769",
+      "source": "93",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Op nominatie",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "In Rintelen hoogleraar naast vader",
+      "location": "Rintelen",
+      "date": null,
+      "source": "30"
+    },
+    {
+      "particularity": "Ontslag door orangisme met behoud van wedde ad \u01922500",
+      "location": "Leiden",
+      "date": "1795",
+      "source": "2"
+    },
+    {
+      "particularity": "Geadeld door keizer Frans II",
+      "location": null,
+      "date": "1792-12",
+      "source": "2"
+    },
+    {
+      "particularity": "Prof. Weiss beval Pestel aan in Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Landgraaf Frederik van Hessen-Kassel laat hem node gaan",
+      "location": null,
+      "date": null,
+      "source": "67"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Sophie Wilheimine",
+      "LastName": "REDEKER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Vlotho",
+      "BirthDate": "1731-05-17",
+      "DeathDate": "1783-12-10",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Friedrich Ulrich",
+      "LastName": "PESTEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "30",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1691",
+      "DeathDate": "1764",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth Helena",
+      "LastName": "LENDERKING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "30,93",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1698",
+      "DeathDate": "1751",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "David",
+      "LastName": "PESTEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1654",
+      "DeathDate": "1727",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Engel Elisabeth",
+      "LastName": "WILHELMI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Franz Conrad",
+      "LastName": "REDEKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Elisabeth",
+      "LastName": "BARKHAUSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Franz",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Rintelen",
+      "BirthDate": "1753-02-26",
+      "DeathDate": "1762",
+      "DeathCity": "Rintelen"
+    },
+    {
+      "FirstName": "Ludwig",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Rintelen",
+      "BirthDate": "1754-05-22",
+      "DeathDate": "1764-01-15",
+      "DeathCity": "Rintelen"
+    },
+    {
+      "FirstName": "August",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Rintelen",
+      "BirthDate": "1755-04-20",
+      "DeathDate": "1757-07-25",
+      "DeathCity": "Rintelen"
+    },
+    {
+      "FirstName": "Wilhelm",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Rintelen",
+      "BirthDate": "1758-07-23",
+      "DeathDate": "1773-12-17",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Charlotte",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Rintelen",
+      "BirthDate": "1759-12-22",
+      "DeathDate": "1843-09-10",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Rintelen",
+      "BirthDate": "1761-10-05",
+      "DeathDate": "1762-12-13",
+      "DeathCity": "Rintelen"
+    },
+    {
+      "FirstName": "August",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Rintelen",
+      "BirthDate": "1762-12-05",
+      "DeathDate": "1829-08-06",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Friedrich Franz Ludwig",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "8,C2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1764-10-15",
+      "DeathDate": "1837-05-06",
+      "DeathCity": "Wiesbaden"
+    },
+    {
+      "FirstName": "Conrad Ferdinand Friedrich",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "a,b,c,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1766-02-07",
+      "DeathDate": "1834-12-17",
+      "DeathCity": "Osnabr\u00fcck"
+    },
+    {
+      "FirstName": "Francisca",
+      "LastName": "PESTEL",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1768-07-13",
+      "DeathDate": "1780",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Rintelen",
+  "BirthDate": "1724-01-07",
+  "DeathDate": "1805-10-16",
+  "DeathCity": "Leiden"
+}

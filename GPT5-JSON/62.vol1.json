@@ -1,0 +1,127 @@
+{
+  "FirstName": "Christophorus",
+  "LastName": "WITTICHIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Jur., Theol., en Phil.",
+      "location": "Bremen",
+      "date": "1642",
+      "source": "7,5"
+    },
+    {
+      "subject": "Stud. Phil. en Theol.",
+      "location": "Groningen",
+      "date": "1644-06-17",
+      "source": "16"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1646",
+      "source": null
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Duisburg",
+      "date": "1655",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Math.",
+      "location": "Herborn",
+      "date": "1651",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Theol.",
+      "location": "Herborn",
+      "date": "1651",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Duisburg",
+      "date": "1652",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Duisburg",
+      "date": "1652",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Nijmegen",
+      "date": "1655",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Nijmegen",
+      "date": "1655-1656",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1671-08-15",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1671-11-10",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens ouderdom",
+      "location": "Leiden",
+      "date": "1686-02-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1684",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Superintendent van de evangelische kerken van het Hertogdom",
+      "location": "Neder-Silezi\u00eb",
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Polen",
+  "BirthCity": "Brieg (Brzeg)",
+  "BirthDate": "1625-10",
+  "DeathDate": "1687-05-19",
+  "DeathCity": "Leiden"
+}

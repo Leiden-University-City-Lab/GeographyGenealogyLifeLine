@@ -1,0 +1,393 @@
+{
+  "FirstName": "Lucas",
+  "LastName": "SURINGAR",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Leeuwarden",
+      "date": null,
+      "source": "7"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Franeker",
+      "date": "1785-09-27",
+      "source": "15"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Franeker",
+      "date": "1792-05-02",
+      "source": null
+    },
+    {
+      "subject": "Eredoct.",
+      "location": "Leiden",
+      "date": "1804",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Oppenhuizen en Uitwellingerga",
+      "date": "1792-08-26",
+      "source": "7,45",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Illustre School",
+      "location": "Lingen",
+      "date": "1796",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred. Ned. Herv. Gemeente",
+      "location": "Lingen",
+      "date": "1797",
+      "source": "45",
+      "is_side_job": 0
+    },
+    {
+      "job": "Inspecteur Kerken en Scholen Graafschap Lingen",
+      "location": "Lingen",
+      "date": "1800-12-19",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector",
+      "location": "Lingen",
+      "date": null,
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1814-12-10",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1826",
+      "source": "14",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid Societas historico-theologica",
+      "location": "Leipzig",
+      "date": "1837-04-15",
+      "source": "7"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Catharina Elisabeth",
+      "LastName": "BECKHAUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1778-06-23",
+      "DeathDate": "1865-01-04",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Tjeerd Nicolaas",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Tjaard"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Stiens",
+      "BirthDate": "1741-04-13",
+      "DeathDate": "1820-06-18",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "COUPERUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leeuwarden",
+      "BirthDate": "1738-02-11",
+      "DeathDate": "1805-05-15",
+      "DeathCity": "Lingen"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gerard Tjaard",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aafke",
+      "LastName": "JACOBI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Friedrich Wilhelm",
+      "LastName": "BECKHAUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Anne Elisabeth",
+      "LastName": "LUCASSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Conrad Bernard",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1802-04-08",
+      "DeathDate": "1874",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter Hendrik",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1813-01-03",
+      "DeathDate": "1887-01-13",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Willem Hendrik Dominicus",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1815-10-13",
+      "DeathDate": "1895-10-13",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Joachim Willem",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1810-09-15",
+      "DeathDate": "1892-06-02",
+      "DeathCity": "Maastricht"
+    },
+    {
+      "FirstName": "Lodewijk Pieter",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1804-04-11",
+      "DeathDate": "1842-06-06",
+      "DeathCity": "Eethen"
+    },
+    {
+      "FirstName": "Pieter Jacob",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1815-10-08",
+      "DeathDate": "1880-12-13",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Joannes",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1817-05-24",
+      "DeathDate": "1867-11-09",
+      "DeathCity": "Moergestel"
+    },
+    {
+      "FirstName": "Frederik Willem Nicolaas",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1800-07-29",
+      "DeathDate": "1821-01-01",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Willem Johan",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1807-06-24",
+      "DeathDate": "1808-02-23",
+      "DeathCity": "Lingen"
+    },
+    {
+      "FirstName": "Johannes Frederik",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1808-11-27",
+      "DeathDate": "1810-01-11",
+      "DeathCity": "Lingen"
+    },
+    {
+      "FirstName": "Lucas",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Lingen",
+      "BirthDate": "1814-07-18",
+      "DeathDate": "1814-07-24",
+      "DeathCity": "Lingen"
+    },
+    {
+      "FirstName": "Cecilia Joanna",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1819-02-18",
+      "DeathDate": "1821-02-02",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Cecilia Joanna",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1821-03-24",
+      "DeathDate": "1875-08-24",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leeuwarden",
+  "BirthDate": "1770-12-22",
+  "DeathDate": "1833-08-23",
+  "DeathCity": "Amsterdam"
+}

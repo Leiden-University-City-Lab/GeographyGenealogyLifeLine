@@ -1,0 +1,246 @@
+{
+  "FirstName": "Jan",
+  "LastName": "VAN HOUT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Klerk secretarie",
+      "location": "Leiden",
+      "date": "1562",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris",
+      "location": "Leiden",
+      "date": "1564",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": null,
+      "date": "1569",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Notaris",
+      "location": "Embden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Werft geld voor Willem I",
+      "location": "Holland",
+      "date": "1572",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Notaris",
+      "location": "Leiden",
+      "date": "1573-03-28",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris",
+      "location": "Leiden",
+      "date": "1573-08",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Benoemd als Secretaris Curatoren",
+      "location": "Leiden",
+      "date": "1586",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Academische Vierschaar",
+      "location": "Leiden",
+      "date": "1593-1596",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Secretaris Curatoren",
+      "location": null,
+      "date": "1596",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsdrukker",
+      "location": "Leiden",
+      "date": "1577",
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Dousa, Lipsius, Bertius, Coornhert, Plantijn",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Breestraat, Nieuwsteeg, Nonnensteeg",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Neef is burgemeester J. Orlers",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": "1583",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 900",
+      "location": null,
+      "date": "1592",
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Lijsbeth",
+      "LastName": "VAN WING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [
+        "Reyersd"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1605",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VAN HOUT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margriete",
+      "LastName": "PIETER JASPERSD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Bartholomeus",
+      "LastName": "VAN HOUT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Maria",
+      "LastName": "VAN HOUT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "9",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1612",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "VAN HOUT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bartolomeus",
+      "LastName": "VAN HOUT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1542-12-14",
+  "DeathDate": "1609-12-12",
+  "DeathCity": "Leiden"
+}

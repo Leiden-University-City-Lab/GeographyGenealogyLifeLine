@@ -1,0 +1,141 @@
+{
+  "FirstName": "Gulielmus",
+  "LastName": "FEUGERAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Guillaume' in Gulielmus (Guillaume)"
+  ],
+  "alternative_last_names": [
+    "FEUGERAY",
+    "FEUG\u00c8RE",
+    "FEUGRET"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Pred.",
+      "location": "Dieppe",
+      "date": "1562",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Vire",
+      "date": "1562",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Au\u00e9villy",
+      "date": "1562",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Esneval (bij Pavilly)",
+      "date": "1565",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Longuevilie",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Rouen",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1575-07-17",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opvoeder Justinus van Nassau, zn. Prins Willem",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1576-1577",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag genomen",
+      "location": "Leiden",
+      "date": "1579-03-23",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Rouen",
+      "date": "1583",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Dieppe",
+      "date": "1590",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Vlucht (Bartholomeusnacht) naar Londen",
+      "location": "Londen",
+      "date": "1572",
+      "source": null
+    },
+    {
+      "particularity": "Afkomst: adellijk Normandisch geslacht",
+      "location": null,
+      "date": null,
+      "source": "6"
+    },
+    {
+      "particularity": "Salaris: f 600 en huishuur",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Rouen",
+  "BirthDate": null,
+  "DeathDate": "1613",
+  "DeathCity": "Rouen (of Dieppe)"
+}

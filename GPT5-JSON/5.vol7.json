@@ -1,0 +1,335 @@
+{
+  "FirstName": "Coenraad",
+  "LastName": "BEUNINGEN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1639-02-18",
+      "source": "9"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1643-03-26",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Secretaris Grotius",
+      "location": "Parijs",
+      "date": "1642-1643",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Amsterdam",
+      "location": "Amsterdam",
+      "date": "1643-1650",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf Rijnsburg",
+      "location": "Rijnsburg",
+      "date": "1650-1651",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris Amsterdam",
+      "location": "Amsterdam",
+      "date": "1650-1660",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Zweden",
+      "location": "Zweden",
+      "date": "1652-1654",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Denemarken",
+      "location": "Denemarken",
+      "date": "1656-1658",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad Amsterdam",
+      "location": "Amsterdam",
+      "date": "1660",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1660-1662",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1664-1667",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen Amsterdam",
+      "location": "Amsterdam",
+      "date": "1668",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester Amsterdam",
+      "location": "Amsterdam",
+      "date": "1669",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Thesaurier Amsterdam",
+      "location": "Amsterdam",
+      "date": "1670-1671",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1670",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester Amsterdam",
+      "location": "Amsterdam",
+      "date": "1672",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten-Generaal",
+      "location": "Den Haag",
+      "date": "1673-1682",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1674-1679",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester Amsterdam",
+      "location": "Amsterdam",
+      "date": "1680",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1680",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester Amsterdam",
+      "location": "Amsterdam",
+      "date": "1681",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bewindhebber V.O.C.",
+      "location": "Amsterdam",
+      "date": "1681",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1681-1683",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester Amsterdam",
+      "location": "Amsterdam",
+      "date": "1683",
+      "source": "15",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Kinderloos",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Victoria",
+      "LastName": "Bartolotti van den Heuvel",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1639-10-30",
+      "DeathDate": "1718-10-22",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dirk Geurtsz.",
+      "LastName": "BEUNINGEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BURGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Geurt Dirksz.",
+      "LastName": "BEUNINGEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "135",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aaltje",
+      "LastName": "APPELMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "135",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Coenraad Matthijsz.",
+      "LastName": "BURGH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1568",
+      "DeathDate": "1601",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Brechtgen Pietersd.",
+      "LastName": "RODINGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1568",
+      "DeathDate": "1638",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Guillielmo",
+      "LastName": "BARTOLOTTI",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1601",
+      "DeathDate": "1658",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "ERP",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1608",
+      "DeathDate": "1665",
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1622-05-17",
+  "DeathDate": "1693-10-20",
+  "DeathCity": "Amsterdam"
+}

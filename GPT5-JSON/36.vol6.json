@@ -1,0 +1,261 @@
+{
+  "FirstName": "Daniel",
+  "LastName": "MASSIS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Bursaal Waals College",
+      "location": "Leiden",
+      "date": "1606",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": null,
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "L'Olive en La Vigne",
+      "date": "1612-1614",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Rouen",
+      "date": "1615-09",
+      "source": "16",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Caen",
+      "date": "1617-04",
+      "source": "16",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Grave",
+      "date": "1619",
+      "source": "16",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Rotterdam",
+      "date": "1630",
+      "source": "16",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Waals college",
+      "location": "Leiden",
+      "date": "1643-12-09",
+      "source": "16",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ondertrouw met Jacomina Houtman",
+      "location": "Grave",
+      "date": "1628-12-23",
+      "source": "16"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "FEBVRE",
+      "Affix": "le",
+      "Gender": "Vrouw",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomina",
+      "LastName": "HOUTMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1610",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Lieven",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "HOUTMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "SIX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Tacob",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Grave",
+      "BirthDate": "1627-01-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Grave",
+      "BirthDate": "1630-01-04",
+      "DeathDate": "1694",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Grave",
+      "BirthDate": null,
+      "DeathDate": "1671",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Francijntje",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1640-02-01",
+      "DeathDate": "1696-09-28",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1643-03-01",
+      "DeathDate": "1707-10-17",
+      "DeathCity": "Ysselmonde"
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "MASSIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1701-06-18",
+      "DeathCity": "Rotterdam"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Middelburg",
+  "BirthDate": "1594-08-30",
+  "DeathDate": "1668-01-08",
+  "DeathCity": "Leiden"
+}

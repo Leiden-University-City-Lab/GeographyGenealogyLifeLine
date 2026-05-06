@@ -1,0 +1,238 @@
+{
+  "FirstName": "Antonius",
+  "LastName": "THYSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "THYS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Klassieke en Oosterse Talen",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1634-11-21",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Dichtkunde (titel zonder rechten)",
+      "location": "Leiden",
+      "date": "1637-02-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lessen Ius publicum (zonder rechten, geen lid Jur.faculteit)",
+      "location": "Leiden",
+      "date": "1639-11-21",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Welsprekendheid (alleen titel)",
+      "location": "Leiden",
+      "date": "1651-02-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid",
+      "location": "Leiden",
+      "date": "1653-11-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten (Ius publicum) op eigen verzoek, als titel zonder rechten",
+      "location": "Leiden",
+      "date": "1663-11-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Assistent-bibliothecaris van Heinsius",
+      "location": "Leiden",
+      "date": "1653-08-26",
+      "source": "25,2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bibliothecaris universiteitsbibliotheek",
+      "location": "Leiden",
+      "date": "1655",
+      "source": "25",
+      "is_side_job": 1
+    },
+    {
+      "job": "Historieschrijver Staten van Holland",
+      "location": null,
+      "date": "1658",
+      "source": "25",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Rapenburg 63",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1565",
+      "DeathDate": "1640",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "RAET",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Christoffel",
+      "LastName": "THIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martha",
+      "LastName": "GILLES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Francois",
+      "LastName": "RAET",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Francoise",
+      "LastName": "BOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,70",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,70",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Constantijn",
+      "LastName": "L'EMPEREUR",
+      "Affix": "van Opwijck",
+      "Gender": "Man",
+      "source": "b,70",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Harderwijk",
+  "BirthDate": "1603",
+  "DeathDate": "1665-01-25",
+  "DeathCity": "Leiden"
+}

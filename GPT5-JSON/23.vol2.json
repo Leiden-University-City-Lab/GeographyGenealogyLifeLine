@@ -1,0 +1,435 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "HEURNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN HEURNE"
+  ],
+  "education": [
+    {
+      "subject": "Les Grieks en Latijn (docenten: Georgius Macropedius, Arnoldus Eyckius)",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Phil., Math., Med.",
+      "location": "Leuven",
+      "date": "1561",
+      "source": "2,73"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Parijs",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Padua",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Padua",
+      "date": "1571",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lijfarts van Fran\u00e7ois Perrenot",
+      "location": null,
+      "date": "1571",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Utrecht",
+      "date": "1573",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1581-09-20",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1583",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1592",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts prins Willem I",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lijfarts prins Maurits",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lijfarts prinses Emilia",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanbod hoogleraarschap Pavia afgeslagen",
+      "location": null,
+      "date": "1571",
+      "source": "72"
+    },
+    {
+      "particularity": "Aanbod hoogleraarschap Franeker afgeslagen",
+      "location": null,
+      "date": "1588",
+      "source": "2"
+    },
+    {
+      "particularity": "Calvinist",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f500 (1585), f600 (1591), f700 (1592)",
+      "location": null,
+      "date": null,
+      "source": "57"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christine",
+      "LastName": "BEIERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [
+        "BEYER"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1565-12-09",
+      "DeathDate": "1604-09-11",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Otto",
+      "LastName": "HEURNE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1516",
+      "DeathDate": "1583",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruida",
+      "LastName": "VELDE",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1604",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "HEURNE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1479",
+      "DeathDate": "1526",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agneta",
+      "LastName": "OCKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lambert",
+      "LastName": "VELDE",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "LUBBERTS RYCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "102",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Wilhelmus",
+      "LastName": "BEYER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "102,a",
+      "second_names": [],
+      "alternative_last_names": [
+        "BEYER VAN BOPPARD"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margarotha",
+      "LastName": "LIJSTER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "102,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Justus",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1587-11-17",
+      "DeathDate": null,
+      "DeathCity": "Wijk bij Duurstede"
+    },
+    {
+      "FirstName": "Otto",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1577-09-03",
+      "DeathDate": "1652-07-14",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1579",
+      "DeathDate": "1581-10-09",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1581-11-28",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Thomas",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1583-09-25",
+      "DeathDate": "1633-05-01",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Lydia",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1585-12-29",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1589-10-12",
+      "DeathDate": "1604-09-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1591-09-03",
+      "DeathDate": "1604-09-09",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Isabella",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1594-09-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1596-10-07",
+      "DeathDate": "1604-09-13",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Isaac",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1596-10-07",
+      "DeathDate": "1597-01-23",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1543-01-25",
+  "DeathDate": "1601-08-11",
+  "DeathCity": "Leiden"
+}

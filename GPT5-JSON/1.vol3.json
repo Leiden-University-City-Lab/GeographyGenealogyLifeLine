@@ -1,0 +1,362 @@
+{
+  "FirstName": "Dominicus",
+  "LastName": "BAUDIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BAULDIER"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Litt.",
+      "location": "Aken",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1578-04-22",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gent",
+      "date": "1579",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1581-06-03",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gent",
+      "date": "1583",
+      "source": null
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1583-09-07",
+      "source": null
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1585-06-03",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lid gezantschap dat Elizabeth I te Londen de soevereiniteit over de Nederlanden aanbiedt",
+      "location": "Londen",
+      "date": "1585",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": null,
+      "date": "1587-01-05",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Tours en Caen",
+      "date": "1591",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Tours",
+      "date": "1592-07",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat bij Parlement van Parijs",
+      "location": "Parijs",
+      "date": "1594-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevangen gezet wegens schulden",
+      "location": "Parijs",
+      "date": "1598",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris van de Franse gezant Harlay",
+      "location": "Londen",
+      "date": "1602",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Welsprekendheid",
+      "location": "Leiden",
+      "date": "1603-05-11",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1607-02-09",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Historie en Rechten",
+      "location": "Leiden",
+      "date": "1608-05-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historie",
+      "location": "Leiden",
+      "date": "1611-05-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Geschorst wegens 'oneerlijk leven'",
+      "location": "Leiden",
+      "date": "1612",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Geschiedschrijver Staten van Holland",
+      "location": null,
+      "date": "1611-08-13",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "De verborum obligationibus bij Donellus",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Bekend Latijns dichter",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Verzoek resident van de Staten-Generaal te Parijs te worden afgewezen",
+      "location": "Parijs",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Poging historieschrijver van Frankrijk te worden mislukt",
+      "location": "Frankrijk",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "In Frankrijk steun van De Thou en Harlay",
+      "location": "Frankrijk",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Bevriend met Scaliger, Sidney, Dousa, Van der Mijle, Oldenbarnevelt",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Bemiddeling bij uitnodiging door Leiden aan Scaliger",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Oratie Welsprekendheid",
+      "location": "Leiden",
+      "date": "1603-06-17",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1603",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 650",
+      "location": null,
+      "date": "1605-02-09",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 700",
+      "location": null,
+      "date": "1605-08",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 900",
+      "location": null,
+      "date": "1607-02-09",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1609-05-09",
+      "source": null
+    },
+    {
+      "particularity": "Gevangen gezet wegens schulden",
+      "location": "Parijs",
+      "date": "1598-1599",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Onbekend",
+      "LastName": "ONBEKEND",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1609-10-11",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "LOO",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "DTB Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dominicus",
+      "LastName": "BAUDIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1576",
+      "DeathCity": "Aken"
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "CLEEMS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Albert",
+      "LastName": "LOO",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "MIJLE",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Onbekend",
+      "LastName": "BAUDIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Onbekend",
+      "LastName": "BAUDIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "DTB Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Rijssel",
+  "BirthDate": "1561-04-08",
+  "DeathDate": "1613-08-22",
+  "DeathCity": "Leiden"
+}

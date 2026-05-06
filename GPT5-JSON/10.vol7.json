@@ -1,0 +1,282 @@
+{
+  "FirstName": "Jacob Philip",
+  "LastName": "BOETZELAER",
+  "Affix": "van den",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1728-09-04",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lid Admiraliteit Amsterdam",
+      "location": "Amsterdam",
+      "date": "1733-07-27",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad",
+      "location": "Schieland",
+      "date": "1734",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap van Holland",
+      "location": "Den Haag",
+      "date": "1737-07-12",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Engeland",
+      "date": "1745-1747",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Admiraliteit Amsterdam",
+      "location": "Amsterdam",
+      "date": "1748-05-04",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Drost van Gorinchem en Land van Arkel",
+      "location": "Gorinchem en Land van Arkel",
+      "date": "1751",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Raad van State",
+      "location": "Den Haag",
+      "date": "1751-11-17",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Commissaris 's Lands Posterijen",
+      "location": "Den Haag",
+      "date": "1751-1772",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Meesterknaap van Holland",
+      "location": "Holland",
+      "date": "1765",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Baljuw en schout",
+      "location": "Den Haag",
+      "date": "1772",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Luitenant-Houtvester van Holland",
+      "location": null,
+      "date": "1774-10-21",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1774-11-04",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1774-11-18",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rentmeester-Generaal",
+      "location": "Abdij Rijnsburg",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Baron; heer van Nieuwveen en Cranenbrouck",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christina Charlotte Margaretha",
+      "LastName": "STOCKEN",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Oldenburg",
+      "BirthDate": "1718",
+      "DeathDate": "1795",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacob Godefroy",
+      "LastName": "BOETZELAER",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1680",
+      "DeathDate": "1736",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena Elisabeth",
+      "LastName": "JONGE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1689",
+      "DeathDate": "1730",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Carel",
+      "LastName": "BOETZELAER",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1635",
+      "DeathDate": "1708",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "FERENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1648",
+      "DeathDate": "1721",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "JONGE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "OYENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Hans Heinrich",
+      "LastName": "STOCKEN",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "BOETZELAER",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Magdalena Anna Elisabeth",
+      "LastName": "BOETZELAER",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1800-12-28",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1711-08-18",
+  "DeathDate": "1781-04-26",
+  "DeathCity": "Den Haag"
+}

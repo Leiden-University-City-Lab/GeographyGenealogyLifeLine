@@ -1,0 +1,352 @@
+{
+  "FirstName": "Julius",
+  "LastName": "BEYMA",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [
+    "Jucke"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "St.Maartensschool",
+      "location": "Groningen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Lic.Iur.",
+      "location": "Orleans",
+      "date": "1564",
+      "source": "2,a"
+    },
+    {
+      "subject": "Stud.Iur.Lic.",
+      "location": "Leiden",
+      "date": "1581-08-24",
+      "source": "26"
+    },
+    {
+      "subject": "Doct.Iur. h.c.",
+      "location": "Leiden",
+      "date": "1595",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Friesland",
+      "location": "Leeuwarden",
+      "date": "1568",
+      "source": "2,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Als protestant gevlucht naar Wittenberg",
+      "location": "Wittenberg",
+      "date": "1567",
+      "source": "10,2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Wittenberg",
+      "date": "1568",
+      "source": "2,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Comes Palatinus (eretitel)",
+      "location": "Wittenberg",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Rechten (proef voor 1 jaar)",
+      "location": "Leiden",
+      "date": "1581-07-20",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (onderwijs in Instituten en Digesten)",
+      "location": "Leiden",
+      "date": "1582-08-01",
+      "source": "23",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1589",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1590",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1596",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hof van Friesland",
+      "location": "Leeuwarden",
+      "date": "1597",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Langebrug, hoek Sonneveldsteeg bij prof. Tiara",
+      "location": null,
+      "date": "1581",
+      "source": "10,2"
+    },
+    {
+      "particularity": "Bemiddeling met Lipsius om Donellus in Leiden te houden",
+      "location": "Leiden",
+      "date": "1587",
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Falide Begijnhof na 1581",
+      "location": null,
+      "date": null,
+      "source": "10,2"
+    },
+    {
+      "particularity": "Bronckhorst probeert voorjaar 1597 vergeefs hem naar Leiden terug te halen",
+      "location": null,
+      "date": "1597",
+      "source": "2"
+    },
+    {
+      "particularity": "Franeker vraagt Gedeputeerde Staten van Friesland vergeefs zijn benoeming tot raadsheer in te trekken en biedt een salarisverhoging tot f1000 aan",
+      "location": null,
+      "date": null,
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f400",
+      "location": null,
+      "date": "1581",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f500",
+      "location": null,
+      "date": "1587",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f550",
+      "location": null,
+      "date": "1589",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f600",
+      "location": null,
+      "date": "1591",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f700",
+      "location": null,
+      "date": "1592",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f800",
+      "location": null,
+      "date": "1598",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Doct.Iur. h.c. Leiden mogelijk 1584",
+      "location": null,
+      "date": "1584",
+      "source": "26b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maijke",
+      "LastName": "GADEMA",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "BEYMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Juckes"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1500",
+      "DeathDate": "1564",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BEYMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jucke",
+      "LastName": "BEYMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "10,56",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "GADEMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Lambertsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "FDDIEDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Ena",
+      "LastName": "BEYMA",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Titia",
+      "LastName": "BEYMA",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,10,56",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1596",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lambertus",
+      "LastName": "BEYMA",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Mr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1590",
+      "DeathDate": "1658",
+      "DeathCity": "Leeuwarden"
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "BEYMA",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2,56",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Dokkum",
+  "BirthDate": "1542",
+  "DeathDate": "1598-06-15",
+  "DeathCity": "Leeuwarden"
+}

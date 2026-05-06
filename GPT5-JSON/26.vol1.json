@@ -1,0 +1,315 @@
+{
+  "FirstName": "Taco Hajo",
+  "LastName": "VAN DEN HONERT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Tako Hago"
+  ],
+  "alternative_last_names": [
+    "VON HONART"
+  ],
+  "education": [
+    {
+      "subject": "School",
+      "location": "Emden",
+      "date": "1674-1679",
+      "source": "6"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Marburg",
+      "date": "1682",
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol. en Phil.",
+      "location": "Leiden",
+      "date": "1683-09-06",
+      "source": "17,6"
+    },
+    {
+      "subject": "Proponentsexamen",
+      "location": null,
+      "date": "1687-09",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Onderwijs",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Hendrik-Ido-Ambacht",
+      "date": "1689",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Brielle",
+      "date": "1694-03-21",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Amsterdam",
+      "date": "1698-04-24",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1714-08-29",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1720-1721",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuwse Oudheden",
+      "location": "Leiden",
+      "date": "1721-10-18",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens ouderdom",
+      "location": "Leiden",
+      "date": "1734-07-12",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1718-1727",
+      "source": "27",
+      "is_side_job": 1
+    },
+    {
+      "job": "Deputaat Classis",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "6",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": null,
+  "spouses": [
+    {
+      "FirstName": "Jacomina",
+      "LastName": "Asperen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1665-12-21",
+      "DeathDate": "1705-08-10",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Midlum",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "'s-Graveland",
+      "BirthDate": "1666",
+      "DeathDate": "1729-03-20",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "van den Honert",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,6",
+      "second_names": [
+        "Joan"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1635",
+      "DeathDate": "1724",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ida",
+      "LastName": "Hajinga",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Joan",
+      "LastName": "van den Honert",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1610",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hasia",
+      "LastName": "van der Meyde",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Take",
+      "LastName": "Hajen",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Modera",
+      "LastName": "Detleffen",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Gijsbrecht",
+      "LastName": "van Asperen",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6,2,a",
+      "second_names": [
+        "Gijsbert"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "de Witt",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "van Midlum",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "van der Well",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johan",
+      "LastName": "VAN DEN HONERT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701-04-05",
+      "DeathDate": "1779-07-15",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Norden",
+  "BirthDate": "1666-03-16",
+  "DeathDate": "1740-02-23",
+  "DeathCity": "Leiden"
+}

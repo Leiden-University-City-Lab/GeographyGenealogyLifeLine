@@ -1,0 +1,429 @@
+{
+  "FirstName": "Adriaan",
+  "LastName": "KLUIT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": "1755",
+      "source": "37"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": "1760",
+      "source": "37"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Praeceptor Latijnse school",
+      "location": "Rotterdam",
+      "date": "1760",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Praeceptor Latijnse school",
+      "location": "Den Haag",
+      "date": "1761",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Praeceptor Latijnse school",
+      "location": "Alkmaar",
+      "date": "1764",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Middelburg",
+      "date": "1769-03",
+      "source": "51",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Welsprekendheid en Grieks",
+      "location": "Middelburg",
+      "date": "1769-03",
+      "source": "51",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rhetorica en Grieks",
+      "location": "Middelburg",
+      "date": "1776",
+      "source": "51",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Vaderlandse Oudheden en Geschiedenis, bijzonder de diplomatie der Verenigde Nederlanden",
+      "location": "Leiden",
+      "date": "1778-08-22",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": "Leiden",
+      "date": "1795-08-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar, colleges over staatsrecht van Holland",
+      "location": "Leiden",
+      "date": "1802-02-06",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs in statistiek met titel professor antiquitatum et historiae imprimis diplomaticae necnon statistices regni hollandici",
+      "location": "Leiden",
+      "date": "1806-09-20",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Oratie",
+      "location": "Leiden",
+      "date": "1779-01-18",
+      "source": "25"
+    },
+    {
+      "particularity": "Lid van: Zeeuws Genootschap van Wetenschappen, Bataafse Maatschappij van Taal- en Dichtkunde, Historisch Gronings Genootschap \"Pro excolendo iure patriae\", Provinciaal Utrechts Genootschap van Kunsten en Wetenschappen, Dulces ante omnia musae",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Mede-oprichter Maatschappij der Nederlandse Letterkunde",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Vriend van prof. Wesseling (Utrecht), studievriend prof. M. Pydeman",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Steun bij onderzoek van Gerard Meerman, pensionaris van Rotterdam",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Aanbod Latijnse school Dordrecht 1764 afgewezen",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Steun van graaf de Neny bij archiefreizen in Oostenrijkse Nederlanden",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Aanbod rectoraat Latijnse school Haarlem 1776 afgewezen",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Hij wil door nominatie Harderwijk in Leiden komen",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Twist met prof. J. Luzac over afbakening leeropdracht",
+      "location": null,
+      "date": null,
+      "source": "99"
+    },
+    {
+      "particularity": "Vriend van prof. Bondam te Utrecht",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Fel orangist, verdedigt Statensouvereiniteit tegen volkssouvereiniteit",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Advies in Scheldekwestie",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Ontslag door orangisme in 1795 en door anoniem pamflet",
+      "location": null,
+      "date": null,
+      "source": "37,6"
+    },
+    {
+      "particularity": "Salaris: f1060 (1764-1768), f1250 (1769), f1600 (voor 1787), f2000 (1787)",
+      "location": null,
+      "date": null,
+      "source": "37,5"
+    },
+    {
+      "particularity": "Pensioen pas in 1797",
+      "location": null,
+      "date": "1797",
+      "source": "37"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Judith Helena",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1731-08-31",
+      "DeathDate": "1799-03-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "OURSEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": null,
+      "DeathDate": "1807-01-12",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Wilbelmus",
+      "LastName": "KLUYT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1632",
+      "DeathDate": "1777",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia Louise",
+      "LastName": "COSTE",
+      "Affix": "de la",
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701",
+      "DeathDate": "1773",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "KLUYT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1656",
+      "DeathDate": "1733",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrika",
+      "LastName": "NISPEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ludovicus",
+      "LastName": "COSTE",
+      "Affix": "de la",
+      "Gender": "Man",
+      "source": "64,86",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1664",
+      "DeathDate": "1731",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alida",
+      "LastName": "TRESSENIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "86",
+      "second_names": [],
+      "alternative_last_names": [
+        "TRESIGNY"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Peter",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "COUTURIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1706",
+      "DeathDate": "1733",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "OURSEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Debora",
+      "LastName": "RIJZER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Sara Cornelia Louise",
+      "LastName": "KLUIT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1771-02-22",
+      "DeathDate": "1805-11-18",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Willem Pieter",
+      "LastName": "KLUIT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Alkmaar",
+      "BirthDate": "1769-01-09",
+      "DeathDate": "1837-03-03",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "2,64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Dordrecht",
+  "BirthDate": "1735-02-09",
+  "DeathDate": "1807-01-12",
+  "DeathCity": "Leiden"
+}

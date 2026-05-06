@@ -1,0 +1,162 @@
+{
+  "FirstName": "Bernard",
+  "LastName": "SUTHOLT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "SOUTHOULT"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Groningen",
+      "date": "1615-03-13",
+      "source": "17"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Helmstedt",
+      "date": "1617-05-04",
+      "source": "24"
+    },
+    {
+      "subject": "Disp. Iur.",
+      "location": "Helmstedt",
+      "date": "1617-07-12",
+      "source": "24,26b"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1619-07-28",
+      "source": "23"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verlof voor openbare lessen (rechten in vacantie)",
+      "location": "Leiden",
+      "date": "1620-08",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Rechten",
+      "location": "Leiden",
+      "date": "1620-09-06",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verzoek disputaties te mogen presideren geweigerd",
+      "location": "Leiden",
+      "date": "1621-06",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten en Practische Wijsbegeerte",
+      "location": "Harderwijk",
+      "date": "1622-06-06",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag door katholicisme",
+      "location": "Harderwijk",
+      "date": "1625-11",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "R.K. belijdenis",
+      "location": "Keulen",
+      "date": "1625-08-01",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regeringsraad Paltsgraaf Wolfgang Wilhelm",
+      "location": "D\u00fcsseldorf",
+      "date": "1625",
+      "source": "5",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Schorsing",
+      "location": "Harderwijk",
+      "date": "1623-09-12",
+      "source": "19"
+    },
+    {
+      "particularity": "Diss. De iurisdictione, mixto et mero imperio",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "26b"
+    },
+    {
+      "particularity": "Hervormd opgevoed",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "In Heidelberg ziet Lhij Bredero, gezant der Staten, die hem aanbeveelt in Leiden",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Hoewel prof. Bronckhorst en prof. Cunaeus hem een professoraat in Leiden willen geven, mislukt dit omdat men niet teveel Duitsers wilde (Lindershausen was al hoogleraar)",
+      "location": "Leiden",
+      "date": null,
+      "source": "2,19"
+    },
+    {
+      "particularity": "Met steun prof. Cunaeus hoogleraar in Harderwijk",
+      "location": "Harderwijk",
+      "date": null,
+      "source": "18"
+    },
+    {
+      "particularity": "Door steun Keulse geestelijkheid biedt aartsbisschop van Salzburg hem professoraat aan maar hij slaat dat af c.a. wegens zijn verloofde",
+      "location": null,
+      "date": null,
+      "source": "18,5"
+    },
+    {
+      "particularity": "Solicitatie naar functie regeringsraad",
+      "location": null,
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "Krankzinnig gestorven",
+      "location": null,
+      "date": null,
+      "source": "19"
+    },
+    {
+      "particularity": "Hij kreeg geen paspoort om zijn verloofde in Nederland te huwen",
+      "location": null,
+      "date": null,
+      "source": "S"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Hamm",
+  "BirthDate": "1606",
+  "DeathDate": null,
+  "DeathCity": "D\u00fcsseldorf"
+}

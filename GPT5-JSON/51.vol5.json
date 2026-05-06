@@ -1,0 +1,242 @@
+{
+  "FirstName": "Theodorus",
+  "LastName": "RYCKIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DE RYCKE",
+    "DE RYKE"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Rector Latijnse school",
+      "location": "Kampen",
+      "date": "1667",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Kampen",
+      "date": "1671",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "1671",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "1672",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historien en Welsprekendheid",
+      "location": "Leiden",
+      "date": "1672",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ondertrouw",
+      "location": "Leiden",
+      "date": "1674-12-06",
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "AKERSLOOT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1657-02-16",
+      "DeathDate": "1734-03-09",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "RIJKEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "MAAS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "AKERSLOOT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "VOS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Paulus",
+      "LastName": "RYCKIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1677-09-02",
+      "DeathDate": "1677-12-26",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodorus",
+      "LastName": "RYCKIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1679-02-09",
+      "DeathDate": "1679-06-08",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia Jacoba",
+      "LastName": "RYCKIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1680-04-14",
+      "DeathDate": "1680-08-14",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "RYCKIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1681-11-24",
+      "DeathDate": "1683",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "RYCKIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1683-01-30",
+      "DeathDate": "1719-11-13",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "RYCKIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1685-07-20",
+      "DeathDate": "1686-01-28",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "RYCKIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1686-12-30",
+      "DeathDate": "1762-09-16",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Arnhem",
+  "BirthDate": "1640-02-12",
+  "DeathDate": "1690-01-07",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,574 @@
+{
+  "FirstName": "Meinard",
+  "LastName": "TYDEMAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Gymnasium bij rector F.L. Abresch",
+      "location": "Zwolle",
+      "date": "1749",
+      "source": "95"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Deventer",
+      "date": "1755-1757",
+      "source": "18"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": "1761",
+      "source": "33"
+    },
+    {
+      "subject": "Doct. ur.",
+      "location": "Utrecht",
+      "date": "1762",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Rector gymnasium",
+      "location": "Leeuwarden",
+      "date": "1763",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis, Rhetorica en Grieks",
+      "location": "Harderwijk",
+      "date": "1764-11",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar iuris naturae, gentium en publici romano-germanici",
+      "location": "Utrecht",
+      "date": "1766",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1783",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek, door patriotse collega",
+      "location": "Utrecht",
+      "date": "1787",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Harderwijk",
+      "date": "1787",
+      "source": "26",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Romeins burgerlijk recht)",
+      "location": "Utrecht",
+      "date": "1787",
+      "source": "2,32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Utrecht",
+      "date": "1790-02-22",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Griffier Staten Overijssel",
+      "location": "Overijssel",
+      "date": "1790-1795",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Woont Kampen",
+      "location": "Kampen",
+      "date": "1795-1801",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Belast met ordenen Leidse universiteitsbibliotheek",
+      "location": "Leiden",
+      "date": "1801",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten, onderwijs Romeinse oudheden",
+      "location": "Leiden",
+      "date": "1814",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd als lid faculteit der Bespiegelende Wijsbegeerte en Letteren, onderwijs Romeinse oudheden",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens emeritaat met behoud titel en rang Buitengewoon Hoogleraar; gaf erna nog les Romeinse oudheden",
+      "location": "Leiden",
+      "date": "1815-10-30",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De Lucii Udipii Marcelii Icti: vita et scriptis; bij prof. Wesseling",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Oprichter 'Dulces ante omnia Musae'",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Studievriend Kluit",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Aanbod praeceptor Erasmiaans gymnasium afgewezen",
+      "location": "Rotterdam",
+      "date": "1762",
+      "source": "2"
+    },
+    {
+      "particularity": "Aanbod om onderwijzer van zoon Gouverneur-Generaal Indi\u00eb te worden afgeslagen",
+      "location": "Indi\u00eb",
+      "date": "1762-1763",
+      "source": "95"
+    },
+    {
+      "particularity": "Orangist",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Rector Leeuwarden door steun prof. Wesseling en prinses Marie-Louise",
+      "location": "Leeuwarden",
+      "date": null,
+      "source": "18"
+    },
+    {
+      "particularity": "Ereburger",
+      "location": "Leeuwarden",
+      "date": "1764",
+      "source": "2"
+    },
+    {
+      "particularity": "Steun Wesseling bij Harderwijk",
+      "location": "Harderwijk",
+      "date": null,
+      "source": "18"
+    },
+    {
+      "particularity": "Benoemd in Utrecht met steun van Willem V",
+      "location": "Utrecht",
+      "date": null,
+      "source": "32"
+    },
+    {
+      "particularity": "Uitnodiging vroedschap om terug te keren met nieuwe titel, traktementsverhoging en vrijstelling oratie",
+      "location": "Utrecht",
+      "date": "1787-12-17",
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Haarlemmerstraat bij Franse kerk",
+      "location": "Leiden",
+      "date": "1816",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 1500",
+      "location": null,
+      "date": "1766",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 2800",
+      "location": null,
+      "date": "1816",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Barbara Maria",
+      "LastName": "ROSSIJN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94,95",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1776-04-09",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Sophia Theodora",
+      "LastName": "BEVEREN",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1751-04-01",
+      "DeathDate": "1789-04-05",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Hermanna",
+      "LastName": "HUGENHOLTZ",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Zutphen",
+      "BirthDate": "1763-03-09",
+      "DeathDate": "1835-01-25",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hendrik Willem",
+      "LastName": "TYRDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "ONKRUIDT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701",
+      "DeathDate": "1790",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lucretia",
+      "LastName": "JELLEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Michiel",
+      "LastName": "ONKRUIDT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wijnanda",
+      "LastName": "ALERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Laurens Hendrik",
+      "LastName": "ROSSIJN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodoor Feltman",
+      "LastName": "BEVEREN",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1736",
+      "DeathDate": "1767",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "ADRIANT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petrus Hermannus",
+      "LastName": "HUGENHOLTZ",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BROES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "34",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Wijnanda",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1770-02-28",
+      "DeathDate": "1826-12-01",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Hendrik Willem",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1778-08-25",
+      "DeathDate": "1863-03-06",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Theodorus",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1780-09-25",
+      "DeathDate": "1782",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1784-11-08",
+      "DeathDate": "1826-10-21",
+      "DeathCity": "Groningen"
+    },
+    {
+      "FirstName": "Barend Frederik",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1784-11-08",
+      "DeathDate": "1829-10-27",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Angenis",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1786-08-06",
+      "DeathDate": "1846-09-04",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Zacharias Hendrik",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1789-04-04",
+      "DeathDate": "1823-08-28",
+      "DeathCity": "Demerary"
+    },
+    {
+      "FirstName": "Anna Geertruida",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Kampen",
+      "BirthDate": "1796-12-09",
+      "DeathDate": "1885-12-23",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Petrus Hermannus",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Kampen",
+      "BirthDate": "1798-05-23",
+      "DeathDate": "1868-02-28",
+      "DeathCity": "Tiel"
+    },
+    {
+      "FirstName": "Frans Constant Cornelis",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1801-02-23",
+      "DeathDate": "1841-07-05",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Zwolle",
+  "BirthDate": "1741-03-20",
+  "DeathDate": "1825-02-01",
+  "DeathCity": "Leiden"
+}

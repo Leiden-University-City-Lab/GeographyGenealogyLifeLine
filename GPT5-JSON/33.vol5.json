@@ -1,0 +1,239 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VAN KLENCK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1638-05-07",
+      "source": "28"
+    },
+    {
+      "subject": "Mag.art.",
+      "location": "Leiden",
+      "date": "1641-09-21",
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": "1642-07-11",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Toestemming lessen Zedekunde",
+      "location": "Leiden",
+      "date": "1644-05-24",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Amsterdam",
+      "date": "1648-03-03",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek naar Parijs",
+      "location": "Parijs",
+      "date": "1669",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek op V.O.C.-schip naar Indi\u00eb",
+      "location": "Engeland",
+      "date": "1670",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Indi\u00eb",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Notaris",
+      "location": "Indi\u00eb",
+      "date": "1671-08-11",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Steun burgemeester Cornelis de Graef",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Ridder door Karel II",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 750",
+      "location": null,
+      "date": "1648",
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Georg Everhard",
+      "LastName": "VAN KLENCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1580",
+      "DeathDate": "1644",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruid",
+      "LastName": "FENZEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann",
+      "LastName": "VON KLENCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VON WALTMANNSHAUSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,48",
+      "second_names": [
+        "Spicast"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Harman",
+      "LastName": "FENZEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jannetgen",
+      "LastName": "BURGHERTS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "48",
+      "second_names": [
+        "Harmansd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "VAN KLENCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Harman",
+      "LastName": "VAN KLENCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Coenraat",
+      "LastName": "VAN KLENCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": null,
+  "DeathDate": "1677",
+  "DeathCity": "Batavia"
+}

@@ -1,0 +1,137 @@
+{
+  "FirstName": "Joachim",
+  "LastName": "SCHWARTZ",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Halle",
+      "date": null,
+      "source": "26b"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1718-04-09",
+      "source": "1"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1737-06-18",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Rechten",
+      "location": "Leiden",
+      "date": "1737-05-11",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Rechten",
+      "location": "Leiden",
+      "date": "1737-07-03",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1742-03-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1742-04-12",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Iur. De usu theoretico et practico quaestionis an filius iuste exheredatus in computatione Llegitimae dinter liberos connumerandus sit nec ne? bij Bastineller",
+      "location": null,
+      "date": null,
+      "source": "26b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "BREVOORT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Joachim Johannes",
+      "LastName": "SCHWARTZ",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1726-08-06",
+      "DeathDate": "1761-10-19",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus Andreas",
+      "LastName": "SCHWARTZ",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1728-04-11",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christianus Martinus",
+      "LastName": "SCHWARTZ",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1730-08-04",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Maagdenburg",
+  "BirthDate": "1686-04-12",
+  "DeathDate": "1759-03-06",
+  "DeathCity": "Leiden"
+}

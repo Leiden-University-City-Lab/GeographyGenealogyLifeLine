@@ -1,0 +1,367 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "PAEUW",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Petrus"
+  ],
+  "alternative_last_names": [
+    "PAAW",
+    "PAVIUS",
+    "PAEU",
+    "PAAUW",
+    "PAUW"
+  ],
+  "education": [
+    {
+      "subject": "Les Gessel",
+      "location": "Amersfoort",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Les Rector Alardus Frisius",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1581-11-02",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Parijs",
+      "date": "1584",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Padua",
+      "date": "1584",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Rostock",
+      "date": "1585-06",
+      "source": "24"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Rostock",
+      "date": "1587-03-30",
+      "source": "24"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Ontleedkunde",
+      "location": "Rostock",
+      "date": null,
+      "source": "47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde (op proef)",
+      "location": "Leiden",
+      "date": "1589-02-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (bijz. Anatomie)",
+      "location": "Leiden",
+      "date": "1592-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Inrichting Hortus",
+      "location": "Leiden",
+      "date": "1592-05-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Kruidkunde",
+      "location": "Leiden",
+      "date": "1594-01-07",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toezicht Hortus",
+      "location": "Leiden",
+      "date": "1598",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1601",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1606",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1614",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 200,-",
+      "location": null,
+      "date": "1589",
+      "source": "76,97"
+    },
+    {
+      "particularity": "Salaris: f 300,-",
+      "location": null,
+      "date": "1592-02",
+      "source": "76,97"
+    },
+    {
+      "particularity": "Salaris: f 400,-",
+      "location": null,
+      "date": "1592-08",
+      "source": "76,97"
+    },
+    {
+      "particularity": "Salaris: f 1500,-",
+      "location": null,
+      "date": "1593",
+      "source": "76,97"
+    },
+    {
+      "particularity": "Salaris: f 600,-",
+      "location": null,
+      "date": "1594",
+      "source": "76,97"
+    },
+    {
+      "particularity": "Salaris: f 700,-",
+      "location": null,
+      "date": "1603",
+      "source": "76,97"
+    },
+    {
+      "particularity": "Salaris: f 800,-",
+      "location": null,
+      "date": "1607",
+      "source": "76,97"
+    },
+    {
+      "particularity": "Salaris: f 900,-",
+      "location": null,
+      "date": "1615",
+      "source": "76,97"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "HOUT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1612",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "PAUW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "47",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1588",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruida",
+      "LastName": "SPIEGEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Laurens",
+      "LastName": "SPIEGEL",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "47",
+      "second_names": [
+        "Pietersz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1574",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "JANS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1570-01-24",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "HOUT",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1542",
+      "DeathDate": "1609",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lijsbeth",
+      "LastName": "WING",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [
+        "Reyersdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1605",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Geertruida",
+      "LastName": "PAEUW",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "PAEUW",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "PAEUW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "PAEUW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "76,47",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petrus",
+      "LastName": "PAEUW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1564-08-02",
+  "DeathDate": "1617-08-01",
+  "DeathCity": "Leiden"
+}

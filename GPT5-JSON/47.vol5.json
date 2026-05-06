@@ -1,0 +1,109 @@
+{
+  "FirstName": "Alexander",
+  "LastName": "RATLOO",
+  "Affix": "van de",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "RATTELONIUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1568-06",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1577-07-06",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1578-12-22",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Frankrijk",
+      "location": "Frankrijk",
+      "date": "1579",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1581-11-06",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Ethica en Physica",
+      "location": "Gent",
+      "date": "1582-11-14",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant naar Duitsland",
+      "location": "Gent",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Stadsbestuur Leiden tegen hem, aanbevolen door Jan van Nassau",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 160",
+      "location": null,
+      "date": "1578",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: \u00a3 200",
+      "location": null,
+      "date": "1580",
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Reinhart",
+      "LastName": "RATLOO",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1590",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Limburg",
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

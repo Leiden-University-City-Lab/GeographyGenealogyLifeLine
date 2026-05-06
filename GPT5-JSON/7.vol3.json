@@ -1,0 +1,78 @@
+{
+  "FirstName": "Sibertus",
+  "LastName": "COEMAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "COEMANS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "26b"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "26b"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Utrecht",
+      "date": "1660",
+      "source": "26b"
+    },
+    {
+      "subject": "Stud.Phil.Mag.",
+      "location": "Leiden",
+      "date": "1661-06-20",
+      "source": "26"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1662-09-09",
+      "source": "26"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Orleans",
+      "date": "1664",
+      "source": "26b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "268B",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1679-05-11",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1643-06-13",
+  "DeathDate": "1679-09-28",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,423 @@
+{
+  "FirstName": "Hermannus",
+  "LastName": "BOERHAAVE",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Huisles klassieke talen (vader)",
+      "location": "Voorhout",
+      "date": null,
+      "source": "55"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Leiden",
+      "date": "1682-07-10",
+      "source": "55"
+    },
+    {
+      "subject": "Stud. Theol. en Phil.",
+      "location": "Leiden",
+      "date": "1684",
+      "source": "55"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Leiden",
+      "date": "1690-12-21",
+      "source": "21"
+    },
+    {
+      "subject": "Stud. Med. (priv\u00e9-studie)",
+      "location": "Leiden",
+      "date": "1691-1693",
+      "source": "55"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Harderwijk",
+      "date": "1693-07-15",
+      "source": "17"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": "1693",
+      "source": "55",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent mathematica",
+      "location": "Leiden",
+      "date": "1693",
+      "source": "55",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Geneeskunde (voor 3 jaar)",
+      "location": "Leiden",
+      "date": "1701-09-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aanstelling verlengd (Lector Geneeskunde)",
+      "location": "Leiden",
+      "date": "1703-04-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde en Kruidkunde",
+      "location": "Leiden",
+      "date": "1709-02-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Medische Instituten",
+      "location": "Leiden",
+      "date": null,
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Collegium practicum medicum",
+      "location": "Leiden",
+      "date": "1714",
+      "source": "55",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Scheikunde",
+      "location": "Leiden",
+      "date": "1718-06-24",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag Kruidkunde en Scheikunde op eigen verzoek",
+      "location": "Leiden",
+      "date": "1729-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1714",
+      "source": "55",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1730",
+      "source": "55",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toezicht op bibliotheek",
+      "location": "Leiden",
+      "date": "1691-1692",
+      "source": "55",
+      "is_side_job": 1
+    },
+    {
+      "job": "Toezicht op Hortus",
+      "location": "Leiden",
+      "date": "1709-1730",
+      "source": "55",
+      "is_side_job": 1
+    },
+    {
+      "job": "Voorzitter Chirurgijnsgilde",
+      "location": "Leiden",
+      "date": "1714-1738",
+      "source": "55",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Phil. De distinctione mentis a corpore c.",
+      "location": null,
+      "date": null,
+      "source": "55"
+    },
+    {
+      "particularity": "Diss. Med. De utilitate explanandorum in aegris excrementorum ut signorum (bij prof. Van de Graeff)",
+      "location": null,
+      "date": null,
+      "source": "17"
+    },
+    {
+      "particularity": "Bescherming van Johan van den Bergh",
+      "location": null,
+      "date": null,
+      "source": "55"
+    },
+    {
+      "particularity": "Aanbod Hoogleraarschap Groningen 1703 afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "55"
+    },
+    {
+      "particularity": "Aanbod tsarina van Rusland afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "55"
+    },
+    {
+      "particularity": "Lid Acad\u00e9mie Royale des Sciences te Parijs",
+      "location": "Parijs",
+      "date": "1715",
+      "source": "55"
+    },
+    {
+      "particularity": "Lid Royal Society te Londen",
+      "location": "Londen",
+      "date": "1730-04-30",
+      "source": "55"
+    },
+    {
+      "particularity": "Woonde Nonnensteeg, Rapenburg 31, Oud Poelest.",
+      "location": "Leiden",
+      "date": null,
+      "source": "55"
+    },
+    {
+      "particularity": "Salaris: f200 (1701), f400 (1703), f1000 (1703), f1400 (1718), f1800 (1719), f2000 (1722), f2200 (1725), f1800 (1729)",
+      "location": null,
+      "date": null,
+      "source": "55"
+    },
+    {
+      "particularity": "Vermogen echtpaar Boerhaave 8400.000,-",
+      "location": null,
+      "date": null,
+      "source": "54"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "DROLENVAUX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1685-03-06",
+      "DeathDate": "1746-01",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "BOERHAAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hagar",
+      "LastName": "DAELDER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1635",
+      "DeathDate": "1673",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "BOERHAAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1690",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marytgen",
+      "LastName": "HOYMONT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Herman",
+      "LastName": "DAELDER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "BOIS",
+      "Affix": "du",
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "DROLENVAUX",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "QUIENES",
+      "Affix": "des",
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Joanna Maria",
+      "LastName": "BOERHAAVE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1712-03-19",
+      "DeathDate": "1791-10",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "BOERHAAVE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1713-05-07",
+      "DeathDate": "1713",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Magdalena Jacoba",
+      "LastName": "BOERHAAVE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1714-05-30",
+      "DeathDate": "1717-08",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Zoon",
+      "LastName": "BOERHAAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1721-05-19",
+      "DeathDate": "1721-06-12",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "KAAU BOERHAAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Voorhout",
+  "BirthDate": "1668-12-31",
+  "DeathDate": "1738-09-23",
+  "DeathCity": "Leiden"
+}

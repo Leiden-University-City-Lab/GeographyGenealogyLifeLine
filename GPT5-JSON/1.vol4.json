@@ -1,0 +1,200 @@
+{
+  "FirstName": "Johannes Nicolaus Sebastianus",
+  "LastName": "ALLAMAND",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Lausanne",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1740-09-02",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Phil.h.c.",
+      "location": "Franeker",
+      "date": "1748-04-03",
+      "source": "8"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Lausanne",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Huisonderwijzer bij diverse Hollandse families",
+      "location": "Holland",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Franeker",
+      "date": "1747-03-03",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1749-02-01",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opdracht tot beheer en ordening Kabinet van Natuurlijke Historie",
+      "location": "Leiden",
+      "date": "1751",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Physica experimentale",
+      "location": "Leiden",
+      "date": "1761-09-19",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1759",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1760",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1784",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Executeur-testamentair van prof. Gravesande en huisonderwijzer van diens kinderen",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Op nominatie hoogleraarschap philosophie",
+      "location": "Deventer",
+      "date": "1745",
+      "source": "3"
+    },
+    {
+      "particularity": "Assisteert prof. van Musschenbroek bij proef met de Leidse fles",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Samen met Joncourt Job vertaald en samen op voordracht",
+      "location": "Franeker",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Lid Hollandse Maatschappij van Wetenschappen",
+      "location": "Haarlem",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Lid Royal Society",
+      "location": "London",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": "1747",
+      "source": "6"
+    },
+    {
+      "particularity": "Woonst: Rapenburg 10",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Magdalena",
+      "LastName": "CROMMELIN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Jean",
+      "LastName": "CROMMELIN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1689",
+      "DeathDate": "1767",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "BLAQUI\u00cbRE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "45",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Zwitserland",
+  "BirthCity": "Lausanne",
+  "BirthDate": "1713-09-18",
+  "DeathDate": "1787-03-02",
+  "DeathCity": "Leiden"
+}

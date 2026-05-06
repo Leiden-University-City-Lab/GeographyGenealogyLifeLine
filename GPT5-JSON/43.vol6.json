@@ -1,0 +1,207 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "GYS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": null,
+      "location": "Leiden",
+      "date": "1691-10-22",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Secretaris Curatoren Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1711-1725",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad",
+      "location": "Leiden",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ondertrouw",
+      "location": "Leiden",
+      "date": "1710-11-29",
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "Bergh",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1689-09-24",
+      "DeathDate": "1757-06-27",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "Gijs",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [
+        "Ghijs"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "Zoute",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Leonard",
+      "LastName": "Zoute",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "Cunaeus",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1622",
+      "DeathDate": "1655",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johan",
+      "LastName": "Bergh",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1664",
+      "DeathDate": "1755",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Teylingen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1667",
+      "DeathDate": "1733",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Susanna",
+      "LastName": "GYS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1712-06-22",
+      "DeathDate": "1719-02-08",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "GYS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1713-07-23",
+      "DeathDate": "1718-04-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pietrer",
+      "LastName": "GYS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1716-01-31",
+      "DeathDate": "1737-10-13",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": "1678-05-30",
+  "DeathDate": "1759-05-14",
+  "DeathCity": null
+}

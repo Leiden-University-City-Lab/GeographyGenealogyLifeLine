@@ -1,0 +1,255 @@
+{
+  "FirstName": "Thomas",
+  "LastName": "SOSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "ZOESIUS",
+    "ZOES"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leuven",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leuven",
+      "date": "1570",
+      "source": "2,26b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Raad en Procureur-Generaal, Hof van Utrecht",
+      "location": "Utrecht",
+      "date": "1572-04-18",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rentmeester-Generaal Utrecht",
+      "location": "Utrecht",
+      "date": "1578-1579",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1584-05-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1587-05-20",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1591",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1593-03-10",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar?",
+      "location": "Duitsland",
+      "date": "1593-1598",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "In Leiden door druk van Buys en Willem I, tegen de zin van het Leidse bestuur die hem verdenkt van katholicisme",
+      "location": "Leiden",
+      "date": null,
+      "source": "2,103"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1583",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruydt",
+      "LastName": "LEEUW",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joost",
+      "LastName": "HERMANS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Weym",
+      "LastName": "ZOESZ",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Creym"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Elbertus",
+      "LastName": "LEONINNUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [
+        "Albert"
+      ],
+      "alternative_last_names": [
+        "DE LEEUW"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1598",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Barbara",
+      "LastName": "HASIA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "HASIUS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Elbertus",
+      "LastName": "SOSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": null,
+      "DeathDate": "1622-01-20",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Gisbertus",
+      "LastName": "SOSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joost",
+      "LastName": "SOSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "SOSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "SOSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amersfoort",
+  "BirthDate": null,
+  "DeathDate": "1598",
+  "DeathCity": "W\u00fcrzburg"
+}

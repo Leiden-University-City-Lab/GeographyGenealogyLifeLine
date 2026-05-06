@@ -1,0 +1,175 @@
+{
+  "FirstName": "Johann Conrad",
+  "LastName": "R\u00dcCKER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "RUKKERS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1717-09-14",
+      "source": "26"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Franeker",
+      "date": "1718-06-13",
+      "source": "11"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Franeker",
+      "date": "1718-10-06",
+      "source": "12"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Burgerlijk Recht",
+      "location": "Leiden",
+      "date": "1733-03-14",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie als Lector Burgerlijk Recht",
+      "location": "Leiden",
+      "date": "1733-04-17",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Burgerlijk Recht)",
+      "location": "Leiden",
+      "date": "1734-07-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie als Hoogleraar Rechten (Burgerlijk Recht)",
+      "location": "Leiden",
+      "date": "1734-09-20",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waarneming 'Ius belli et pacis'",
+      "location": "Leiden",
+      "date": "1746",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waarneming 'Ius belli et pacis'",
+      "location": "Leiden",
+      "date": "1759",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eervol ontslag wegens leeftijd, behoud titel",
+      "location": "Leiden",
+      "date": "1769-11-06",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De poenis bij prof. Westenberg",
+      "location": null,
+      "date": null,
+      "source": "12"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "MATJEU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Maria Bata",
+      "LastName": "R\u00dcCKER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1719-02-09",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Angelica Maria",
+      "LastName": "R\u00dcCKER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1722-01-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana Sybilla",
+      "LastName": "R\u00dcCKER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1725-06-14",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Johann Gerhard Christiaan",
+      "LastName": "R\u00dcCKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Windesheim",
+  "BirthDate": "1691-07-30",
+  "DeathDate": "1778-03-08",
+  "DeathCity": "Leiden"
+}

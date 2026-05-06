@@ -1,54 +1,206 @@
+"""
+Life Paths – University History Visualization
+================================================
+Improved version of the prototype with:
+
+Fixes:
+  - MonetDB connection wrapped correctly for pandas
+  - Floor map is optional (graceful fallback)
+  - data refresh button (clears lru_cache)
+
+New analysis tools:
+  - Co-presence tab: who was in the same city at the same time?
+  - Network graph tab: family/relational ties between professors
+  - Faculty lens: filter and colour-code by faculty
+  - Career flow: Sankey diagram of city-to-city moves
+
+Usage:
+    python app.py
+
+Dependencies:
+    pip install dash dash-bootstrap-components plotly pandas pymonetdb pillow networkx
+"""
+
 import os
 from functools import lru_cache
 
 import dash
-from dash import Dash, dcc, html, Input, Output, State, dash_table
+from dash import Dash, dcc, html, Input, Output, State, dash_table, ctx
+import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.graph_objects as go
+import plotly.express as px
 import numpy as np
 
 try:
     from PIL import Image
-except ImportError as e:
-    raise SystemExit(
-        "Pillow is required for the cube floor map. Install with: pip install pillow"
-    ) from e
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
 
 try:
     import pymonetdb
-except ImportError as e:
-    raise SystemExit(
-        "pymonetdb is required. Install with: pip install pymonetdb"
-    ) from e
+    HAS_MONETDB = True
+except ImportError:
+    HAS_MONETDB = False
+
+try:
+    import networkx as nx
+    HAS_NX = True
+except ImportError:
+    HAS_NX = False
 
 
-DB_HOST = os.getenv("MONETDB_HOST", "localhost")
-DB_PORT = int(os.getenv("MONETDB_PORT", "50000"))
-DB_NAME = os.getenv("MONETDB_DATABASE", "peopledb")
-DB_USER = os.getenv("MONETDB_USER", "monetdb")
+# ─── Config ───────────────────────────────────────────────────────────────────
+
+DB_HOST     = os.getenv("MONETDB_HOST",     "localhost")
+DB_PORT     = int(os.getenv("MONETDB_PORT", "50000"))
+DB_NAME     = os.getenv("MONETDB_DATABASE", "peopledb")
+DB_USER     = os.getenv("MONETDB_USER",     "monetdb")
 DB_PASSWORD = os.getenv("MONETDB_PASSWORD", "monetdb")
+
+FLOOR_MAP_PATH = "floor_map.png"
 
 EVENT_ORDER = {"birth": 0, "education": 1, "career": 2, "death": 3}
 EVENT_COLORS = {
-    "birth": "#2ca02c",
+    "birth":     "#2ca02c",
     "education": "#1f77b4",
-    "career": "#ff7f0e",
-    "death": "#d62728",
+    "career":    "#ff7f0e",
+    "death":     "#d62728",
 }
-FLOOR_MAP_PATH = "floor_map.png"
 
+FACULTY_PALETTE = [
+    "#e63946", "#457b9d", "#2a9d8f", "#e9c46a",
+    "#f4a261", "#264653", "#a8dadc", "#6d6875",
+]
+
+# Distinct colours for individually selected people (never gold — that is reserved
+# for shared-location segments).
+PERSON_PALETTE = [
+    "#e63946",  # red
+    "#457b9d",  # steel blue
+    "#2a9d8f",  # teal
+    "#9b5de5",  # purple
+    "#f77f00",  # orange
+    "#06d6a0",  # mint
+    "#118ab2",  # ocean blue
+    "#ef476f",  # pink
+    "#073b4c",  # dark navy
+    "#b5838d",  # mauve
+]
+GOLD = "#f1c40f"
+
+
+def person_color_map(selected_ids: list) -> dict:
+    """Return {person_id: hex_color} for each selected id."""
+    return {pid: PERSON_PALETTE[i % len(PERSON_PALETTE)]
+            for i, pid in enumerate(selected_ids)}
+
+
+def draw_person_path_map(fig, pdf, pid, pname, person_color, shared_locs,
+                         direction_mode="off"):
+    """
+    Draw a single person's path on a Scattermap.
+    Segments touching a shared location are drawn in GOLD;
+    all other segments use person_color.
+    """
+    from itertools import groupby as _groupby
+    pdf = pdf.sort_values(["event_date", "event_order"]).reset_index(drop=True)
+    if len(pdf) < 2:
+        return
+
+    segs = []
+    for i in range(len(pdf) - 1):
+        p0 = (float(pdf.at[i,   "latitude"]), float(pdf.at[i,   "longitude"]))
+        p1 = (float(pdf.at[i+1, "latitude"]), float(pdf.at[i+1, "longitude"]))
+        r0 = (round(p0[0], 5), round(p0[1], 5))
+        r1 = (round(p1[0], 5), round(p1[1], 5))
+        # Gold only when BOTH endpoints are shared locations
+        c  = GOLD if (r0 in shared_locs and r1 in shared_locs) else person_color
+        segs.append((p0, p1, c))
+
+    for color, grp in _groupby(segs, key=lambda s: s[2]):
+        grp   = list(grp)
+        lats  = [pt for s in grp for pt in (s[0][0], s[1][0], None)]
+        lons  = [pt for s in grp for pt in (s[0][1], s[1][1], None)]
+        tip   = f"<b>{pname}</b>" + (" · shared location" if color == GOLD else "")
+        fig.add_trace(go.Scattermap(
+            lat=lats, lon=lons,
+            mode="lines",
+            line={"width": 5 if color == GOLD else 4, "color": color},
+            opacity=1.0, showlegend=False,
+            customdata=[[int(pid), pname, "path"]] * len(lats),
+            hovertemplate=tip + "<extra></extra>",
+        ))
+
+    if direction_mode in {"selected", "all"}:
+        _add_direction(fig, pdf)
+
+
+def draw_person_path_3d(fig, pdf, pid, pname, person_color, shared_locs):
+    """
+    Draw a single person's path in the space-time cube (Scatter3d).
+    Segments touching a shared location are drawn in GOLD.
+    """
+    from itertools import groupby as _groupby
+    pdf = pdf.sort_values(["event_date", "event_order"]).reset_index(drop=True)
+    if len(pdf) < 2:
+        return
+
+    segs = []
+    for i in range(len(pdf) - 1):
+        loc0 = (float(pdf.at[i,   "latitude"]), float(pdf.at[i,   "longitude"]))
+        loc1 = (float(pdf.at[i+1, "latitude"]), float(pdf.at[i+1, "longitude"]))
+        r0   = (round(loc0[0], 5), round(loc0[1], 5))
+        r1   = (round(loc1[0], 5), round(loc1[1], 5))
+        # Gold only when BOTH endpoints are shared locations
+        c    = GOLD if (r0 in shared_locs and r1 in shared_locs) else person_color
+        segs.append((pdf.at[i,   "longitude"], pdf.at[i,   "latitude"], pdf.at[i,   "year"],
+                     pdf.at[i+1, "longitude"], pdf.at[i+1, "latitude"], pdf.at[i+1, "year"],
+                     c))
+
+    for color, grp in _groupby(segs, key=lambda s: s[6]):
+        grp  = list(grp)
+        xs   = [v for s in grp for v in (s[0], s[3], None)]
+        ys   = [v for s in grp for v in (s[1], s[4], None)]
+        zs   = [v for s in grp for v in (s[2], s[5], None)]
+        fig.add_trace(go.Scatter3d(
+            x=xs, y=ys, z=zs,
+            mode="lines",
+            line={"width": 7 if color == GOLD else 5, "color": color},
+            opacity=1.0,
+            hoverinfo="skip",
+            showlegend=False,
+        ))
+
+
+# ─── DB helpers ───────────────────────────────────────────────────────────────
 
 def get_connection():
+    if not HAS_MONETDB:
+        raise RuntimeError("pymonetdb not installed")
     return pymonetdb.connect(
-        hostname=DB_HOST,
-        port=DB_PORT,
-        database=DB_NAME,
-        username=DB_USER,
-        password=DB_PASSWORD,
+        hostname=DB_HOST, port=DB_PORT, database=DB_NAME,
+        username=DB_USER, password=DB_PASSWORD,
     )
 
 
-QUERY = """
+def read_sql(query: str) -> pd.DataFrame:
+    """Execute query and return DataFrame. Works with MonetDB cursors."""
+    conn = get_connection()
+    try:
+        cursor = conn.cursor()
+        cursor.execute(query)
+        cols = [d[0] for d in cursor.description]
+        rows = cursor.fetchall()
+        return pd.DataFrame(rows, columns=cols)
+    finally:
+        conn.close()
+
+
+# ─── Queries ──────────────────────────────────────────────────────────────────
+
+EVENTS_QUERY = """
 SELECT
     p.person_id,
     TRIM(
@@ -56,6 +208,7 @@ SELECT
         COALESCE(p.affix || ' ', '') ||
         COALESCE(p.last_name, '')
     ) AS person_name,
+    p.faculty,
     et.event_type_name,
     e.begin_date,
     e.end_date,
@@ -75,31 +228,50 @@ WHERE et.event_type_name IN ('birth', 'death', 'education', 'career')
 ORDER BY p.person_id, e.begin_date, e.end_date
 """
 
+RELATIONS_QUERY = """
+SELECT
+    r.person_id_1,
+    r.person_id_2,
+    r.relation_type,
+    TRIM(
+        COALESCE(p1.first_name, '') || ' ' ||
+        COALESCE(p1.affix || ' ', '') ||
+        COALESCE(p1.last_name, '')
+    ) AS name_1,
+    TRIM(
+        COALESCE(p2.first_name, '') || ' ' ||
+        COALESCE(p2.affix || ' ', '') ||
+        COALESCE(p2.last_name, '')
+    ) AS name_2
+FROM relation r
+JOIN person p1 ON p1.person_id = r.person_id_1
+JOIN person p2 ON p2.person_id = r.person_id_2
+"""
+
+
+# ─── Data loading ─────────────────────────────────────────────────────────────
 
 @lru_cache(maxsize=1)
-def load_data() -> pd.DataFrame:
-    with get_connection() as conn:
-        df = pd.read_sql(QUERY, conn)
-
+def load_events() -> pd.DataFrame:
+    df = read_sql(EVENTS_QUERY)
     if df.empty:
         return df
 
     df["begin_date"] = pd.to_datetime(df["begin_date"], errors="coerce")
-    df["end_date"] = pd.to_datetime(df["end_date"], errors="coerce")
+    df["end_date"]   = pd.to_datetime(df["end_date"],   errors="coerce")
     df["event_date"] = df["begin_date"].fillna(df["end_date"])
     df = df.dropna(subset=["event_date", "latitude", "longitude"]).copy()
 
-    df["year"] = df["event_date"].dt.year.astype(int)
+    df["year"]        = df["event_date"].dt.year.astype(int)
     df["event_order"] = df["event_type_name"].map(EVENT_ORDER).fillna(99).astype(int)
-
-    df["city_label"] = df["city"].fillna("")
+    df["city_label"]  = df["city"].fillna("")
     df["country_label"] = df["country"].fillna("")
-    df["location_label"] = df["city_label"]
 
+    df["location_label"] = df["city_label"]
     mask = df["country_label"].ne("") & df["location_label"].ne("")
     df.loc[mask, "location_label"] = df["city_label"] + ", " + df["country_label"]
     df.loc[df["location_label"].eq(""), "location_label"] = df["country_label"]
-    df.loc[df["location_label"].eq(""), "location_label"] = "Unknown location"
+    df.loc[df["location_label"].eq(""), "location_label"] = "Unknown"
 
     df["hover_text"] = (
         "<b>" + df["person_name"] + "</b><br>"
@@ -116,6 +288,61 @@ def load_data() -> pd.DataFrame:
     return df
 
 
+@lru_cache(maxsize=1)
+def load_relations() -> pd.DataFrame:
+    try:
+        return read_sql(RELATIONS_QUERY)
+    except Exception:
+        return pd.DataFrame(columns=["person_id_1", "person_id_2",
+                                     "relation_type", "name_1", "name_2"])
+
+
+def refresh_data():
+    """Clear caches so next load re-queries the DB."""
+    load_events.cache_clear()
+    load_relations.cache_clear()
+
+
+# ─── Derived globals ──────────────────────────────────────────────────────────
+
+DF        = load_events()
+RELATIONS = load_relations()
+
+FACULTIES = sorted(DF["faculty"].dropna().unique().tolist()) if not DF.empty else []
+FACULTY_COLOR_MAP = {f: FACULTY_PALETTE[i % len(FACULTY_PALETTE)]
+                     for i, f in enumerate(FACULTIES)}
+
+if not DF.empty:
+    MIN_YEAR = int(DF["year"].min())
+    MAX_YEAR = int(DF["year"].max())
+    YEARS    = list(range(MIN_YEAR, MAX_YEAR + 1))
+else:
+    MIN_YEAR, MAX_YEAR = 1575, 2000
+    YEARS = list(range(MIN_YEAR, MAX_YEAR + 1))
+
+DEFAULT_RANGE  = [YEARS[0], YEARS[-1]]
+PERSON_OPTIONS = (
+    DF[["person_id", "person_name", "faculty"]]
+    .drop_duplicates("person_id")
+    .sort_values("person_name")
+    .to_dict("records")
+    if not DF.empty else []
+)
+
+
+# ─── Figure helpers ───────────────────────────────────────────────────────────
+
+def empty_fig(msg="No data", h=400):
+    fig = go.Figure()
+    fig.add_annotation(text=msg, xref="paper", yref="paper",
+                       x=0.5, y=0.5, showarrow=False,
+                       font={"size": 16, "color": "#888"})
+    fig.update_layout(template="plotly_white",
+                      margin={"l": 10, "r": 10, "t": 10, "b": 10},
+                      height=h)
+    return fig
+
+
 def build_marks(years):
     if len(years) <= 12:
         return {int(y): str(int(y)) for y in years}
@@ -126,1610 +353,1242 @@ def build_marks(years):
     return {int(y): str(int(y)) for y in sampled}
 
 
-def filter_year_range(df: pd.DataFrame, year_range):
-    start_year, end_year = sorted(year_range)
-    return df[(df["year"] >= start_year) & (df["year"] <= end_year)].copy()
+def filter_df(df, year_range, faculties=None, people=None):
+    s, e = sorted(year_range)
+    out = df[(df["year"] >= s) & (df["year"] <= e)]
+    if faculties:
+        out = out[out["faculty"].isin(faculties)]
+    if people:
+        out = out[out["person_id"].isin(people)]
+    return out.copy()
 
 
-def build_location_options(df: pd.DataFrame):
+def person_color(person_id, selected_ids, faculty_map, use_faculty=False):
+    if selected_ids and person_id in selected_ids:
+        return "#c0392b"
+    if use_faculty:
+        return faculty_map.get(person_id, "#7f8c8d")
+    return "#7f8c8d"
+
+
+# ─── Map building ─────────────────────────────────────────────────────────────
+
+def build_map(df, year_range, selected_people, display_mode,
+              direction_mode, bg_opacity, use_faculty_colors):
     if df.empty:
-        return []
+        return empty_fig("No geocoded events in this range.", h=700)
 
-    locations = (
-        df[["location_label", "latitude", "longitude"]]
-        .drop_duplicates()
-        .sort_values(["location_label", "latitude", "longitude"])
-        .reset_index(drop=True)
-    )
-
-    options = []
-    for _, row in locations.iterrows():
-        label = row["location_label"]
-        lat = float(row["latitude"])
-        lon = float(row["longitude"])
-        value = f"{lat:.8f}|{lon:.8f}|{label}"
-        options.append({"label": label, "value": value})
-
-    return options
-
-
-def encode_location_value(lat: float, lon: float, location_label: str) -> str:
-    return f"{float(lat):.8f}|{float(lon):.8f}|{location_label}"
-
-
-def decode_location_value(value):
-    if not value:
-        return None
-    try:
-        lat_str, lon_str, location_label = value.split("|", 2)
-        return {
-            "lat": float(lat_str),
-            "lon": float(lon_str),
-            "location_label": location_label,
-        }
-    except Exception:
-        return None
-
-
-DF = load_data()
-LOCATION_OPTIONS = build_location_options(DF)
-
-if not DF.empty:
-    MIN_YEAR = int(DF["year"].min())
-    MAX_YEAR = int(DF["year"].max())
-    YEARS = list(range(MIN_YEAR, MAX_YEAR + 1))
-else:
-    MIN_YEAR = 0
-    MAX_YEAR = 0
-    YEARS = [0]
-
-DEFAULT_RANGE = [YEARS[0], YEARS[-1]]
-
-PERSON_OPTIONS = (
-    DF[["person_id", "person_name"]]
-    .drop_duplicates()
-    .sort_values("person_name")
-    .to_dict("records")
-    if not DF.empty
-    else []
-)
-
-app = Dash(__name__)
-app.title = "Life Paths Prototype"
-
-app.layout = html.Div(
-    [
-        dcc.Store(id="selected-people", data=[]),
-        dcc.Store(id="clicked-location", data=None),
-        html.Div(
-            [
-                html.H2("Life paths prototype", style={"marginBottom": "0.25rem"}),
-                html.Div(
-                    "Move through time, click paths or markers to select people, hover a location marker for an overview, and click a location marker for detailed location history.",
-                    style={"color": "#555", "marginBottom": "0.75rem"},
-                ),
-            ],
-            style={"padding": "1rem 1rem 0.25rem 1rem"},
-        ),
-        html.Div(
-            [
-                html.Div(
-                    [
-                        html.Label("Events over time"),
-                        dcc.Graph(
-                            id="event-count-bar",
-                            style={"height": "180px"},
-                            config={"displayModeBar": False},
-                        ),
-                    ],
-                    style={"marginBottom": "0.75rem"},
-                ),
-                html.Div(
-                    [
-                        html.Label("Year interval"),
-                        dcc.RangeSlider(
-                            id="year-slider",
-                            min=YEARS[0],
-                            max=YEARS[-1],
-                            step=1,
-                            value=DEFAULT_RANGE,
-                            marks=build_marks(YEARS),
-                            allowCross=False,
-                            tooltip={"placement": "bottom", "always_visible": False},
-                        ),
-                    ],
-                    style={"marginBottom": "1rem"},
-                ),
-                html.Div(
-                    [
-                        html.Div(
-                            [
-                                html.Label("Highlight people"),
-                                dcc.Dropdown(
-                                    id="person-dropdown",
-                                    options=[
-                                        {
-                                            "label": row["person_name"],
-                                            "value": int(row["person_id"]),
-                                        }
-                                        for row in PERSON_OPTIONS
-                                    ],
-                                    value=[],
-                                    multi=True,
-                                    placeholder="Click a path or event marker, or choose names here",
-                                ),
-                            ],
-                            style={"flex": "2", "minWidth": "320px"},
-                        ),
-                        html.Div(
-                            [
-                                html.Label("Display mode"),
-                                dcc.RadioItems(
-                                    id="display-mode",
-                                    options=[
-                                        {"label": "All paths", "value": "all"},
-                                        {"label": "Selected only", "value": "selected"},
-                                    ],
-                                    value="all",
-                                    inline=True,
-                                ),
-                            ],
-                            style={"flex": "1", "minWidth": "220px"},
-                        ),
-                        html.Div(
-                            [
-                                html.Label("Direction cues"),
-                                dcc.RadioItems(
-                                    id="direction-mode",
-                                    options=[
-                                        {"label": "Off", "value": "off"},
-                                        {"label": "Selected only", "value": "selected"},
-                                        {"label": "All visible", "value": "all"},
-                                    ],
-                                    value="selected",
-                                    inline=True,
-                                ),
-                            ],
-                            style={"flex": "1", "minWidth": "260px"},
-                        ),
-                        html.Div(
-                            [
-                                html.Label("Background density"),
-                                dcc.Slider(
-                                    id="background-opacity",
-                                    min=0.02,
-                                    max=0.35,
-                                    step=0.01,
-                                    value=0.08,
-                                    marks={0.05: "light", 0.15: "medium", 0.3: "dense"},
-                                ),
-                            ],
-                            style={"flex": "1", "minWidth": "220px"},
-                        ),
-                    ],
-                    style={
-                        "display": "flex",
-                        "gap": "1rem",
-                        "flexWrap": "wrap",
-                        "marginBottom": "1rem",
-                    },
-                ),
-            ],
-            style={"padding": "0.5rem 1rem 1rem 1rem"},
-        ),
-        html.Div(
-            [
-                html.Div(
-                    [
-                        dcc.Graph(
-                            id="lifepath-map",
-                            style={"height": "76vh"},
-                            config={"displayModeBar": True},
-                        ),
-                        html.Div(
-                            [
-                                html.H4("Space-time cube", style={"marginTop": "0.75rem", "marginBottom": "0.35rem"}),
-                                html.Div(
-                                    "Longitude and latitude form the ground plane; time is shown vertically as year. This view follows the selected people and main time interval.",
-                                    style={"color": "#666", "marginBottom": "0.5rem"},
-                                ),
-                                dcc.Graph(
-                                    id="space-time-cube",
-                                    style={"height": "62vh"},
-                                    config={"displayModeBar": True},
-                                ),
-                            ]
-                        ),
-                    ],
-                    style={"flex": "3", "minWidth": "700px"},
-                ),
-                html.Div(
-                    [
-                        html.H4("Selection"),
-                        html.Div(id="selection-summary", style={"marginBottom": "0.75rem"}),
-                        dash_table.DataTable(
-                            id="person-table",
-                            columns=[
-                                {"name": "Person", "id": "person_name"},
-                                {"name": "Visible events", "id": "visible_events"},
-                                {"name": "First year", "id": "first_year"},
-                                {"name": "Latest shown", "id": "latest_event"},
-                            ],
-                            data=[],
-                            style_table={"overflowX": "auto"},
-                            style_cell={
-                                "textAlign": "left",
-                                "padding": "6px",
-                                "fontFamily": "sans-serif",
-                            },
-                            style_header={"fontWeight": "bold"},
-                            page_size=12,
-                        ),
-                        html.Div(
-                            [
-                                html.H4("Selected person timeline"),
-                                html.Div(
-                                    id="selected-person-timeline",
-                                    style={
-                                        "maxHeight": "34vh",
-                                        "overflowY": "auto",
-                                        "paddingRight": "0.25rem",
-                                    },
-                                ),
-                            ],
-                            style={"marginTop": "1rem"},
-                        ),
-                        html.Div(
-                            [
-                                html.H4("Hovered location overview"),
-                                html.Div(
-                                    id="hover-location-summary",
-                                    style={
-                                        "maxHeight": "24vh",
-                                        "overflowY": "auto",
-                                        "paddingRight": "0.25rem",
-                                    },
-                                ),
-                            ],
-                            style={"marginTop": "1rem"},
-                        ),
-                        html.Div(
-                            [
-                                html.H4("Clicked location detail"),
-                                html.Div(id="location-detail-header", style={"marginBottom": "0.5rem"}),
-                                dcc.Dropdown(
-                                    id="location-person-dropdown",
-                                    options=[],
-                                    value=None,
-                                    placeholder="Choose a person at this location",
-                                ),
-                                html.Div(
-                                    id="location-person-events",
-                                    style={
-                                        "maxHeight": "22vh",
-                                        "overflowY": "auto",
-                                        "paddingRight": "0.25rem",
-                                        "marginTop": "0.75rem",
-                                    },
-                                ),
-                            ],
-                            style={"marginTop": "1rem"},
-                        ),
-                        html.Div(
-                            [
-                                html.H4("Place arrivals view"),
-                                html.Div(
-                                    "Use a clicked black marker or choose a place here.",
-                                    style={"color": "#666", "marginBottom": "0.5rem"},
-                                ),
-                                html.Label("Place"),
-                                dcc.Dropdown(
-                                    id="arrival-location-dropdown",
-                                    options=LOCATION_OPTIONS,
-                                    value=None,
-                                    placeholder="Type or select a location",
-                                    searchable=True,
-                                    clearable=True,
-                                ),
-                                html.Div(id="arrival-place-header", style={"marginTop": "0.75rem", "marginBottom": "0.5rem"}),
-                                html.Label("Place-specific interval"),
-                                dcc.RangeSlider(
-                                    id="arrival-year-slider",
-                                    min=YEARS[0],
-                                    max=YEARS[-1],
-                                    step=1,
-                                    value=DEFAULT_RANGE,
-                                    marks=build_marks(YEARS),
-                                    allowCross=False,
-                                    tooltip={"placement": "bottom", "always_visible": False},
-                                ),
-                                html.Div(id="arrival-summary", style={"marginTop": "0.75rem", "marginBottom": "0.75rem"}),
-                                dcc.Graph(
-                                    id="arrival-country-pie",
-                                    style={"height": "300px"},
-                                    config={"displayModeBar": False},
-                                ),
-                                dash_table.DataTable(
-                                    id="arrival-table",
-                                    columns=[
-                                        {"name": "Person", "id": "person_name"},
-                                        {"name": "Arrival date", "id": "arrival_date"},
-                                        {"name": "To", "id": "to_location"},
-                                        {"name": "From", "id": "from_location"},
-                                        {"name": "Origin country", "id": "from_country"},
-                                        {"name": "Previous date", "id": "from_date"},
-                                        {"name": "Previous event", "id": "from_event_type"},
-                                        {"name": "Arrival event", "id": "to_event_type"},
-                                    ],
-                                    data=[],
-                                    style_table={"overflowX": "auto"},
-                                    style_cell={
-                                        "textAlign": "left",
-                                        "padding": "6px",
-                                        "fontFamily": "sans-serif",
-                                        "whiteSpace": "normal",
-                                        "height": "auto",
-                                    },
-                                    style_header={"fontWeight": "bold"},
-                                    page_size=8,
-                                ),
-                            ],
-                            style={"marginTop": "1rem"},
-                        ),
-                    ],
-                    style={"flex": "1.25", "minWidth": "420px", "padding": "0.5rem 1rem 1rem 0.5rem"},
-                ),
-            ],
-            style={
-                "display": "flex",
-                "gap": "0.5rem",
-                "flexWrap": "wrap",
-                "padding": "0 1rem 1rem 1rem",
-            },
-        ),
-    ],
-    style={"fontFamily": "Arial, sans-serif", "maxWidth": "2000px", "margin": "0 auto"},
-)
-
-
-def empty_figure(message: str) -> go.Figure:
-    fig = go.Figure()
-    fig.update_layout(
-        template="plotly_white",
-        annotations=[
-            {
-                "text": message,
-                "xref": "paper",
-                "yref": "paper",
-                "x": 0.5,
-                "y": 0.5,
-                "showarrow": False,
-                "font": {"size": 18},
-            }
-        ],
-        margin={"l": 10, "r": 10, "t": 10, "b": 10},
-    )
-    return fig
-
-
-def empty_pie_figure(message: str) -> go.Figure:
-    fig = go.Figure()
-    fig.update_layout(
-        template="plotly_white",
-        annotations=[
-            {
-                "text": message,
-                "xref": "paper",
-                "yref": "paper",
-                "x": 0.5,
-                "y": 0.5,
-                "showarrow": False,
-                "font": {"size": 15},
-            }
-        ],
-        margin={"l": 10, "r": 10, "t": 30, "b": 10},
-        title="Origin countries",
-    )
-    return fig
-
-
-def empty_cube_figure(message: str) -> go.Figure:
-    fig = go.Figure()
-    fig.update_layout(
-        template="plotly_white",
-        scene=dict(
-            xaxis_title="Longitude",
-            yaxis_title="Latitude",
-            zaxis_title="Year",
-        ),
-        annotations=[
-            {
-                "text": message,
-                "xref": "paper",
-                "yref": "paper",
-                "x": 0.5,
-                "y": 0.5,
-                "showarrow": False,
-                "font": {"size": 16},
-            }
-        ],
-        margin={"l": 10, "r": 10, "t": 10, "b": 10},
-    )
-    return fig
-
-
-def center_for(df: pd.DataFrame):
-    if df.empty:
-        return {"lat": 20, "lon": 0}
-    return {"lat": float(df["latitude"].mean()), "lon": float(df["longitude"].mean())}
-
-
-def add_floor_map_surface(fig, df: pd.DataFrame, image_path=FLOOR_MAP_PATH):
-    if df.empty or not os.path.exists(image_path):
-        return
-
-    img = Image.open(image_path).convert("L")
-    img_array = np.array(img)
-
-    lon_min = float(df["longitude"].min())
-    lon_max = float(df["longitude"].max())
-    lat_min = float(df["latitude"].min())
-    lat_max = float(df["latitude"].max())
-    year_min = float(df["year"].min())
-
-    lon_pad = max(0.5, (lon_max - lon_min) * 0.08)
-    lat_pad = max(0.5, (lat_max - lat_min) * 0.08)
-
-    x_vals = np.linspace(lon_min - lon_pad, lon_max + lon_pad, img_array.shape[1])
-    y_vals = np.linspace(lat_min - lat_pad, lat_max + lat_pad, img_array.shape[0])
-
-    X, Y = np.meshgrid(x_vals, y_vals)
-    Z = np.full_like(X, year_min, dtype=float)
-
-    fig.add_trace(
-        go.Surface(
-            x=X,
-            y=Y,
-            z=Z,
-            surfacecolor=img_array,
-            colorscale="Greys",
-            cmin=0,
-            cmax=255,
-            showscale=False,
-            opacity=0.55,
-            hoverinfo="skip",
-        )
-    )
-
-
-def build_event_count_figure(df: pd.DataFrame, year_range, selected_people=None) -> go.Figure:
     selected_people = selected_people or []
-    start_year, end_year = sorted(year_range)
+    _, end_year = sorted(year_range)
 
-    base_df = df[df["person_id"].isin(selected_people)] if selected_people else df
+    path_df     = DF[DF["year"] <= end_year].copy()
+    interval_df = filter_df(DF, year_range)
 
-    full_years = pd.DataFrame({"year": YEARS})
-    if base_df.empty:
-        counts = full_years.copy()
-        counts["event_count"] = 0
+    # Apply faculty filter from df
+    if len(df) < len(DF):
+        fids = df["person_id"].unique()
+        path_df     = path_df[path_df["person_id"].isin(fids)]
+        interval_df = interval_df[interval_df["person_id"].isin(fids)]
+
+    # Build faculty id→color map
+    fac_color_map = {}
+    if use_faculty_colors and not DF.empty:
+        for _, row in DF[["person_id", "faculty"]].drop_duplicates().iterrows():
+            fac_color_map[int(row["person_id"])] = \
+                FACULTY_COLOR_MAP.get(row["faculty"], "#7f8c8d")
+
+    fig = go.Figure()
+
+    # ── Paths ─────────────────────────────────────────────────────────────────
+    sel_color_map = person_color_map(selected_people)  # {pid: unique_color}
+
+    if selected_people:
+        # Use path_df (all events up to end_year) so we check real temporal overlap —
+        # two people are co-present only if they have events at the same (loc, year).
+        shared_locs = get_shared_locations(
+            path_df[path_df["person_id"].isin(selected_people)]
+        )
     else:
-        counts = (
-            base_df.groupby("year", as_index=False)
-            .size()
-            .rename(columns={"size": "event_count"})
-        )
-        counts = full_years.merge(counts, on="year", how="left").fillna({"event_count": 0})
+        shared_locs = set()
 
-    colors = [
-        "#c0392b" if start_year <= int(y) <= end_year else "#9aa5b1"
-        for y in counts["year"]
-    ]
+    if display_mode == "all":
+        for pid, pdf in path_df.groupby("person_id"):
+            pdf   = pdf.sort_values(["event_date", "event_order"]).reset_index(drop=True)
+            pname = pdf["person_name"].iloc[0]
+            is_sel = int(pid) in selected_people
 
-    fig = go.Figure(
-        data=[
-            go.Bar(
-                x=counts["year"],
-                y=counts["event_count"],
-                marker={"color": colors},
-                hovertemplate="Year %{x}<br>Events %{y}<extra></extra>",
-                showlegend=False,
-            )
-        ]
-    )
+            if is_sel:
+                pcolor = sel_color_map[int(pid)]
+                draw_person_path_map(fig, pdf, pid, pname, pcolor, shared_locs,
+                                     direction_mode if direction_mode != "off" else "off")
+            else:
+                # Skip people with no events in the visible interval (saves traces)
+                if int(pid) not in interval_df["person_id"].values:
+                    continue
+                color = fac_color_map.get(int(pid), "#7f8c8d") if use_faculty_colors                         else "#7f8c8d"
+                fig.add_trace(go.Scattermap(
+                    lat=pdf["latitude"], lon=pdf["longitude"],
+                    mode="lines",
+                    line={"width": 1, "color": color},
+                    opacity=bg_opacity,
+                    name=pname,
+                    hovertemplate=f"<b>{pname}</b><br>Path<extra></extra>",
+                    customdata=[[int(pid), pname, "path"]] * len(pdf),
+                    showlegend=False,
+                ))
+
+    elif selected_people:
+        for pid, pdf in path_df[path_df["person_id"].isin(selected_people)].groupby("person_id"):
+            pdf    = pdf.sort_values(["event_date", "event_order"]).reset_index(drop=True)
+            pname  = pdf["person_name"].iloc[0]
+            pcolor = sel_color_map[int(pid)]
+            draw_person_path_map(fig, pdf, pid, pname, pcolor, shared_locs,
+                                 direction_mode)
+
+    # Event markers
+    marker_df = interval_df if not selected_people else                 interval_df[interval_df["person_id"].isin(selected_people)]
+    for etype, grp in marker_df.groupby("event_type_name"):
+        sizes = [12 if int(p) in selected_people else 7 for p in grp["person_id"]]
+        fig.add_trace(go.Scattermap(
+            lat=grp["latitude"], lon=grp["longitude"],
+            mode="markers",
+            marker={"size": sizes,
+                    "color": EVENT_COLORS.get(etype, "#636efa"),
+                    "opacity": 0.9},
+            name=etype.title(),
+            customdata=grp[["person_id", "person_name"]].assign(kind="event").values,
+            hovertext=grp["hover_text"],
+            hovertemplate="%{hovertext}<extra></extra>",
+            showlegend=True,
+        ))
+
+    # Gold markers at shared locations (vectorised — no apply)
+    if shared_locs and selected_people:
+        sel_events = path_df[path_df["person_id"].isin(selected_people)].copy()
+        sel_events["lat_r"] = sel_events["latitude"].round(5)
+        sel_events["lon_r"] = sel_events["longitude"].round(5)
+        shared_df   = pd.DataFrame(list(shared_locs), columns=["lat_r", "lon_r"])
+        gold_events = sel_events.merge(shared_df, on=["lat_r", "lon_r"])                                 .drop_duplicates(subset=["lat_r", "lon_r"])
+        if not gold_events.empty:
+            fig.add_trace(go.Scattermap(
+                lat=gold_events["latitude"], lon=gold_events["longitude"],
+                mode="markers",
+                marker={"size": 14, "color": GOLD, "opacity": 1.0,
+                        "allowoverlap": True},
+                name="Co-present location",
+                hovertext=gold_events["location_label"],
+                hovertemplate="<b>%{hovertext}</b><br>Co-present location<extra></extra>",
+                showlegend=True,
+            ))
+
+    # Location cluster markers
+    grouped = _aggregate_locations(interval_df, year_range)
+    if not grouped.empty:
+        fig.add_trace(go.Scattermap(
+            lat=grouped["latitude"], lon=grouped["longitude"],
+            mode="markers",
+            marker={"size": grouped["marker_size"], "color": "#111", "opacity": 0.75},
+            text=grouped["hover_text"],
+            hovertemplate="%{text}<extra></extra>",
+            customdata=grouped[["latitude","longitude","location_label","start_year","end_year"]].values,
+            name="Events in interval", showlegend=True,
+        ))
+
+    center = {"lat": float(path_df["latitude"].mean()),
+              "lon": float(path_df["longitude"].mean())} if not path_df.empty \
+             else {"lat": 52, "lon": 10}
+
     fig.update_layout(
         template="plotly_white",
-        margin={"l": 35, "r": 10, "t": 10, "b": 30},
-        xaxis_title=None,
-        yaxis_title="Events",
-        bargap=0.05,
-        dragmode=False,
+        margin={"l": 0, "r": 0, "t": 0, "b": 0},
+        legend={"orientation": "h", "y": 0.01, "x": 0.01,
+                "bgcolor": "rgba(255,255,255,0.8)"},
+        map={"style": "carto-positron", "center": center, "zoom": 3},
+        height=700,
     )
-    fig.update_xaxes(showgrid=False)
-    fig.update_yaxes(showgrid=True, rangemode="tozero")
     return fig
 
 
-def build_origin_country_pie(arrivals_df: pd.DataFrame) -> go.Figure:
-    if arrivals_df.empty:
-        return empty_pie_figure("No arrivals to summarize.")
-
-    pie_df = (
-        arrivals_df.groupby("from_country", as_index=False)
-        .size()
-        .rename(columns={"size": "count"})
-        .sort_values("count", ascending=False)
-    )
-
-    fig = go.Figure(
-        data=[
-            go.Pie(
-                labels=pie_df["from_country"],
-                values=pie_df["count"],
-                hole=0.25,
-                textinfo="label+percent",
-                hovertemplate="%{label}<br>Arrivals %{value}<br>%{percent}<extra></extra>",
-            )
-        ]
-    )
-    fig.update_layout(
-        template="plotly_white",
-        margin={"l": 10, "r": 10, "t": 30, "b": 10},
-        title="Origin countries",
-    )
-    return fig
-
-
-def add_path_trace(fig, person_df, selected=False, opacity=0.08):
-    person_df = person_df.sort_values(["event_date", "event_order"]).copy()
-    if len(person_df) < 2:
-        return
-
-    color = "#c0392b" if selected else "#7f8c8d"
-    width = 4 if selected else 1
-    person_name = person_df["person_name"].iloc[0]
-    person_id = int(person_df["person_id"].iloc[0])
-
-    fig.add_trace(
-        go.Scattermap(
-            lat=person_df["latitude"],
-            lon=person_df["longitude"],
-            mode="lines",
-            line={"width": width, "color": color},
-            opacity=0.95 if selected else opacity,
-            name=person_name,
-            hovertemplate=f"<b>{person_name}</b><br>Path<extra></extra>",
-            customdata=[[person_id, person_name, "path"]] * len(person_df),
-            showlegend=False,
-        )
-    )
-
-
-def add_direction_markers(fig, person_df, selected=False):
+def _add_direction(fig, person_df):
     person_df = person_df.sort_values(["event_date", "event_order"]).copy()
     if person_df.empty:
         return
-
-    numbered = person_df.copy()
-    numbered["sequence_label"] = [str(i) for i in range(1, len(numbered) + 1)]
-    numbered["dir_hover"] = (
-        "<b>" + numbered["person_name"] + "</b><br>"
-        + "Step " + numbered["sequence_label"] + "<br>"
-        + numbered["event_type_name"].str.title() + "<br>"
-        + numbered["location_label"] + "<br>"
-        + numbered["event_date"].dt.strftime("%Y-%m-%d")
-    )
-
-    fig.add_trace(
-        go.Scattermap(
-            lat=numbered["latitude"],
-            lon=numbered["longitude"],
-            mode="markers+text",
-            marker={
-                "size": 18 if selected else 10,
-                "color": "#111111" if selected else "#666666",
-                "opacity": 0.95 if selected else 0.6,
-            },
-            text=numbered["sequence_label"],
-            textfont={"size": 10 if selected else 8, "color": "#ffffff"},
-            textposition="middle center",
-            customdata=numbered[["person_id", "person_name"]].assign(kind="direction").values,
-            hovertext=numbered["dir_hover"],
-            hovertemplate="%{hovertext}<extra></extra>",
-            showlegend=False,
-        )
-    )
-
-    start = person_df.head(1).copy()
-    start["start_hover"] = (
-        "<b>" + start["person_name"] + "</b><br>"
-        + "Start<br>"
-        + start["event_type_name"].str.title() + "<br>"
-        + start["location_label"] + "<br>"
-        + start["event_date"].dt.strftime("%Y-%m-%d")
-    )
-
-    end = person_df.tail(1).copy()
-    end["end_hover"] = (
-        "<b>" + end["person_name"] + "</b><br>"
-        + ("Now" if selected else "End") + "<br>"
-        + end["event_type_name"].str.title() + "<br>"
-        + end["location_label"] + "<br>"
-        + end["event_date"].dt.strftime("%Y-%m-%d")
-    )
-
-    fig.add_trace(
-        go.Scattermap(
-            lat=start["latitude"],
-            lon=start["longitude"],
-            mode="markers+text",
-            marker={"size": 20 if selected else 12, "color": "#2ca02c", "opacity": 0.95},
-            text=["Start"],
-            textposition="bottom right",
-            customdata=start[["person_id", "person_name"]].assign(kind="start").values,
-            hovertext=start["start_hover"],
-            hovertemplate="%{hovertext}<extra></extra>",
-            showlegend=False,
-        )
-    )
-
-    fig.add_trace(
-        go.Scattermap(
-            lat=end["latitude"],
-            lon=end["longitude"],
-            mode="markers+text",
-            marker={"size": 22 if selected else 14, "color": "#d62728", "opacity": 0.98},
-            text=["Now" if selected else "End"],
-            textposition="top right",
-            customdata=end[["person_id", "person_name"]].assign(kind="end").values,
-            hovertext=end["end_hover"],
-            hovertemplate="%{hovertext}<extra></extra>",
-            showlegend=False,
-        )
-    )
+    person_df["seq"] = range(1, len(person_df) + 1)
+    fig.add_trace(go.Scattermap(
+        lat=person_df["latitude"], lon=person_df["longitude"],
+        mode="markers+text",
+        marker={"size": 18, "color": "#111", "opacity": 0.9},
+        text=person_df["seq"].astype(str),
+        textfont={"size": 10, "color": "#fff"},
+        textposition="middle center",
+        showlegend=False,
+        hoverinfo="skip",
+    ))
 
 
-def add_event_markers(fig, event_df, selected_ids):
-    if event_df.empty:
-        return
-
-    for event_type, group in event_df.groupby("event_type_name"):
-        group = group.copy()
-        sizes = [12 if pid in selected_ids else 7 for pid in group["person_id"]]
-
-        fig.add_trace(
-            go.Scattermap(
-                lat=group["latitude"],
-                lon=group["longitude"],
-                mode="markers",
-                marker={
-                    "size": sizes,
-                    "color": EVENT_COLORS.get(event_type, "#636efa"),
-                    "opacity": 0.9,
-                },
-                name=event_type.title(),
-                customdata=group[["person_id", "person_name"]].assign(kind="event").values,
-                hovertext=group["hover_text"],
-                hovertemplate="%{hovertext}<extra></extra>",
-                showlegend=True,
-            )
-        )
-
-
-def aggregate_year_locations(events_df: pd.DataFrame, year_range) -> pd.DataFrame:
+def _aggregate_locations(events_df: pd.DataFrame, year_range) -> pd.DataFrame:
+    """Aggregate events by location — vectorised, no Python loops."""
     if events_df.empty:
         return pd.DataFrame()
+    s, e = sorted(year_range)
 
-    start_year, end_year = sorted(year_range)
-    current = events_df[
-        (events_df["year"] >= start_year) & (events_df["year"] <= end_year)
-    ].copy()
+    grp = events_df.groupby(["latitude", "longitude", "location_label"])
+    n_people = grp["person_id"].nunique().rename("n_people")
+    n_events = grp.size().rename("n_events")
 
-    if current.empty:
-        return pd.DataFrame()
+    agg = pd.concat([n_people, n_events], axis=1).reset_index()
+    agg["start_year"]  = s
+    agg["end_year"]    = e
+    agg["marker_size"] = (10
+        + 4 * (agg["n_people"] - 1)
+        + 2 * (agg["n_events"] - agg["n_people"]).clip(lower=0))
 
-    grouped_rows = []
-
-    for (lat, lon, location_label), group in current.groupby(
-        ["latitude", "longitude", "location_label"], dropna=False
-    ):
-        people = group[["person_id", "person_name"]].drop_duplicates().sort_values("person_name")
-        events = group.sort_values(["person_name", "event_order", "event_date"])
-
-        visits_in_range = (
-            events_df[
-                (events_df["year"] >= start_year)
-                & (events_df["year"] <= end_year)
-                & (events_df["latitude"] == lat)
-                & (events_df["longitude"] == lon)
-            ]
-            .groupby(["person_id", "person_name"], as_index=False)
-            .size()
-            .rename(columns={"size": "visits"})
-            .sort_values(["visits", "person_name"], ascending=[False, True])
-        )
-
-        hover_lines = [
-            f"<b>{location_label or 'Unknown location'}</b>",
-            f"Interval: {start_year}–{end_year}",
-            f"People in interval: {people['person_id'].nunique()}",
-            f"Events in interval: {len(events)}",
-            "",
-            "<b>People overview</b>",
-        ]
-
-        for _, row in visits_in_range.iterrows():
-            hover_lines.append(f"• {row['person_name']} — {row['visits']} visits")
-
-        grouped_rows.append(
-            {
-                "latitude": lat,
-                "longitude": lon,
-                "location_label": location_label,
-                "start_year": start_year,
-                "end_year": end_year,
-                "people_count": int(people["person_id"].nunique()),
-                "events_count": int(len(events)),
-                "marker_size": 10
-                + 4 * (people["person_id"].nunique() - 1)
-                + 2 * max(0, len(events) - people["person_id"].nunique()),
-                "hover_text": "<br>".join(hover_lines),
-            }
-        )
-
-    return pd.DataFrame(grouped_rows)
-
-
-def add_year_location_markers(fig, grouped_df: pd.DataFrame):
-    if grouped_df.empty:
-        return
-
-    fig.add_trace(
-        go.Scattermap(
-            lat=grouped_df["latitude"],
-            lon=grouped_df["longitude"],
-            mode="markers",
-            marker={
-                "size": grouped_df["marker_size"],
-                "color": "#111111",
-                "opacity": 0.8,
-                "allowoverlap": True,
-            },
-            text=grouped_df["hover_text"],
-            hovertemplate="%{text}<extra></extra>",
-            customdata=grouped_df[
-                ["latitude", "longitude", "location_label", "start_year", "end_year"]
-            ].values,
-            name="Events in selected interval",
-            showlegend=True,
-        )
+    # Build hover text per row (still a loop but only over unique locations)
+    top_visitors = (
+        events_df.groupby(["latitude", "longitude", "person_name"])
+        .size().reset_index(name="v")
+        .sort_values(["latitude","longitude","v"], ascending=[True,True,False])
     )
+    visitor_map = top_visitors.groupby(["latitude","longitude"]).apply(
+        lambda g: "<br>".join(f"• {r['person_name']} — {r['v']}"
+                              for _, r in g.head(8).iterrows())
+    ).reset_index(name="visitor_lines")
 
-
-def build_selected_timeline(all_visible_df: pd.DataFrame, selected_people):
-    if not selected_people:
-        return html.Div(
-            "Select one or more people to see their chronological events.",
-            style={"color": "#666"},
-        )
-
-    selected_df = (
-        all_visible_df[all_visible_df["person_id"].isin(selected_people)]
-        .sort_values(["person_name", "event_date", "event_order", "location_label"])
-        .copy()
+    agg = agg.merge(visitor_map, on=["latitude","longitude"], how="left")
+    agg["hover_text"] = (
+        "<b>" + agg["location_label"] + "</b><br>"
+        + s.__str__() + "–" + e.__str__() + "<br>"
+        + "People: " + agg["n_people"].astype(str) + "<br>"
+        + "Events: " + agg["n_events"].astype(str) + "<br><br>"
+        + agg["visitor_lines"].fillna("")
     )
-
-    if selected_df.empty:
-        return html.Div(
-            "No visible events for the selected people in this view.",
-            style={"color": "#666"},
-        )
-
-    blocks = []
-
-    for person_name, person_df in selected_df.groupby("person_name"):
-        items = []
-
-        for _, row in person_df.iterrows():
-            when = row["event_date"].strftime("%Y-%m-%d") if pd.notna(row["event_date"]) else "Unknown date"
-            location = row["location_label"] if pd.notna(row["location_label"]) and row["location_label"] else "Unknown location"
-            description = row["description"] if pd.notna(row["description"]) and row["description"] else row["event_type_name"].title()
-
-            items.append(
-                html.Div(
-                    [
-                        html.Div(when, style={"fontWeight": "bold", "minWidth": "92px"}),
-                        html.Div(
-                            [
-                                html.Div(row["event_type_name"].title(), style={"fontWeight": "bold"}),
-                                html.Div(description),
-                                html.Div(location, style={"color": "#666", "fontSize": "0.92rem"}),
-                            ],
-                            style={"flex": "1"},
-                        ),
-                    ],
-                    style={
-                        "display": "flex",
-                        "gap": "0.65rem",
-                        "padding": "0.45rem 0",
-                        "borderBottom": "1px solid #eee",
-                        "alignItems": "flex-start",
-                    },
-                )
-            )
-
-        blocks.append(
-            html.Div(
-                [
-                    html.Div(
-                        person_name,
-                        style={"fontWeight": "bold", "fontSize": "1rem", "marginBottom": "0.35rem"},
-                    ),
-                    html.Div(items),
-                ],
-                style={
-                    "marginBottom": "1rem",
-                    "padding": "0.75rem",
-                    "border": "1px solid #ddd",
-                    "borderRadius": "10px",
-                },
-            )
-        )
-
-    return blocks
+    return agg[["latitude","longitude","location_label",
+                "start_year","end_year","marker_size","hover_text"]]
 
 
-def summarize_location_year(events_df: pd.DataFrame, year_range, lat: float, lon: float):
-    start_year, end_year = sorted(year_range)
+# ─── Co-presence analysis ─────────────────────────────────────────────────────
 
-    current = events_df[
-        (events_df["year"] >= start_year)
-        & (events_df["year"] <= end_year)
-        & (events_df["latitude"] == lat)
-        & (events_df["longitude"] == lon)
-    ].copy()
-
-    if current.empty:
-        return None
-
-    location_label = current["location_label"].iloc[0]
-
-    historical = current.copy()
-
-    people_now = (
-        current[["person_id", "person_name"]]
-        .drop_duplicates()
-        .sort_values("person_name")
-    )
-
-    visit_counts = (
-        historical.groupby(["person_id", "person_name"], as_index=False)
-        .size()
-        .rename(columns={"size": "visits"})
-        .sort_values(["visits", "person_name"], ascending=[False, True])
-    )
-
-    return {
-        "location_label": location_label,
-        "start_year": start_year,
-        "end_year": end_year,
-        "people_now": people_now,
-        "visit_counts": visit_counts,
-        "current_events": current,
-        "historical_events": historical,
-    }
-
-
-def extract_country_from_location_label(location_label: str) -> str:
-    if not location_label:
-        return "Unknown origin"
-    if ", " in location_label:
-        return location_label.split(", ")[-1].strip() or "Unknown origin"
-    return location_label.strip() or "Unknown origin"
-
-
-def build_arrivals_for_location(df: pd.DataFrame, lat: float, lon: float, year_range):
-    start_year, end_year = sorted(year_range)
-    arrivals = []
-
-    for _, person_df in df.groupby("person_id"):
-        person_df = person_df.sort_values(["event_date", "event_order", "location_id"]).reset_index(drop=True)
-
-        for i, row in person_df.iterrows():
-            row_year = int(row["year"])
-            if not (start_year <= row_year <= end_year):
-                continue
-
-            is_target = float(row["latitude"]) == float(lat) and float(row["longitude"]) == float(lon)
-            if not is_target:
-                continue
-
-            prev_row = person_df.iloc[i - 1] if i > 0 else None
-
-            if prev_row is None:
-                from_location = "First known location"
-                from_date = ""
-                from_event_type = ""
-                from_country = "First known location"
-            else:
-                prev_same_place = (
-                    float(prev_row["latitude"]) == float(lat)
-                    and float(prev_row["longitude"]) == float(lon)
-                )
-                if prev_same_place:
-                    continue
-
-                from_location = prev_row["location_label"]
-                from_date = (
-                    prev_row["event_date"].strftime("%Y-%m-%d")
-                    if pd.notna(prev_row["event_date"])
-                    else ""
-                )
-                from_event_type = str(prev_row["event_type_name"]).title()
-                from_country = extract_country_from_location_label(from_location)
-
-            arrivals.append(
-                {
-                    "person_id": int(row["person_id"]),
-                    "person_name": row["person_name"],
-                    "arrival_date": row["event_date"].strftime("%Y-%m-%d")
-                    if pd.notna(row["event_date"])
-                    else "",
-                    "arrival_year": int(row["year"]),
-                    "to_location": row["location_label"],
-                    "to_event_type": str(row["event_type_name"]).title(),
-                    "from_location": from_location,
-                    "from_country": from_country,
-                    "from_date": from_date,
-                    "from_event_type": from_event_type,
-                }
-            )
-
-    if not arrivals:
-        return pd.DataFrame()
-
-    out = pd.DataFrame(arrivals)
-    out = out.sort_values(["arrival_date", "person_name"]).reset_index(drop=True)
-    return out
-
-
-def build_space_time_cube_figure(df: pd.DataFrame, selected_people):
+def build_copresence(df, year_range, min_overlap=1):
+    """
+    Find pairs of people who were in the same city in overlapping years.
+    Returns a DataFrame of pairs only (no heatmap).
+    """
     if df.empty:
-        return empty_cube_figure("No events available for the selected timeframe.")
+        return pd.DataFrame()
 
-    selected_people = selected_people or []
-    cube_df = df.copy()
+    s, e = sorted(year_range)
+    sub = df[(df["year"] >= s) & (df["year"] <= e)].copy()
+    if sub.empty:
+        return pd.DataFrame()
 
-    if selected_people:
-        selected_df = cube_df[cube_df["person_id"].isin(selected_people)].copy()
-        if not selected_df.empty:
-            cube_df = selected_df
-
-    if cube_df.empty:
-        return empty_cube_figure("No events available for the selected people in this timeframe.")
-
-    fig = go.Figure()
-
-    add_floor_map_surface(fig, cube_df, image_path=FLOOR_MAP_PATH)
-
-    if not selected_people:
-        for _, person_df in cube_df.groupby("person_id"):
-            person_df = person_df.sort_values(["event_date", "event_order"])
-            if len(person_df) < 2:
-                continue
-
-            fig.add_trace(
-                go.Scatter3d(
-                    x=person_df["longitude"],
-                    y=person_df["latitude"],
-                    z=person_df["year"],
-                    mode="lines",
-                    line=dict(width=3, color="#7f8c8d"),
-                    opacity=0.35,
-                    hoverinfo="skip",
-                    showlegend=False,
-                )
-            )
-    else:
-        for _, person_df in cube_df.groupby("person_id"):
-            person_df = person_df.sort_values(["event_date", "event_order"])
-            if len(person_df) >= 2:
-                fig.add_trace(
-                    go.Scatter3d(
-                        x=person_df["longitude"],
-                        y=person_df["latitude"],
-                        z=person_df["year"],
-                        mode="lines",
-                        line=dict(width=7, color="#c0392b"),
-                        opacity=0.95,
-                        hoverinfo="skip",
-                        showlegend=False,
-                    )
-                )
-
-    for event_type, group in cube_df.groupby("event_type_name"):
-        fig.add_trace(
-            go.Scatter3d(
-                x=group["longitude"],
-                y=group["latitude"],
-                z=group["year"],
-                mode="markers",
-                marker=dict(
-                    size=5 if not selected_people else 7,
-                    color=EVENT_COLORS.get(event_type, "#636efa"),
-                    opacity=0.9,
-                ),
-                name=event_type.title(),
-                customdata=group[["person_id", "person_name"]].assign(kind="cube_event").values,
-                hovertext=group["hover_text"],
-                hovertemplate="%{hovertext}<br>Year %{z}<extra></extra>",
-            )
-        )
-
-    lon_min, lon_max = float(cube_df["longitude"].min()), float(cube_df["longitude"].max())
-    lat_min, lat_max = float(cube_df["latitude"].min()), float(cube_df["latitude"].max())
-    year_min, year_max = int(cube_df["year"].min()), int(cube_df["year"].max())
-
-    lon_pad = max(0.5, (lon_max - lon_min) * 0.08)
-    lat_pad = max(0.5, (lat_max - lat_min) * 0.08)
-
-    fig.update_layout(
-        template="plotly_white",
-        margin=dict(l=10, r=10, t=10, b=10),
-        legend=dict(orientation="h", y=0.01, x=0.01),
-        scene=dict(
-            xaxis=dict(title="Longitude", range=[lon_min - lon_pad, lon_max + lon_pad]),
-            yaxis=dict(title="Latitude", range=[lat_min - lat_pad, lat_max + lat_pad]),
-            zaxis=dict(title="Year", range=[year_min, year_max]),
-            aspectmode="manual",
-            aspectratio=dict(x=1.2, y=1.0, z=1.3),
-            camera=dict(eye=dict(x=1.45, y=1.45, z=1.15)),
-        ),
+    person_city = (
+        sub.groupby(["person_id", "person_name", "city_label"])["year"]
+        .apply(set).reset_index(name="years")
     )
+    person_city = person_city[person_city["city_label"].ne("")]
 
+    pairs = []
+    records = person_city.to_dict("records")
+    for i in range(len(records)):
+        for j in range(i + 1, len(records)):
+            a, b = records[i], records[j]
+            if a["person_id"] == b["person_id"] or a["city_label"] != b["city_label"]:
+                continue
+            overlap = a["years"] & b["years"]
+            if len(overlap) >= min_overlap:
+                pairs.append({
+                    "person_a":      a["person_name"],
+                    "person_b":      b["person_name"],
+                    "city":          a["city_label"],
+                    "overlap_years": len(overlap),
+                    "years":         ", ".join(str(y) for y in sorted(overlap)[:5])
+                                     + ("…" if len(overlap) > 5 else ""),
+                })
+
+    if not pairs:
+        return pd.DataFrame()
+
+    return pd.DataFrame(pairs).sort_values("overlap_years", ascending=False)
+
+
+def get_shared_locations(selected_df):
+    """
+    Return (latitude, longitude) pairs where ≥2 DIFFERENT selected people
+    were present in the SAME YEAR — i.e. genuinely co-present, not just
+    visited the same city at different times.
+
+    Uses rounded coordinates (5 decimal places) to avoid float precision
+    mismatches when comparing path points to this set.
+    """
+    if selected_df.empty or selected_df["person_id"].nunique() < 2:
+        return set()
+
+    # Round coordinates to avoid float precision drift
+    df = selected_df.copy()
+    df["lat_r"] = df["latitude"].round(5)
+    df["lon_r"] = df["longitude"].round(5)
+
+    # For each (location, year) count distinct people present
+    counts = (
+        df.groupby(["lat_r", "lon_r", "year"])["person_id"]
+        .nunique()
+        .reset_index(name="n")
+    )
+    shared = counts[counts["n"] >= 2][["lat_r", "lon_r"]].drop_duplicates()
+    return set(zip(shared["lat_r"], shared["lon_r"]))
+
+
+# ─── Career flow (Sankey) ─────────────────────────────────────────────────────
+
+def build_career_sankey(df, year_range, faculty_filter=None, top_n=20):
+    """
+    Sankey diagram: flows between cities for career events.
+    Only shows the top_n most-connected cities to keep the chart readable.
+    """
+    if df.empty:
+        return empty_fig("No career data available.")
+
+    s, e = sorted(year_range)
+    career = df[
+        (df["event_type_name"] == "career") &
+        (df["year"] >= s) & (df["year"] <= e)
+    ].copy()
+
+    if faculty_filter:
+        career = career[career["faculty"].isin(faculty_filter)]
+
+    if career.empty:
+        return empty_fig("No career events in this range.")
+
+    career = career.sort_values(["person_id", "event_date"])
+
+    flows = []
+    for _, pdf in career.groupby("person_id"):
+        cities = pdf["city_label"].tolist()
+        for i in range(len(cities) - 1):
+            src, tgt = cities[i], cities[i+1]
+            if src and tgt and src != tgt:
+                flows.append({"from": src, "to": tgt})
+
+    if not flows:
+        return empty_fig("No city transitions found in career events.")
+
+    flows_df  = pd.DataFrame(flows)
+    flows_agg = flows_df.groupby(["from", "to"]).size().reset_index(name="count")
+
+    # Keep only cities that appear in the top_n by total flow volume
+    city_volume = (
+        pd.concat([flows_agg[["from","count"]].rename(columns={"from":"city"}),
+                   flows_agg[["to","count"]].rename(columns={"to":"city"})])
+        .groupby("city")["count"].sum()
+        .nlargest(top_n)
+    )
+    top_cities = set(city_volume.index)
+    flows_agg  = flows_agg[
+        flows_agg["from"].isin(top_cities) & flows_agg["to"].isin(top_cities)
+    ]
+
+    if flows_agg.empty:
+        return empty_fig(f"No flows between the top {top_n} cities in this range.")
+
+    # Sort nodes: sources on left (appear as "from"), sinks on right
+    source_cities = set(flows_agg["from"])
+    sink_cities   = set(flows_agg["to"]) - source_cities
+    both_cities   = source_cities & set(flows_agg["to"])
+    node_order    = (
+        sorted(source_cities - both_cities) +
+        sorted(both_cities) +
+        sorted(sink_cities)
+    )
+    node_idx = {n: i for i, n in enumerate(node_order)}
+
+    # Colour nodes: Leiden always highlighted if present
+    node_colors = [
+        "#c0392b" if "leiden" in n.lower() else "#457b9d"
+        for n in node_order
+    ]
+
+    fig = go.Figure(go.Sankey(
+        arrangement="snap",
+        node=dict(
+            label=node_order,
+            pad=12,
+            thickness=18,
+            color=node_colors,
+            hovertemplate="%{label}<br>Total flow: %{value}<extra></extra>",
+        ),
+        link=dict(
+            source=[node_idx[r["from"]] for _, r in flows_agg.iterrows()],
+            target=[node_idx[r["to"]]  for _, r in flows_agg.iterrows()],
+            value=flows_agg["count"].tolist(),
+            color="rgba(69,123,157,0.25)",
+            hovertemplate="%{source.label} → %{target.label}<br>%{value} moves<extra></extra>",
+        ),
+    ))
+    fig.update_layout(
+        title=dict(
+            text=f"Career city flows — top {top_n} cities by volume",
+            font=dict(size=14),
+        ),
+        template="plotly_white",
+        margin={"l": 20, "r": 20, "t": 50, "b": 20},
+        height=600,
+        font=dict(size=11),
+    )
     return fig
 
 
-@app.callback(
-    Output("year-slider", "value"),
-    Input("event-count-bar", "clickData"),
-    State("year-slider", "value"),
-    prevent_initial_call=True,
-)
-def sync_year_from_bar(click_data, current_range):
-    if not click_data or not click_data.get("points"):
-        return current_range
+# ─── Network graph ────────────────────────────────────────────────────────────
 
-    point = click_data["points"][0]
-    x = point.get("x")
+def build_network(selected_people, relations_df, events_df):
+    """
+    Force-directed network of family/relational ties.
+    Nodes = people, edges = relation type (spouse/parent/child/sibling).
+    """
+    if not HAS_NX:
+        return empty_fig("networkx not installed. pip install networkx")
 
-    try:
-        clicked_year = int(x)
-    except (TypeError, ValueError):
-        return current_range
+    if relations_df.empty:
+        return empty_fig("No relational data available.")
 
-    start_year, end_year = sorted(current_range)
-
-    if clicked_year < start_year:
-        start_year = clicked_year
-    elif clicked_year > end_year:
-        end_year = clicked_year
-    else:
-        start_year = clicked_year
-        end_year = clicked_year
-
-    return [start_year, end_year]
-
-
-@app.callback(
-    Output("selected-people", "data"),
-    Output("person-dropdown", "value"),
-    Input("lifepath-map", "clickData"),
-    Input("person-dropdown", "value"),
-    State("selected-people", "data"),
-    prevent_initial_call=True,
-)
-def sync_selection(click_data, dropdown_value, selected_people):
-    ctx = dash.callback_context
-    selected_people = selected_people or []
-    dropdown_value = dropdown_value or []
-
-    if not ctx.triggered:
-        return selected_people, dropdown_value
-
-    trigger = ctx.triggered[0]["prop_id"].split(".")[0]
-
-    if trigger == "person-dropdown":
-        cleaned = sorted({int(x) for x in dropdown_value})
-        return cleaned, cleaned
-
-    if trigger == "lifepath-map" and click_data and click_data.get("points"):
-        customdata = click_data["points"][0].get("customdata")
-        if customdata:
-            if len(customdata) == 5:
-                return selected_people, dropdown_value
-
-            try:
-                person_id = int(customdata[0])
-                if person_id in selected_people:
-                    cleaned = [pid for pid in selected_people if pid != person_id]
-                else:
-                    cleaned = sorted(selected_people + [person_id])
-                return cleaned, cleaned
-            except (TypeError, ValueError):
-                pass
-
-    cleaned = sorted({int(x) for x in dropdown_value})
-    return cleaned, cleaned
-
-
-@app.callback(
-    Output("clicked-location", "data"),
-    Output("arrival-location-dropdown", "value"),
-    Input("lifepath-map", "clickData"),
-    Input("arrival-location-dropdown", "value"),
-    State("year-slider", "value"),
-    State("clicked-location", "data"),
-    State("arrival-location-dropdown", "value"),
-    prevent_initial_call=True,
-)
-def store_selected_location(click_data, dropdown_value, selected_range, current_clicked_location, current_dropdown):
-    ctx = dash.callback_context
-    if not ctx.triggered:
-        return current_clicked_location, current_dropdown
-
-    trigger = ctx.triggered[0]["prop_id"].split(".")[0]
-    start_year, end_year = sorted(selected_range)
-
-    if trigger == "lifepath-map":
-        if not click_data or not click_data.get("points"):
-            return current_clicked_location, current_dropdown
-
-        customdata = click_data["points"][0].get("customdata")
-        if not customdata or len(customdata) != 5:
-            return current_clicked_location, current_dropdown
-
-        lat, lon, location_label, marker_start_year, marker_end_year = customdata
-        value = encode_location_value(float(lat), float(lon), location_label)
-        return (
-            {
-                "lat": float(lat),
-                "lon": float(lon),
-                "location_label": location_label,
-                "start_year": int(marker_start_year),
-                "end_year": int(marker_end_year),
-            },
-            value,
-        )
-
-    if trigger == "arrival-location-dropdown":
-        decoded = decode_location_value(dropdown_value)
-        if not decoded:
-            return None, None
-
-        return (
-            {
-                "lat": decoded["lat"],
-                "lon": decoded["lon"],
-                "location_label": decoded["location_label"],
-                "start_year": int(start_year),
-                "end_year": int(end_year),
-            },
-            dropdown_value,
-        )
-
-    return current_clicked_location, current_dropdown
-
-
-@app.callback(
-    Output("hover-location-summary", "children"),
-    Input("lifepath-map", "hoverData"),
-    State("year-slider", "value"),
-    State("selected-people", "data"),
-)
-def update_hover_summary(hover_data, selected_range, selected_people):
-    default_msg = html.Div(
-        "Hover over a black location marker to see who appears there in the selected interval.",
-        style={"color": "#666"},
-    )
-
-    if not hover_data or not hover_data.get("points"):
-        return default_msg
-
-    point = hover_data["points"][0]
-    customdata = point.get("customdata")
-
-    if not customdata or len(customdata) != 5:
-        return default_msg
-
-    lat, lon, location_label, start_year, end_year = customdata
-
-    base_df = DF
+    rel = relations_df.copy()
     if selected_people:
-        filtered = DF[DF["person_id"].isin(selected_people)]
-        if not filtered.empty:
-            base_df = filtered
+        # Show ego network: selected people + their direct connections
+        connected = set(selected_people)
+        for pid in selected_people:
+            nb1 = set(rel[rel["person_id_1"] == pid]["person_id_2"].tolist())
+            nb2 = set(rel[rel["person_id_2"] == pid]["person_id_1"].tolist())
+            connected |= nb1 | nb2
+        rel = rel[
+            rel["person_id_1"].isin(connected) |
+            rel["person_id_2"].isin(connected)
+        ]
 
-    summary = summarize_location_year(
-        base_df,
-        [int(start_year), int(end_year)],
-        float(lat),
-        float(lon),
-    )
-    if not summary:
-        return html.Div("No details available.", style={"color": "#666"})
+    if rel.empty:
+        return empty_fig("No connections found for selected people.")
 
-    lines = [
-        html.Li(f"{row['person_name']} — {row['visits']} visits")
-        for _, row in summary["visit_counts"].iterrows()
+    # Cap at 200 nodes for performance
+    all_ids = set(rel["person_id_1"]) | set(rel["person_id_2"])
+    if len(all_ids) > 200:
+        rel = rel.head(400)
+        all_ids = set(rel["person_id_1"]) | set(rel["person_id_2"])
+
+    G = nx.Graph()
+    id_to_name = {}
+
+    for _, row in rel.iterrows():
+        G.add_edge(row["person_id_1"], row["person_id_2"],
+                   relation=row.get("relation_type", "related"))
+        id_to_name[row["person_id_1"]] = row["name_1"]
+        id_to_name[row["person_id_2"]] = row["name_2"]
+
+    pos = nx.spring_layout(G, seed=42, k=1.5/max(1, len(G.nodes)**0.5))
+
+    # Faculty color for nodes
+    fac_map = {}
+    if not events_df.empty:
+        for _, row in events_df[["person_id","faculty"]].drop_duplicates().iterrows():
+            fac_map[row["person_id"]] = FACULTY_COLOR_MAP.get(row["faculty"], "#aaa")
+
+    edge_traces = []
+    rel_types = rel["relation_type"].dropna().unique().tolist() if "relation_type" in rel else ["related"]
+
+    rel_colors = {"spouse": "#e63946", "parent": "#457b9d", "child": "#2a9d8f",
+                  "sibling": "#e9c46a", "related": "#aaa"}
+
+    for rtype in rel_types:
+        sub_rel = rel[rel.get("relation_type", pd.Series(["related"]*len(rel))) == rtype] \
+                  if "relation_type" in rel.columns else rel
+        ex, ey = [], []
+        for _, row in sub_rel.iterrows():
+            p1, p2 = row["person_id_1"], row["person_id_2"]
+            if p1 in pos and p2 in pos:
+                x1, y1 = pos[p1]
+                x2, y2 = pos[p2]
+                ex += [x1, x2, None]
+                ey += [y1, y2, None]
+        if ex:
+            edge_traces.append(go.Scatter(
+                x=ex, y=ey, mode="lines",
+                line={"width": 1.5, "color": rel_colors.get(rtype, "#aaa")},
+                hoverinfo="none", name=rtype.title(), showlegend=True,
+            ))
+
+    node_x = [pos[n][0] for n in G.nodes()]
+    node_y = [pos[n][1] for n in G.nodes()]
+    node_colors = [
+        "#c0392b" if n in (selected_people or []) else fac_map.get(n, "#7f8c8d")
+        for n in G.nodes()
     ]
-
-    return html.Div(
-        [
-            html.Div(summary["location_label"], style={"fontWeight": "bold"}),
-            html.Div(f"Interval: {summary['start_year']}–{summary['end_year']}"),
-            html.Div(f"People there in interval: {len(summary['people_now'])}"),
-            html.Div(f"Events there in interval: {len(summary['current_events'])}"),
-            html.Div("People overview", style={"marginTop": "0.5rem", "fontWeight": "bold"}),
-            html.Ul(lines, style={"marginTop": "0.35rem"}),
-            html.Div(
-                "Click this location marker to browse each person's events there in the interval.",
-                style={"marginTop": "0.5rem", "color": "#666", "fontSize": "0.92rem"},
-            ),
-        ]
-    )
-
-
-@app.callback(
-    Output("location-detail-header", "children"),
-    Output("location-person-dropdown", "options"),
-    Output("location-person-dropdown", "value"),
-    Input("clicked-location", "data"),
-    State("selected-people", "data"),
-)
-def update_location_detail_header(clicked_location, selected_people):
-    if not clicked_location:
-        return (
-            html.Div("Click a black location marker to inspect a place.", style={"color": "#666"}),
-            [],
-            None,
-        )
-
-    base_df = DF
-    if selected_people:
-        filtered = DF[DF["person_id"].isin(selected_people)]
-        if not filtered.empty:
-            base_df = filtered
-
-    summary = summarize_location_year(
-        base_df,
-        [clicked_location["start_year"], clicked_location["end_year"]],
-        clicked_location["lat"],
-        clicked_location["lon"],
-    )
-
-    if not summary:
-        return html.Div("No details available.", style={"color": "#666"}), [], None
-
-    options = [
-        {"label": row["person_name"], "value": int(row["person_id"])}
-        for _, row in summary["people_now"].iterrows()
+    node_sizes = [
+        16 if n in (selected_people or []) else
+        8 + 2 * G.degree(n)
+        for n in G.nodes()
     ]
-    default_value = options[0]["value"] if options else None
+    node_text = [id_to_name.get(n, str(n)) for n in G.nodes()]
 
-    header = html.Div(
-        [
-            html.Div(summary["location_label"], style={"fontWeight": "bold"}),
-            html.Div(f"Interval: {summary['start_year']}–{summary['end_year']}"),
-            html.Div(f"People there in interval: {len(summary['people_now'])}"),
-            html.Div(f"Events there in interval: {len(summary['current_events'])}"),
-        ]
+    node_trace = go.Scatter(
+        x=node_x, y=node_y,
+        mode="markers+text",
+        marker={"size": node_sizes, "color": node_colors,
+                "line": {"width": 1, "color": "#fff"}},
+        text=node_text,
+        textposition="top center",
+        textfont={"size": 9},
+        hovertemplate="<b>%{text}</b><extra></extra>",
+        showlegend=False,
     )
 
-    return header, options, default_value
-
-
-@app.callback(
-    Output("location-person-events", "children"),
-    Input("clicked-location", "data"),
-    Input("location-person-dropdown", "value"),
-)
-def update_location_person_events(clicked_location, person_id):
-    if not clicked_location or person_id is None:
-        return html.Div("Select a clicked location and a person.", style={"color": "#666"})
-
-    lat = clicked_location["lat"]
-    lon = clicked_location["lon"]
-    start_year = clicked_location["start_year"]
-    end_year = clicked_location["end_year"]
-
-    person_events = DF[
-        (DF["person_id"] == person_id)
-        & (DF["year"] >= start_year)
-        & (DF["year"] <= end_year)
-        & (DF["latitude"] == lat)
-        & (DF["longitude"] == lon)
-    ].sort_values(["event_date", "event_order"])
-
-    if person_events.empty:
-        return html.Div("No events found for this person at this location.", style={"color": "#666"})
-
-    person_name = person_events["person_name"].iloc[0]
-    visit_count = len(person_events)
-
-    rows = []
-    for _, row in person_events.iterrows():
-        when = row["event_date"].strftime("%Y-%m-%d") if pd.notna(row["event_date"]) else "Unknown date"
-        desc = row["description"] if pd.notna(row["description"]) and row["description"] else row["event_type_name"].title()
-        rows.append(
-            html.Div(
-                [
-                    html.Div(when, style={"fontWeight": "bold", "minWidth": "92px"}),
-                    html.Div(
-                        [
-                            html.Div(row["event_type_name"].title(), style={"fontWeight": "bold"}),
-                            html.Div(desc),
-                        ],
-                        style={"flex": "1"},
-                    ),
-                ],
-                style={
-                    "display": "flex",
-                    "gap": "0.65rem",
-                    "padding": "0.45rem 0",
-                    "borderBottom": "1px solid #eee",
-                },
-            )
-        )
-
-    return html.Div(
-        [
-            html.Div(f"{person_name} — events here in interval", style={"fontWeight": "bold"}),
-            html.Div(f"Visits in {start_year}–{end_year}: {visit_count}", style={"marginBottom": "0.5rem", "color": "#666"}),
-            html.Div(rows),
-        ]
+    fig = go.Figure(data=edge_traces + [node_trace])
+    fig.update_layout(
+        template="plotly_white",
+        title="Relational network",
+        showlegend=True,
+        hovermode="closest",
+        xaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
+        yaxis={"showgrid": False, "zeroline": False, "showticklabels": False},
+        margin={"l": 10, "r": 10, "t": 40, "b": 10},
+        height=600,
+        legend={"orientation": "h", "y": -0.05},
     )
+    return fig
 
 
-@app.callback(
-    Output("arrival-year-slider", "value"),
-    Input("clicked-location", "data"),
-    State("arrival-year-slider", "value"),
-)
-def sync_arrival_slider(clicked_location, current_value):
-    if not clicked_location:
-        return current_value or DEFAULT_RANGE
-    return [clicked_location["start_year"], clicked_location["end_year"]]
+# ─── Space-time cube ──────────────────────────────────────────────────────────
 
-
-@app.callback(
-    Output("arrival-place-header", "children"),
-    Output("arrival-summary", "children"),
-    Output("arrival-country-pie", "figure"),
-    Output("arrival-table", "data"),
-    Input("clicked-location", "data"),
-    Input("arrival-year-slider", "value"),
-    State("selected-people", "data"),
-)
-def update_arrivals_view(clicked_location, arrival_range, selected_people):
-    if not clicked_location:
-        return (
-            html.Div("No place selected.", style={"color": "#666"}),
-            html.Div("Click a black location marker or use the place dropdown.", style={"color": "#666"}),
-            empty_pie_figure("Select a place first."),
-            [],
-        )
-
-    lat = clicked_location["lat"]
-    lon = clicked_location["lon"]
-    location_label = clicked_location["location_label"]
-    start_year, end_year = sorted(arrival_range)
-
-    base_df = DF
-    if selected_people:
-        filtered = DF[DF["person_id"].isin(selected_people)]
-        if not filtered.empty:
-            base_df = filtered
-
-    arrivals_df = build_arrivals_for_location(base_df, lat, lon, [start_year, end_year])
-
-    header = html.Div(
-        [
-            html.Div(location_label, style={"fontWeight": "bold"}),
-            html.Div(f"Coordinates: {lat:.4f}, {lon:.4f}", style={"color": "#666", "fontSize": "0.92rem"}),
-        ]
-    )
-
-    if arrivals_df.empty:
-        summary = html.Div(
-            [
-                html.Div(f"Interval: {start_year}–{end_year}"),
-                html.Div("No arrivals from another recorded location in this interval."),
-            ]
-        )
-        return header, summary, empty_pie_figure("No origin-country data for this interval."), []
-
-    unique_people = arrivals_df["person_id"].nunique()
-
-    summary = html.Div(
-        [
-            html.Div(f"Interval: {start_year}–{end_year}"),
-            html.Div(f"Arrivals recorded: {len(arrivals_df)}"),
-            html.Div(f"People arriving: {unique_people}"),
-            html.Div(
-                "Each row shows a move into this place and the previous recorded place for that person.",
-                style={"color": "#666", "fontSize": "0.92rem", "marginTop": "0.3rem"},
-            ),
-        ]
-    )
-
-    pie_fig = build_origin_country_pie(arrivals_df)
-
-    return header, summary, pie_fig, arrivals_df[
-        [
-            "person_name",
-            "arrival_date",
-            "to_location",
-            "from_location",
-            "from_country",
-            "from_date",
-            "from_event_type",
-            "to_event_type",
-        ]
-    ].to_dict("records")
-
-
-@app.callback(
-    Output("event-count-bar", "figure"),
-    Output("lifepath-map", "figure"),
-    Output("space-time-cube", "figure"),
-    Output("selection-summary", "children"),
-    Output("person-table", "data"),
-    Output("selected-person-timeline", "children"),
-    Input("year-slider", "value"),
-    Input("selected-people", "data"),
-    Input("display-mode", "value"),
-    Input("direction-mode", "value"),
-    Input("background-opacity", "value"),
-)
-def update_map_and_cube(selected_range, selected_people, display_mode, direction_mode, background_opacity):
-    if DF.empty:
-        empty_bar = build_event_count_figure(
-            pd.DataFrame(columns=["year", "person_id"]),
-            selected_range,
-            selected_people,
-        )
-        return (
-            empty_bar,
-            empty_figure("No geocoded events found in the database."),
-            empty_cube_figure("No data available."),
-            "No data available.",
-            [],
-            html.Div("No data available.", style={"color": "#666"}),
-        )
+def build_cube(df, selected_people, show_copresence=False):
+    if df.empty:
+        return empty_fig("No data for space-time cube.", h=500)
 
     selected_people = selected_people or []
-    start_year, end_year = sorted(selected_range)
-
-    path_df = DF[DF["year"] <= end_year].copy()
-    interval_df = DF[(DF["year"] >= start_year) & (DF["year"] <= end_year)].copy()
-    cube_df = interval_df.copy()
-
-    bar_fig = build_event_count_figure(DF, [start_year, end_year], selected_people)
-
-    if path_df.empty:
-        return (
-            bar_fig,
-            empty_figure("No events available up to this year."),
-            empty_cube_figure("No events available in this timeframe."),
-            f"No events available up to {end_year}.",
-            [],
-            html.Div("No events available.", style={"color": "#666"}),
-        )
+    cube_df = df if not selected_people else df[df["person_id"].isin(selected_people)]
+    if cube_df.empty:
+        return empty_fig("No events for selected people.", h=500)
 
     fig = go.Figure()
 
-    if display_mode == "all":
-        for _, person_df in path_df.groupby("person_id"):
-            add_path_trace(fig, person_df, selected=False, opacity=background_opacity)
-            if direction_mode == "all":
-                add_direction_markers(fig, person_df, selected=False)
+    # Floor map
+    if HAS_PIL and os.path.exists(FLOOR_MAP_PATH):
+        img = Image.open(FLOOR_MAP_PATH).convert("L")
+        arr = np.array(img)
+        lons = np.linspace(float(cube_df["longitude"].min()) - 1,
+                           float(cube_df["longitude"].max()) + 1, arr.shape[1])
+        lats = np.linspace(float(cube_df["latitude"].min()) - 1,
+                           float(cube_df["latitude"].max()) + 1, arr.shape[0])
+        X, Y = np.meshgrid(lons, lats)
+        Z    = np.full_like(X, float(cube_df["year"].min()))
+        fig.add_trace(go.Surface(x=X, y=Y, z=Z, surfacecolor=arr,
+                                 colorscale="Greys", cmin=0, cmax=255,
+                                 showscale=False, opacity=0.5, hoverinfo="skip"))
 
-    elif selected_people:
-        selected_visible_paths = path_df[path_df["person_id"].isin(selected_people)]
-        for _, person_df in selected_visible_paths.groupby("person_id"):
-            add_path_trace(fig, person_df, selected=False, opacity=0.16)
-            if direction_mode == "all":
-                add_direction_markers(fig, person_df, selected=False)
-
-    if selected_people:
-        highlighted_paths = path_df[path_df["person_id"].isin(selected_people)]
-
-        for _, person_df in highlighted_paths.groupby("person_id"):
-            add_path_trace(fig, person_df, selected=True, opacity=1)
-            if direction_mode in {"selected", "all"}:
-                add_direction_markers(fig, person_df, selected=True)
-
-        highlighted_interval = interval_df[interval_df["person_id"].isin(selected_people)]
-        add_event_markers(fig, highlighted_interval, set(selected_people))
-        add_year_location_markers(
-            fig,
-            aggregate_year_locations(highlighted_interval, [start_year, end_year]),
+    sel_color_map_cube = person_color_map(selected_people)
+    # Use the FULL df (all time) so we only mark locations as shared when
+    # the people were literally there in the same year — not just same interval.
+    if selected_people and len(selected_people) >= 2:
+        shared_locs_cube = get_shared_locations(
+            df[df["person_id"].isin(selected_people)]
         )
     else:
-        add_event_markers(fig, interval_df, set())
-        add_year_location_markers(
-            fig,
-            aggregate_year_locations(interval_df, [start_year, end_year]),
+        shared_locs_cube = set()
+
+    for pid, pdf in cube_df.groupby("person_id"):
+        pdf    = pdf.sort_values(["event_date", "event_order"]).reset_index(drop=True)
+        is_sel = int(pid) in selected_people
+        pname  = pdf["person_name"].iloc[0] if not pdf.empty else str(pid)
+
+        if len(pdf) < 2:
+            continue
+
+        if is_sel:
+            draw_person_path_3d(fig, pdf, pid, pname,
+                                sel_color_map_cube[int(pid)], shared_locs_cube)
+        else:
+            fig.add_trace(go.Scatter3d(
+                x=pdf["longitude"], y=pdf["latitude"], z=pdf["year"],
+                mode="lines",
+                line={"width": 2, "color": "#95a5a6"},
+                opacity=0.25,
+                hoverinfo="skip", showlegend=False,
+            ))
+
+    for etype, grp in cube_df.groupby("event_type_name"):
+        fig.add_trace(go.Scatter3d(
+            x=grp["longitude"], y=grp["latitude"], z=grp["year"],
+            mode="markers",
+            marker={"size": 5, "color": EVENT_COLORS.get(etype,"#636efa"), "opacity": 0.9},
+            name=etype.title(),
+            hovertext=grp["hover_text"],
+            hovertemplate="%{hovertext}<br>Year %{z}<extra></extra>",
+        ))
+
+    # Gold markers at shared nodes in the cube
+    if shared_locs_cube and selected_people:
+        all_sel = df[df["person_id"].isin(selected_people)].copy()
+        all_sel["lat_r"] = all_sel["latitude"].round(5)
+        all_sel["lon_r"] = all_sel["longitude"].round(5)
+        shared_df_c = pd.DataFrame(list(shared_locs_cube), columns=["lat_r", "lon_r"])
+        gold_pts    = all_sel.merge(shared_df_c, on=["lat_r", "lon_r"])                              .drop_duplicates(subset=["lat_r", "lon_r", "year"])
+        if not gold_pts.empty:
+            fig.add_trace(go.Scatter3d(
+                x=gold_pts["longitude"], y=gold_pts["latitude"], z=gold_pts["year"],
+                mode="markers",
+                marker={"size": 8, "color": GOLD, "opacity": 1.0,
+                        "symbol": "diamond"},
+                name="Co-present location",
+                hovertext=gold_pts["location_label"],
+                hovertemplate="<b>%{hovertext}</b><br>Year %{z}<extra></extra>",
+                showlegend=True,
+            ))
+
+    # ── Co-presence overlay ───────────────────────────────────────────────────
+    if show_copresence and not cube_df.empty:
+        # Find (location, year) pairs where ≥2 different people were present
+        cp = (
+            cube_df.groupby(["longitude", "latitude", "year"])["person_id"]
+            .nunique()
+            .reset_index(name="n_people")
         )
+        cp = cp[cp["n_people"] >= 2].copy()
+        if not cp.empty:
+            # Hover: list who was there
+            def _cp_hover(row):
+                ppl = cube_df[
+                    (cube_df["longitude"] == row["longitude"]) &
+                    (cube_df["latitude"]  == row["latitude"])  &
+                    (cube_df["year"]      == row["year"])
+                ]["person_name"].unique().tolist()
+                loc = cube_df[
+                    (cube_df["longitude"] == row["longitude"]) &
+                    (cube_df["latitude"]  == row["latitude"])
+                ]["city_label"].iloc[0] if not cube_df[
+                    (cube_df["longitude"] == row["longitude"]) &
+                    (cube_df["latitude"]  == row["latitude"])
+                ].empty else "?"
+                return f"<b>{loc} — {int(row['year'])}</b><br>" +                        "<br>".join(f"• {p}" for p in ppl[:10])
+            cp["hover"] = cp.apply(_cp_hover, axis=1)
+
+            fig.add_trace(go.Scatter3d(
+                x=cp["longitude"], y=cp["latitude"], z=cp["year"],
+                mode="markers",
+                marker=dict(
+                    size=cp["n_people"] * 3 + 4,
+                    color="#f1c40f",
+                    opacity=0.85,
+                    line=dict(width=1, color="#e67e22"),
+                    symbol="diamond",
+                ),
+                name="Co-presence",
+                hovertext=cp["hover"],
+                hovertemplate="%{hovertext}<extra></extra>",
+                showlegend=True,
+            ))
+
+    lon_r = [float(cube_df["longitude"].min())-1, float(cube_df["longitude"].max())+1]
+    lat_r = [float(cube_df["latitude"].min())-1,  float(cube_df["latitude"].max())+1]
+    yr_r  = [int(cube_df["year"].min()),          int(cube_df["year"].max())]
 
     fig.update_layout(
         template="plotly_white",
-        margin={"l": 10, "r": 10, "t": 10, "b": 10},
-        legend={"orientation": "h", "y": 0.01, "x": 0.01},
-        map={
-            "style": "carto-positron",
-            "center": center_for(path_df),
-            "zoom": 2.2,
-        },
+        margin={"l": 0, "r": 0, "t": 10, "b": 0},
+        height=550,
+        scene=dict(
+            xaxis=dict(title="Longitude", range=lon_r),
+            yaxis=dict(title="Latitude",  range=lat_r),
+            zaxis=dict(title="Year",      range=yr_r),
+            aspectmode="manual",
+            aspectratio=dict(x=1.2, y=1.0, z=1.3),
+            camera=dict(eye=dict(x=1.4, y=1.4, z=1.1)),
+        ),
+        legend=dict(orientation="h", y=0.01),
+    )
+    return fig
+
+
+# ─── Event count bar ─────────────────────────────────────────────────────────
+
+def build_event_bar(df, year_range, selected_people=None):
+    selected_people = selected_people or []
+    s, e = sorted(year_range)
+    base = df[df["person_id"].isin(selected_people)] if selected_people else df
+    counts = base.groupby("year").size().reindex(YEARS, fill_value=0).reset_index()
+    counts.columns = ["year", "count"]
+    colors = ["#c0392b" if s <= y <= e else "#b2bec3" for y in counts["year"]]
+    fig = go.Figure(go.Bar(
+        x=counts["year"], y=counts["count"],
+        marker={"color": colors},
+        hovertemplate="Year %{x}<br>Events %{y}<extra></extra>",
+    ))
+    fig.update_layout(
+        template="plotly_white",
+        margin={"l": 35, "r": 10, "t": 5, "b": 30},
+        height=160,
+        xaxis_title=None, yaxis_title="Events",
+        bargap=0.05, dragmode=False,
+    )
+    fig.update_xaxes(showgrid=False)
+    fig.update_yaxes(rangemode="tozero")
+    return fig
+
+
+# ─── Layout ───────────────────────────────────────────────────────────────
+
+# ── Pop-out button helper ─────────────────────────────────────────────────────
+def popout_btn(panel_id: str, label: str) -> html.A:
+    """A small link that opens a panel in a new browser window."""
+    return html.A(
+        f"⧉ Pop out {label}",
+        href=f"/panel/{panel_id}",
+        target="_blank",
+        className="btn btn-outline-secondary btn-sm ms-2",
+        style={"fontSize": "11px", "verticalAlign": "middle"},
     )
 
-    cube_fig = build_space_time_cube_figure(cube_df, selected_people)
-
-    if selected_people:
-        selection_df = path_df[path_df["person_id"].isin(selected_people)]
-        selection_interval_df = interval_df[interval_df["person_id"].isin(selected_people)]
-
-        summary = html.Div(
-            [
-                html.Div(f"Interval: {start_year}–{end_year}"),
-                html.Div(f"Selected people: {len(selected_people)}"),
-                html.Div(f"Visible path events up to {end_year}: {len(selection_df)}"),
-                html.Div(f"Events in selected interval: {len(selection_interval_df)}"),
-            ]
+# ── Full-window panel layout builder ─────────────────────────────────────────
+def panel_layout(graph_id: str, extra_controls=None):
+    """Minimal layout for a detached panel — fills the entire browser window."""
+    children = []
+    if extra_controls:
+        children.append(
+            html.Div(extra_controls,
+                     style={"padding": "6px 12px", "background": "#f8f9fa",
+                            "borderBottom": "1px solid #dee2e6"})
         )
-
-        table_df = (
-            selection_df.sort_values(["person_name", "event_date"])
-            .groupby(["person_id", "person_name"], as_index=False)
-            .agg(
-                visible_events=("event_type_name", "count"),
-                first_year=("year", "min"),
-                latest_event=("location_label", "last"),
-            )
-            .sort_values("person_name")
+    children.append(
+        dcc.Graph(
+            id=graph_id,
+            style={"height": "calc(100vh - 44px)" if extra_controls
+                   else "100vh",
+                   "width": "100vw"},
+            config={"displayModeBar": True, "responsive": True},
         )
-    else:
-        summary = html.Div(
-            [
-                html.Div(f"Interval: {start_year}–{end_year}"),
-                html.Div(f"Visible people up to {end_year}: {path_df['person_id'].nunique()}"),
-                html.Div(f"Visible geocoded path events up to {end_year}: {len(path_df)}"),
-                html.Div(f"Events in selected interval: {len(interval_df)}"),
-            ]
-        )
-
-        table_df = (
-            path_df.sort_values(["person_name", "event_date"])
-            .groupby(["person_id", "person_name"], as_index=False)
-            .agg(
-                visible_events=("event_type_name", "count"),
-                first_year=("year", "min"),
-                latest_event=("location_label", "last"),
-            )
-            .sort_values(["visible_events", "person_name"], ascending=[False, True])
-            .head(20)
-        )
-
-    timeline_children = build_selected_timeline(path_df, selected_people)
-
-    return (
-        bar_fig,
-        fig,
-        cube_fig,
-        summary,
-        table_df.to_dict("records"),
-        timeline_children,
     )
+    return html.Div(
+        children,
+        style={"margin": 0, "padding": 0, "overflow": "hidden",
+               "fontFamily": "Georgia, serif"},
+    )
+
+
+CONTROLS = dbc.Card([
+    dbc.CardBody([
+        dbc.Row([
+            dbc.Col([
+                html.Label("Events over time", className="fw-bold small"),
+                dcc.Graph(id="event-bar", config={"displayModeBar": False},
+                          style={"height": "160px"}),
+            ], width=12),
+        ], className="mb-2"),
+        dbc.Row([
+            dbc.Col([
+                html.Label("Year range", className="fw-bold small"),
+                dcc.RangeSlider(
+                    id="year-slider", min=YEARS[0], max=YEARS[-1], step=1,
+                    value=DEFAULT_RANGE, marks=build_marks(YEARS),
+                    allowCross=False,
+                    tooltip={"placement": "bottom", "always_visible": False},
+                    updatemode="mouseup",  # only fire on release, not every pixel
+                ),
+            ], width=12),
+        ], className="mb-3"),
+        dbc.Row([
+            dbc.Col([
+                html.Label("Highlight people", className="fw-bold small"),
+                dcc.Dropdown(
+                    id="person-dropdown",
+                    options=[{"label": f"{r['person_name']} ({r.get('faculty') or '—'})",
+                              "value": int(r["person_id"])}
+                             for r in PERSON_OPTIONS],
+                    value=[], multi=True,
+                    placeholder="Click a path, or select here…",
+                ),
+            ], width=6),
+            dbc.Col([
+                html.Label("Faculty filter", className="fw-bold small"),
+                dcc.Dropdown(
+                    id="faculty-dropdown",
+                    options=[{"label": f, "value": f} for f in FACULTIES],
+                    value=[], multi=True,
+                    placeholder="All faculties",
+                ),
+            ], width=4),
+            dbc.Col([
+                html.Label("Options", className="fw-bold small"),
+                dbc.Checklist(
+                    id="options-checks",
+                    options=[
+                        {"label": "Faculty colours", "value": "faculty_colors"},
+                        {"label": "Direction cues",  "value": "directions"},
+                    ],
+                    value=[],
+                    inline=True,
+                    switch=True,
+                ),
+                dbc.RadioItems(
+                    id="display-mode",
+                    options=[{"label": "All paths",  "value": "all"},
+                             {"label": "Selected",   "value": "selected"}],
+                    value="all", inline=True, className="mt-1",
+                ),
+            ], width=2),
+        ], className="mb-1"),
+        dbc.Row([
+            dbc.Col([
+                html.Label("Background density", className="fw-bold small"),
+                dcc.Slider(id="bg-opacity", min=0.02, max=0.35, step=0.01,
+                           value=0.08,
+                           marks={0.05: "light", 0.15: "med", 0.30: "dense"},
+                           updatemode="mouseup"),
+            ], width=4),
+            dbc.Col([
+                dbc.Button("↺ Refresh data", id="refresh-btn",
+                           color="secondary", size="sm", outline=True,
+                           className="mt-3"),
+                html.Span(id="refresh-status", className="ms-2 small text-muted"),
+            ], width=3),
+        ]),
+    ])
+], className="mb-3 shadow-sm")
+
+
+TABS = dbc.Tabs([
+
+    # ── Map tab ──────────────────────────────────────────────────────────────
+    dbc.Tab(label="🗺 Life paths map", tab_id="tab-map", children=[
+        dbc.Row([
+            dbc.Col([
+                html.Div(popout_btn("map", "map"), className="text-end mb-1"),
+                dcc.Graph(id="lifepath-map", config={"displayModeBar": True,
+                                                      "responsive": True}),
+            ], width=8),
+            dbc.Col([
+                html.H5("Selection", className="mt-2"),
+                html.Div(id="selection-summary", className="mb-2 small"),
+                dash_table.DataTable(
+                    id="person-table",
+                    columns=[
+                        {"name": "Person",         "id": "person_name"},
+                        {"name": "Faculty",        "id": "faculty"},
+                        {"name": "Events",         "id": "visible_events"},
+                        {"name": "First year",     "id": "first_year"},
+                        {"name": "Last location",  "id": "latest_event"},
+                    ],
+                    data=[], page_size=10,
+                    style_cell={"fontSize": "12px", "padding": "5px",
+                                "textAlign": "left"},
+                    style_header={"fontWeight": "bold"},
+                ),
+                html.H5("Timeline", className="mt-3"),
+                html.Div(id="person-timeline",
+                         style={"maxHeight": "35vh", "overflowY": "auto"}),
+                html.H5("Hovered location", className="mt-3"),
+                html.Div(id="hover-summary",
+                         style={"maxHeight": "18vh", "overflowY": "auto"},
+                         className="small"),
+            ], width=4),
+        ]),
+    ]),
+
+    # ── Space-time cube tab ───────────────────────────────────────────────────
+    dbc.Tab(label="🧊 Space-time cube", tab_id="tab-cube", children=[
+        dbc.Row([
+            dbc.Col([
+                dbc.Checklist(
+                    id="cube-options",
+                    options=[{"label": " Highlight co-presence locations", "value": "copresence"}],
+                    value=[],
+                    inline=True,
+                    switch=True,
+                    className="mt-2 mb-1 small",
+                ),
+                html.P(
+                    "Co-presence markers appear as gold spheres at locations where "
+                    "≥2 professors were present in the same year.",
+                    className="text-muted small",
+                ),
+            ]),
+        ]),
+        html.Div(popout_btn("cube", "cube"), className="text-end mb-1"),
+        dcc.Graph(id="space-time-cube", config={"displayModeBar": True,
+                                                 "responsive": True}),
+    ]),
+
+    # ── Co-presence tab ───────────────────────────────────────────────────────
+    dbc.Tab(label="📍 Co-presence", tab_id="tab-copresence", children=[
+        html.P(
+            "Professors who were in the same city during overlapping years. "
+            "Select people on the map to see their shared locations highlighted in gold.",
+            className="text-muted small mt-2 mb-2",
+        ),
+        html.Div(id="copresence-pairs",
+                 style={"maxHeight": "70vh", "overflowY": "auto",
+                        "columnCount": 2, "columnGap": "1rem"}),
+    ]),
+
+    # ── Career flow tab ───────────────────────────────────────────────────────
+    dbc.Tab(label="➡ Career flows", tab_id="tab-sankey", children=[
+        dbc.Row([
+            dbc.Col([
+                html.P("City-to-city moves for career events in the selected interval. "
+                       "Only the most-connected cities are shown.",
+                       className="text-muted small mt-2"),
+            ], width=9),
+            dbc.Col([
+                html.Label("Max cities shown", className="fw-bold small mt-2"),
+                dcc.Slider(
+                    id="sankey-top-n",
+                    min=5, max=40, step=5, value=20,
+                    marks={5:"5", 10:"10", 20:"20", 30:"30", 40:"40"},
+                    tooltip={"placement": "bottom", "always_visible": False},
+                ),
+            ], width=3),
+        ], className="mb-2"),
+        html.Div(popout_btn("sankey", "career flows"), className="text-end mb-1"),
+        dcc.Graph(id="career-sankey", config={"displayModeBar": True,
+                                               "responsive": True}),
+    ]),
+
+    # ── Network tab ───────────────────────────────────────────────────────────
+    dbc.Tab(label="🔗 Network", tab_id="tab-network", children=[
+        html.P("Relational network of professors. Select people to see their "
+               "ego network. Colours = faculty. Red = selected.",
+               className="text-muted small mt-2"),
+        dcc.Graph(id="network-graph"),
+    ]),
+
+], id="main-tabs", active_tab="tab-map")
+
+
+app = Dash(
+    __name__,
+    external_stylesheets=[dbc.themes.FLATLY],
+    title="Life Paths — Leiden University History",
+    suppress_callback_exceptions=True,
+)
+app.title = "Life Paths"
+
+# ── Shared state stores (available on all pages) ──────────────────────────────
+_STORES = [
+    dcc.Store(id="selected-people-store", data=[]),
+    dcc.Location(id="url", refresh=False),
+    # Hidden fallback components — correct types so Dash property checks pass.
+    # Panel pages only render a subset of the layout; these ensure every
+    # callback input/state ID always exists in the DOM.
+    dcc.Checklist(id="cube-options",    value=[], options=[],
+                  style={"display": "none"}),
+    html.Div(dcc.Slider(id="sankey-top-n", value=20, min=5, max=40),
+             style={"display": "none"}),
+    html.Div(dcc.RangeSlider(id="year-slider", value=DEFAULT_RANGE,
+             min=YEARS[0], max=YEARS[-1]), style={"display": "none"}),
+    dcc.Dropdown(id="faculty-dropdown", value=[], options=[],
+                  style={"display": "none"}),
+    dcc.RadioItems(id="display-mode",   value="all", options=[],
+                  style={"display": "none"}),
+    dcc.Checklist(id="options-checks",  value=[], options=[],
+                  style={"display": "none"}),
+    html.Div(dcc.Slider(id="bg-opacity", value=0.08, min=0.02, max=0.35),
+             style={"display": "none"}),
+    dbc.Tabs(id="main-tabs",            active_tab=None, children=[],
+                  style={"display": "none"}),
+]
+
+# ── Root layout — router shell ────────────────────────────────────────────────
+app.layout = html.Div([
+    *_STORES,
+    html.Div(id="page-content"),
+])
+
+# ── Main app layout ───────────────────────────────────────────────────────────
+MAIN_LAYOUT = dbc.Container([
+    dbc.Row(dbc.Col([
+        html.H3("Life Paths — Leiden University", className="mt-3 mb-0"),
+        html.P("Historical geography of professors, 1575–present",
+               className="text-muted mb-2"),
+    ])),
+    CONTROLS,
+    TABS,
+], fluid=True, style={"fontFamily": "Georgia, serif", "maxWidth": "1800px"})
+
+
+# ─── Callbacks ────────────────────────────────────────────────────────────────
+
+# Sync person selection (map click ↔ dropdown)
+@app.callback(
+    Output("selected-people-store", "data"),
+    Output("person-dropdown", "value"),
+    Input("lifepath-map", "clickData"),
+    Input("person-dropdown", "value"),
+    State("selected-people-store", "data"),
+    prevent_initial_call=True,
+)
+def sync_selection(click_data, dropdown_val, stored):
+    stored = stored or []
+    dropdown_val = dropdown_val or []
+    trigger = ctx.triggered_id
+
+    if trigger == "person-dropdown":
+        cleaned = sorted({int(x) for x in dropdown_val})
+        return cleaned, cleaned
+
+    if trigger == "lifepath-map" and click_data:
+        cd = (click_data.get("points") or [{}])[0].get("customdata")
+        if cd and len(cd) >= 2:
+            try:
+                pid = int(cd[0])
+                if cd[2] if len(cd) > 2 else True:  # not a location marker
+                    new = [p for p in stored if p != pid] if pid in stored \
+                          else sorted(stored + [pid])
+                    return new, new
+            except Exception:
+                pass
+
+    return stored, stored
+
+
+# Refresh data
+@app.callback(
+    Output("refresh-status", "children"),
+    Input("refresh-btn", "n_clicks"),
+    prevent_initial_call=True,
+)
+def refresh(_):
+    refresh_data()
+    return "Refreshed ✓"
+
+
+# Event bar (always on)
+@app.callback(
+    Output("event-bar", "figure"),
+    Input("year-slider", "value"),
+    Input("selected-people-store", "data"),
+    Input("faculty-dropdown", "value"),
+)
+def update_bar(year_range, selected, faculties):
+    df = filter_df(DF, [MIN_YEAR, MAX_YEAR], faculties or None)
+    return build_event_bar(df, year_range, selected)
+
+
+# Map
+@app.callback(
+    Output("lifepath-map", "figure"),
+    Output("selection-summary", "children"),
+    Output("person-table", "data"),
+    Output("person-timeline", "children"),
+    Input("year-slider", "value"),
+    Input("selected-people-store", "data"),
+    Input("display-mode", "value"),
+    Input("options-checks", "value"),
+    Input("bg-opacity", "value"),
+    Input("faculty-dropdown", "value"),
+)
+def update_map(year_range, selected, display_mode, options, bg_opacity, faculties):
+    if not year_range:
+        raise dash.exceptions.PreventUpdate
+    selected = selected or []
+    df = filter_df(DF, year_range, faculties or None)
+
+    use_faculty = "faculty_colors" in (options or [])
+    directions  = "directions" in (options or [])
+
+    map_fig = build_map(df, year_range, selected, display_mode,
+                        "selected" if directions else "off",
+                        bg_opacity, use_faculty)
+
+    s, e = sorted(year_range)
+    path_df = (DF if not faculties else DF[DF["faculty"].isin(faculties)])
+    path_df = path_df[path_df["year"] <= e]
+
+    table_df = (
+        (path_df[path_df["person_id"].isin(selected)] if selected else path_df)
+        .sort_values(["person_name","event_date"])
+        .groupby(["person_id","person_name","faculty"], as_index=False)
+        .agg(visible_events=("event_type_name","count"),
+             first_year=("year","min"),
+             latest_event=("location_label","last"))
+        .sort_values("visible_events", ascending=False)
+        .head(20)
+    )
+
+    summary = html.Div([
+        html.Span(f"Interval: {s}–{e}  "),
+        html.Span(f"People: {path_df['person_id'].nunique()}  "),
+        html.Span(f"Selected: {len(selected)}"),
+    ], className="small text-muted")
+
+    timeline = _build_timeline(path_df, selected)
+    return map_fig, summary, table_df.to_dict("records"), timeline
+
+
+def _build_timeline(df, selected):
+    if not selected:
+        return html.P("Select people to see their timeline.", className="text-muted small")
+    sdf = df[df["person_id"].isin(selected)].sort_values(["person_name","event_date","event_order"])
+    blocks = []
+    for pname, pdf in sdf.groupby("person_name"):
+        rows = []
+        for _, row in pdf.iterrows():
+            when = row["event_date"].strftime("%Y") if pd.notna(row["event_date"]) else "?"
+            desc = row["description"] or row["event_type_name"].title()
+            rows.append(html.Div([
+                html.Span(when, style={"minWidth":"50px","fontWeight":"bold","display":"inline-block"}),
+                html.Span(row["event_type_name"].title() + " — ",
+                          style={"color": EVENT_COLORS.get(row["event_type_name"],"#888")}),
+                html.Span(f"{desc} · {row['location_label']}"),
+            ], style={"borderBottom":"1px solid #eee","padding":"3px 0","fontSize":"12px"}))
+        blocks.append(dbc.Card(dbc.CardBody([
+            html.Strong(pname, className="small"),
+            html.Div(rows),
+        ]), className="mb-2"))
+    return blocks
+
+
+# Hover summary
+@app.callback(
+    Output("hover-summary", "children"),
+    Input("lifepath-map", "hoverData"),
+    State("year-slider", "value"),
+)
+def hover_summary(hover_data, year_range):
+    if not hover_data:
+        return html.P("Hover a black marker.", className="text-muted")
+    cd = (hover_data.get("points") or [{}])[0].get("customdata")
+    if not cd or len(cd) != 5:
+        return html.P("Hover a black marker.", className="text-muted")
+    lat, lon, loc, sy, ey = cd
+    sub = DF[(DF["latitude"]==lat)&(DF["longitude"]==lon)&
+             (DF["year"]>=int(sy))&(DF["year"]<=int(ey))]
+    if sub.empty:
+        return html.P("No detail available.")
+    names = sub["person_name"].unique().tolist()
+    return html.Div([
+        html.Strong(loc), html.Br(),
+        html.Span(f"{int(sy)}–{int(ey)} · {len(names)} people", className="text-muted"),
+        html.Ul([html.Li(n, style={"fontSize":"11px"}) for n in names[:15]]),
+    ])
+
+
+# ── Lazy tab callbacks — use url to detect panel vs main app ─────────────────
+# All four use prevent_initial_call=True and check url.pathname so they work
+# both in the tabbed main app AND in detached panel windows.
+
+@app.callback(
+    Output("space-time-cube", "figure"),
+    Input("year-slider", "value"),
+    Input("selected-people-store", "data"),
+    Input("cube-options", "value"),
+    Input("faculty-dropdown", "value"),
+    State("url", "pathname"),
+    prevent_initial_call=False,
+)
+def update_cube(year_range, selected, cube_opts, faculties, pathname):
+    yr      = year_range or DEFAULT_RANGE
+    df      = filter_df(DF, yr, faculties or None)
+    show_cp = "copresence" in (cube_opts or [])
+    return build_cube(df, selected or [], show_copresence=show_cp)
+
+
+@app.callback(
+    Output("copresence-pairs", "children"),
+    Input("year-slider", "value"),
+    Input("selected-people-store", "data"),
+    Input("faculty-dropdown", "value"),
+    prevent_initial_call=False,
+)
+def update_copresence(year_range, selected, faculties):
+    yr = year_range or DEFAULT_RANGE
+    df = filter_df(DF, yr, faculties or None)
+    if selected:
+        df = df[df["person_id"].isin(selected)]
+    pairs_df = build_copresence(df, yr)
+    if pairs_df.empty:
+        return html.P("No co-present pairs found in this range.", className="text-muted")
+    return [
+        dbc.Card(dbc.CardBody([
+            html.Strong(f"{r['person_a']} & {r['person_b']}",
+                        style={"fontSize": "12px"}),
+            html.Div(f"{r['city']} · {r['overlap_years']} yrs · {r['years']}",
+                     className="text-muted", style={"fontSize": "11px"}),
+        ]), className="mb-1 break-inside-avoid")
+        for _, r in pairs_df.head(60).iterrows()
+    ]
+
+
+@app.callback(
+    Output("career-sankey", "figure"),
+    Input("year-slider", "value"),
+    Input("faculty-dropdown", "value"),
+    Input("sankey-top-n", "value"),
+    prevent_initial_call=False,
+)
+def update_sankey(year_range, faculties, top_n):
+    yr = year_range or DEFAULT_RANGE
+    return build_career_sankey(DF, yr, faculties or None, top_n=top_n or 20)
+
+
+@app.callback(
+    Output("network-graph", "figure"),
+    Input("selected-people-store", "data"),
+    State("main-tabs", "active_tab"),
+    prevent_initial_call=False,
+)
+def update_network(selected, active_tab):
+    return build_network(selected or [], RELATIONS, DF)
+
+
+# ─── Router ──────────────────────────────────────────────────────────────────
+
+@app.callback(
+    Output("page-content", "children"),
+    Input("url", "pathname"),
+)
+def route(pathname):
+    """Serve the main app or a full-window panel based on URL path."""
+    if not pathname or pathname == "/":
+        return MAIN_LAYOUT
+
+    if pathname == "/panel/map":
+        return panel_layout("lifepath-map")
+
+    if pathname == "/panel/cube":
+        return panel_layout(
+            "space-time-cube",
+            extra_controls=[
+                dbc.Checklist(
+                    id="cube-options",
+                    options=[{"label": " Highlight co-presence",
+                              "value": "copresence"}],
+                    value=[], inline=True, switch=True,
+                    className="small d-inline-block me-3",
+                ),
+            ],
+        )
+
+    if pathname == "/panel/sankey":
+        return panel_layout(
+            "career-sankey",
+            extra_controls=[
+                html.Label("Max cities:", className="small me-2 fw-bold"),
+                html.Div(dcc.Slider(
+                    id="sankey-top-n",
+                    min=5, max=40, step=5, value=20,
+                    marks={5:"5",10:"10",20:"20",30:"30",40:"40"},
+                    tooltip={"placement": "bottom", "always_visible": False},
+                ), style={"width": "260px", "display": "inline-block",
+                          "verticalAlign": "middle"}),
+            ],
+        )
+
+    # 404 fallback
+    return html.Div([
+        html.H4("Panel not found", className="mt-5 text-center text-muted"),
+        html.P(pathname, className="text-center text-muted small"),
+    ])
+
+
+# Panel pages need their own instances of the graph callbacks.
+# We re-use the same callback functions but they trigger on the panel graph ids.
+# Because suppress_callback_exceptions=True, undefined ids on other pages are fine.
+
+# Panel rendering is handled by the unified callbacks above.
 
 
 if __name__ == "__main__":

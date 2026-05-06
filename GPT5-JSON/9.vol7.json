@@ -1,0 +1,295 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "BLEYSWYK",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Iur.; Wisk., Natk.",
+      "location": "Leiden",
+      "date": "1741-02-27",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": "1745-05-18",
+      "source": "10"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1746-08-03",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Tweede pensionaris",
+      "location": "Delft",
+      "date": "1752-06-16",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eerste pensionaris",
+      "location": "Delft",
+      "date": "1756-1772",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1769-11-25",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Beschermheer Haags Dichtgenootschap",
+      "location": "Den Haag",
+      "date": "1772-11-14",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadpensionaris van Holland",
+      "location": "Den Haag",
+      "date": "1772-11-27",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris Ridderschap Holland",
+      "location": "Den Haag",
+      "date": "1777-02",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofdingeland Delfland",
+      "location": "Delft",
+      "date": "1777",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Erelid Bataafs Genootschap der Proefondervindelijke Wijsbegeerte",
+      "location": "Rotterdam",
+      "date": null,
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Directeur Hollandse Maatschappij der Wetenschappen",
+      "location": "Haarlem",
+      "date": "1773",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Grootzegelbewaarder, Stadhouder en Registermeester van de Lenen",
+      "location": "Den Haag",
+      "date": "1774-11-18",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Erelid Vrije Haagse Tekenacademie",
+      "location": "Den Haag",
+      "date": "1782",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Raadpensionaris, Hoofdingeland en Registermeester",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Motto Haags Dichtgenootschap: \"Kunstliefde spaart geen vlijt\"",
+      "location": "Den Haag",
+      "date": "1772",
+      "source": "18"
+    },
+    {
+      "particularity": "Diss. phil. De Aggeribus",
+      "location": null,
+      "date": "1745",
+      "source": "10"
+    },
+    {
+      "particularity": "Diss. iur. De Actione doli non concedenda si alia actio detur",
+      "location": null,
+      "date": "1746",
+      "source": "10"
+    },
+    {
+      "particularity": "Bedingt dat hij Curator blijft",
+      "location": null,
+      "date": "1772",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 12.000",
+      "location": null,
+      "date": "1772",
+      "source": "18"
+    },
+    {
+      "particularity": "Salaris: f 4.000",
+      "location": null,
+      "date": "1787",
+      "source": "18"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruida Anthonia",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1728-01-01",
+      "DeathDate": "1790-07-04",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1686",
+      "DeathDate": "1761",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GRIBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1685",
+      "DeathDate": "1751",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Cornelis Johansz.",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1649",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruid",
+      "LastName": "CLEEFF",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1648",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petrus",
+      "LastName": "GRIBIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Debora",
+      "LastName": "HEUL",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Guillelmus Abrahamsz.",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701",
+      "DeathDate": "1762",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hillegonda Magrilda",
+      "LastName": "TIL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1696",
+      "DeathDate": "1764",
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Delft",
+  "BirthDate": "1724-08-03",
+  "DeathDate": "1790-10-29",
+  "DeathCity": "Delft"
+}

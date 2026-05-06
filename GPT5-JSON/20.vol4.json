@@ -1,0 +1,89 @@
+{
+  "FirstName": "Christiaan",
+  "LastName": "MELDER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "MELLER"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": null,
+      "location": "Dordrecht",
+      "date": null,
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en onderwijs 'militaire zaken'",
+      "location": "Leiden",
+      "date": "1668-05-05",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofd vrijwillige studentencompagnie",
+      "location": null,
+      "date": "1672",
+      "source": "13",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secretaris Senaat",
+      "location": null,
+      "date": "1672-10",
+      "source": "1,30",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Op nominatie opvolging broer Gerard als lector vestingbouwkunde, afgewezen",
+      "location": "Utrecht",
+      "date": "1661",
+      "source": "30"
+    },
+    {
+      "particularity": "Salaris: f 1200",
+      "location": "Leiden",
+      "date": "1668",
+      "source": "30"
+    },
+    {
+      "particularity": "Woont Rapenburg 12",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Lidia",
+      "LastName": "LANGLY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": null,
+  "DeathDate": "1681-11-26",
+  "DeathCity": "Leiden"
+}

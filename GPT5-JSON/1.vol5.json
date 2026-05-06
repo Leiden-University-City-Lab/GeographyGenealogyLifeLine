@@ -1,0 +1,409 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "ANTHONIDES",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Jan Theunisz.",
+    "Barbarossius"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse School (Potterus, Metius)",
+      "location": "Alkmaar",
+      "date": "1589",
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse School (Stochius)",
+      "location": "Leiden",
+      "date": "1592",
+      "source": "80"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1593-02-16",
+      "source": "28"
+    },
+    {
+      "subject": "Theses verdedigd",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "29"
+    },
+    {
+      "subject": "Theses verdedigd",
+      "location": "Leiden",
+      "date": "1594",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Garentwijnder",
+      "location": null,
+      "date": "1589-1593",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Corrector bij prof. Raphelingius",
+      "location": "Leiden",
+      "date": "1595-1597",
+      "source": "80",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Frankrijk",
+      "location": "Frankrijk",
+      "date": "1597",
+      "source": "80",
+      "is_side_job": 0
+    },
+    {
+      "job": "Begin priv\u00e9-studie Arabisch",
+      "location": "Leiden",
+      "date": "1598",
+      "source": "80",
+      "is_side_job": 0
+    },
+    {
+      "job": "Poorter",
+      "location": "Leiden",
+      "date": "1599-05-28",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Drukker op Nieuwe Rijn",
+      "location": "Leiden",
+      "date": "1600",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent Arabisch (met toestemming stadsbestuur)",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Poorter en drukker",
+      "location": "Amsterdam",
+      "date": "1604-05-04",
+      "source": "80",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Arabisch",
+      "location": "Leiden",
+      "date": "1612-03-03",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eerlijk afscheid",
+      "location": "Leiden",
+      "date": "1613-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Brandewijnverkoper",
+      "location": "Oudenbrugsteeg, Amsterdam",
+      "date": "1612",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Amsterdam",
+      "date": "1617",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid boekdrukkersgilde",
+      "location": "Amsterdam",
+      "date": "1627-08-31",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Brandewijnverkoper",
+      "location": null,
+      "date": null,
+      "source": "80",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Doopsgezind",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont als student bij prof. R. Snellius",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bevriend met prof. Raphelingius, Jan Paets (opvolger van Raphelingius jr. als academiedrukker), Sladus en de secretaris van de gezant van Marokko die hem in 1609 Arabisch leert",
+      "location": null,
+      "date": "1609",
+      "source": "80"
+    },
+    {
+      "particularity": "Vergeefse poging academiedrukker te worden",
+      "location": null,
+      "date": "1602",
+      "source": "0"
+    },
+    {
+      "particularity": "Vergeefse poging hoogleraar te worden, afgewezen wegens geringe kennis Latijn",
+      "location": null,
+      "date": "1612-11-08",
+      "source": "80"
+    },
+    {
+      "particularity": "Vertaalt Arabische brieven voor prins Maurits",
+      "location": null,
+      "date": null,
+      "source": "80"
+    },
+    {
+      "particularity": "Salaris: f150 (maart 1612), f200 (november 1612)",
+      "location": null,
+      "date": "1612",
+      "source": "30"
+    },
+    {
+      "particularity": "Heinsius en Casaubonus bewerken zijn ontslag om zijn plaats vrij te maken voor Erpenius",
+      "location": null,
+      "date": null,
+      "source": "80"
+    },
+    {
+      "particularity": "Het 'Eerlijk afscheid' betekent een gouden handdruk van f250",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Vader Theunis Jansz.: eenvoudige doopsgezinde te Alkmaar",
+      "location": "Alkmaar",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Meynsge",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,80",
+      "second_names": [
+        "Dirksd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1601-09-22",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Metgen",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "8,80",
+      "second_names": [
+        "Claasd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Helmond",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Trijntge",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,80",
+      "second_names": [
+        "Adriaansd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Alkmaar",
+      "BirthDate": null,
+      "DeathDate": "1612-07-20",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Zwaantje",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "80",
+      "second_names": [
+        "Hillebrandsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1580-10-02",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Theunis",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Claes",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Willemsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Claesgen",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Willemsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hillebrand",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "80",
+      "second_names": [
+        "Jansz.",
+        "zeepzieder"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hillegond",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "80",
+      "second_names": [
+        "Ellertsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Lijsbeth",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1599",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Meynsie",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1600",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Metje",
+      "LastName": "ANTHONIDES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1604",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Alkmaar",
+  "BirthDate": "1569",
+  "DeathDate": "1638-09-29",
+  "DeathCity": "Amsterdam"
+}

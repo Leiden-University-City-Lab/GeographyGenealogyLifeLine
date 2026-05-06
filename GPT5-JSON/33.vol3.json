@@ -1,0 +1,368 @@
+{
+  "FirstName": "Bernardus",
+  "LastName": "SCHOTANUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Phil. en Math.",
+      "location": "Franeker",
+      "date": "1614-05-29",
+      "source": null
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1621-08-20",
+      "source": null
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Franeker",
+      "date": "1622-04-12",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Leeuwarden",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Instituten en regulis iuris)",
+      "location": "Franeker",
+      "date": "1624-08-29",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1627",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten en Wiskunde",
+      "location": "Utrecht",
+      "date": "1635-09-21",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus (tot 1641)",
+      "location": "Utrecht",
+      "date": "1636",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Primarius; onderwijs Codex)",
+      "location": "Leiden",
+      "date": "1641-05-22",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Promotor is prof. Bouricius",
+      "location": "Franeker",
+      "date": "1622-04-12",
+      "source": null
+    },
+    {
+      "particularity": "Gedwongen nevenfuncties in Franeker op te geven toen hij daar rector werd",
+      "location": "Franeker",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Rector in Utrecht hoewel de jongste van zijn collega\u2019s in ancienniteit",
+      "location": "Utrecht",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Zware Leidse delegatie (burgemeester en pensionaris o.a.) koopt hem weg uit Utrecht",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Woont Steenschuur, noordzijde tussen Breestraat en Langebrug",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Leermeester en hospes van de gebroeders De Witt",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 700",
+      "location": "Franeker",
+      "date": "1624",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 1500",
+      "location": "Utrecht",
+      "date": "1635",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria (Maycke)",
+      "LastName": "SCHOTANA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Nijehaske",
+      "BirthDate": "1601-01-01",
+      "DeathDate": "1625-04-26",
+      "DeathCity": "Franeker"
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "ALTHUSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Embden",
+      "BirthDate": "1602",
+      "DeathDate": null,
+      "DeathCity": "Franeker"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "SCHOTANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1548",
+      "DeathDate": "1605",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertke",
+      "LastName": "POLI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "'Meinerts' in Geertke (Meinerts)"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1560",
+      "DeathDate": "1620",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "SCHOTANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "85",
+      "second_names": [
+        "'Geldii' in Johannes (Geldii)"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1577",
+      "DeathDate": "1626",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Trijntje",
+      "LastName": "CRACK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "ALTHUSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "88",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "NAURATH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "88",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "SCHOTANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leeuwarden",
+      "BirthDate": "1624-03-30",
+      "DeathDate": "1624-04-24",
+      "DeathCity": "Leeuwarden"
+    },
+    {
+      "FirstName": "Benricus",
+      "LastName": "SCHOTANUS",
+      "Affix": "\u00e0 Sterringa",
+      "Gender": "Man",
+      "source": "85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1625-04-19",
+      "DeathDate": "1677",
+      "DeathCity": "Franeker"
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "SCHOTANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1628",
+      "DeathDate": "1646-05-10",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Meinard",
+      "LastName": "SCHOTANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Doetje",
+      "LastName": "SCHOTANA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Trijntje",
+      "LastName": "SCHOTANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Douwe",
+      "LastName": "HENDRIKS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christinus",
+      "LastName": "SCHOTANUS",
+      "Affix": "\u00e0 Sterringa",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Franeker",
+  "BirthDate": "1598-10-07",
+  "DeathDate": "1652-10-05",
+  "DeathCity": "Leiden"
+}

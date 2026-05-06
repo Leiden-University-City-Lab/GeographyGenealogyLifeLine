@@ -1,0 +1,98 @@
+{
+  "FirstName": "Hadrianus",
+  "LastName": "JUNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Adriaen"
+  ],
+  "alternative_last_names": [
+    "DE JONGHE"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Med.",
+      "location": "Bologna",
+      "date": "1540",
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verblijf",
+      "location": "Parijs",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Engeland",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gouverneur Kroonprins van Denemarken",
+      "location": null,
+      "date": "1562-1563",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsgeneesheer",
+      "location": "Haarlem",
+      "date": "1563",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Lat. school",
+      "location": "Haarlem",
+      "date": "1563",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsgeneesheer",
+      "location": "Middelburg",
+      "date": "1574",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "N.B. NOOIT AANGENOMEN",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Hoorn",
+  "BirthDate": "1511-07-01",
+  "DeathDate": "1575-06-16",
+  "DeathCity": "Arnemuiden of Middelburg"
+}

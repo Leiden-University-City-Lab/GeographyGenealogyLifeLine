@@ -1,0 +1,149 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "HORNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN HORNE",
+    "VAN HOORN"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Litt. en Med.",
+      "location": "Leiden",
+      "date": "1636-09-10",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Napels",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Padua",
+      "date": "1642-12-10",
+      "source": "23"
+    },
+    {
+      "subject": "Doct. Med. h.c.",
+      "location": "Basel",
+      "date": "1645-10-24",
+      "source": "7"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Frankrijk (o.a. Montpellier)",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Engeland",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Ontleedkunde",
+      "location": "Leiden",
+      "date": "1651-02-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Ontleed- en Heelkunde",
+      "location": "Leiden",
+      "date": "1652-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Medische Instituten",
+      "location": "Leiden",
+      "date": "1656",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanbod hoogleraarschap afgeslagen",
+      "location": "Amsterdam",
+      "date": "1652",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f 400 (1651), f 600 (1652), f 800 (1654), f 1000 (1667)",
+      "location": "Leiden",
+      "date": null,
+      "source": "78"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Jacques",
+      "LastName": "HORNE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margriet",
+      "LastName": "VOORT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "HORNE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "678",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1621-09-02",
+  "DeathDate": "1670-01-05",
+  "DeathCity": "Leiden"
+}

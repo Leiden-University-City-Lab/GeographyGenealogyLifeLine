@@ -1,0 +1,335 @@
+{
+  "FirstName": "Wilhelmus Jacobus",
+  "LastName": "GRAVESANDE",
+  "Affix": "Storm van 's",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "STORM VAN 'S GRAVESANDE"
+  ],
+  "education": [
+    {
+      "subject": "Huisonderwijzer Tourton",
+      "location": "Den Bosch",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1704-06-06",
+      "source": "14"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1707-10-25",
+      "source": "15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "1703-06-19",
+      "source": "50",
+      "is_side_job": 0
+    },
+    {
+      "job": "Uitgever en auteur Journal de la R\u00e9publique des Lettres",
+      "location": "Den Haag",
+      "date": "1713",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eerste secretaris gezantschap Engeland",
+      "location": "Engeland",
+      "date": "1715-09-23",
+      "source": "50",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "1716",
+      "source": "50",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "1717",
+      "source": "50",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wis- en Sterrekunde",
+      "location": "Leiden",
+      "date": "1717-05-19",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie (inaugurale rede)",
+      "location": "Leiden",
+      "date": "1717-06-22",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Doctor Burgerlijke Krijgsbouwkunde",
+      "location": "Leiden",
+      "date": "1730-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Gehele Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1734-07-12",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontheven van onderwijs in de burgerlijke krijgsbouwkunde",
+      "location": "Leiden",
+      "date": "1734-08-09",
+      "source": "173",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1734-09-25",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1723",
+      "source": "20",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1724",
+      "source": "20",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adviseur Staten-Generaal inzake financi\u00ebn, decodering en waterstaat",
+      "location": null,
+      "date": null,
+      "source": "3,20",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ontmoet Newton in 1715 die hem aanbeveelt bij de gezant Arend van Wassenaer van Duvenvoorde, die hem weer bij de curatoren van de Leidse universiteit aanbeveelt",
+      "location": null,
+      "date": "1715",
+      "source": "3"
+    },
+    {
+      "particularity": "Diss. De autocheira",
+      "location": null,
+      "date": null,
+      "source": "50"
+    },
+    {
+      "particularity": "Bevriend met Voltaire",
+      "location": null,
+      "date": null,
+      "source": "Fro"
+    },
+    {
+      "particularity": "Bezoek aan Landgraaf van Hessen-Kassel in 1721 en 1724",
+      "location": null,
+      "date": null,
+      "source": "20"
+    },
+    {
+      "particularity": "Orthodoxe calvinisten achtten hem te vooruitstrevend",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Aanbiedingen St. Petersburg (1724) en Berlijn (1740) afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Lid Royal Society, Londen",
+      "location": "Londen",
+      "date": null,
+      "source": "20"
+    },
+    {
+      "particularity": "Woont Rapenburg 12",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Geboortedatum vermeld als 26 of 28-09-1688",
+      "location": "Den Bosch",
+      "date": "1688-09",
+      "source": "18"
+    },
+    {
+      "particularity": "Ondertrouw met Anna Sacrelaire te Leiden 27-09-1720",
+      "location": "Leiden",
+      "date": "1720-09-27",
+      "source": "c"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "SACRELAIRE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "GRAVESANDE",
+      "Affix": "Storm van 's",
+      "Gender": "Man",
+      "source": "b,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1646",
+      "DeathDate": "1716",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Josina",
+      "LastName": "BLOM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,50",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1654",
+      "DeathDate": "1724",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Laurens",
+      "LastName": "GRAVESANDE",
+      "Affix": "Storm van 's",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1605",
+      "DeathDate": "1686",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "HEURNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicotdas",
+      "LastName": "BLOM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "50",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "BASTYNCK",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "50,20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "GRAVESANDE",
+      "Affix": "Storm van 's",
+      "Gender": "Man",
+      "source": "20,50",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1724",
+      "DeathDate": "1739-05-22",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "GRAVESANDE",
+      "Affix": "Storm van 's",
+      "Gender": "Man",
+      "source": "20,50",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1725",
+      "DeathDate": "1739-05",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Den Bosch",
+  "BirthDate": "1688-09",
+  "DeathDate": "1742-02-28",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,371 @@
+{
+  "FirstName": "Andreas",
+  "LastName": "RIVETUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Andr\u00e9' in Andreas (Andr\u00e9)"
+  ],
+  "alternative_last_names": [
+    "RIVET"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs",
+      "location": "St. Maixent",
+      "date": "1583",
+      "source": "a"
+    },
+    {
+      "subject": "Pensionaat bij pred. Louis de la Blanchi\u00e8re (Blanchier)",
+      "location": "Niort of St. Gelais",
+      "date": "1583",
+      "source": "10"
+    },
+    {
+      "subject": "Gymnasium",
+      "location": "La Rochelle",
+      "date": "1585",
+      "source": "a"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Orthez",
+      "date": null,
+      "source": "7,10"
+    },
+    {
+      "subject": "Magister artium",
+      "location": "Orthez",
+      "date": "1590",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Orthez",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "La Rochelle",
+      "date": "1595",
+      "source": "10"
+    },
+    {
+      "subject": "Wijding",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1620-10-13",
+      "source": "b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hofprediker van hertog Claude de la Tr\u00e9moille",
+      "location": "Thouars",
+      "date": "1595-03-24",
+      "source": "10,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1620-10-14",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals predikant",
+      "location": "Leiden",
+      "date": "1630-01-10",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon predikant",
+      "location": "Den Haag",
+      "date": "1630-02-06",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek (afscheidsoratie)",
+      "location": "Leiden",
+      "date": "1632-03-11",
+      "source": "35",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor honorarius",
+      "location": "Leiden",
+      "date": "1632-01-26",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gouverneur van Prins Willem; tevens hofprediker en raadsheer",
+      "location": "Den Haag",
+      "date": "1632-02-12",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Illustre school en Collegium Auriacum",
+      "location": "Breda",
+      "date": "1646-09-17",
+      "source": "a,2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Nationale Synode",
+      "location": "Gergeau",
+      "date": "1601-05-25",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Ab-actis Nationale Synode",
+      "location": "La Rochelle",
+      "date": "1607-03-01",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Ab-actis Nationale Synode",
+      "location": "St. Maixent",
+      "date": "1609-05-25",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Ab-actis Nationale Synode",
+      "location": "Tonniens",
+      "date": "1614-05-02",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Mod\u00e9rateur Nationale Synode",
+      "location": "Vitr\u00e9",
+      "date": "1617-05-18",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Afgevaardigde Politieke Vergadering Poitou (tweemaal tussen 1610-1617)",
+      "location": "Poitou",
+      "date": null,
+      "source": "10",
+      "is_side_job": 1
+    },
+    {
+      "job": "Afgevaardigde Kerk Poitou naar Koningin-Moeder",
+      "location": "Poitou",
+      "date": null,
+      "source": "7,10",
+      "is_side_job": 1
+    },
+    {
+      "job": "(Ere)lid staf Oxford",
+      "location": "Oxford",
+      "date": "1621",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "In het gevolg van Prins Willem naar Engeland",
+      "location": "Engeland",
+      "date": "1641",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 2000",
+      "location": null,
+      "date": null,
+      "source": "35"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Susanne",
+      "LastName": "Oiseau",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1621-04",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "MOULIN",
+      "Affix": "du",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jean",
+      "LastName": "RIVET",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "10,7,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catherine",
+      "LastName": "CARDEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "10,7,a",
+      "second_names": [],
+      "alternative_last_names": [
+        "de La Morini\u00e8re"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Guilielmus",
+      "LastName": "RIVET",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Francois",
+      "LastName": "OISEAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4a,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joachim",
+      "LastName": "MOULIN",
+      "Affix": "du",
+      "Gender": "Man",
+      "source": "48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Samuel",
+      "LastName": "RIVETUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1599",
+      "DeathDate": "1629",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Claude",
+      "LastName": "RIVETUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1603",
+      "DeathDate": "1647",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Andr\u00e9",
+      "LastName": "RIVETUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1608",
+      "DeathDate": "1633",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Fr\u00e9d\u00e9ric",
+      "LastName": "RIVETUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1617",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "St. Maixent (Poitou)",
+  "BirthDate": "1572-07-02",
+  "DeathDate": "1651-01-07",
+  "DeathCity": "Breda"
+}

@@ -1,0 +1,321 @@
+{
+  "FirstName": "Sebald Fulco Johannes",
+  "LastName": "RAU",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "RAVIUS",
+    "ROUW"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": "1784",
+      "source": "18"
+    },
+    {
+      "subject": "Proponent",
+      "location": "Utrecht",
+      "date": null,
+      "source": "42"
+    },
+    {
+      "subject": "Proponent",
+      "location": "Leiden",
+      "date": "1785",
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1788-03-01",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Waals Pred.",
+      "location": "Harderwijk",
+      "date": "1786-06-18",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "Leiden",
+      "date": "1786-11-19",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. (Doctrina Moralis, Chr. Oudheden, Historische Dogmata)",
+      "location": "Leiden",
+      "date": "1787-11-17",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oostersche Talen en Hebreeuwse Oudheden",
+      "location": "Leiden",
+      "date": "1794-09-13",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gedeeltelijk ontslag",
+      "location": "Leiden",
+      "date": "1795-02-21",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogl. Gewijde Dicht- en Redekunde",
+      "location": "Leiden",
+      "date": "1799-02-08",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogd. Oosterse talen en Oudheden",
+      "location": "Leiden",
+      "date": "1799-05-04",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1797",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1804",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Overgang Theol. naar Phil. Fac.",
+      "location": "Leiden",
+      "date": "1799-05-04",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Interpres legati Warneriani",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanhanger stadhouderlijke partij",
+      "location": null,
+      "date": null,
+      "source": "14"
+    },
+    {
+      "particularity": "Lid Genootschap \"Dulces ante omnia Musae\" rondom Bellamy",
+      "location": null,
+      "date": "1780",
+      "source": "2"
+    },
+    {
+      "particularity": "Geridderd",
+      "location": null,
+      "date": "1807-01",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 2500",
+      "location": null,
+      "date": null,
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruyda Stephania",
+      "LastName": "RANDWIJK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,2,5",
+      "second_names": [
+        "Gertrude Stephanie"
+      ],
+      "alternative_last_names": [
+        "RANDWIJCK"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Nijmegen",
+      "BirthDate": "1771-04-24",
+      "DeathDate": "1842-12-05",
+      "DeathCity": "Wijck Lent (Elst)"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Sebald",
+      "LastName": "RAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Herborn",
+      "BirthDate": "1721-10-04",
+      "DeathDate": "1818-01-10",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Susanna Sebina",
+      "LastName": "REYTSMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "4,2",
+      "second_names": [
+        "Sabina"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann Eberhard",
+      "LastName": "RAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Altenbach",
+      "BirthDate": "1695-07-16",
+      "DeathDate": "1770-03-24",
+      "DeathCity": "Herborn"
+    },
+    {
+      "FirstName": "Augusta Catharina",
+      "LastName": "HAMEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Tiberius",
+      "LastName": "REYTSMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena Henriette",
+      "LastName": "BAELDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob Neomagus",
+      "LastName": "RANDWIJK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a,2,5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Nijmegen",
+      "BirthDate": "1726-02-24",
+      "DeathDate": "1790-04-29",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Reiniera Charlotta",
+      "LastName": "RANDWIJCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,2,5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1737",
+      "DeathDate": "1803",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "RAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1799-09-28",
+      "DeathDate": "1876-03-05",
+      "DeathCity": "Arnhem"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Johannes Sebaldus",
+      "LastName": "HAMEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Theologie en Oosterse Talen",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1765-10-16",
+  "DeathDate": "1807-12-01",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,109 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "JARRIGIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "JARRIGE"
+  ],
+  "education": [
+    {
+      "subject": "Jezuitenschool",
+      "location": "Tulle",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Phil. en Theol.",
+      "location": "Leiden",
+      "date": "1647-02-03",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Prediker Jezuitencollege",
+      "location": "La Rochelle",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Calvinist geworden",
+      "location": "La Rochelle",
+      "date": "1647-12-25",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aankomst Leiden",
+      "location": "Leiden",
+      "date": "1648-02",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toestemming lessen",
+      "location": "Leiden",
+      "date": "1649-11-15",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Welspekendheid op proef",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Katholiek geworden",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bij Jezuiten",
+      "location": "Antwerpen",
+      "date": "1650",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik",
+      "location": "Tulle",
+      "date": null,
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Katholiek door pater Ponthelier van Franse gezant",
+      "location": "Den Haag",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "particularity": "Steun prof. Vorstius bij toelage van f400 van Staten van Holland",
+      "location": null,
+      "date": null,
+      "source": "8"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Tulle",
+  "BirthDate": "1606",
+  "DeathDate": "1670-09-26",
+  "DeathCity": "Tulle"
+}

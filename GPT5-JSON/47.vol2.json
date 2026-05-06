@@ -1,0 +1,359 @@
+{
+  "FirstName": "Florentius",
+  "LastName": "SCHUYL",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Den Bosch",
+      "date": null,
+      "source": "59"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "1"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Utrecht",
+      "date": "1639-07-03",
+      "source": "27"
+    },
+    {
+      "subject": "Stadskwekeling",
+      "location": "Den Bosch",
+      "date": "1636",
+      "source": "1"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1639-10-21",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1664-04-28",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Provisioneel Hoogleraar Wijsbegeerte",
+      "location": "Den Bosch",
+      "date": "1640-08-20",
+      "source": "1,59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Den Bosch",
+      "date": "1644-03",
+      "source": "59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Den Bosch",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontvanger-Generaal van de beursen en benefici\u00ebn",
+      "location": "Den Bosch",
+      "date": "1650",
+      "source": "59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Weesmeester",
+      "location": "Den Bosch",
+      "date": "1657",
+      "source": "59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Den Bosch",
+      "date": "1657",
+      "source": "59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezworene",
+      "location": "Den Bosch",
+      "date": "1658",
+      "source": "59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid vroedschap",
+      "location": "Den Bosch",
+      "date": "1659",
+      "source": "59",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Medische Instituten)",
+      "location": "Leiden",
+      "date": "1664-10-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Botanie",
+      "location": "Leiden",
+      "date": "1667-02-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Prefect Hortus Botanicus",
+      "location": "Leiden",
+      "date": "1667-05-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1666",
+      "source": "59",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Geboren te 's-Hertogenbosch (80) of Schiedam (59,19)",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Diss. Phil. bij prof. Sengverdius",
+      "location": null,
+      "date": null,
+      "source": "27"
+    },
+    {
+      "particularity": "Diss. Med. De natura et usu lienis",
+      "location": null,
+      "date": null,
+      "source": "1"
+    },
+    {
+      "particularity": "Beschermeling David le Leu de Wilhem (zwager Huygens, Lid Raad van State, Raadsheer Raad van Brabant) (vgl. Kyper)",
+      "location": null,
+      "date": null,
+      "source": "59"
+    },
+    {
+      "particularity": "Vergeefse sollicitatie vacature Breda",
+      "location": null,
+      "date": "1646",
+      "source": "59"
+    },
+    {
+      "particularity": "Ambtswoning Botanie aan Nonnensteeg",
+      "location": null,
+      "date": null,
+      "source": "59"
+    },
+    {
+      "particularity": "Salaris: f 250 (1644), f 400 (1645), f 1450 (Den Bosch), f 1000 (Leiden 1664), f 1500 (1667)",
+      "location": null,
+      "date": null,
+      "source": "59,80"
+    },
+    {
+      "particularity": "Bezit boerderij in Brabant",
+      "location": null,
+      "date": null,
+      "source": "59"
+    },
+    {
+      "particularity": "Testament, notaris Raven in Leiden",
+      "location": null,
+      "date": "1667-01-07",
+      "source": "59"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Susanna",
+      "LastName": "RIJSBERGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Everardus Henricus",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": "1665",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Everhard",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "80,59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1655-06-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1646-05-09",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ida",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1648-05-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1653-12-23",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adrianus",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1657-11-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Floris",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1662-08-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Hermina",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1664-08-28",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Carolina Adriana",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1666-02-05",
+      "DeathDate": "1748-12-11",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Herman",
+      "LastName": "SCHUYL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": null,
+  "BirthDate": "1619-01-13",
+  "DeathDate": "1669-09-05",
+  "DeathCity": "Leiden"
+}

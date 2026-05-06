@@ -1,0 +1,276 @@
+{
+  "FirstName": "Gerlach",
+  "LastName": "SCHELTINGA",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Gerlacius"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1724-07-24",
+      "source": "11"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Franeker",
+      "date": "1729-10-16",
+      "source": "11"
+    },
+    {
+      "subject": "Cand. Iur.",
+      "location": "Franeker",
+      "date": "1730",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1730-09-07",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Franeker",
+      "date": "1731-06-05",
+      "source": "12"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar",
+      "location": "Deventer",
+      "date": "1731-09-16",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1738-02-17",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs burgerlijk recht",
+      "location": "Leiden",
+      "date": "1738-06-27",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1745",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1761",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De emancipationibus bij prof. Wieling",
+      "location": null,
+      "date": null,
+      "source": "12"
+    },
+    {
+      "particularity": "Testament opgemaakt",
+      "location": "Deventer",
+      "date": "1751-09-17",
+      "source": "a"
+    },
+    {
+      "particularity": "Testament geopend (boek van geopende testamenten II, 239): GA Deventer",
+      "location": "Deventer",
+      "date": "1766-05-09",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Margaretha",
+      "LastName": "Marienburgh",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1713-03-17",
+      "DeathDate": "1759-06",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Eco",
+      "LastName": "SCHELTINGA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1670",
+      "DeathDate": "1746",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Gentil",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gerlacus",
+      "LastName": "SCHELTINGA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [
+        "Gerlof"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Saeckien",
+      "LastName": "Fogelsang",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "104",
+      "second_names": [
+        "Pytters"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Joan",
+      "LastName": "Marienburgh",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1685",
+      "DeathDate": "1748",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina Geertruid",
+      "LastName": "Marienburgh",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1688",
+      "DeathDate": "1721",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johanna Wilhelmina",
+      "LastName": "SCHELTINGA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1745-02-14",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Wilhelmina",
+      "LastName": "SCHELTINGA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1746-05-18",
+      "DeathDate": "1826-02-20",
+      "DeathCity": "Deventer"
+    },
+    {
+      "FirstName": "Eko-Jan",
+      "LastName": "SCHELTINGA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1750-12-13",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Theodorus",
+      "LastName": "SCHELTINGA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leeuwarden",
+  "BirthDate": "1708-04-15",
+  "DeathDate": "1765-02-09",
+  "DeathCity": "Leiden"
+}

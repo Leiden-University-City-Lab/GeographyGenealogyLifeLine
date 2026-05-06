@@ -1,0 +1,321 @@
+{
+  "FirstName": "Carolus",
+  "LastName": "DRELINCOURT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Charles' in Carolus (Charles)"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol. en Med.",
+      "location": "Parijs",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Saumur",
+      "date": "1650-09-24",
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Montpellier",
+      "date": "1654-08",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lijfarts van Turenne",
+      "location": null,
+      "date": "1656",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Inspecteur Geneeskundige Dienst van het Franse Leger",
+      "location": "Vlaanderen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts aan het hof van Lodewijk XIV",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Parijs",
+      "date": null,
+      "source": "29",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1668-07-11",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Anatomie en Pathologie",
+      "location": "Leiden",
+      "date": "1670-12-03",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Medische Instituten",
+      "location": "Leiden",
+      "date": "1692-07-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1679",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1688",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1694",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Consulterend geneesheer van Willem III en Mary",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. An omnibus putridis febribus venae sectio et purgatio",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Rapenburg",
+      "location": "Leiden",
+      "date": "1694",
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 2000,-",
+      "location": null,
+      "date": "1670",
+      "source": "2"
+    },
+    {
+      "particularity": "Ontheffing Ontleedkunde door slechte ogen",
+      "location": "Leiden",
+      "date": "1687",
+      "source": "56"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Susanne",
+      "LastName": "JACOB",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Charles",
+      "LastName": "DRELINCOURT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1595",
+      "DeathDate": "1669",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marguerite",
+      "LastName": "BOLDUC",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Antoine",
+      "LastName": "DRELINCOURT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catherine",
+      "LastName": "BUYRETTE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Laurent",
+      "LastName": "BOLDUC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marguerite",
+      "LastName": "BRUTEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Pierre",
+      "LastName": "JACOB",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanne",
+      "LastName": "DANIEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jacques",
+      "LastName": "DRELINCOURT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1666-06-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anne-Charlotte",
+      "LastName": "DRELINCOURT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1667-12-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "DRELINCOURT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1694-09-11",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Parijs",
+  "BirthDate": "1633-02-01",
+  "DeathDate": "1697-05-31",
+  "DeathCity": "Leiden"
+}

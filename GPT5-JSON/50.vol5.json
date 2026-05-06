@@ -1,0 +1,371 @@
+{
+  "FirstName": "David",
+  "LastName": "RUHNKEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "RUHNKENIUS"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school (Kniephof)",
+      "location": "Schlawe",
+      "date": "1739",
+      "source": "57"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Koningsbergen (Friedrischs)",
+      "date": "1739-1741",
+      "source": "57"
+    },
+    {
+      "subject": "collegium (Schiffert)",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Berlijn",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Koningsbergen",
+      "date": "1741-04-28",
+      "source": "57"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Wittenberg",
+      "date": "1742-10-04",
+      "source": "37"
+    },
+    {
+      "subject": "Disp.en mag.art.",
+      "location": "Wittenberg",
+      "date": "1743-12",
+      "source": "57"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1744",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1750-09-14",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Corrector",
+      "location": null,
+      "date": null,
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent Pieter Meerman",
+      "location": null,
+      "date": "1744-1746",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf bij D'Orville",
+      "location": "Amsterdam",
+      "date": "1746-1747",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gouverneur jongeman (herfst)",
+      "location": "Leiden",
+      "date": "1747",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gouverneur Nic. Dierkens",
+      "location": "Haarlem",
+      "date": "1748",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf voor studie",
+      "location": "Parijs",
+      "date": "1754-1755",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent Francois Fagel",
+      "location": "Leiden",
+      "date": "1755-1756",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Griekse taal",
+      "location": "Leiden",
+      "date": "1757-02-01",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historien en Welsprekendheid",
+      "location": "Leiden",
+      "date": "1761-05-18",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "1 college Grieks",
+      "location": "Leiden",
+      "date": "1761-09-21",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1767-1768",
+      "source": "5,57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct-Bibliothecaris",
+      "location": "Leiden",
+      "date": "1770-08-27",
+      "source": "27",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bibliothecaris",
+      "location": "Leiden",
+      "date": "1774",
+      "source": "27",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Luthers, gereformeerd geworden",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "Patriot",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Ouders bestemden hem voor kansel",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "De hoogleraren Ernesti, von Berger en Ritters helpen hem bij conflict met ouders en met introducties bij G. Meerman en Hemsterhuis",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "Studievriend Immanuel Kant",
+      "location": null,
+      "date": null,
+      "source": "2,57"
+    },
+    {
+      "particularity": "Met prof. Alberti naar Spa",
+      "location": null,
+      "date": "1750",
+      "source": "57"
+    },
+    {
+      "particularity": "Prof. Alberti helpt hem bij familie Dierkens via oma de Raet",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "Gepasseerd in Groningen",
+      "location": null,
+      "date": "1752",
+      "source": "57"
+    },
+    {
+      "particularity": "Gepasseerd in Amsterdam",
+      "location": null,
+      "date": "1754",
+      "source": "57"
+    },
+    {
+      "particularity": "Valckenaer bestemd als opvolger Hemsterhuis, Burmannus Secundus gepasseerd door benoeming Ruhnken bij opvolging van Oudendorp",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "Bevriend met Bondam, van Lennep",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "Twisten met vele rectoren Latijnse scholen",
+      "location": null,
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "Financiele steun G. Meerman bij studiereis Parijs",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "Aanbod Gottingen door prof. Ernesti in 1761 afgeslagen",
+      "location": null,
+      "date": "1761",
+      "source": "5"
+    },
+    {
+      "particularity": "Lid Acad\u00e9mie des Inscriptions et des Belles Lettres",
+      "location": null,
+      "date": null,
+      "source": "57"
+    },
+    {
+      "particularity": "Woont Langebrug",
+      "location": "Leiden",
+      "date": "1756",
+      "source": "57"
+    },
+    {
+      "particularity": "Ondanks verzet Valckenaer rector in 1767 door steun van curator de Raet",
+      "location": null,
+      "date": "1767",
+      "source": "57"
+    },
+    {
+      "particularity": "Jacht als hobby",
+      "location": null,
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "Leed aan podagra en waterzucht; zijn vrouw is sinds 1771 stom en blind; zijn jongste dochter ook blind",
+      "location": null,
+      "date": "1771",
+      "source": "2"
+    },
+    {
+      "particularity": "Zijn gezin blijft behoeftig achter; de universiteit koopt zijn bibliotheek tegen een pensioen voor zijn weduwe en dochters",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Alleen buitenlanders bij zijn colleges",
+      "location": null,
+      "date": null,
+      "source": "5"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": "1757",
+      "source": "5,57"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1761",
+      "source": "5,57"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "HEERMANS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1745",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johann Christian",
+      "LastName": "RUHNKEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "5,57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elizabeth",
+      "LastName": "NEITZKE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Marianne",
+      "LastName": "RUHNKEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "DTB GA Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1801-05",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Polen",
+  "BirthCity": "Bedlin",
+  "BirthDate": "1723-01-02",
+  "DeathDate": "1798-05-14",
+  "DeathCity": "Leiden"
+}

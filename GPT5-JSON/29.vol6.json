@@ -1,0 +1,198 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "KWIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1604-06-24",
+      "source": "9"
+    },
+    {
+      "subject": null,
+      "location": "Franeker",
+      "date": "1607-06-16",
+      "source": "5"
+    },
+    {
+      "subject": "Reis Frankrijk",
+      "location": "Frankrijk",
+      "date": "1610",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Zeddam",
+      "date": "1613",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Winterswijk en Aalten",
+      "date": "1613",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Deventer",
+      "date": "1614-10-24",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Synode",
+      "location": "Overijssel",
+      "date": "1618",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1641-08-24",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Revisor Vertaling Oude Testament",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Actief bij oprichting Athenaeum",
+      "location": "Deventer",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Conflict met prof. Heereboord en Descartes",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Acht kinderen uit eerste huwelijk",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christina",
+      "LastName": "AUGUSTINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": "1643-12-23",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BARTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Ryck",
+      "LastName": "REEFSEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "HEYNCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Conradus",
+      "LastName": "AUGUSTINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodora",
+      "LastName": "STEGE",
+      "Affix": "ter",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Deventer",
+  "BirthDate": "1586",
+  "DeathDate": "1658-11-15",
+  "DeathCity": "Leiden"
+}

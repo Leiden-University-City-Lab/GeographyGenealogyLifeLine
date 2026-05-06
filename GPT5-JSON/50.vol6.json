@@ -1,0 +1,245 @@
+{
+  "FirstName": "Nicolaas",
+  "LastName": "VAN ZEYST",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1586-09-23",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Op proef Secretaris Curatoren Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1596",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris van Leiden",
+      "location": "Leiden",
+      "date": "1614",
+      "source": "a",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "VAN BANCHEM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1634-08-17",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Otto",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [
+        "Dirksz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1538",
+      "DeathDate": "1602",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maertgen",
+      "LastName": "LAMBRECHTS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Johan",
+      "LastName": "VAN BANCHEM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Mr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "RUVEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Aagje",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1591-08-06",
+      "DeathDate": "1591-08-08",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriaantje",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1591-08-06",
+      "DeathDate": "1591-09-06",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [
+        "Mr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1593-12-26",
+      "DeathDate": "1640-04-17",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1596-04-15",
+      "DeathDate": "1639-01-21",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1598-06-23",
+      "DeathDate": "1599-01-25",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1599-12-23",
+      "DeathDate": "1605-01-21",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruid",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1602-02-01",
+      "DeathDate": "1631-11-16",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Otto",
+      "LastName": "VAN ZEYST",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1604-05-02",
+      "DeathDate": "1657-11-21",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Woerden",
+  "BirthDate": "1564-08-10",
+  "DeathDate": "1617-09-20",
+  "DeathCity": null
+}

@@ -1,0 +1,195 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "BOLLIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": "1566",
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1572-10-03",
+      "source": null
+    },
+    {
+      "subject": "Doct.",
+      "location": "Heidelberg",
+      "date": "1576-12-18",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1577-11-23",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Theol.",
+      "location": "Leiden",
+      "date": "1577-11-16",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Gent",
+      "date": "1578",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Vlucht naar de Palts",
+      "location": "Palts",
+      "date": "1584",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant Vlaamse kerk",
+      "location": "Frankenthal (Palts)",
+      "date": "1588",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant Holl. en Waalse kerk",
+      "location": "Staden",
+      "date": "1588-12",
+      "source": "2,27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afgevaardigde O.-Vlaanderen, Nationale Synode",
+      "location": "Middelburg",
+      "date": null,
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Afgevaardigde Hollandse Franse kerken, Nationale Synode",
+      "location": "Vitr\u00e9",
+      "date": "1583",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Overleden v\u00f3\u00f3r 15-08-1621",
+      "location": "Staden",
+      "date": "1621-08-15",
+      "source": "14"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Susanna",
+      "LastName": "Alarts",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cathelyne",
+      "LastName": "Anthoni",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Catharina"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Frankenthal",
+      "BirthDate": "1568-02-29",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Dieric",
+      "LastName": "Alarts",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "Anthoni",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "BOLLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cathelyne",
+      "LastName": "BOLLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1589",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Nieukerk (bij Gent)",
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": "Staden"
+}

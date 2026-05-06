@@ -1,0 +1,116 @@
+{
+  "FirstName": "Jeremias",
+  "LastName": "HOELZLINUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "HOELTLIN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Augsburg",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Altdorf",
+      "date": "1600-04-27",
+      "source": "9"
+    },
+    {
+      "subject": "Mag.",
+      "location": "Altdorf",
+      "date": "1609",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Inspector alumnorum",
+      "location": "Altdorf",
+      "date": "1607-1611",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Amberg",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rectoraat aangeboden",
+      "location": "Rhede",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Hamm",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertaalt psalmen",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Middelburg",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Brielle",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal",
+      "location": "Leiden",
+      "date": "1631-11-18",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Neurenberg",
+  "BirthDate": "1583",
+  "DeathDate": "1641-01-25",
+  "DeathCity": null
+}

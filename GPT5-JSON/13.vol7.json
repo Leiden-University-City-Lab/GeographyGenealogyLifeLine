@@ -1,0 +1,281 @@
+{
+  "FirstName": "Paulus",
+  "LastName": "BUYS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "D\u00f4le",
+      "date": "1551",
+      "source": "18"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Angers",
+      "date": null,
+      "source": "18"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Angers",
+      "date": "1556",
+      "source": "18"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": "Den Haag",
+      "date": "1556",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris van Leiden",
+      "location": "Leiden",
+      "date": "1561",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris van Rijnland",
+      "location": "Leiden",
+      "date": "1561",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Commissaris Willem I",
+      "location": null,
+      "date": "1570",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadpensionaris van Holland",
+      "location": "Den Haag",
+      "date": "1572-07-19",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Raad Willem I",
+      "location": null,
+      "date": "1573",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1575",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad Rijnland",
+      "location": "Leiden",
+      "date": "1577",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1581-12",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Antwerpen",
+      "location": "Antwerpen",
+      "date": "1582",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Raadpensionaris",
+      "location": null,
+      "date": "1584-10-05",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1585",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Raad van State",
+      "location": "Den Haag",
+      "date": "1586-02-05",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevangen door Leicester",
+      "location": null,
+      "date": "1586",
+      "source": "18",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ruzie met Curatoren en Burgemeesters, o.a. over Zoesius en Lipsius; in 1591 eisen zij zijn ontslag als Curator",
+      "location": null,
+      "date": "1591",
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Rapenburg 19-21, Groenhazengracht",
+      "location": "Leiden",
+      "date": null,
+      "source": "18"
+    },
+    {
+      "particularity": "Salaris: f 300 (1651), 360 (1572), 1000 (1577), 1200 (1578), 1500 (1581)",
+      "location": null,
+      "date": null,
+      "source": "18"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "MERSCHE",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1526",
+      "DeathDate": "1590",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Aert",
+      "LastName": "BUYS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Odlia",
+      "LastName": "EEM",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [
+        "Pouwels"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "MERSCHE",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "UYTWYCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [
+        "Philipsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Aert",
+      "LastName": "BUYS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1632-07-27",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Odilia",
+      "LastName": "BUYS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "BUYS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1559",
+      "DeathDate": "1632-06-27",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amersfoort",
+  "BirthDate": "1531",
+  "DeathDate": "1594-05-04",
+  "DeathCity": "Capelle"
+}

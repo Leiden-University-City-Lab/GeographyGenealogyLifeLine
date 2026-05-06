@@ -1,0 +1,251 @@
+{
+  "FirstName": "Robertus",
+  "LastName": "AEMILIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "MELISZ."
+  ],
+  "education": [
+    {
+      "subject": "Les van vader",
+      "location": "Oud-Beierland",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": "Latijnse School",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1683-09",
+      "source": "9"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1685-04-17",
+      "source": "9"
+    },
+    {
+      "subject": "Examen",
+      "location": null,
+      "date": "1687-04-09",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Nieuw-Beierland",
+      "date": "1688-11-21",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Delfshaven",
+      "date": "1700-02-21",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1702-01-08",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1707-03-24",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1709-03-19",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Johanna Maria",
+      "LastName": "HASIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "B",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1711-03-09",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "ROUVEROY",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": "1720-02-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "HENNION",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "AEMILIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "ROUVEROY",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agatha",
+      "LastName": "DUYN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "AEMILIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1757-01-08",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "AEMILIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1764-04-15",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "AEMILIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1703-09-02",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "AEMILIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1705-11-26",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan Armand",
+      "LastName": "AEMILIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1711-01-29",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Oud-Beierland",
+  "BirthDate": "1663-01-29",
+  "DeathDate": "1729-03-17",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,204 @@
+{
+  "FirstName": "Ewaldus",
+  "LastName": "SCHREVELIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "SCHREVEL",
+    "SCREVEL"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": null,
+      "source": "1"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": null,
+      "source": "1"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Den Haag",
+      "date": null,
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Medicijnen",
+      "location": "Leiden",
+      "date": "1624",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1635-05-13",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor Collegium Medico-Practicum",
+      "location": "Leiden",
+      "date": null,
+      "source": "19,4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen van Den Haag",
+      "location": "Den Haag",
+      "date": "1613-1616",
+      "source": "a",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ondertrouw met Maria van Swaenswijk; hierbij Dr. Bontius vermeld als zijn cosijn",
+      "location": "Leiden",
+      "date": "1606-05",
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "SWAENSWIJK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,b,c",
+      "second_names": [
+        "Laurensdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "SCREVEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "77,a,64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "SCREVEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "64,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Laurens",
+      "LastName": "SWAENSWIJK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "VISSCHER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [
+        "Derks"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Augustinus",
+      "LastName": "SCHREVELIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "77",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Fleonora",
+      "LastName": "SCHREVELIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Digna",
+      "LastName": "SCHREVELIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1628-01-14",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Den Haag",
+  "BirthDate": "1575",
+  "DeathDate": "1647-07-05",
+  "DeathCity": "Leiden"
+}

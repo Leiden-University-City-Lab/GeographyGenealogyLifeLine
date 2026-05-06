@@ -1,0 +1,342 @@
+{
+  "FirstName": "Abraham",
+  "LastName": "HEYDEN",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [
+    "Abrahamus"
+  ],
+  "alternative_last_names": [
+    "VAN DER HEIDEN",
+    "HEIDANUS"
+  ],
+  "education": [
+    {
+      "subject": "Lat. School Mattheus Sladus",
+      "location": "Amsterdam",
+      "date": "1608",
+      "source": "8,21"
+    },
+    {
+      "subject": "Stud. Theol. (Waalse Coll.)",
+      "location": "Leiden",
+      "date": "1614-05-01",
+      "source": "38"
+    },
+    {
+      "subject": "Prep. examen",
+      "location": "Leiden",
+      "date": "1618-10-11",
+      "source": "38"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "1619-09-22",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Basel",
+      "date": "1620-01",
+      "source": "21"
+    },
+    {
+      "subject": "Cand. Theol.",
+      "location": "Basel",
+      "date": "1620-03-25",
+      "source": "27"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1620-05",
+      "source": "21"
+    },
+    {
+      "subject": "Peremptoir examen Classis van Naarden",
+      "location": "Naarden",
+      "date": "1623",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref./Waals Predikant",
+      "location": "Naarden",
+      "date": "1623",
+      "source": "38",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gereformeerd Predikant",
+      "location": "Leiden",
+      "date": "1627-06-11",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gereformeerd Predikant",
+      "location": "Leiden",
+      "date": "1678",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1648-09-13",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie (Hoogleraar Theologie)",
+      "location": "Leiden",
+      "date": "1648-10-19",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1654",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1662",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1671",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag (wegens Cartesdanisme)",
+      "location": "Leiden",
+      "date": "1676-05-04",
+      "source": "6,8,2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Praeses Provinciale Synode",
+      "location": "Gorinchem",
+      "date": "1669-07-03",
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Praeses Provinciale Synode",
+      "location": "Gorinchem",
+      "date": "1669-07-15",
+      "source": "7",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Tevens Frankrijk en Engeland bezocht",
+      "location": null,
+      "date": null,
+      "source": "6"
+    },
+    {
+      "particularity": "Salaris: f 1200 tractement",
+      "location": "Leiden",
+      "date": "1649",
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f 200 extraordinarius",
+      "location": "Leiden",
+      "date": "1649",
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f 300 huur",
+      "location": "Leiden",
+      "date": "1649",
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Sara",
+      "LastName": "LOTEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1608",
+      "DeathDate": "1669",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gaspar",
+      "LastName": "HEYDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1566",
+      "DeathDate": "1626",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara",
+      "LastName": "BORNE",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gaspar",
+      "LastName": "HEYDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Mechelen",
+      "BirthDate": "1530",
+      "DeathDate": "1586-05-07",
+      "DeathCity": "Bacharach"
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "GOETHEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "BORNE",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clerken",
+      "LastName": "BARE",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Carel",
+      "LastName": "LOTEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Karel",
+      "LastName": "HEYDEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "HEIDANUS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1679-09-30",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "HEYDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a,6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1628-03-12",
+      "DeathDate": "1653",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "HEYDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "4a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1630",
+      "DeathDate": "1678",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Frankenthal (Palts)",
+  "BirthDate": "1597-08-10",
+  "DeathDate": "1678-10-15",
+  "DeathCity": "Leiden"
+}

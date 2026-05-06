@@ -1,0 +1,356 @@
+{
+  "FirstName": "Georg Friedrich",
+  "LastName": "CREUZER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "CREUTZER"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Theol. en Phil.",
+      "location": "Marburg",
+      "date": "1789-04-24",
+      "source": "31"
+    },
+    {
+      "subject": "Stud.Phil. en Litt",
+      "location": "Jena",
+      "date": "1790",
+      "source": "6.5"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Marburg",
+      "date": "1791-09",
+      "source": "6,5"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Tubingen",
+      "date": "1799",
+      "source": "32"
+    },
+    {
+      "subject": "Doct.Iur.h.c.",
+      "location": "Heidelberg",
+      "date": "1844",
+      "source": "32"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatdocent",
+      "location": "Marburg",
+      "date": "1797",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Huisleraar",
+      "location": "Leipzig",
+      "date": "1798",
+      "source": "6,5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent",
+      "location": "Marburg",
+      "date": "1790",
+      "source": "6,5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Grieks",
+      "location": "Marburg",
+      "date": "1800-10-21",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Marburg",
+      "date": "1802-10-31",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philologie en Oudheid",
+      "location": "Heidelberg",
+      "date": "1804-04-04",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Benoemd als Hoogleraar Archeologie",
+      "location": "Leiden",
+      "date": "1809",
+      "source": "6,27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aankomst in Leiden",
+      "location": "Leiden",
+      "date": "1809-07-01",
+      "source": "74",
+      "is_side_job": 0
+    },
+    {
+      "job": "Dient ontslag in",
+      "location": "Leiden",
+      "date": "1809-09-02",
+      "source": "74",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek uit Leiden",
+      "location": "Leiden",
+      "date": "1809-10",
+      "source": "74",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philologie en Oudheid",
+      "location": "Heidelberg",
+      "date": "1809-10",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Heidelberg",
+      "date": "1844-11-07",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Badischer Geheimer Hofrat",
+      "location": null,
+      "date": "1818",
+      "source": "32",
+      "is_side_job": 1
+    },
+    {
+      "job": "Badischer Geheimer Rat (2e klasse)",
+      "location": null,
+      "date": "1826",
+      "source": "32",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met von Savigny, von Arnim, Caroline von Gunderrode, Wyttenbach, H. de Bosch, N. Paradijs",
+      "location": null,
+      "date": null,
+      "source": "65"
+    },
+    {
+      "particularity": "Wyttenbach attendeert Meerman op Creuzer; Meerman onderhandelt buiten koning en curatoren om met Creuzer die met f 3100 accoord gaat",
+      "location": "Leiden",
+      "date": null,
+      "source": "74"
+    },
+    {
+      "particularity": "Curatoren verzetten zich vergeefs",
+      "location": "Leiden",
+      "date": null,
+      "source": "74"
+    },
+    {
+      "particularity": "Aanbiedingen G\u00f6ttingen, Bonn en Kiel afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "6,5"
+    },
+    {
+      "particularity": "Ridder Legioen van Eer, Vredesklasse Ordre pour le m\u00e9rite, ereburger van Heidelberg",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "615"
+    },
+    {
+      "particularity": "Herhaaldelijk uit Leiden teruggeroepen door minister von Reizenstein",
+      "location": "Leiden",
+      "date": null,
+      "source": "6,5,74"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Sophie",
+      "LastName": "MULLER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "SEBASTIAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christoph Andreas Joachim Leonhard",
+      "LastName": "CREUZER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [
+        "CREUTZER"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1772",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Philippine Eleonore",
+      "LastName": "BANG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Heinrich",
+      "LastName": "CREUZER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [
+        "CREUTZER"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jul. Barbara",
+      "LastName": "RIEGELMANN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Andreas",
+      "LastName": "BANG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria J.C.",
+      "LastName": "SOLDAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johannes Gottfried",
+      "LastName": "MULLER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Friedrich Christian",
+      "LastName": "SEBASTIAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Leonhard",
+      "LastName": "CREUZER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Marburg",
+  "BirthDate": "1771-03-10",
+  "DeathDate": "1858-02-16",
+  "DeathCity": "Heidelberg"
+}

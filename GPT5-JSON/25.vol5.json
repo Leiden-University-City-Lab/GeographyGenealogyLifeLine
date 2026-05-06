@@ -1,0 +1,159 @@
+{
+  "FirstName": "Sigebertus",
+  "LastName": "HAVERKAMP",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Siwart",
+    "Sievert"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1703-09-15",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Stad",
+      "date": "1710-1720",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Grieks en Latijn",
+      "location": "Leiden",
+      "date": "1720-05-09",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Leiden",
+      "date": "1721-10-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal",
+      "location": "Leiden",
+      "date": "1724-03-15",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historie en Welsprekendheid",
+      "location": "Leiden",
+      "date": "1724-12-18",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Latijnse school",
+      "location": "Leiden",
+      "date": "1741",
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "In 1721 sloeg hij een aanbod uit Franeker af omdat curatoren hem beloofden hoogleraar te maken, op aandrang van prof. Burmannus om te voorkomen dat Tib. Hemsterhuis naar Leiden kwam.",
+      "location": null,
+      "date": "1721",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Agneta",
+      "LastName": "ROOT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Evert",
+      "LastName": "HAVERKAMP",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "HERBERT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Everhard",
+      "LastName": "HAVERKAMP",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1711-09-15",
+      "DeathDate": "1791-04-18",
+      "DeathCity": "Nijmegen"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Gerardus",
+      "LastName": "HAVERKAMP",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leeuwarden",
+  "BirthDate": "1684-12",
+  "DeathDate": "1742-04",
+  "DeathCity": "Leiden"
+}

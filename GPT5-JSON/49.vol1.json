@@ -1,0 +1,341 @@
+{
+  "FirstName": "Antonius",
+  "LastName": "THYSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Anthony"
+  ],
+  "alternative_last_names": [
+    "THISIUS",
+    "TEIJS",
+    "THYS"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs",
+      "location": "Lier",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "Onderwijs",
+      "location": "Dendermonde",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "School van Vulcanius",
+      "location": "Antwerpen",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "Stud. Litt., Phil., en Theol.",
+      "location": "Leiden",
+      "date": "1580",
+      "source": "4"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Neustadt (Academie van Heidelberg)",
+      "date": "1582",
+      "source": "6"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1582-10-05",
+      "source": "4"
+    },
+    {
+      "subject": "Theol. (ingeschreven)",
+      "location": "Gen\u00e8ve",
+      "date": "1583-03-28",
+      "source": "21"
+    },
+    {
+      "subject": "Reis",
+      "location": "Lausanne, Bern, Z\u00fcrich, Basel, Straatsburg",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Theol.",
+      "location": "Heidelberg",
+      "date": "1585-06-03",
+      "source": "21"
+    },
+    {
+      "subject": "Reis langs universiteiten",
+      "location": "Oxford, Cambridge",
+      "date": "1589-1590",
+      "source": "4"
+    },
+    {
+      "subject": "Theol. (ingeschreven)",
+      "location": "Leiden",
+      "date": "1591-02-12",
+      "source": "21"
+    },
+    {
+      "subject": "Reis Duitsland",
+      "location": "Frankfort a/d Oder, Pruisen, Polen, Saksen, Oostzeesteden",
+      "date": "1591-1594",
+      "source": "21"
+    },
+    {
+      "subject": "Opleiding tot predikant",
+      "location": "Staden",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Verblijf (opleiding)",
+      "location": "Emden",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1617-06-13",
+      "source": "9,1"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verblijf",
+      "location": "Groningen",
+      "date": "1594",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hulppredikant",
+      "location": "Amsterdam",
+      "date": "1594",
+      "source": "2,5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Emden",
+      "date": "1594",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Frankrijk (Saumur, Montpellier, Toulouse)",
+      "location": "Frankrijk",
+      "date": "1595-1596",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Frankrijk (Saumur, Montpellier, Toulouse)",
+      "location": "Frankrijk",
+      "date": "1596-1600",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Harderwijk",
+      "date": "1601-08-16",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1619-08-31",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie (dedicatie)",
+      "location": "Leiden",
+      "date": "1619-12-10",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1633-1634",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Deelnemer Provinciale Synodes",
+      "location": "Gelderland",
+      "date": null,
+      "source": "30",
+      "is_side_job": 1
+    },
+    {
+      "job": "Afgevaardigde bij Nationale Synode",
+      "location": "Gelderland",
+      "date": null,
+      "source": "30",
+      "is_side_job": 1
+    },
+    {
+      "job": "Deelnemer Particuliere Synode van Holland",
+      "location": null,
+      "date": null,
+      "source": "30",
+      "is_side_job": 1
+    },
+    {
+      "job": "Vertaler O-Testament",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Raadsheer van de Prins",
+      "location": null,
+      "date": null,
+      "source": "4",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": null,
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "Raet",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "30,4",
+      "second_names": null,
+      "alternative_last_names": [
+        "RAADT"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christoffel",
+      "LastName": "Thijs",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,21",
+      "second_names": [
+        "Christophe"
+      ],
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martha",
+      "LastName": "Gillis",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,21",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "Thijs",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Francois",
+      "LastName": "Bol",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Francoise",
+      "LastName": "Bol",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Anthony",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1603",
+      "DeathDate": "1665-01-25",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Francois",
+      "LastName": "THYSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": null,
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Antwerpen",
+  "BirthDate": "1565-08-09",
+  "DeathDate": "1640-11-07",
+  "DeathCity": "Leiden"
+}

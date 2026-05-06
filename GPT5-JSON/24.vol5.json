@@ -1,0 +1,46 @@
+{
+  "FirstName": "Nicolaus",
+  "LastName": "HASIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1605",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Philosophie (Ethica)",
+      "location": "Leiden",
+      "date": "1614-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek",
+      "location": "Leiden",
+      "date": "1615",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

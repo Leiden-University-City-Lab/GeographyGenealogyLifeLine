@@ -1,0 +1,258 @@
+{
+  "FirstName": "Rudolph",
+  "LastName": "SNELLIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "SNEL VAN ROYEN"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs",
+      "location": "Utrecht",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Hebr., Wisk.",
+      "location": "Keulen",
+      "date": "1561",
+      "source": "3"
+    },
+    {
+      "subject": "Litt.",
+      "location": "Jena",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Litt.",
+      "location": "Wittenberg",
+      "date": "1564-08-08",
+      "source": "19"
+    },
+    {
+      "subject": "Litt.",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Marburg",
+      "date": "1565-09-29",
+      "source": "16"
+    },
+    {
+      "subject": "Mag. Artium",
+      "location": "Marburg",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Med.",
+      "location": "Pisa",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Med.",
+      "location": "Florence",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Med.",
+      "location": "Leiden",
+      "date": "1573-10-26",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Grieks, Latijn en Hebreeuws",
+      "location": "Marburg",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wiskunde",
+      "location": "Leiden",
+      "date": "1579",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Wiskunde",
+      "location": "Leiden",
+      "date": "1581-08-02",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Hebreeuws",
+      "location": "Leiden",
+      "date": "1584-1586",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde",
+      "location": "Leiden",
+      "date": "1601-02-01",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar landgraaf Maurits van Hessen",
+      "location": "Hessen",
+      "date": "1603",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1607",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1610",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Inspecteur Statencollege",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Van Ceulen en Arminius",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Leermeester prins Maurits en Is. Beeckman",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Pieterskerkhof met 22 huurders",
+      "location": null,
+      "date": "1581",
+      "source": "54"
+    },
+    {
+      "particularity": "Later woonachtig in (huidige) Doezastraat",
+      "location": null,
+      "date": null,
+      "source": "29"
+    },
+    {
+      "particularity": "Salaris: f 200",
+      "location": null,
+      "date": "1581",
+      "source": "3,54"
+    },
+    {
+      "particularity": "Salaris: f 300",
+      "location": null,
+      "date": "1583",
+      "source": "3,54"
+    },
+    {
+      "particularity": "Getrouwd te Oudewater",
+      "location": "Oudewater",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Ouders welgesteld",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Machteld",
+      "LastName": "CORNELISD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "SNELLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "SNELLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1572",
+      "DeathDate": "1599-05-17",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Willibrord",
+      "LastName": "SNELLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1580",
+      "DeathDate": "1626-10-30",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Oudewater",
+  "BirthDate": "1546-10-08",
+  "DeathDate": "1613-03-01",
+  "DeathCity": "Leiden"
+}

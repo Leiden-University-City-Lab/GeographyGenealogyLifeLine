@@ -1,0 +1,303 @@
+{
+  "FirstName": "Simon",
+  "LastName": "EPISCOPIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BISSCHOP"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Phil., Theol., en Litt.",
+      "location": "Leiden",
+      "date": "1600",
+      "source": "2,6,8"
+    },
+    {
+      "subject": "Magister artium",
+      "location": "Leiden",
+      "date": "1606-02-27",
+      "source": "6,7"
+    },
+    {
+      "subject": "Magister phil.",
+      "location": "Leiden",
+      "date": "1606-03-14",
+      "source": "38"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1606",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Franeker",
+      "date": "1609-07-05",
+      "source": "12"
+    },
+    {
+      "subject": "Proponentsexamen",
+      "location": null,
+      "date": "1610-09-27",
+      "source": "32"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Bleiswijk",
+      "date": "1610-10-17",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1612-02-08",
+      "source": "c",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie (beroeping)",
+      "location": "Leiden",
+      "date": "1612-02-01",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie (oratie)",
+      "location": "Leiden",
+      "date": "1612-02-23",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Parijs",
+      "location": "Parijs",
+      "date": "1615",
+      "source": "2,c",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afscheidsoratie",
+      "location": "Leiden",
+      "date": "1618-11-13",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag en verbanning",
+      "location": null,
+      "date": "1619-04",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Waalwijk",
+      "date": "1619-07-07",
+      "source": "32,c",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Antwerpen",
+      "date": "1619-08",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Rouen",
+      "date": "1619-08-31",
+      "source": "47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Parijs",
+      "date": null,
+      "source": "32,c",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Keulen",
+      "date": "1621",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Frankrijk",
+      "location": "Frankrijk",
+      "date": "1624",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer",
+      "location": "Rotterdam",
+      "date": "1626",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Remonstrants predikant",
+      "location": "Rotterdam",
+      "date": "1626",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Remonstrants predikant",
+      "location": "Den Haag",
+      "date": "1626",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Remonstrants predikant",
+      "location": "Amsterdam",
+      "date": "1629",
+      "source": "c",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Remonstrants Seminarium",
+      "location": "Amsterdam",
+      "date": "1633-02-27",
+      "source": "47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie Remonstrants Seminarium",
+      "location": "Amsterdam",
+      "date": "1634-10-28",
+      "source": "c",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Haagse Conferentie",
+      "location": null,
+      "date": "1611",
+      "source": "32",
+      "is_side_job": 1
+    },
+    {
+      "job": "Afgevaardigde Nationale Synode Dordrecht",
+      "location": null,
+      "date": "1618",
+      "source": "47",
+      "is_side_job": 1
+    },
+    {
+      "job": "Buitendirecteur Remonstrantse Broederschap",
+      "location": null,
+      "date": "1619",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Gecommitteerde Remonstrantse Broederschap",
+      "location": null,
+      "date": "1634",
+      "source": "c",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Steun studie van oud-burgemeester Cornelis Bennink van Amsterdam",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "c"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "PESSER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,7",
+      "second_names": [
+        "Maertge Jans",
+        "Maritge Pieters P."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1641",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Egbert",
+      "LastName": "BISSCHOP",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Remmetz.",
+        "Remmertsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1547",
+      "DeathDate": "1602",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Rem",
+      "LastName": "BISSCHOP",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Egbertsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "PESSER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [
+        "Dircaxss.",
+        "Dammissz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1583-01-08",
+  "DeathDate": "1643-04-04",
+  "DeathCity": "Amsterdam"
+}

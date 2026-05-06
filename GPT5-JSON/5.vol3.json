@@ -1,0 +1,182 @@
+{
+  "FirstName": "Guilelmus",
+  "LastName": "BONTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Willem"
+  ],
+  "alternative_last_names": [
+    "DE BONDT"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1599-02-10",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1610-03-19",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatdocent",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Rechten (1 jaar proef)",
+      "location": "Leiden",
+      "date": "1614-05-13",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Instituten",
+      "location": "Leiden",
+      "date": "1615-02-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid vroedschap",
+      "location": "Leiden",
+      "date": "1618-10-23",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schout",
+      "location": "Leiden",
+      "date": "1619-07",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Neemt ontslag als Hoogleraar",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Zeer actief bij vervolging Remonstranten",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bespot (o.a. door Vondel) om de begrafenis van zijn hond",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": "Leiden",
+      "date": "1615",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": "Leiden",
+      "date": "1616",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": "Leiden",
+      "date": "1617",
+      "source": "2"
+    },
+    {
+      "particularity": "Ondertrouwd met Maria van Dilsen",
+      "location": "Leiden",
+      "date": "1626-06-05",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "DILSEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gerardus",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1536",
+      "DeathDate": "1599",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "VOORBURCH",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "102, I",
+      "second_names": [
+        "Jansdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": [
+    {
+      "FirstName": "Reinier",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1588",
+  "DeathDate": "1646-10-16",
+  "DeathCity": "Leiden"
+}

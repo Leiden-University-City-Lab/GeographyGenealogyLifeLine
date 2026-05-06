@@ -1,0 +1,134 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "HOLMANNUS SECUNDUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Rostock",
+      "date": "1547-04",
+      "source": "29"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Wittenberg",
+      "date": "1549-05-29",
+      "source": "11"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Huisonderwijzer hertog van Saksen",
+      "location": "Saksen",
+      "date": null,
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Omgeving Staden",
+      "date": null,
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Staden",
+      "date": null,
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1582-07-31",
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1582",
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afgevaardigde Synode",
+      "location": "Den Haag",
+      "date": "1586",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ontslag wegens simonie",
+      "location": "Staden",
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Beke",
+      "LastName": "EDDENDUTTELS",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "HOLMANNUS PRIMUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "HOLMANNUS SECUNDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [
+        "Tertius"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Staden",
+  "BirthDate": "1523",
+  "DeathDate": "1586-12-26",
+  "DeathCity": "Leiden"
+}

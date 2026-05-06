@@ -1,369 +1,543 @@
-#!/usr/bin/env python3  
+#!/usr/bin/env python3
+"""
+JSON → MonetDB importer
+========================
+Reads enriched professor JSON files and generates SQL for:
+  - person (with faculty, gender, birth/death stored directly)
+  - location
+  - event (birth, death, education, career)
+  - relation (spouse, parent, child, in_law, grand_parent, far_family)
+  - enrichment_log (from _wikidata / _openarch metadata)
 
-import argparse  #  for command-line arguments --json-dir and --execute
-import calendar 
-import glob  
-import json  
-import os  
-import re  # regular expressions for date parsing
-import subprocess 
-import sys  
-from datetime import date 
+Usage:
+    # Dry run — writes SQL file only:
+    python import_json.py --json-dir Corrected_JSON
 
-SEEN_LOCATIONS = set()  # Global set used to avoid generating duplicate INSERTs for the same location into the database
+    # Execute directly in MonetDB:
+    python import_json.py --json-dir Corrected_JSON --execute
+"""
 
-# convert a Python string into a SQL-safe string
-def sql_quote(value):  
-    if value is None:  
-        return "NULL" 
-    value = str(value)  
-    return "'" + value.replace("'", "''") + "'"  
+import argparse
+import calendar
+import glob
+import json
+import os
+import re
+import subprocess
+import sys
+from datetime import date
 
-# Normalize text values from JSON before using them
-def clean_text(value):  
-    if value is None:  
-        return None 
-    if not isinstance(value, str):  # convert to string
-        value = str(value)  
-    value = value.strip()  # remove whitespace 
-    if not value:  
-        return None  # return None for values that should be considered unknown.
-    return value 
+# ─── Global dedup sets ────────────────────────────────────────────────────────
 
-
-def safe_date_iso(year, month, day):  # iso data 
-    try:  # try to construct a real calendar date.
-        d = date(int(year), int(month), int(day))  
-        return d.isoformat()  # return iso format
-    except ValueError:  # If the date is invalid (like month 13 or Feb 30)...
-        return None  # return None instead of crashing
-
-# return the last numeric day in a given month/year.
-def last_day_of_month(year, month):  
-    return calendar.monthrange(year, month)[1]  
+SEEN_LOCATIONS = set()   # (country, city) pairs already INSERT-ed
+SEEN_PERSONS   = set()   # (first_name, last_name, affix, alt) tuples already INSERT-ed
 
 
-def normalize_single_date(token):  # convert a single data into a range
-    """
-    Supported:
-      06-03-1698     -> 1698-03-06, 1698-03-06
-      11-1720        -> 1720-11-01, 1720-11-30
-      1740           -> 1740-01-01, 1740-12-31
-      1784-1785      -> 1784-01-01, 1785-12-31
-      1698-03-06     -> 1698-03-06, 1698-03-06   
-      1720-11        -> 1720-11-01, 1720-11-30   
+# ─── SQL helpers ─────────────────────────────────────────────────────────────
 
-    Invalid values return (None, None).
-    """
-    token = clean_text(token)  
-    if token is None:  
-        return None, None  
+def sql_quote(value):
+    if value is None:
+        return "NULL"
+    return "'" + str(value).replace("'", "''") + "'"
 
-    token = token.replace("–", "-").replace("—", "-").strip()  
 
-    # YYYY-MM-DD (ISO format)
+def clean_text(value):
+    if value is None:
+        return None
+    if not isinstance(value, str):
+        value = str(value)
+    value = value.strip()
+    return value or None
+
+
+def normalise_gender(value):
+    """Map any gender string to 'Man', 'Vrouw', or None."""
+    v = clean_text(value)
+    if v is None:
+        return None
+    l = v.lower()
+    if l in ("man", "m", "male", "masculin"):
+        return "Man"
+    if l in ("vrouw", "v", "f", "female", "woman", "feminin"):
+        return "Vrouw"
+    # Unknown / non-binary / other — store as-is but truncate to 50 chars
+    return v[:50]
+
+
+def safe_list(value):
+    return value if isinstance(value, list) else []
+
+
+def safe_dict(value):
+    return value if isinstance(value, dict) else {}
+
+
+# ─── Date normalisation ───────────────────────────────────────────────────────
+
+def safe_date_iso(year, month, day):
+    try:
+        return date(int(year), int(month), int(day)).isoformat()
+    except ValueError:
+        return None
+
+
+def last_day_of_month(year, month):
+    return calendar.monthrange(year, month)[1]
+
+
+def normalize_single_date(token):
+    token = clean_text(token)
+    if token is None:
+        return None, None
+    token = token.replace("–", "-").replace("—", "-").strip()
+
+    # YYYY-MM-DD
     m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", token)
     if m:
-        year, month, day = map(int, m.groups())
-        iso = safe_date_iso(year, month, day)
-        if iso is None:
-            return None, None
-        return iso, iso
+        y, mo, d = map(int, m.groups())
+        iso = safe_date_iso(y, mo, d)
+        return (iso, iso) if iso else (None, None)
 
-    m = re.fullmatch(r"(\d{2})-(\d{2})-(\d{4})", token)  
-    if m:  
-        day, month, year = map(int, m.groups())  
-        iso = safe_date_iso(year, month, day) 
-        if iso is None:  
-            return None, None  
-        return iso, iso 
+    # DD-MM-YYYY
+    m = re.fullmatch(r"(\d{2})-(\d{2})-(\d{4})", token)
+    if m:
+        d, mo, y = map(int, m.groups())
+        iso = safe_date_iso(y, mo, d)
+        return (iso, iso) if iso else (None, None)
 
-    #  YYYY-MM
+    # YYYY-MM
     m = re.fullmatch(r"(\d{4})-(\d{2})", token)
     if m:
-        year, month = map(int, m.groups())
-        if not (1 <= month <= 12):
+        y, mo = map(int, m.groups())
+        if not (1 <= mo <= 12):
             return None, None
-        begin = safe_date_iso(year, month, 1)
-        end = safe_date_iso(year, month, last_day_of_month(year, month))
-        return begin, end
+        return safe_date_iso(y, mo, 1), safe_date_iso(y, mo, last_day_of_month(y, mo))
 
-    m = re.fullmatch(r"(\d{2})-(\d{4})", token)  
-    if m: 
-        month, year = map(int, m.groups()) 
-        if not (1 <= month <= 12):  
-            return None, None  
-        begin = safe_date_iso(year, month, 1) 
-        end = safe_date_iso(year, month, last_day_of_month(year, month))  
-        return begin, end  
+    # MM-YYYY
+    m = re.fullmatch(r"(\d{2})-(\d{4})", token)
+    if m:
+        mo, y = map(int, m.groups())
+        if not (1 <= mo <= 12):
+            return None, None
+        return safe_date_iso(y, mo, 1), safe_date_iso(y, mo, last_day_of_month(y, mo))
 
-    m = re.fullmatch(r"(\d{4})", token)  
-    if m:  
-        year = int(m.group(1))  
-        begin = safe_date_iso(year, 1, 1)  
-        end = safe_date_iso(year, 12, 31)  
-        return begin, end  
+    # YYYY
+    m = re.fullmatch(r"(\d{4})", token)
+    if m:
+        y = int(m.group(1))
+        return safe_date_iso(y, 1, 1), safe_date_iso(y, 12, 31)
 
-    m = re.fullmatch(r"(\d{4})-(\d{4})", token)  
-    if m:  
-        year1, year2 = map(int, m.groups())  
-        if year2 < year1: 
-            return None, None  
-        begin = safe_date_iso(year1, 1, 1)  
-        end = safe_date_iso(year2, 12, 31)  
-        return begin, end  
+    # YYYY-YYYY
+    m = re.fullmatch(r"(\d{4})-(\d{4})", token)
+    if m:
+        y1, y2 = map(int, m.groups())
+        if y2 < y1:
+            return None, None
+        return safe_date_iso(y1, 1, 1), safe_date_iso(y2, 12, 31)
 
-    return None, None  
+    return None, None
 
 
-def normalize_range_date(raw):  # normalize a date that may be a single date or a slash-separated range
-    raw = clean_text(raw)  
-    if raw is None: 
-        return None, None 
-
-    raw = raw.replace("–", "/").replace("—", "/")  # change dashes as range separators, converting them to slash
-
-    if "/" in raw:  
-        left, right = raw.split("/", 1)  
-        b1, e1 = normalize_single_date(left.strip())  
-        b2, e2 = normalize_single_date(right.strip())  
-        begin = b1 or b2  
-        end = e2 or e1  
-        return begin, end  # return the combined range
-
-    return normalize_single_date(raw)  # if there is no separator, just normalize it as a single date token.
+def normalize_range_date(raw):
+    raw = clean_text(raw)
+    if raw is None:
+        return None, None
+    raw = raw.replace("–", "/").replace("—", "/")
+    if "/" in raw:
+        left, right = raw.split("/", 1)
+        b1, _ = normalize_single_date(left.strip())
+        _, e2 = normalize_single_date(right.strip())
+        return b1, e2
+    return normalize_single_date(raw)
 
 
-def person_match_where(person):  # creates a SQL WHERE clause that uniquely identifies a person row
-    clauses = [  
-        f"first_name = {sql_quote(clean_text(person.get('FirstName')))}",  
-        f"last_name = {sql_quote(clean_text(person.get('LastName')))}",  
+# ─── WHERE clause builders ────────────────────────────────────────────────────
+
+def person_where(first, last, affix, alt):
+    """Stable identity key for a person row."""
+    def clause(col, val):
+        return f"{col} IS NULL" if val is None else f"{col} = {sql_quote(val)}"
+    return " AND ".join([
+        clause("first_name",            clean_text(first)),
+        clause("last_name",             clean_text(last)),
+        clause("affix",                 clean_text(affix)),
+        clause("alternative_last_name", clean_text(alt)),
+    ])
+
+
+def location_where(country, city):
+    def clause(col, val):
+        return f"{col} IS NULL" if val is None else f"{col} = {sql_quote(val)}"
+    return " AND ".join([
+        clause("country", clean_text(country)),
+        clause("city",    clean_text(city)),
+    ])
+
+
+# ─── INSERT generators ────────────────────────────────────────────────────────
+
+def add_location(lines, country, city):
+    country = clean_text(country)
+    city    = clean_text(city)
+    if country is None and city is None:
+        return
+    key = (country, city)
+    if key in SEEN_LOCATIONS:
+        return
+    SEEN_LOCATIONS.add(key)
+    where = location_where(country, city)
+    lines.append(
+        "INSERT INTO location (country, city, latitude, longitude) "
+        f"SELECT {sql_quote(country)}, {sql_quote(city)}, NULL, NULL "
+        f"WHERE NOT EXISTS (SELECT 1 FROM location WHERE {where});"
+    )
+
+
+def add_person(lines, first, last, affix=None, alt=None,
+               gender=None, faculty=None, type_of_person=None,
+               birth_begin=None, birth_end=None,
+               birth_city=None, birth_country=None,
+               death_begin=None, death_end=None,
+               death_city=None, death_country=None,
+               wikidata_qid=None, source_file=None):
+    first   = clean_text(first)
+    last    = clean_text(last)
+    affix   = clean_text(affix)
+    alt     = clean_text(alt)
+
+    # Skip truly anonymous entries
+    if first is None and last is None:
+        return
+
+    key = (first, last, affix, alt)
+    if key in SEEN_PERSONS:
+        return
+    SEEN_PERSONS.add(key)
+
+    where = person_where(first, last, affix, alt)
+    lines.append(
+        "INSERT INTO person ("
+        "first_name, last_name, affix, alternative_last_name, "
+        "gender, faculty, type_of_person, "
+        "birth_date_begin, birth_date_end, birth_city, birth_country, "
+        "death_date_begin, death_date_end, death_city, death_country, "
+        "wikidata_qid, source_file"
+        ") SELECT "
+        f"{sql_quote(first)}, {sql_quote(last)}, {sql_quote(affix)}, {sql_quote(alt)}, "
+        f"{sql_quote(gender)}, {sql_quote(faculty)}, "
+        f"{'NULL' if type_of_person is None else int(type_of_person)}, "
+        f"{sql_quote(birth_begin)}, {sql_quote(birth_end)}, "
+        f"{sql_quote(birth_city)}, {sql_quote(birth_country)}, "
+        f"{sql_quote(death_begin)}, {sql_quote(death_end)}, "
+        f"{sql_quote(death_city)}, {sql_quote(death_country)}, "
+        f"{sql_quote(wikidata_qid)}, {sql_quote(source_file)} "
+        f"WHERE NOT EXISTS (SELECT 1 FROM person WHERE {where});"
+    )
+
+
+def add_event(lines, person_first, person_last, person_affix, person_alt,
+              event_type, description, begin_date, end_date,
+              country, city, source_ref=None):
+    if begin_date is None and end_date is None \
+       and clean_text(city) is None and clean_text(country) is None:
+        return
+
+    person_w = person_where(person_first, person_last, person_affix, person_alt)
+    add_location(lines, country, city)
+
+    if clean_text(country) is not None or clean_text(city) is not None:
+        loc_expr = f"(SELECT MIN(location_id) FROM location WHERE {location_where(country, city)})"
+    else:
+        loc_expr = "NULL"
+
+    lines.append(
+        "INSERT INTO event "
+        "(person_id, location_id, event_type_id, begin_date, end_date, description, source_ref) "
+        "VALUES ("
+        f"(SELECT MIN(person_id) FROM person WHERE {person_w}), "
+        f"{loc_expr}, "
+        f"(SELECT event_type_id FROM event_type WHERE event_type_name = {sql_quote(event_type)}), "
+        f"{sql_quote(begin_date)}, {sql_quote(end_date)}, "
+        f"{sql_quote(description)}, {sql_quote(source_ref)}"
+        ");"
+    )
+
+
+def person_where_aliased(first, last, affix, alt, alias):
+    """Same as person_where() but with every column prefixed by a table alias."""
+    def clause(col, val):
+        full_col = f"{alias}.{col}"
+        return f"{full_col} IS NULL" if val is None else f"{full_col} = {sql_quote(val)}"
+    return " AND ".join([
+        clause("first_name",            clean_text(first)),
+        clause("last_name",             clean_text(last)),
+        clause("affix",                 clean_text(affix)),
+        clause("alternative_last_name", clean_text(alt)),
+    ])
+
+
+def add_relation(lines,
+                 prof_first, prof_last, prof_affix, prof_alt,
+                 rel_first, rel_last, rel_affix, rel_alt,
+                 relation_type, source_ref=None):
+    """Insert a relation between the professor and a relative."""
+    rel_first = clean_text(rel_first)
+    rel_last  = clean_text(rel_last)
+    if rel_first is None and rel_last is None:
+        return
+
+    prof_w        = person_where(prof_first, prof_last, prof_affix, prof_alt)
+    rel_w         = person_where(rel_first,  rel_last,  rel_affix,  rel_alt)
+    prof_w_alias  = person_where_aliased(prof_first, prof_last, prof_affix, prof_alt, "p1")
+    rel_w_alias   = person_where_aliased(rel_first,  rel_last,  rel_affix,  rel_alt,  "p2")
+
+    lines.append(
+        "INSERT INTO relation (person_id_1, person_id_2, relation_type_id, source_ref) "
+        "SELECT "
+        f"(SELECT MIN(person_id) FROM person WHERE {prof_w}), "
+        f"(SELECT MIN(person_id) FROM person WHERE {rel_w}), "
+        f"(SELECT relation_type_id FROM relation_type WHERE relation_type_name = {sql_quote(relation_type)}), "
+        f"{sql_quote(source_ref)} "
+        "WHERE NOT EXISTS ("
+        "  SELECT 1 FROM relation r "
+        f" JOIN person p1 ON p1.person_id = r.person_id_1 AND {prof_w_alias} "
+        f" JOIN person p2 ON p2.person_id = r.person_id_2 AND {rel_w_alias} "
+        f" WHERE r.relation_type_id = (SELECT relation_type_id FROM relation_type WHERE relation_type_name = {sql_quote(relation_type)})"
+        ");"
+    )
+
+
+def add_enrichment_log(lines,
+                       prof_first, prof_last, prof_affix, prof_alt,
+                       source, field_name, field_value,
+                       needs_review=False, accepted=None):
+    """Log a field added by the enrichment pipeline."""
+    if clean_text(field_value) is None:
+        return
+    prof_w = person_where(prof_first, prof_last, prof_affix, prof_alt)
+    accepted_sql = "NULL" if accepted is None else ("TRUE" if accepted else "FALSE")
+    lines.append(
+        "INSERT INTO enrichment_log "
+        "(person_id, source, field_name, field_value, needs_review, accepted) "
+        "VALUES ("
+        f"(SELECT MIN(person_id) FROM person WHERE {prof_w}), "
+        f"{sql_quote(source)}, {sql_quote(field_name)}, {sql_quote(str(field_value))}, "
+        f"{'TRUE' if needs_review else 'FALSE'}, {accepted_sql}"
+        ");"
+    )
+
+
+# ─── Per-file logic ───────────────────────────────────────────────────────────
+
+def process_relative(lines, relative, relation_type,
+                     prof_first, prof_last, prof_affix, prof_alt,
+                     source_file):
+    """Insert a relative as a person + create the relation link."""
+    rel = safe_dict(relative)
+    first  = clean_text(rel.get("FirstName"))
+    last   = clean_text(rel.get("LastName"))
+    affix  = clean_text(rel.get("Affix"))
+    alt    = clean_text(rel.get("alternative_last_names") or rel.get("alternative_last_name"))
+    gender = normalise_gender(rel.get("Gender"))
+    source = clean_text(rel.get("source"))
+
+    if first is None and last is None:
+        return
+
+    birth_b, birth_e = normalize_range_date(rel.get("BirthDate"))
+    death_b, death_e = normalize_range_date(rel.get("DeathDate"))
+
+    add_person(lines,
+               first=first, last=last, affix=affix, alt=alt,
+               gender=gender, type_of_person=2,  # 2 = relative
+               birth_begin=birth_b, birth_end=birth_e,
+               birth_city=clean_text(rel.get("BirthCity")),
+               birth_country=clean_text(rel.get("BirthCountry")),
+               death_begin=death_b, death_end=death_e,
+               death_city=clean_text(rel.get("DeathCity")),
+               source_file=source_file)
+
+    add_relation(lines,
+                 prof_first, prof_last, prof_affix, prof_alt,
+                 first, last, affix, alt,
+                 relation_type, source_ref=source)
+
+
+def build_sql_for_file(path, lines):
+    with open(path, "r", encoding="utf-8") as f:
+        person = safe_dict(json.load(f))
+
+    source_file = os.path.basename(path)
+
+    first   = clean_text(person.get("FirstName"))
+    last    = clean_text(person.get("LastName"))
+    affix   = clean_text(person.get("Affix"))
+    alt     = clean_text(person.get("alternative_last_names") or
+                         person.get("alternative_last_name"))
+    gender  = clean_text(person.get("Gender"))
+    faculty = clean_text(person.get("faculty"))
+    top     = person.get("type_of_person")
+
+    birth_b, birth_e = normalize_range_date(person.get("BirthDate"))
+    death_b, death_e = normalize_range_date(person.get("DeathDate"))
+
+    wikidata_qid = None
+    wd = safe_dict(person.get("_wikidata"))
+    if wd.get("found"):
+        wikidata_qid = wd.get("qid")
+
+    # ── Professor row ─────────────────────────────────────────────────────────
+    add_person(lines,
+               first=first, last=last, affix=affix, alt=alt,
+               gender=gender, faculty=faculty, type_of_person=top,
+               birth_begin=birth_b, birth_end=birth_e,
+               birth_city=clean_text(person.get("BirthCity")),
+               birth_country=clean_text(person.get("BirthCountry")),
+               death_begin=death_b, death_end=death_e,
+               death_city=clean_text(person.get("DeathCity")),
+               wikidata_qid=wikidata_qid,
+               source_file=source_file)
+
+    # ── Birth event ───────────────────────────────────────────────────────────
+    add_event(lines, first, last, affix, alt,
+              "birth", "Birth", birth_b, birth_e,
+              person.get("BirthCountry"), person.get("BirthCity"))
+
+    # ── Death event ───────────────────────────────────────────────────────────
+    add_event(lines, first, last, affix, alt,
+              "death", "Death", death_b, death_e,
+              person.get("DeathCountry"), person.get("DeathCity"))
+
+    # ── Education events ──────────────────────────────────────────────────────
+    for edu in safe_list(person.get("education")):
+        edu = safe_dict(edu)
+        b, e = normalize_range_date(edu.get("date"))
+        desc = clean_text(edu.get("subject")) or "Education"
+        add_event(lines, first, last, affix, alt,
+                  "education", desc, b, e,
+                  None, edu.get("location"),
+                  source_ref=clean_text(edu.get("source")))
+
+    # ── Career events ─────────────────────────────────────────────────────────
+    for career in safe_list(person.get("careers")):
+        career = safe_dict(career)
+        b, e = normalize_range_date(career.get("date"))
+        desc = clean_text(career.get("job")) or "Career"
+        add_event(lines, first, last, affix, alt,
+                  "career", desc, b, e,
+                  None, career.get("location"),
+                  source_ref=clean_text(career.get("source")))
+
+    # ── Relatives ─────────────────────────────────────────────────────────────
+    rel_fields = {
+        "spouses":      "spouse",
+        "parents":      "parent",
+        "children":     "child",
+        "in_laws":      "in_law",
+        "grand_parents": "grand_parent",
+        "far_family":   "far_family",
+    }
+    for field, rel_type in rel_fields.items():
+        for relative in safe_list(person.get(field)):
+            process_relative(lines, relative, rel_type,
+                             first, last, affix, alt,
+                             source_file)
+
+    # ── Enrichment log ────────────────────────────────────────────────────────
+    # Wikidata
+    if wd.get("found"):
+        needs_review = bool(wd.get("needs_review"))
+        accepted     = wd.get("accepted")  # True/False/None
+        for field, value in safe_dict(wd.get("fields_added")).items():
+            add_enrichment_log(lines, first, last, affix, alt,
+                               "wikidata", field, value,
+                               needs_review=needs_review, accepted=accepted)
+
+    # Open Archives
+    oa = safe_dict(person.get("_openarch"))
+    if oa.get("found"):
+        needs_review = bool(oa.get("needs_review"))
+        for field, value in safe_dict(oa.get("fields_added")).items():
+            add_enrichment_log(lines, first, last, affix, alt,
+                               "openarchives", field, value,
+                               needs_review=needs_review)
+
+    # Relative enrichment changes
+    rl = safe_dict(person.get("_relatives"))
+    for rel_key, changes in safe_dict(rl.get("changes")).items():
+        for field, value in safe_dict(changes).items():
+            add_enrichment_log(lines, first, last, affix, alt,
+                               "openarchives_relatives",
+                               f"{rel_key}.{field}", value,
+                               needs_review=True)
+
+
+# ─── Runner ───────────────────────────────────────────────────────────────────
+
+def run_mclient(sql_text, database, user):
+    cmd = ["mclient", "-lsql", "-d", database, "-u", user]
+    proc = subprocess.run(cmd, input=sql_text, text=True, capture_output=True)
+    return proc.returncode, proc.stdout, proc.stderr
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Import enriched professor JSONs into MonetDB."
+    )
+    parser.add_argument("--json-dir",    default=".",           help="Folder with JSON files")
+    parser.add_argument("--database",    default="peopledb",    help="MonetDB database name")
+    parser.add_argument("--user",        default="monetdb",     help="MonetDB username")
+    parser.add_argument("--execute",     action="store_true",   help="Run SQL in MonetDB")
+    parser.add_argument("--output-sql",  default="import.sql",  help="Output SQL file")
+    args = parser.parse_args()
+
+    files = sorted(glob.glob(os.path.join(args.json_dir, "*.json")))
+    if not files:
+        print(f"No JSON files found in {args.json_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    lines = [
+        "START TRANSACTION;",
+        # Seed event types
+        "INSERT INTO event_type (event_type_name) SELECT 'birth'     WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'birth');",
+        "INSERT INTO event_type (event_type_name) SELECT 'death'     WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'death');",
+        "INSERT INTO event_type (event_type_name) SELECT 'education' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'education');",
+        "INSERT INTO event_type (event_type_name) SELECT 'career'    WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'career');",
+        # Seed relation types
+        "INSERT INTO relation_type (relation_type_name) SELECT 'spouse'       WHERE NOT EXISTS (SELECT 1 FROM relation_type WHERE relation_type_name = 'spouse');",
+        "INSERT INTO relation_type (relation_type_name) SELECT 'parent'       WHERE NOT EXISTS (SELECT 1 FROM relation_type WHERE relation_type_name = 'parent');",
+        "INSERT INTO relation_type (relation_type_name) SELECT 'child'        WHERE NOT EXISTS (SELECT 1 FROM relation_type WHERE relation_type_name = 'child');",
+        "INSERT INTO relation_type (relation_type_name) SELECT 'in_law'       WHERE NOT EXISTS (SELECT 1 FROM relation_type WHERE relation_type_name = 'in_law');",
+        "INSERT INTO relation_type (relation_type_name) SELECT 'grand_parent' WHERE NOT EXISTS (SELECT 1 FROM relation_type WHERE relation_type_name = 'grand_parent');",
+        "INSERT INTO relation_type (relation_type_name) SELECT 'far_family'   WHERE NOT EXISTS (SELECT 1 FROM relation_type WHERE relation_type_name = 'far_family');",
     ]
 
-    affix = clean_text(person.get("Affix"))  
-    alt = clean_text(  
-        person.get("alternative_last_names")  
-    )
+    skipped = 0
+    for path in files:
+        try:
+            build_sql_for_file(path, lines)
+        except Exception as e:
+            print(f"Warning: skipping {path}: {e}", file=sys.stderr)
+            skipped += 1
 
-    if affix is None:  
-        clauses.append("affix IS NULL")  
-    else:  
-        clauses.append(f"affix = {sql_quote(affix)}")  
+    lines.append("COMMIT;")
+    sql_text = "\n".join(lines) + "\n"
 
-    if alt is None:  
-        clauses.append("alternative_last_name IS NULL") 
-    else: 
-        clauses.append(f"alternative_last_name = {sql_quote(alt)}") 
+    with open(args.output_sql, "w", encoding="utf-8") as f:
+        f.write(sql_text)
 
-    return " AND ".join(clauses)  # combine all conditions into one SQL WHERE clause.
+    print(f"Generated SQL for {len(files) - skipped}/{len(files)} files → {args.output_sql}")
+    if skipped:
+        print(f"  ({skipped} files skipped due to errors — check stderr)")
 
-
-def location_match_where(country, city):  # creates a SQL WHERE clause that identifies a location row.
-    clauses = []  # start an empty list of SQL conditions.
-    country = clean_text(country)  
-    city = clean_text(city)  
-
-    if country is None:  
-        clauses.append("country IS NULL") 
-    else:  
-        clauses.append(f"country = {sql_quote(country)}") 
-
-    if city is None: 
-        clauses.append("city IS NULL")  
-    else:  
-        clauses.append(f"city = {sql_quote(city)}")  
-
-    return " AND ".join(clauses)  # join the conditions into a SQL WHERE clause.
+    if args.execute:
+        code, out, err = run_mclient(sql_text, args.database, args.user)
+        sys.stdout.write(out)
+        sys.stderr.write(err)
+        if code != 0:
+            sys.exit(code)
+        print("Import completed successfully.")
 
 
-def add_location_sql(sql_lines, seen_locations, country, city):  # Add an INSERT for a location if it has not been added yet.
-    country = clean_text(country)  
-    city = clean_text(city)  
-
-    if country is None and city is None:  
-        return  
-
-    key = (country, city)  
-    if key in seen_locations:  # If this location was already handled in this run, do not create another INSERT
-        return  
-    seen_locations.add(key)  # Record that this location has now been seen
-
-    where = location_match_where(country, city)  # Build a WHERE clause to detect an existing DB row
-    sql_lines.append(  
-        "INSERT INTO location (country, city, latitude, longitude) "  
-        f"SELECT {sql_quote(country)}, {sql_quote(city)}, NULL, NULL "  
-        f"WHERE NOT EXISTS (SELECT 1 FROM location WHERE {where});" 
-    )
-
-
-def add_person_sql(sql_lines, person):  # Add SQL to insert a person if they do not already exist
-    first_name = clean_text(person.get("FirstName"))  
-    last_name = clean_text(person.get("LastName"))  
-    affix = clean_text(person.get("Affix"))  
-    alt_last = clean_text(  
-        person.get("alternative_last_names")  
-        or person.get("alternative_last_name")  
-    )
-
-    where = person_match_where(person)  # Build a WHERE clause that identifies this person
-    sql_lines.append(  
-        "INSERT INTO person (first_name, last_name, affix, alternative_last_name) "  
-        f"SELECT {sql_quote(first_name)}, {sql_quote(last_name)}, " 
-        f"{sql_quote(affix)}, {sql_quote(alt_last)} "  
-        f"WHERE NOT EXISTS (SELECT 1 FROM person WHERE {where});"  
-    )
-
-
-def add_event_sql(sql_lines, person, event_type_name, description, begin_date, end_date, country, city):  # Add SQL for a person-related event
-    if (  
-        begin_date is None 
-        and end_date is None  
-        and clean_text(city) is None  
-        and clean_text(country) is None 
-    ):
-        return  
-
-    person_where = person_match_where(person)  
-    add_location_sql(sql_lines, SEEN_LOCATIONS, country, city)  # Ensure the event location exists before inserting the event.
-
-    location_expr = "NULL"  # Default the event's location to NULL
-    if clean_text(country) is not None or clean_text(city) is not None:  
-        loc_where = location_match_where(country, city)  
-        location_expr = f"(SELECT MIN(location_id) FROM location WHERE {loc_where})" 
-
-    sql_lines.append(  
-        "INSERT INTO event (person_id, location_id, event_type_id, begin_date, end_date, description) VALUES ("  
-        f"(SELECT MIN(person_id) FROM person WHERE {person_where}), " 
-        f"{location_expr}, "  
-        f"(SELECT event_type_id FROM event_type WHERE event_type_name = {sql_quote(event_type_name)}), " 
-        f"{sql_quote(begin_date)}, {sql_quote(end_date)}, {sql_quote(description)}" 
-        ");" 
-    )
-
-
-def safe_list(value):  # Return the value only if it is a list; otherwise return an empty list.
-    if isinstance(value, list):  
-        return value  
-    return []  # Non-lists are replaced with an empty list to avoid iteration errors.
-
-
-def safe_dict(value):  # Return the value only if it is a dict; otherwise return an empty dict.
-    if isinstance(value, dict):  
-        return value  
-    return {}  # Non-dicts are replaced with an empty dict to avoid key access errors.
-
-
-def build_sql_for_file(path, sql_lines):  # Read one JSON file and append corresponding SQL statements.
-    with open(path, "r", encoding="utf-8") as f:  
-        person = json.load(f)  # Parse the JSON file into a Python object.
-
-    person = safe_dict(person)  # Ensure the top-level JSON object is a dictionary
-    add_person_sql(sql_lines, person)  # Generate SQL to insert the person row
-
-    birth_begin, birth_end = normalize_range_date(person.get("BirthDate"))  
-    add_event_sql(  # Generate a birth event.
-        sql_lines,  
-        person,  
-        "birth", 
-        "Birth",  
-        birth_begin,  
-        birth_end,  
-        person.get("BirthCountry"), 
-        person.get("BirthCity"), 
-    )
-
-    death_begin, death_end = normalize_range_date(person.get("DeathDate"))  
-    add_event_sql(  # Generate a death event.
-        sql_lines,  
-        person,  
-        "death",  
-        "Death",  
-        death_begin,  
-        death_end,  
-        person.get("DeathCountry"),  
-        person.get("DeathCity"),  
-    )
-
-    for edu in safe_list(person.get("education")):  # Loop over each education record
-        edu = safe_dict(edu)  # Ensure the education entry is a dictionary
-        begin_date, end_date = normalize_range_date(edu.get("date"))  
-        description = clean_text(edu.get("subject")) or "Education"  # Use the subject as description, or a default label
-        add_event_sql(  # Generate an education event.
-            sql_lines, 
-            person,  
-            "education", 
-            description,  
-            begin_date, 
-            end_date, 
-            None,  
-            edu.get("location"),  
-        )
-
-    for career in safe_list(person.get("careers")):  # Loop over each career record 
-        career = safe_dict(career)  # Ensure the career entry is a dictionary
-        begin_date, end_date = normalize_range_date(career.get("date"))  
-        description = clean_text(career.get("job")) or "Career"  
-        add_event_sql(  # Generate a career event
-            sql_lines,  
-            person,  
-            "career",  
-            description,  
-            begin_date,  
-            end_date,  
-            None,  
-            career.get("location"),  # Use the location field as city/place.
-        )
-
-
-def run_mclient(sql_text, database, user):  # Execute SQL text directly in MonetDB using mclient
-    cmd = ["mclient", "-lsql", "-d", database, "-u", user]  # build the shell command as a list of arguments.
-    proc = subprocess.run(cmd, input=sql_text, text=True, capture_output=True)  # run mclient and send SQL to stdin
-    return proc.returncode, proc.stdout, proc.stderr 
-
-
-def main(): 
-    parser = argparse.ArgumentParser(  
-        description="Import people + selected events from JSON into MonetDB." 
-    )
-    parser.add_argument("--json-dir", default=".")  
-    parser.add_argument("--database", default="peopledb")  
-    parser.add_argument("--user", default="monetdb")  
-    parser.add_argument("--execute", action="store_true")  
-    parser.add_argument("--output-sql", default="import_people_events.sql")  
-    args = parser.parse_args()  # Parse the actual command-line arguments into an args object.
-
-    files = sorted(glob.glob(os.path.join(args.json_dir, "*.json")))  # Find all JSON files in the chosen directory and sort them
-    if not files: 
-        print(f"No JSON files found in {args.json_dir}", file=sys.stderr) 
-        sys.exit(1)  
-
-    sql_lines = [  # Start building the SQL script as a list of lines.
-        "START TRANSACTION;",  # Begin a transaction so all changes can be committed together
-        "INSERT INTO event_type (event_type_name) SELECT 'birth' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'birth');",  # Ensure 'birth' exists in event_type.
-        "INSERT INTO event_type (event_type_name) SELECT 'death' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'death');",  # Ensure 'death' exists in event_type.
-        "INSERT INTO event_type (event_type_name) SELECT 'education' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'education');",  # Ensure 'education' exists in event_type.
-        "INSERT INTO event_type (event_type_name) SELECT 'career' WHERE NOT EXISTS (SELECT 1 FROM event_type WHERE event_type_name = 'career');",  # Ensure 'career' exists in event_type.
-    ]
-
-    for path in files:  # Process each discovered JSON file one by one
-        build_sql_for_file(path, sql_lines)  
-
-    sql_lines.append("COMMIT;")  # commit the transaction
-    sql_text = "\n".join(sql_lines) + "\n"  
-
-    with open(args.output_sql, "w", encoding="utf-8") as f:  
-        f.write(sql_text)  
-
-    print(f"Generated SQL for {len(files)} JSON files -> {args.output_sql}") 
-
-    if args.execute: 
-        code, out, err = run_mclient(sql_text, args.database, args.user)  
-        sys.stdout.write(out)  
-        sys.stderr.write(err)  
-        if code != 0:  
-            sys.exit(code)  
-        print("Import completed successfully.")  
-
-
-if __name__ == "__main__":  
-    main()  
+if __name__ == "__main__":
+    main()

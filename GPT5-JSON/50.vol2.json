@@ -1,0 +1,347 @@
+{
+  "FirstName": "Adolphus",
+  "LastName": "VORSTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Leiden",
+      "date": null,
+      "source": "1"
+    },
+    {
+      "subject": "Grieks en Oosterse Talen",
+      "location": "Leiden",
+      "date": "1612-01-10",
+      "source": "1,3"
+    },
+    {
+      "subject": "Botanie",
+      "location": "Leiden",
+      "date": "1612-01-10",
+      "source": "20"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Belgi\u00eb, Engeland, Frankrijk, Itali\u00eb",
+      "date": "1620",
+      "source": "1"
+    },
+    {
+      "subject": "Botanie",
+      "location": "Bleis",
+      "date": null,
+      "source": "1"
+    },
+    {
+      "subject": "Med.",
+      "location": "Padua",
+      "date": "1621-06-15",
+      "source": "23"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Padua",
+      "date": "1622-08-29",
+      "source": "1"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Censiliarius Bohemicus (bibliothecaris)",
+      "location": "Padua",
+      "date": null,
+      "source": "43",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1624-02-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1625-05-13",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bestuur Medische Instituten",
+      "location": "Leiden",
+      "date": null,
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kruidkunde en bestuur Hortus",
+      "location": "Leiden",
+      "date": null,
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Aphorismi Hippocratis",
+      "location": "Leiden",
+      "date": "1648",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Promotie bij A. Spigelius",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Beschermeling van Marcus Maurolenus, gezant van Veneti\u00eb, en de gravin van Meurs",
+      "location": null,
+      "date": null,
+      "source": "75"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "Meulen",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Aelius",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1,19",
+      "second_names": [
+        "Everhardus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1565",
+      "DeathDate": "1624",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruyt",
+      "LastName": "Voorst",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "Schaeria",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "Meulen",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hester",
+      "LastName": "Faille",
+      "Affix": "de la",
+      "Gender": "Vrouw",
+      "source": "48",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Everardus",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1627-09-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1628-09-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruyd",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1630-01-04",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hester",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1633-02-25",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Everard",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1633-04-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1635-04-25",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1636-12-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Constantia",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1639-12-28",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Delft",
+  "BirthDate": "1597-11-18",
+  "DeathDate": "1663-10-06",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,322 @@
+{
+  "FirstName": "Aelius Everhardus",
+  "LastName": "VORSTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "FORSTIUS"
+  ],
+  "education": [
+    {
+      "subject": "Verblijf",
+      "location": "Venlo",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Verblijf",
+      "location": "Derdrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1580-04-28",
+      "source": "2,3"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Heidelberg",
+      "date": "1586-01-18",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Keulen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Itali\u00eb",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Ferrara",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Bologna",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Padua",
+      "date": "1587-05-18",
+      "source": "23"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Padua",
+      "date": null,
+      "source": "1,2,3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Consiliarius Behemicus (bibliethecaris)",
+      "location": "Padua",
+      "date": null,
+      "source": "23",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts Nicolaas Grana, bisschop van Angoia",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts Fabricie Pignatelli, markgraaf van duercetco",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts (als opvolger van Forestus, zie eerder)",
+      "location": "Delft",
+      "date": "1596",
+      "source": "2,74",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoeon Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": "1598-11-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoegleraar Genees- en Natuurkunde",
+      "location": "Leiden",
+      "date": "1599-09-22",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Kruidkunde en bestuur Hertus",
+      "location": "Leiden",
+      "date": "1617-05-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1609",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1612",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1621",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Beoefenaar Numismatiek en Heraldiek",
+      "location": null,
+      "date": null,
+      "source": "1,3"
+    },
+    {
+      "particularity": "Betrokken bij plannen tot droogmalen Haarlemmermeer",
+      "location": null,
+      "date": null,
+      "source": "74"
+    },
+    {
+      "particularity": "Woont Pieterskerkgracht",
+      "location": null,
+      "date": null,
+      "source": "51"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1598",
+      "source": "74"
+    },
+    {
+      "particularity": "Salaris: f 700",
+      "location": null,
+      "date": "1602",
+      "source": "74"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": "1605",
+      "source": "74"
+    },
+    {
+      "particularity": "Salaris: f 900",
+      "location": null,
+      "date": "1613",
+      "source": "74"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1623",
+      "source": "74"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruyt",
+      "LastName": "VEORST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "SCHAERIA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Pieternella",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josephus",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josijntje",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sibilla",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adolphus",
+      "LastName": "VORSTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1597-11-18",
+      "DeathDate": "1663-10-06",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Roermond",
+  "BirthDate": "1565-09-26",
+  "DeathDate": "1624-10-22",
+  "DeathCity": "Leiden"
+}

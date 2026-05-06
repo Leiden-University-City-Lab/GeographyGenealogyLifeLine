@@ -1,0 +1,191 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "DAMMAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Praeceptor zonen Jan van Nassau",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schoolmeester en ouderling",
+      "location": "Keulen",
+      "date": "1574-1577",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris en stadscommissaris",
+      "location": "Gent",
+      "date": "1577-1580",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Antwerpen",
+      "date": "1577-1580",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vlucht naar Engeland",
+      "location": "Engeland",
+      "date": "1584",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Zonder machtiging colleges",
+      "location": "Leiden",
+      "date": "1585",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon hoogleraar Wijsbegeerte (Zedekunde)",
+      "location": "Leiden",
+      "date": "1586-05-31",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1588-07-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek naar Duitsland",
+      "location": "Duitsland",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevangen door Duinkerker kapers",
+      "location": "Duinkerken",
+      "date": "1593-1594",
+      "source": "70",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ambassadeur Staten-Generaal",
+      "location": "Edinburgh",
+      "date": "1594-1599",
+      "source": "70",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Holland",
+      "location": "Holland",
+      "date": "1599",
+      "source": "70",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ambassadeur in Schotland",
+      "location": "Edinburgh",
+      "date": "1599-1606",
+      "source": "70",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Bijsterveld",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Ridder van Fairhill",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "In 1584 uit Engeland gehaald door Van der Does en Buys, mede op aanraden van graaf Willem Lodewijk, zijn leerling.",
+      "location": null,
+      "date": "1584",
+      "source": "82"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": "Leiden",
+      "date": "1586",
+      "source": null
+    },
+    {
+      "particularity": "Overleden v\u00f3\u00f3r 01-04-1606",
+      "location": "Edinburgh",
+      "date": "1606-04-01",
+      "source": "70"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Margaret",
+      "LastName": "STUART",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "70",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Theophnilus",
+      "LastName": "DAMMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Zebedeus",
+      "LastName": "DAMMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Wijsbegeerte",
+  "BirthCountry": null,
+  "BirthCity": "Limberg",
+  "BirthDate": null,
+  "DeathDate": "1606-04-01",
+  "DeathCity": "Edinburgh"
+}

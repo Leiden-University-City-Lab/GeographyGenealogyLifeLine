@@ -1,0 +1,517 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "DE BEVEREN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse School (Vossius)",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1612-02-22",
+      "source": "9"
+    },
+    {
+      "subject": "Reis Frankrijk, Duitsland",
+      "location": null,
+      "date": "1612",
+      "source": "3"
+    },
+    {
+      "subject": "Reis Zwitserland",
+      "location": "Zwitserland",
+      "date": "1613",
+      "source": "3"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Orl\u00e9ans",
+      "date": "1613",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Rentmeester-Generaal",
+      "location": "Zuid-Holland",
+      "date": "1617-1652",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Vroedschap",
+      "location": "Dordrecht",
+      "date": "1622",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Dordrecht",
+      "date": "1622",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitenvader Oudemannenhuis",
+      "location": "Dordrecht",
+      "date": "1625",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kolonel Burgerij",
+      "location": "Dordrecht",
+      "date": "1626",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Dordrecht",
+      "date": "1627-1628",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitenvader Broodzusters",
+      "location": "Dordrecht",
+      "date": "1627",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Latijnse school",
+      "location": "Dordrecht",
+      "date": "1627",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schutmeester Voetboog",
+      "location": "Dordrecht",
+      "date": "1627",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten van Holland",
+      "location": "Den Haag",
+      "date": null,
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Denemarken en Hamburg",
+      "location": "Denemarken, Hamburg",
+      "date": "1631-1632",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitenvader Heilige Geesthuis",
+      "location": "Dordrecht",
+      "date": "1632",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Dordrecht",
+      "date": "1637-1638",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Weesmeester",
+      "location": "Dordrecht",
+      "date": "1638-1639",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gecommitteerde ten beleide",
+      "location": "Den Haag",
+      "date": "1638",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten-Generaal",
+      "location": "Den Haag",
+      "date": "1642",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Dijkgraaf Zwijndrechterwaard",
+      "location": "Zwijndrechterwaard",
+      "date": null,
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Dordrecht",
+      "date": "1641-1643",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1643-1644",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Dordrecht",
+      "date": "1645-1646",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gecommitteerde ten beleide",
+      "location": "Den Haag",
+      "date": "1646-1647",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Curator",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Strevelshoek, West-Ysselmonde, Develstein en de Lindt",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christina",
+      "LastName": "PIJLL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1601-08",
+      "DeathDate": "1652-05-09",
+      "DeathCity": "Dordrecht"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "BEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1556",
+      "DeathDate": "1631",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Emmerentia",
+      "LastName": "EYNDE",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1565",
+      "DeathDate": "1632",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "HEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1524",
+      "DeathDate": "1586",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "VALK",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Karel",
+      "LastName": "EYNDE",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mabelia",
+      "LastName": "COOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Adriaansd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johan",
+      "LastName": "PIJLL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,14",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mondina",
+      "LastName": "JONG",
+      "Affix": "'t",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Adriaansd."
+      ],
+      "alternative_last_names": [
+        "JUNIUS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1618-04-01",
+      "DeathDate": "1678-08-02",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Emerentia",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1619-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christina",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1621-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mondina",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1622-06-09",
+      "DeathDate": "1651-11-02",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1624-11-12",
+      "DeathDate": "1672-05-31",
+      "DeathCity": "Texel"
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1626-07-29",
+      "DeathDate": "1673-09-06",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Christina",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1631-03-06",
+      "DeathDate": "1656-10-17",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1634-07",
+      "DeathDate": "1689-09-30",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Carel",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1636-03-09",
+      "DeathDate": "1653-08-11",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "DE BEVEREN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1637-07-26",
+      "DeathDate": "1638-05-07",
+      "DeathCity": "Dordrecht"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Dordrecht",
+  "BirthDate": "1591",
+  "DeathDate": "1663-07-17",
+  "DeathCity": "Dordrecht"
+}

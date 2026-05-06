@@ -1,0 +1,487 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "MUSSCHENBROEK",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Leiden",
+      "date": "1708-03-14",
+      "source": "28,42"
+    },
+    {
+      "subject": "Stud. Wis. Nat. Med.",
+      "location": "Leiden",
+      "date": "1704-03-05",
+      "source": "14"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1715-11-12",
+      "source": "15"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Duisburg",
+      "date": "1719-07-28",
+      "source": "42"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Engeland",
+      "location": "Engeland",
+      "date": "1717",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Duisburg",
+      "date": "1719-10-23",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde",
+      "location": "Duisburg",
+      "date": "1741",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Utrecht",
+      "date": "1723-06-07",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Sterrekunde",
+      "location": "Utrecht",
+      "date": "1732",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1729",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1739-12-15",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1740-01-25",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontheven van proefondervindelijke wijsbegeerte",
+      "location": "Leiden",
+      "date": "1744-06-08",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Med. De asris praesentia in humoribus animalibus, bij prof. Rau",
+      "location": null,
+      "date": null,
+      "source": "42"
+    },
+    {
+      "particularity": "Frederik Willem I van Pruisen haalt hem naar Duisburg",
+      "location": null,
+      "date": null,
+      "source": "42"
+    },
+    {
+      "particularity": "Utrechts stadsbestuur moet veel moeite doen hem los te krijgen bij de magistraat te Duisburg",
+      "location": null,
+      "date": null,
+      "source": "37"
+    },
+    {
+      "particularity": "Aanbiedingen uit Kopenhagen (1732), G\u00f6ttingen (1734 ad f6000), Berlijn (1740), Utrecht (1750/51 ad f2000), Spanje (1753 ad f25.000) afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "42"
+    },
+    {
+      "particularity": "Lid van Hollandse Maatschappij der Wetenschappen (Amsterdam), Acad\u00e9mie Royale des Sciences (Parijs), Royal Society (Londen), Akademie der Wissenschaften (Berlijn), academies te Stockholm, St. Petersburg, Bologna, Montpellier",
+      "location": null,
+      "date": null,
+      "source": "42"
+    },
+    {
+      "particularity": "Woont Pieterskerkkoorsteeg 36",
+      "location": "Leiden",
+      "date": null,
+      "source": "24"
+    },
+    {
+      "particularity": "Salaris: f600 (Duisburg), f1000 (1723), f1700 (1739)",
+      "location": null,
+      "date": null,
+      "source": "28,37"
+    },
+    {
+      "particularity": "Onderwees Willem IV 1727-1729",
+      "location": null,
+      "date": null,
+      "source": "55"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "WATER",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "a,28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1694-01-19",
+      "DeathDate": "1732-05-08",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Helena",
+      "LastName": "ALSTORPHIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "28,42",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1692-06-12",
+      "DeathDate": "1760",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "MUSSCHENBROEK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1660",
+      "DeathDate": "1707",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "STRAETEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1659",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Joost",
+      "LastName": "MUSSCHENBROEK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "23",
+      "second_names": [
+        "Adriaensz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1614",
+      "DeathDate": "1693",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maijke",
+      "LastName": "MIDDELEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "28,53",
+      "second_names": [
+        "Samuelsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1617",
+      "DeathDate": "1685",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "STRAETEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "GOODSCHALK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Willem",
+      "LastName": "WATER",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1659",
+      "DeathDate": "1728",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "OUZEEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1656",
+      "DeathDate": "1739",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "ALSTORPHIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Helena",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Maria",
+      "LastName": "MUSSCHENBROEK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1725-05-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan Willem",
+      "LastName": "MUSSCHENBROEK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1729-07-06",
+      "DeathDate": "1807-06-05",
+      "DeathCity": "Utrecht"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Jan",
+      "LastName": "MUSSCHENBROEK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "28,42",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "MUSSCHENBROEK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "WATER",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "ALSTORPHIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "ALSTORPHIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ernst Willem",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Ortwinus",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Samuel",
+      "LastName": "LUCHTMANS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1692-03-14",
+  "DeathDate": "1761-09-19",
+  "DeathCity": "Leiden"
+}

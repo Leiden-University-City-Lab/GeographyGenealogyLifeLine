@@ -1,0 +1,297 @@
+{
+  "FirstName": "Wigbold",
+  "LastName": "DOES",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [
+    "Johan",
+    "Theodoor"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1743-09-12",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Drost en kastelein",
+      "location": "Heusden",
+      "date": "1751",
+      "source": "a,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Commissaris-Generaal \u2019s Lands Posterijen",
+      "location": null,
+      "date": "1752",
+      "source": "a,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap van Holland",
+      "location": "Den Haag",
+      "date": "1755",
+      "source": "a,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Raad van State",
+      "location": "Den Haag",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Baljuw en dijkgraaf van Rijnland",
+      "location": "Leiden",
+      "date": "1780",
+      "source": "a,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Baljuw en schout",
+      "location": "Den Haag",
+      "date": null,
+      "source": "a,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1781",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1781-06-29",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofdingeland Delfland",
+      "location": "Delft",
+      "date": null,
+      "source": "3,a,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Luitenant-Houtvester van Holland",
+      "location": null,
+      "date": "1785",
+      "source": "3,a,21",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Titel: baron, heer van Noordwijk, Langeveld en Offem",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Huwelijk met Wilhelmina Margaretha barones van Wassenaer",
+      "location": "Den Haag",
+      "date": "1751-10-31",
+      "source": "21"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "WASSENAER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "21",
+      "second_names": [
+        "Margaretha"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Bosch",
+      "BirthDate": "1723-06-11",
+      "DeathDate": "1789-03-06",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Steven",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodora",
+      "LastName": "DOYS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [
+        "Odilia"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1707",
+      "DeathDate": "1774",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Wigbold",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1676",
+      "DeathDate": "1725",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "REEDE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [
+        "Henriette"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "DOYS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [
+        "Maurits"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "FRIESHEIM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Carel",
+      "LastName": "WASSENAER",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "21",
+      "second_names": [
+        "Lodewijk"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1685",
+      "DeathDate": "1751",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "VILLATES",
+      "Affix": "des",
+      "Gender": "Vrouw",
+      "source": "21",
+      "second_names": [
+        "Louise"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Theodora",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Odilia",
+        "Carolina",
+        "Ludovica"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1758-04-12",
+      "DeathDate": "1793-05-03",
+      "DeathCity": "Den Bosch"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Jacoba",
+        "Herbertina",
+        "Mauritia"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1763-10-07",
+      "DeathDate": "1815-01-22",
+      "DeathCity": "Rijssel"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Den Haag",
+  "BirthDate": "1726-07-20",
+  "DeathDate": "1787-03-31",
+  "DeathCity": "Den Haag"
+}

@@ -1,0 +1,404 @@
+{
+  "FirstName": "Lambert",
+  "LastName": "DANEAU",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Lambertus"
+  ],
+  "alternative_last_names": [
+    "DANAEUS",
+    "D'ANEAU",
+    "D'ANAEUS"
+  ],
+  "education": [
+    {
+      "subject": "School",
+      "location": "Orl\u00e9ans",
+      "date": "1543",
+      "source": "a"
+    },
+    {
+      "subject": "Coll\u00e8ge Royal",
+      "location": "Parijs",
+      "date": "1546-1548",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Jur.",
+      "location": "Orl\u00e9ans",
+      "date": "1552",
+      "source": "a"
+    },
+    {
+      "subject": "Lic. Jur.",
+      "location": "Orl\u00e9ans",
+      "date": "1557-11-20",
+      "source": "b"
+    },
+    {
+      "subject": "Verblijf",
+      "location": "Bourges",
+      "date": "1558-1559",
+      "source": "a"
+    },
+    {
+      "subject": "Doct. Jur.",
+      "location": "Bourges",
+      "date": "1559-01-08",
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1560-04-24",
+      "source": "10,48"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Orl\u00e9ans",
+      "date": "1560-04",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Phil.",
+      "location": "Gen\u00e8ve",
+      "date": "1560",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Gien (bij Orl\u00e9ans)",
+      "date": "1561",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Vandoeuvres (bij Gen\u00e8ve)",
+      "date": "1572-09",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Theol.",
+      "location": "Gen\u00e8ve",
+      "date": null,
+      "source": "a,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "St. Pierre",
+      "date": "1574-06-25",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1574-07-25/1581-02-08",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1581-03-16",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag genomen",
+      "location": "Leiden",
+      "date": "1582",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek",
+      "location": null,
+      "date": "1583-05-20",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Waalse Gem. Leiden",
+      "date": "1581-03-26/1582-11",
+      "source": "2,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. (Athenaeum) en Pred.",
+      "location": "Gent",
+      "date": "tot 1583-05-07",
+      "source": "6,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. en Pred.",
+      "location": "Orthez",
+      "date": "1583/07-1588",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. en Pred.",
+      "location": "Lescar",
+      "date": "1591/1593-10-29",
+      "source": "2,70",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stichter en Hoogl. Theol., Theol. School en Pred.",
+      "location": "Castres",
+      "date": "1593-10-29",
+      "source": "10",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": null,
+      "source": "a,10"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jeanne",
+      "LastName": "COUDRECEAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Claude",
+      "LastName": "PEGUY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b,10",
+      "second_names": [],
+      "alternative_last_names": [
+        "P\u00c9GUY",
+        "PIGNEY"
+      ],
+      "BirthCountry": null,
+      "BirthCity": "Gen\u00e8ve",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Lambert",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1543",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agn\u00e8s",
+      "LastName": "BRACHET",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Michel",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jaquette",
+      "LastName": "COMPAIN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jean",
+      "LastName": "PEGUY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anne-Mariette",
+      "LastName": "JUMEAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jean",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1586-05-02",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Samuel",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1574",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1577",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anne",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1579-06-29",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanne",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1581",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Th\u00e9odore",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585-03-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josdas",
+      "LastName": "DANEAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1587-12-07",
+      "DeathDate": "1644",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Beaugency-sur-Loire",
+  "BirthDate": "1530",
+  "DeathDate": "1595-11-11",
+  "DeathCity": "Castres (Languedoc)"
+}

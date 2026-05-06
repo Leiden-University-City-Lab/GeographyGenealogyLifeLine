@@ -1,0 +1,323 @@
+{
+  "FirstName": "David",
+  "LastName": "VAN ROYEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1711-03-20",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1720-02-05",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Griffier",
+      "location": "Leiden",
+      "date": "1721",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1725",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad",
+      "location": "Leiden",
+      "date": "1728",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris",
+      "location": "Leiden",
+      "date": "1732",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk Bibliothecaris Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1741",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris",
+      "location": "Leiden",
+      "date": "1749-06-18",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Secretaris Curatoren (op eigen verzoek)",
+      "location": "Leiden",
+      "date": "1753",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Raad van State",
+      "location": "Den Haag",
+      "date": "1758",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rentmeester kapittel van Hogelande",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De finibus regundis",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "VAN DEN BERGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1700-09-04",
+      "DeathDate": "1779-12-31",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "VAN GROENENDYCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1737",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "David",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1626",
+      "DeathDate": "1679",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomina",
+      "LastName": "LE PLA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1647",
+      "DeathDate": "1681",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "GROENENDYCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1635",
+      "DeathDate": "1716",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "DE LA COURT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1642",
+      "DeathDate": "1704",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johan",
+      "LastName": "VAN DEN BERGH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1664",
+      "DeathDate": "1755",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "VAN TEYLINGEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Dochter",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "0",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1726-11-26",
+      "DeathDate": "1783-02-02",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "David",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "70",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1727-12-30",
+      "DeathDate": "1799-04-29",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1730-02-03",
+      "DeathDate": "1750",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Cornelia Anna",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1733-12-24",
+      "DeathDate": "1759-12-03",
+      "DeathCity": "Haarlem"
+    },
+    {
+      "FirstName": "Hesther Glaudina",
+      "LastName": "VAN ROYEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "20",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1739-10-10",
+      "DeathDate": "1789-04-02",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1699-04-05",
+  "DeathDate": "1764-02-22",
+  "DeathCity": "Leiden"
+}

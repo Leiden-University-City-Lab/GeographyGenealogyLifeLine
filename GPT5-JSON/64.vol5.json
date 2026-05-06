@@ -1,0 +1,64 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "SWARTENHENGST",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Weeshuis",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "1"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1664-05-01",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": "1670-04-22",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1672-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afgezet wegens Cartesianisme en opruiing",
+      "location": "Leiden",
+      "date": "1672-12-18",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Alkmaar",
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

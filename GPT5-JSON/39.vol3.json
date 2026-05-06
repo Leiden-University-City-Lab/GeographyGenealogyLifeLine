@@ -1,0 +1,75 @@
+{
+  "FirstName": "Cornelius",
+  "LastName": "SYLVIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BOSCH"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1604-10-14",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1608",
+      "source": "26b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Instituten)",
+      "location": "Leiden",
+      "date": "1615-02-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag (als Remonstrant)",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ten onrechte verdacht van medeplichtigheid bij aanslag op prins Maurits",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Rotterdam",
+  "BirthDate": "1586",
+  "DeathDate": "1650",
+  "DeathCity": "Den Haag"
+}

@@ -1,0 +1,202 @@
+{
+  "FirstName": "Frans",
+  "LastName": "VAN SCHOOTEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Opleiding tot landmeter",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Nederduitsche mathematique en wiskunde",
+      "location": "Leiden",
+      "date": "1611",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Nederduitsche mathematique en wiskunde",
+      "location": "Leiden",
+      "date": "1617-02-15",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Volgt leger te velde in de zomer als ingenieur",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Met Golius arbiter in zaak Descartes vs. Stampioen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Benoemd ondanks voorkeur Maurits voor Marolois",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 350",
+      "location": null,
+      "date": "1615",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1627",
+      "source": null
+    },
+    {
+      "particularity": "Woont Rapenburg 38",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Geboortejaar 1581 of 1582",
+      "location": "Nieuwkerke",
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jannetje",
+      "LastName": "VAN HOOGERVORST",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Hermansd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1594",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "VAN SCHOOTEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Claes",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Pietersz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Neeltje",
+      "LastName": "SIMONSD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Frans",
+      "LastName": "VAN SCHOOTEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1615",
+      "DeathDate": "1660-05-29",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Petrus",
+      "LastName": "VAN SCHOOTEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1634-02-22",
+      "DeathDate": "1679-11-30",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Nieuwkerke",
+  "BirthDate": null,
+  "DeathDate": "1645-12-11",
+  "DeathCity": "Leiden"
+}

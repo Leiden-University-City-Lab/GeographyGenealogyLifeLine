@@ -1,0 +1,362 @@
+{
+  "FirstName": "Franciscus",
+  "LastName": "DE LA BO\u00cb SYLVIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Lager onderwijs",
+      "location": "Sedan",
+      "date": null,
+      "source": "28"
+    },
+    {
+      "subject": "Stud. Phil.",
+      "location": "Sedan",
+      "date": null,
+      "source": "28"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Sedan",
+      "date": null,
+      "source": "28"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1633-1635",
+      "source": "28"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Duitsland",
+      "date": null,
+      "source": "28"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Itali\u00eb",
+      "date": null,
+      "source": "28"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Z\u00fcrich",
+      "date": null,
+      "source": "28"
+    },
+    {
+      "subject": "Doct. med.",
+      "location": "Basel",
+      "date": "1637-03-16",
+      "source": "7"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Hanau",
+      "date": "1637-1638",
+      "source": "28",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1638-11-17",
+      "source": "20",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent Ontleedkunde",
+      "location": "Leiden",
+      "date": "1639-1641",
+      "source": "28",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts Waalse diaconie",
+      "location": "Amsterdam",
+      "date": "1641-1658",
+      "source": "28",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Praktische Geneeskunde",
+      "location": "Leiden",
+      "date": "1658-04-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Scheikunde",
+      "location": "Leiden",
+      "date": "1666-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1669-1670",
+      "source": "99",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toeziener van het Genootschap der geneesheren",
+      "location": "Amsterdam",
+      "date": "1651",
+      "source": "28",
+      "is_side_job": 1
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "28",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. (disputatio medica) De animali motu eiusque laesionibus bij Emanuel Stupanus",
+      "location": null,
+      "date": null,
+      "source": "28"
+    },
+    {
+      "particularity": "Kent Cosimo III de Medici en Descartes",
+      "location": null,
+      "date": null,
+      "source": "28,79"
+    },
+    {
+      "particularity": "Woont Rapenburg nr. 31 (later huis van Boerhaave)",
+      "location": "Leiden",
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f 1900,-",
+      "location": null,
+      "date": "1658",
+      "source": "28"
+    },
+    {
+      "particularity": "Salaris: f 2000,-",
+      "location": null,
+      "date": "1663",
+      "source": "28"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "DE LIGNE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1627",
+      "DeathDate": "1657",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena Lucretia",
+      "LastName": "SCHLETZER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Kleef",
+      "BirthDate": null,
+      "DeathDate": "1669-03-08",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Isaac",
+      "LastName": "DE LA BO\u00cb",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "28,94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1588",
+      "DeathDate": "1643",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anne",
+      "LastName": "DE LA VIGNETTE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "28,34",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Frankrijk",
+      "BirthCity": "Kamerijk",
+      "BirthDate": null,
+      "DeathDate": "1648",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Francois",
+      "LastName": "DE LE BO\u00cb",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "28,94,34",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Frankrijk",
+      "BirthCity": "Lille",
+      "BirthDate": "1540",
+      "DeathDate": "1603",
+      "DeathCity": "Hanau"
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "DE LIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jean",
+      "LastName": "DE LA VIGNETTE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "34",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "DE LIGNE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "DE WILLEM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan Frederick",
+      "LastName": "SCHLETZER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Frankfurt am Main",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Onbekend",
+      "LastName": "DE LA BO\u00cb SYLVIUS",
+      "Affix": null,
+      "Gender": "Onbekend",
+      "source": "28,34",
+      "second_names": [
+        "uit 1e huwelijk",
+        "jong gestorven"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodora Elisabeth",
+      "LastName": "DE LA BO\u00cb SYLVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "28,34",
+      "second_names": [
+        "uit 2e huwelijk"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1669-02-06",
+      "DeathDate": "1669",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Onbekend",
+      "LastName": "DE LA BO\u00cb SYLVIUS",
+      "Affix": null,
+      "Gender": "Onbekend",
+      "source": "28,34",
+      "second_names": [
+        "buitenechtelijk bij Maria Hoyel"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Hanau",
+  "BirthDate": "1614-03-10",
+  "DeathDate": "1672-11-16",
+  "DeathCity": "Leiden"
+}

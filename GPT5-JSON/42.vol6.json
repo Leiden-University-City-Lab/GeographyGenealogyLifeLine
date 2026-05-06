@@ -1,0 +1,323 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "DE FREMERY",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.h.c.",
+      "location": "Leiden",
+      "date": "1781-02-10",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Klerk secretarie",
+      "location": "Leiden",
+      "date": "1769-09-26",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Klerk secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1781",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Thesaurier",
+      "location": "Leiden",
+      "date": "1784-09-03",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1795",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Amanuensis Comit\u00e9 Financien",
+      "location": "Leiden",
+      "date": "1795",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Comit\u00e9 Financien",
+      "location": "Leiden",
+      "date": "1796",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd als secretaris Curatoren",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eervol ontslag als secretaris Curatoren",
+      "location": "Leiden",
+      "date": "1818",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eigenaar Leidse zoutkeet",
+      "location": "Leiden",
+      "date": "1771",
+      "source": "a",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Op voordracht Hoogleraar Rechten",
+      "location": "Harderwijk",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Woont Langebrug",
+      "location": "Leiden",
+      "date": "1774",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "VERMAAS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1741-11-05",
+      "DeathDate": "1779-11-16",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Henriette Cornelia Christina",
+      "LastName": "BOVIE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Nijmegen",
+      "BirthDate": "1750-02-05",
+      "DeathDate": "1810-11-29",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "DE FREMERY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1709",
+      "DeathDate": "1748",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Cornelia",
+      "LastName": "DE FREMERY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1709",
+      "DeathDate": "1760",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "DE FREMERY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1663",
+      "DeathDate": "1731",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christina",
+      "LastName": "BARNSTEEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1677",
+      "DeathDate": "1737",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Isacus",
+      "LastName": "DE FREMERY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1667",
+      "DeathDate": "1748",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "CROOSWIJK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1682",
+      "DeathDate": "1729",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Caspar",
+      "LastName": "VERMAAS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "DIJKHUIZEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lambert Jan",
+      "LastName": "BOVIE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Maria Catharina",
+      "LastName": "GROOTENRAAY",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Casparus",
+      "LastName": "DE FREMERY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1775-03-15",
+      "DeathDate": "1853-01-14",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Petrus Isaacus",
+      "LastName": "DE FREMERY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1776-09-06",
+      "DeathDate": "1862-11-25",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Johannes Petrus",
+      "LastName": "DE FREMERY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1784-11-07",
+      "DeathDate": "1785",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Groot-Ammers",
+  "BirthDate": "1748-01-25",
+  "DeathDate": "1826-01-30",
+  "DeathCity": "Leiden"
+}

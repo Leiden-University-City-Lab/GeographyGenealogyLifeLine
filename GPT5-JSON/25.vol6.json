@@ -1,0 +1,46 @@
+{
+  "FirstName": "Marcus",
+  "LastName": "ES",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1649-01-27",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1677-12-20",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1685-04-02",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Gorinchem",
+  "BirthDate": "1634-02-19",
+  "DeathDate": "1699-06-19",
+  "DeathCity": "Leiden"
+}

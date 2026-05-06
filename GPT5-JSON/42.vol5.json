@@ -1,0 +1,549 @@
+{
+  "FirstName": "Johan Hendrik",
+  "LastName": "VAN DER PALM",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "les, vader",
+      "location": "Rotterdam",
+      "date": null,
+      "source": "52"
+    },
+    {
+      "subject": "Erasmiaans gymnasium",
+      "location": "Rotterdam",
+      "date": "1775-1778",
+      "source": "5S2"
+    },
+    {
+      "subject": "Stud.Theol. (Statencollege)",
+      "location": "Leiden",
+      "date": "1778-09-19",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.Theol. en Litt.",
+      "location": "Leiden",
+      "date": "1782-10-22",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Leiden",
+      "date": "1784-01-31",
+      "source": "2,52"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Pre-examen classis Leiden",
+      "location": "Leiden",
+      "date": "1784-11-01",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Peremptoir examen classis",
+      "location": "Amersfoort",
+      "date": "1785-03-09",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "St. Maartensdijk",
+      "date": "1785-03-28",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vlucht naar Monster",
+      "location": "Monster",
+      "date": "1787",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus op eigen verzoek",
+      "location": null,
+      "date": "1788-03-12",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Directeur Middelburgs museum van de Perre",
+      "location": "Middelburg",
+      "date": "1789-01-01",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Huispredikant familie van de Perre",
+      "location": "Middelburg",
+      "date": "1789-01-01",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter provisionele representanten Zeeland",
+      "location": "Middelburg",
+      "date": "1795-02",
+      "source": "52Z",
+      "is_side_job": 0
+    },
+    {
+      "job": "Scholarch",
+      "location": "Middelburg",
+      "date": "1795-08-24",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Bespiegelende Wijsbegeerte en Letteren; onderwijs Oosterse talen en Griekse oudheden",
+      "location": "Leiden",
+      "date": "1795-12-01",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag genomen",
+      "location": "Leiden",
+      "date": "1799-04-13",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Agent nationale opvoeding",
+      "location": "Den Haag",
+      "date": "1799-04-29",
+      "source": "5S2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Raad Binnenlandse zaken",
+      "location": "Den Haag",
+      "date": "1801-12-03",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Agent economie",
+      "location": "Den Haag",
+      "date": "1801-12-08",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Commissaris nationale bibliotheek",
+      "location": "Den Haag",
+      "date": "1805-05-03",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staatscommissie Algemeen Bestuur",
+      "location": "Den Haag",
+      "date": "1805-07-05",
+      "source": "52",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Dichtkunde en Gewijde Welsprekendheid (o: 20-09-1806)",
+      "location": "Leiden",
+      "date": "1806-02-01",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oosterse talen en oudheden",
+      "location": "Leiden",
+      "date": "1808-03-16",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1833",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gaf nog colleges",
+      "location": "Leiden",
+      "date": "1833-1838",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1798-1799",
+      "source": "28",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1818-1819",
+      "source": "28",
+      "is_side_job": 0
+    },
+    {
+      "job": "Academieprediker",
+      "location": "Leiden",
+      "date": "1807-1815",
+      "source": "2,52",
+      "is_side_job": 1
+    },
+    {
+      "job": "Academieprediker",
+      "location": "Leiden",
+      "date": "1821-1836",
+      "source": "2,52",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Fel patriot",
+      "location": null,
+      "date": null,
+      "source": "52"
+    },
+    {
+      "particularity": "Bevriend met Kist, J.W. Bussingh, Bilderdijk, Bellamy, Betje Wolff, Aagje Deken, Schimmelpenninck, Brugmans, Nieuwland",
+      "location": null,
+      "date": null,
+      "source": "52"
+    },
+    {
+      "particularity": "Diss. Ecclesiastes philologice et critice illustratus bij prof. H.A. Schultens",
+      "location": null,
+      "date": null,
+      "source": "52"
+    },
+    {
+      "particularity": "Door Schultens aanbod Lingen 1786, afgewezen, en baan bij van de Perre, representant Eerste Edele",
+      "location": "Lingen",
+      "date": "1786",
+      "source": "52"
+    },
+    {
+      "particularity": "Lid vrijcorps 1785",
+      "location": null,
+      "date": "1785",
+      "source": "52"
+    },
+    {
+      "particularity": "Lid Zeeuwsch Genootschap 1788, later voorzitter van Hollandse Maatschappij van Fraaie Kunsten en Wetenschappen",
+      "location": null,
+      "date": "1788",
+      "source": "52"
+    },
+    {
+      "particularity": "Kritisch over Frankrijk in colleges na 1811, op het matje bij Lebrun 1813",
+      "location": null,
+      "date": "1813",
+      "source": "52"
+    },
+    {
+      "particularity": "Beroep Vlissingen 1791 afgewezen",
+      "location": "Vlissingen",
+      "date": "1791",
+      "source": "52"
+    },
+    {
+      "particularity": "Vanwege patriotisme van kansel Middelburg geweerd",
+      "location": "Middelburg",
+      "date": null,
+      "source": "52"
+    },
+    {
+      "particularity": "Salaris: f7000 (1795), f2750 (1808)",
+      "location": null,
+      "date": null,
+      "source": "52"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Alida",
+      "LastName": "BUSSINGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delfshaven",
+      "BirthDate": "1766-04-11",
+      "DeathDate": "1835-01-18",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1733",
+      "DeathDate": "1789",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Machteld",
+      "LastName": "VAN TONSBERGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1728",
+      "DeathDate": "1801",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Arnout",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1693",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrina",
+      "LastName": "VAN GEMERT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Roelof",
+      "LastName": "VAN TONSBERGEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VAN DER TAK",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johannes Wilhelmus",
+      "LastName": "BUSSINGH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1727",
+      "DeathDate": "1782",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VAN DER LINDEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1735",
+      "DeathDate": "1783",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Zoon",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1789-05-04",
+      "DeathDate": "1789-05-04",
+      "DeathCity": "Middelburg"
+    },
+    {
+      "FirstName": "Cornelia Mathilda",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1790-04-11",
+      "DeathDate": "1859-12-08",
+      "DeathCity": "Schiedam"
+    },
+    {
+      "FirstName": "Jacoba Elisabeth",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1793-10-23",
+      "DeathDate": "1857-12-25",
+      "DeathCity": "Oosterwijk"
+    },
+    {
+      "FirstName": "Elizabeth Henriette",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1794-02-21",
+      "DeathDate": "1836-06-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Zoon",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1797-11-08",
+      "DeathDate": "1797-11",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Jan Willem",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1798-11-28",
+      "DeathDate": "1807-01-12",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Hendrik Albert",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1802-04-08",
+      "DeathDate": "1819-11-14",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Adelaide Louise",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1806-05-02",
+      "DeathDate": "1875-02-17",
+      "DeathCity": "Arnhem"
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "VAN DER PALM",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "52",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1808-04-29",
+      "DeathDate": "1870-08-09",
+      "DeathCity": "Arnhem"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Rotterdam",
+  "BirthDate": "1763-07-17",
+  "DeathDate": "1840-09-08",
+  "DeathCity": "Leiden"
+}

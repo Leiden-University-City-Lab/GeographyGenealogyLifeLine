@@ -1,0 +1,492 @@
+{
+  "FirstName": "Bernhardus",
+  "LastName": "ALBINUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Bernard' in Bernhardus (Bernard)"
+  ],
+  "alternative_last_names": [
+    "WEISS VON WEISSENLOW",
+    "WEISS VON WEISSENL\u00d6W"
+  ],
+  "education": [
+    {
+      "subject": "Huisonderwijs",
+      "location": "Dessau",
+      "date": null,
+      "source": "83"
+    },
+    {
+      "subject": "Les bij Heinrich Alers",
+      "location": "Dessau",
+      "date": null,
+      "source": "83"
+    },
+    {
+      "subject": "Illustere School (Gymnasium)",
+      "location": "Bremen",
+      "date": null,
+      "source": "2,3"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1675-04-26",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1676-05-12",
+      "source": "21"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Leuven, Parijs en Duitsland",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Dessau",
+      "date": "1680",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Frankfurt/Oder",
+      "date": "1681-01-13",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wis- en Natuurkunde",
+      "location": "Frankfurt/Oder",
+      "date": "1681-01-16",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts en Geheimraad van Frederik Willem, de Grote, Keurvorst van Brandenburg",
+      "location": "Brandenburg",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Frankfurt/Oder",
+      "date": "1688-04-29",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts van Frederik I, Koning van Pruisen",
+      "location": "Pruisen",
+      "date": "1697",
+      "source": "70",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theoretische en Praktische Geneeskunde",
+      "location": "Leiden",
+      "date": "1702-05-29",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Medische Instituten",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Assistent van prof. Drelincourt",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik",
+      "location": "Maagdenburg",
+      "date": "1697",
+      "source": "83",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De catalepsi bij prof. Schacht.",
+      "location": null,
+      "date": null,
+      "source": "70,83"
+    },
+    {
+      "particularity": "Aanbod hoogleraarschap Groningen ad f 2200,- door Frederik I afgekocht.",
+      "location": null,
+      "date": null,
+      "source": "2,83"
+    },
+    {
+      "particularity": "Graaf van Wassenaer, gezant te Berlijn en tevens curator van de Leidse universiteit, haalt Albinus naar Leiden.",
+      "location": null,
+      "date": null,
+      "source": "83"
+    },
+    {
+      "particularity": "Woonadres: Steenschuur",
+      "location": "Leiden",
+      "date": "1709",
+      "source": "98"
+    },
+    {
+      "particularity": "Woonadres: Breestraat",
+      "location": "Leiden",
+      "date": "1713",
+      "source": "98"
+    },
+    {
+      "particularity": "Woonadres: Rapenburg 29",
+      "location": "Leiden",
+      "date": "1714",
+      "source": "98"
+    },
+    {
+      "particularity": "Woonadres: Nieuwsteeg",
+      "location": "Leiden",
+      "date": "1719",
+      "source": "98"
+    },
+    {
+      "particularity": "Aanbod van Frederik Willem I om naar Berlijn te komen, afgewezen.",
+      "location": null,
+      "date": "1715",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 2500,-",
+      "location": null,
+      "date": null,
+      "source": "83"
+    },
+    {
+      "particularity": "Rector Magnificus Leiden 1710-1711.",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Suzanna Catharina",
+      "LastName": "RING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a,98",
+      "second_names": [],
+      "alternative_last_names": [
+        "RINGS"
+      ],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Frankfurt/Oder",
+      "BirthDate": "1675",
+      "DeathDate": "1745-06-26",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christodorus",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "70,83",
+      "second_names": [],
+      "alternative_last_names": [
+        "WEISS VON WEISSENLOW",
+        "WEISS VON WEISSENL\u00d6W"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1622",
+      "DeathDate": "1706",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rebecca",
+      "LastName": "STIELER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "70",
+      "second_names": [],
+      "alternative_last_names": [
+        "STILLERS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1677",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Justus",
+      "LastName": "WEISS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "70",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1584",
+      "DeathDate": "1635",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Barbara",
+      "LastName": "KR\u00dcGER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christian",
+      "LastName": "STIELER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Thomas Siegfried",
+      "LastName": "RING",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [
+        "RINGS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1644",
+      "DeathDate": "1707",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Maria",
+      "LastName": "VON SCHOLTZ VON HERMENSDORFF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Christiaan Bernhard",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Berlijn",
+      "BirthDate": "1696",
+      "DeathDate": "1752-04-05",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Bernhardus Siegfried",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "13,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Frankfurt/Oder",
+      "BirthDate": "1697-02-24",
+      "DeathDate": "1770-09-09",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Friedrich",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frederica",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98,d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Catharina",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "d,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1703-11-04",
+      "DeathDate": "1741",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Wilhelm Bernhard",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "d,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1703-06-18",
+      "DeathDate": "1751-12-22",
+      "DeathCity": "Batavia"
+    },
+    {
+      "FirstName": "Christina Elisabeth",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1707-06-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Wilhelmina",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1709-07-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Sophia",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1711-03-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Margaretha",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "d,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1713-05-21",
+      "DeathDate": "1773",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Fredericus Bernhardus",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "19,d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1715-06-20",
+      "DeathDate": "1778-05-23",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Dorothea",
+      "LastName": "ALBINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1717-10-17",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Dessau",
+  "BirthDate": "1633-01-07",
+  "DeathDate": "1721-09-07",
+  "DeathCity": "Leiden"
+}

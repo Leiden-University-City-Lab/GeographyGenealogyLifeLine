@@ -1,0 +1,287 @@
+{
+  "FirstName": "Willem",
+  "LastName": "BENTINCK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": null,
+      "location": "Leiden",
+      "date": "1719-08-15",
+      "source": "12"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lid Ridderschap Holland",
+      "location": "Den Haag",
+      "date": "1727",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad Rijnland",
+      "location": "Leiden",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten-Generaal",
+      "location": "Den Haag",
+      "date": "1737",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1745-02-12",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Engeland",
+      "date": "1747",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant (Congres van Aken)",
+      "location": "Aken",
+      "date": "1748",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Dijkgraaf Rijnland",
+      "location": "Leiden",
+      "date": "1748",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Brussel",
+      "date": "1749",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Wenen",
+      "date": "1749-1750",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Brussel",
+      "date": "1753",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Gecommitteerde Raden (Zuiderkwartier)",
+      "location": "Den Haag",
+      "date": "1753",
+      "source": "b",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Titels: graaf; heer van Rhoon, Pendrecht en Terrington",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Huwelijk",
+      "location": "Den Haag",
+      "date": "1733-05-03",
+      "source": null
+    },
+    {
+      "particularity": "Gescheiden",
+      "location": null,
+      "date": "1743",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Charlotte Sophia",
+      "LastName": "ALDENBURG",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Varel",
+      "BirthDate": "1715-08-04",
+      "DeathDate": "1800-02-05",
+      "DeathCity": "Hamburg"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hans Willem",
+      "LastName": "BENTINCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1649",
+      "DeathDate": "1709",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jane Marthe",
+      "LastName": "TEMPLE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Berent",
+      "LastName": "BENTINCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1604",
+      "DeathDate": "1668",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BLOEMENDAAL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1622",
+      "DeathDate": "1685",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "John",
+      "LastName": "TEMPLE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jane",
+      "LastName": "YARNER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Anton II",
+      "LastName": "ALDENBURG",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina Maria",
+      "LastName": "HESSEN-HOMBURG",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Christiaan Frederik Anton Willem Carel",
+      "LastName": "BENTINCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Varel",
+      "BirthDate": "1734-08-15",
+      "DeathDate": "1768-04-01",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Johan Albert",
+      "LastName": "BENTINCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Engeland",
+  "BirthCity": "Londen",
+  "BirthDate": "1704-10-17",
+  "DeathDate": "1774-10-13",
+  "DeathCity": "Den Haag"
+}

@@ -1,0 +1,244 @@
+{
+  "FirstName": "Hugo",
+  "LastName": "DONELLUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DONEAU"
+  ],
+  "education": [
+    {
+      "subject": "Lyceum",
+      "location": "Tournion",
+      "date": null,
+      "source": "2,60"
+    },
+    {
+      "subject": null,
+      "location": "Toulonse",
+      "date": "1544",
+      "source": "2"
+    },
+    {
+      "subject": "Tur. en oude talen",
+      "location": "Bourges",
+      "date": "1546",
+      "source": "2"
+    },
+    {
+      "subject": "Doct.",
+      "location": "Bourges",
+      "date": "1551-07-17",
+      "source": "606"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Docent",
+      "location": "Bourges",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Bourges",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Bourges",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht voor oorlog",
+      "location": "Sancerre",
+      "date": "1568",
+      "source": "60",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer naar Bourges",
+      "location": "Bourges",
+      "date": "1570",
+      "source": "60",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens protestantisme",
+      "location": "Bourges",
+      "date": "1571",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht naar Gen\u00e8ve",
+      "location": "Gen\u00e8ve",
+      "date": "1572-08-26",
+      "source": "66",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Heidelberg",
+      "date": "1573-02-17",
+      "source": "399",
+      "is_side_job": 0
+    },
+    {
+      "job": "Decaan Juridische Faculteit",
+      "location": "Heidelberg",
+      "date": "1575",
+      "source": "39,22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Decaan Juridische Faculteit",
+      "location": "Heidelberg",
+      "date": "1578",
+      "source": "39,22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Heidelberg",
+      "date": "1578-12-20",
+      "source": "39",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1579-10-27",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag door steun aan Leicester",
+      "location": "Leiden",
+      "date": "1587-04-24",
+      "source": "36",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Altdorf",
+      "date": "1588-07-20",
+      "source": "2,39",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Kanselier L\u2019Hospital benoemt hem te Bourges op advies van Duarenius",
+      "location": "Bourges",
+      "date": null,
+      "source": "60"
+    },
+    {
+      "particularity": "Zijn leerling Thomas Weier, raad van de calvinistische keurvorst van de Palts, Frederik III, haalt hem uit Gen\u00e8ve naar Heidelberg",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "In 1576 werd de Lutheraan Lodewijk VI opvolger van Frederik III; door zijn optreden vertrok de calvinistische Donellus",
+      "location": null,
+      "date": "1576",
+      "source": "2,39,68"
+    },
+    {
+      "particularity": "De Leidse vroedschap geeft hem een zilveren schaal en een passende woning",
+      "location": "Leiden",
+      "date": "1581",
+      "source": "2"
+    },
+    {
+      "particularity": "Kiest partij voor Danaeus in diens conflict met Coolhaes; Danaeus verliest en vertrekt",
+      "location": null,
+      "date": "1582",
+      "source": "36"
+    },
+    {
+      "particularity": "Aanbod Altdorf afgewezen; onder druk van Willem I volgt salarisverhoging",
+      "location": "Altdorf",
+      "date": "1582",
+      "source": "60"
+    },
+    {
+      "particularity": "Aanbod Heidelberg afgewezen nadat de Staten van Holland, door Lipsius bewogen, zijn salaris tot f 1300 verhoogden",
+      "location": "Heidelberg",
+      "date": "1585",
+      "source": "60"
+    },
+    {
+      "particularity": "Ontslag door steun aan Leicester ondanks bemiddeling van Lipsius en Beijma",
+      "location": null,
+      "date": "1587",
+      "source": "36"
+    },
+    {
+      "particularity": "Woonde Breestraat 103",
+      "location": "Leiden",
+      "date": "1581",
+      "source": "102"
+    },
+    {
+      "particularity": "Woonde Pieterskerkhof 40",
+      "location": "Leiden",
+      "date": "1582",
+      "source": "102"
+    },
+    {
+      "particularity": "Salaris: f 350 (1573); f 400 (1574); f 1000 (1579); f 1300 (1583)",
+      "location": null,
+      "date": null,
+      "source": "39,108"
+    },
+    {
+      "particularity": "Zijn leerling Paumgartner haalt hem naar Altdorf",
+      "location": "Altdorf",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Oorkonde",
+      "location": null,
+      "date": "1588-08-08",
+      "source": "6036"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Suzanna",
+      "LastName": "Mondekens",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,46",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": "Frankfurt am Main"
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Chal\u00f4ns-sur-Sa\u00f4ne",
+  "BirthDate": "1527-12-23",
+  "DeathDate": "1591-05-04",
+  "DeathCity": "Altdorf"
+}

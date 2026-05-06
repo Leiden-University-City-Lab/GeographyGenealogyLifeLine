@@ -1,0 +1,69 @@
+{
+  "FirstName": "Lubbertus",
+  "LastName": "HONRADIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "HOENRAET"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1582-07-31",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "In dienst van Gebhard Truchsesz von Waldburg, ex-aartsbisschop van Keulen",
+      "location": null,
+      "date": "1585",
+      "source": "102 II",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Buys wil hem in 1587 terughalen",
+      "location": null,
+      "date": "1587",
+      "source": "102 TI"
+    },
+    {
+      "particularity": "Salaris: f400",
+      "location": null,
+      "date": "1582",
+      "source": "102 IT"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Claesgen",
+      "LastName": "REUWEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "102 II",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Deventer",
+  "BirthDate": null,
+  "DeathDate": "1590-07",
+  "DeathCity": null
+}

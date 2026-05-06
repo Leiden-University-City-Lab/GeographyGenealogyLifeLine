@@ -1,0 +1,295 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "VAN BURGERSDYCK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BURGERSDIJK"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1634-02-09",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1644-07-12",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": null,
+      "date": "1644",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris van Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als secretaris",
+      "location": null,
+      "date": "1689",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Zijn zuster huwde prof. Rivet",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "BLEU",
+      "Affix": "le",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Constantia",
+      "LastName": "VERSPREET",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [
+        "VERSPEET"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": "1702-04-29",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Franco",
+      "LastName": "BURGERSDIJK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1590",
+      "DeathDate": "1635",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ursula Neeltje",
+      "LastName": "VERBOOM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "BURGERSDIJK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Vrancksz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BURGERSDIJK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobh",
+      "LastName": "VERBOOM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "cC",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertje",
+      "LastName": "CRANENDONCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "C",
+      "second_names": [
+        "Jacobsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Constantia",
+      "LastName": "VAN BURGERSDYCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1671-08-16",
+      "DeathDate": "1730",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "VAN BURGERSDYCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1672-11-16",
+      "DeathDate": "1716-05-22",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Franco",
+      "LastName": "VAN BURGERSDYCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1674-11-03",
+      "DeathDate": "1702",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "VAN BURGERSDYCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1676-03-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "VAN BURGERSDYCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1677-06-29",
+      "DeathDate": "1718",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "VAN BURGERSDYCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1680-04-24",
+      "DeathDate": "1680-05-18",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruid",
+      "LastName": "VAN BURGERSDYCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1682-12-08",
+      "DeathDate": "1759-07-07",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1623-11-01",
+  "DeathDate": "1691-10-18",
+  "DeathCity": "Leiden"
+}

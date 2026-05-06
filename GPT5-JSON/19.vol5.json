@@ -1,0 +1,69 @@
+{
+  "FirstName": "Caspar",
+  "LastName": "GENDT",
+  "Affix": "de",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN GENDT"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1566-08-01",
+      "source": "26"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Ridderkerk",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1575-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "3,27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Brugge",
+      "date": "1578",
+      "source": "2,3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Arnhem",
+      "date": "1580",
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Arnhem",
+  "BirthDate": null,
+  "DeathDate": "1582",
+  "DeathCity": "Arnhem"
+}

@@ -1,0 +1,348 @@
+{
+  "FirstName": "Salomon",
+  "LastName": "TIL",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "TILL"
+  ],
+  "education": [
+    {
+      "subject": "Lagere school",
+      "location": "Alkmaar",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1664-09-23",
+      "source": "17"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": null,
+      "date": "1672",
+      "source": "8"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1702-06-13",
+      "source": "314"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Huisduinen",
+      "date": "1666",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "De Rijp",
+      "date": "1676-11-15",
+      "source": "49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Medemblik",
+      "date": "1682-11-15",
+      "source": "55",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Dordrecht",
+      "date": "1683",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kerkelijke Geschiedenis en Gewijde Welsprekendheid",
+      "location": "Illustre School Dordrecht",
+      "date": "1684",
+      "source": "49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Dordrecht",
+      "date": "1685",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1702-05-06",
+      "source": "714",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Predikkunde",
+      "location": "Leiden",
+      "date": "1702-06-16",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Leiden",
+      "date": "1702",
+      "source": "49",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1704",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1705",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1710",
+      "source": "8",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "TETRODE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1634-10-22",
+      "DeathDate": "1697-03-11",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "MOLENSCHOT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Agatha"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": null,
+      "DeathDate": "1708-03-13",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "TIL",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Jan",
+        "Harmensz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1615",
+      "DeathDate": "1678-08",
+      "DeathCity": "Broek op Langendijk"
+    },
+    {
+      "FirstName": "Barbara",
+      "LastName": "LE GRAND",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Harmen",
+      "LastName": "TIL",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Herman"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "TETRODE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Barbara",
+      "LastName": "NOORT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Cornelisdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rochus",
+      "LastName": "MOLENSCHOT",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "SPLINTER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Nicolaes",
+      "LastName": "TIL",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Huisduinen",
+      "BirthDate": "1668",
+      "DeathDate": "1686-11-12",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Barbara",
+      "LastName": "TIL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Huisduinen",
+      "BirthDate": "1670",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "TIL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Huisduinen",
+      "BirthDate": "1675",
+      "DeathDate": "1746-05-24",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "TIL",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Rochus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1698-03-08",
+      "DeathDate": "1755-08",
+      "DeathCity": "Keulen"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Weesp",
+  "BirthDate": "1643-12-28",
+  "DeathDate": "1713-10-31",
+  "DeathCity": "Purmerend"
+}

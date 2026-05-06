@@ -1,0 +1,74 @@
+{
+  "FirstName": "Gothofredus",
+  "LastName": "SPINAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1653-10-24",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Rector Latijnse school",
+      "location": "Kampen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar?",
+      "location": "Steinfurt?",
+      "date": "1666-03",
+      "source": "28",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1668-08-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor Wijsbegeerte aan Statencollege",
+      "location": "Leiden",
+      "date": "1668-08-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1668-08-23",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte (tot 1670)",
+      "location": "Leiden",
+      "date": "1669-06-01",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Tsjechi\u00eb",
+  "BirthCity": "Bohemen",
+  "BirthDate": "1632-07",
+  "DeathDate": "1681-07",
+  "DeathCity": "Leiden"
+}

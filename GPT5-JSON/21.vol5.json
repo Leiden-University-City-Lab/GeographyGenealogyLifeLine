@@ -1,0 +1,587 @@
+{
+  "FirstName": "Johannes Fredericus",
+  "LastName": "GRONOVIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "GRONOW",
+    "GRONOUW",
+    "GRONUW"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Bremen",
+      "date": "1626",
+      "source": "43"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Hamburg",
+      "date": "1631",
+      "source": "43"
+    },
+    {
+      "subject": "Reis naar protestantse vergadering",
+      "location": "Frankfurt am Main",
+      "date": "1631",
+      "source": "43"
+    },
+    {
+      "subject": "Stud. Iur. en Litt.",
+      "location": "Altdorf",
+      "date": "1631-04-03",
+      "source": "9"
+    },
+    {
+      "subject": "Reis in Duitsland (Jena, Leipzig, Frankfurt (Oder))",
+      "location": "Duitsland",
+      "date": "1633",
+      "source": "43"
+    },
+    {
+      "subject": "Terugkeer naar Bremen",
+      "location": "Bremen",
+      "date": "1633",
+      "source": "43"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Groningen",
+      "date": "1633",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Angers",
+      "date": "1640-02",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Vicaris",
+      "location": "Bremen",
+      "date": "1633",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik domkapittel",
+      "location": "Hamburg",
+      "date": "1633",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Amsterdam",
+      "date": "1634",
+      "source": "43",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leermeester zoon en neef van M. Pauw",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "43",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Den Haag",
+      "date": "1636-06",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis door Europa (Engeland, Frankrijk, Itali\u00eb, Oostenrijk, Zwitserland)",
+      "location": "Europa",
+      "date": "1638",
+      "source": "43",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aankomst",
+      "location": "Amsterdam",
+      "date": "1642-03-25",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid en Geschiedenis",
+      "location": "Deventer",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector",
+      "location": "Deventer",
+      "date": "1643",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector",
+      "location": "Deventer",
+      "date": "1654",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse Taal en Historie",
+      "location": "Leiden",
+      "date": "1658-07-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1658-09-18",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1661",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vicaris",
+      "location": "Bremen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Gemeensman",
+      "location": "Deventer",
+      "date": "1651-02-22",
+      "source": "43",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bibliothecaris universiteitsbibliotheek",
+      "location": "Leiden",
+      "date": "1665-05-08",
+      "source": "27",
+      "is_side_job": 1
+    },
+    {
+      "job": "Scholarch",
+      "location": "Leiden",
+      "date": "1667-10-18",
+      "source": "a",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Familie wil dat hij rechten studeert en ambtenaar wordt in Hamburg of Bremen",
+      "location": null,
+      "date": null,
+      "source": "43"
+    },
+    {
+      "particularity": "Grotius raadt hem aan naar de Republiek te gaan",
+      "location": "Hamburg",
+      "date": "1633",
+      "source": "43"
+    },
+    {
+      "particularity": "Bevriend met Vossius, Heinsius, Scriverius, Galilei",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Prof. Alting steunt hem bij mislukte poging leermeester van de kinderen van Frederik Hendrik te worden",
+      "location": null,
+      "date": "1634",
+      "source": "2"
+    },
+    {
+      "particularity": "Gaat wonen om twist te vermijden tussen Heinsius en Salmasius",
+      "location": "Den Haag",
+      "date": "1636",
+      "source": "43"
+    },
+    {
+      "particularity": "Aanbod Leiden met steun van prof. L\u2019Empereur afgeslagen",
+      "location": null,
+      "date": "1640",
+      "source": "2"
+    },
+    {
+      "particularity": "In Groningen bevriend met prof. A. Mattheus, wiens vader leermeester van zijn vader was",
+      "location": "Groningen",
+      "date": null,
+      "source": "43"
+    },
+    {
+      "particularity": "Prof. Christenius, zijn huisbaas in Amsterdam, haalt hem naar Deventer",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "43"
+    },
+    {
+      "particularity": "Aanbod Leiden afgeslagen door twist met Salmasius",
+      "location": null,
+      "date": "1648",
+      "source": "2"
+    },
+    {
+      "particularity": "Jaargeld van Lodewijk XIV",
+      "location": null,
+      "date": null,
+      "source": "43"
+    },
+    {
+      "particularity": "Conflict met burgemeesters",
+      "location": "Leiden",
+      "date": "1661",
+      "source": "2"
+    },
+    {
+      "particularity": "Aanbiedingen Den Bosch (1646), Harderwijk (1648), Franeker (1656), Heidelberg (met steun Spanheim) (1667) en Amsterdam (1670) afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "43"
+    },
+    {
+      "particularity": "Woont aan het Steenschuur",
+      "location": "Leiden",
+      "date": null,
+      "source": "43"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": "1642",
+      "source": "43"
+    },
+    {
+      "particularity": "Salaris: f 1100",
+      "location": null,
+      "date": "1656",
+      "source": "43"
+    },
+    {
+      "particularity": "Salaris: f 1800",
+      "location": null,
+      "date": "1658",
+      "source": "43"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adelheid",
+      "LastName": "NUYL",
+      "Affix": "ten",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1619-12-06",
+      "DeathDate": "1656-07-08",
+      "DeathCity": "Deventer"
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "GLAGAU",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1604-03-07",
+      "DeathDate": "1667-09-27",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "David",
+      "LastName": "GRONOUW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1575",
+      "DeathDate": "1633",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "LANGERMANN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1594",
+      "DeathDate": "1655",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jakob",
+      "LastName": "GRONOW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1593",
+      "DeathCity": "Wismar"
+    },
+    {
+      "FirstName": "Catharine",
+      "LastName": "HARE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lorenz",
+      "LastName": "LANGERMANN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1556",
+      "DeathDate": "1620",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anne",
+      "LastName": "MEULKEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "NUYL",
+      "Affix": "ten",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "MORLETH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Andreas",
+      "LastName": "GLAGAU",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geesken",
+      "LastName": "VERMEER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Margaretha",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1643-12-07",
+      "DeathDate": "1656-07-05",
+      "DeathCity": "Deventer"
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1645-10-10",
+      "DeathDate": "1716-10-21",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1647-01-08",
+      "DeathDate": "1700-10-31",
+      "DeathCity": "Deventer"
+    },
+    {
+      "FirstName": "Laurentius",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1648-10-25",
+      "DeathDate": "1724-01-20",
+      "DeathCity": "Deventer"
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1650-12-02",
+      "DeathDate": "1656-07-06",
+      "DeathCity": "Deventer"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1653-03-03",
+      "DeathDate": "1656-07-07",
+      "DeathCity": "Deventer"
+    },
+    {
+      "FirstName": "Maria Elisabeth",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1655-09-02",
+      "DeathDate": "1742-04-01",
+      "DeathCity": "Deventer"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Samuel",
+      "LastName": "NUYL",
+      "Affix": "ten",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Hamburg",
+  "BirthDate": "1611-09",
+  "DeathDate": "1671-12",
+  "DeathCity": "Leiden"
+}

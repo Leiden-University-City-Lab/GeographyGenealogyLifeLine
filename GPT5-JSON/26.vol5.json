@@ -1,0 +1,200 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "HEEREBOORD",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1629-11-15",
+      "source": "8"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector Latijnse school",
+      "location": "Middelburg",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Redeneerkunde",
+      "location": "Leiden",
+      "date": "1640-11-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1642-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneerkunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1644-05-24",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneerkunde en Zedekunde",
+      "location": "Leiden",
+      "date": "1645-02-09",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneerkunde en Logica",
+      "location": "Leiden",
+      "date": "1653-08-26",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als onderregent",
+      "location": "Leiden",
+      "date": "1654",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Door zijn Cartesianisme veel twisten",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Buiten regent Revius om onderregent, ruzie met Revius",
+      "location": null,
+      "date": null,
+      "source": "69"
+    },
+    {
+      "particularity": "Drankmisbruik",
+      "location": null,
+      "date": null,
+      "source": "69"
+    },
+    {
+      "particularity": "Ontslag als onderregent op eigen verzoek",
+      "location": "Leiden",
+      "date": "1654",
+      "source": "27"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "COURT",
+      "Affix": "de la",
+      "Gender": "Vrouw",
+      "source": "a,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622-10-27",
+      "DeathDate": "1678-10-22",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "HEEREBOORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Loo, Veurnambacht",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobmyntgen",
+      "LastName": "SERJANSSENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Poperingen",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "COURT",
+      "Affix": "de la",
+      "Gender": "Man",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1593",
+      "DeathDate": "1657",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "PLANQUE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1591",
+      "DeathDate": "1663",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Isaac",
+      "LastName": "HEEREBOORD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1648-07-12",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1614",
+  "DeathDate": "1661-01-17",
+  "DeathCity": "Leiden"
+}

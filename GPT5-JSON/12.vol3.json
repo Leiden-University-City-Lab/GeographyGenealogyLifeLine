@@ -1,0 +1,533 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "DOES",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1659-09-08",
+      "source": null
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1662-05-08",
+      "source": null
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Harderwijk",
+      "date": "1668-04-17",
+      "source": null
+    },
+    {
+      "subject": "Doct.Iur",
+      "location": "Leiden",
+      "date": "1669",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Rechten",
+      "location": "Leiden",
+      "date": "1669-12-13",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag genomen",
+      "location": "Leiden",
+      "date": "1679",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (1e)",
+      "location": "Harderwijk",
+      "date": "1679-12-08",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1680",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris",
+      "location": "Gouda",
+      "date": "1681-10-06",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid vroedschap",
+      "location": "Gouda",
+      "date": "1690",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Gouda",
+      "date": "1691",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Dijkgraaf van de Krimpenerwaard",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Afgevaardigde Staten-Generaal",
+      "location": null,
+      "date": "1697",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Gecommitteerde Raad van Holland",
+      "location": null,
+      "date": "1688",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Gecommitteerde Raad van Holland",
+      "location": null,
+      "date": "1694",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Gecommitteerde Raad van Holland",
+      "location": null,
+      "date": "1700",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disp. Positiones ex omnibus philosophiae partibus desumtae, exposuit in examine; De proportione qua gravia decidentia accelerantur et de apparente magnitudine solis humilis et sublimis bij prof. Cornelis a Thiel",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Diss. Iur. De modis constituendi patriam potestatem",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DUSSEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1657-10-07",
+      "DeathDate": "1730-03-20",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1609",
+      "DeathDate": "1663",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1567",
+      "DeathDate": "1648",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "HOOG",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Egbert",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruijd",
+      "LastName": "CHIJS",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "DUSSEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [
+        "Brunosz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "CLEIJGEGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Adriana Maria",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1678-10-09",
+      "DeathDate": "1701-06-26",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriaan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1681-04-09",
+      "DeathDate": "1681-08-14",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agatha",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1683-01-17",
+      "DeathDate": "1707",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Odilia",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1684-05-29",
+      "DeathDate": "1684",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriaan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Gouda",
+      "BirthDate": "1686-04-10",
+      "DeathDate": "1749-05-28",
+      "DeathCity": "Gouda"
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1690-10-11",
+      "DeathDate": "1691-10-31",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1691-11-05",
+      "DeathDate": "1767",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Gouda",
+      "BirthDate": "1694-09-12",
+      "DeathDate": "1696-04-12",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Gouda",
+      "BirthDate": "1694-09-12",
+      "DeathDate": "1749-01-01",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Bruno",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1696-07-15",
+      "DeathDate": "1696-07-15",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1699-07-26",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Simon",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ysbrand",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "KEMPENAAR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Arnout",
+      "LastName": "VINNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Simon",
+      "LastName": "VINNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Delft",
+  "BirthDate": "1644-12-30",
+  "DeathDate": "1704-04-04",
+  "DeathCity": "Gouda"
+}

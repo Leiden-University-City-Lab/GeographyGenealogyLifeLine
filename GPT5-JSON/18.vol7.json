@@ -1,0 +1,441 @@
+{
+  "FirstName": "Jan",
+  "LastName": "DOES",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DOUSA"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs J. Faber, Secretaris Lier",
+      "location": "Lier",
+      "date": "1555",
+      "source": "3"
+    },
+    {
+      "subject": "Latijnse school (Junius)",
+      "location": "Delft",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": "1561",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Douai",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Verblijf voor studie",
+      "location": "Noordwijk",
+      "date": "1566-1570",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad Rijnland",
+      "location": "Leiden",
+      "date": "1570",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap van Holland",
+      "location": "Den Haag",
+      "date": "1570",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Registermeester Staten van Holland",
+      "location": null,
+      "date": "1572",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1572",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Beleg van Leiden",
+      "location": "Leiden",
+      "date": "1574",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1575-01-06",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1584",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1585",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Historieschrijver en Archivaris van Holland",
+      "location": "Holland",
+      "date": "1585",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bibliothecaris Universiteitsbibliotheek",
+      "location": "Leiden",
+      "date": "1587-03-01",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hoge Raad",
+      "location": "Den Haag",
+      "date": "1591-12-03",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Bibliothecaris",
+      "location": null,
+      "date": "1593-07-11",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Titels: heer van Noordwijk, Langeveld en Kattendijke",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "ZUYLEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1545-11-13",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "NIJENRODE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "ZUYLEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frans",
+      "LastName": "NIJENRODE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "ZUYLEN VAN DE HAER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "ZUYLEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "DRAKENBURG",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Noordwijk",
+      "BirthDate": "1571-01-16",
+      "DeathDate": "1596-12-26",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1572-04-30",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "George",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1574-03-05",
+      "DeathDate": "1599",
+      "DeathCity": "St. Thomas"
+    },
+    {
+      "FirstName": "Steven",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1576-01-02",
+      "DeathDate": "1622",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frans",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1577-05-05",
+      "DeathDate": "1630-12-11",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Warner",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Noordwijk",
+      "BirthDate": "1578-08-13",
+      "DeathDate": "1603-06-11",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Janna",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1579-08-16",
+      "DeathDate": "1601",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Dirk",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1580-11-03",
+      "DeathDate": "1663-06-07",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1582-09-29",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1584-05-19",
+      "DeathDate": "1604",
+      "DeathCity": "St. Helena"
+    },
+    {
+      "FirstName": "Engelbrecht",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1586-01-14",
+      "DeathDate": "1586-01-19",
+      "DeathCity": "Noordwijk"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Noordwijk",
+  "BirthDate": "1545-12-06",
+  "DeathDate": "1604-10-08",
+  "DeathCity": "Den Haag"
+}

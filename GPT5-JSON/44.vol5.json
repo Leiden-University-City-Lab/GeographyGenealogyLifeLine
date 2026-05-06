@@ -1,0 +1,159 @@
+{
+  "FirstName": "Basilius",
+  "LastName": "PYTHOPOEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "PITHOPOEUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1571-10-21",
+      "source": "26"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Eerste Hoogleraar Latijn",
+      "location": "Leiden",
+      "date": null,
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Assessor (genoemd)",
+      "location": "Leiden",
+      "date": "1575-06-02",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Door Marnix met Reneker meegenomen uit Heidelberg",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "51"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adelheida Wilhelma",
+      "LastName": "PYTHOPOEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1575-04-12",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Ludolphus Helmius",
+      "LastName": "PITHOPOEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "KUIPER"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lubberta",
+      "LastName": "BARLIA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "KUIPER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Lambertus",
+      "LastName": "PYTHOPOEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "BOCER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "JUNGNITUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": "1576-03-30",
+  "DeathCity": "Leiden"
+}

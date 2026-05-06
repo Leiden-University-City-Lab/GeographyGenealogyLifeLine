@@ -1,0 +1,430 @@
+{
+  "FirstName": "Johan",
+  "LastName": "BERGH",
+  "Affix": "van den",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1685-06-02",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1688-07-05",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": null,
+      "date": "1688",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schout van Leiderdorp",
+      "location": "Leiderdorp",
+      "date": "1688",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1690-1711",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad",
+      "location": "Leiden",
+      "date": "1693-1748",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Leiden",
+      "date": "1695-1701",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1701-1703",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Raad van State",
+      "location": "Den Haag",
+      "date": "1704-1707",
+      "source": "225",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1707",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gedeputeerde te velde",
+      "location": "Zuidelijke Nederlanden",
+      "date": "1706-1716",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1710, 1713",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Brussel",
+      "date": "1709, 1714",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1717-1719",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1720-1723",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1723-1724",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Baljuw & Dijkgraaf Rijnland",
+      "location": "Leiden",
+      "date": "1725-1755",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1727/28/31/32/35/36/39/40/43/47/48",
+      "source": "22",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De Iege Rhodia de iactu bij prof. Voet",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "TEYLINGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1667-06-18",
+      "DeathDate": "1733-09-06",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1637",
+      "DeathDate": "1693",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "COSSON",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1599",
+      "DeathDate": "1657",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maritje",
+      "LastName": "KNOTTER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1600",
+      "DeathDate": "1658",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "COSSON",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "TOMBES",
+      "Affix": "des",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "LEYDECKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [
+        "VAN TEYLINGEN"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1611",
+      "DeathDate": "1670",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BUYS",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1625",
+      "DeathDate": "1713",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Maria",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1689-09-24",
+      "DeathDate": "1757-06-27",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1690-12-28",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1692-02-27",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1693-07-30",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1695-06-19",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Dina",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1697-01-24",
+      "DeathDate": "1753-01-09",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johanna Adriana",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1698-06-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1700-09-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agneta Jacoba",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1704-11-23",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan Pieter",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1706-04-21",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1664-08-25",
+  "DeathDate": "1755-11-11",
+  "DeathCity": "Leiden"
+}

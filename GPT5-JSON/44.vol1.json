@@ -1,0 +1,218 @@
+{
+  "FirstName": "Jan Jacob",
+  "LastName": "SCHULTENS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Joannes Jacobus"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1730-03-09",
+      "source": "7,17"
+    },
+    {
+      "subject": "Stud. Litt.",
+      "location": "Leiden",
+      "date": "1733-09-14",
+      "source": "17"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1742",
+      "source": "2"
+    },
+    {
+      "subject": "Min. Cand.",
+      "location": "Leiden",
+      "date": "1743-07-11",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Oosterse talen",
+      "location": "Herborn",
+      "date": "1744",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogl. Theol. en Oosterse talen",
+      "location": "Leiden",
+      "date": "1749-07-29",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogl. Theol. en Oosterse talen (oratie)",
+      "location": "Leiden",
+      "date": "1749-09-22",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Interpres Legati Warneriani",
+      "location": "Leiden",
+      "date": "1750",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Staten Coll.",
+      "location": "Leiden",
+      "date": "1751-02-01",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1760",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1761",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1757",
+      "source": "7",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. de utilitate dialectorum orient. ad tuendam integritatem codicis Hebraei",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Suzanna Amalia",
+      "LastName": "SCHRAMM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Albert",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Groningen",
+      "BirthDate": "1686-08-22",
+      "DeathDate": "1750-01-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Elizabeth",
+      "LastName": "DOZY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1717",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "SCHUITENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Betta",
+      "LastName": "BOTHENIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johann Heinrich",
+      "LastName": "SCHRAMM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Hendrik Albert",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Herborn",
+      "BirthDate": "1749-02-25",
+      "DeathDate": "1793-08-12",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Franeker",
+  "BirthDate": "1716-09-19",
+  "DeathDate": "1778-11-27",
+  "DeathCity": "Leiden"
+}
