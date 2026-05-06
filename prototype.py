@@ -25,7 +25,7 @@ import os
 from functools import lru_cache
 
 import dash
-from dash import Dash, dcc, html, Input, Output, State, dash_table, ctx
+from dash import Dash, dcc, html, Input, Output, State, dash_table, ctx, Patch
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.graph_objects as go
@@ -49,6 +49,13 @@ try:
     HAS_NX = True
 except ImportError:
     HAS_NX = False
+
+try:
+    from edge_bundling import bundle_event_df
+    HAS_BUNDLING = True
+except ImportError:
+    HAS_BUNDLING = False
+    bundle_event_df = None
 
 
 # ─── Config ───────────────────────────────────────────────────────────────────
@@ -89,6 +96,93 @@ PERSON_PALETTE = [
     "#b5838d",  # mauve
 ]
 GOLD = "#f1c40f"
+
+# Dutch names that all mean "the Netherlands" — cities with these countries are NL.
+# Also includes province names that occasionally appear as the "country" half of
+# cache entries (e.g. "SomeVillage, Gelderland") and must not become cluster nodes.
+NL_COUNTRY_DUTCH = {
+    "nederland", "netherlands", "nl", "holland", "the netherlands",
+    # Dutch provinces
+    "gelderland", "zeeland", "friesland", "groningen", "drenthe",
+    "overijssel", "flevoland", "utrecht", "noord-holland", "zuid-holland",
+    "noord-brabant", "limburg",
+}
+
+# Netherlands lat/lon bounding box — used only as a LAST RESORT when the
+# geocache has no entry at all for a location.
+_NL_LAT = (50.75, 53.55)
+_NL_LON = (3.36, 7.23)
+
+# ── Build (rounded_lat, rounded_lon) → country from geocode_cache.json ────────
+# Strings that appear as the "country" half of "City, Country" geocache keys but
+# are actually city names (bad entries like "Genève, Parijs").
+_GEOCACHE_CITY_BLACKLIST = {
+    "parijs", "genève", "cambridge", "westminster", "aken", "algiers",
+    "algier", "londen",
+}
+
+_COUNTRY_LOOKUP: dict = {}
+# city name (lowercase) → country, built from "City, Country" cache keys
+_CITY_COUNTRY_LOOKUP: dict = {}
+try:
+    import json as _json
+    with open("geocode_cache.json") as _f:
+        _gc = _json.load(_f)
+
+    for _k, _v in _gc.items():
+        if not _v or "," not in _k:
+            continue
+        _lat, _lon = _v.get("lat"), _v.get("lon")
+        if _lat is None or _lon is None:
+            continue
+        _country = _k.rsplit(",", 1)[1].strip()
+        if _country.lower() in _GEOCACHE_CITY_BLACKLIST:
+            continue
+        # Skip NL province names appearing as country so they don't pollute lookup
+        if _country.lower() not in NL_COUNTRY_DUTCH:
+            for _r in [4, 3, 2]:
+                _COUNTRY_LOOKUP.setdefault((round(_lat, _r), round(_lon, _r)), _country)
+        # City-name → country lookup (first-seen wins per city name)
+        _city_part = _k.split(",", 1)[0].strip().lower()
+        if _city_part and _country.lower() not in NL_COUNTRY_DUTCH:
+            _CITY_COUNTRY_LOOKUP.setdefault(_city_part, _country)
+except Exception:
+    pass
+
+
+def _get_country(lat: float, lon: float) -> str | None:
+    """Return country name for lat/lon, or None if unknown.
+
+    Cache lookup runs first (precise); NL bounding box is last resort only,
+    so Belgian border cities like Antwerpen are correctly identified via cache.
+    """
+    for r in [4, 3, 2, 1]:
+        c = _COUNTRY_LOOKUP.get((round(float(lat), r), round(float(lon), r)))
+        if c:
+            # Normalise NL variants to "Nederland"
+            return "Nederland" if c.lower() in NL_COUNTRY_DUTCH else c
+    # Last resort: NL bounding box for cities with no cache entry
+    if _NL_LAT[0] <= lat <= _NL_LAT[1] and _NL_LON[0] <= lon <= _NL_LON[1]:
+        return "Nederland"
+    return None
+
+
+def _cluster_label(city: str, country, expanded_countries: set) -> str:
+    """Return the Sankey node label.
+
+    • country is None/NaN or an NL variant → show city name (individual NL node)
+    • country is in expanded_countries      → show city name (user expanded it)
+    • otherwise                             → show country name (cluster node)
+    """
+    city_s = (city or "").strip()
+    # pandas stores Python None as float NaN in object columns
+    if not country or not isinstance(country, str):
+        return city_s or "Unknown"
+    if country.lower() in NL_COUNTRY_DUTCH:
+        return city_s or "Unknown"
+    if country in expanded_countries:
+        return city_s or country
+    return country
 
 
 def person_color_map(selected_ids: list) -> dict:
@@ -232,7 +326,7 @@ RELATIONS_QUERY = """
 SELECT
     r.person_id_1,
     r.person_id_2,
-    r.relation_type,
+    rt.relation_type_name AS relation_type,
     TRIM(
         COALESCE(p1.first_name, '') || ' ' ||
         COALESCE(p1.affix || ' ', '') ||
@@ -244,6 +338,7 @@ SELECT
         COALESCE(p2.last_name, '')
     ) AS name_2
 FROM relation r
+JOIN relation_type rt ON rt.relation_type_id = r.relation_type_id
 JOIN person p1 ON p1.person_id = r.person_id_1
 JOIN person p2 ON p2.person_id = r.person_id_2
 """
@@ -320,7 +415,16 @@ else:
     MIN_YEAR, MAX_YEAR = 1575, 2000
     YEARS = list(range(MIN_YEAR, MAX_YEAR + 1))
 
-DEFAULT_RANGE  = [YEARS[0], YEARS[-1]]
+DEFAULT_RANGE = [YEARS[0], YEARS[-1]]
+
+if not DF.empty:
+    LAT_MIN = int(DF["latitude"].min()  - 2)
+    LAT_MAX = int(DF["latitude"].max()  + 2)
+    LON_MIN = int(DF["longitude"].min() - 2)
+    LON_MAX = int(DF["longitude"].max() + 2)
+else:
+    LAT_MIN, LAT_MAX = 30, 75
+    LON_MIN, LON_MAX = -20, 50
 PERSON_OPTIONS = (
     DF[["person_id", "person_name", "faculty"]]
     .drop_duplicates("person_id")
@@ -374,7 +478,8 @@ def person_color(person_id, selected_ids, faculty_map, use_faculty=False):
 # ─── Map building ─────────────────────────────────────────────────────────────
 
 def build_map(df, year_range, selected_people, display_mode,
-              direction_mode, bg_opacity, use_faculty_colors):
+              direction_mode, bg_opacity, use_faculty_colors,
+              use_bundling=False):
     if df.empty:
         return empty_fig("No geocoded events in this range.", h=700)
 
@@ -397,10 +502,48 @@ def build_map(df, year_range, selected_people, display_mode,
             fac_color_map[int(row["person_id"])] = \
                 FACULTY_COLOR_MAP.get(row["faculty"], "#7f8c8d")
 
+    sel_color_map  = person_color_map(selected_people)  # {pid: unique_color}
     fig = go.Figure()
 
+    # Legend entry per selected person (invisible trace, just for the colour key)
+    if selected_people:
+        for _pid in selected_people:
+            _rows = path_df[path_df["person_id"] == _pid]
+            if _rows.empty:
+                continue
+            _pname = _rows["person_name"].iloc[0]
+            _color = sel_color_map.get(int(_pid), "#7f8c8d")
+            fig.add_trace(go.Scattermap(
+                lat=[None], lon=[None], mode="lines",
+                line={"width": 4, "color": _color},
+                name=_pname, showlegend=True,
+            ))
+
+    # ── Edge bundling for background paths ────────────────────────────────────
+    # Bundle only unselected paths to reduce visual clutter.
+    # Selected people always keep exact coordinates for accuracy.
+    if use_bundling and HAS_BUNDLING and not path_df.empty:
+        unsel_ids = path_df[
+            ~path_df["person_id"].isin(selected_people)
+        ]["person_id"].unique()
+        cap = min(50, len(unsel_ids))
+
+        # Use FULL event history (DF, not path_df) for better bundling —
+        # more points = better curvature. Then crop back to visible range.
+        full_unsel = DF[DF["person_id"].isin(unsel_ids[:cap])].copy()
+        bundled_full = bundle_event_df(full_unsel, max_paths=cap, min_events=3)
+
+        # Crop bundled result back to the visible year range
+        bundled_visible = bundled_full[bundled_full["year"] <= end_year]
+
+        path_df = pd.concat([
+            path_df[path_df["person_id"].isin(selected_people)],
+            bundled_visible,
+            path_df[path_df["person_id"].isin(unsel_ids[cap:])],
+        ], ignore_index=True)
+
     # ── Paths ─────────────────────────────────────────────────────────────────
-    sel_color_map = person_color_map(selected_people)  # {pid: unique_color}
+    _interval_pids  = set(interval_df["person_id"].astype(int).unique())
 
     if selected_people:
         # Use path_df (all events up to end_year) so we check real temporal overlap —
@@ -412,30 +555,40 @@ def build_map(df, year_range, selected_people, display_mode,
         shared_locs = set()
 
     if display_mode == "all":
-        for pid, pdf in path_df.groupby("person_id"):
+        # Selected people: individual traces with gold co-presence highlighting
+        for pid, pdf in path_df[path_df["person_id"].isin(selected_people)].groupby("person_id"):
+            pdf = pdf.sort_values(["event_date", "event_order"]).reset_index(drop=True)
+            pname = pdf["person_name"].iloc[0]
+            pcolor = sel_color_map[int(pid)]
+            draw_person_path_map(fig, pdf, pid, pname, pcolor, shared_locs,
+                                 direction_mode if direction_mode != "off" else "off")
+
+        # Unselected people: merge into one trace per color instead of one per person.
+        # Reduces O(n_people) traces to O(1-8) traces — major speedup in Python + browser.
+        color_lats: dict = {}
+        color_lons: dict = {}
+        color_text: dict = {}
+        for pid, pdf in path_df[~path_df["person_id"].isin(selected_people)].groupby("person_id"):
+            if not use_bundling and int(pid) not in _interval_pids:
+                continue
             pdf   = pdf.sort_values(["event_date", "event_order"]).reset_index(drop=True)
             pname = pdf["person_name"].iloc[0]
-            is_sel = int(pid) in selected_people
+            color = fac_color_map.get(int(pid), "#7f8c8d") if use_faculty_colors else "#7f8c8d"
+            color_lats.setdefault(color, []).extend(pdf["latitude"].tolist() + [None])
+            color_lons.setdefault(color, []).extend(pdf["longitude"].tolist() + [None])
+            color_text.setdefault(color, []).extend([pname] * len(pdf) + [None])
 
-            if is_sel:
-                pcolor = sel_color_map[int(pid)]
-                draw_person_path_map(fig, pdf, pid, pname, pcolor, shared_locs,
-                                     direction_mode if direction_mode != "off" else "off")
-            else:
-                # Skip people with no events in the visible interval (saves traces)
-                if int(pid) not in interval_df["person_id"].values:
-                    continue
-                color = fac_color_map.get(int(pid), "#7f8c8d") if use_faculty_colors                         else "#7f8c8d"
-                fig.add_trace(go.Scattermap(
-                    lat=pdf["latitude"], lon=pdf["longitude"],
-                    mode="lines",
-                    line={"width": 1, "color": color},
-                    opacity=bg_opacity,
-                    name=pname,
-                    hovertemplate=f"<b>{pname}</b><br>Path<extra></extra>",
-                    customdata=[[int(pid), pname, "path"]] * len(pdf),
-                    showlegend=False,
-                ))
+        for color, lats in color_lats.items():
+            fig.add_trace(go.Scattermap(
+                lat=lats, lon=color_lons[color],
+                mode="lines",
+                line={"width": 1, "color": color},
+                opacity=bg_opacity,
+                text=color_text[color],
+                hovertemplate="%{text}<extra></extra>",
+                showlegend=False,
+                name="paths",
+            ))
 
     elif selected_people:
         for pid, pdf in path_df[path_df["person_id"].isin(selected_people)].groupby("person_id"):
@@ -640,102 +793,243 @@ def get_shared_locations(selected_df):
 
 # ─── Career flow (Sankey) ─────────────────────────────────────────────────────
 
-def build_career_sankey(df, year_range, faculty_filter=None, top_n=20):
+def build_career_sankey(df, year_range, faculty_filter=None, top_n=20,
+                        expanded_countries=None, trace_node=None,
+                        selected_people=None):
     """
-    Sankey diagram: flows between cities for career events.
-    Only shows the top_n most-connected cities to keep the chart readable.
+    Sankey of all life-event city flows (birth, education, career, death).
+
+    • Non-NL cities are collapsed to their country name.  Click a country node
+      to expand it into individual cities; click again to collapse.
+    • selected_people: list of person_ids whose flows are drawn in their person
+      colour; all other flows are dimmed.
+    • trace_node: node label — only flows touching this node are highlighted;
+      everything else is dimmed.
+
+    Returns (fig, list_of_country_cluster_labels).
     """
+    expanded_countries = set(expanded_countries or [])
+    selected_people    = list(map(int, selected_people or []))
+
     if df.empty:
-        return empty_fig("No career data available.")
+        return empty_fig("No career data available."), [], None
 
     s, e = sorted(year_range)
     career = df[
-        (df["event_type_name"] == "career") &
         (df["year"] >= s) & (df["year"] <= e)
     ].copy()
 
     if faculty_filter:
         career = career[career["faculty"].isin(faculty_filter)]
-
     if career.empty:
-        return empty_fig("No career events in this range.")
+        return empty_fig("No events in this range."), [], None
 
-    career = career.sort_values(["person_id", "event_date"])
+    career = career.sort_values(["person_id", "event_date", "event_order"])
+    # Derive country from lat/lon, with city-name fallback for cache misses
+    career["detected_country"] = career.apply(
+        lambda r: (
+            _get_country(r["latitude"], r["longitude"])
+            or _CITY_COUNTRY_LOOKUP.get((r["city_label"] or "").strip().lower())
+        ),
+        axis=1,
+    )
+    career["node_label"] = career.apply(
+        lambda r: _cluster_label(r["city_label"], r["detected_country"], expanded_countries),
+        axis=1,
+    )
+    # True when the label is the country name (cluster), False when it's the city name
+    career["is_clustered"] = career.apply(
+        lambda r: (
+            isinstance(r["detected_country"], str)
+            and r["detected_country"].lower() not in NL_COUNTRY_DUTCH
+            and r["detected_country"] not in expanded_countries
+        ),
+        axis=1,
+    )
 
-    flows = []
-    for _, pdf in career.groupby("person_id"):
-        cities = pdf["city_label"].tolist()
-        for i in range(len(cities) - 1):
-            src, tgt = cities[i], cities[i+1]
+    # Build per-person flows (retain person info for trace highlighting)
+    raw = []
+    for pid, pdf in career.groupby("person_id"):
+        pname  = pdf["person_name"].iloc[0]
+        labels = pdf["node_label"].tolist()
+        for i in range(len(labels) - 1):
+            src, tgt = labels[i], labels[i + 1]
             if src and tgt and src != tgt:
-                flows.append({"from": src, "to": tgt})
+                raw.append({"from": src, "to": tgt,
+                            "person_id": int(pid), "person_name": pname})
 
-    if not flows:
-        return empty_fig("No city transitions found in career events.")
+    if not raw:
+        return empty_fig("No location transitions found."), [], None
 
-    flows_df  = pd.DataFrame(flows)
-    flows_agg = flows_df.groupby(["from", "to"]).size().reset_index(name="count")
+    flows_df_all = pd.DataFrame(raw)
+    flows_agg_all = flows_df_all.groupby(["from", "to"]).size().reset_index(name="count")
 
-    # Keep only cities that appear in the top_n by total flow volume
-    city_volume = (
-        pd.concat([flows_agg[["from","count"]].rename(columns={"from":"city"}),
-                   flows_agg[["to","count"]].rename(columns={"to":"city"})])
+    # Top-N nodes by total flow volume
+    city_vol = (
+        pd.concat([
+            flows_agg_all[["from", "count"]].rename(columns={"from": "city"}),
+            flows_agg_all[["to",   "count"]].rename(columns={"to":   "city"}),
+        ])
         .groupby("city")["count"].sum()
         .nlargest(top_n)
     )
-    top_cities = set(city_volume.index)
-    flows_agg  = flows_agg[
-        flows_agg["from"].isin(top_cities) & flows_agg["to"].isin(top_cities)
+    top_cities = set(city_vol.index)
+
+    # Always include every location visited by the selected person(s)
+    if selected_people:
+        sel_rows = flows_df_all[flows_df_all["person_id"].isin(selected_people)]
+        top_cities |= set(sel_rows["from"]) | set(sel_rows["to"])
+
+    flows_agg = flows_agg_all[
+        flows_agg_all["from"].isin(top_cities) & flows_agg_all["to"].isin(top_cities)
+    ]
+    flows_df = flows_df_all[
+        flows_df_all["from"].isin(top_cities) & flows_df_all["to"].isin(top_cities)
     ]
 
     if flows_agg.empty:
-        return empty_fig(f"No flows between the top {top_n} cities in this range.")
+        return empty_fig(f"No flows between top {top_n} nodes in this range."), [], None
 
-    # Sort nodes: sources on left (appear as "from"), sinks on right
-    source_cities = set(flows_agg["from"])
-    sink_cities   = set(flows_agg["to"]) - source_cities
-    both_cities   = source_cities & set(flows_agg["to"])
-    node_order    = (
-        sorted(source_cities - both_cities) +
-        sorted(both_cities) +
-        sorted(sink_cities)
+    # Identify country-cluster nodes: a node is a cluster when the label was
+    # produced by the country name (is_clustered=True), not the city name.
+    # We track this directly during label assignment rather than inferring it
+    # post-hoc (which fails when the city_label IS the country name, e.g. "Duitsland").
+    all_labels    = set(flows_agg["from"]) | set(flows_agg["to"])
+    clustered_set = set(
+        career[career["is_clustered"] & career["node_label"].isin(all_labels)]["node_label"]
     )
-    node_idx = {n: i for i, n in enumerate(node_order)}
+    country_nodes = sorted(clustered_set)
 
-    # Colour nodes: Leiden always highlighted if present
+    # Node ordering: pure sources → both → pure sinks
+    src_set    = set(flows_agg["from"])
+    tgt_set    = set(flows_agg["to"])
+    both_set   = src_set & tgt_set
+    node_order = sorted(src_set - both_set) + sorted(both_set) + sorted(tgt_set - src_set)
+    node_idx   = {n: i for i, n in enumerate(node_order)}
+
+    # Node colours: Leiden = red, country cluster = grey, NL city = blue
     node_colors = [
-        "#c0392b" if "leiden" in n.lower() else "#457b9d"
+        "#c0392b" if "leiden" in n.lower() else
+        ("#6c757d" if n in country_nodes else "#457b9d")
         for n in node_order
     ]
+
+    # Node hover text
+    def _node_hover(n):
+        if n in country_nodes:
+            cities = sorted(
+                career[career["node_label"] == n]["city_label"].dropna().unique()
+            )
+            lines  = "<br>".join(f"• {c}" for c in cities[:12])
+            extra  = f"<br>… and {len(cities) - 12} more" if len(cities) > 12 else ""
+            return f"<b>{n}</b> — cluster ({len(cities)} cities)<br>{lines}{extra}<br><i>Click to expand</i>"
+        suffix = "<br><i>Click to collapse country</i>" if n in expanded_countries else ""
+        return f"<b>{n}</b>{suffix}"
+
+    node_hover = [_node_hover(n) for n in node_order]
+
+    sel_cmap = person_color_map(selected_people)
+    sel_set  = set(selected_people)
+
+    # Per-person flow counts — how many times each person moved A→B
+    person_flows = (
+        flows_df.groupby(["from", "to", "person_id"])
+        .size()
+        .reset_index(name="count")
+    )
+
+    def _hex_rgba(hex_c: str, alpha: float) -> str:
+        h = hex_c.lstrip("#")
+        rv, gv, bv = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+        return f"rgba({rv},{gv},{bv},{alpha})"
+
+    def _active(src, tgt) -> bool:
+        return not trace_node or src == trace_node or tgt == trace_node
+
+    link_src, link_tgt, link_val, link_col = [], [], [], []
+
+    if sel_set:
+        # Unselected people — grey aggregate per (from, to)
+        unsel = person_flows[~person_flows["person_id"].isin(sel_set)]
+        if not unsel.empty:
+            for (src, tgt), grp in unsel.groupby(["from", "to"]):
+                if src not in node_idx or tgt not in node_idx:
+                    continue
+                link_src.append(node_idx[src])
+                link_tgt.append(node_idx[tgt])
+                link_val.append(int(grp["count"].sum()))
+                link_col.append("rgba(180,180,180,0.15)" if _active(src, tgt)
+                                else "rgba(180,180,180,0.04)")
+
+        # Selected people — one proportional band per person per link
+        for _, r in person_flows[person_flows["person_id"].isin(sel_set)].iterrows():
+            src, tgt = r["from"], r["to"]
+            if src not in node_idx or tgt not in node_idx:
+                continue
+            link_src.append(node_idx[src])
+            link_tgt.append(node_idx[tgt])
+            link_val.append(int(r["count"]))
+            pid = int(r["person_id"])
+            alpha = 0.85 if _active(src, tgt) else 0.06
+            link_col.append(_hex_rgba(sel_cmap.get(pid, "#e63946"), alpha))
+    else:
+        # No selection — single aggregated link per pair, uniform blue
+        for _, r in flows_agg.iterrows():
+            src, tgt = r["from"], r["to"]
+            alpha = 0.28 if _active(src, tgt) else 0.06
+            link_src.append(node_idx[src])
+            link_tgt.append(node_idx[tgt])
+            link_val.append(int(r["count"]))
+            link_col.append(f"rgba(69,123,157,{alpha})")
 
     fig = go.Figure(go.Sankey(
         arrangement="snap",
         node=dict(
             label=node_order,
-            pad=12,
-            thickness=18,
             color=node_colors,
-            hovertemplate="%{label}<br>Total flow: %{value}<extra></extra>",
+            customdata=node_hover,
+            hovertemplate="%{customdata}<extra></extra>",
+            pad=14, thickness=18,
         ),
         link=dict(
-            source=[node_idx[r["from"]] for _, r in flows_agg.iterrows()],
-            target=[node_idx[r["to"]]  for _, r in flows_agg.iterrows()],
-            value=flows_agg["count"].tolist(),
-            color="rgba(69,123,157,0.25)",
+            source=link_src,
+            target=link_tgt,
+            value=link_val,
+            color=link_col,
             hovertemplate="%{source.label} → %{target.label}<br>%{value} moves<extra></extra>",
         ),
     ))
+
+    title = f"Life flows — top {top_n} nodes  |  grey = country cluster (click to expand)"
+    if trace_node:
+        title += f"  |  tracing: {trace_node}"
+    if selected_people:
+        title += f"  |  {len(selected_people)} person(s) highlighted"
+
+    fig_height = max(600, len(node_order) * 40)
     fig.update_layout(
-        title=dict(
-            text=f"Career city flows — top {top_n} cities by volume",
-            font=dict(size=14),
-        ),
+        title=dict(text=title, font=dict(size=13)),
         template="plotly_white",
-        margin={"l": 20, "r": 20, "t": 50, "b": 20},
-        height=600,
+        margin={"l": 20, "r": 20, "t": 55, "b": 20},
+        height=fig_height,
         font=dict(size=11),
     )
-    return fig
+    # Build flows_data for fast Patch-based recoloring (stores node indices)
+    flows_data = {
+        "per_person": [
+            {"si": node_idx[r["from"]], "ti": node_idx[r["to"]],
+             "pid": int(r["person_id"]), "n": int(r["count"])}
+            for _, r in person_flows.iterrows()
+            if r["from"] in node_idx and r["to"] in node_idx
+        ],
+        "aggregated": [
+            {"si": node_idx[r["from"]], "ti": node_idx[r["to"]], "n": int(r["count"])}
+            for _, r in flows_agg.iterrows()
+            if r["from"] in node_idx and r["to"] in node_idx
+        ],
+    }
+
+    return fig, country_nodes, flows_data
 
 
 # ─── Network graph ────────────────────────────────────────────────────────────
@@ -1116,8 +1410,9 @@ CONTROLS = dbc.Card([
                 dbc.Checklist(
                     id="options-checks",
                     options=[
-                        {"label": "Faculty colours", "value": "faculty_colors"},
-                        {"label": "Direction cues",  "value": "directions"},
+                        {"label": "Faculty colours",  "value": "faculty_colors"},
+                        {"label": "Direction cues",   "value": "directions"},
+                        {"label": "Bundle paths",     "value": "bundle"},
                     ],
                     value=[],
                     inline=True,
@@ -1140,6 +1435,24 @@ CONTROLS = dbc.Card([
                            updatemode="mouseup"),
             ], width=4),
             dbc.Col([
+                html.Label("Animation", className="fw-bold small"),
+                dbc.ButtonGroup([
+                    dbc.Button("▶ Play",  id="anim-play-btn",  color="primary",
+                               size="sm", outline=True),
+                    dbc.Button("⏸ Pause", id="anim-pause-btn", color="secondary",
+                               size="sm", outline=True),
+                    dbc.Button("↩ Reset", id="anim-reset-btn", color="secondary",
+                               size="sm", outline=True),
+                ], className="mt-1"),
+                html.Span(id="anim-status", className="ms-2 small text-muted"),
+            ], width=3),
+            dbc.Col([
+                html.Label("Yrs / step", className="fw-bold small"),
+                dcc.Slider(id="anim-speed", min=1, max=10, step=1, value=3,
+                           marks={1: "1", 5: "5", 10: "10"},
+                           updatemode="mouseup"),
+            ], width=2),
+            dbc.Col([
                 dbc.Button("↺ Refresh data", id="refresh-btn",
                            color="secondary", size="sm", outline=True,
                            className="mt-3"),
@@ -1157,8 +1470,13 @@ TABS = dbc.Tabs([
         dbc.Row([
             dbc.Col([
                 html.Div(popout_btn("map", "map"), className="text-end mb-1"),
-                dcc.Graph(id="lifepath-map", config={"displayModeBar": True,
-                                                      "responsive": True}),
+                dcc.Loading(
+                    id="map-loading",
+                    type="circle",
+                    children=dcc.Graph(id="lifepath-map",
+                                       config={"displayModeBar": True,
+                                               "responsive": True}),
+                ),
             ], width=8),
             dbc.Col([
                 html.H5("Selection", className="mt-2"),
@@ -1201,12 +1519,37 @@ TABS = dbc.Tabs([
                     className="mt-2 mb-1 small",
                 ),
                 html.P(
-                    "Co-presence markers appear as gold spheres at locations where "
-                    "≥2 professors were present in the same year.",
-                    className="text-muted small",
+                    "Co-presence markers appear as gold spheres where ≥2 professors "
+                    "were present in the same year.",
+                    className="text-muted small mb-0",
                 ),
-            ]),
-        ]),
+            ], width=4),
+            dbc.Col([
+                html.Label("Latitude range (spatial zoom)", className="fw-bold small"),
+                dcc.RangeSlider(
+                    id="cube-lat-range",
+                    min=LAT_MIN, max=LAT_MAX, step=1,
+                    value=[LAT_MIN, LAT_MAX],
+                    marks={LAT_MIN: str(LAT_MIN), LAT_MAX: str(LAT_MAX)},
+                    tooltip={"placement": "bottom", "always_visible": False},
+                    updatemode="mouseup",
+                ),
+                html.Label("Longitude range", className="fw-bold small mt-1"),
+                dcc.RangeSlider(
+                    id="cube-lon-range",
+                    min=LON_MIN, max=LON_MAX, step=1,
+                    value=[LON_MIN, LON_MAX],
+                    marks={LON_MIN: str(LON_MIN), LON_MAX: str(LON_MAX)},
+                    tooltip={"placement": "bottom", "always_visible": False},
+                    updatemode="mouseup",
+                ),
+            ], width=6),
+            dbc.Col([
+                dbc.Button("Reset spatial filter", id="cube-reset-btn",
+                           color="secondary", size="sm", outline=True,
+                           className="mt-4"),
+            ], width=2),
+        ], className="mb-2"),
         html.Div(popout_btn("cube", "cube"), className="text-end mb-1"),
         dcc.Graph(id="space-time-cube", config={"displayModeBar": True,
                                                  "responsive": True}),
@@ -1225,26 +1568,47 @@ TABS = dbc.Tabs([
     ]),
 
     # ── Career flow tab ───────────────────────────────────────────────────────
-    dbc.Tab(label="➡ Career flows", tab_id="tab-sankey", children=[
+    dbc.Tab(label="➡ Life flows", tab_id="tab-sankey", children=[
         dbc.Row([
             dbc.Col([
-                html.P("City-to-city moves for career events in the selected interval. "
-                       "Only the most-connected cities are shown.",
-                       className="text-muted small mt-2"),
-            ], width=9),
+                html.P(
+                    "City-to-city career moves. Non-NL cities are grouped by country "
+                    "(grey nodes). Expand countries with the dropdown below, or click "
+                    "any city node to trace flows through it. "
+                    "Select people on the map to highlight their personal paths.",
+                    className="text-muted small mt-2 mb-1",
+                ),
+                html.Div(id="sankey-trace-info", className="small text-info"),
+            ], width=5),
             dbc.Col([
-                html.Label("Max cities shown", className="fw-bold small mt-2"),
+                html.Label("Expand countries", className="fw-bold small mt-2"),
+                dcc.Dropdown(
+                    id="sankey-expand-dropdown",
+                    options=[],
+                    value=[],
+                    multi=True,
+                    placeholder="Select country clusters to expand…",
+                ),
+            ], width=4),
+            dbc.Col([
+                html.Label("Max nodes shown", className="fw-bold small mt-2"),
                 dcc.Slider(
                     id="sankey-top-n",
                     min=5, max=40, step=5, value=20,
-                    marks={5:"5", 10:"10", 20:"20", 30:"30", 40:"40"},
+                    marks={5: "5", 10: "10", 20: "20", 30: "30", 40: "40"},
                     tooltip={"placement": "bottom", "always_visible": False},
                 ),
+                dbc.Button("✕ Clear", id="sankey-clear-btn",
+                           color="secondary", size="sm", outline=True,
+                           className="mt-2"),
             ], width=3),
         ], className="mb-2"),
-        html.Div(popout_btn("sankey", "career flows"), className="text-end mb-1"),
-        dcc.Graph(id="career-sankey", config={"displayModeBar": True,
-                                               "responsive": True}),
+        html.Div(popout_btn("sankey", "life flows"), className="text-end mb-1"),
+        html.Div(
+            dcc.Graph(id="career-sankey",
+                      config={"displayModeBar": True}),
+            style={"overflowY": "auto", "height": "calc(100vh - 260px)"},
+        ),
     ]),
 
     # ── Network tab ───────────────────────────────────────────────────────────
@@ -1270,7 +1634,15 @@ app.title = "Life Paths"
 _STORES = [
     dcc.Store(id="selected-people-store", data=[]),
     dcc.Location(id="url", refresh=False),
-    # Hidden fallback components — correct types so Dash property checks pass.
+
+    # ── New feature stores ────────────────────────────────────────────────────
+    dcc.Store(id="anim-playing",          data=False),
+    dcc.Interval(id="anim-tick",          interval=2000, disabled=True, n_intervals=0),
+    dcc.Store(id="sankey-trace-node",     data=None),  # node being traced
+    dcc.Store(id="sankey-country-nodes",  data=[]),    # labels that are country clusters
+    dcc.Store(id="sankey-flows-store",    data=None),  # per-link person_ids for fast recolor
+
+    # ── Hidden fallback components ────────────────────────────────────────────
     # Panel pages only render a subset of the layout; these ensure every
     # callback input/state ID always exists in the DOM.
     dcc.Checklist(id="cube-options",    value=[], options=[],
@@ -1283,12 +1655,37 @@ _STORES = [
                   style={"display": "none"}),
     dcc.RadioItems(id="display-mode",   value="all", options=[],
                   style={"display": "none"}),
-    dcc.Checklist(id="options-checks",  value=[], options=[],
-                  style={"display": "none"}),
+    dcc.Checklist(id="options-checks",  value=[], options=[
+                      {"label": "Faculty colours", "value": "faculty_colors"},
+                      {"label": "Direction cues",  "value": "directions"},
+                      {"label": "Bundle paths",    "value": "bundle"},
+                  ], style={"display": "none"}),
     html.Div(dcc.Slider(id="bg-opacity", value=0.08, min=0.02, max=0.35),
              style={"display": "none"}),
-    dbc.Tabs(id="main-tabs",            active_tab=None, children=[],
-                  style={"display": "none"}),
+    dbc.Tabs(id="main-tabs", active_tab=None, children=[],
+             style={"display": "none"}),
+    # Animation controls fallbacks (only in CONTROLS on main page)
+    html.Div([
+        dbc.Button(id="anim-play-btn"),
+        dbc.Button(id="anim-pause-btn"),
+        dbc.Button(id="anim-reset-btn"),
+        dcc.Slider(id="anim-speed", value=3, min=1, max=10),
+        html.Span(id="anim-status"),
+    ], style={"display": "none"}),
+    # Cube spatial filter fallbacks (only in cube tab on main page)
+    html.Div([
+        dcc.RangeSlider(id="cube-lat-range", value=[LAT_MIN, LAT_MAX],
+                        min=LAT_MIN, max=LAT_MAX),
+        dcc.RangeSlider(id="cube-lon-range", value=[LON_MIN, LON_MAX],
+                        min=LON_MIN, max=LON_MAX),
+        dbc.Button(id="cube-reset-btn"),
+    ], style={"display": "none"}),
+    # Sankey interaction fallbacks (only in sankey tab on main page)
+    html.Div([
+        dbc.Button(id="sankey-clear-btn"),
+        html.Div(id="sankey-trace-info"),
+        dcc.Dropdown(id="sankey-expand-dropdown", value=[], options=[]),
+    ], style={"display": "none"}),
 ]
 
 # ── Root layout — router shell ────────────────────────────────────────────────
@@ -1387,11 +1784,13 @@ def update_map(year_range, selected, display_mode, options, bg_opacity, facultie
     df = filter_df(DF, year_range, faculties or None)
 
     use_faculty = "faculty_colors" in (options or [])
-    directions  = "directions" in (options or [])
+    directions  = "directions"      in (options or [])
+    use_bundling = "bundle"         in (options or [])
 
     map_fig = build_map(df, year_range, selected, display_mode,
                         "selected" if directions else "off",
-                        bg_opacity, use_faculty)
+                        bg_opacity, use_faculty,
+                        use_bundling=use_bundling)
 
     s, e = sorted(year_range)
     path_df = (DF if not faculties else DF[DF["faculty"].isin(faculties)])
@@ -1476,13 +1875,24 @@ def hover_summary(hover_data, year_range):
     Input("selected-people-store", "data"),
     Input("cube-options", "value"),
     Input("faculty-dropdown", "value"),
+    Input("cube-lat-range", "value"),
+    Input("cube-lon-range", "value"),
     State("url", "pathname"),
     prevent_initial_call=False,
 )
-def update_cube(year_range, selected, cube_opts, faculties, pathname):
+def update_cube(year_range, selected, cube_opts, faculties, lat_range, lon_range, pathname):
     yr      = year_range or DEFAULT_RANGE
     df      = filter_df(DF, yr, faculties or None)
     show_cp = "copresence" in (cube_opts or [])
+
+    # Apply spatial filter from the lat/lon sliders
+    if lat_range and len(lat_range) == 2:
+        lo, hi = sorted(lat_range)
+        df = df[(df["latitude"] >= lo) & (df["latitude"] <= hi)]
+    if lon_range and len(lon_range) == 2:
+        lo, hi = sorted(lon_range)
+        df = df[(df["longitude"] >= lo) & (df["longitude"] <= hi)]
+
     return build_cube(df, selected or [], show_copresence=show_cp)
 
 
@@ -1514,14 +1924,143 @@ def update_copresence(year_range, selected, faculties):
 
 @app.callback(
     Output("career-sankey", "figure"),
+    Output("sankey-country-nodes", "data"),
+    Output("sankey-flows-store", "data"),
     Input("year-slider", "value"),
     Input("faculty-dropdown", "value"),
     Input("sankey-top-n", "value"),
+    Input("sankey-expand-dropdown", "value"),
+    State("sankey-trace-node", "data"),
+    State("selected-people-store", "data"),
     prevent_initial_call=False,
 )
-def update_sankey(year_range, faculties, top_n):
-    yr = year_range or DEFAULT_RANGE
-    return build_career_sankey(DF, yr, faculties or None, top_n=top_n or 20)
+def update_sankey(year_range, faculties, top_n, expanded, trace_node, selected):
+    yr  = year_range or DEFAULT_RANGE
+    fig, country_nodes, flows_data = build_career_sankey(
+        DF, yr,
+        faculty_filter=faculties or None,
+        top_n=top_n or 20,
+        expanded_countries=expanded or [],
+        trace_node=trace_node,
+        selected_people=selected or [],
+    )
+    return fig, country_nodes, flows_data
+
+
+@app.callback(
+    Output("career-sankey", "figure", allow_duplicate=True),
+    Input("selected-people-store", "data"),
+    Input("sankey-trace-node", "data"),
+    State("sankey-flows-store", "data"),
+    prevent_initial_call=True,
+)
+def recolor_sankey(selected, trace_node, flows_data):
+    if not flows_data or not flows_data.get("per_person") and not flows_data.get("aggregated"):
+        raise dash.exceptions.PreventUpdate
+
+    selected_people = list(map(int, selected or []))
+    sel_set  = set(selected_people)
+    sel_cmap = person_color_map(selected_people)
+
+    def _hex_rgba(hex_c, alpha):
+        h = hex_c.lstrip("#")
+        rv, gv, bv = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+        return f"rgba({rv},{gv},{bv},{alpha})"
+
+    link_src, link_tgt, link_val, link_col = [], [], [], []
+
+    if sel_set:
+        # Unselected aggregate
+        unsel_agg = {}
+        for p in flows_data.get("per_person", []):
+            if p["pid"] not in sel_set:
+                k = (p["si"], p["ti"])
+                unsel_agg[k] = unsel_agg.get(k, 0) + p["n"]
+        for (si, ti), n in unsel_agg.items():
+            link_src.append(si); link_tgt.append(ti)
+            link_val.append(n);  link_col.append("rgba(180,180,180,0.15)")
+
+        # Per-person proportional bands
+        for p in flows_data.get("per_person", []):
+            if p["pid"] in sel_set:
+                link_src.append(p["si"]); link_tgt.append(p["ti"])
+                link_val.append(p["n"])
+                link_col.append(_hex_rgba(sel_cmap.get(p["pid"], "#e63946"), 0.85))
+    else:
+        for p in flows_data.get("aggregated", []):
+            link_src.append(p["si"]); link_tgt.append(p["ti"])
+            link_val.append(p["n"]); link_col.append("rgba(69,123,157,0.28)")
+
+    patched = Patch()
+    patched["data"][0]["link"]["source"] = link_src
+    patched["data"][0]["link"]["target"] = link_tgt
+    patched["data"][0]["link"]["value"]  = link_val
+    patched["data"][0]["link"]["color"]  = link_col
+    return patched
+
+
+@app.callback(
+    Output("sankey-expand-dropdown", "options"),
+    Output("sankey-expand-dropdown", "value", allow_duplicate=True),
+    Input("sankey-country-nodes", "data"),
+    State("sankey-expand-dropdown", "value"),
+    prevent_initial_call="initial_duplicate",
+)
+def sync_expand_options(country_nodes, current_value):
+    """Keep the expand dropdown options in sync with detected country clusters."""
+    nodes = country_nodes or []
+    options = [{"label": n, "value": n} for n in sorted(nodes)]
+    # Remove any selected values that no longer exist as cluster nodes
+    value = [v for v in (current_value or []) if v in nodes]
+    return options, value
+
+
+@app.callback(
+    Output("sankey-trace-node", "data"),
+    Output("sankey-trace-info", "children"),
+    Output("sankey-expand-dropdown", "value", allow_duplicate=True),
+    Input("career-sankey", "clickData"),
+    Input("sankey-clear-btn", "n_clicks"),
+    State("sankey-country-nodes", "data"),
+    State("sankey-expand-dropdown", "value"),
+    prevent_initial_call=True,
+)
+def handle_sankey_click(click_data, clear_clicks, country_nodes, expanded):
+    """
+    Click a city node → set it as trace node (highlights flows through it).
+    Click a country node → add it to the expand dropdown (expand the cluster).
+    Clear button → reset trace and collapse all.
+    """
+    tid = ctx.triggered_id
+
+    if tid == "sankey-clear-btn":
+        return None, "", []
+
+    if tid == "career-sankey" and click_data:
+        pt    = (click_data.get("points") or [{}])[0]
+        label = pt.get("label", "")
+        if not label:
+            raise dash.exceptions.PreventUpdate
+
+        color      = pt.get("color") or ""
+        nodes      = list(country_nodes or [])
+        is_cluster = color == "#6c757d" or label in nodes
+
+        if is_cluster:
+            # Add to expand dropdown (toggle: remove if already there)
+            exp = list(expanded or [])
+            if label in exp:
+                exp = [c for c in exp if c != label]
+                info = f"Collapsed '{label}'."
+            else:
+                exp.append(label)
+                info = f"Expanded '{label}' into individual cities."
+            return dash.no_update, info, exp
+        else:
+            info = f"Tracing flows through: {label}  —  click 'Clear' to reset"
+            return label, info, dash.no_update
+
+    raise dash.exceptions.PreventUpdate
 
 
 @app.callback(
@@ -1532,6 +2071,61 @@ def update_sankey(year_range, faculties, top_n):
 )
 def update_network(selected, active_tab):
     return build_network(selected or [], RELATIONS, DF)
+
+
+# ─── Animation ────────────────────────────────────────────────────────────────
+
+@app.callback(
+    Output("year-slider",   "value",    allow_duplicate=True),
+    Output("anim-playing",  "data",     allow_duplicate=True),
+    Output("anim-tick",     "disabled", allow_duplicate=True),
+    Output("anim-status",   "children"),
+    Input("anim-play-btn",  "n_clicks"),
+    Input("anim-pause-btn", "n_clicks"),
+    Input("anim-reset-btn", "n_clicks"),
+    Input("anim-tick",      "n_intervals"),
+    State("year-slider",    "value"),
+    State("anim-playing",   "data"),
+    State("anim-speed",     "value"),
+    prevent_initial_call=True,
+)
+def animation_driver(play, pause, reset, n_tick, year_range, playing, speed):
+    """Single callback handles play / pause / reset / tick advance."""
+    tid  = ctx.triggered_id
+    yr   = year_range or DEFAULT_RANGE
+    s, e = sorted(yr)
+
+    if tid == "anim-play-btn":
+        return yr, True, False, "▶ Playing…"
+
+    if tid == "anim-pause-btn":
+        return yr, False, True, "⏸ Paused"
+
+    if tid == "anim-reset-btn":
+        return DEFAULT_RANGE, False, True, ""
+
+    if tid == "anim-tick":
+        if not playing:
+            raise dash.exceptions.PreventUpdate
+        spd   = int(speed or 3)
+        new_e = min(e + spd, MAX_YEAR)
+        if new_e >= MAX_YEAR:
+            return [s, MAX_YEAR], False, True, "⏹ Done"
+        return [s, new_e], True, False, f"▶ {s} – {new_e}"
+
+    raise dash.exceptions.PreventUpdate
+
+
+# ─── Cube spatial-filter reset ────────────────────────────────────────────────
+
+@app.callback(
+    Output("cube-lat-range", "value"),
+    Output("cube-lon-range", "value"),
+    Input("cube-reset-btn",  "n_clicks"),
+    prevent_initial_call=True,
+)
+def reset_cube_spatial(_):
+    return [LAT_MIN, LAT_MAX], [LON_MIN, LON_MAX]
 
 
 # ─── Router ──────────────────────────────────────────────────────────────────
