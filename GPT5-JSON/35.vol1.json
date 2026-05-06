@@ -1,0 +1,112 @@
+{
+  "FirstName": "Stephanus",
+  "LastName": "LE MOYNE",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Etienne",
+    "Estienne"
+  ],
+  "alternative_last_names": [
+    "LE MOINE",
+    "MONACHUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Sedan",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Oosterse Talen en Oudheden, Theol.",
+      "location": "Leiden",
+      "date": "1644-12-28",
+      "source": "3,17"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Oxford",
+      "date": "1676-04-06",
+      "source": "20"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Pred.",
+      "location": "Gefosse",
+      "date": "1650",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Rouen",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1673-03-14",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie (Hoogleraar Theol.)",
+      "location": "Leiden",
+      "date": "1676-07-03",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1677",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waalse Pred.",
+      "location": "Leiden",
+      "date": "1682-07-22",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vice-voorzitter Synode",
+      "location": "Caen",
+      "date": "1675",
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gearresteerd wegens vluchthulp aan hervormden",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: tractement \u01921700, huishuur \u0192300",
+      "location": null,
+      "date": null,
+      "source": "35"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Caen",
+  "BirthDate": "1624-10",
+  "DeathDate": "1689-04",
+  "DeathCity": "Leiden"
+}

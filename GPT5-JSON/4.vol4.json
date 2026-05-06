@@ -1,0 +1,273 @@
+{
+  "FirstName": "Jacques",
+  "LastName": "BERNARD",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Die",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Gen\u00e8ve",
+      "date": "1674-02-02",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Gen\u00e8ve",
+      "date": "1674-06-14",
+      "source": "9"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1674-05-21",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1678-07-05",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Venterol",
+      "date": "1679",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Vinsobres",
+      "date": "1680",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar",
+      "location": "Gen\u00e8ve",
+      "date": null,
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar",
+      "location": "Lausanne",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon predikant Waalse gemeente",
+      "location": "Gouda",
+      "date": "1685",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geeft cursussen wiskunde en wijsbegeerte",
+      "location": "Den Haag",
+      "date": "1689",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Redacteur Biblioth\u00e8que Universelle",
+      "location": "Den Haag",
+      "date": "1691-1693",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Redacteur Nouvelles de la R\u00e9publique des lettres",
+      "location": "Den Haag",
+      "date": "1699-1710",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Redacteur Nouvelles de la R\u00e9publique des lettres",
+      "location": "Den Haag",
+      "date": "1716-1718",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant Waalse kerk",
+      "location": "Leiden",
+      "date": "1705",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1705-11-08",
+      "source": "16",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1705-12-17",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1712-02-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1712-02-29",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Trainen jonge Franse theologen en predikambt",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Vlucht naar Gen\u00e8ve",
+      "location": "Gen\u00e8ve",
+      "date": null,
+      "source": "9"
+    },
+    {
+      "particularity": "Zijn predikantsbenoeming in Leiden lang opgehouden door verzet van de stad die deze volgeling van Descartes en Newton te progressief vond",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Willem III irriteerde hij door een republikeins geschrift",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woonde Rapenburg 12",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Lucr\u00e8ece",
+      "LastName": "CHAULI\u00d3",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Salomon",
+      "LastName": "BERNARD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "9",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Madeleine",
+      "LastName": "GALATIN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3,9",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Zwitserland",
+      "BirthCity": "Gen\u00e8ve",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Salomon",
+      "LastName": "BERNARD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Gouda",
+      "BirthDate": "1688-09-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jean",
+      "LastName": "BERNARD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1700-12-25",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacques-Philippe",
+      "LastName": "BERNARD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1702-07-09",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Wiskunde en Wijsbegeerte",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Nyons",
+  "BirthDate": "1658-09-01",
+  "DeathDate": "1718-04-27",
+  "DeathCity": "Leiden"
+}

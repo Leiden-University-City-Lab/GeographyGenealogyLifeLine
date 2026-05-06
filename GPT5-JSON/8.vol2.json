@@ -1,0 +1,110 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "BROEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1680-02-13",
+      "source": "91"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1681-04-03",
+      "source": "97"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "99",
+      "is_side_job": 0
+    },
+    {
+      "job": "Machtiging van de Leidse universiteit tot het geven van collegia medica",
+      "location": "Leiden",
+      "date": "1691-05-08",
+      "source": "82",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Geneeskunde",
+      "location": "Leiden",
+      "date": "1694-12-08",
+      "source": "719",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De somno et somnifero opio bij prof. Craanen",
+      "location": null,
+      "date": null,
+      "source": "62,92"
+    },
+    {
+      "particularity": "Via Rotterdam naar Engeland vertrokken",
+      "location": "Rotterdam",
+      "date": "1697",
+      "source": "62,82,92"
+    },
+    {
+      "particularity": "Oorspronkelijk Nederlands geslacht",
+      "location": null,
+      "date": null,
+      "source": "99"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Claes",
+      "LastName": "BROEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "BRUN"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Marcus P.",
+      "LastName": "BROEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Zweden",
+  "BirthCity": "Kungsluv",
+  "BirthDate": "1660",
+  "DeathDate": "1703",
+  "DeathCity": "Engeland"
+}

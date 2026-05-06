@@ -1,0 +1,202 @@
+{
+  "FirstName": "Wilhelmus",
+  "LastName": "CODDAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN DER KODDE"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1588-02-22",
+      "source": "28"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "39"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1596",
+      "source": "39"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1597",
+      "source": "39"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1598",
+      "source": "39"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "39"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1600",
+      "source": "39"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector triviale school",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1601-08-08",
+      "source": "97",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1602-11-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geschorst",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als 'aanhanger van Arminius en Vanderszins geen contentement te geven'",
+      "location": "Leiden",
+      "date": "1621-02-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ouderling, lid Zuid-Hollandse synode",
+      "location": "Zuid-Hollandse synode",
+      "date": "1603",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Ouderling, lid Zuid-Hollandse synode",
+      "location": "Zuid-Hollandse synode",
+      "date": "1606",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Ouderling, lid Zuid-Hollandse synode",
+      "location": "Zuid-Hollandse synode",
+      "date": "1608",
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ten onrechte verdacht van aanslag op prins Maurits",
+      "location": null,
+      "date": "1623",
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Rapenburg 12",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Zijn broers zijn de eerste Rijnsburger collegianten",
+      "location": "Rijnsburg",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Overleden na 1625",
+      "location": null,
+      "date": null,
+      "source": "27"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "Duist van Voorhout",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [
+        "Jacobsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "Kodde",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "78",
+      "second_names": [
+        "Willemsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "Kodde",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "78",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1575-07-08",
+  "DeathDate": null,
+  "DeathCity": null
+}

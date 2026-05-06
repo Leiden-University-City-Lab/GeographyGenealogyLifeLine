@@ -1,0 +1,112 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "BODECHERUS BANNINGIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "BODECKER",
+    "BENNING"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1629-06-03",
+      "source": "14"
+    },
+    {
+      "subject": "Magister",
+      "location": "Leiden",
+      "date": "1624-06-29",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1629-11-21",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Zedekunde (1 jaar proef)",
+      "location": "Leiden",
+      "date": "1629-12-03",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aanstelling verlengd",
+      "location": "Leiden",
+      "date": "1630-11-09",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": "1635-08-21",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk ontslag wegens reis naar Brazili\u00eb in dienst der W.I.C.",
+      "location": "Leiden",
+      "date": "1638-02-09",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Krankzinnig geworden",
+      "location": "Brazili\u00eb",
+      "date": "1640",
+      "source": "13"
+    },
+    {
+      "particularity": "Nadat hij in 1631 studenten gehekeld heeft in een satire, ontstaan er ongeregeldheden waarbij de Senaat ingrijpt",
+      "location": "Leiden",
+      "date": "1631",
+      "source": "1"
+    },
+    {
+      "particularity": "Salaris: f300 (1629), f500 (1631), f800 (1635), f400 (1640)",
+      "location": null,
+      "date": null,
+      "source": "1"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "BODICHERUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [
+        "BODEGER"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Loosdrecht",
+  "BirthDate": "1606",
+  "DeathDate": "1642",
+  "DeathCity": null
+}

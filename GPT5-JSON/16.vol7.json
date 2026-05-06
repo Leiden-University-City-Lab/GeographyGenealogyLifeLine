@@ -1,0 +1,53 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "DE CONING VAN BELOIS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Lid raad Dordrecht",
+      "location": "Dordrecht",
+      "date": "1572",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester Dordrecht",
+      "location": "Dordrecht",
+      "date": "1573-1574",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hof van Holland",
+      "location": "Den Haag",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Dordrecht",
+  "BirthDate": null,
+  "DeathDate": "1582-12-26",
+  "DeathCity": null
+}

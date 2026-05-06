@@ -1,0 +1,80 @@
+{
+  "FirstName": "Hubertus",
+  "LastName": "STURMIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1565-04-28",
+      "source": "23"
+    },
+    {
+      "subject": "Doct.",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Onderwijs Hebreeuws",
+      "location": null,
+      "date": null,
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Theol.",
+      "location": "Leiden",
+      "date": "1579-11-29",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Theol. (aanvang)",
+      "location": "Leiden",
+      "date": "1579-12-03",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogl. Theol.",
+      "location": "Leiden",
+      "date": "1580",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vertrek naar Duitsland",
+      "location": "Duitsland",
+      "date": "1584-05-12",
+      "source": "14",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: als Buitengew. Hoogleraar f 300",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": "Palts"
+}

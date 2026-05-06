@@ -1,0 +1,341 @@
+{
+  "FirstName": "Abraham",
+  "LastName": "GRONOVIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.h.c.",
+      "location": "Leiden",
+      "date": "1705-09-11",
+      "source": "9"
+    },
+    {
+      "subject": "Stud. Oosterse talen",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "b"
+    },
+    {
+      "subject": "Reis Engeland (Oxford, Londen)",
+      "location": "Engeland (Oxford, Londen)",
+      "date": "1717-1718",
+      "source": "b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Bibliothecaris Universiteitsbibliotheek",
+      "location": "Leiden",
+      "date": "1741",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met van den Bergh, Boswell",
+      "location": null,
+      "date": null,
+      "source": "b"
+    },
+    {
+      "particularity": "Aanbiedingen Utrecht, Bremen en Edinburgh afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "b"
+    },
+    {
+      "particularity": "Woont Rapenburg 49",
+      "location": "Leiden",
+      "date": null,
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Dorothea Wijnanda",
+      "LastName": "ASCH VAN WYCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1697-07-11",
+      "DeathDate": "1743-07-02",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1645",
+      "DeathDate": "1716",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "VREDENBURCH",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1652",
+      "DeathDate": "1732",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann Friedrich",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1611",
+      "DeathDate": "1671",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adelheid",
+      "LastName": "NUYL",
+      "Affix": "ten",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1619",
+      "DeathDate": "1656",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "VREDENBURCH",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara",
+      "LastName": "WOUW",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Anthonius",
+      "LastName": "ASCH VAN WYCK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1662",
+      "DeathDate": "1728",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara Jacoba",
+      "LastName": "BROUWER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1670",
+      "DeathDate": "1719",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1721-04-12",
+      "DeathDate": "1723-06-11",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Anthony",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1722-06-26",
+      "DeathDate": "1722-08-27",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Anna Clara",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1723-09-27",
+      "DeathDate": "1728-12-16",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1725-09-30",
+      "DeathDate": "1726-07-30",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Anthony",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1725-09-30",
+      "DeathDate": "1729-08-13",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1727-08-06",
+      "DeathDate": "1762-10-05",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Jan Frederik",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1729-12-06",
+      "DeathDate": "1729-12-19",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Anna Clara",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1731-08-15",
+      "DeathDate": "1741-04-28",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Henriette Mauritia",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1733-12-22",
+      "DeathDate": "1783-10-25",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Maria Catharina",
+      "LastName": "GRONOVIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1737-08-20",
+      "DeathDate": "1738-11-26",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1695-06-24",
+  "DeathDate": "1775-08-10",
+  "DeathCity": "Leiden"
+}

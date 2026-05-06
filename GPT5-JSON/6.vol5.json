@@ -1,0 +1,83 @@
+{
+  "FirstName": "Henricus",
+  "LastName": "BREDIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Rector Latijnse school",
+      "location": "Breda",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Antwerpen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf te Embden",
+      "location": "Embden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Redekunst",
+      "location": "Leiden",
+      "date": "1588-04-22",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Lijntje",
+      "LastName": "Arendonk",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1541",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Frans",
+      "LastName": "BREDIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "B",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Breda",
+  "BirthDate": "1539",
+  "DeathDate": "1619-12-07",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,373 @@
+{
+  "FirstName": "Lodewijk Caspar",
+  "LastName": "VALCKENAER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Lagere school",
+      "location": "Leeuwarden",
+      "date": "1722",
+      "source": "10"
+    },
+    {
+      "subject": "Gymnasium (Pollius)",
+      "location": "Leeuwarden",
+      "date": "1731",
+      "source": "2,10"
+    },
+    {
+      "subject": "Stud. Theol. en klassieke talen",
+      "location": "Franeker",
+      "date": "1731-06-15",
+      "source": "11"
+    },
+    {
+      "subject": "Doct. Litt.",
+      "location": "Franeker",
+      "date": "1735-01-19",
+      "source": "53"
+    },
+    {
+      "subject": "Stud. Litt. (kwam voor Schultens en de universiteitsbibliotheek)",
+      "location": "Leiden",
+      "date": "1737-09-04",
+      "source": "26,2"
+    },
+    {
+      "subject": "Einde studie door ziekte",
+      "location": "Leiden",
+      "date": "1739",
+      "source": "2,70"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector",
+      "location": "Kampen",
+      "date": "1740-04",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Franeker",
+      "date": "1741",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse antiquiteiten",
+      "location": "Franeker",
+      "date": "1755",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1740",
+      "source": "2,10,87",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1750",
+      "source": "2,10,87",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1760",
+      "source": "2,10,87",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Leiden",
+      "date": "1765-10-18",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks (inauguratie)",
+      "location": "Leiden",
+      "date": "1766-06-03",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Vaderlandse Geschiedenis",
+      "location": "Leiden",
+      "date": "1768-12-14",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Vaderlandse Geschiedenis (inauguratie)",
+      "location": "Leiden",
+      "date": "1769-03-01",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. philologica De ritibus in iurando a veteribus Hebraeis maxime et Graecis observatis bij prof. Vriemoet",
+      "location": null,
+      "date": null,
+      "source": "53"
+    },
+    {
+      "particularity": "Diss. theol. De byrsa bij prof. Venema",
+      "location": null,
+      "date": null,
+      "source": "53"
+    },
+    {
+      "particularity": "Teleurgesteld in Willem V, patriot en lid Sandhorster kring",
+      "location": null,
+      "date": null,
+      "source": "53"
+    },
+    {
+      "particularity": "Salaris: f 1850",
+      "location": null,
+      "date": "1741",
+      "source": "2,53"
+    },
+    {
+      "particularity": "Salaris: f 2000",
+      "location": null,
+      "date": "1743",
+      "source": "2,53"
+    },
+    {
+      "particularity": "Salaris: f 2250",
+      "location": null,
+      "date": "1755",
+      "source": "2,53"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1730-05-07",
+      "DeathDate": "1792-03-21",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johan Warner",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1669",
+      "DeathDate": "1750",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "BAUX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1691",
+      "DeathDate": "1740",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacob Lodewijk",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1634",
+      "DeathDate": "1684",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "KESSEL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1629",
+      "DeathDate": "1682",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gaspard",
+      "LastName": "BAUX",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "GAILLARD",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "COUTURIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1706",
+      "DeathDate": "1733",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johanna Susanna",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1756-08-03",
+      "DeathDate": "1826-10-28",
+      "DeathCity": "Zoeterwoude"
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [
+        "Mr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1759-01-12",
+      "DeathDate": "1821-01-25",
+      "DeathCity": "Bennebroek"
+    },
+    {
+      "FirstName": "Helena Sara",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1765-12-05",
+      "DeathDate": "1766-06-05",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Anna Paulina",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1768-03-09",
+      "DeathDate": "1770-04",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Anna",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leeuwarden",
+  "BirthDate": "1715-06-07",
+  "DeathDate": "1785-03-15",
+  "DeathCity": "Leiden"
+}

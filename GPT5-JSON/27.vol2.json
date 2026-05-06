@@ -1,0 +1,211 @@
+{
+  "FirstName": "Jonan",
+  "LastName": "KRAUSS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Carl",
+    "Joan Karel"
+  ],
+  "alternative_last_names": [
+    "KRAUS"
+  ],
+  "education": [
+    {
+      "subject": "In de leer bij vader (arts)",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Erlangen",
+      "date": "1778-04-26",
+      "source": "1171"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Straatsburg",
+      "date": "1779-12-07",
+      "source": "25"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Harderwijk",
+      "date": "1785-09-27",
+      "source": "17"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Eerste arts bij Badense troepen in Hollandse Dienst",
+      "location": "Arnhem",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Amsterdam",
+      "date": "1787",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theoretische, Practische en Gerechtelijke Geneeskunde",
+      "location": "Harderwijk",
+      "date": "1807-09-27",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theoretische, Practische en Gerechtelijke Geneeskunde",
+      "location": "Harderwijk",
+      "date": "1808-06-20",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Theoretische Pathologie)",
+      "location": "Leiden",
+      "date": "1812-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag genomen",
+      "location": "Leiden",
+      "date": "1824",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1809",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1810",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Prorector",
+      "location": "Harderwijk",
+      "date": "1811",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Prorector",
+      "location": "Harderwijk",
+      "date": "1812",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De praecipuis militum morbis -orumque causis bij Forsten",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bevestigd als hoogleraar (Bev.)",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "19"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Everdina",
+      "LastName": "HEY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Arnhem",
+      "BirthDate": "1770",
+      "DeathDate": "1822-09-02",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christophorus Adam",
+      "LastName": "KRAUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dorothea",
+      "LastName": "ZOLNER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": null,
+  "in_laws": [
+    {
+      "FirstName": "Christoffel",
+      "LastName": "HEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "e",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Everdina",
+      "LastName": "HAICHG",
+      "Affix": "ter",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": null,
+  "far_family": null,
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Oettingen",
+  "BirthDate": "1759-10-06",
+  "DeathDate": "1826-03-19",
+  "DeathCity": "Leiden"
+}

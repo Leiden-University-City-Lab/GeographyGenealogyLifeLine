@@ -1,0 +1,271 @@
+{
+  "FirstName": "Eduard",
+  "LastName": "HAGEMAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1770-09-14",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1773-02-19",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Duisburg",
+      "date": "1777",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Duisburg",
+      "date": "1784",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Harderwijk",
+      "date": "1796",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (onderwijs staats- en bijzonder recht)",
+      "location": "Leiden",
+      "date": "1796-12-20",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs staats- en bijzonder recht",
+      "location": "Leiden",
+      "date": "1797-09-22",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd in Rechtenfaculteit",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1819",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1801",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1810",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Specimen (politico-iuridicum inaugurale iura) sistens, quae, pendente bello, hosti in hostem competunt",
+      "location": null,
+      "date": null,
+      "source": "26a"
+    },
+    {
+      "particularity": "In 1783 op nominatie Franeker",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bekend Latinist",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Breestraat",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna Sibella",
+      "LastName": "VOSS VAN SINDEREN",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "'s-Heerenberg",
+      "BirthDate": "1758-10-22",
+      "DeathDate": "1838-02-25",
+      "DeathCity": "Rijswijk"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "HAGEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alida Maria",
+      "LastName": "SWEDENRIJK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "HAGEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "DIJCKERHOFF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1682",
+      "DeathDate": "1715",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eduard",
+      "LastName": "SWEDENRIJK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1684",
+      "DeathDate": "1743",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna Johanna",
+      "LastName": "COURT",
+      "Affix": "del",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Luderus Zaniel Georg",
+      "LastName": "VOSS VAN SINDEREN",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Elisabeth",
+      "LastName": "UPEICH",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Etienne",
+      "LastName": "HAGEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Duisburg",
+      "BirthDate": "1792-01-15",
+      "DeathDate": "1860-07-26",
+      "DeathCity": "Zwolle"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1749-11-20",
+  "DeathDate": "1827-11-19",
+  "DeathCity": "Leiden"
+}

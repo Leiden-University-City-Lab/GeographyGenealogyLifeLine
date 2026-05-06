@@ -1,0 +1,347 @@
+{
+  "FirstName": "Andreas",
+  "LastName": "WEISS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Basel",
+      "date": "1724-10-17",
+      "source": "8"
+    },
+    {
+      "subject": "Bacc.Artium",
+      "location": "Basel",
+      "date": "1727-06-03",
+      "source": "8"
+    },
+    {
+      "subject": "Mr.Phil.",
+      "location": "Basel",
+      "date": "1728-06-10",
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Basel",
+      "date": "1728-09-21",
+      "source": "8"
+    },
+    {
+      "subject": "Dingt naar leerstoel Logica",
+      "location": "Basel",
+      "date": "1733-05-12",
+      "source": "8"
+    },
+    {
+      "subject": "Cand. Iur.",
+      "location": "Basel",
+      "date": "1733-11-20",
+      "source": "8"
+    },
+    {
+      "subject": "Bildungsreise",
+      "location": "Duitsland; Frankrijk; Nederland",
+      "date": "1735-1736",
+      "source": "8"
+    },
+    {
+      "subject": "Stud.Iur. (Cr.Jur.h.c)",
+      "location": "Leiden",
+      "date": "1736-04-21",
+      "source": "26"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Basel",
+      "date": "1736-06-06",
+      "source": "8"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Ethica, Natuur- en Volkenrecht",
+      "location": "Basel",
+      "date": "1734-03-16",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Decaan Phil. Faculteit",
+      "location": "Basel",
+      "date": "1743-1744",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Basel",
+      "date": "1745-1746",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1747-06-15",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuur- en Volkenrecht",
+      "location": "Leiden",
+      "date": "1747-10-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1753-1754",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof voor onderwijs aan Den Haag (Willem V)",
+      "location": "Den Haag",
+      "date": "1759-08-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eervol ontslag op eigen verzoek; professor honorarius in openbaar en privaatrecht",
+      "location": "Leiden",
+      "date": "1760-11-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "In dienst van Willem V",
+      "location": "Den Haag",
+      "date": null,
+      "source": "67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer Zwitserland",
+      "location": "Zwitserland",
+      "date": "1766",
+      "source": "1,67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Weer in Holland",
+      "location": "Holland",
+      "date": "1766-1773",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid kleine raad",
+      "location": "Basel",
+      "date": "1773-10",
+      "source": "67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Unzffchterherr",
+      "location": "Basel",
+      "date": "1775-1778",
+      "source": "67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gerichtsherr",
+      "location": "Basel",
+      "date": "1778-1783",
+      "source": "67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reformationsherr",
+      "location": "Basel",
+      "date": "1780-1783",
+      "source": "67",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Iur. De usu aequitatis in interpretatione legum",
+      "location": null,
+      "date": null,
+      "source": "8,26b"
+    },
+    {
+      "particularity": "Er werd geloot om de leerstoelen; hij werd twee maal uitgeloot, nl. in 1733 voor Logica en eind 1746 toen hij van de phil. faculteit naar de juridische faculteit wilde verhuizen",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Vergeefs gedongen naar stadssecretariaat Basel 1745",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Leiden vraagt de Baseler jurist Iselin om Vitriarius op te volgen voor f 2000. Iselin weigert maar beveelt Weiss aan. Rijksvicekanselier Colloredo en de keizerlijk gezant in Den Haag von Reischach adviseren ook gunstig",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Op verzoek van D. van Royen ziet hij af van de traditionele rondreis door Duitsland en begint zijn colleges sept. 1747",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Eigenaar van een buiten in Warmond",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Brunswijk kiest hem als onderwijzer voor de prins maar wantrouwt later zijn patriotse sympathi\u00ebn",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Eigenaar landgoed bij Basel sinds 1764",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "In 1776 in de Kleine raad aangevallen wegens zijn pensioen van het huis van Oranje; klacht door raad verworpen",
+      "location": null,
+      "date": null,
+      "source": "67"
+    },
+    {
+      "particularity": "Salaris: f2000 en met emolumenten in totaal f6000 (bij prins)",
+      "location": null,
+      "date": null,
+      "source": "67"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Emanuel",
+      "LastName": "WEISS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1685",
+      "DeathDate": "1739",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Meria",
+      "LastName": "FAESCH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Markus",
+      "LastName": "WEISS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1654",
+      "DeathDate": "1704",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sebastinan",
+      "LastName": "FAESCH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Jakob",
+      "LastName": "BRAND M\u00dcLLER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Maria",
+      "LastName": "WEISS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christoph",
+      "LastName": "EHINGER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "67",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Zwitserland",
+  "BirthCity": "Basel",
+  "BirthDate": "1713-10-13",
+  "DeathDate": "1792-04-07",
+  "DeathCity": "Basel"
+}

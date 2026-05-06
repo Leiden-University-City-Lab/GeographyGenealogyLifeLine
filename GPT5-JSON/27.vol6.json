@@ -1,0 +1,199 @@
+{
+  "FirstName": "Festus",
+  "LastName": "HOMMIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Les vader",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Leeuwarden",
+      "date": "1585",
+      "source": "a"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Franeker",
+      "date": "1594-11-06",
+      "source": "5"
+    },
+    {
+      "subject": "Stud.",
+      "location": "La Rochelle",
+      "date": "1595",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1596-11-20",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Leiden",
+      "date": "1620",
+      "source": "a"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Oxford",
+      "date": "1620",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Warmond",
+      "date": "1597",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Dokkum en Finkurm",
+      "date": "1599",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Legerpredikant beleg Grave",
+      "location": "Grave",
+      "date": "1602",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1602-12-22",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Scriba Synode Dordrecht",
+      "location": "Dordrecht",
+      "date": "1619",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1619-07-20",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1620",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus-Regent",
+      "location": "Leiden",
+      "date": "1641-07-16",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hester",
+      "LastName": "HERTSBEECK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Homme",
+      "LastName": "HOMMINGA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "SCHIERHUYSEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [
+        "Fetzesd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "CUCHLINUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1546",
+      "DeathDate": "1606",
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Jelsum",
+  "BirthDate": "1576-02-10",
+  "DeathDate": "1642-07-05",
+  "DeathCity": "Leiden"
+}

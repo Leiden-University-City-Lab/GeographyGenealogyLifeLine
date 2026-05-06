@@ -1,0 +1,320 @@
+{
+  "FirstName": "Ewaldus",
+  "LastName": "HOLLEBEEK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Ewald' in Ewaldus (Ewald)"
+  ],
+  "alternative_last_names": [
+    "HOLIEBEEK"
+  ],
+  "education": [
+    {
+      "subject": "Handelsopleiding",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Voorbereidend Onderwijs",
+      "location": null,
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1737-03-13",
+      "source": "6"
+    },
+    {
+      "subject": "Proponent",
+      "location": null,
+      "date": "1744-06-30",
+      "source": "6"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Groningen",
+      "date": "1752-09-01",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Oostkapelle",
+      "date": "1744-10-25",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Charlois en Katendrecht",
+      "date": "1745-08-25",
+      "source": "6,36",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Charlois en Katendrecht",
+      "date": "1745-12-12",
+      "source": "56",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Middelburg",
+      "date": "1747-05-14",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Groningen",
+      "date": "1752-02",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Groningen",
+      "date": "1752-09-08",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Groningen",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1749",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1750",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1762-08-14",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1762-11-26",
+      "source": "33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1764",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1765",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1780",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1781",
+      "source": "6",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Schoonzus van Betje Wolff",
+      "location": null,
+      "date": null,
+      "source": "6"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Hendrina",
+      "LastName": "Wolff",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,6",
+      "second_names": [
+        "'Henderina' in Hendrina (Henderina)"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1712-05-22",
+      "DeathDate": "1756-10-23",
+      "DeathCity": "Groningen"
+    },
+    {
+      "FirstName": "Anna Maria",
+      "LastName": "Gerdes",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jeremias",
+      "LastName": "Holiebeek",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dina",
+      "LastName": "Reynvaan",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Andreas",
+      "LastName": "Hollebeek",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "Haan",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "Wolff",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aletta",
+      "LastName": "Geesteranus",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "Gerdes",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Bremen",
+      "BirthDate": "1698-04-19",
+      "DeathDate": "1765-02-02",
+      "DeathCity": "Groningen"
+    },
+    {
+      "FirstName": "Reindina",
+      "LastName": "Mellema",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,56",
+      "second_names": [
+        "'Reinoudina' in Reindina (Reinoudina)"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Haamstede (Schouwen)",
+  "BirthDate": "1719-09-24",
+  "DeathDate": "1796-10-24",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,305 @@
+{
+  "FirstName": "Lucas",
+  "LastName": "SCHACHT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1652-09-12",
+      "source": "20"
+    },
+    {
+      "subject": "Ministerii Candidatus",
+      "location": "Leiden",
+      "date": "1653",
+      "source": "81"
+    },
+    {
+      "subject": "Stud.Phil. Med.",
+      "location": "Leiden",
+      "date": "1659-07-04",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": "1660-02-06",
+      "source": "21"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1661-07-08",
+      "source": "27"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Geneeskunde en Phil.",
+      "location": "Leiden",
+      "date": "1663-08-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1670-01-29",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Phil. Positiones ex universa philosophia desumptae",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Diss.Med. Mulieris artium centortione ac rigiditate laborantis historiam et cCuram describens bij prof. Le Be: Sylvius",
+      "location": null,
+      "date": null,
+      "source": "21"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "AILLY",
+      "Affix": "d\u2019",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "POOT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1686-06-25",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joachim",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "87",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BOSSIUS",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "81",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Herman",
+      "LastName": "POOT",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jehanna",
+      "LastName": "HAYE",
+      "Affix": "de la",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Katharina",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1659-12-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abrahamus",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1661-03-02",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1662-07-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1664-02-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1669-11-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1672-02-17",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "SCHACHT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1673-08-23",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Hermannus",
+      "LastName": "OOSTERDIJK SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "OOSTERDIJK SCHACHT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1634-01-18",
+  "DeathDate": "1689-03-10",
+  "DeathCity": "Leiden"
+}

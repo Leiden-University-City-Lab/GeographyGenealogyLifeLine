@@ -1,0 +1,265 @@
+{
+  "FirstName": "Christiaan",
+  "LastName": "MARKGRAVE",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "MARGGRAF"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1652-06-03",
+      "source": "14"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Franeker",
+      "date": "1659-01-20",
+      "source": "7"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Franeker",
+      "date": "1659-07-31",
+      "source": "8"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1666-05-26",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "38",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent Scheikunde",
+      "location": "Leiden",
+      "date": null,
+      "source": "38,13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disp. \"De divino in morbis quod magnus Hippocrates in prognosticis observare medicum iussit\" bij Vorstius",
+      "location": null,
+      "date": null,
+      "source": "38"
+    },
+    {
+      "particularity": "Aangeklaagd wegens laster tegen Hollandse regering door schout Gool",
+      "location": null,
+      "date": null,
+      "source": "3,39"
+    },
+    {
+      "particularity": "Ruzie met concurrent Le Mort (later hoogleraar)",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Rapenburg 23",
+      "location": "Leiden",
+      "date": null,
+      "source": "39"
+    },
+    {
+      "particularity": "Gepasseerd bij erfenis broer Georg, boos op prof. Gool",
+      "location": null,
+      "date": null,
+      "source": "38"
+    },
+    {
+      "particularity": "Geen lector; steeds ambt geweigerd",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Georg",
+      "LastName": "MARGGRAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "33",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "SIMON",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "40,53",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann",
+      "LastName": "SIMON",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "53",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Adrian",
+      "LastName": "MARKGRAVE",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [
+        "Elisabeth"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1675-10-19",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Georgius",
+      "LastName": "MARKGRAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1677-07-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodora",
+      "LastName": "MARKGRAVE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1679-01-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christiaen",
+      "LastName": "MARKGRAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1680-12-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Widhelmus",
+      "LastName": "MARKGRAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1683-08-29",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "MARKGRAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Godefridus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1684-09-16",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jagobus",
+      "LastName": "MARKGRAVE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1686-02-16",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Georg",
+      "LastName": "MARGGRAF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Liebstadt",
+  "BirthDate": "1626",
+  "DeathDate": "1687",
+  "DeathCity": "Leiden"
+}

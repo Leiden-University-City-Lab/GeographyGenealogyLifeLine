@@ -1,0 +1,554 @@
+{
+  "FirstName": "Hermannus",
+  "LastName": "TOLLIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1755-03-07",
+      "source": "98"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1763-06-13",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oude Letteren",
+      "location": "Harderwijk",
+      "date": "1766-08-16",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Studiereis",
+      "location": "Parijs",
+      "date": "1776",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Vaderlandse Geschiedenis",
+      "location": "Amsterdam",
+      "date": "1777",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leermeester kinderen Willem V",
+      "location": "Den Haag; Loo",
+      "date": "1785-02-28",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Met erfprins (latere Willem I) op reis door Duitsland",
+      "location": "Duitsland",
+      "date": "1788",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Met erfprins (latere Willem I) op reis door Duitsland",
+      "location": "Duitsland",
+      "date": "1789",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Begeleidt erfprins in Leiden",
+      "location": "Leiden",
+      "date": "1789",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Begeleidt erfprins in Leiden",
+      "location": "Leiden",
+      "date": "1790",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Domeinraad Willem V",
+      "location": "Den Haag",
+      "date": "1790",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Commissaris Engels hulpleger",
+      "location": null,
+      "date": "1794-09",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht naar Duitsland",
+      "location": "Osnabr\u00fcck",
+      "date": "1795",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf in Osnabr\u00fcck en Brunswijk",
+      "location": "Brunswijk",
+      "date": "1796",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leidt bureau van correspondentie met Holland",
+      "location": "Brunswijk",
+      "date": "1796",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leidt bureau van correspondentie met Holland",
+      "location": "Brunswijk",
+      "date": "1797",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leidt bureau van correspondentie met Holland",
+      "location": "Brunswijk",
+      "date": "1798",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leidt bureau van correspondentie met Holland",
+      "location": "Brunswijk",
+      "date": "1799",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Beheert Poolse goederen Oranjes",
+      "location": null,
+      "date": "1800",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Beheert Poolse goederen Oranjes",
+      "location": null,
+      "date": "1809",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Bespiegelende Wijsbegeerte en Letteren; onderwijs in Statistiek, Diplomatiek en Historia Belgicae",
+      "location": "Leiden",
+      "date": "1809-05-13",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tevens onderwijs Griekse taal",
+      "location": "Leiden",
+      "date": "1812",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse en Latijnse Letterkunde",
+      "location": "Leiden",
+      "date": "1814",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens emeritaat",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met J. de Bosch (steun in Leiden), Hemsterhuis, Gaubius, Ruhnkenius, J.J. Schultens (steun in Harderwijk)",
+      "location": null,
+      "date": null,
+      "source": "2;b"
+    },
+    {
+      "particularity": "Bezit buiten 'Land en Rijnzicht' bij Leiden; Ridder in de Nederlandse Leeuw",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Johanna Bernardina",
+      "LastName": "BENNETT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1739-10-10",
+      "DeathDate": "1776-09-18",
+      "DeathCity": "Breda"
+    },
+    {
+      "FirstName": "Johanna Christina",
+      "LastName": "SCHOORN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1740-01-10",
+      "DeathDate": "1811-09-16",
+      "DeathCity": "Veldhuizen (huize Schulenberg te Bentheim)"
+    },
+    {
+      "FirstName": "Suzanna Elisabeth",
+      "LastName": "DETMERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Zundert",
+      "BirthDate": "1761-09-04",
+      "DeathDate": "1835-12-24",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Philippus Theodorus",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bertha",
+      "LastName": "STUERMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Elisabeth",
+      "LastName": "OTTO",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hermanus",
+      "LastName": "STUERMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1667",
+      "DeathDate": "1742",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anthonetta",
+      "LastName": "VEREYCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1715",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Varend Jan",
+      "LastName": "BENNETT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "WARNAAR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "SCHOORN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alida",
+      "LastName": "GILS",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "DETMERS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Constantia",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Bartha",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Philippus Johannes",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1779-01-21",
+      "DeathDate": "1779-06",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Bartha Hermina",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1780-05-21",
+      "DeathDate": "1847-09-14",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Johanna Christina",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1783-06-04",
+      "DeathDate": "1784-05-03",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Johanna Christina",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1784-12-19",
+      "DeathDate": "1794-03-17",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Wilhelmina Frederica Louise",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Nijmegen",
+      "BirthDate": "1787-09-12",
+      "DeathDate": "1862-09-24",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alexander",
+      "LastName": "TOLLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Breda",
+  "BirthDate": "1742-02-18",
+  "DeathDate": "1822-04-29",
+  "DeathCity": "Leiden"
+}

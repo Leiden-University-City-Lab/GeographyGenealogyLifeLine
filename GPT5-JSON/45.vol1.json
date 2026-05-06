@@ -1,0 +1,314 @@
+{
+  "FirstName": "Frederik",
+  "LastName": "SPANHEIM",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Friedrich",
+    "Fredericus"
+  ],
+  "alternative_last_names": [
+    "SPANHEMIUS"
+  ],
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Amberg",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Phil.",
+      "location": "Altdorf",
+      "date": "1613-04-08",
+      "source": "21"
+    },
+    {
+      "subject": "Stud. Phil. en Philologie",
+      "location": "Heidelberg",
+      "date": "1614-11-04",
+      "source": "2,23"
+    },
+    {
+      "subject": "Magister artium",
+      "location": "Heidelberg",
+      "date": "1619-02-04",
+      "source": "21,22"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1619-07-22",
+      "source": "21"
+    },
+    {
+      "subject": "pas Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1620-07-04",
+      "source": "21"
+    },
+    {
+      "subject": "Cand. Theol.",
+      "location": "Basel",
+      "date": "1642-06",
+      "source": "22"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Basel",
+      "date": "1642-06-30",
+      "source": "22"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Gouverneur voor kinderen van Jean de Bonne (Baron de Britolle / Vicomte de Vitrolles)",
+      "location": "Embrun (Dauphin\u00e9)",
+      "date": "1620-1623",
+      "source": "7,8,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Phil.",
+      "location": "Gen\u00e8ve",
+      "date": "1626-07",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Predikant",
+      "location": "Gen\u00e8ve",
+      "date": "1630",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1631-03-11",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Gen\u00e8ve",
+      "date": "1633",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1641-06-21",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1647",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waalse Predikant",
+      "location": "Leiden",
+      "date": "1648-07-03",
+      "source": "7",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Reis Parijs en Engeland",
+      "location": null,
+      "date": "1624-1625",
+      "source": "8"
+    },
+    {
+      "particularity": "Aankomst Leiden",
+      "location": "Leiden",
+      "date": "1642-10-03",
+      "source": "8"
+    },
+    {
+      "particularity": "Oratie",
+      "location": "Leiden",
+      "date": "1642-10-30",
+      "source": "7"
+    },
+    {
+      "particularity": "Bevestigd als Waalse predikant",
+      "location": "Leiden",
+      "date": "1648-10",
+      "source": "7"
+    },
+    {
+      "particularity": "Salaris: f 1200 tractement",
+      "location": "Leiden",
+      "date": null,
+      "source": "35"
+    },
+    {
+      "particularity": "Salaris: f 200 extraordinaris",
+      "location": "Leiden",
+      "date": null,
+      "source": "35"
+    },
+    {
+      "particularity": "Salaris: f 300 huishuur",
+      "location": "Leiden",
+      "date": null,
+      "source": "35"
+    },
+    {
+      "particularity": "Salaris na 1649: f 2600",
+      "location": "Leiden",
+      "date": "na 1649",
+      "source": "34"
+    },
+    {
+      "particularity": "Huwelijk met Charlotte du Port",
+      "location": "Gen\u00e8ve",
+      "date": "1627-11-18",
+      "source": "8,21"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Charlotte",
+      "LastName": "PORT",
+      "Affix": "du",
+      "Gender": "Vrouw",
+      "source": "8,21",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Wigand",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,7,8",
+      "second_names": [
+        "Johannes",
+        "Wigandus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1620",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ren\u00e9e",
+      "LastName": "TOSSAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,7,8",
+      "second_names": [],
+      "alternative_last_names": [
+        "TOUSSAINT",
+        "TOUSSAIN",
+        "TOSSANUS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "TOSSANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Pierre",
+      "LastName": "PORT",
+      "Affix": "du",
+      "Gender": "Man",
+      "source": "8,21",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Ezechi\u00ebl",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Andreas",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frederik",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Amberg",
+  "BirthDate": "1600-01-01",
+  "DeathDate": "1649-05-14",
+  "DeathCity": "Leiden"
+}

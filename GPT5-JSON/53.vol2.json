@@ -1,0 +1,217 @@
+{
+  "FirstName": "Frederik",
+  "LastName": "WINTER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Priv\u00e9-school H.J. von Zaun",
+      "location": "Udem",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Duisburg",
+      "date": "1731-04-23",
+      "source": "1710"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1732-09-18",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1736-06-15",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lijfarts van Willem IV",
+      "location": "Leeuwarden",
+      "date": "1737",
+      "source": "85;67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Herborn",
+      "date": "1740-1744",
+      "source": "85",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde en Scheikunde",
+      "location": "Franeker",
+      "date": "1744-06-25",
+      "source": "2;67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kruidkunde",
+      "location": "Franeker",
+      "date": "1747",
+      "source": "2;67",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts van Willem IV en de erfprins",
+      "location": "Staten van Holland",
+      "date": "1747-10-24",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1747-08-08",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Met steun van Willem IV",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Praktische Geneeskunde, Anatomie en Physiologie",
+      "location": "Leiden",
+      "date": "1747-10-23",
+      "source": null
+    },
+    {
+      "particularity": "Dissertatie: De metu musculorum bij prof. Oesterdijk Schacht",
+      "location": null,
+      "date": null,
+      "source": "2;21"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1744",
+      "source": "67"
+    },
+    {
+      "particularity": "Salaris: f 1600",
+      "location": null,
+      "date": "1746",
+      "source": "67"
+    },
+    {
+      "particularity": "Lijfartsfunctie tot 1751-10-22",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Cuniera Christina",
+      "LastName": "BEEKMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "85;b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Nicelaas",
+      "LastName": "WINTER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2;85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Bendrik Frangeis",
+      "LastName": "BEECKMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "h",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Christina",
+      "LastName": "HEGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Hendrik Frangeis",
+      "LastName": "WINTER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mentso Christiaan",
+      "LastName": "WINTER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Udem of Calcar",
+  "BirthDate": "1712-05-07",
+  "DeathDate": "1760-11-11",
+  "DeathCity": "Leiden"
+}

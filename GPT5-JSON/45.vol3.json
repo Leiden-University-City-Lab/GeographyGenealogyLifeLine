@@ -1,0 +1,252 @@
+{
+  "FirstName": "Arnoldus",
+  "LastName": "VINNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VINNEN"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Den Haag",
+      "date": "1596",
+      "source": "73"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1603-04-25",
+      "source": "26"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1613-12-07",
+      "source": "58"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatdocent",
+      "location": "Leiden",
+      "date": "1618",
+      "source": "73",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Titulem de Verborum Significatione of Regulis iuris",
+      "location": "Leiden",
+      "date": "1618-05-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Den Haag",
+      "date": "1619",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1633-02-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Instituten)",
+      "location": "Leiden",
+      "date": "1636-02-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Pandecten en Digesten",
+      "location": "Leiden",
+      "date": "1640",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar (Pandecten en Digesten)",
+      "location": "Leiden",
+      "date": "1649-02-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs in alleen Codex",
+      "location": "Leiden",
+      "date": "1654",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1649",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1657",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Promotor is prof. Bronckhorst",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Faculteit wijst zijn verzoek om leerstoel Instituten af",
+      "location": null,
+      "date": "1620",
+      "source": "2"
+    },
+    {
+      "particularity": "Schoonvader prof. Letting schenkt bij huwelijk Rapenburg 27",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1593-10-27",
+      "DeathDate": "1657-02-01",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Michael",
+      "LastName": "VINNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margarita",
+      "LastName": "ECK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Arnoldus",
+      "LastName": "VINNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "73",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Leonardsdr.",
+      "LastName": "KOUWENHOVEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "73",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Ysbrand",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1552",
+      "DeathDate": "1605",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "KEMPENAAR",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Simon",
+      "LastName": "VINNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "25",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1627",
+      "DeathDate": "1653-09",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Monster",
+  "BirthDate": "1588-01-04",
+  "DeathDate": "1657-09-01",
+  "DeathCity": "Leiden"
+}

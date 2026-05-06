@@ -1,0 +1,647 @@
+{
+  "FirstName": "Hendrik Willem",
+  "LastName": "TYDEMAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Franse en Latijnse school",
+      "location": "Utrecht",
+      "date": "1785-1787",
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Harderwijk",
+      "date": "1787-1788",
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Utrecht",
+      "date": "1788-1790",
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Kampen",
+      "date": "1790-1792",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Deventer",
+      "date": "1792-09-18",
+      "source": "39"
+    },
+    {
+      "subject": "Jaar thuisstudie bij vader",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Groningen",
+      "date": "1796-06-16",
+      "source": "17"
+    },
+    {
+      "subject": "Stud. Iur. h.c.",
+      "location": "Leiden",
+      "date": "1797-09-18",
+      "source": "26"
+    },
+    {
+      "subject": "Cand. Iur.",
+      "location": "Leiden",
+      "date": "1797-12",
+      "source": "95"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1799-10-23",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Kampen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat-fiscaal en Raad van Justitie",
+      "location": "Batavia",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Instituten en historia iuris",
+      "location": "Deventer",
+      "date": "1802-06-03",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Pandecten en historia iuris",
+      "location": "Franeker",
+      "date": "1803",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1804-1805",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuur-, Staats- en Volkenrecht",
+      "location": "Franeker",
+      "date": "1810",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1810-1812",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat en taxateur",
+      "location": "Leeuwarden",
+      "date": "1812",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten, onderwijs Code Napoleon",
+      "location": "Leiden",
+      "date": "1812-07-06",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd; onderwijs encyclopedie der rechtsgeleerdheid, staathuishoudkunde, statistiek, rechtsgeschiedenis en handelsrecht",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1824-1825",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Staatkundige geschiedenis naar Thorbecke (onderwijs)",
+      "location": "Leiden",
+      "date": "1830",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1845-1846",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus (ook hierna nog examens afgenomen)",
+      "location": "Leiden",
+      "date": "1848-09-08",
+      "source": "2,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Extraordinaris Raadsheer Hof van Friesland",
+      "location": "Friesland",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secretaris Maatschappij van Nederlandse Letterkunde",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Beheerder Bibliotheca Thysiana",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Helpt vader bij ordenen universiteitsbibliotheek",
+      "location": "Leiden",
+      "date": null,
+      "source": "2,10",
+      "is_side_job": 1
+    },
+    {
+      "job": "Onderwijzer van de latere koning Willem III en broer Alexander",
+      "location": null,
+      "date": null,
+      "source": "10",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De rebus judicatis non rescindendis bij prof. van der Keessel",
+      "location": null,
+      "date": null,
+      "source": "26a"
+    },
+    {
+      "particularity": "Op nominatie Harderwijk m.b.v. van der Keessel maar Cras weet Kemper door te drukken",
+      "location": null,
+      "date": null,
+      "source": "95"
+    },
+    {
+      "particularity": "Van der Keessel helpt hem in Deventer",
+      "location": null,
+      "date": null,
+      "source": "95"
+    },
+    {
+      "particularity": "Overtuigd orangist",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Verdedigt voortbestaan Franeker vergeefs bij duc de Plaisance",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Weigerde ambt van derde secretaris van Kampen na zijn promotie door zijn orangisme",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Vriend van Bilderdijk en von Savigny",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Curator Stolpiaans legaat",
+      "location": null,
+      "date": null,
+      "source": "95"
+    },
+    {
+      "particularity": "Lid Bataviaasch Genootschap van Kunsten en Wetenschappen, Diligentia en Felix Meritis",
+      "location": null,
+      "date": null,
+      "source": "95"
+    },
+    {
+      "particularity": "Erelid Maatschappij tot Nut van het Algemeen, Maatschappij van Nederlandse Letterkunde te Leiden",
+      "location": null,
+      "date": null,
+      "source": "95"
+    },
+    {
+      "particularity": "Ridder Nederlandse Leeuw",
+      "location": null,
+      "date": null,
+      "source": "95"
+    },
+    {
+      "particularity": "Salaris: f 850 (1802), fr 1700 (1803), f 3000 (1812)",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Marianne Mathilda",
+      "LastName": "HOORN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1780-01-12",
+      "DeathDate": "1850-03-21",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Clasina Hendrika",
+      "LastName": "LIS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1796-12-16",
+      "DeathDate": "1891-02-13",
+      "DeathCity": "Arnhem"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Meinard",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1741",
+      "DeathDate": "1825",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia Theodora",
+      "LastName": "BEVEREN",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1751",
+      "DeathDate": "1789",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Hendrik Willem",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "ONKRUIDT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701",
+      "DeathDate": "1790",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theodoor Feltman",
+      "LastName": "BEVEREN",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1736",
+      "DeathDate": "1767",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "ADRIANI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan Ambrosius",
+      "LastName": "HOORN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina Johanna",
+      "LastName": "LAAN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "LIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "KOCK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Sophia Theodora",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Deventer",
+      "BirthDate": "1802-12-08",
+      "DeathDate": "1825-07-20",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Catharina Mathilde",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1804-04-10",
+      "DeathDate": "1804-08-04",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wijnanda Lucretia",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1805-04-22",
+      "DeathDate": "1881-08-01",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Catherina Johanna",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1809-07-20",
+      "DeathDate": "1880-02-09",
+      "DeathCity": "Renkum"
+    },
+    {
+      "FirstName": "Meinard Willem",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1809-06-09",
+      "DeathDate": "1829-06-13",
+      "DeathCity": "Magelang"
+    },
+    {
+      "FirstName": "Anna Elisabeth Agnes",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1810-12-18",
+      "DeathDate": "1891-05-16",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Margaretha Johanna",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1813-01",
+      "DeathDate": "1813-02",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha Lotuise",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1814-03",
+      "DeathDate": "1814-08",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan Willem",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1815-08-23",
+      "DeathDate": "1879-10-23",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Henriette Marianne",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1817-07-13",
+      "DeathDate": "1851-06-05",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frederik Willem Lodewijk",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1819-03-06",
+      "DeathDate": "1881-02-06",
+      "DeathCity": "Soerakarta"
+    },
+    {
+      "FirstName": "Henrik Willem",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1821-07-13",
+      "DeathDate": "1822-03",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik Willem Theodorus",
+      "LastName": "TYDEMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "94",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1823-01-14",
+      "DeathDate": "1887-07-26",
+      "DeathCity": "Roosendaal"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1778-08-25",
+  "DeathDate": "1863-03-06",
+  "DeathCity": "Leiden"
+}

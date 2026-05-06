@@ -1,0 +1,344 @@
+{
+  "FirstName": "Antonius",
+  "LastName": "HUISIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Anton' in Antonius (Anton)"
+  ],
+  "alternative_last_names": [
+    "HULS",
+    "HULSIUS"
+  ],
+  "education": [
+    {
+      "subject": "Taalonderwijs",
+      "location": "Wesel",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Illustre School Deventer",
+      "date": "1635-04-23",
+      "source": "6,7"
+    },
+    {
+      "subject": "Reis/Studie",
+      "location": "Parijs, Londen, Oxford, Cambridge",
+      "date": null,
+      "source": "7"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1639-11-14",
+      "source": "21"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Groningen",
+      "date": "1642-05-31",
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1643-08-17",
+      "source": "7,21"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Oxford",
+      "date": "1667-07-05",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Waalse predikant",
+      "location": "Breda",
+      "date": "1643-10-13",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Waalse predikant (bevestigd)",
+      "location": "Breda",
+      "date": "1644-05-15",
+      "source": "58",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Illustre School Breda",
+      "date": "1646",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse School",
+      "location": "Breda",
+      "date": "1663",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Staten College",
+      "location": "Leiden",
+      "date": "1668-07-21",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1668-08-21",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie en Hebreeuws",
+      "location": "Leiden",
+      "date": "1676-01-16",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector magnificus",
+      "location": "Leiden",
+      "date": "1683",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Scriba Waalse Synode",
+      "location": "Breda",
+      "date": "1646-04",
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Mod\u00e9rateur Waalse Synode",
+      "location": "Breda",
+      "date": "1657-04",
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Mod\u00e9rateur Waalse Synode",
+      "location": "Middelburg",
+      "date": "1666-05",
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Mod\u00e9rateur Waalse Synode",
+      "location": "Naarden",
+      "date": "1668-09",
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Mod\u00e9rateur Waalse Synode",
+      "location": "Haarlem",
+      "date": "1660-04",
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Decaan Faculteit Theologie",
+      "location": "Leiden",
+      "date": "1680",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: Buitengewoon hoogleraar f 400",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: Regent f 1200",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Ondertrouw met Agnes Elisabeth Rumpf te Den Haag",
+      "location": "Den Haag",
+      "date": "1645-01-01",
+      "source": "6"
+    },
+    {
+      "particularity": "Reis en studie in Engeland en Frankrijk: Parijs, Londen, Oxford, Cambridge",
+      "location": null,
+      "date": null,
+      "source": "7"
+    },
+    {
+      "particularity": "Overlijdensdatum mogelijk ook 1685-02-27 (bronnen 2,14)",
+      "location": "Leiden",
+      "date": "1685-02-27",
+      "source": "2,14"
+    },
+    {
+      "particularity": "In 1685 nog 4 zonen in leven",
+      "location": null,
+      "date": "1685",
+      "source": "7"
+    },
+    {
+      "particularity": "Vader echtgenote Christian Rumpf was lijfarts van Frederik van de Palts (Koning van Bohemen) en van prinsen Maurits en Frederik Hendrik",
+      "location": null,
+      "date": null,
+      "source": "2,7"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Agnes Elisabeth",
+      "LastName": "RUMPF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Anton(ius)",
+      "LastName": "HULSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "VENNE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Christian",
+      "LastName": "RUMPF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agneta",
+      "LastName": "SPINA",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "HUISIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "HUISIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "HUISIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": null,
+      "DeathDate": "1695-07-20",
+      "DeathCity": "Middelburg"
+    },
+    {
+      "FirstName": "Paulus",
+      "LastName": "HUISIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1653-12-25",
+      "DeathDate": "1712-10-14",
+      "DeathCity": "Groningen"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Hilden",
+  "BirthDate": "1615",
+  "DeathDate": "1685-02-15",
+  "DeathCity": "Leiden"
+}

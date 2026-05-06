@@ -1,0 +1,312 @@
+{
+  "FirstName": "Floris Jacob",
+  "LastName": "VOLTELEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Florentius Jacobus"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "'s-Hertogenbosch",
+      "date": "1766-1769",
+      "source": "90"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Utrecht",
+      "date": "1770",
+      "source": "2,26"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Utrecht",
+      "date": "1770",
+      "source": "2,26"
+    },
+    {
+      "subject": "Doct.",
+      "location": "Utrecht",
+      "date": "1775-06-08",
+      "source": "90,103"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1775-09-22",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1777-01-28",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts Burgerweeshuis",
+      "location": "Utrecht",
+      "date": "1781",
+      "source": "2,103,26",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsarts",
+      "location": "Utrecht",
+      "date": "1781",
+      "source": "2,103,26",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Geneeskunde en Scheikunde",
+      "location": "Leiden",
+      "date": "1783-10-20",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde en Scheikunde",
+      "location": "Leiden",
+      "date": "1784-09-25",
+      "source": "2,3,103",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1789",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Senaat Leidse Universiteit",
+      "location": "Leiden",
+      "date": "1788",
+      "source": "103",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.: Diatribe medica aditialis memorabilem septennis apesitae historiam exhibens bij prof. Hahn",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Bevriend met baron van Reede van Oudtshoorn, gouverneur der Kaapkolonie",
+      "location": null,
+      "date": null,
+      "source": "90"
+    },
+    {
+      "particularity": "Woont Steenschuur",
+      "location": "Leiden",
+      "date": null,
+      "source": "103"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anne Emilie",
+      "LastName": "VERNEDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1761-04-28",
+      "DeathDate": "1802-08-30",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Christiaan Benjamin",
+      "LastName": "VOLTELEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1723",
+      "DeathDate": "1758",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruida Susanna",
+      "LastName": "MEYBOOM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1734",
+      "DeathDate": "1798",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Arnoldus",
+      "LastName": "VOLTELEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1693",
+      "DeathDate": "1734",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "EVERTSE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1699",
+      "DeathDate": "1736",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Floris",
+      "LastName": "MEYBOOM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "KOCK",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob Henri",
+      "LastName": "VERNEDE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "108",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anne Marie",
+      "LastName": "MAUCLERC",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Emilie Susanna Marie",
+      "LastName": "VOLTELEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1785-10-26",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Henriette Gerardine",
+      "LastName": "VOLTELEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1788-09-16",
+      "DeathDate": "1797-04-15",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Augusta Paulina",
+      "LastName": "VOLTELEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1790-01-18",
+      "DeathDate": "1836-12-21",
+      "DeathCity": "Haarlem"
+    },
+    {
+      "FirstName": "Florentine Gertrude Petronella",
+      "LastName": "VOLTELEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "103",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1794-08-13",
+      "DeathDate": "1795-03-07",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Zuid-Afrika",
+  "BirthCity": "Zwartland",
+  "BirthDate": "1753-01-22",
+  "DeathDate": "1795-08-02",
+  "DeathCity": "Leiden"
+}

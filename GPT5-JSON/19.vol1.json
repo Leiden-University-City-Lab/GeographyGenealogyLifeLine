@@ -1,0 +1,259 @@
+{
+  "FirstName": "Carolus",
+  "LastName": "GALLUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Karel' in Carolus (Karel)"
+  ],
+  "alternative_last_names": [
+    "'DE HAAN' in GALLUS (DE HAAN)"
+  ],
+  "education": [
+    {
+      "subject": "Klassieke talen",
+      "location": "Arnhem",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Jur. en Theol.",
+      "location": "Keulen",
+      "date": "1550-04-24",
+      "source": "3,24"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1559",
+      "source": "7"
+    },
+    {
+      "subject": "Baccalaureus Theol.",
+      "location": "Keulen",
+      "date": "1560",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Pastoor",
+      "location": "Elst",
+      "date": "1556",
+      "source": "G6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pastoor",
+      "location": "Deventer",
+      "date": "1560",
+      "source": "G6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik en Prebende, St. Lebuinuskerk",
+      "location": "Deventer",
+      "date": "1560-07-16",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": "Deventer",
+      "date": "1561-06-29",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant bij Hertog Willem van Kleef",
+      "location": "Hamm (Graafschap Mark, Westfalen)",
+      "date": "1561",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": null,
+      "date": null,
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Bremen",
+      "date": "1576",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Arnhem",
+      "date": "1578",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Legerpredikant bij Jan van Nassau",
+      "location": null,
+      "date": "1578-1581",
+      "source": "172",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Deventer",
+      "date": "1579",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eerste Auditeur van de Kerkelijke Rekenkamer Gelderland",
+      "location": "Gelderland",
+      "date": "1580-06-01",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontvanger der Geestelijke goederen voor het Kwartier Arnhem, Gelderland",
+      "location": "Arnhem, Gelderland",
+      "date": "1583-08-08",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontvanger der Geestelijke goederen voor het Kwartier Arnhem, Gelderland",
+      "location": "Arnhem, Gelderland",
+      "date": "1586-09-05",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Theol.",
+      "location": "Leiden",
+      "date": "1587-05-04",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1587-08-24",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": "Leiden",
+      "date": "1591-08-10",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant (beroepen)",
+      "location": "Oldebroek",
+      "date": "1591-08-24",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Scherpenzeel",
+      "date": "1594",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Nijbroek (Veluwe)",
+      "date": "1595-06",
+      "source": "2,6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritaat",
+      "location": null,
+      "date": null,
+      "source": "6",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": null,
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Onbekend",
+      "LastName": "Onbekend",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1587",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Onbekend",
+      "LastName": "UTENBROECK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1593",
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Rachel",
+      "LastName": "GALLUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Henricus",
+      "LastName": "GALLUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Arnhem",
+  "BirthDate": "1530-08-16",
+  "DeathDate": "1616-01-28",
+  "DeathCity": "Nijbroek"
+}

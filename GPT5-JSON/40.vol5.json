@@ -1,0 +1,84 @@
+{
+  "FirstName": "Johannes Conradus",
+  "LastName": "NUBER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "NUBERUS"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Lector Beschaafde Letteren",
+      "location": "Leiden",
+      "date": "1672-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Beschaafde Letteren",
+      "location": "Leiden",
+      "date": "1672-05-16",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Harderwijk",
+      "date": "1681-10-21",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Eervol ontslag",
+      "location": "Leiden",
+      "date": "1681-11-24",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Historie en Welsprekendheid",
+      "location": "Harderwijk",
+      "date": "1684",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historie, Welsprekendheid en Grieks",
+      "location": "Harderwijk",
+      "date": "1694-10-14",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "Curicken",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Polen",
+  "BirthCity": "Dantzig",
+  "BirthDate": "1642",
+  "DeathDate": "1696-10-18",
+  "DeathCity": null
+}

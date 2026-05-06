@@ -1,0 +1,213 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VALCKENIER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VALKENIER",
+    "FALKENARIUS",
+    "FALCKENIER"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1636-08-13",
+      "source": "17"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1646",
+      "source": "7"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1646",
+      "source": "7"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Amsterdam",
+      "date": "1645",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Harderwijk",
+      "date": "1645-11-13",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Hebreeuws",
+      "location": "Harderwijk",
+      "date": "1650",
+      "source": "30",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1650",
+      "source": "30",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1654-03-24",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Franeker",
+      "date": "1654-09-15",
+      "source": "26",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1657",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1666",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1668-05-22",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1668-06-11",
+      "source": "5",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 1000",
+      "location": "Franeker",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: v.a. 1655 f 1200",
+      "location": "Franeker",
+      "date": "1655",
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": "Harderwijk",
+      "date": "1652",
+      "source": "30"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Hester",
+      "LastName": "HOCHEPIED",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [
+        "Hesther"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Keulen",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "VALCKENIER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "HAMBACH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "30",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Isaac",
+      "LastName": "HOCHEPIED",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Zoon",
+      "LastName": "VALCKENIER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "35",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Keulen",
+  "BirthDate": "1617-11-02",
+  "DeathDate": "1670-12-08",
+  "DeathCity": "Leiden"
+}

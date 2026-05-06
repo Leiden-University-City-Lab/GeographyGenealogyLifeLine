@@ -1,0 +1,290 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VAN DEN HONERT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Johan"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1715-07-10",
+      "source": "6"
+    },
+    {
+      "subject": "Proponent",
+      "location": null,
+      "date": "1719",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Koopman",
+      "location": null,
+      "date": null,
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Katwijk a/d Rijn",
+      "date": "1719-06-04",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Haarlem",
+      "date": "1724-10-22",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Enkhuizen",
+      "date": "1727-11-20",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Utrecht",
+      "date": "1727-08-25",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Kerkelijke Geschiedenis",
+      "location": "Utrecht",
+      "date": "1732-03-31",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1731",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1732",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1734-07-12",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kerkelijke Geschiedenis",
+      "location": "Leiden",
+      "date": "1738-08-08",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Gewijde Welsprekendheid",
+      "location": "Leiden",
+      "date": "1746-09-15",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1744",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1745",
+      "source": "86",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. (halve taak)",
+      "location": "Leiden",
+      "date": "1734-08-09",
+      "source": "6",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1743",
+      "source": "6",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "van Looser",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Enkhuizen",
+      "BirthDate": "1701-04-05",
+      "DeathDate": "1779-07-15",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Taco Hajo",
+      "LastName": "van den Honert",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomina",
+      "LastName": "van Asperen",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "van den Honert",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ida",
+      "LastName": "Hajinga",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gijsbert",
+      "LastName": "van Asperen",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "de Witt",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "van Loosen",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha",
+      "LastName": "Buyskes",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Taco Hajo",
+      "LastName": "VAN DEN HONERT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1739-10-02",
+      "DeathDate": "1810-06-29",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Hendrik Ido Ambacht",
+  "BirthDate": "1693-12-01",
+  "DeathDate": "1758-04",
+  "DeathCity": "Leiden"
+}

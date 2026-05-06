@@ -1,0 +1,258 @@
+{
+  "FirstName": "Matthijs",
+  "LastName": "SIEGENBEEK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school (v. Ommeren)",
+      "location": "Amsterdam",
+      "date": "1785",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Doopsgezind seminarie",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Phil. h.c.",
+      "location": "Leiden",
+      "date": "1811-12-14",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": null,
+      "date": "1795",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Dokkum",
+      "date": "1796-03-06",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar (Bespiegelende Wijsbegeerte en Letteren; onderwijs: Nederduitse Welsprekendheid)",
+      "location": "Leiden",
+      "date": "1797-08-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar (Bespiegelende Wijsbegeerte en Letteren; onderwijs: Nederduitse Welsprekendheid)",
+      "location": "Leiden",
+      "date": "1799-05-31",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Nieuwere Letterkunde",
+      "location": "Leiden",
+      "date": "1811-03-05",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd; tevens onderwijs Vaderlandse Geschiedenis",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens emeritaat",
+      "location": "Leiden",
+      "date": "1844-07-01",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus (term 1808-1809)",
+      "location": "Leiden",
+      "date": "1808",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus (term 1822-1823)",
+      "location": "Leiden",
+      "date": "1822",
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Doopsgezind",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bevriend met J. de Vries, Kemper, Falck, Nieuwland, van Lennep",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Curator van Santen steunt hem",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Invloed op nieuwe spelling onder van der Palm",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woonde Rapenburg 69a",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 1800",
+      "location": null,
+      "date": "1802",
+      "source": "2"
+    },
+    {
+      "particularity": "Oratie Bespiegelende Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1797-09-23",
+      "source": "27"
+    },
+    {
+      "particularity": "Oratie (Hoogleraar)",
+      "location": "Leiden",
+      "date": "1799-09-28",
+      "source": "27"
+    },
+    {
+      "particularity": "Huwelijk te Workum",
+      "location": null,
+      "date": "1799-03-24",
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruida",
+      "LastName": "TIEBOEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1773-10-15",
+      "DeathDate": "1851-06-02",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "SIEGENBEEK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": null,
+      "BirthDate": "1746",
+      "DeathDate": "1834",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "MIDDENDORP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1743",
+      "DeathDate": "1822",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "TIEBOEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1725",
+      "DeathDate": "1792",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rijckje",
+      "LastName": "TICHELAAR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [
+        "Ymes"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Daniel Tieboel",
+      "LastName": "SIEGENBEEK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1806-02-25",
+      "DeathDate": "1866-01-11",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Letteren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1774-06-23",
+  "DeathDate": "1854-11-26",
+  "DeathCity": "Leiden"
+}

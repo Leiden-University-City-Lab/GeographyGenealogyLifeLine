@@ -1,0 +1,275 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "GAILLARD",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Jacques' in Jacobus (Jacques)"
+  ],
+  "alternative_last_names": [
+    "GAILLJARD"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Montauban",
+      "date": null,
+      "source": "7"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": null,
+      "date": null,
+      "source": "31"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1667-12-24",
+      "source": "31"
+    },
+    {
+      "subject": "Ingeschreven als Dr. Phil.",
+      "location": "Leiden",
+      "date": "1668-12-14",
+      "source": "17"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Montauban",
+      "date": "1647",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Phil.",
+      "location": "Montauban",
+      "date": "1647",
+      "source": "7,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verbannen",
+      "location": null,
+      "date": "1659",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "'s-Hertogenbosch",
+      "date": "1662-10",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "Leiden",
+      "date": "1666-05-03",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Theol.",
+      "location": "Leiden",
+      "date": "1667-12-06",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Waalse Coll.",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1686-02-08",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adviseur affaire 'de Labadie'",
+      "location": null,
+      "date": "1667",
+      "source": "7,38",
+      "is_side_job": 1
+    },
+    {
+      "job": "Boekencensor",
+      "location": null,
+      "date": null,
+      "source": "7,38",
+      "is_side_job": 1
+    },
+    {
+      "job": "Moderator Waalse Syn.",
+      "location": null,
+      "date": "1669",
+      "source": "7,38",
+      "is_side_job": 1
+    },
+    {
+      "job": "Moderator Waalse Syn.",
+      "location": null,
+      "date": "1679",
+      "source": "7,38",
+      "is_side_job": 1
+    },
+    {
+      "job": "Moderator Waalse Syn.",
+      "location": null,
+      "date": "1684",
+      "source": "7,38",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Jeanne",
+      "LastName": "VERDIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanne",
+      "LastName": "LAVERGNE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "RENAUD",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Paul",
+      "LastName": "GAILLARD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Jean",
+      "LastName": "VERDIER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pierre",
+      "LastName": "LAVERGNIE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Suzanne",
+      "LastName": "GAILLARD",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catherine",
+      "LastName": "GAILLARD",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1650",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jean",
+      "LastName": "GAILLARD",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1656",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Montauban",
+  "BirthDate": "1620",
+  "DeathDate": "1688-07-17",
+  "DeathCity": "Leiden"
+}

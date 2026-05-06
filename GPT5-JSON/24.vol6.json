@@ -1,0 +1,128 @@
+{
+  "FirstName": "Daniel",
+  "LastName": "DAM",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1613-05-15",
+      "source": null
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Franeker",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Mag.Art.h.c.",
+      "location": "Franeker",
+      "date": "1621-08-20",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": null,
+      "date": "1625-12",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Witmarsum",
+      "date": "1625-12-10",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Nieuwland",
+      "date": "1628",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Logica",
+      "location": "Franeker",
+      "date": "1631-07-01",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1639-02-10",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 700",
+      "location": null,
+      "date": "1631",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": "1639-02",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1639-12",
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Tido Daniel",
+      "LastName": "DAM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Tido",
+      "LastName": "DAM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Nieuwland",
+      "BirthDate": "1629",
+      "DeathDate": "1689",
+      "DeathCity": "Strijen"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Witmarsum",
+  "BirthDate": "1594",
+  "DeathDate": "1641-06-12",
+  "DeathCity": "Leiden"
+}

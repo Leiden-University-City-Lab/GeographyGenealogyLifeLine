@@ -1,0 +1,295 @@
+{
+  "FirstName": "Hermannus",
+  "LastName": "WITSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Herman' in Hermannus (Herman)"
+  ],
+  "alternative_last_names": [
+    "WITS"
+  ],
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Enkhuizen",
+      "date": "1642",
+      "source": "2,8"
+    },
+    {
+      "subject": "Priv\u00e9-onderwijs (oom Petrus Hermanni)",
+      "location": "Enkhuizen",
+      "date": "1645",
+      "source": "2,8"
+    },
+    {
+      "subject": "Stud. Theol., Phil. en Hebreeuws",
+      "location": "Utrecht",
+      "date": "1651-04",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. DTheol.",
+      "location": "Groningen",
+      "date": "1654-11-20",
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Utrecht",
+      "date": "1655-10",
+      "source": null
+    },
+    {
+      "subject": "Preparatoir examen (Classis)",
+      "location": "Enkhuizen",
+      "date": "1656-05-29",
+      "source": "a"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Franeker",
+      "date": "1675-03-22",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Westwoud",
+      "date": "1657-07-08",
+      "source": "PSVr,2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Wormer",
+      "date": "1661-10-20",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Goes",
+      "date": "1666-06-20",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leeuwarden",
+      "date": "1668-04-11",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1675-01-07",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie (Hoogleraar Theol.)",
+      "location": "Franeker",
+      "date": "1675-04-15",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie (Hoogleraar Theol.)",
+      "location": "Franeker",
+      "date": "1675-04-16",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tevens Pred.",
+      "location": "Franeker",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Groningen",
+      "date": "1680-04-29",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Groningen",
+      "date": "1680-04-25",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie (Hoogleraar Theol.)",
+      "location": "Leiden",
+      "date": "1698-10-16",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Staten College",
+      "location": "Leiden",
+      "date": "1699-09-18",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek (Emeritaat)",
+      "location": "Leiden",
+      "date": "1707-02-09",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 1200 tractement",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "f 500 persoonlijke toelage",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "f 300 huishuur",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Aletta",
+      "LastName": "BORCHORN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1684",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Claes",
+      "LastName": "WITS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,c,2",
+      "second_names": [
+        "Jacobsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1599",
+      "DeathDate": "1669-10-06",
+      "DeathCity": "Enkhuizen"
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "HERMANNI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c,2",
+      "second_names": [],
+      "alternative_last_names": [
+        "HERMANS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1669-10-18",
+      "DeathCity": "Enkhuizen"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "WITS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hermanus",
+      "LastName": "GERARDI",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,8,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pietermoer",
+      "LastName": "PIETERSDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "W.",
+      "LastName": "BORCHORN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Enkhuizen",
+  "BirthDate": "1636-02-12",
+  "DeathDate": "1708-10-22",
+  "DeathCity": "Leiden"
+}

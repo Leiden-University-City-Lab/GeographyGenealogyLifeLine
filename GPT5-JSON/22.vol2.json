@@ -1,0 +1,210 @@
+{
+  "FirstName": "Paulus",
+  "LastName": "HERMAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "HERMANN",
+    "HERMANS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Wittenberg",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leipzig",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Jena",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Rome",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1671-05-09",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Padua",
+      "date": "1670",
+      "source": "1"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Botanische studiereis in Oost-Indi\u00eb, Ceylon (opdracht Staten-Generaal; ook Zuid-Afrika)",
+      "location": "Oost-Indi\u00eb, Ceylon",
+      "date": "1672",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kruidkunde en prefectus Hortus",
+      "location": "Leiden",
+      "date": "1678-11-21",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1680-04-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1690",
+      "source": "82",
+      "is_side_job": 0
+    },
+    {
+      "job": "Assessor Leidse Universiteit (1683-1685, 1694-1695)",
+      "location": "Leiden",
+      "date": null,
+      "source": "82",
+      "is_side_job": 1
+    },
+    {
+      "job": "Quaestor Leidse Universiteit (1688-1689)",
+      "location": "Leiden",
+      "date": "1688",
+      "source": "82",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Arbeidde in de tuinen van Willem III, Benuinck, Beverningh en Fagel",
+      "location": null,
+      "date": null,
+      "source": "40"
+    },
+    {
+      "particularity": "Willem III steunt zijn weduwe financieel",
+      "location": null,
+      "date": null,
+      "source": "40"
+    },
+    {
+      "particularity": "Salaris: f 1400",
+      "location": null,
+      "date": "1686",
+      "source": "40"
+    },
+    {
+      "particularity": "Aankomst Leiden",
+      "location": "Leiden",
+      "date": "1680",
+      "source": "19"
+    },
+    {
+      "particularity": "Overlijdensdatum mogelijk ook 1695-01-29",
+      "location": "Leiden",
+      "date": "1695",
+      "source": "3,82"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Geertruida",
+      "LastName": "Stomphius",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "56",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "HERMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1685-04-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paul",
+      "LastName": "HERMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1689-10-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Fridericus",
+      "LastName": "HERMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1691-10-14",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "HERMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1694-06-06",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Halle",
+  "BirthDate": "1645-06-30",
+  "DeathDate": "1695-01-25",
+  "DeathCity": "Leiden"
+}

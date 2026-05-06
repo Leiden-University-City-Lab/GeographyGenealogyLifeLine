@@ -1,0 +1,338 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "EKAMA",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school (De Crane)",
+      "location": "Dokkum",
+      "date": "1781",
+      "source": "6"
+    },
+    {
+      "subject": "Latijnse school (De Crane)",
+      "location": "Enkhuizen",
+      "date": "1788",
+      "source": "6"
+    },
+    {
+      "subject": "Latijnse school (De Crane)",
+      "location": "Franeker",
+      "date": "1789",
+      "source": "6"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Franeker",
+      "date": "1790-08-25",
+      "source": "7"
+    },
+    {
+      "subject": "Doct.Phil.h.c.",
+      "location": "Franeker",
+      "date": "1800-05-17",
+      "source": "8"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": "Elkerzee",
+      "date": "1796-10-09",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector honorarius in de Natuur- en Zeevaartkunde",
+      "location": "Zierikzee",
+      "date": "1803-01-23",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector honorarius in de Natuur- en Zeevaartkunde",
+      "location": "Zierikzee",
+      "date": "1803-03-30",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wis-, Natuur- en Zeevaartkunde",
+      "location": "Zierikzee",
+      "date": "1804-05-16",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bedankt als predikant",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Mathesis, Physica, Astronomie, Physiologie, Anatomie en Zeevaartkunde",
+      "location": "Zierikzee",
+      "date": "1805-02-27",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rede-, Natuur-, Bovennatuur- en Sterrekunde",
+      "location": "Franeker",
+      "date": "1807-10-18",
+      "source": "6,27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rede-, Natuur-, Bovennatuur- en Sterrekunde",
+      "location": "Franeker",
+      "date": "1809-06-01",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wis- en Sterrekunde",
+      "location": "Leiden",
+      "date": "1811",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1822",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1823",
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid van vele wetenschappelijke genootschappen",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Zijn oom prof. de Crane ondersteunde zijn studie",
+      "location": null,
+      "date": null,
+      "source": "27"
+    },
+    {
+      "particularity": "Woont Rapenburg 71",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 1500",
+      "location": null,
+      "date": "1805",
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Susanna Cornelia",
+      "LastName": "POOLE",
+      "Affix": "le",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1794-03-28",
+      "DeathDate": "1845-01-22",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes Cornelis",
+      "LastName": "EKAMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1738",
+      "DeathDate": "1780",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrika Lieuwes",
+      "LastName": "POSTMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1747",
+      "DeathDate": "1812",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Cornelius",
+      "LastName": "EKAMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1696",
+      "DeathDate": "1762",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antje",
+      "LastName": "DIRCKS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lieuwe",
+      "LastName": "LIEUWES",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Andriske",
+      "LastName": "WYGERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Samuel",
+      "LastName": "POOLE",
+      "Affix": "le",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1764",
+      "DeathDate": "1826",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "WIND",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1770",
+      "DeathDate": "1800",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Samuel",
+      "LastName": "EKAMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1821-07-16",
+      "DeathDate": "1881-05-01",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Anna Johanna Henrica",
+      "LastName": "EKAMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1822-08-26",
+      "DeathDate": "1837-03-23",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Cornelius",
+      "LastName": "EKAMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "26",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1824-04-05",
+      "DeathDate": "1891-01-08",
+      "DeathCity": "Haarlem"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Paesens",
+  "BirthDate": "1773-03-31",
+  "DeathDate": "1826-02-24",
+  "DeathCity": "Leiden"
+}

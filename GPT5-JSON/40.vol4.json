@@ -1,0 +1,214 @@
+{
+  "FirstName": "Wolferdus",
+  "LastName": "SENGUERDIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "SENKWEARD",
+    "ZENKWEARD",
+    "ZENGUERDIUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1667-09-17",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": "1667-12-07",
+      "source": "15"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Harderwijk",
+      "date": "1681-09-29",
+      "source": "11"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1669",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1675-02-20",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1676-01-16",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Demonstraties physica",
+      "location": "Leiden",
+      "date": null,
+      "source": "73",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De tarantula",
+      "location": null,
+      "date": null,
+      "source": "15"
+    },
+    {
+      "particularity": "Promotor in Harderwijk is zwager van der Does",
+      "location": "Harderwijk",
+      "date": null,
+      "source": "11"
+    },
+    {
+      "particularity": "Woont Breestraat",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a,43",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Schiedam",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Arnoldus",
+      "LastName": "SENGUERDIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1610",
+      "DeathDate": "1668",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hesther",
+      "LastName": "WEBBER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Wolfert",
+      "LastName": "WEBBER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Annetgen",
+      "LastName": "KOCKS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "DOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "43",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1609",
+      "DeathDate": "1665",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GOOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "43",
+      "second_names": [
+        "Egbertsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Hesther",
+      "LastName": "SENGUERDIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,43",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1669-05-19",
+      "DeathDate": "1716-09-25",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Wijsbegeerte",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1646-07-04",
+  "DeathDate": "1724-01-26",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,110 @@
+{
+  "FirstName": "Justus Jacobus",
+  "LastName": "BULAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Alumnus Statencollege; door Johan van Duvenvoorde",
+      "location": "Leiden",
+      "date": "1595-08-30",
+      "source": "10,3"
+    },
+    {
+      "subject": "Magistertitel geweigerd door Senaat na dispuut",
+      "location": "Leiden",
+      "date": "1598-03-05",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Rijnsaterwoude",
+      "date": "1600-09",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Warmond",
+      "date": "1603-11",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1607-02-05",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Alumnus Statencollege door Johan van Duvenvoorde",
+      "location": "Leiden",
+      "date": "1595-08-30",
+      "source": "10,3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "Lieffring",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "BULAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rijnsaterwoude",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Katharina",
+      "LastName": "BULAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Warmond",
+      "BirthDate": "1607-03-04",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": "1580",
+  "DeathDate": "1611-02-23",
+  "DeathCity": "Leiden"
+}

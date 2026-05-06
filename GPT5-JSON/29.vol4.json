@@ -1,0 +1,251 @@
+{
+  "FirstName": "Willibrord",
+  "LastName": "SNELLIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "SNEL VAN ROYEN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1590-09-01",
+      "source": "14"
+    },
+    {
+      "subject": "Reis",
+      "location": "W\u00fcrzburg",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Reis",
+      "location": "Praag",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Reis",
+      "location": "Altdorf",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Reis",
+      "location": "T\u00fcbingen",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": "1602-08-08",
+      "source": "3"
+    },
+    {
+      "subject": "Reis met vader",
+      "location": "Hessen",
+      "date": "1603",
+      "source": "3"
+    },
+    {
+      "subject": "Reis met vader",
+      "location": "Zwitserland",
+      "date": "1604",
+      "source": "3"
+    },
+    {
+      "subject": "Mag. Artium",
+      "location": "Leiden",
+      "date": "1608-07-12",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lessen astronomie",
+      "location": "Leiden",
+      "date": "1600-05-07",
+      "source": "29",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Astronomie",
+      "location": "Leiden",
+      "date": "1609-11-05",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Wiskunde en Astronomie",
+      "location": "Leiden",
+      "date": "1613-02-09",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Astronomie",
+      "location": "Leiden",
+      "date": "1615-02-08",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met van Ceulen, Blaeu, Is. Beeckman, Rivet",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Weduwe kreeg een jaar salaris",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Erft huis vader in Doezastraat",
+      "location": null,
+      "date": null,
+      "source": "29"
+    },
+    {
+      "particularity": "Salaris: f 300 (1613), f 400 (1614), f 500 (1616), f 600 (1618)",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "LANGE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "3,29",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1627-11-11",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Rudolph",
+      "LastName": "SNEL VAN ROYEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "13",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1546",
+      "DeathDate": "1613",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Machteld",
+      "LastName": "CORNELISD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Laurens",
+      "LastName": "LANGE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "5",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Janneke",
+      "LastName": "SIJMONS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Rudolph",
+      "LastName": "SNELLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1616",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Laurens",
+      "LastName": "SNELLIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1623-10-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "SNELLIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,29",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622-06-26",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Wiskunde en Astronomie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1580",
+  "DeathDate": "1626-10-30",
+  "DeathCity": "Leiden"
+}

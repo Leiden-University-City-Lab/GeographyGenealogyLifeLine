@@ -1,0 +1,169 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "LE MORT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "La MORT"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse School",
+      "location": "Leiden",
+      "date": null,
+      "source": "56"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1664-02-26",
+      "source": "2,3"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Utrecht",
+      "date": "1678-07-13",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Apotheker",
+      "location": "Amsterdam",
+      "date": "1672",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pharmazeutisch onderwijs in priv-chemisch lab.",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Apotheker",
+      "location": "Leiden",
+      "date": "1674",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Chemie en prefect, Chemisch Laboratorium",
+      "location": "Leiden",
+      "date": "1690-05-06",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Scheikunde en Geneeskunde",
+      "location": "Leiden",
+      "date": "1697-05-16",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1706",
+      "source": "52",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Pisp. De medicamentis Galenicis bij Vailan",
+      "location": null,
+      "date": null,
+      "source": "27"
+    },
+    {
+      "particularity": "Woont in 1674 als apotheker op Rapenburg",
+      "location": "Leiden",
+      "date": "1674",
+      "source": "a"
+    },
+    {
+      "particularity": "Willem III blokkeerde zijn aanstelling 1697-1702",
+      "location": null,
+      "date": null,
+      "source": "56"
+    },
+    {
+      "particularity": "Salaris: f 800 (1702), f 1000 (1705)",
+      "location": null,
+      "date": null,
+      "source": "82"
+    },
+    {
+      "particularity": "Geneeskunde approbatie: 1702",
+      "location": null,
+      "date": "1702",
+      "source": "19"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "de Mairees",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Isabella"
+      ],
+      "alternative_last_names": [
+        "de Mares",
+        "de Mareetz"
+      ],
+      "BirthCountry": null,
+      "BirthCity": "Steenwerk",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Zacharias",
+      "LastName": "LE MORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Pieternella",
+      "LastName": "LE MORT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1676-12-04",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Arnhem",
+  "BirthDate": "1650-10-13",
+  "DeathDate": "1718-03-01",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,143 @@
+{
+  "FirstName": "Theodorus",
+  "LastName": "CRAANEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "CRANEN",
+    "KRANE",
+    "KRAEN"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Phil.",
+      "location": "Utrecht",
+      "date": "1654",
+      "source": "26"
+    },
+    {
+      "subject": "Stud. Phil. en Theol.",
+      "location": "Leiden",
+      "date": "1655-02-17",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Leiden",
+      "date": null,
+      "source": "1,3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Duisburg",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Nijmegen",
+      "date": "1655",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Illustere School",
+      "location": "Nijmegen",
+      "date": "1666",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Leiden",
+      "date": "1670-03-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1670-05",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag om Cartesianisme",
+      "location": "Leiden",
+      "date": "1673-12-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1673-12-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs collegium practico-medicum",
+      "location": "Leiden",
+      "date": "1683",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts Keurvorst van Brandenburg",
+      "location": "Berlijn",
+      "date": "1686",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts Keurvorst van Brandenburg",
+      "location": "Berlijn",
+      "date": "1687",
+      "source": "T",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f600,-",
+      "location": null,
+      "date": "1667",
+      "source": "22"
+    },
+    {
+      "particularity": "Salaris: f900,-",
+      "location": null,
+      "date": "1666",
+      "source": "22"
+    },
+    {
+      "particularity": "Salaris: f1000,- als hoogleraar philosophie",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f600,- als onderregent Statencollege",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "'s-Hertogenbosch",
+  "BirthDate": "1620",
+  "DeathDate": "1690-03-27",
+  "DeathCity": "Berlijn"
+}

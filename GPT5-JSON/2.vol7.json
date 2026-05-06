@@ -1,0 +1,286 @@
+{
+  "FirstName": "Abraham",
+  "LastName": "ALMONDE",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": null,
+      "location": "Leuven",
+      "date": "1549-03-20",
+      "source": "11"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogheemraad Delfland",
+      "location": "Delft",
+      "date": "1566",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad Delft",
+      "location": "Delft",
+      "date": "1574",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester Delft",
+      "location": "Delft",
+      "date": "1574",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1583",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Beukelsdijk, Bloemersdijk en Altena",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "LEUVEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [
+        "Dirksd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margarita",
+      "LastName": "WERVE",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GROOT",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1540",
+      "DeathDate": "1610",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "ALMONDE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a,b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "WERVE",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "a,b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "ALMONDE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a,b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "EVERSDIJK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aert",
+      "LastName": "WERVE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bartha",
+      "LastName": "LOON",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [
+        "Arentsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Hugo",
+      "LastName": "GROOT",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1511",
+      "DeathDate": "1567",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "WISSE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Petronella",
+      "LastName": "ALMONDE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "ALMONDE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "ALMONDE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "ALMONDE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": "1593-01-02",
+  "DeathCity": null
+}

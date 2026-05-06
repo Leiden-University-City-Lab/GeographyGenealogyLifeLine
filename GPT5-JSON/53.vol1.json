@@ -1,0 +1,292 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "TRIGLANDUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "TRIGLAND",
+    "TRIBLANDUS",
+    "TRIBALLERIUS"
+  ],
+  "education": [
+    {
+      "subject": "Lat. School",
+      "location": "Gouda",
+      "date": null,
+      "source": "2,8"
+    },
+    {
+      "subject": "Onderwijs priesters",
+      "location": "Amsterdam",
+      "date": "1597-1598",
+      "source": "28"
+    },
+    {
+      "subject": "Stud. Theol. en Phil.",
+      "location": "Leuven",
+      "date": "1598",
+      "source": "b,8"
+    },
+    {
+      "subject": "Preparatoir examen afgelegd",
+      "location": "Classis Buren",
+      "date": "1606",
+      "source": "b"
+    },
+    {
+      "subject": "Preparatoir examen",
+      "location": "Classis Gouda",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1634-05-25",
+      "source": "b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Rector School",
+      "location": "Vianen",
+      "date": "1602",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Stolkwijk",
+      "date": "1607",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Amsterdam",
+      "date": "1610-12-24/05-1634",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk Geref. Pred.",
+      "location": "Den Haag",
+      "date": "1617",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1633-12-29",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1637-08-23",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1643-1644",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1650-1651",
+      "source": "2,b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Nat. Synode N.-Holland",
+      "location": "Dordrecht",
+      "date": "1618",
+      "source": "2,8,b",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lid Classis",
+      "location": "Leiden",
+      "date": null,
+      "source": "2,8,b",
+      "is_side_job": 1
+    },
+    {
+      "job": "Praeses Synode Z.-Holland",
+      "location": null,
+      "date": "1642",
+      "source": "2,8,b",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: \u0192 1200 tractement; \u0192 300 huishuur; \u0192 200 extraordinair; plus emolumenten",
+      "location": null,
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Later (na 1649) \u0192 2000",
+      "location": null,
+      "date": "na 1649",
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Christina",
+      "LastName": "STOOF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [
+        "'Stijntje' in Christina",
+        "Stijntje Hendriks"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1643",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "TRIGLAND",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "GERARDS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gualtherus",
+      "LastName": "DRIJEYKELEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [
+        "'Wouter' in Gualtherus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "ADRIAANSZ",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Theodoor",
+      "LastName": "STOOF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1609 of 1610",
+      "DeathDate": "1672-08-20",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Theodorus",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1620",
+      "DeathDate": "1679-10-25",
+      "DeathCity": "Harderwijk"
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "TRIGLANDUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1664",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Vianen",
+  "BirthDate": "1583-07-22",
+  "DeathDate": "1654-04-05",
+  "DeathCity": "Leiden"
+}

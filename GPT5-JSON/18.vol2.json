@@ -1,0 +1,46 @@
+{
+  "FirstName": "Henricus",
+  "LastName": "FLORENTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1602-02",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lea anatomie (op proef)",
+      "location": "Leiden",
+      "date": "1617-08-08",
+      "source": "19,33",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1590",
+  "DeathDate": null,
+  "DeathCity": null
+}

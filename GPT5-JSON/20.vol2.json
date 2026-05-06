@@ -1,0 +1,380 @@
+{
+  "FirstName": "Hieronymus David",
+  "LastName": "GAUBIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "GAUB"
+  ],
+  "education": [
+    {
+      "subject": "Jezuitencollege",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "85"
+    },
+    {
+      "subject": "Gymnasium van Franke",
+      "location": "Halle",
+      "date": null,
+      "source": "85"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1718-12-20",
+      "source": "72"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Harderwijk",
+      "date": "1722-06-01",
+      "source": "16"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1723-09-14",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1725-08-24",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Studiereis",
+      "location": "Parijs",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Studiereis",
+      "location": "Duitsland",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Studiereis",
+      "location": "Zwitserland",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts (bij oom)",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "2,85",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsarts",
+      "location": "Deventer",
+      "date": "1726",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsarts",
+      "location": "Amsterdam",
+      "date": "1727",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Scheikunde",
+      "location": "Leiden",
+      "date": "1731-01-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde en Scheikunde",
+      "location": "Leiden",
+      "date": "1734-09-20",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Geneeskunde",
+      "location": "Leiden",
+      "date": "1738-08-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens leeftijd",
+      "location": "Leiden",
+      "date": "1770-08-27",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1746/47,1762/63,1774/75",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag met behoud titel en wedde",
+      "location": "Leiden",
+      "date": "1775-05-20",
+      "source": "35",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Specimen exhibens eandem generalem solidarum corporis partium bij prof. Boerhaave.",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Door zijn oom/schoonvader naar de Republiek gehaald.",
+      "location": null,
+      "date": null,
+      "source": "85"
+    },
+    {
+      "particularity": "Door Boerhaave naar Leiden gehaald.",
+      "location": null,
+      "date": null,
+      "source": "85"
+    },
+    {
+      "particularity": "Door de tsarina\u2019s Elisabeth en Catharina de Grote van Rusland (op advies van Abraham Kaau Boerhaave) gevraagd als lijfarts, afgeslagen.",
+      "location": null,
+      "date": null,
+      "source": "2,68"
+    },
+    {
+      "particularity": "Lid van: Royal Society (Londen); Royal Society of Medicine (Parijs); Academie van Wetenschappen en Schone Letteren (Mannheim); Academie van Wetenschappen (Haarlem); Geleerde Genootschappen in Rotterdam, Zeeland, Edinburgh en Rusland.",
+      "location": null,
+      "date": null,
+      "source": "68"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Constantia",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "35",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1782-11-10",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johann Christoph",
+      "LastName": "GAUB",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1738",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "ROHRMANN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1662",
+      "DeathDate": "1732",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann Kaspar",
+      "LastName": "GAUB",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catharina",
+      "LastName": "DILL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "ROHRMANN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "SCHNELLBACH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "72",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "85",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes David",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,35",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1736-04-25",
+      "DeathDate": "1749",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Philippina",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,35",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1738-10-01",
+      "DeathDate": "1743",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth Wilhelmina",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1740-05-15",
+      "DeathDate": "1779",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margaretha Catharina",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,35,80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1742-02-07",
+      "DeathDate": "1765",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Amelia",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "35",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1744-06-07",
+      "DeathDate": "1788-12-22",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Joanna Constantia",
+      "LastName": "GAUBIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "4,35",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1747-03-05",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde en Scheikunde",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Heidelberg",
+  "BirthDate": "1705-02-24",
+  "DeathDate": "1780-11-29",
+  "DeathCity": "Leiden"
+}

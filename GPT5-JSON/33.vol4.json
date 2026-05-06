@@ -1,0 +1,201 @@
+{
+  "FirstName": "Antonius",
+  "LastName": "TRUTIUS LYRANUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Hoogleraar Redeneer- en Natuurkunde",
+      "location": "Leiden",
+      "date": "1582-05-12",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneer- en Natuurkunde",
+      "location": "Leiden",
+      "date": "1582-07-01",
+      "source": "73",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Pieterskerkstraat 10/12",
+      "location": "Leiden",
+      "date": null,
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": "Leiden",
+      "date": "1582",
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f 450",
+      "location": "Leiden",
+      "date": "1597",
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "Succa",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Willem",
+      "LastName": "Succa",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "34",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Mierop",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Cathelijntje",
+      "LastName": "TRUTIUS LYRANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1582",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Janneken",
+      "LastName": "TRUTIUS LYRANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1584",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magken",
+      "LastName": "TRUTIUS LYRANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "TRUTIUS LYRANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1586",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "TRUTIUS LYRANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1588",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanneken",
+      "LastName": "TRUTIUS LYRANUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1591",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antony",
+      "LastName": "TRUTIUS LYRANUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "54",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1593",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Lier",
+  "BirthDate": null,
+  "DeathDate": "1603",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,284 @@
+{
+  "FirstName": "Gilbertus",
+  "LastName": "JACCHAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "JACK"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Marischal College (Hovaeus)",
+      "location": "Aberdeen",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud. (Duncan)",
+      "location": "Helmstadt",
+      "date": "1598-05-02",
+      "source": "12"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Herborn",
+      "date": "1601-07",
+      "source": "3"
+    },
+    {
+      "subject": "Stud. MTheol.",
+      "location": "Leiden",
+      "date": "1605-05-25",
+      "source": "14"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1671",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Herborn",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof exercitii causa (Isagoge)",
+      "location": "Leiden",
+      "date": "1603-09-19",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Redeneerkunde",
+      "location": "Leiden",
+      "date": null,
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Zedekunde",
+      "location": "Leiden",
+      "date": "1607-08-30",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneer- en Zedekunde",
+      "location": "Leiden",
+      "date": "1612-02-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": "1617-08-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schorsing",
+      "location": "Leiden",
+      "date": "1619",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Drie maanden les natuurkunde",
+      "location": "Leiden",
+      "date": "1620",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": null,
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met vooraanstaande remonstranten als Barlaeus, Grotius, Vossius etc.",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Rapenburg 18",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Marijtgen",
+      "LastName": "Grosgiers",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [
+        "Willemsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Isabel",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomijntje",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Zeger",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Andries",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622-03-23",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1624-03-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "JACCHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1626-12-16",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Schotland",
+  "BirthCity": "Aberdeen",
+  "BirthDate": null,
+  "DeathDate": "1628-04-18",
+  "DeathCity": "Leiden"
+}

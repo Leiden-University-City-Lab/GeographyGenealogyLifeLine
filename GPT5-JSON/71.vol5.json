@@ -1,0 +1,134 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "WITTICHIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Duisburg",
+      "date": "1693-09-21",
+      "source": "16"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1697-09-10",
+      "source": "18"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1702-12-21",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.",
+      "location": "Leiden",
+      "date": "1711",
+      "source": "1"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar",
+      "location": "Duisburg",
+      "date": null,
+      "source": "69",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde",
+      "location": "Groningen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Groningen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1718-06-24",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs: Zedekunde",
+      "location": "Leiden",
+      "date": "1725",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs: alle Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1734-07-12",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1726",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1734",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "De natura Dei bij prof. T. A. van den Honert",
+      "location": null,
+      "date": null,
+      "source": "1"
+    },
+    {
+      "particularity": "In 1717 aangezocht door Groningen",
+      "location": "Groningen",
+      "date": "1717",
+      "source": "69"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Christophorus",
+      "LastName": "WITTICHIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Aken",
+  "BirthDate": "1677-01-11",
+  "DeathDate": "1739-10-18",
+  "DeathCity": "Leiden"
+}

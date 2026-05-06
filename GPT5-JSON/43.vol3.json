@@ -1,0 +1,518 @@
+{
+  "FirstName": "Johan",
+  "LastName": "VALCKENAER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Leiden",
+      "date": "1773-03-07",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Romeins Recht en Letteren (o.a. Frans)",
+      "location": "Leiden",
+      "date": "1769-04-03",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur",
+      "location": "Leiden",
+      "date": "1781-02-10",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Leiden",
+      "date": null,
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Pandecten en Instituten)",
+      "location": "Franeker",
+      "date": "1782-03-22",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Plv. Rector Magnificus",
+      "location": "Franeker",
+      "date": "1786",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1787-03-11",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag (als patriot)",
+      "location": "Franeker",
+      "date": "1787-05-16",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Agent Defensiewezen",
+      "location": "Amsterdam",
+      "date": "1787",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Publiek-, Natuur- en Volkenrecht",
+      "location": "Utrecht",
+      "date": "1787-06-18",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gevlucht naar Frankrijk nog voor aanvaarding ambt",
+      "location": "Frankrijk",
+      "date": "1787-09-15",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Actief onder gevluchte patriotten (1787-1795)",
+      "location": "Frankrijk",
+      "date": "1787",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten; onderwijs Staats- en Bijzonder recht",
+      "location": "Leiden",
+      "date": "1795-02-21",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1795-10-10",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag met behoud titel",
+      "location": "Leiden",
+      "date": "1796-02-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Nationale Vergadering",
+      "location": "Den Haag",
+      "date": "1795",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Provisioneel secretaris Nationale Vergadering",
+      "location": "Den Haag",
+      "date": "1795",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kandidaat-president Nationale Vergadering",
+      "location": "Den Haag",
+      "date": "1796",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Extraordinair gezant",
+      "location": "Madrid",
+      "date": "1796",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Madrid",
+      "date": "1799",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofdingeland",
+      "location": "Rijnland",
+      "date": "1802-01",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pruisisch gevolmachtigde",
+      "location": "Parijs",
+      "date": "1810-06-16",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Fiscaal bij proces tegen Van der Spiegel en Willem V",
+      "location": null,
+      "date": null,
+      "source": "88",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De duplici legum quarundam in pandectis interpretatione",
+      "location": null,
+      "date": null,
+      "source": "26b"
+    },
+    {
+      "particularity": "Bij prof. Voorda",
+      "location": null,
+      "date": null,
+      "source": "26a"
+    },
+    {
+      "particularity": "Bevriend met Van Kooten, Van Beyma, Bilderdijk en Falck",
+      "location": null,
+      "date": null,
+      "source": "2,88"
+    },
+    {
+      "particularity": "President van de 'Soci\u00e9t\u00e9 des amis de la constitution'",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Uitgever 'Batave, ou le nouvelliste \u00e9tranger'",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Aandeel in bouw sluis Spaarndam en uitwatering Rijnland bij Katwijk",
+      "location": null,
+      "date": null,
+      "source": "88"
+    },
+    {
+      "particularity": "Adviseur Lodewijk Napoleon",
+      "location": null,
+      "date": null,
+      "source": "88"
+    },
+    {
+      "particularity": "Fries correspondent van de Leidse Courant van oom Luzac",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "President Fraterniteit Franeker, lid vrijkorps Franeker",
+      "location": null,
+      "date": null,
+      "source": "88"
+    },
+    {
+      "particularity": "Lid commissie hervorming hoger onderwijs onder Louis Napoleon",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Voorzitter van de derde klasse van het Koninklijk Instituut",
+      "location": null,
+      "date": "1808-05-04",
+      "source": "88"
+    },
+    {
+      "particularity": "Bezat 'Dikenburg' (Noordwijk), 'Meer en Bosch' (Heemstede) en na 1817 'Neijzeg' (Bennebroek)",
+      "location": null,
+      "date": null,
+      "source": "88"
+    },
+    {
+      "particularity": "Salaris: f1000 (1782), f1200 (1787 Utrecht), f2000 (1795 Leiden)",
+      "location": null,
+      "date": null,
+      "source": "10,88"
+    },
+    {
+      "particularity": "Eerste huwelijk: Getrouwd te Heino 1784-09-03; echtscheiding te Parijs 1795-12-30",
+      "location": null,
+      "date": null,
+      "source": "98"
+    },
+    {
+      "particularity": "Tweede huwelijk: Getrouwd te Amsterdam 1812-11-12",
+      "location": null,
+      "date": null,
+      "source": "98"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Hutgera Johanna",
+      "LastName": "LILLE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1759-07-18",
+      "DeathDate": "1840-09-27",
+      "DeathCity": "Zwolle"
+    },
+    {
+      "FirstName": "Marie Fran\u00e7oise",
+      "LastName": "GERVAIS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Frankrijk",
+      "BirthCity": "Bi\u00e8vre-le-Ch\u00e2tel",
+      "BirthDate": "1777",
+      "DeathDate": "1845-03-24",
+      "DeathCity": "Bennebroek"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Lodewijk Caspar",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1715",
+      "DeathDate": "1785",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1730",
+      "DeathDate": "1792",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan Warner",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1669",
+      "DeathDate": "1750",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "BAUX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1691",
+      "DeathDate": "1740",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "COUTURIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1706",
+      "DeathDate": "1733",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Christiaan Everhard",
+      "LastName": "LILLE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Marcella",
+      "LastName": "METELERKAMP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Louis",
+      "LastName": "GERVAIS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Magdalaine",
+      "LastName": "MARAIS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Etienne",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jean",
+      "LastName": "LUZAC",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "98,25",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "VALCKENAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "98",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Judith",
+      "LastName": "STRENG",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriaan",
+      "LastName": "KLUIT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "64",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Franeker",
+  "BirthDate": "1759-01-12",
+  "DeathDate": "1821-01-25",
+  "DeathCity": "Bennebroek"
+}

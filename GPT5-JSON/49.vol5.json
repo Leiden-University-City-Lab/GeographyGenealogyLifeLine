@@ -1,0 +1,172 @@
+{
+  "FirstName": "Hermanus",
+  "LastName": "RENECHERUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Herman' in Hermanus (Herman)"
+  ],
+  "alternative_last_names": [
+    "RENNEKER"
+  ],
+  "education": [
+    {
+      "subject": "School",
+      "location": "Dusseldorf",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": "1567-07-11",
+      "source": "26"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Voor vijf jaar verwijderd wegens anti-protestants pamflet",
+      "location": "Heidelberg",
+      "date": "1570-04-19",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1575-07-17",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens wangedrag",
+      "location": "Leiden",
+      "date": "1578-05-09",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis door Friesland, Oost-Friesland, Groningen, Duitsland (Osnabruck, Wittenberg)",
+      "location": "Friesland; Oost-Friesland; Groningen; Duitsland (Osnabruck, Wittenberg)",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Katholiek",
+      "location": null,
+      "date": "1580",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Calvinist",
+      "location": "Embden",
+      "date": "1581",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Leeuwarden",
+      "date": "1582",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Bremen",
+      "date": "1584",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Einde hoogleraarschap",
+      "location": "Bremen",
+      "date": "1587",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Boek geschreven in opdracht Staten van Holland en Zeeland",
+      "location": null,
+      "date": "1588",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Herborn",
+      "date": "1589",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Heidelberg",
+      "date": "1593-08-25",
+      "source": "26",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens wangedrag",
+      "location": "Heidelberg",
+      "date": "1600-01-23",
+      "source": "26",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Friesland; Groningen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Privaatdocent Hebreeuws",
+      "location": "Leiden",
+      "date": "1603-11-10",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanbevolen door Willem van Oranje",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Verleidde hospita; twist met Pythopoaeus, Coolhaas, van Gendt",
+      "location": "Leiden",
+      "date": null,
+      "source": "2,51"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "2"
+    },
+    {
+      "particularity": "Overleden na 1605",
+      "location": null,
+      "date": null,
+      "source": "51"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Osnabruck",
+  "BirthDate": "1550",
+  "DeathDate": null,
+  "DeathCity": null
+}

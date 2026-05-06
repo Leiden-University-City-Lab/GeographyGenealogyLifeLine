@@ -1,0 +1,206 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "COCCIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "KOK"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": "1646",
+      "source": "62"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Deventer",
+      "date": "1648-09",
+      "source": "62"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1650-04-26",
+      "source": "62"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector Latijnse school",
+      "location": "Zwolle",
+      "date": "1650-08-26",
+      "source": "62",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Zwolle",
+      "date": "1655-06-12",
+      "source": "62",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Den Haag",
+      "date": "1668",
+      "source": "62",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid en Historie",
+      "location": "Leiden",
+      "date": "1670-04-15",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opdracht tevens Griekse taal te doceren",
+      "location": "Leiden",
+      "date": "1678-08-15",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met dichter-dominee J. Vollenhove die hem in Den Haag helpt",
+      "location": "Den Haag",
+      "date": null,
+      "source": "62"
+    },
+    {
+      "particularity": "Bevriend met Heerman Schele",
+      "location": null,
+      "date": null,
+      "source": "62"
+    },
+    {
+      "particularity": "Staatsgezind",
+      "location": null,
+      "date": null,
+      "source": "62"
+    },
+    {
+      "particularity": "Op nominatie opvolging Gronovius in Deventer",
+      "location": "Deventer",
+      "date": null,
+      "source": "629"
+    },
+    {
+      "particularity": "Woonde Rapenburg in 1672",
+      "location": "Leiden",
+      "date": "1672",
+      "source": "629"
+    },
+    {
+      "particularity": "Testament not.arch. GA Den Haag 555, p.231",
+      "location": "Den Haag",
+      "date": null,
+      "source": "555,p.231"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Margrieta",
+      "LastName": "VERHOEFF",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "62",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "COCK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "62",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aeltgen",
+      "LastName": "BUIS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "62",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VERHOEFF",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "62",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Gerardus",
+      "LastName": "COCCIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "62",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1658",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "COCCIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "62",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1659",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Zwolle",
+  "BirthDate": "1619",
+  "DeathDate": "1678-08-25",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,299 @@
+{
+  "FirstName": "Adolphus",
+  "LastName": "YPEY",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Adolph",
+    "Alef"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1762",
+      "source": "13"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Franeker",
+      "date": "1767-04-09",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Franeker",
+      "date": "1769-12-14",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Franeker",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Botanie",
+      "location": "Franeker",
+      "date": "1772-10-30",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Medicijnen en Anatomie",
+      "location": "Franeker",
+      "date": "1776",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Franeker",
+      "date": "1785-10-21",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Anatomie, Mathematica, Scheikunde en Krijgsbouwkunde",
+      "location": "Franeker",
+      "date": "1787",
+      "source": "63",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1787",
+      "source": "12",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1792",
+      "source": "12",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens Oranjegezindheid",
+      "location": "Franeker",
+      "date": "1795-07-10",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "63",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen en Pathologie",
+      "location": "Franeker",
+      "date": "1805-07-11",
+      "source": "2,12",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Pathologie en Therapie)",
+      "location": "Leiden",
+      "date": "1812",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aangetreden als hoogleraar Geneeskunde (Pathologie en Therapie)",
+      "location": "Leiden",
+      "date": "1813-01-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd als hoogleraar",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Phil. De igne bij prof. van Swinden",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Diss. Med. De putridine bij prof. Winter",
+      "location": null,
+      "date": null,
+      "source": "2,14"
+    },
+    {
+      "particularity": "Salaris: f 1100 (1785), f 1800 (1805)",
+      "location": null,
+      "date": null,
+      "source": "63,12"
+    },
+    {
+      "particularity": "Bewerkt Tegenwoordige Staat van Friesland",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Lid Nederlandse Maatschappij van Wetenschappen",
+      "location": null,
+      "date": "1773",
+      "source": "63"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "DENTZSCH",
+      "Affix": "von",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Coevorden",
+      "BirthDate": "1773-09",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "YPEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1714",
+      "DeathDate": "1785",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth Helena",
+      "LastName": "SMIT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1729",
+      "DeathDate": "1783",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Alef",
+      "LastName": "YPEY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1677",
+      "DeathDate": "1759",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sytski",
+      "LastName": "FOCKES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mattheus",
+      "LastName": "SMIT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "PIJBBINGA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Christian Gustaf",
+      "LastName": "DENTZSCH",
+      "Affix": "von",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jantien",
+      "LastName": "MEYERINK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Franeker",
+  "BirthDate": "1749-06-25",
+  "DeathDate": "1820-02-27",
+  "DeathCity": "Leiden"
+}

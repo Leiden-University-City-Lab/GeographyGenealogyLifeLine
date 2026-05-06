@@ -1,0 +1,328 @@
+{
+  "FirstName": "Henricus",
+  "LastName": "BORNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Phil.",
+      "location": "Leiden",
+      "date": "1635-04-12",
+      "source": "28"
+    },
+    {
+      "subject": "Stud. Phil.",
+      "location": "Leiden",
+      "date": "1636-10-07",
+      "source": "28"
+    },
+    {
+      "subject": "Theses",
+      "location": "Utrecht",
+      "date": "1637",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1639-11-22",
+      "source": "20"
+    },
+    {
+      "subject": "Thesis",
+      "location": "Gen\u00e8ve",
+      "date": "1641-09-25",
+      "source": "20"
+    },
+    {
+      "subject": "Bezoek aan Gassendi",
+      "location": "Parijs",
+      "date": "1643",
+      "source": "13"
+    },
+    {
+      "subject": "Bezoek aan Gassendi",
+      "location": "Parijs",
+      "date": "1644",
+      "source": "13"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1644-02-12",
+      "source": "28"
+    },
+    {
+      "subject": "Mag. Art. en Doct. Phil.",
+      "location": "Leiden",
+      "date": "1646-09-27",
+      "source": "13"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Ethica",
+      "location": "Breda",
+      "date": "1646-09-27",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Logica",
+      "location": "Breda",
+      "date": "1647-01-04",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Subregent College",
+      "location": "Breda",
+      "date": null,
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1652-10-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1653-11-11",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1654-08-27",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof voor onderwijs Willem III",
+      "location": null,
+      "date": "1662-11-08",
+      "source": "27,12",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rentmeester Willem III",
+      "location": null,
+      "date": "1666",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Ravensberg, Regius, Gassendi, Rivet, Gronovius, N. Heinsius",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Thesis Gen\u00e8ve 1641 De praedestinatione",
+      "location": "Gen\u00e8ve",
+      "date": "1641",
+      "source": "20"
+    },
+    {
+      "particularity": "A. van Hilten, secretaris Staten van Utrecht, introduceert hem bij Huygens die hem de plaats in Breda bezorgt",
+      "location": null,
+      "date": null,
+      "source": "18"
+    },
+    {
+      "particularity": "Promotor in Leiden prof. Heereboord",
+      "location": "Leiden",
+      "date": null,
+      "source": "13"
+    },
+    {
+      "particularity": "In aanmerking voor Harderwijk",
+      "location": null,
+      "date": null,
+      "source": "13,12"
+    },
+    {
+      "particularity": "Lange onderhandeling met Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "12"
+    },
+    {
+      "particularity": "Senaat Leiden tegen hem",
+      "location": "Leiden",
+      "date": null,
+      "source": "13"
+    },
+    {
+      "particularity": "Testament not. J. van Santen",
+      "location": "Delft",
+      "date": "1655-11-01",
+      "source": "13"
+    },
+    {
+      "particularity": "Zijn moeder woont in Utrecht naast prof. G. Voetius",
+      "location": "Utrecht",
+      "date": null,
+      "source": "12"
+    },
+    {
+      "particularity": "Hij woont Rapenburg 30",
+      "location": "Leiden",
+      "date": null,
+      "source": "b"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1652",
+      "source": "13"
+    },
+    {
+      "particularity": "Alternatieve geboortedatum 1620",
+      "location": "Utrecht",
+      "date": "1620",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "Ceulen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1624",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "BORNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cathalina",
+      "LastName": "BORNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Elias",
+      "LastName": "Ceulen",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [
+        "Nicolaasz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "Pijnappels",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johan Henricus",
+      "LastName": "BORNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1649-12-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Susanna",
+      "LastName": "BORNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1653-05-05",
+      "DeathDate": "1653",
+      "DeathCity": "Breda"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Arnold",
+      "LastName": "BORNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Filosofie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1617",
+  "DeathDate": "1675",
+  "DeathCity": "Leiden"
+}

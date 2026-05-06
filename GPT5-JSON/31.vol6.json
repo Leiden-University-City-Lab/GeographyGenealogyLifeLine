@@ -1,0 +1,183 @@
+{
+  "FirstName": "Martinus",
+  "LastName": "UBBENIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1626",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": "Loppersum",
+      "date": "1633",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Warffum",
+      "date": "1637",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Enkhuizen",
+      "date": "1646-06-03",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1650",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1654-03-05",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "Vechters",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a, b",
+      "second_names": [
+        "Heeres"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1679-11-03",
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Hero",
+      "LastName": "UBBENIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a, b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Warffum",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ubbo",
+      "LastName": "UBBENIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a, b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Warffum",
+      "BirthDate": null,
+      "DeathDate": "1706-06-09",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "UBBENIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rembertus",
+      "LastName": "UBBENIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1652-05-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "UBBENIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a, c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1653-07-17",
+      "DeathDate": "1678-11-05",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Sijbrandus",
+      "LastName": "UBBENIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "cC",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1654-11-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruid",
+      "LastName": "UBBENIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1656-07-23",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Groningen",
+  "BirthDate": "1604",
+  "DeathDate": "1661",
+  "DeathCity": null
+}

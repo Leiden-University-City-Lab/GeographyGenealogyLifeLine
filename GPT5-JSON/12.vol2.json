@@ -1,0 +1,377 @@
+{
+  "FirstName": "Fredericus",
+  "LastName": "DECKERS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DEKKERS"
+  ],
+  "education": [
+    {
+      "subject": "Voorbereidend onderwijs",
+      "location": "'s-Hertogenbosch",
+      "date": null,
+      "source": "81"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1664-12-05",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1668-02-01",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": "1668",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1694-11-15",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar collegium practicum-medicum",
+      "location": "Leiden",
+      "date": "1697-05-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1719",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1700",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1707",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1715",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris van de Senaat",
+      "location": "Leiden",
+      "date": null,
+      "source": "19",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De capitis dolore bij prof. Schacht",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Oude Rijn",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "a"
+    },
+    {
+      "particularity": "Woont Steenschuur",
+      "location": "Leiden",
+      "date": "1707",
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 1600 (in 1694)",
+      "location": null,
+      "date": "1694",
+      "source": "2"
+    },
+    {
+      "particularity": "Hij is de derde voor de vacante Pitcairne; voor hem wezen Cyprianus (hoogleraar Franeker) en Brunner (lijfarts van de keurvorst van de Palts) het aanbod af.",
+      "location": null,
+      "date": null,
+      "source": "81"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "BREYNE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [
+        "BRAYNS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1700-04-23",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "AECKEREN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,29,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1649-12-25",
+      "DeathDate": "1703-12-26",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hubertus",
+      "LastName": "DEKKERS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "87",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Pieter Mattijsz.",
+      "LastName": "BRAINE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "29",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Keulen",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "KOORN",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "29",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1651",
+      "DeathDate": "1700",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan Meindertsz.",
+      "LastName": "AECKEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "29",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Haesje Jansdr.",
+      "LastName": "RIJN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "29",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Sarah",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1671-02-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hubertus",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1672-11-20",
+      "DeathDate": "1720-11-02",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1674-05-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1675-12-10",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1678-05-10",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1680-06-18",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1682-04-26",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1683-11-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1686-04-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Hendrik",
+      "LastName": "DECKERS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "'s-Hertogenbosch",
+  "BirthDate": "1648-12-23",
+  "DeathDate": "1720-11-03",
+  "DeathCity": "Leiden"
+}

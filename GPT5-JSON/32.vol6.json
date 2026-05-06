@@ -1,0 +1,123 @@
+{
+  "FirstName": "Gerard",
+  "LastName": "DE VRIES",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Utrecht",
+      "date": "1667",
+      "source": "12"
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1671-04-28",
+      "source": "9"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Leiden",
+      "date": "1671-05-28",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatdocent",
+      "location": "Utrecht",
+      "date": "1671-1672",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wijsbegeerte",
+      "location": "Utrecht",
+      "date": "1672",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1673-12-01",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1673-12-01",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Logica en Metafysica",
+      "location": "Utrecht",
+      "date": "1674-05-11",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Theologie",
+      "location": "Utrecht",
+      "date": "1685",
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gevlucht",
+      "location": "Utrecht",
+      "date": "1672",
+      "source": "3"
+    },
+    {
+      "particularity": "Ontslag uit beide ambten",
+      "location": "Leiden",
+      "date": "1674",
+      "source": "8"
+    },
+    {
+      "particularity": "Aristoteliaan",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Tiss. De mundo",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Conflict met F. Burman",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Aanbod Leiden afgeslagen",
+      "location": null,
+      "date": "1685",
+      "source": "a"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1648-08-15",
+  "DeathDate": "1705-12-01",
+  "DeathCity": "Utrecht"
+}

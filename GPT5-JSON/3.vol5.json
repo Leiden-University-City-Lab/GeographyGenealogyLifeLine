@@ -1,0 +1,178 @@
+{
+  "FirstName": "Lambertus",
+  "LastName": "BARLAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN BAERLE"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse School (Vossius)",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Theol. (Statencollege)",
+      "location": "Leiden",
+      "date": "1611-05-31",
+      "source": "2,28"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1628-05-22",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant bij gezant Staten-Generaal",
+      "location": "Parijs",
+      "date": "1618",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Conrector Latijnse School",
+      "location": "Amsterdam",
+      "date": "1628",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Grieks",
+      "location": "Leiden",
+      "date": "1641-06-22",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Leiden",
+      "date": "1647-12-02",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Te Dordrecht in huis bij oom Elias Eerdewijns, koopman",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Broer Caspar steunt hem bij curator van der Mijle",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Met steun van J. Vossius en door vriendschap van broer Caspar met regent Bertius plaats in het Statencollege namens Brielle",
+      "location": null,
+      "date": null,
+      "source": "78"
+    },
+    {
+      "particularity": "Woonde Rapenburg 27",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Geboorte vermeld als 1592 of 18-01-1595",
+      "location": "Zaltbommel",
+      "date": null,
+      "source": "2,27"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Barbara",
+      "LastName": "JELIS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Caspar",
+      "LastName": "BAERLE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1595",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "EERDEWIJNS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Lambertus",
+      "LastName": "BAERLE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "JACOBS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Letteren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Zaltbommel",
+  "BirthDate": "1595-01-18",
+  "DeathDate": "1655-06-17",
+  "DeathCity": "Leiden"
+}

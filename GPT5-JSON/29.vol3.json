@@ -1,0 +1,110 @@
+{
+  "FirstName": "Johannes Baptista",
+  "LastName": "ROCCOLES",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DE ROCOLES"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Apostolisch protonotarius",
+      "location": null,
+      "date": null,
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar",
+      "location": "Parijs",
+      "date": null,
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geschiedschrijver",
+      "location": null,
+      "date": null,
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "In Gen\u00e8ve calvinist geworden",
+      "location": "Gen\u00e8ve",
+      "date": "1672",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geschiedschrijver van Pruisen",
+      "location": "Berlijn",
+      "date": null,
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Rechtsgeleerdheid",
+      "location": "Leiden",
+      "date": "1677-05-17",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer tot de R.K. kerk",
+      "location": "Frankrijk",
+      "date": "1678",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer naar Holland als protestant",
+      "location": "Holland",
+      "date": null,
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terugkeer als weduwnaar naar Frankrijk",
+      "location": "Frankrijk",
+      "date": null,
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kanunnik St. Benedictus",
+      "location": "Parijs",
+      "date": "1685",
+      "source": "4",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gehuwd in Berlijn",
+      "location": "Berlijn",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Met steun van von Schwerin",
+      "location": null,
+      "date": null,
+      "source": "4"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Beziers",
+  "BirthDate": "1620",
+  "DeathDate": "1696",
+  "DeathCity": "Toulouse"
+}

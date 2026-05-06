@@ -1,0 +1,139 @@
+{
+  "FirstName": "Simon",
+  "LastName": "MERWEN",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [
+    "Fransz."
+  ],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1596",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Leiden",
+      "date": "1600",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wiskunde en Nederduitsche mathematigue",
+      "location": "Leiden",
+      "date": null,
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Breestraat",
+      "location": "Leiden",
+      "date": null,
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maritgen",
+      "LastName": "AECKEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Cornelisd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Frans",
+      "LastName": "MERWEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Neeltgen",
+      "LastName": "MERWEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [
+        "Simons"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Franciscus",
+      "LastName": "MERWEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Claesken",
+      "LastName": "MERWEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

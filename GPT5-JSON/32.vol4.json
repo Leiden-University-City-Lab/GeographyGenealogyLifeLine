@@ -1,0 +1,79 @@
+{
+  "FirstName": "Adamus",
+  "LastName": "STUART",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Adamus' in Adam(us)"
+  ],
+  "alternative_last_names": [
+    "STUARTUS"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Sedan",
+      "date": null,
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor ordinarius en primarius wijsbegeerte",
+      "location": "Leiden",
+      "date": "1644-08-22",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwees tevens Natuurkunde en Bovennatuurkunde",
+      "location": "Leiden",
+      "date": "1645-02-09",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs wijsbegeerte en physica",
+      "location": "Leiden",
+      "date": "1648",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs metaphysica",
+      "location": "Leiden",
+      "date": "1653",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "David",
+      "LastName": "STUART",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1669",
+      "DeathCity": "Parijs"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Schotland",
+  "BirthCity": null,
+  "BirthDate": "1591",
+  "DeathDate": "1654",
+  "DeathCity": "Leiden"
+}

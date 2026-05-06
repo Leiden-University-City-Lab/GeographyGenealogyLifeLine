@@ -1,0 +1,277 @@
+{
+  "FirstName": "Archibald",
+  "LastName": "PITCAIRNE",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Classical education",
+      "location": "Dalkeith",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Edinburgh",
+      "date": "1668",
+      "source": "1,3,4"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Parijs",
+      "date": null,
+      "source": "1"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Montpellier",
+      "date": null,
+      "source": "1,3"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Reims",
+      "date": "1680",
+      "source": "58"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Town's College (Edinburgh?)",
+      "date": "1685-09",
+      "source": "58,39",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1691-11-28",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Practische Geneeskunde (aanvang)",
+      "location": "Leiden",
+      "date": "1692-04-26",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor Coll. Medico (Practice)",
+      "location": "Leiden",
+      "date": "1693-05-19",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oneervol ontslag",
+      "location": "Leiden",
+      "date": "1694-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Edinburgh",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Fellow Royal College of Physicians of Edinburgh",
+      "location": "Edinburgh",
+      "date": "1681",
+      "source": "58,39",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bibliothecaris Royal College of Physicians of Edinburgh",
+      "location": "Edinburgh",
+      "date": null,
+      "source": "33",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secretaris Royal College of Physicians of Edinburgh",
+      "location": "Edinburgh",
+      "date": null,
+      "source": "33",
+      "is_side_job": 1
+    },
+    {
+      "job": "Penningmeester Leidse Universiteit",
+      "location": "Leiden",
+      "date": "1692-09-16",
+      "source": "58",
+      "is_side_job": 1
+    },
+    {
+      "job": "Eredoctoraat Universiteit van Aberdeen",
+      "location": "Aberdeen",
+      "date": null,
+      "source": "39",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lid Corporation of Surgeons of Edinburgh",
+      "location": "Edinburgh",
+      "date": null,
+      "source": "39",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Referenties voor Leiden: James viscount Dalrymple of Stair en Dr. Burnett, Bishop of Salisbury",
+      "location": null,
+      "date": null,
+      "source": "81"
+    },
+    {
+      "particularity": "Vijand van Willem III",
+      "location": null,
+      "date": null,
+      "source": "81"
+    },
+    {
+      "particularity": "Beschermeling van Willem III",
+      "location": null,
+      "date": null,
+      "source": "58"
+    },
+    {
+      "particularity": "Jacobiet; door Privy Council voor pamflet beboet met 200 pond",
+      "location": null,
+      "date": null,
+      "source": "58,4,33"
+    },
+    {
+      "particularity": "Episcopaal",
+      "location": null,
+      "date": null,
+      "source": "58"
+    },
+    {
+      "particularity": "Professed deist",
+      "location": null,
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Ontslagen in Leiden wegens ongemeld vertrek naar Schotland; terugkeer aangedrongen door schoonfamilie Stevenson",
+      "location": null,
+      "date": "1693",
+      "source": "58,4"
+    },
+    {
+      "particularity": "Salaris: f 1000; later f 1400 (1691); f 1600 (1693)",
+      "location": null,
+      "date": null,
+      "source": "58,81"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Margaret",
+      "LastName": "HAY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "4",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "STEVENSON",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Alexander",
+      "LastName": "PITCAIRNE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "4,58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "James",
+      "LastName": "HAY",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "39",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Archibald",
+      "LastName": "STEVENSON",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "39",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jane",
+      "LastName": "PITCAIRNE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "4",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Schotland",
+  "BirthCity": "Edinburgh",
+  "BirthDate": "1652-12-25",
+  "DeathDate": "1713-10-20",
+  "DeathCity": "Edinburgh"
+}

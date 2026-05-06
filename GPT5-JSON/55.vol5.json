@@ -1,0 +1,359 @@
+{
+  "FirstName": "Everhard",
+  "LastName": "SCHEIDIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Groningen",
+      "date": "1759-09-10",
+      "source": "23"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1763-09-20",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Leiden",
+      "date": "1765-06-04",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Harderwijk",
+      "date": "1765-06-12",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oosterse talen",
+      "location": "Harderwijk",
+      "date": "1767",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophisch-exegetische godgeleerdheid van het Oude Testament",
+      "location": "Harderwijk",
+      "date": "1769",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Philosophisch-exegetische godgeleerdheid van het Nieuwe Testament",
+      "location": "Harderwijk",
+      "date": "1780",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Harderwijk",
+      "date": "1777",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1769",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1782",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oosterse talen en Hebreeuwse oudheden",
+      "location": "Leiden",
+      "date": "1793-08-31",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuwse oudheden",
+      "location": "Leiden",
+      "date": "1793-10-19",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.: Ad cantionem Hiskiae",
+      "location": null,
+      "date": null,
+      "source": "29"
+    },
+    {
+      "particularity": "Woonde in Groningen bij J.J. Schultens",
+      "location": "Groningen",
+      "date": null,
+      "source": "23"
+    },
+    {
+      "particularity": "Kwam in aanmerking als letterkundig hoogleraar in Harderwijk",
+      "location": "Harderwijk",
+      "date": "1764",
+      "source": "2"
+    },
+    {
+      "particularity": "Leerde Turks om correspondentie Barbarijse vorsten voor Staten te kunnen vertalen",
+      "location": null,
+      "date": "1793",
+      "source": "2"
+    },
+    {
+      "particularity": "Oprichter Oosterse drukkerij",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": "Harderwijk",
+      "date": "1773",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Maria",
+      "LastName": "PEIFFERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1740-12-08",
+      "DeathDate": "1776-06-14",
+      "DeathCity": "Harderwijk"
+    },
+    {
+      "FirstName": "Gardina Abigail",
+      "LastName": "BEEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Batenstein",
+      "BirthDate": "1727-12-21",
+      "DeathDate": "1810-07-12",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johann Philip",
+      "LastName": "SCHEIDIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1704",
+      "DeathDate": "1766",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "MAANEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1712",
+      "DeathDate": "1763",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann Herman",
+      "LastName": "SCHEID",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1666",
+      "DeathDate": "1744",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Catharina",
+      "LastName": "ACHENBACH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1680",
+      "DeathDate": "1749",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Evert",
+      "LastName": "MAANEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "SCHUURMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Wilhelmus",
+      "LastName": "PEIFFERS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1705",
+      "DeathDate": "1779",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "CUYCK VAN MIEROP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1701",
+      "DeathDate": "1792",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "BEEM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1687",
+      "DeathDate": "1733",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva Maria",
+      "LastName": "BRONSRAAD",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jan Filip",
+      "LastName": "SCHEIDIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1767-10-14",
+      "DeathDate": "1827-01-17",
+      "DeathCity": "Arnhem"
+    },
+    {
+      "FirstName": "Willem Peiffers",
+      "LastName": "SCHEIDIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1769-01-01",
+      "DeathDate": "1803-11-18",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "SCHEIDIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1774-02-25",
+      "DeathDate": "1830-07-06",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Arnhem",
+  "BirthDate": "1742-12-24",
+  "DeathDate": "1794-04-27",
+  "DeathCity": "Harderwijk"
+}

@@ -1,0 +1,68 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "RAMSAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "RAMSAY"
+  ],
+  "education": [
+    {
+      "subject": "Doct.Iur.h.c.",
+      "location": "Leiden",
+      "date": "1592-03-20",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Redeneerkunde",
+      "location": "Leiden",
+      "date": "1588",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar Redeneerkunde",
+      "location": "Leiden",
+      "date": "1592",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1593-03-12",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Testament not. Jan van Hout",
+      "location": "Leiden",
+      "date": "1593-05-20",
+      "source": "82"
+    },
+    {
+      "particularity": "Salaris: f 300",
+      "location": null,
+      "date": "1592",
+      "source": "28,82"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Schotland",
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": "1593-05-21",
+  "DeathCity": "Leiden"
+}

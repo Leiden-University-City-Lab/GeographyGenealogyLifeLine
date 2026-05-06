@@ -1,0 +1,171 @@
+{
+  "FirstName": "Bonaventura",
+  "LastName": "VULCANIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DE SMET"
+  ],
+  "education": [
+    {
+      "subject": "School (J.Otho)",
+      "location": "Gent",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "School (Molanus)",
+      "location": "Diest",
+      "date": null,
+      "source": "39"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": "1555-09-02",
+      "source": "30"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Secretaris Georg Cassander",
+      "location": "Keulen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Francisco Amendoza",
+      "location": "Burgos",
+      "date": "1559-1566",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Ferdinand Amendoza",
+      "location": "Toledo",
+      "date": "1566-1570",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "In gevolg hertog van Medina",
+      "location": "Nederlanden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Huisleraar Heinrich Sudermann",
+      "location": "Keulen",
+      "date": "1573-1574",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks",
+      "location": "Keulen",
+      "date": "1574",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag na ruzie over oratie",
+      "location": "Keulen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Corrector en drukker",
+      "location": "Gen\u00e8ve",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "In dienst van Froben",
+      "location": "Basel",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Marnix van St. Aldegonde",
+      "location": "Antwerpen",
+      "date": "1577",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Antwerpen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Grieks en Latijns",
+      "location": "Leiden",
+      "date": "1578",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ambt te Leiden aanvaard",
+      "location": "Leiden",
+      "date": "1581-06-28",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Keulen met steun Rediger en Lijskirchen",
+      "location": "Keulen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Leiden met steun Marnix, Dathenus, Taffin, Leonard de Casembroot",
+      "location": "Leiden",
+      "date": null,
+      "source": "39"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1578",
+      "source": "82"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "VULCANIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Brugge",
+  "BirthDate": "1538-06-30",
+  "DeathDate": "1614-10-09",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,448 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "ARMINIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Jacob",
+    "Jacob Hermanse zoon",
+    "Harmensz"
+  ],
+  "alternative_last_names": [
+    "HERMINIUS",
+    "HARMENS",
+    "HARMENZE",
+    "HERMANS"
+  ],
+  "education": [
+    {
+      "subject": "Priv\u00e9onderwijs Theodoor Aemilius",
+      "location": "Utrecht",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "subject": "Hieronymusschool",
+      "location": "Utrecht",
+      "date": null,
+      "source": "8"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Marburg",
+      "date": "1574",
+      "source": "7"
+    },
+    {
+      "subject": "Verblijf",
+      "location": "Rotterdam",
+      "date": "1574-1575",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Theol., Phil., Math., en Lett.",
+      "location": "Leiden",
+      "date": "1576-10-03",
+      "source": "a"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1582-01-01",
+      "source": "a"
+    },
+    {
+      "subject": null,
+      "location": "Basel",
+      "date": "1582-08/1583-09-21",
+      "source": "22"
+    },
+    {
+      "subject": null,
+      "location": "Gen\u00e8ve",
+      "date": "1584/1586",
+      "source": "7"
+    },
+    {
+      "subject": null,
+      "location": "Z\u00fcrich",
+      "date": "1585-08-18",
+      "source": "21"
+    },
+    {
+      "subject": "Reis Itali\u00eb (tevens onderwijs)",
+      "location": "Padua e.a.",
+      "date": "1586/1587",
+      "source": "6,21"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1603-07-07",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Amsterdam",
+      "date": "1588-08-27",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1603-05-08",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1605-1606",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Scriba Classis",
+      "location": "Amsterdam",
+      "date": "1589-04-17",
+      "source": "6",
+      "is_side_job": 1
+    },
+    {
+      "job": "Quaestor Classis",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Praeses Classis",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Afgev. Amsterdam in Synode N-Holland",
+      "location": "Noord-Holland",
+      "date": "1590-06-25",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Scriba Synode N-Holland",
+      "location": "Noord-Holland",
+      "date": "1597-06-17",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Praeses Synode N-Holland",
+      "location": "Noord-Holland",
+      "date": "1600-06-05",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lid Commissie opstelling nieuwe kerkorde",
+      "location": null,
+      "date": "1591",
+      "source": "7",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. z de Natura Dei",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Kinderen: 12, waarvan 3 jong gestorven",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Huwelijk met Elisabeth Reael te Amsterdam 16 of 18-09-1590",
+      "location": "Amsterdam",
+      "date": "1590-09-16/1590-09-18",
+      "source": "2,d"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Reael",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b,2,d",
+      "second_names": [
+        "Lijsbeth"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Embden",
+      "BirthDate": null,
+      "DeathDate": "1648-03-25",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Herman",
+      "LastName": "Hermans",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6",
+      "second_names": [
+        "Jacobsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Angelica",
+      "LastName": "Jacobs",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a,d",
+      "second_names": [
+        "Engelina",
+        "Engeltje",
+        "Elborch"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Laurens",
+      "LastName": "Reael",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [
+        "Jacobsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1536",
+      "DeathDate": "1601-04-07",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Geerte",
+      "LastName": "Pietersdr.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1600",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Harmen",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1591-07",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Onbekend",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Engheltien",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [
+        "Engeltje",
+        "Angelica"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1593-06-14",
+      "DeathDate": "1625",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Harmen",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1594-12-24",
+      "DeathDate": null,
+      "DeathCity": "Indi\u00eb"
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1596-10",
+      "DeathDate": "1619",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1598-08-25",
+      "DeathDate": null,
+      "DeathCity": "Indi\u00eb"
+    },
+    {
+      "FirstName": "Launrens",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Lourens",
+        "Lauwerens"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1600-05-11",
+      "DeathDate": "1600-12-27",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Laurens",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b,d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1601-09-20",
+      "DeathDate": "1646-06-02",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1603-06-20",
+      "DeathDate": "1636",
+      "DeathCity": "Indi\u00eb"
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1605-05-02",
+      "DeathDate": "1619",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1606-11-28",
+      "DeathDate": "1649-07-06",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruyd",
+      "LastName": "ARMINIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1608-09-12",
+      "DeathDate": "1652-11-03",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Oudewater",
+  "BirthDate": "1560-10-10",
+  "DeathDate": "1609-10-19",
+  "DeathCity": "Leiden"
+}

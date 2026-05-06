@@ -1,0 +1,83 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "MURDISONIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "MORDISON(IUS)"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1599-11-24",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector Latijnse school",
+      "location": "Middelburg",
+      "date": "1592",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verlof reis Engeland",
+      "location": "Engeland",
+      "date": "1595",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Terug in Middelburg",
+      "location": "Middelburg",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Physica",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gecontinueerd",
+      "location": "Leiden",
+      "date": "1600-02-07",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneerkunst",
+      "location": "Leiden",
+      "date": "1603-11-09",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Steun van Heinsius en Grotius bij curator van der Mijle voor zijn hoogleraarschap in 1603",
+      "location": null,
+      "date": "1603",
+      "source": "3"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Schotland",
+  "BirthCity": null,
+  "BirthDate": "1568",
+  "DeathDate": "1605",
+  "DeathCity": "Leiden"
+}

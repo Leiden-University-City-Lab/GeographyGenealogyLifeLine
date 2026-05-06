@@ -1,0 +1,241 @@
+{
+  "FirstName": "Gerardus",
+  "LastName": "BONTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Geraert"
+  ],
+  "alternative_last_names": [
+    "BONDT",
+    "DE BONT"
+  ],
+  "education": [
+    {
+      "subject": "Les bij Adrianus Agrippa",
+      "location": "Schoonhoven, Delft, Geldrop",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leuven",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Itali\u00eb",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Padua",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen en vrije consten (wis- en sterrekunde)",
+      "location": "Leiden",
+      "date": "1575-07-17",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Kruid- en Ontleedkunde",
+      "location": "Leiden",
+      "date": "1587-09",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toezicht Hortus",
+      "location": "Leiden",
+      "date": "1598",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1582",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1583",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1599",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont op Gerecht, hoek Langesteeg.",
+      "location": "Leiden",
+      "date": null,
+      "source": "50"
+    },
+    {
+      "particularity": "Salaris: f 300",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "50"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": "Leiden",
+      "date": "1589",
+      "source": "50"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": "Leiden",
+      "date": "1591",
+      "source": "50"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": "Leiden",
+      "date": "1594",
+      "source": "50"
+    },
+    {
+      "particularity": "Vrijzinnig in religiosis.",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba",
+      "LastName": "JANSDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Agnes",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "95",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1632-04",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1598",
+      "DeathDate": "1637",
+      "DeathCity": "Nederlands-Indi\u00eb"
+    },
+    {
+      "FirstName": "Reinier",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "19,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1576",
+      "DeathDate": "1623-06",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "BONTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1646-10-16",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Rijswijk (Gld.)",
+  "BirthDate": "1536",
+  "DeathDate": "1599-09-15",
+  "DeathCity": "Leiden"
+}

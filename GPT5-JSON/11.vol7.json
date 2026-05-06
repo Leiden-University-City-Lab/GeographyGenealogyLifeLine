@@ -1,0 +1,192 @@
+{
+  "FirstName": "Amelis",
+  "LastName": "BOUCKHORST",
+  "Affix": "van den",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Baljuw en dijkgraaf van Rijnland",
+      "location": "Leiden",
+      "date": "1636-03-19",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap van Holland",
+      "location": "Den Haag",
+      "date": "1642-01-10",
+      "source": "3,17",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1643-02-10",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten-Generaal",
+      "location": "Den Haag",
+      "date": "1646-1654",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Mechelen",
+      "date": "1651-1653",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1653",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Luitenant-Houtvester van Holland",
+      "location": null,
+      "date": "1665-07-10",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofdingeland van Delfland",
+      "location": "Delft",
+      "date": "1666-04-30",
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Jhr. (jonkheer)",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Heer van Wimmenum",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Ongehuwd",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Kinderloos",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "BOUCKHORST",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1581",
+      "DeathDate": "1640",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "NOOT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Amelis",
+      "LastName": "BOUCKHORST",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alijt",
+      "LastName": "DUYN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "NOOT",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "BRAKELL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "17",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Den Haag",
+  "BirthDate": "1613-01-19",
+  "DeathDate": "1669-09",
+  "DeathCity": "Den Haag"
+}

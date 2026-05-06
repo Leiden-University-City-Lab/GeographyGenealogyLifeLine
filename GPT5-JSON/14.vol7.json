@@ -1,0 +1,46 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "CAMERLING",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Pensionaris van Delft",
+      "location": "Delft",
+      "date": "1598",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1620",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1636",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": "1640-03-02",
+  "DeathCity": null
+}

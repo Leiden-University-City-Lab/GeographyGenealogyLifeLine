@@ -1,0 +1,351 @@
+{
+  "FirstName": "Gerard",
+  "LastName": "NOODT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse School",
+      "location": "Nijmegen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Kwartierlijke School",
+      "location": "Nijmegen",
+      "date": "1663",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Litt. Iur.",
+      "location": "Leiden",
+      "date": "1668-10-05",
+      "source": "26"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Franeker",
+      "date": "1669-06-07",
+      "source": "11"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Franeker",
+      "date": "1669-06-09",
+      "source": "12"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Nijmegen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Nijmegen",
+      "date": "1671-12-25",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1679-10-06",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Utrecht",
+      "date": "1684-02-12",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Staats- en Burgerlijk Recht), onderwijs",
+      "location": "Leiden",
+      "date": "1686-05-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1698",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1705",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Twist met Van Bijnkershoek",
+      "location": null,
+      "date": "1698",
+      "source": null
+    },
+    {
+      "particularity": "Disputatio bij prof. Glins",
+      "location": null,
+      "date": "1669",
+      "source": "12"
+    },
+    {
+      "particularity": "Woont Grote Markt",
+      "location": "Nijmegen",
+      "date": null,
+      "source": "28"
+    },
+    {
+      "particularity": "Tijdens vredesonderhandelingen te Nijmegen leert hij Hieronymus van Beverningh, curator universiteit Leiden, Willem van Haren, curator universiteit Franeker en de Pruisische gezant Werner von Blaspiel kennen.",
+      "location": "Nijmegen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Aanbod Professoraat in Duisburg door Werner von Blaspiel geweigerd",
+      "location": "Duisburg",
+      "date": "1677",
+      "source": null
+    },
+    {
+      "particularity": "Aanbieding Utrecht afgewezen",
+      "location": "Utrecht",
+      "date": "1680",
+      "source": "10"
+    },
+    {
+      "particularity": "Aanbieding Utrecht afgewezen",
+      "location": "Utrecht",
+      "date": "1683",
+      "source": "10"
+    },
+    {
+      "particularity": "Van Haren haalde hem naar Franeker, van Beverningh naar Leiden",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Pieterskerkhof",
+      "location": "Leiden",
+      "date": "1713",
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1680",
+      "source": "32,10"
+    },
+    {
+      "particularity": "Salaris: f 1400 (verhoogd na bod Utrecht)",
+      "location": null,
+      "date": null,
+      "source": "32,10"
+    },
+    {
+      "particularity": "Salaris: f 1600",
+      "location": null,
+      "date": "1683",
+      "source": "32,10"
+    },
+    {
+      "particularity": "Salaris: f 1800",
+      "location": null,
+      "date": "1686",
+      "source": "32,10"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Sara Maria",
+      "LastName": "Marck van Leur",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "10",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1698-10",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "Noodt",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "74",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gijsberta",
+      "LastName": "Biesman",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "74",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Richard",
+      "LastName": "Noodt",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "74",
+      "second_names": [
+        "Rijck"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wendel",
+      "LastName": "Steenbergen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "74",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Hendrik Hadriaan",
+      "LastName": "Marck van Leur",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "Pots",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Hadriaan",
+      "LastName": "NOODT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1687-06-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Gisberta",
+      "LastName": "NOODT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1688-12-26",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Gisberta",
+      "LastName": "NOODT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1692-09-12",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara Adriana",
+      "LastName": "NOODT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1692-09-12",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Nijmegen",
+  "BirthDate": "1647-09-04",
+  "DeathDate": "1725-08-15",
+  "DeathCity": "Leiden"
+}

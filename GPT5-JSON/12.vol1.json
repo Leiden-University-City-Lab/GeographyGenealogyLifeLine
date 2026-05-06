@@ -1,0 +1,206 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "BOIS",
+  "Affix": "du",
+  "Gender": "Man",
+  "second_names": [
+    "Petrus"
+  ],
+  "alternative_last_names": [
+    "COUWENBURG",
+    "COUWENBURGH"
+  ],
+  "education": [
+    {
+      "subject": "Lat. school",
+      "location": "Schiedam",
+      "date": null,
+      "source": "6"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1720-10-14",
+      "source": "17"
+    },
+    {
+      "subject": "Preparatoir examen",
+      "location": "Classis Leiden en Neder-Rijnland",
+      "date": "1726-11-05",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Graft",
+      "date": "1728-08-08/1729-09-11",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Maassluis",
+      "date": "1729-09-15/1730-10-15",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Deventer",
+      "date": "1730-11-05/1731-07-08",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1731-07-15/1762-08-13",
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Staten Coll.",
+      "location": "Leiden",
+      "date": null,
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tevens Onderwijs",
+      "location": "Leiden",
+      "date": "1748-05-14/1762-08-14",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1762-08-14",
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1762-11-01",
+      "source": "54",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gedeeltelijk halve taak",
+      "location": "Leiden",
+      "date": "1731-07-15/1762-08-13",
+      "source": "54"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "DOORM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Govert",
+      "LastName": "BOIS",
+      "Affix": "du",
+      "Gender": "Man",
+      "source": "6,b",
+      "second_names": [
+        "Gotfried",
+        "Godfried",
+        "Godofredus"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "SWALMIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2, b",
+      "second_names": [],
+      "alternative_last_names": [
+        "SWALME"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Dominicus",
+      "LastName": "DOORM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1658-12-13",
+      "DeathDate": "1739-05-21",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margarita",
+      "LastName": "PESSER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1668-08-29",
+      "DeathDate": "1753-08-14",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Godefridus",
+      "LastName": "BOIS",
+      "Affix": "du",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Kruiningen",
+  "BirthDate": "1703-11-05",
+  "DeathDate": "1764-03-07",
+  "DeathCity": "Leiden"
+}

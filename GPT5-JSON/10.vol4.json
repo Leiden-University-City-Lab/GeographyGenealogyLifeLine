@@ -1,0 +1,92 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "CUYPERS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "KUYPERS"
+  ],
+  "education": null,
+  "careers": [
+    {
+      "job": "Lector Nederduitsche Math\u00e9matique",
+      "location": "Leiden",
+      "date": "1758-02-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stud.",
+      "location": "Leiden",
+      "date": "1758-04-24",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Leiden",
+      "date": "1758-06-05",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": null,
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "BRONKWAEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": null,
+  "grand_parents": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Henricus",
+      "LastName": "CUYPERS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "1",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1751",
+      "DeathDate": "1827-03-17",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Adriana Helena",
+      "LastName": "CUYPERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a) DTB GA Leiden",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1759-08-22",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": null,
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Den Haag",
+  "BirthDate": "1714",
+  "DeathDate": "1759-04-09",
+  "DeathCity": "Leiden"
+}

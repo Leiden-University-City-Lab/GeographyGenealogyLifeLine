@@ -1,0 +1,39 @@
+{
+  "FirstName": "Gerardus",
+  "LastName": "MEULEN",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Ingeschreven Theol. (reeds Doct.)",
+      "location": "Leiden",
+      "date": "1665-09-13",
+      "source": "17"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Theol.",
+      "location": "Leiden",
+      "date": "1667-11-08",
+      "source": "14",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Keulen",
+  "BirthDate": "1638",
+  "DeathDate": null,
+  "DeathCity": null
+}

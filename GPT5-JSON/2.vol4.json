@@ -1,0 +1,166 @@
+{
+  "FirstName": "Franciscus",
+  "LastName": "DU BAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DUBAN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Pont-\u00e0-Mousson",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1630-02-01",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Leraar (publiek) humaniora",
+      "location": "Pont-\u00e0-Mousson",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar welsprekendheid, theologie",
+      "location": "La Fl\u00e8che",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar welsprekendheid, theologie",
+      "location": "Reims",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leraar filosofie",
+      "location": "Moulins",
+      "date": "1620",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Huisonderwijzer van o.a. de kinderen van de Winterkoning",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Redeneerkunde",
+      "location": "Leiden",
+      "date": "1635-08-21",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Redeneerkunde",
+      "location": "Leiden",
+      "date": "1636-08-01",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": "1638-02-09",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Zedekunde",
+      "location": "Leiden",
+      "date": "1641",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Steunde Vossius en van Baerle bij sollicitatie naar Utrecht",
+      "location": null,
+      "date": "1634",
+      "source": "3"
+    },
+    {
+      "particularity": "Via van Baerle gesteund door curator Cats in Leiden",
+      "location": "Leiden",
+      "date": "1635",
+      "source": "3"
+    },
+    {
+      "particularity": "Met steun hertog van Lansberg huisonderwijzer Winterkoning",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Rapenburg",
+      "location": "Leiden",
+      "date": "1633",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Philippa",
+      "LastName": "BORSU",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [
+        "BORSSEU"
+      ],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Namur",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": null,
+  "grand_parents": null,
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Charles-Felix",
+      "LastName": "DU BAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1634-02-19",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": null,
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Autun",
+  "BirthDate": "1592",
+  "DeathDate": "1643-05",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,140 @@
+{
+  "FirstName": "Burchardus",
+  "LastName": "DE VOLDER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VOLLER"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Mag. en Doct. Phil.",
+      "location": "Utrecht",
+      "date": "1660-10-18",
+      "source": "18"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1661-02-22",
+      "source": "14"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1664-07-03",
+      "source": "15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts Remonstrantse gemeente",
+      "location": "Amsterdam",
+      "date": "1664-1670",
+      "source": "36",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1670-02-07",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lessen physica",
+      "location": "Leiden",
+      "date": "1670-11-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Engeland",
+      "location": "Engeland",
+      "date": "1674",
+      "source": "36",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lessen proefondervindelijke wijsbegeerte",
+      "location": "Leiden",
+      "date": "1675-01-26",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wiskunde",
+      "location": "Leiden",
+      "date": "1682-04-25",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vroeg ontslag wegens ziekte, doch bleef verbonden aan de universiteit",
+      "location": "Leiden",
+      "date": "1705-10-06",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1693",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1697",
+      "source": "14",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disp. med. De natura D bij prof. Sglvius",
+      "location": null,
+      "date": null,
+      "source": "47"
+    },
+    {
+      "particularity": "Hij is doopsgezind, gaat over naar Waalse kerk in Leiden als voorwaarde voor zijn hoogleraarschap",
+      "location": null,
+      "date": null,
+      "source": "47"
+    },
+    {
+      "particularity": "Steun Johan Hudde bij verkrijgen hoogleraarschap",
+      "location": null,
+      "date": null,
+      "source": "47"
+    },
+    {
+      "particularity": "Met Wittich en Heidanus in verzet tegen anti-cartesiaanse bepalingen; Willem III weigert hem daarom in 1675 tot rector te maken",
+      "location": null,
+      "date": null,
+      "source": "36"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1643-07-26",
+  "DeathDate": "1709-03-28",
+  "DeathCity": "Leiden"
+}

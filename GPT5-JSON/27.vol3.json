@@ -1,0 +1,269 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "NIEUWSTADT",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "NIEUWSTAD",
+    "NIEUSTAD",
+    "NIEUSTADT",
+    "NEOSTADIUS"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Douai",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1575-07-15",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1589-11-15",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat-fiscaal Hof van Holland",
+      "location": "Den Haag",
+      "date": "1580-10-28",
+      "source": "50",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hoge Raad",
+      "location": "Den Haag",
+      "date": "1580-02-25",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Leidse universiteit",
+      "location": "Leiden",
+      "date": "1602-05-24",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 7300",
+      "location": null,
+      "date": "1575",
+      "source": "2"
+    },
+    {
+      "particularity": "Heer van Zevenhoven en Kapelle",
+      "location": null,
+      "date": null,
+      "source": "62"
+    },
+    {
+      "particularity": "Advocaat-fiscaal door steun schoonvader",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Odilia",
+      "LastName": "BUYS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "50",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1603",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Matthias",
+      "LastName": "CLEIJBURCH",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "62,6",
+      "second_names": [
+        "Pietersz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margriet",
+      "LastName": "ELANTS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "50",
+      "second_names": [
+        "Jansd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": null,
+  "in_laws": [
+    {
+      "FirstName": "Paulus",
+      "LastName": "BUYS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "50",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1531",
+      "DeathDate": "1594",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "MAERSCHE",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "50",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1526",
+      "DeathDate": "1590",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Margrieta",
+      "LastName": "NIEUWSTADT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "84",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "NIEUWSTADT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "84",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Laurentia",
+      "LastName": "NIEUWSTADT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "84",
+      "second_names": [
+        "Agatha"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "NIEUWSTADT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "84",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "NIEUWSTADT",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "284",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "NIEUWSTADT",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "84",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paulus",
+      "LastName": "NIEUWSTADT",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "62,63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1637",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Brielle",
+  "BirthDate": "1549",
+  "DeathDate": "1606",
+  "DeathCity": "Den Haag"
+}

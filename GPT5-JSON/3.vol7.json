@@ -1,0 +1,312 @@
+{
+  "FirstName": "Johan",
+  "LastName": "BANCHEM",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": null,
+      "location": "Leuven",
+      "date": "1558-02-17",
+      "source": "11"
+    },
+    {
+      "subject": null,
+      "location": "Frankrijk",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Angers",
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad Leiden",
+      "location": "Leiden",
+      "date": "1569",
+      "source": "3,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hoge Raad",
+      "location": "Den Haag",
+      "date": "1582-02-06",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1594-07-01",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "President Hoge Raad",
+      "location": "Den Haag",
+      "date": "1599-05-07",
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Adriana",
+      "LastName": "RUVEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1610-04-16",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "STORM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Gerritsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gerrit",
+      "LastName": "JACOBS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "RUVEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Apollonia",
+      "LastName": "JACOBS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Ermpje",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1566",
+      "DeathDate": "1572",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriaantje",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1571-03-14",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1574-07-06",
+      "DeathDate": "1634",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1575-09-19",
+      "DeathDate": "1575",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Deliana",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1576-07-10",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1579",
+      "DeathDate": "1581",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Emerentia",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1581-06-18",
+      "DeathDate": "1630",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1582-09-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomijntje",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1583-04-18",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "BANCHEM",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1583-04-15",
+      "DeathDate": "1600-10-10",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1540",
+  "DeathDate": "1601-11-29",
+  "DeathCity": "Den Haag"
+}

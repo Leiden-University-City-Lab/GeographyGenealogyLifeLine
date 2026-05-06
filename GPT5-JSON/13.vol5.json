@@ -1,0 +1,225 @@
+{
+  "FirstName": "Nicolaas",
+  "LastName": "VAN DAM",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Hoogleraar Wijsbegeerte en Velsprekendheid",
+      "location": "Leiden",
+      "date": "1575-07-17",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1579-03-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Groote Lind",
+      "date": "1583",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Dordrecht",
+      "date": "1583",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Brielle",
+      "date": "1585",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Den Haag",
+      "date": "1606-1607",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Goedereede",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Manbevolen door prof. de Menijn",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Kiest in conflict tussen stad en predikanten voor de predikanten",
+      "location": "Leiden",
+      "date": "1579",
+      "source": "2,69"
+    },
+    {
+      "particularity": "Salaris: \u00a3300",
+      "location": null,
+      "date": "1575",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Jan Hubrechtsd.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joost",
+      "LastName": "Dam",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Boekhorst",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [
+        "Dirksd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "Dam",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "Willemsd.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Dirk",
+      "LastName": "VAN DAM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruit",
+      "LastName": "VAN DAM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena",
+      "LastName": "VAN DAM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Katharina",
+      "LastName": "VAN DAM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": "1546",
+  "DeathDate": null,
+  "DeathCity": null
+}

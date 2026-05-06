@@ -1,0 +1,89 @@
+{
+  "FirstName": "Jan",
+  "LastName": "VAN WEVELINCHOVEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Pensionaris van Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1620",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Curatoren Universiteit",
+      "location": "Leiden",
+      "date": "1661",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Maria",
+      "LastName": "VAN WEVELINCHOVEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622-01-23",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "VAN WEVELINCHOVEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1625-04-27",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joachim",
+      "LastName": "VAN WEVELINCHOVEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

@@ -1,0 +1,329 @@
+{
+  "FirstName": "Pieter",
+  "LastName": "NIEUWLAND",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Jz"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Les van vader",
+      "location": "Diemermeer",
+      "date": "1774",
+      "source": null
+    },
+    {
+      "subject": "Onderwijs bij Hendrik Aenae",
+      "location": "Amsterdam",
+      "date": "1774",
+      "source": null
+    },
+    {
+      "subject": "Onderwijs bij Aenae en Jeronimo de Bosch",
+      "location": "Amsterdam",
+      "date": "1775",
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Amsterdam",
+      "date": "1777-10",
+      "source": null
+    },
+    {
+      "subject": "Diss.",
+      "location": "Amsterdam",
+      "date": "1783-04-14",
+      "source": null
+    },
+    {
+      "subject": "Stud. Phil.",
+      "location": "Leiden",
+      "date": "1784-09-12",
+      "source": null
+    },
+    {
+      "subject": "Cand. Nat-, Wis- en Wijsb.",
+      "location": "Amsterdam",
+      "date": "1785",
+      "source": null
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1786-05-21",
+      "source": null
+    },
+    {
+      "subject": "Doct. h.c.",
+      "location": "Leiden",
+      "date": "1793-09-24",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lid commissie lengtebepaling op zee",
+      "location": null,
+      "date": "1787-04",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Zeevaartkunde",
+      "location": "Amsterdam",
+      "date": "1789-04-29",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Duitsland (Gotha, G\u00f6ttingen)",
+      "location": "Duitsland",
+      "date": "1792",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Benoeming tot hoogleraar Natuur-, Hogere Wiskunde, Burgerlijke, Krijgsbouw-, Waterweg- en Sterrekunde",
+      "location": "Leiden",
+      "date": "1793-06-01",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuur-, Hogere Wiskunde, Burgerlijke, Krijgsbouw-, Waterweg- en Sterrekunde",
+      "location": "Leiden",
+      "date": "1793-09-28",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Dichter",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Wonderkind, opgevoed door Bernhardus de Bosch",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Dissertatie 'De Musonio' bij prof. Wijttenbach",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Luthers gedoopt; Doopsgezind in Amsterdam; Waals in Leiden",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Patriot",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Op nominatie Franeker",
+      "location": "Franeker",
+      "date": "1784",
+      "source": null
+    },
+    {
+      "particularity": "Aanstelling tot hoogleraar in Utrecht ingetrokken na Pruisische inval",
+      "location": "Utrecht",
+      "date": "1787",
+      "source": null
+    },
+    {
+      "particularity": "Lid Felix Meritis",
+      "location": null,
+      "date": "1788",
+      "source": null
+    },
+    {
+      "particularity": "Lid Utrechts Genootschap",
+      "location": null,
+      "date": "1788",
+      "source": null
+    },
+    {
+      "particularity": "Lid Haarlemse Maatschappij",
+      "location": null,
+      "date": "1789",
+      "source": null
+    },
+    {
+      "particularity": "Lid Bataafs Genootschap voor proefondervindelijke wijsbegeerte",
+      "location": null,
+      "date": "1789",
+      "source": null
+    },
+    {
+      "particularity": "Lid Maatschappij der Nederlandse Letterkunde",
+      "location": "Leiden",
+      "date": "1790",
+      "source": null
+    },
+    {
+      "particularity": "Lid Zeeuwsch Genootschap der Wetenschappen",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Lid Academie van Wetenschappen te Erfurt",
+      "location": "Erfurt",
+      "date": "1793",
+      "source": null
+    },
+    {
+      "particularity": "Lid Academie van Wetenschappen te G\u00f6ttingen",
+      "location": "G\u00f6ttingen",
+      "date": "1794",
+      "source": null
+    },
+    {
+      "particularity": "Erft f 44.000 van zijn vrouw",
+      "location": null,
+      "date": "1792",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 1600",
+      "location": "Leiden",
+      "date": "1793",
+      "source": null
+    },
+    {
+      "particularity": "Prof. van Swinden helpt hem in zee-commissie",
+      "location": null,
+      "date": "1787",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Hartwigina",
+      "LastName": "PRUYSSENAAR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "46,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1770-07-17",
+      "DeathDate": "1792-03-29",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Barend",
+      "LastName": "NIEUWLAND",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "46,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marretje",
+      "LastName": "KLINKERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "46,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "KLINKERT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "46",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan Coenraad",
+      "LastName": "PRUYSSENAAR",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aletta Catharina",
+      "LastName": "MEURS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Dochter",
+      "LastName": "NIEUWLAND",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1792-03-29",
+      "DeathDate": "1792-03-31",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Diemermeer",
+  "BirthDate": "1764-11-05",
+  "DeathDate": "1794-11-14",
+  "DeathCity": "Leiden"
+}

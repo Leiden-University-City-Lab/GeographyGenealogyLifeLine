@@ -1,0 +1,400 @@
+{
+  "FirstName": "Jacob",
+  "LastName": "CATS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school (Kemp)",
+      "location": "Zierikzee",
+      "date": "1588-1591",
+      "source": "18"
+    },
+    {
+      "subject": "Stud.Iur.&Litt.",
+      "location": "Leiden",
+      "date": "1593-08-12",
+      "source": "9"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Orl\u00e9ans",
+      "date": "1598-06-02",
+      "source": "18"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Orl\u00e9ans",
+      "date": "1598",
+      "source": "18"
+    },
+    {
+      "subject": "Theses e.g.",
+      "location": "Leiden",
+      "date": "1603",
+      "source": "18"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": "Den Haag",
+      "date": "1599-1602",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Engeland",
+      "location": "Oxford, Cambridge",
+      "date": null,
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Den Haag",
+      "date": null,
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Middelburg",
+      "date": "1603-1611",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsadvocaat",
+      "location": "Middelburg",
+      "date": "1603-12-13",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kerkmeester",
+      "location": "Groede",
+      "date": "1611",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tweede Pensionaris",
+      "location": "Middelburg",
+      "date": "1621-1623",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris",
+      "location": "Dordrecht",
+      "date": "1623-04-13",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1627",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadpensionaris van Holland",
+      "location": "Den Haag",
+      "date": "1629-1631",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1635",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadpensionaris van Holland",
+      "location": "Den Haag",
+      "date": "1636-1651",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Curator",
+      "location": null,
+      "date": "1644",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Grootzegelbewaarder Stadhouder",
+      "location": "Den Haag",
+      "date": "1645-1660",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Registermeester van de Lenen",
+      "location": null,
+      "date": null,
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Raadpensionaris",
+      "location": null,
+      "date": "1651-09-27",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Engeland",
+      "location": "Engeland",
+      "date": "1651-1652",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf te Sorghvliet",
+      "location": "Den Haag",
+      "date": "1652-1660",
+      "source": "18",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Heer van Wulpen en Finningly",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "In 1607 lid Gereformeerde kerk geworden",
+      "location": null,
+      "date": "1607",
+      "source": "18"
+    },
+    {
+      "particularity": "Poging Raadsheer Hof van Holland te worden mislukt",
+      "location": null,
+      "date": "1655",
+      "source": "3"
+    },
+    {
+      "particularity": "Erfenis ad f 380.968",
+      "location": null,
+      "date": null,
+      "source": "18"
+    },
+    {
+      "particularity": "Salaris: f901621),1600(1623), 3000(1636)",
+      "location": null,
+      "date": null,
+      "source": "18"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VALKENBURG",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3,18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Antwerpen",
+      "BirthDate": "1576",
+      "DeathDate": "1631-01-11",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Leenken",
+      "LastName": "BREYDER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "VALKENBURG",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "3,18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VAERLAER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1607-09-21",
+      "DeathDate": "1618-01-05",
+      "DeathCity": "Middelburg"
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1609-06-12",
+      "DeathDate": "1649-12-18",
+      "DeathCity": "Breda"
+    },
+    {
+      "FirstName": "Helene",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1610-10-22",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1612-01-27",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1613-10-03",
+      "DeathDate": "1616-10-19",
+      "DeathCity": "Middelburg"
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1617-07-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "CATS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Middelburg",
+      "BirthDate": "1618-10-05",
+      "DeathDate": "1673-01-30",
+      "DeathCity": "Den Haag"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Brouwershaven",
+  "BirthDate": "1577-11-10",
+  "DeathDate": "1660-09-12",
+  "DeathCity": "Den Haag"
+}

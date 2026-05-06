@@ -1,0 +1,293 @@
+{
+  "FirstName": "Jeremias",
+  "LastName": "BASTINGIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Hieremias' in Jeremias (Hieremias)"
+  ],
+  "alternative_last_names": [
+    "BASTIJNCK",
+    "BASTIN(C)K",
+    "BASTINGK",
+    "BASTING"
+  ],
+  "education": [
+    {
+      "subject": "Onderwijs Klass. Talen",
+      "location": "Emden",
+      "date": null,
+      "source": "49,6"
+    },
+    {
+      "subject": "Lat. school",
+      "location": "Bremen",
+      "date": null,
+      "source": "7"
+    },
+    {
+      "subject": "Stud. Theol., Phil., Hebreeuws en Grieks",
+      "location": "Gen\u00e8ve",
+      "date": "1574",
+      "source": "49"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "1573-05-18",
+      "source": "2"
+    },
+    {
+      "subject": "Verblijf",
+      "location": "Straatsburg",
+      "date": null,
+      "source": "7"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "1573-11-18",
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Heidelberg",
+      "date": "1576-12-18",
+      "source": "6"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Antwerpen",
+      "date": "1577",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vaste aanstelling",
+      "location": "Antwerpen",
+      "date": "1579-09-03",
+      "source": "55",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Dordrecht",
+      "date": "1585-08-17",
+      "source": "6,7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk predikant",
+      "location": "Utrecht",
+      "date": "1589-12",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Staten College",
+      "location": "Leiden",
+      "date": "1593-03-10",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1595-05-24",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Synode",
+      "location": "Den Haag",
+      "date": "1586",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Curator Latijnse School",
+      "location": "Dordrecht",
+      "date": "1586",
+      "source": "6,7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bijbelvertaler",
+      "location": "Zuid-Hollandse Synode",
+      "date": "1587",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Praeses Z-Holl. Synode",
+      "location": "Zuid-Holland",
+      "date": "1588",
+      "source": "62",
+      "is_side_job": 1
+    },
+    {
+      "job": "Inspector Classis",
+      "location": "Dordrecht",
+      "date": "1588",
+      "source": "6",
+      "is_side_job": 1
+    },
+    {
+      "job": "Inspector Classis",
+      "location": "Dordrecht",
+      "date": "1589",
+      "source": "6",
+      "is_side_job": 1
+    },
+    {
+      "job": "Inspector Classis",
+      "location": "Dordrecht",
+      "date": "1592",
+      "source": "6",
+      "is_side_job": 1
+    },
+    {
+      "job": "Assessor Z-Holl. Synode",
+      "location": "Zuid-Holland",
+      "date": "1591",
+      "source": "6",
+      "is_side_job": 1
+    },
+    {
+      "job": "Assessor Z-Holl. Synode",
+      "location": "Zuid-Holland",
+      "date": "1592",
+      "source": "6",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": null,
+      "source": "48"
+    },
+    {
+      "particularity": "Geboorteplaats vermeld als Ieperen of Calais",
+      "location": null,
+      "date": null,
+      "source": "7"
+    },
+    {
+      "particularity": "Geboortejaar mogelijk 1554 (bron 14); elders 1551 (2,6,7)",
+      "location": null,
+      "date": null,
+      "source": "14"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "Taenemans",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willemn",
+      "LastName": "Bastynck",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "6,7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1575",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Guilielmus",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1581",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeremias",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": "1646",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mauritius",
+      "LastName": "BASTINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1594",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": "1551",
+  "DeathDate": "1595-10",
+  "DeathCity": "Leiden"
+}

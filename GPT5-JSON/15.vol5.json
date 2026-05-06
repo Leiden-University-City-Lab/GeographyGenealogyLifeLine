@@ -1,0 +1,130 @@
+{
+  "FirstName": "Hendrik",
+  "LastName": "DELMANHORST",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1592-05-09",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1607-07-09",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Uitlegkunde Aristoteles",
+      "location": "Leiden",
+      "date": "1603-10-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Rhetorica",
+      "location": "Leiden",
+      "date": "1617-11-27",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Thesis De diabete",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Afgewezen bij vacature rector triviale school",
+      "location": "Leiden",
+      "date": "1613",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Cecila",
+      "LastName": "Rhijn",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Salomon",
+      "LastName": "DELMANHORST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dieuwertje",
+      "LastName": "DELMANHORST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Niclaes",
+      "LastName": "DELMANHORST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1623-02-14",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

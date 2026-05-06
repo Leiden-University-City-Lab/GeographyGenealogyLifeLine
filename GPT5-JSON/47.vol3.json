@@ -1,0 +1,140 @@
+{
+  "FirstName": "Johannes Jacobus",
+  "LastName": "VITRIARIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "GLASER"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Litt.h.c.",
+      "location": "Leiden",
+      "date": "1690-09-23",
+      "source": "26"
+    },
+    {
+      "subject": "Doct.Jur. h.c.",
+      "location": "Leiden",
+      "date": "1794-10-20",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Staats-, Natuur- en Volkenrecht",
+      "location": "Heidelberg",
+      "date": "1706",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Iuris civilis et publici",
+      "location": "Utrecht",
+      "date": "1708-09-17",
+      "source": "26b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1715",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Openbaar en Bijzonder Recht)",
+      "location": "Leiden",
+      "date": "1719-10-21",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Openbaar en Bijzonder Recht)",
+      "location": "Leiden",
+      "date": "1720-01-15",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1721",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1737",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disp. Iur. De acquisitione rerum originaria",
+      "location": null,
+      "date": null,
+      "source": "26b"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Philippus Reinhardus",
+      "LastName": "VITRIARIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1647",
+      "DeathDate": "1720",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ren\u00e9e",
+      "LastName": "PUY",
+      "Affix": "du",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Jean",
+      "LastName": "PUY",
+      "Affix": "du",
+      "Gender": "Man",
+      "source": "14",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Zwitserland",
+  "BirthCity": "Gen\u00e8ve",
+  "BirthDate": "1679-06-08",
+  "DeathDate": "1745-12-12",
+  "DeathCity": "Leiden"
+}

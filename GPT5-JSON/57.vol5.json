@@ -1,0 +1,311 @@
+{
+  "FirstName": "Hendrik Albert",
+  "LastName": "SCHULTENS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1758-09-15",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1762-12-28",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Harderwijk",
+      "date": "1765-09-16",
+      "source": "24"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1767-09-14",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Oxford",
+      "date": "1772-10-27",
+      "source": "33"
+    },
+    {
+      "subject": "M.A. (Wadham college)",
+      "location": "Oxford",
+      "date": "1773-05-04",
+      "source": "33"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Oosterse talen",
+      "location": "Amsterdam",
+      "date": "1773-08-18",
+      "source": "2,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oosterse talen en Hebreeuwse oudheden",
+      "location": "Leiden",
+      "date": "1778-12-11",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oosterse talen en Hebreeuwse oudheden",
+      "location": "Leiden",
+      "date": "1779-03-01",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1786",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1787",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Patriot",
+      "location": null,
+      "date": null,
+      "source": "56"
+    },
+    {
+      "particularity": "Woont Rapenburg 49",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina Elisabeth",
+      "LastName": "SITTER",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Groningen",
+      "BirthDate": "1743-10-04",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jan Jacob",
+      "LastName": "SCHUITENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1716",
+      "DeathDate": "1778",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Amalia",
+      "LastName": "SCHRAMM",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Albert",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1686",
+      "DeathDate": "1750",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "DOZY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1684",
+      "DeathDate": "1717",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johann Heinrich",
+      "LastName": "SCHRAMM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "56",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1676",
+      "DeathDate": "1753",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena Constantia",
+      "LastName": "HORATH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "56",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Wolter Reinold",
+      "LastName": "SITTER",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "C",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1709",
+      "DeathDate": "1780",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "C",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1715",
+      "DeathDate": "1793",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jan Jacob",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1775-03-24",
+      "DeathDate": "1798-11-25",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Wolter Reinold",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1778-05-09",
+      "DeathDate": "1804-02-03",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Johanna Elisabeth",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1779-11-22",
+      "DeathDate": "1820-06-22",
+      "DeathCity": "Groningen"
+    },
+    {
+      "FirstName": "Henrietta Catharina",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1782-01-15",
+      "DeathDate": "1797-11-25",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Albert Willem",
+      "LastName": "SCHULTENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1783-04-17",
+      "DeathDate": "1804-12-05",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Herborn",
+  "BirthDate": "1749-02",
+  "DeathDate": "1793-08-12",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,373 @@
+{
+  "FirstName": "Hendrik",
+  "LastName": "BLEYSWYK",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN BLEYSWIJK"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1647-04-02",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Secretaris",
+      "location": "Delft",
+      "date": "1654-1668",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad",
+      "location": "Delft",
+      "date": "1668",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Delft",
+      "date": "1669",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Delft",
+      "date": "1670",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Delft",
+      "date": "1671",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Delft",
+      "date": "1672",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Admiraliteit van de Maas",
+      "location": "Rotterdam",
+      "date": "1672",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct-Dagvaart",
+      "location": "Den Haag",
+      "date": "1676",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1678",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct-Dagvaart",
+      "location": "Den Haag",
+      "date": "1682",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bewindhebber V.O.C.",
+      "location": "Delft",
+      "date": "1683",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1684-1686",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct-Dagvaart",
+      "location": "Den Haag",
+      "date": "1687",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1689",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1690",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1694-1695",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct-Dagvaart",
+      "location": "Den Haag",
+      "date": "1696",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1697",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1698-1699",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten-Generaal",
+      "location": "Den Haag",
+      "date": "1700",
+      "source": "1",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Huwelijk (getr.)",
+      "location": "Delft",
+      "date": "1654-09-16",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Philippina",
+      "LastName": "GOES",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1629-07-10",
+      "DeathDate": "1670-10-05",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Evert",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1572",
+      "DeathDate": "1657",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "MEER",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Hendriksd.",
+        "gezegd"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1590",
+      "DeathDate": "1644",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Evert Dirksz.",
+      "LastName": "BLEYSWIJK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1545",
+      "DeathDate": "1577",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Lijsbeth",
+      "LastName": "DUSSEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1539",
+      "DeathDate": "1613",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "JOOSTENSZ.",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Quirina",
+      "LastName": "MEER",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Philips",
+      "LastName": "GOES",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "HELSDINGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Ewout",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Mr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1656-11-25",
+      "DeathDate": "1692-06-27",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Philips",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1659-02-09",
+      "DeathDate": "1671-05-02",
+      "DeathCity": "Delft"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1663-08-09",
+      "DeathDate": "1728-08-28",
+      "DeathCity": "Delft"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BLEYSWYK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1668-07-04",
+      "DeathDate": "1669-10-04",
+      "DeathCity": "Delft"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Delft",
+  "BirthDate": "1628-10-18",
+  "DeathDate": "1703-08-20",
+  "DeathCity": null
+}

@@ -1,0 +1,393 @@
+{
+  "FirstName": "Gerard",
+  "LastName": "SANDIFORT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1794-01-31",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med. h.c.",
+      "location": "Leiden",
+      "date": "1801-01-31",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Prosector Ontleedkunde",
+      "location": "Leiden",
+      "date": "1799-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1801-02-02",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontleedkunde met vader",
+      "location": "Leiden",
+      "date": "1801-09-21",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Ontleedkunde (alleen)",
+      "location": "Leiden",
+      "date": "1805-03-29",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Genees-, Ontleed- en Heelkunde (met vader)",
+      "location": "Leiden",
+      "date": "1807-11-04",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Genees-, Ontleed- en Heelkunde (zonder vader)",
+      "location": "Leiden",
+      "date": "1812-07-06",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1823",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Prov. Commissie van Geneeskundig toezicht en onderzoek",
+      "location": "Den Haag",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Membre du jury m\u00e9dical du d\u00e9partement des Bouches de la Meuse",
+      "location": "Departement des Bouches de la Meuse",
+      "date": "1812-07-13",
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Charlette Alexandrina",
+      "LastName": "HAACK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1811-04-28",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna Johanna",
+      "LastName": "SCHEDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2, b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1789",
+      "DeathDate": "1822-03-01",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johanna Clasina",
+      "LastName": "CONINGH",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a, b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Maasland",
+      "BirthDate": "1791",
+      "DeathDate": "1858-02-10",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Eduard",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1742",
+      "DeathDate": "1814",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina Johanna",
+      "LastName": "KINKEED",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1752",
+      "DeathDate": "1819",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1709",
+      "DeathDate": "1757",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertrui Helena",
+      "LastName": "SNELLEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1714",
+      "DeathDate": "1790",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "KINKEED",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1710",
+      "DeathDate": "1796",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "OESTERWIJK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1712",
+      "DeathDate": "1791",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan Frederik",
+      "LastName": "SCHEDE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alida",
+      "LastName": "BINKES",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petrus Coenraad",
+      "LastName": "CONINGH",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara Catharina Wilhelmina",
+      "LastName": "DRABBE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Eduard Charles",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1811-04-28",
+      "DeathDate": "1841-03-24",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joannes",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1816-05-12",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina Johanna",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1818-05-31",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joan Frederik",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1820-02-28",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruida Alida Helena",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1822-02-12",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerardus Petrus Lodewijk",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1832-02-29",
+      "DeathDate": "1836-07-09",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara Petronella Gerardina",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1828-01-17",
+      "DeathDate": "1845-08-26",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1779-01-31",
+  "DeathDate": "1848-05-11",
+  "DeathCity": "Leiden"
+}

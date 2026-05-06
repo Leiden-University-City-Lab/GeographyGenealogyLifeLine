@@ -1,0 +1,378 @@
+{
+  "FirstName": "Paulus",
+  "LastName": "MERULA",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN MAARLE",
+    "VAN MERLE"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school (Schraets)",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse school (Revius)",
+      "location": "Delft",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1578-08-28",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": "1579",
+      "source": "2,82"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Bourges",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Basel",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Straatsburg",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Gen\u00e8ve",
+      "date": "1584-12-10",
+      "source": "20"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Padua",
+      "date": "1585",
+      "source": "82"
+    },
+    {
+      "subject": "Verblijf in Engeland",
+      "location": "Engeland",
+      "date": null,
+      "source": "82"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Orl\u00e9ans",
+      "date": "1587",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Docent en corrector tijdens reis",
+      "location": null,
+      "date": null,
+      "source": "2,82",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": "Den Haag",
+      "date": "1587",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Historien",
+      "location": "Leiden",
+      "date": "1592-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historien",
+      "location": "Leiden",
+      "date": "1593-11-19",
+      "source": "82",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1602",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met Ronsard, Bodin, Barlaeus, Cambden, van Meeteren",
+      "location": null,
+      "date": null,
+      "source": "82"
+    },
+    {
+      "particularity": "Laat sollicitatie naar pensionariaat Dordrecht lopen",
+      "location": "Dordrecht",
+      "date": "1588",
+      "source": "82"
+    },
+    {
+      "particularity": "Geschiedschrijver Gelderland door Gelderse leden van de Staten-Generaal en raadsheer Brienen",
+      "location": null,
+      "date": null,
+      "source": "82"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1593",
+      "source": "82"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1595",
+      "source": "82"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Judith",
+      "LastName": "BUYS GRYPHIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "53",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1529",
+      "DeathDate": "1599",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "HEERMANS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "53",
+      "second_names": [
+        "Gijsbertsd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Paulus Willemsz.",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "598",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Agatha",
+      "LastName": "MARTINI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "53",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Bartolomeus",
+      "LastName": "BUYS GRYPHIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "53,82",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1591",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bartholomeus",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Angelus",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Justina",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmina",
+      "LastName": "MERULA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "Nederlandse Leeuw 1954",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Dordrecht",
+  "BirthDate": "1558-08-19",
+  "DeathDate": "1607-07-19",
+  "DeathCity": "Rostock"
+}

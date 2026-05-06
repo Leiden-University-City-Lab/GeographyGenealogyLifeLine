@@ -1,0 +1,355 @@
+{
+  "FirstName": "Adriaan",
+  "LastName": "BEECKERTS VAN THIENEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Iur",
+      "location": "Leiden",
+      "date": "1634-10-26",
+      "source": "26"
+    },
+    {
+      "subject": "Stud. Iur",
+      "location": "Leiden",
+      "date": "1642-06-26",
+      "source": "36"
+    },
+    {
+      "subject": "Stud. Iur",
+      "location": "Leiden",
+      "date": "1646-03-17",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1647-04-28",
+      "source": "26,26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1654-06-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1655-05-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Pandecten",
+      "location": "Leiden",
+      "date": "1659",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Staats- en Volkenrecht",
+      "location": "Leiden",
+      "date": "1667-02-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1663",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Langebrug",
+      "location": "Leiden",
+      "date": "1646",
+      "source": "a"
+    },
+    {
+      "particularity": "Getrouwd te Delft",
+      "location": "Delft",
+      "date": "1646-03-18",
+      "source": "57"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VERHAVEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1681-01",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "VAN THIENEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martfa",
+      "LastName": "GERRITSDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "VAN THIENEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "57",
+      "second_names": [
+        "Pietersz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aefgen",
+      "LastName": "ADRIAANSDR.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "VERHAVEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maycke",
+      "LastName": "CLOOT",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [
+        "Jansdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Adrianus",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1646-06-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Mauria",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1649-12-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1651-01-11",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1653-04-16",
+      "DeathDate": "1722-10-08",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1656-06-30",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,57",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1658-03-22",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Henrietta Maria",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1660-08-27",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cypriana Cornelia",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1663-10-19",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ester Elisabeth",
+      "LastName": "BEECKERTS VAN THIENEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1665-10-30",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Simon",
+      "LastName": "VERHAVEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1621-05-04",
+  "DeathDate": "1669-09-05",
+  "DeathCity": "Leiden"
+}

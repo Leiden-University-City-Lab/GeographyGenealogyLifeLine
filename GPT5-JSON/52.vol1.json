@@ -1,0 +1,125 @@
+{
+  "FirstName": "Lucas",
+  "LastName": "TRELCATIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Jr."
+  ],
+  "alternative_last_names": [
+    "TRELCATUS"
+  ],
+  "education": [],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Londen",
+      "date": "1590",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals predikant",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Basel, Z\u00fcrich en Gen\u00e8ve",
+      "date": "1590-1591",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Proponent adjunct",
+      "location": "Leiden",
+      "date": "1595",
+      "source": "58",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals predikant",
+      "location": "Leiden",
+      "date": "1595-04",
+      "source": "42",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1603-05-11",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1606",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opsteller statuten Waalse College",
+      "location": "Leiden",
+      "date": "1605",
+      "source": "38",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Gevangen",
+      "location": null,
+      "date": null,
+      "source": "58"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Lucas",
+      "LastName": "TRELCATIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": [
+        "TRELCATUS",
+        "TRELCAT"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Lucas",
+      "LastName": "TRELCATIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1638-04-28",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Verenigd Koninkrijk",
+  "BirthCity": "Londen",
+  "BirthDate": "1573-04-25",
+  "DeathDate": "1607-09-12",
+  "DeathCity": "Leiden"
+}

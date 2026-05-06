@@ -1,0 +1,234 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "SCHELLE",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Onderwijs bij Joh. Jensius",
+      "location": "Rotterdam",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Phid. en Theod.",
+      "location": "Leiden",
+      "date": "1742-09-17",
+      "source": "2,7"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "1758-10-10",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Bergen (NH)",
+      "date": "1749-05-04",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Overschie",
+      "date": "1755-01-26",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Edam",
+      "date": "1756-11-07",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Amsterdam",
+      "date": "1757-05-08",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1758-07-05",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie (inaugurele rede)",
+      "location": "Leiden",
+      "date": "1758-10-16",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1759-01-21",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1762",
+      "source": "27",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Johanna",
+      "LastName": "HOVENDAAL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1718-03-24",
+      "DeathDate": "1795-11-21",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "SCHELLE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1685-12-30",
+      "DeathDate": "1776-01-02",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "BOS",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "h",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1724-09-16",
+      "DeathCity": "Rotterdam"
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gijsbert",
+      "LastName": "SCHELLE",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Ariensz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1652-09-04",
+      "DeathDate": "1692",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Meertje",
+      "LastName": "MARCY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [
+        "MARCHY"
+      ],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Rotterdam",
+      "BirthDate": "1658-07-21",
+      "DeathDate": "1702",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Boudewijn",
+      "LastName": "BOS",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jannetje",
+      "LastName": "BOUTKAMP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "HOVENDAAL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "WAARDE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Rotterdam",
+  "BirthDate": "1723-11-05",
+  "DeathDate": "1762-06-24",
+  "DeathCity": "Leiden"
+}

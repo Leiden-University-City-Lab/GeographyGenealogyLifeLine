@@ -1,0 +1,428 @@
+{
+  "FirstName": "Samuel Johannes",
+  "LastName": "WYNPERSSE",
+  "Affix": "van de",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "WIJNPERSSE"
+  ],
+  "education": [
+    {
+      "subject": "Stud.h.c.",
+      "location": "Leiden",
+      "date": "1770-09-25",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.Litt.h.c.",
+      "location": "Leiden",
+      "date": "1775-02-01",
+      "source": "28"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Leiden",
+      "date": "1780-09-26",
+      "source": "29"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Nieuwveen",
+      "date": "1782-11-10",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Ysselmonde",
+      "date": "1784-11-28",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Groningen",
+      "date": "1784",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oratie",
+      "location": "Groningen",
+      "date": "1787-11-29",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Amsterdam",
+      "date": "1789-12-27",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag, weigert eed",
+      "location": "Amsterdam",
+      "date": "1796",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1803-08-22",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Wijsbegeerte (assistent vader)",
+      "location": "Leiden",
+      "date": "1803-11-12",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar; Onderwijs",
+      "location": "Leiden",
+      "date": "1805-06-07",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Redeneer-, Bovennatuur- en Zedekunde",
+      "location": "Leiden",
+      "date": "1805-09-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek (wegens zwakte)",
+      "location": "Leiden",
+      "date": "1822",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De aestu marino",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Rapenburg 31",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Wilhelmina Jacobine",
+      "LastName": "VERBRUGGE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1763-01",
+      "DeathDate": "1794-05-06",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Maria Antonia",
+      "LastName": "COUWENHOVEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "e",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1759-11-07",
+      "DeathDate": "1822-11-13",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "REVERHORST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "6",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Mijnsheerenland",
+      "BirthDate": "1765-07-21",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dionysius",
+      "LastName": "WIJNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "2,27",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1724",
+      "DeathDate": "1808",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Diederica",
+      "LastName": "THIENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "WIJNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1686",
+      "DeathDate": "1742",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "HULSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1686",
+      "DeathDate": "1733",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Samuel",
+      "LastName": "THIENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "C",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1693",
+      "DeathDate": "1730",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hesther Maria",
+      "LastName": "COCQ",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "C",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1695",
+      "DeathDate": "1723",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VERBRUGGE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1733",
+      "DeathDate": "1790",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana Apolonia",
+      "LastName": "HAVEREN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "COUWENHOVEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "e",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1711",
+      "DeathDate": "1792",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "BRUYNINGH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "e",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hermanus",
+      "LastName": "REVERHORST",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "g",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1717",
+      "DeathDate": "1784",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "OOSTENDORP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "g",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Dionysius",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "2,d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Ysselmonde",
+      "BirthDate": "1787-06-22",
+      "DeathDate": "1790-10-21",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Cornelis Adrianus",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "2,d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1791-01-23",
+      "DeathDate": "1828-04-22",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Anna Wilhelmina",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1797",
+      "DeathDate": "1852-03-24",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dionysius",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "e",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1799-07-29",
+      "DeathDate": "1870-08-30",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "b,g",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1797-08-25",
+      "DeathDate": "1875-08-24",
+      "DeathCity": "Arnhem"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Wijsbegeerte",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Groningen",
+  "BirthDate": "1759-06-11",
+  "DeathDate": "1842-11-22",
+  "DeathCity": "Leiden"
+}

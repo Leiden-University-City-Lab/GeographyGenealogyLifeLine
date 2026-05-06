@@ -1,0 +1,92 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "HEYMAN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Urmond en Grevenbicht",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Smyrna",
+      "date": "1700",
+      "source": "6B",
+      "is_side_job": 0
+    },
+    {
+      "job": "Studiereis",
+      "location": "Egypte, Palestina en Syrie",
+      "date": "1704-06-25",
+      "source": "68",
+      "is_side_job": 0
+    },
+    {
+      "job": "Studiereis",
+      "location": "Egypte, Palestina en Syrie",
+      "date": "1705-01-11",
+      "source": "68",
+      "is_side_job": 0
+    },
+    {
+      "job": "Benoeming met verlof en geld voor studiereis",
+      "location": "Smyrna, Kos, Damascus, Adrianopel",
+      "date": "1707-02-03",
+      "source": "68",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oosterse talen",
+      "location": "Leiden",
+      "date": "1710-02-08",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Organiseert oecumenisch avondmaal met Luthersen",
+      "location": "Smyrna",
+      "date": null,
+      "source": "68"
+    },
+    {
+      "particularity": "Aanbod Halle van koning van Pruisen afgeslagen",
+      "location": "Halle",
+      "date": null,
+      "source": "68"
+    },
+    {
+      "particularity": "In Leiden aanbevolen door Gijsbert Cuper, burgemeester Deventer",
+      "location": "Leiden",
+      "date": null,
+      "source": "59"
+    },
+    {
+      "particularity": "Kinderloos overleden",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Letteren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Wezel",
+  "BirthDate": "1667-01-01",
+  "DeathDate": "1737-04-07",
+  "DeathCity": "Leiden"
+}

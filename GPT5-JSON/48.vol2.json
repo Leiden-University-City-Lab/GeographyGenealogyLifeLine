@@ -1,0 +1,151 @@
+{
+  "FirstName": "Arnoldus",
+  "LastName": "SEIJEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "SEIJN"
+  ],
+  "education": [
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1659-09-17",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Gouda",
+      "date": "1657",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1670-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Kruidkunde en prefect Hortus",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1674",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1675",
+      "source": "1",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Koopt een huis op de Korte Gouwe in Gouda bij de Potterspoort voor f 4000,-.",
+      "location": "Gouda",
+      "date": "1665",
+      "source": "41"
+    },
+    {
+      "particularity": "Verkoopt het huis voor f 10.000,-.",
+      "location": "Gouda",
+      "date": "1670",
+      "source": "41"
+    },
+    {
+      "particularity": "Dringt er bij Van Beverningh op aan Herman naar Ceylon te sturen",
+      "location": null,
+      "date": null,
+      "source": "41"
+    },
+    {
+      "particularity": "Diss. De hydrope ascite",
+      "location": null,
+      "date": null,
+      "source": "21"
+    },
+    {
+      "particularity": "Salaris: f 1000,-",
+      "location": null,
+      "date": "1670",
+      "source": "82"
+    },
+    {
+      "particularity": "Salarisverhoging",
+      "location": null,
+      "date": "1672",
+      "source": "82"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Clara",
+      "LastName": "CING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "82,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Georgius",
+      "LastName": "SIJEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "82",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Harmen",
+      "LastName": "CING",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1640-09-18",
+  "DeathDate": "1678-10-21",
+  "DeathCity": null
+}

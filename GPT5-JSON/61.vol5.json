@@ -1,0 +1,129 @@
+{
+  "FirstName": "Adriaan",
+  "LastName": "SMOUT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Jorissen"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1595-04-12",
+      "source": "28"
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Leiden",
+      "date": "1600-10-04",
+      "source": "28"
+    },
+    {
+      "subject": "Mag.art.",
+      "location": "Leiden",
+      "date": "1602",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Meester in de vrije kunsten; gaf enige lessen; vertrok",
+      "location": "Leiden",
+      "date": "1602",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Rhoon",
+      "date": "1604-1606",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Delfshaven",
+      "date": "1609",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Amsterdam",
+      "date": "1621-01-11",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Zeer fel anti-Remonstrants, door stadsbestuur Amsterdam afgezet tegen de wil van de kerkeraad",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Heyltje",
+      "LastName": "HOOFT",
+      "Affix": "'t",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Jans"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joris",
+      "LastName": "SMOUT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertrui",
+      "LastName": "TETRODE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [
+        "Cornelisd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Rotterdam",
+  "BirthDate": "1580",
+  "DeathDate": "1646",
+  "DeathCity": "Rotterdam"
+}

@@ -1,0 +1,521 @@
+{
+  "FirstName": "Gerardus Johannes",
+  "LastName": "VOSSIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "44"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1595-09-21",
+      "source": "44"
+    },
+    {
+      "subject": "Mag. Artium",
+      "location": "Leiden",
+      "date": "1598-03-13",
+      "source": "44"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Openbare colleges physica",
+      "location": "Leiden",
+      "date": "1599-09-29",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Conrector Latijnse school",
+      "location": "Dordrecht",
+      "date": "1600-04",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Dordrecht",
+      "date": "1600",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1615",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag",
+      "location": "Leiden",
+      "date": "1619-07-20",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Welsprekendheid",
+      "location": "Leiden",
+      "date": "1620",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Welsprekendheid en Algemene Tijdrekenkunde",
+      "location": "Leiden",
+      "date": "1622-11-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lessen Griekse taal",
+      "location": "Leiden",
+      "date": "1625",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal",
+      "location": "Leiden",
+      "date": "1626-05-08",
+      "source": "183",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar Engeland",
+      "location": "Engeland",
+      "date": "1629-10",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1631-08-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis en Staatswetenschappen",
+      "location": "Amsterdam",
+      "date": "1632-01-08",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "44",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Na dood vader opgenomen door Barbara van der Myle, weduwe van bevriende predikant",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Omdat oma Caelen hem zijn erfdeel onthoudt is hij bursaal in het Statencollege",
+      "location": "Leiden",
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Leermeester van Jacob de Witt",
+      "location": null,
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Bevriend met Grotius, Meursius, Barlaeus, Vondel, Doublet, P.C. Hooft, Laug, Buckingham",
+      "location": null,
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Aanbiedingen hoogleraarschap Steinfurt 1614/5 en Cambridge 1625 afgewezen",
+      "location": null,
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Salaris: f 1200 (1615), f 2500 (1631)",
+      "location": null,
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Woont Spinhuissteeg en Oudezijds Achterburgwal",
+      "location": "Amsterdam",
+      "date": null,
+      "source": "44"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "CORPUT",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1602-02-12",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Heidelberg",
+      "BirthDate": "1585",
+      "DeathDate": "1659",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joannes",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1549",
+      "DeathDate": "1585",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "BUEL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Judith",
+      "LastName": "CAELEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Matthijs",
+      "LastName": "BUEL",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "MARTELS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [
+        "Nicolaasd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "CORPUT",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1536",
+      "DeathDate": "1601",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "BREGT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "JUNIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1545",
+      "DeathDate": "1602",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "CORPUT",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1552",
+      "DeathDate": "1587",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Cornelia",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1602-12-30",
+      "DeathDate": "1605-05",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1604-10",
+      "DeathDate": "1605-01",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Joannes",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1605-12-17",
+      "DeathDate": "1637",
+      "DeathCity": "Indi\u00eb"
+    },
+    {
+      "FirstName": "Franciscus",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1608-07-11",
+      "DeathDate": "1645-12-22",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1609-09-13",
+      "DeathDate": "1610-03-10",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Matthaeus",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1611-01-22",
+      "DeathDate": "1646-03-20",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Dionysius",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1612-03-12",
+      "DeathDate": "1633-10-25",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Dordrecht",
+      "BirthDate": "1613-07-07",
+      "DeathDate": "1638",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1615-12-25",
+      "DeathDate": "1617",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Isaac",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1618",
+      "DeathDate": "1689-02-21",
+      "DeathCity": "Londen"
+    },
+    {
+      "FirstName": "Gerardus",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1619",
+      "DeathDate": "1640-03",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "VOSSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622-10-13",
+      "DeathDate": "1640-03",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Heidelberg",
+  "BirthDate": "1577",
+  "DeathDate": "1649-03-17",
+  "DeathCity": "Amsterdam"
+}

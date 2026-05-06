@@ -1,0 +1,333 @@
+{
+  "FirstName": "Claudius",
+  "LastName": "SALMASJUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "SAUMAISE"
+  ],
+  "education": [
+    {
+      "subject": "School",
+      "location": "Dyon",
+      "date": null,
+      "source": "61"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": "1604",
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Heidelberg",
+      "date": "1606-10-04",
+      "source": "385"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat parlement Dyon",
+      "location": "Dyon",
+      "date": "1609-07-19",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lessen (opdracht)",
+      "location": "Leiden",
+      "date": "1632",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Frankrijk",
+      "location": "Frankrijk",
+      "date": "1635",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Frankrijk",
+      "location": "Parijs, Dyon",
+      "date": "1640",
+      "source": "61",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis Zweden",
+      "location": "Zweden",
+      "date": "1650",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Hugenoot",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Beschermeling Casaubonus, in Leiden aanbevolen door curator Frans van Aerssen",
+      "location": null,
+      "date": null,
+      "source": "2,61"
+    },
+    {
+      "particularity": "Bevriend met Rivet, Huygens, Frederik Hendrik, Grotius, de Thou, Descartes",
+      "location": null,
+      "date": null,
+      "source": "2,61"
+    },
+    {
+      "particularity": "Aanbiedingen Padua, Bologna, Oxford, Dyon, Lodewijk XIII, Cond\u00e9, Mazarin",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Twist met Heinsius",
+      "location": null,
+      "date": null,
+      "source": "2,61"
+    },
+    {
+      "particularity": "Woont Kloksteeg",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anne",
+      "LastName": "MERCIER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1657",
+      "DeathCity": "Parijs"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Benigne",
+      "LastName": "SAUMAISE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,61",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "VIROT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,61",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Etienne",
+      "LastName": "SAUMAISE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "61",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ant.",
+      "LastName": "VIROT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "61",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Josias",
+      "LastName": "MERCIER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Benigne Isaac",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1655",
+      "DeathCity": "Paray"
+    },
+    {
+      "FirstName": "Josias",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1655",
+      "DeathCity": "Polen"
+    },
+    {
+      "FirstName": "Louis",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maurice",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1633-07-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Claude",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1634",
+      "DeathDate": "1667-04-18",
+      "DeathCity": "Beaume"
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1635-07-22",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth Benigne",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1638-05-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marguerite",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1638-11-18",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Charles Louis",
+      "LastName": "SALMASJUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1645-06-22",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Semur en Auxois",
+  "BirthDate": "1588-04-15",
+  "DeathDate": "1653-09-03",
+  "DeathCity": "Spa"
+}

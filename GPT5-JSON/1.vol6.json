@@ -1,0 +1,301 @@
+{
+  "FirstName": "Joan",
+  "LastName": "ALBERTI",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": null,
+      "location": "Franeker",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Scholarch Latijnse school",
+      "location": "Haarlem",
+      "date": "1739-02-02",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Kuur met Ruhnkenius",
+      "location": "Spa, Aken",
+      "date": "1750",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Kuur (zomer)",
+      "location": "Spa, Aken",
+      "date": "1751",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Quaestor",
+      "location": null,
+      "date": "1742",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Quaestor",
+      "location": null,
+      "date": "1750",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Assessor",
+      "location": null,
+      "date": "1743",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Assessor",
+      "location": null,
+      "date": "1744",
+      "source": null,
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Breestraat",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Student te Franeker door steun Sduck Gerold Juckema van Burmania, curator Franeker",
+      "location": "Franeker",
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Bevriend met Venema, Burman, Oudendorp, d'Orville, Wesseling, Valckenaer, Ruhnkenius",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Katharina",
+      "LastName": "Ravestein",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1697-04-12",
+      "DeathDate": "1735-02-08",
+      "DeathCity": "Hoogwoud"
+    },
+    {
+      "FirstName": "Joanna Katharina",
+      "LastName": "Graat",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Indonesi\u00eb",
+      "BirthCity": "Batavia",
+      "BirthDate": "1711-12-10",
+      "DeathDate": "1781-10-29",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Albert Jans",
+      "LastName": "Mulder",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jan",
+      "LastName": "Mulder",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Paulus",
+      "LastName": "Ravestein",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Kapelle",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelis",
+      "LastName": "Graat",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina Elisabeth",
+      "LastName": "Henghel",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Albert Paulus",
+      "LastName": "ALBERTI",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara Maria",
+      "LastName": "ALBERTI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Kornelia Elisabeth",
+      "LastName": "ALBERTI",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Haarlem",
+      "BirthDate": "1737-07-23",
+      "DeathDate": "1797",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joan Kornelis",
+      "LastName": "ALBERTI",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1744-03-25",
+      "DeathDate": "1744-07-04",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Joan Kornelis",
+      "LastName": "ALBERTI",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1745-10-17",
+      "DeathDate": "1745-10-25",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Nikolaas",
+      "LastName": "ALBERTI",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1748-07-17",
+      "DeathDate": "1785",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

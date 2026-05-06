@@ -1,0 +1,309 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "GROTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DE GROOT"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Parijs",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Orl\u00e9ans",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lid vroedschap",
+      "location": "Delft",
+      "date": "1573",
+      "source": "2,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rekestmeester Willem I",
+      "location": "Delft",
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten en Wijsbegeerte; onderwijs Romeins recht en leenrecht",
+      "location": "Leiden",
+      "date": "1575-07-17",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek (wegens oogziekte)",
+      "location": "Leiden",
+      "date": "1583",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten (na vertrek Donellus)",
+      "location": "Leiden",
+      "date": "1587-10-10",
+      "source": "25,102",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1581",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1594",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1595",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1596",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1603",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1608",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanbod Hoge Raad meermalen afgewezen",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Rapenburg 33",
+      "location": "Leiden",
+      "date": null,
+      "source": "102"
+    },
+    {
+      "particularity": "Geboortejaar vermeld als 1544/46",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "ENG",
+      "Affix": "uten",
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1606",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Hugo Cornelisz.",
+      "LastName": "GROOT",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1511",
+      "DeathDate": "1567",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elselinge",
+      "LastName": "HEEMSKERCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Cornelis Dirksz.",
+      "LastName": "CORNETSZ",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1490",
+      "DeathDate": "1538",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ermgard Dirksd.",
+      "LastName": "GROOT",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1493",
+      "DeathDate": "1566",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan Reijersz.",
+      "LastName": "HEEMSKERCK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a,44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruid Vincemtsd.",
+      "LastName": "ALPHEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Frederik",
+      "LastName": "ENG",
+      "Affix": "uten",
+      "Gender": "Man",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "RENESSE VAN BAER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Jan",
+      "LastName": "GROOT",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "ALMONDE",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "George",
+      "LastName": "BYE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Delft",
+  "BirthDate": "1544-07-25",
+  "DeathDate": "1610-07-25",
+  "DeathCity": "Leiden"
+}

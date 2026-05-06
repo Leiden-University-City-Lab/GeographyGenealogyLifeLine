@@ -1,0 +1,250 @@
+{
+  "FirstName": "Elias Annes",
+  "LastName": "BORGER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Lagere school",
+      "location": "Joure",
+      "date": "1788",
+      "source": "b"
+    },
+    {
+      "subject": "Lagere school",
+      "location": "Joure",
+      "date": "1789",
+      "source": "9"
+    },
+    {
+      "subject": "Priv\u00e9les Klass. Talen",
+      "location": "Langweer",
+      "date": "1797",
+      "source": "b"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1801-09-15",
+      "source": "17"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1807-06-06",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector, Theol. (Gewijde Uitlegkunde)",
+      "location": "Leiden",
+      "date": "1807-12-05",
+      "source": "oratie",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Theol. (Gew. Uitlegk.)",
+      "location": "Leiden",
+      "date": "1811",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. (Gew. Welsprekendheid)",
+      "location": "Leiden",
+      "date": "1813",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse Lett. en Alg. Geschiedenis",
+      "location": "Leiden",
+      "date": "1817",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Leiden",
+      "date": null,
+      "source": "a",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lidmaatschappen: Holl. Maatschappij voor Kunsten",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Lidmaatschappen: Koninklijk Tnstituut",
+      "location": null,
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Abrahamina",
+      "LastName": "MEULEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "7,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "SCHELTEMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Franeker",
+      "BirthDate": "1784-08-08",
+      "DeathDate": "1820-02-01",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Anne Kerstos",
+      "LastName": "BORGER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [
+        "'Kerstens'"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1810-11-05",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sibbeltje Tieles",
+      "LastName": "TIELEMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1827-09-20",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "MEULEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara Henrica",
+      "LastName": "TRAHANAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "SCHELTEMA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1755-01-03",
+      "DeathDate": "1816-02-28",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina Anna",
+      "LastName": "ADAMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1823-01-13",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Petrus Abraham",
+      "LastName": "BORGER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1815",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "BORGER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Joure",
+  "BirthDate": "1784-02-26",
+  "DeathDate": "1820-10-12",
+  "DeathCity": "Leiden"
+}

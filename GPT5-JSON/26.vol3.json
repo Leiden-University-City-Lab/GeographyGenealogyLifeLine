@@ -1,0 +1,187 @@
+{
+  "FirstName": "Joost",
+  "LastName": "DE MENYN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DE MENIN",
+    "VAN MEENEN"
+  ],
+  "education": [
+    {
+      "subject": "Doct.Iur.",
+      "location": "Orl\u00e9ans",
+      "date": "1562",
+      "source": "96"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": "Den Haag",
+      "date": null,
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vlucht voor Alva",
+      "location": null,
+      "date": "1572",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer en advocaat-fiscaal Hof van Holland",
+      "location": "Den Haag",
+      "date": "1573-1579",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hof van Holland",
+      "location": "Den Haag",
+      "date": "1579",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris",
+      "location": "Dordrecht",
+      "date": "1584-05-01",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid gezantschap dat Elizabeth I van Engeland de soevereiniteit aanbiedt",
+      "location": "Engeland",
+      "date": "1585",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezantschap naar Denemarken",
+      "location": "Denemarken",
+      "date": "1594",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als pensionaris",
+      "location": "Dordrecht",
+      "date": "1595",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Historieschrijver van Holland",
+      "location": null,
+      "date": "1595",
+      "source": "96",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adviseur Gecommitteerde Raden",
+      "location": null,
+      "date": "1595",
+      "source": "96",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Vurig calvinist",
+      "location": null,
+      "date": null,
+      "source": "96"
+    },
+    {
+      "particularity": "Bevriend met Dousa, Lipsius, Vulcanius, Oldenbarnevelt",
+      "location": null,
+      "date": null,
+      "source": "1,96"
+    },
+    {
+      "particularity": "Salaris: f 200",
+      "location": null,
+      "date": "1573",
+      "source": "1,96"
+    },
+    {
+      "particularity": "Salaris: f 1400",
+      "location": null,
+      "date": "1584",
+      "source": "1,96"
+    },
+    {
+      "particularity": "Salaris: f 1500",
+      "location": null,
+      "date": "1595",
+      "source": "1,96"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "HAGEN",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "55,96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": "1565",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Peter",
+      "LastName": "HAGEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "55,96",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1520",
+      "DeathDate": "1568",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Margarita",
+      "LastName": "BLOCX",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "55",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Meenen",
+  "BirthDate": "1540",
+  "DeathDate": "1600",
+  "DeathCity": null
+}

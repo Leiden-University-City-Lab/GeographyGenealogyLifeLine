@@ -1,0 +1,280 @@
+{
+  "FirstName": "Thomas",
+  "LastName": "ERPENIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN ERPE",
+    "VAN HERPE"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "59"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1602-10-01",
+      "source": "28"
+    },
+    {
+      "subject": "Theses",
+      "location": "Leiden",
+      "date": "1605",
+      "source": "29"
+    },
+    {
+      "subject": "Mag.art.",
+      "location": "Leiden",
+      "date": "1608-07-08",
+      "source": "29"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Canterbury",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Oxford",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Saumur",
+      "date": "1609",
+      "source": "80"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Parijs",
+      "date": "1610",
+      "source": "80"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Venetie",
+      "date": "1611-10",
+      "source": "80"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Heidelberg",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Buitengewoon Hoogleraar Arabisch en Oosterse talen",
+      "location": "Leiden",
+      "date": "1613-02-09",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Arabisch en Oosterse talen",
+      "location": "Leiden",
+      "date": "1618-05-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1620-10-14",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Boekdrukker",
+      "location": null,
+      "date": null,
+      "source": "44",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met du Plessis-Mornay, Casaubonus, Grotius",
+      "location": null,
+      "date": null,
+      "source": "59"
+    },
+    {
+      "particularity": "Casaubonus steunt hem in Leiden tegen Antonides",
+      "location": "Leiden",
+      "date": null,
+      "source": "80"
+    },
+    {
+      "particularity": "Hij steunt zelf Rivet in Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Remonstrants gezind",
+      "location": null,
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Rome poogt hem te bekeren vanwege zijn vertalingen van protestantse werken in het Arabisch",
+      "location": null,
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "Assistentie aan Staten-Generaal bij conflict met Algiers",
+      "location": null,
+      "date": "1623",
+      "source": "59"
+    },
+    {
+      "particularity": "Salaris: f 500",
+      "location": null,
+      "date": "1613",
+      "source": "59,80"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1618",
+      "source": "59,80"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1621",
+      "source": "59,80"
+    },
+    {
+      "particularity": "Koopt veel uit boekdrukkerij van Raphelingius",
+      "location": null,
+      "date": null,
+      "source": "44"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jaecquemine",
+      "LastName": "Buyes",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gerard Johannes",
+      "LastName": "Erp",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Beatrix",
+      "LastName": "Bye",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Johan",
+      "LastName": "Buyes",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "80",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Beatrix",
+      "LastName": "ERPENIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1621-07-11",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "ERPENIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622-12-14",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "ERPENIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1624-11-17",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Gorinchem",
+  "BirthDate": "1584-09-09",
+  "DeathDate": "1624-11-13",
+  "DeathCity": "Leiden"
+}

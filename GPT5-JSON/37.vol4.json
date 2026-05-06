@@ -1,0 +1,281 @@
+{
+  "FirstName": "Dionysius",
+  "LastName": "WYNPERSSE",
+  "Affix": "van de",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "WIJNPERSSE"
+  ],
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Middelburg",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Utrecht",
+      "date": "1745",
+      "source": "3"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1747-08-19",
+      "source": "14"
+    },
+    {
+      "subject": "Doct.Theol.h.c.",
+      "location": "Groningen",
+      "date": "1752-09-01",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Baarland",
+      "date": "1749",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Zierikzee",
+      "date": "1750",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Groningen",
+      "date": "1752",
+      "source": "3,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Groningen",
+      "date": "1752-09-12",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1759",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1768-12-19",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wis- en Sterrekunde",
+      "location": "Leiden",
+      "date": "1769-05-29",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Assistentie van zoon wegens leeftijd",
+      "location": "Leiden",
+      "date": "1803-08-22",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1778",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1805-06-07",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. Phil. De legum Dei physicarum harmonia",
+      "location": null,
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Aanbod buitengewoon hoogleraarschap theologie afgeslagen",
+      "location": "Groningen",
+      "date": "1759",
+      "source": "3"
+    },
+    {
+      "particularity": "Aanbod gewoon hoogleraarschap theologie afgeslagen",
+      "location": "Groningen",
+      "date": "1772",
+      "source": "10"
+    },
+    {
+      "particularity": "Met prof. Allamand advies over Haarlemmermeer en IJ",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Lid Academiae naturae curiosorum, Hollandse Maatschappij van Wetenschappen en Zeeuwsch Genootschap van Wetenschappen",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Rapenburg",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Diderica",
+      "LastName": "THIENS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Utrecht",
+      "BirthDate": "1721-12-02",
+      "DeathDate": "1794-04-06",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1686",
+      "DeathDate": "1742",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "HULSIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1686",
+      "DeathDate": "1733",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Samuel",
+      "LastName": "THIENS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1693",
+      "DeathDate": "1730",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hesther Maria",
+      "LastName": "COCQ",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1695",
+      "DeathDate": "1723",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jacobus Thiens",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Hulsius",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1795",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Samuel",
+      "LastName": "WYNPERSSE",
+      "Affix": "van de",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Groningen",
+      "BirthDate": "1759-06-11",
+      "DeathDate": "1842-11-22",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Middelburg",
+  "BirthDate": "1724-03-18",
+  "DeathDate": "1803-10-08",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,307 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "HOLLEBEEK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1658-10-09",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Predikant bij gezantschap naar Spanje (van Beverningh)",
+      "location": "Spanje",
+      "date": "1670-11-26",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis terug",
+      "location": "Gen\u00e8ve, Parijs",
+      "date": "1671",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant bij gezantschap naar Engeland (Meerman)",
+      "location": "Engeland",
+      "date": "1672",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Valkenburg",
+      "date": "1672-11-08",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Alphen",
+      "date": "1675-10-09",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Alkmaar",
+      "date": "1679",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1680",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1685-04-09",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Statencollege",
+      "location": "Leiden",
+      "date": "1707-03-16",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Ondertrouw 2",
+      "location": "Leiden",
+      "date": "1704-04-01",
+      "source": null
+    },
+    {
+      "particularity": "Ondertrouw 2",
+      "location": "Leiden",
+      "date": "1708-02-11",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Sara",
+      "LastName": "HAAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magtilda",
+      "LastName": "SCHOLTEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "MAERSCHE",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "HOLLEBEECKE",
+      "Affix": "de Jonge",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "NOIRET",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Petrus",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1681-06-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1683-06-04",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1684-08-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba Maria",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1685-11-28",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeremias",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1687-03-16",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1688-04-19",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeremias",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1689-07-13",
+      "DeathDate": "1775-01-09",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "HOLLEBEEK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1691-12-23",
+      "DeathDate": "1764-03-09",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1646-09-26",
+  "DeathDate": "1709-02-04",
+  "DeathCity": "Leiden"
+}

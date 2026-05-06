@@ -1,0 +1,193 @@
+{
+  "FirstName": "Carel",
+  "LastName": "DEMATIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Carolus' in Carel (Carolus)"
+  ],
+  "alternative_last_names": [
+    "DE MAETS",
+    "DESMATIUS"
+  ],
+  "education": [
+    {
+      "subject": "Doct.Phil.",
+      "location": "Utrecht",
+      "date": "1664-04-28",
+      "source": "27"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Scheikunde",
+      "location": "Utrecht",
+      "date": "1668",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Chemisch Laboratorium",
+      "location": "Leiden",
+      "date": "1669-02-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon hoogleraar",
+      "location": "Leiden",
+      "date": "1670",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Philosophische Faculteit)",
+      "location": "Leiden",
+      "date": "1672-08-15",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les experimentele fysica",
+      "location": "Leiden",
+      "date": "1675-01-22",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Medische Faculteit",
+      "location": "Leiden",
+      "date": "1679-01-03",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Luitenant keurvendel Leidse studenten",
+      "location": "Leiden",
+      "date": "1672",
+      "source": "2,19",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De difficultate cognoscendi natura corporis et divortiis bij Mansvelt",
+      "location": null,
+      "date": null,
+      "source": "27"
+    },
+    {
+      "particularity": "Salaris: f 7000",
+      "location": null,
+      "date": "1682",
+      "source": "82"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Beatrix",
+      "LastName": "VERGEYDL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [
+    {
+      "FirstName": "Carel",
+      "LastName": "MAETS",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1597",
+      "DeathDate": "1651",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "DUVELAER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter Joosten",
+      "LastName": "DUVELAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "KNIBBE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Carolus",
+      "LastName": "DEMATIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1667-12-30",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": null,
+  "DeathDate": "1690-01-29",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,210 @@
+{
+  "FirstName": "David",
+  "LastName": "ROYEN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1740-03-11",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1752-08-24",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Botanie",
+      "location": "Leiden",
+      "date": "1754-04-22",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag op eigen verzoek",
+      "location": "Leiden",
+      "date": "1786-06-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1763-1764",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Oratie",
+      "location": "Leiden",
+      "date": "1754-06-14",
+      "source": null
+    },
+    {
+      "particularity": "Diss. De intestinatis crassis multorum malerum causa et ... bij zijn oom prof. Adriaan van Royen",
+      "location": null,
+      "date": null,
+      "source": "21,88"
+    },
+    {
+      "particularity": "Huwelijk met Barbara van der Burch te Delft",
+      "location": "Delft",
+      "date": "1759-08-21",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Barbara",
+      "LastName": "BURCH",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Delft",
+      "BirthDate": "1724-12-17",
+      "DeathDate": "1768-04-12",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "David",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1699",
+      "DeathDate": "1764",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": "1779",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [
+        "Davidsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "GROENENDIJCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1737",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jehan",
+      "LastName": "BERGH",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jehanna",
+      "LastName": "TEYLINGEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jan",
+      "LastName": "BURCH",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1695",
+      "DeathDate": "1739",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1696",
+      "DeathDate": "1757",
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1727-12-30",
+  "DeathDate": "1799-04-29",
+  "DeathCity": "Leiden"
+}

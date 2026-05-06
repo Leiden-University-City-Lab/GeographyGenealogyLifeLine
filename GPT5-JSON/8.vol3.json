@@ -1,0 +1,449 @@
+{
+  "FirstName": "Daniel",
+  "LastName": "COLONIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN CEULEN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Phil.h.c.",
+      "location": "Leiden",
+      "date": "1626-02-02",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1632-06-18",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1648-06-08",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Instituten",
+      "location": "Leiden",
+      "date": "1648-09-21",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs tevens Codex",
+      "location": "Leiden",
+      "date": "1659",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Secretaris Senaat universiteit",
+      "location": "Leiden",
+      "date": "1654",
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Rapenburg 34",
+      "location": "Leiden",
+      "date": null,
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna",
+      "LastName": "van der Hoeven",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "2,c",
+      "second_names": [],
+      "alternative_last_names": [
+        "Haven",
+        "Hove"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "van Alphen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "d,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1626-05-07",
+      "DeathDate": "1664-11-26",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [
+        "VAN CEULEN"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1566",
+      "DeathDate": "1635",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "Backer",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "B",
+      "second_names": [],
+      "alternative_last_names": [
+        "Bacquere"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Gent",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "Ackermann",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "van Alphen",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "d",
+      "second_names": [
+        "Simonsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": "1642",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "van Hoogeveen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "4",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1584",
+      "DeathDate": "1647",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "e",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1636-08-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1640-09-14",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1641-10-14",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1642-10-17",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1645-12-01",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1647-02-15",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1650-10-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1652-09-29",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1653-10-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1655-01-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1656-12-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1659-02-23",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1660-09-15",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Eva",
+      "LastName": "van Alphen",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "d",
+      "second_names": [
+        "Danielsdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "Elsevier",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "d",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bonaventura",
+      "LastName": "Elsevier",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1608-04-18",
+  "DeathDate": "1672-07-09",
+  "DeathCity": "Leiden"
+}

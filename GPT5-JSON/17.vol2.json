@@ -1,0 +1,128 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "FALCOBURGUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN VALKENBURS"
+  ],
+  "education": [
+    {
+      "subject": "Stud. Phil., Geschiedenis",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Theol. en Med.",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1621-06-19",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Les Ontleed- en Heelkunde (op proef)",
+      "location": "Leiden",
+      "date": "1617-12",
+      "source": "19,2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Geneeskunde",
+      "location": "Leiden",
+      "date": "1621-05-11",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Heelkunde",
+      "location": "Leiden",
+      "date": "1624-02-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Heelkunde",
+      "location": "Leiden",
+      "date": "1629-05-15",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Ontleedkunde",
+      "location": "Leiden",
+      "date": "1636",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Leprozenhuis",
+      "location": "Leiden",
+      "date": null,
+      "source": "77",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Promotor is prof. R. Bont",
+      "location": null,
+      "date": null,
+      "source": "77"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "VALIKENBURG",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2,77",
+      "second_names": [
+        "Jansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Claertgen",
+      "LastName": "BERKEL",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [
+        "Adriaensdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1581-11-01",
+  "DeathDate": "1650",
+  "DeathCity": "Leiden"
+}

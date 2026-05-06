@@ -1,0 +1,212 @@
+{
+  "FirstName": "Christiaan Hendrik",
+  "LastName": "DAMEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "DAHMEN"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Den Haag",
+      "date": null,
+      "source": "49"
+    },
+    {
+      "subject": "Apothekersexamen",
+      "location": null,
+      "date": "1772-08-17",
+      "source": "3"
+    },
+    {
+      "subject": "Stud. Wis. & Natk.",
+      "location": "Utrecht",
+      "date": "1780",
+      "source": "17"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Utrecht",
+      "date": "1783-01-23",
+      "source": "18"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Wis-, Krijgs-, Waterweg- en Burgerlijke Bouwkunde",
+      "location": "Leiden",
+      "date": "1785-09-03",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurkunde",
+      "location": "Leiden",
+      "date": "1787-03-10",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "praefectus fysiologisch laboratorium",
+      "location": "Leiden",
+      "date": "1787-09-22",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Verdedigt positiones philosophicae bij prof. Hennert",
+      "location": null,
+      "date": null,
+      "source": "18"
+    },
+    {
+      "particularity": "Nominatie Franeker maar curatoren deinzen terug vanwege zijn Lutheranisme",
+      "location": "Franeker",
+      "date": null,
+      "source": "3,35"
+    },
+    {
+      "particularity": "Lid Hollandse Maatschappij der Wetenschappen",
+      "location": "Haarlem",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Met steun curator van Bleiswijk in Leiden benoemd",
+      "location": "Leiden",
+      "date": null,
+      "source": "35,49"
+    },
+    {
+      "particularity": "Woont op Rapenburg",
+      "location": "Leiden",
+      "date": null,
+      "source": "49"
+    },
+    {
+      "particularity": "Leraar van de erfprins (koning Willem I)",
+      "location": null,
+      "date": null,
+      "source": "49"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Dina Elisabeth",
+      "LastName": "Huntum",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1761",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "DAMEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "REIMERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Paulus",
+      "LastName": "HUNTUM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba Elisabeth",
+      "LastName": "BOON",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Sophia Johanna",
+      "LastName": "DAMEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "49,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1788-07-20",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paulus Jacobus",
+      "LastName": "DAMEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "49,a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1792",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Den Haag",
+  "BirthDate": "1754-11-03",
+  "DeathDate": "1793-04-03",
+  "DeathCity": "Leiden"
+}

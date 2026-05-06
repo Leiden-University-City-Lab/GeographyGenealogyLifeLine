@@ -1,0 +1,383 @@
+{
+  "FirstName": "Eduard",
+  "LastName": "SANDIFORT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Gymnasium (Rector Ouwens)",
+      "location": "Den Haag",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1758-05-13",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1768-12-19",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Den Haag",
+      "date": "1763",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsarts",
+      "location": "Den Haag",
+      "date": "1769",
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Ontleed- en Heelkunde",
+      "location": "Leiden",
+      "date": "1770-10-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Ontleed- en Heelkunde",
+      "location": "Leiden",
+      "date": "1771-04-30",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Ontleed- en Heelkunde",
+      "location": "Leiden",
+      "date": "1772-02-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Leiden",
+      "date": "1778-06-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontleedkunde",
+      "location": "Leiden",
+      "date": "1805-03-29",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Medicijnen, Chirurgie en Anatomie",
+      "location": "Leiden",
+      "date": "1807-11-04",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1813",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": null,
+      "source": "88",
+      "is_side_job": 0
+    },
+    {
+      "job": "President Collegium Chirurgicum",
+      "location": null,
+      "date": null,
+      "source": "88",
+      "is_side_job": 1
+    },
+    {
+      "job": "President Collegium Pharmaceuticum",
+      "location": null,
+      "date": null,
+      "source": "88",
+      "is_side_job": 1
+    },
+    {
+      "job": "Chirurgijn Consultant van Koning Lodewijk Napoleon",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De pelvi eiusque in partu dilatatione bij prof. F. B. Albinus",
+      "location": null,
+      "date": null,
+      "source": "88"
+    },
+    {
+      "particularity": "Lid Koninklijke Zweedse Academie",
+      "location": null,
+      "date": null,
+      "source": "88"
+    },
+    {
+      "particularity": "Woonde Rapenburg 16",
+      "location": "Leiden",
+      "date": "1779",
+      "source": "98"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina Jehanna",
+      "LastName": "KINKEED",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": "1752-10-04",
+      "DeathDate": "1819-12-24",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1709",
+      "DeathDate": "1757",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertrui Helena",
+      "LastName": "SNELLEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1714",
+      "DeathDate": "1790",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Eduard",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1670",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "SCHAAP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paulus",
+      "LastName": "SNELLEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1682",
+      "DeathDate": "1751",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "DYCK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1742",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "KINKEED",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1710",
+      "DeathDate": "1796",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jehanna",
+      "LastName": "OOSTERWIJK",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1712",
+      "DeathDate": "1791",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Gerard",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b,19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1779-01-31",
+      "DeathDate": "1848-09-11",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Geertruid Helena",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1776-07-23",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1777-07-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jehanna Petronella Francgoisa",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1781-02-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paulus Johannes",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1781-07-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan Bartoldi",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1785-04-22",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter Eduard",
+      "LastName": "SANDIFORT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1789-02-03",
+      "DeathDate": "1814",
+      "DeathCity": "Rotterdam"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Dordrecht",
+  "BirthDate": "1742-11-14",
+  "DeathDate": "1814-02-12",
+  "DeathCity": "Leiden"
+}

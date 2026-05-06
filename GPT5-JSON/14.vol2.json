@@ -1,0 +1,326 @@
+{
+  "FirstName": "Rembertus",
+  "LastName": "DODONAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "'Rembert' in Rembertus (Rembert)"
+  ],
+  "alternative_last_names": [
+    "DODOENS"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse School van Hoverinus",
+      "location": "Mechelen",
+      "date": "1523",
+      "source": "44"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": null,
+      "date": "1530-08-09",
+      "source": "44"
+    },
+    {
+      "subject": "Baccalaureaat",
+      "location": "Leuven",
+      "date": "1535-09-10",
+      "source": "44"
+    },
+    {
+      "subject": "Licentiaat",
+      "location": "Leuven",
+      "date": "1537",
+      "source": "44"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Mechelen",
+      "date": "1537",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stadsarts",
+      "location": "Mechelen",
+      "date": "1546",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Kerkmeester St. Pieterskerk",
+      "location": "Mechelen",
+      "date": "1558",
+      "source": "44",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts Keizer Maximiliaan II",
+      "location": "Wenen",
+      "date": "1574",
+      "source": "44,60",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lijfarts Keizer Rudolf II",
+      "location": "Wenen",
+      "date": "1576",
+      "source": "44,60",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde en les physica",
+      "location": "Leiden",
+      "date": "1582-12-15",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "In 1538 legitimeert Karel V zijn onwettige geboorte",
+      "location": null,
+      "date": "1538",
+      "source": "44"
+    },
+    {
+      "particularity": "Rond 1567 weigerde hij geneesheer aan het Spaanse hof te worden",
+      "location": null,
+      "date": "1567",
+      "source": "75"
+    },
+    {
+      "particularity": "Bevriend met Viglius en Clusius",
+      "location": null,
+      "date": null,
+      "source": "44,60"
+    },
+    {
+      "particularity": "Met steun van zijn neef prof. Hopper en Viglius probeerde hij vergeefs hoogleraar in Leuven te worden; de stad werkte hem tegen",
+      "location": "Leuven",
+      "date": null,
+      "source": "44"
+    },
+    {
+      "particularity": "In 1580 hielp hij Parma bij een ziekte tijdens het beleg van Maastricht",
+      "location": "Maastricht",
+      "date": "1580",
+      "source": "60"
+    },
+    {
+      "particularity": "Bleef tot zijn dood katholiek",
+      "location": null,
+      "date": null,
+      "source": "60"
+    },
+    {
+      "particularity": "Vertrok uit Wenen",
+      "location": "Wenen",
+      "date": "1576-03-11",
+      "source": "60"
+    },
+    {
+      "particularity": "Verblijf in Keulen tot oktober 1581",
+      "location": "Keulen",
+      "date": "1581-10",
+      "source": "60"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Katharina",
+      "LastName": "BRUYNE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "44,60",
+      "second_names": [],
+      "alternative_last_names": [
+        "Le Brun"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1572-04",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "SAERINEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44,60",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Doede",
+      "LastName": "REMBERTS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [
+        "'Denis' in Doede (Denis)"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1480",
+      "DeathDate": "1533",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ursula",
+      "LastName": "ROELANTS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Rembert",
+      "LastName": "JOENCKEMZ",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [
+        "Jariksze"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Rixtia",
+      "LastName": "SIERCKSMA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [
+        "Doedesdr."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Anton",
+      "LastName": "BRUYNE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1546",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornille",
+      "LastName": "BEUDEGHERN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "44",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Rembertus",
+      "LastName": "DODONAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "60",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1609",
+      "DeathCity": "Rome"
+    },
+    {
+      "FirstName": "Ursula",
+      "LastName": "DODONAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "44,60",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1544",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Denis",
+      "LastName": "DODONAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "44,60",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1548",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonia",
+      "LastName": "DODONAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "60",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Mechelen",
+  "BirthDate": "1516-06-29",
+  "DeathDate": "1585-03-10",
+  "DeathCity": "Leiden"
+}

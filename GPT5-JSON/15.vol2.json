@@ -1,0 +1,406 @@
+{
+  "FirstName": "Gualtherus",
+  "LastName": "DOEVEREN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [
+    "Wouter"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Coes",
+      "date": "1747-08-04",
+      "source": "104"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Leiden",
+      "date": "1747-12-07",
+      "source": "2"
+    },
+    {
+      "subject": "Cand.Med.",
+      "location": "Leiden",
+      "date": "1752",
+      "source": "2"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Parijs",
+      "date": "1752",
+      "source": "104"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1753-10-29",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": "1753",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": "1754",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Physiologie",
+      "location": "Groningen",
+      "date": "1754-03-18",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Ontleedkunde, Verloskunde en Pathologie",
+      "location": "Groningen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Chemie en Medicina Practica",
+      "location": "Groningen",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1761",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1762",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1769",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1770",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Leiden",
+      "date": "1770-10-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1778",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1779",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Les. Physiologie",
+      "location": "Leiden",
+      "date": "1778-06-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid collegium medicum",
+      "location": "Groningen",
+      "date": null,
+      "source": "104",
+      "is_side_job": 1
+    },
+    {
+      "job": "Provinciaal en Stadsphysicus",
+      "location": "Groningen",
+      "date": "1763",
+      "source": "104",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lijfarts Willem V",
+      "location": null,
+      "date": "1781",
+      "source": "104",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De vermibus intestinalibus hominum, praecipue de taenia",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bij prof. P.B. Albinus",
+      "location": null,
+      "date": null,
+      "source": "88"
+    },
+    {
+      "particularity": "Lid van o.a. Hollandsche Maatschappij der Wetenschappen te Haarlem",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris als Stadsphysicus Groningen: f 200,-",
+      "location": null,
+      "date": null,
+      "source": "104"
+    },
+    {
+      "particularity": "Salaris als Hoogleraar Groningen: f 700,- (1754), f 1200,- (1763)",
+      "location": null,
+      "date": null,
+      "source": "104"
+    },
+    {
+      "particularity": "Totaal salaris in 1770: f 1800,-",
+      "location": null,
+      "date": null,
+      "source": "104"
+    },
+    {
+      "particularity": "Salaris Leiden in 1777: f 1600,-",
+      "location": null,
+      "date": null,
+      "source": "104"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Aletta Everhardina",
+      "LastName": "ECK",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a) Nederlandse Leeuw 1939",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1736-01-29",
+      "DeathDate": "1777-05-21",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Teunis",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [
+        "Woutersz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1698",
+      "DeathDate": "1776",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "HAAS",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "104",
+      "second_names": [
+        "Jacobs"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1730",
+      "DeathDate": "1783",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Wouter",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [
+        "Woutersz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Teuntje",
+      "LastName": "TEUNISDRE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "ECK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2,3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1693",
+      "DeathDate": "1757",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aletta",
+      "LastName": "WAL",
+      "Affix": "van de",
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Petronella Aletta",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1759-08-17",
+      "DeathDate": "1759-08-31",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella Aletta",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1760-09-19",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob Anthonies",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1766-05-28",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anthonie Jacob",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1763-07-24",
+      "DeathDate": "1805-11-30",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Cornelius Emilius",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Groningen",
+      "BirthDate": "1768-12-06",
+      "DeathDate": "1844-11-07",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Johannes Arnoldus",
+      "LastName": "DOEVEREN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "104",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1771",
+      "DeathDate": "1809-09-23",
+      "DeathCity": "Gorinchem"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Philippine",
+  "BirthDate": "1730-11-16",
+  "DeathDate": "1783-12-31",
+  "DeathCity": "Leiden"
+}

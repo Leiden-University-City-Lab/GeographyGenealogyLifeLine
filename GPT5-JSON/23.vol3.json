@@ -1,0 +1,345 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "MAFSTERTIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "MA(E)STERTON"
+  ],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Dendermonde",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "School der Augustijnen",
+      "location": "Brussel",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Sedan",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Stud. (bij oom J. v/d Neesen)",
+      "location": "Parijs",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Brussel",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Brussel",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leuven",
+      "date": "1626-01-24",
+      "source": "47,27"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Orl\u00e9ans",
+      "date": "1631",
+      "source": "47"
+    },
+    {
+      "subject": "Reis",
+      "location": "Engeland, Frankrijk, Itali\u00eb, Holland",
+      "date": "1631",
+      "source": "2,47"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1634-03-23",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1634-05",
+      "source": "47"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Leenrecht",
+      "location": "Leiden",
+      "date": "1636",
+      "source": "47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1637-10-23",
+      "source": "25,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs civiel recht",
+      "location": "Leiden",
+      "date": "1639-02-10",
+      "source": "25,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1639-06-16",
+      "source": "25,47",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Instituten",
+      "location": "Leiden",
+      "date": "1640-1646",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Digesten",
+      "location": "Leiden",
+      "date": "1646-1654",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disg. De utrogue retractu gentilicio et conventionali bij prof. Valerius Andreas",
+      "location": null,
+      "date": "1630-07-07",
+      "source": "47"
+    },
+    {
+      "particularity": "Protestant",
+      "location": null,
+      "date": null,
+      "source": "47"
+    },
+    {
+      "particularity": "Aanbod Utrecht afgewezen",
+      "location": null,
+      "date": "1635",
+      "source": "47"
+    },
+    {
+      "particularity": "Geridderd door koningin Christina van Zweden",
+      "location": null,
+      "date": null,
+      "source": "38"
+    },
+    {
+      "particularity": "Patent of knighthood van koning Karel II",
+      "location": null,
+      "date": "1649-05-15",
+      "source": "47"
+    },
+    {
+      "particularity": "Eigenaar ridderhofstede Rosenburg sinds",
+      "location": null,
+      "date": "1654-03-11",
+      "source": "47"
+    },
+    {
+      "particularity": "Woonde Klolsteeg ten westen van de Herensteeg",
+      "location": "Leiden",
+      "date": null,
+      "source": "47"
+    },
+    {
+      "particularity": "Testament not. Brasser te Leiden",
+      "location": "Leiden",
+      "date": "1658-04-21",
+      "source": "47"
+    },
+    {
+      "particularity": "Inventaris not. Brasser te Leiden",
+      "location": "Leiden",
+      "date": "1658-06-14",
+      "source": "47"
+    },
+    {
+      "particularity": "Salaris: f200",
+      "location": null,
+      "date": "1636",
+      "source": "47"
+    },
+    {
+      "particularity": "Salaris: 1300",
+      "location": null,
+      "date": "1639",
+      "source": "47"
+    },
+    {
+      "particularity": "Salaris: f600",
+      "location": null,
+      "date": "1639-11-21",
+      "source": "47"
+    },
+    {
+      "particularity": "Salaris: f900",
+      "location": null,
+      "date": "1640",
+      "source": "47"
+    },
+    {
+      "particularity": "Salaris: 1200",
+      "location": null,
+      "date": "1642",
+      "source": "47"
+    },
+    {
+      "particularity": "Cndt. Leiden",
+      "location": "Leiden",
+      "date": "1647-02-08",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria",
+      "LastName": "AER",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "47, a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": "1650-08-17",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adam",
+      "LastName": "MASTERTON",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BRUYNE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1654",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Cornelis",
+      "LastName": "AER",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "47",
+      "second_names": [
+        "Corsz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "HAES",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "47",
+      "second_names": [
+        "Cornelisd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Cornelius",
+      "LastName": "MAFSTERTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1648-05-03",
+      "DeathDate": "1649-07-16",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Cornelins",
+      "LastName": "MAFSTERTIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1650-02-25",
+      "DeathDate": "1650-12-12",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Dendermonde",
+  "BirthDate": "1610-04-02",
+  "DeathDate": "1658-04-25",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,316 @@
+{
+  "FirstName": "Adriaan",
+  "LastName": "ROYEN",
+  "Affix": "van",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "ROEYEN"
+  ],
+  "education": [
+    {
+      "subject": "Voorbereidend onderwijs",
+      "location": "Leiden",
+      "date": null,
+      "source": "85"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1716-03-16",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med. en Kruidkunde",
+      "location": "Leiden",
+      "date": "1728-02-23",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Kruidkunde",
+      "location": "Leiden",
+      "date": "1729-03-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Oppertoezicht en secretaris Hortus",
+      "location": "Leiden",
+      "date": "1730-05-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Genees- en Kruidkunde",
+      "location": "Leiden",
+      "date": "1732-06-18",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Tijdelijk les Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1738-08-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als Hoogleraar Kruidkunde",
+      "location": "Leiden",
+      "date": "1754-04-22",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen als Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1770-10-01",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1775",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1742",
+      "source": "85",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1758",
+      "source": "85",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1770",
+      "source": "85",
+      "is_side_job": 0
+    },
+    {
+      "job": "President Collegium Pharmaceuticum",
+      "location": "Leiden",
+      "date": null,
+      "source": "85",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. botanico-medica inauguralis 'De anatome et oeconomia plantarum'",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Beschermeling van Boerhaave",
+      "location": null,
+      "date": null,
+      "source": "85"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Adriana Johanna",
+      "LastName": "Wesselius",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Purmerend",
+      "BirthDate": "1705-01-20",
+      "DeathDate": "1769-02-25",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jehan Davidsz.",
+      "LastName": "Royen",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675",
+      "DeathDate": "1719",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "Groenendijck",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1737",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "David",
+      "LastName": "Roeyen",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1626",
+      "DeathDate": "1679",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacomina",
+      "LastName": "LePla",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan Rippertsz.",
+      "LastName": "Groenendijck",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "Court",
+      "Affix": "de la",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "Wesselius",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "Ruytenburg",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1667",
+      "DeathDate": "1705",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Jan",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1736-01-27",
+      "DeathDate": "1803-05-11",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Rippert",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1739-08-01",
+      "DeathDate": "1809-06-16",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Herman Johan",
+      "LastName": "ROYEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1742-01-06",
+      "DeathDate": "1812-01-13",
+      "DeathCity": "Delft"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1704-11-11",
+  "DeathDate": "1779-02-28",
+  "DeathCity": "Leiden"
+}

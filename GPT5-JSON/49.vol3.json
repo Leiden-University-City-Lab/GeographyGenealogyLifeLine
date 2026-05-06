@@ -1,0 +1,314 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VOET",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VOETIUS"
+  ],
+  "education": [
+    {
+      "subject": null,
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Doct.",
+      "location": "Frankrijk?",
+      "date": null,
+      "source": "26b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Burgerlijk Recht",
+      "location": "Herborn",
+      "date": null,
+      "source": "48",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Utrecht",
+      "date": "1674-05-11",
+      "source": "79,26b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Utrecht",
+      "date": "1679",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Romeins en Hedendaags Recht)",
+      "location": "Leiden",
+      "date": "1680-01-16",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Romeins en Hedendaags Recht)",
+      "location": "Leiden",
+      "date": "1680-02-26",
+      "source": "26b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar in de praktijk van het Recht (Praxeos)",
+      "location": "Leiden",
+      "date": "1688-01-19",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1681",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1686",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1709",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Diaken",
+      "location": "Utrecht",
+      "date": null,
+      "source": "42",
+      "is_side_job": 1
+    },
+    {
+      "job": "Boekhouder diakenen",
+      "location": "Utrecht",
+      "date": null,
+      "source": "42",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Strijd tegen een libel tegen zijn grootvader mede reden te vertrekken uit Utrecht, hoewel men hem probeert er te houden",
+      "location": "Utrecht",
+      "date": "1680",
+      "source": "42"
+    },
+    {
+      "particularity": "Van Beverningh haalt hem naar Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "32"
+    },
+    {
+      "particularity": "Aanbod Utrecht ad f 2000 en titel primarius afgewezen",
+      "location": "Utrecht",
+      "date": "1687",
+      "source": "42"
+    },
+    {
+      "particularity": "Woont Rapenburg",
+      "location": "Leiden",
+      "date": "1680",
+      "source": "a"
+    },
+    {
+      "particularity": "Woont Breestraat",
+      "location": "Leiden",
+      "date": "1705",
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 0",
+      "location": "Utrecht",
+      "date": "1674",
+      "source": "42"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": "Utrecht",
+      "date": "1676",
+      "source": "42"
+    },
+    {
+      "particularity": "Eerste twee jaar geen salaris, deelt ambt met Lucas van de Poll",
+      "location": "Utrecht",
+      "date": "1674",
+      "source": "2,42"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Magdalena",
+      "LastName": "SADELARE",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": "Utrecht"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Paulus",
+      "LastName": "VOET",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1619",
+      "DeathDate": "1667",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "WINSSEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Gisbertus",
+      "LastName": "VOETIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "42",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1589",
+      "DeathDate": "1676",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Deliana",
+      "LastName": "DIEST",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "42",
+      "second_names": [
+        "Jansd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "SADELARE",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "MATTHAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "VOET",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1686-06-26",
+      "DeathDate": "1724-10-31",
+      "DeathCity": "Utrecht"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "VOET",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "42",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Paulus",
+      "LastName": "VOET",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "42",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Utrecht",
+  "BirthDate": "1647-10-03",
+  "DeathDate": "1713-09-09",
+  "DeathCity": "Utrecht"
+}

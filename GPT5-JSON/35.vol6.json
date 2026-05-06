@@ -1,0 +1,323 @@
+{
+  "FirstName": "Ludovicus",
+  "LastName": "DIEU",
+  "Affix": "de",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1619-11-18",
+      "source": "9"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Proponent",
+      "location": null,
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Aanbod Hofpredikant van Maurits afgeslagen",
+      "location": null,
+      "date": "1612-10-01",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hulppredikant",
+      "location": "Vlissingen",
+      "date": null,
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Predikant",
+      "location": "Middelburg",
+      "date": "1614-05",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Vlissingen",
+      "date": "1617-08",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Leiden",
+      "date": "1619-11",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Regent Waals College",
+      "location": "Leiden",
+      "date": "1635-12-19",
+      "source": "B",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanbod Utrecht Hoogleraar Theologie te worden afgeslagen",
+      "location": "Utrecht",
+      "date": "1636",
+      "source": "3"
+    },
+    {
+      "particularity": "Salaris: f600",
+      "location": null,
+      "date": "1635",
+      "source": "15"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "BOGAERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Vlissingen",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Daniel",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1540",
+      "DeathDate": "1607",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Lodewijk",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GENT",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "COLONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "ACKERMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "3",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "BOGAERT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josijntje",
+      "LastName": "BOONE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Hendrik",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cathalina",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ludovicus",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Vlissingen",
+      "BirthDate": "1619-03-10",
+      "DeathDate": "1692-10-14",
+      "DeathCity": "Amsterdam"
+    },
+    {
+      "FirstName": "Lodewijk",
+      "LastName": "DIEU",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "15",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1622",
+      "DeathDate": "1664",
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Vlissingen",
+  "BirthDate": "1590-04-07",
+  "DeathDate": "1642-12-23",
+  "DeathCity": "Leiden"
+}

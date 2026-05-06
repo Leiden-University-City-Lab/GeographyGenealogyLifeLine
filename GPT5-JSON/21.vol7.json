@@ -1,0 +1,231 @@
+{
+  "FirstName": "Arend",
+  "LastName": "DUSSEN",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [
+    "Brunosz"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1701-02-09",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1704-09-22",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": null,
+      "date": null,
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid raad Delft",
+      "location": "Delft",
+      "date": "1712",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Havenmeester",
+      "location": "Delft",
+      "date": "1714-1716",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Schepen",
+      "location": "Delft",
+      "date": "1717-1724",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct ter dagvaart",
+      "location": "Den Haag",
+      "date": "1725",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1726-1727",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bewindhebber V.O.C.",
+      "location": "Delft",
+      "date": "1727-1742",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1729-1731",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1730-09-15",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1733-1734",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct ter dagvaart",
+      "location": "Den Haag",
+      "date": "1735",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1737-1738",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Adjunct ter dagvaart",
+      "location": "Den Haag",
+      "date": "1739",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Burgemeester",
+      "location": "Delft",
+      "date": "1741-1742",
+      "source": "a",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Jiss. De Poenis",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Bruno",
+      "LastName": "DUSSEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1625",
+      "DeathDate": "1695",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "GRASWINCKEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1656",
+      "DeathDate": "1731",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Arent",
+      "LastName": "DUSSEN",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1616",
+      "DeathDate": "1679",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "BRIEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1619",
+      "DeathDate": "1678",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "GRASWINCKEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1623",
+      "DeathDate": "1712",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hilgonda",
+      "LastName": "BRUYNING",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1628",
+      "DeathDate": "1700",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Delft",
+  "BirthDate": "1683-09-06",
+  "DeathDate": "1742-06-20",
+  "DeathCity": "Delft"
+}

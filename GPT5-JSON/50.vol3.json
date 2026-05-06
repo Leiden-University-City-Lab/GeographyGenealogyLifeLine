@@ -1,0 +1,329 @@
+{
+  "FirstName": "Bavius",
+  "LastName": "VOORDA",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Iur.",
+      "location": "Utrecht",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Cand. Iur.",
+      "location": "Utrecht",
+      "date": "1750-06-16",
+      "source": "33"
+    },
+    {
+      "subject": "Stud. Iur. h.c.",
+      "location": "Leiden",
+      "date": "1750-06-26",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Utrecht",
+      "date": "1751-09-30",
+      "source": "34"
+    },
+    {
+      "subject": "Doct. Iur. h.c.",
+      "location": "Leiden",
+      "date": "1790-04-12",
+      "source": "26"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Leeuwarden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Instituten en Pandecten)",
+      "location": "Franeker",
+      "date": "1755",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1761",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1762",
+      "source": "10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1765-03-26",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Romeins en Hedendaags burgerlijk recht)",
+      "location": "Leiden",
+      "date": "1765-06-24",
+      "source": "25,26b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1769",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1781",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag (politieke gronden), zonder tractement",
+      "location": "Leiden",
+      "date": "1788-09-01",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1795-02-21",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Staten van Friesland",
+      "location": "Friesland",
+      "date": "1755",
+      "source": "16",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De vadimonio",
+      "location": null,
+      "date": null,
+      "source": "2,26b"
+    },
+    {
+      "particularity": "Aanbod om raadsheer aan het Hof van Utrecht te worden afgewezen",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Patriot",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Weigert de eed in 1788; daarop ontslag zonder tractement; Senaat protesteert; Staten van Holland bevestigen ontslag met toekenning van pensioen",
+      "location": "Leiden",
+      "date": "1788",
+      "source": "2"
+    },
+    {
+      "particularity": "Ambteloos doet hij wetenschappelijk werk in Leiden",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Met Valckenaer stelt hij aanklacht tegen Willem V op",
+      "location": null,
+      "date": null,
+      "source": "2,26b"
+    },
+    {
+      "particularity": "Gekozen als lid van de Nationale Vergadering, wijst het mandaat af",
+      "location": null,
+      "date": "1796",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Weigert de eed in 1798 af te leggen, zonder gevolgen",
+      "location": null,
+      "date": "1798",
+      "source": "10"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1755",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f 1800",
+      "location": null,
+      "date": "1788",
+      "source": "2,10"
+    },
+    {
+      "particularity": "Salaris: f 2400",
+      "location": null,
+      "date": "1795",
+      "source": "2,10"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Jacobus",
+      "LastName": "VOORDA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1696",
+      "DeathDate": "1768",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronellia",
+      "LastName": "BEUCKER",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Joost",
+      "LastName": "VOORDA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Meria",
+      "LastName": "SURINGAR",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "BEUCKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1650",
+      "DeathDate": "1723",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wendelina",
+      "LastName": "HIXENIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "BEUCKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Hendrik",
+      "LastName": "BEUCKER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Henricus",
+      "LastName": "VOORDA",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1732",
+      "DeathDate": "1814",
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Franeker",
+  "BirthDate": "1729-07-01",
+  "DeathDate": "1799-07-09",
+  "DeathCity": "Leiden"
+}

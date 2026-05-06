@@ -1,0 +1,292 @@
+{
+  "FirstName": "Franciscus",
+  "LastName": "RAPHELINGIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN RAVELINGEN"
+  ],
+  "education": [
+    {
+      "subject": "Lager onderwijs",
+      "location": "Gent",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "Handelsreis",
+      "location": "Neurenberg",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "Stud. Grieks en Hebreeuws",
+      "location": "Parijs",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "subject": "Stud. ?",
+      "location": "Cambridge",
+      "date": null,
+      "source": "4"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Aankomst Antwerpen",
+      "location": "Antwerpen",
+      "date": "1561",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Corrector Plantijn",
+      "location": "Antwerpen",
+      "date": "1563",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Poorter Antwerpen",
+      "location": "Antwerpen",
+      "date": "1576-03-10",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Drukkersdiploma",
+      "location": "Antwerpen",
+      "date": "1576-03-22",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Beheert Plantijns drukkerij",
+      "location": "Leiden",
+      "date": "1585",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1586-06-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Leiden",
+      "date": "1587-02-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Academiedrukker",
+      "location": "Leiden",
+      "date": "1586-03-03",
+      "source": "27",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "In Leiden Calvinist geworden",
+      "location": "Leiden",
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Bevriend met Ortelius, Lipsius, Clusius",
+      "location": null,
+      "date": null,
+      "source": "4"
+    },
+    {
+      "particularity": "Woont Rapenburg 56",
+      "location": null,
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f 25",
+      "location": null,
+      "date": "1566",
+      "source": "4"
+    },
+    {
+      "particularity": "Salaris: f 160",
+      "location": null,
+      "date": "1570",
+      "source": "4"
+    },
+    {
+      "particularity": "Salaris: f 200",
+      "location": null,
+      "date": "1572",
+      "source": "4"
+    },
+    {
+      "particularity": "Salaris: f 300",
+      "location": null,
+      "date": "1577",
+      "source": "4"
+    },
+    {
+      "particularity": "Salaris: f 400",
+      "location": null,
+      "date": "1581",
+      "source": "4"
+    },
+    {
+      "particularity": "Salaris: f 300 \u00e0 f 400",
+      "location": null,
+      "date": "1587",
+      "source": "4"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Margaretha",
+      "LastName": "PLANTIJN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "4,67,75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Frankrijk",
+      "BirthCity": null,
+      "BirthDate": "1547",
+      "DeathDate": "1594-04",
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Christoffel",
+      "LastName": "PLANTIJN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "67,75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1520",
+      "DeathDate": "1589",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "RIVI\u00c8RE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "67,75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1596",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Christoffel",
+      "LastName": "RAPHELINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1566",
+      "DeathDate": "1600-12-17",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frangois",
+      "LastName": "RAPHELINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1568",
+      "DeathDate": "1643",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Joost",
+      "LastName": "RAPHELINGIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Antwerpen",
+      "BirthDate": "1573-02-05",
+      "DeathDate": "1628-05-26",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "RAPHELINGIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Antwerpen",
+      "BirthDate": "1571-03-13",
+      "DeathDate": "1648-06",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "RAPHELINGIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Antwerpen",
+      "BirthDate": "1574",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "RAPHELINGIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "75",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Belgi\u00eb",
+      "BirthCity": "Antwerpen",
+      "BirthDate": "1576-01-15",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Lannoy",
+  "BirthDate": "1539",
+  "DeathDate": "1597-07",
+  "DeathCity": "Leiden"
+}

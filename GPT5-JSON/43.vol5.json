@@ -1,0 +1,292 @@
+{
+  "FirstName": "Jacobus",
+  "LastName": "PERIZONIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VOORBROEK",
+    "VORBROCK"
+  ],
+  "education": [
+    {
+      "subject": "Stud.",
+      "location": "Deventer",
+      "date": "1666-09-20",
+      "source": "15"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Utrecht",
+      "date": "1671",
+      "source": "63"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Leiden",
+      "date": "1674-08-13",
+      "source": "28"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Conrector Latijnse school",
+      "location": "Delft",
+      "date": "1681-08-13",
+      "source": "63",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis en Welsprekendheid",
+      "location": "Franeker",
+      "date": "1681-11-05",
+      "source": "2,17,63",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis en Welsprekendheid",
+      "location": "Franeker",
+      "date": "1682-01-19",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal, Welsprekendheid en Historie",
+      "location": "Leiden",
+      "date": "1693-04-27",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Griekse taal, Welsprekendheid en Historie",
+      "location": "Leiden",
+      "date": "1693-07-07",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historiae Foederati Belgii",
+      "location": "Leiden",
+      "date": "1701-12-24",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Historiae Foederati Belgii",
+      "location": "Leiden",
+      "date": "1702-02-06",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bekend als libertijn, coccejaan, cartesiaan",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Mislukte sollicitaties: Deventer (1675), Franeker (1677), rectoraat Delft (1681), Den Bosch",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Steun de Rijcke in Delft; steun Heinsius, Huber, Graevius; curator van Haren in Franeker; steun curator Teresteyn van Halewijn in Leiden",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Bevriend met Roell, van Eck, de Volder, J. van den Bergh, Boerhaave, Fabritius",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Twist met Huber, Gronovius, Leclerc",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Aanbod Leiden 1690 afgeslagen",
+      "location": null,
+      "date": null,
+      "source": "2,63"
+    },
+    {
+      "particularity": "Bewerkt vrijstelling in- en uitvoerrechten admiraliteit van Rotterdam voor buitenlandse studenten",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Woont Papengracht",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f 500 (Delft), f 1000 (1681), f 1250 (1682), f 1800 (1693), f 2000 (1701)",
+      "location": null,
+      "date": null,
+      "source": "2,63"
+    },
+    {
+      "particularity": "Ongehuwd",
+      "location": null,
+      "date": null,
+      "source": "63"
+    },
+    {
+      "particularity": "Kinderloos",
+      "location": null,
+      "date": null,
+      "source": "63"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "PERIZONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1626",
+      "DeathDate": "1672",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Baldwina",
+      "LastName": "WILDRIKS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1621",
+      "DeathDate": "1694",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "PERIZONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1568",
+      "DeathDate": "1645",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wibbina",
+      "LastName": "TROPPIA",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "WILDRIKS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aaltje",
+      "LastName": "JACOBS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Christiaan",
+      "LastName": "PERIZONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerhardus",
+      "LastName": "PERIZONIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes Conradus",
+      "LastName": "RUNGE",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "63",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Appingedam",
+  "BirthDate": "1651-10-26",
+  "DeathDate": "1715-04-06",
+  "DeathCity": "Leiden"
+}

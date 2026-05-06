@@ -1,0 +1,318 @@
+{
+  "FirstName": "Dionysius Godefridus",
+  "LastName": "KEESSEL",
+  "Affix": "van der",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Voorbereidend onderwijs",
+      "location": "Deventer",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Iur.",
+      "location": "Leiden",
+      "date": "1756-05-01",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Iur.",
+      "location": "Leiden",
+      "date": "1761-10-23",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "1761",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Advocaat",
+      "location": "Den Haag",
+      "date": "1762",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Groningen",
+      "date": "1762",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1768",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Groningen",
+      "date": "1769",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Romeins en burgerlijk recht",
+      "location": "Leiden",
+      "date": "1770-10-10",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Romeins en burgerlijk recht",
+      "location": "Leiden",
+      "date": "1771-04-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs hedendaags recht",
+      "location": "Leiden",
+      "date": "1790-06-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar hedendaags recht",
+      "location": "Leiden",
+      "date": "1799-09-13",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1773",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1785",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1791",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1792",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Leermeester van de latere koning Willem I",
+      "location": null,
+      "date": null,
+      "source": "2,35",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Patriots gezind",
+      "location": null,
+      "date": null,
+      "source": "35"
+    },
+    {
+      "particularity": "Diss. De usucapione partus et foetus rei furtivae",
+      "location": null,
+      "date": null,
+      "source": "26a"
+    },
+    {
+      "particularity": "Verdediger van de privileges der universiteit in de Bataafse periode",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Twijfelde tussen theologie en rechten, koos na de dood van zijn vader voor rechten",
+      "location": null,
+      "date": null,
+      "source": "16"
+    },
+    {
+      "particularity": "Ridder Nederlandse Leeuw",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Rapenburg 20",
+      "location": "Leiden",
+      "date": null,
+      "source": "b"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina Adriana",
+      "LastName": "BODEL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1734",
+      "DeathDate": "1811",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dionysius",
+      "LastName": "KEESSEL",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "2,86",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": "1755",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Wilhelmina",
+      "LastName": "CABELJAUW",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,86",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1697",
+      "DeathDate": "1773",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Godefridus",
+      "LastName": "KEESSEL",
+      "Affix": "van der",
+      "Gender": "Man",
+      "source": "2,86",
+      "second_names": [
+        "Govert"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1660",
+      "DeathDate": "1715",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "MOL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,86",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1676",
+      "DeathDate": "1761",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Samuel",
+      "LastName": "CABELJAUW",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "86",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "RUIJL",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "86",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johan",
+      "LastName": "BODEL",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1707",
+      "DeathDate": "1738",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina Johanna",
+      "LastName": "BENTLIE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "59",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Deventer",
+  "BirthDate": "1738-09-22",
+  "DeathDate": "1816-08-07",
+  "DeathCity": "Leiden"
+}

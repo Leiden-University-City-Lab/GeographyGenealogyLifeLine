@@ -1,0 +1,277 @@
+{
+  "FirstName": "Nicolaas",
+  "LastName": "PARADIJS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school (bij Pieter Curtenius)",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1758-05-25",
+      "source": "20"
+    },
+    {
+      "subject": "Doct. Med.",
+      "location": "Leiden",
+      "date": "1763-06-17",
+      "source": "21"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Parijs",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Rouen",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Arts",
+      "location": "Amsterdam",
+      "date": "1764",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1784-04-26",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1784-10-02",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor collegium medicum practicum",
+      "location": "Leiden",
+      "date": "1787-03-08",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Geschiedenis der Geneeskunde",
+      "location": "Leiden",
+      "date": "1800-04-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Geschiedenis der Geneeskunde",
+      "location": "Leiden",
+      "date": "1800-09-27",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": null,
+      "source": "3",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lijfarts Willem V",
+      "location": null,
+      "date": "1790-1795",
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.: \"Specimen r. pathologicum, quo inquiritur in naturam inflammationis\" bij prof. Gaubius (vervangt prof. Albinus)",
+      "location": null,
+      "date": null,
+      "source": "2,89"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Cornelia Elisabeth",
+      "LastName": "SCHAGHEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1791",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "David",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1706",
+      "DeathDate": "1778",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "THEENEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1724",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "OS",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Jan Anthony",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1774",
+      "DeathDate": "1806-03-08",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1809-05-13",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Nicolaas",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1785-07-27",
+      "DeathDate": "1861-11-16",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Abraham",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1787-02-07",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1788-05-14",
+      "DeathDate": "1817-08-21",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Bernhardus",
+      "LastName": "PARADIJS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1789-05-17",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Geneeskunde",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1740-11-11",
+  "DeathDate": "1812-09-07",
+  "DeathCity": "Leiden"
+}

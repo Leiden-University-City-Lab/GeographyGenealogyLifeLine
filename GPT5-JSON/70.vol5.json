@@ -1,0 +1,238 @@
+{
+  "FirstName": "Wilhelmus",
+  "LastName": "WILHELMIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "VAN INGEN",
+    "VAN INGHEN"
+  ],
+  "education": [
+    {
+      "subject": "Stud.Phil.",
+      "location": "Harderwijk",
+      "date": "1648-04-29",
+      "source": "24"
+    },
+    {
+      "subject": "Doct.Theol.",
+      "location": "Harderwijk",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Philosophie",
+      "location": "Hamm",
+      "date": "1663-05-05",
+      "source": "2,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Harderwijk",
+      "date": "1664-03-09",
+      "source": "2,a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Letteren",
+      "location": null,
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf Durgerdam",
+      "location": "Durgerdam",
+      "date": "1672",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school",
+      "location": "Dokkum",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1674-07-13",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1674-11-08",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1676-01-16",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Anticartesiaan, aanhanger Willem III",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1674",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 800",
+      "location": null,
+      "date": "1676",
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Gerharda",
+      "LastName": "KELDERS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a,b,2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1681-01-15",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "INGEN",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "HEERDINCKS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [
+        "Hendriksd."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Willem",
+      "LastName": "WILLEMS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wilhelmke",
+      "LastName": "WILLEMS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": null,
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "WILHELMIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1671-12-04",
+      "DeathDate": "1754-03-03",
+      "DeathCity": "Rotterdam"
+    },
+    {
+      "FirstName": "Cecilia",
+      "LastName": "WILHELMIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,a,c",
+      "second_names": [
+        "Hillegonda"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1674-10-03",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antony",
+      "LastName": "WILHELMIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "c",
+      "second_names": [
+        "Willem"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1676-09-13",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": null,
+  "type_of_person": 3,
+  "faculty": "Letteren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Zutphen",
+  "BirthDate": "1631-11-11",
+  "DeathDate": "1677-11-13",
+  "DeathCity": "Leiden"
+}

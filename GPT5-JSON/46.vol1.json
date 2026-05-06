@@ -1,0 +1,300 @@
+{
+  "FirstName": "Frederik",
+  "LastName": "SPANHEIM",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [
+    "Jr.",
+    "Friedrich"
+  ],
+  "alternative_last_names": [
+    "SPANHEIMUS"
+  ],
+  "education": [
+    {
+      "subject": "Gymnasium",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol. en Phil.",
+      "location": "Leiden",
+      "date": "1643-11-03",
+      "source": "8,17"
+    },
+    {
+      "subject": "Magister Phil.",
+      "location": "Leiden",
+      "date": "1648-10-17",
+      "source": "8"
+    },
+    {
+      "subject": "Artium Liberalium Mag.",
+      "location": "Leiden",
+      "date": "1651",
+      "source": "2"
+    },
+    {
+      "subject": "Proponent Waalse kerk",
+      "location": "Leiden",
+      "date": "1652",
+      "source": null
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1655",
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Phil.",
+      "location": "Leiden",
+      "date": "1655-04-27",
+      "source": "7"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Heidelberg",
+      "date": "1655-04",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. (oratie)",
+      "location": "Heidelberg",
+      "date": "1655-10-26",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Heidelberg",
+      "date": "1660",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1670-02-07",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewone Waalse Predikant",
+      "location": "Leiden",
+      "date": null,
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Kerkelijke Oudheden en Geschiedenis",
+      "location": "Leiden",
+      "date": "1671-01-12",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bibliothecaris",
+      "location": "Leiden",
+      "date": "1672-10-07",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1673",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1680",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor Primarius (zonder onderwijslastend)",
+      "location": "Leiden",
+      "date": "1684-08-28",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1687",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1692",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1685",
+      "source": "7",
+      "is_side_job": 1
+    },
+    {
+      "job": "Secr. Senaat",
+      "location": "Leiden",
+      "date": "1696",
+      "source": "7",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 2000",
+      "location": null,
+      "date": null,
+      "source": "35"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Bilderbeek",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1668",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Fay",
+      "Affix": "du",
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1679",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ursula",
+      "LastName": "Heimbach",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1683",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Friedrich",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Charlotte",
+      "LastName": "Port",
+      "Affix": "du",
+      "Gender": "Vrouw",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Wigand",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8",
+      "second_names": [
+        "Johannes W."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1620",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ren\u0000e9e",
+      "LastName": "Tossan",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "8",
+      "second_names": [],
+      "alternative_last_names": [
+        "Tonssaint",
+        "Toussain",
+        "Tossanus"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Frederik",
+      "LastName": "SPANHEIM",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Zwitserland",
+  "BirthCity": "Gen\u0000e8ve",
+  "BirthDate": "1632-05-01",
+  "DeathDate": "1704-05-18",
+  "DeathCity": "Leiden"
+}

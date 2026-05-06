@@ -1,0 +1,66 @@
+{
+  "FirstName": "Jacob",
+  "LastName": "WESTERHOVIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Doct. Med.",
+      "location": "Reims",
+      "date": null,
+      "source": "54"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Medicijnen",
+      "location": "Reims",
+      "date": null,
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Physica",
+      "location": "buiten Leiden",
+      "date": "1583",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Afgezet",
+      "location": "Leiden",
+      "date": "1584",
+      "source": "18",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 250",
+      "location": null,
+      "date": "1584",
+      "source": "54"
+    },
+    {
+      "particularity": "toestemming curatoren",
+      "location": "Leiden",
+      "date": "1583",
+      "source": "13"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

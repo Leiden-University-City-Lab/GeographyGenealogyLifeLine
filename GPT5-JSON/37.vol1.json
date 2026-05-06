@@ -1,0 +1,319 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "POLYANDER A KERKHOVEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "POLVANDER VAN KER(C)KHOVEN",
+    "POLTANDER"
+  ],
+  "education": [
+    {
+      "subject": "Lat. School",
+      "location": "Emden",
+      "date": null,
+      "source": "7"
+    },
+    {
+      "subject": "Phil. en Hebreeuws",
+      "location": "Bremen",
+      "date": "1582",
+      "source": "4"
+    },
+    {
+      "subject": "Theol. en Phil.",
+      "location": "Heidelberg",
+      "date": "1586-06-18",
+      "source": "21,23"
+    },
+    {
+      "subject": "Theol.",
+      "location": "Gen\u00e8ve",
+      "date": "1589",
+      "source": "21"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Dordrecht",
+      "date": "1619-01-17",
+      "source": "7"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Waalse predikant",
+      "location": "Dordrecht",
+      "date": "1591",
+      "source": "4",
+      "is_side_job": 0
+    },
+    {
+      "job": "Scholarch",
+      "location": "Dordrecht",
+      "date": "1592",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Logica en Ethica",
+      "location": "Dordrecht",
+      "date": "1598",
+      "source": "7",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Logica en Ethica",
+      "location": "Dordrecht",
+      "date": "1602",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1611-02-23",
+      "source": "21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waalse predikant",
+      "location": "Leiden",
+      "date": "1613-02",
+      "source": "42,21",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1613",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1617",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1627",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1628",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1635",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor Primarius",
+      "location": "Leiden",
+      "date": "1639",
+      "source": "35",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1640",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1645",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Opsteller statuten Waalse College",
+      "location": "Leiden",
+      "date": "1605",
+      "source": "38",
+      "is_side_job": 1
+    },
+    {
+      "job": "Permanent Lid Waalse Synode",
+      "location": null,
+      "date": null,
+      "source": "38",
+      "is_side_job": 1
+    },
+    {
+      "job": "Praeses Waalse Synode (23 maal)",
+      "location": null,
+      "date": null,
+      "source": "72",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lid Nationale Synode",
+      "location": "Dordrecht",
+      "date": "1618",
+      "source": "4",
+      "is_side_job": 1
+    },
+    {
+      "job": "Bijbelvertaler",
+      "location": null,
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Oratie als hoogleraar theologie",
+      "location": "Leiden",
+      "date": "1611-10-06",
+      "source": "14"
+    },
+    {
+      "particularity": "Salaris: f 1000 tractement; f 200 huishuur; f 100 emolumenten",
+      "location": null,
+      "date": null,
+      "source": "35"
+    },
+    {
+      "particularity": "Salaris gedurende meerdere jaren: f 1200 tractement; f 300 huishuur; f 200 extraordinarius",
+      "location": null,
+      "date": null,
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Judith",
+      "LastName": "NUYTS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7,b",
+      "second_names": [],
+      "alternative_last_names": [
+        "NUYS"
+      ],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "CARELSD.",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1649",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "POLYANDER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [
+        "'Jean' in Johannes (Jean)"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1535-09-09",
+      "DeathDate": "1598-10-08",
+      "DeathCity": "Emden"
+    },
+    {
+      "FirstName": "Christina",
+      "LastName": "VAN HOUTEN",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1587-10-30",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Livinus",
+      "LastName": "KERCKHOVE",
+      "Affix": "van den",
+      "Gender": "Man",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "CODDE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "7",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "POLYANDER A KERKHOVEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,a",
+      "second_names": [
+        "Polyander"
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Theologie",
+  "BirthCountry": "Belgi\u00eb",
+  "BirthCity": "Mets",
+  "BirthDate": "1568-03-28",
+  "DeathDate": "1646-02-04",
+  "DeathCity": "Leiden"
+}

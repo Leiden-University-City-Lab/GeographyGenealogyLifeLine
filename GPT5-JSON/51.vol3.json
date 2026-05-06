@@ -1,0 +1,545 @@
+{
+  "FirstName": "Johannes Ortwinus",
+  "LastName": "WESTENBERG",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "School",
+      "location": "Bentheim",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "School",
+      "location": "Lingen",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "Gymnasium Arnoldinum",
+      "location": "Steinfurt",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "subject": "Stud.",
+      "location": "Franeker",
+      "date": "1682-09-08",
+      "source": "11"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Harderwijk",
+      "date": "1684-11-29",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Harderwijk",
+      "date": "1687-10-07",
+      "source": "21"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Geschiedenis, Rhetorica en Rechten",
+      "location": "Steinfurt",
+      "date": "1688",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Harderwijk",
+      "date": "1694-12-08",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1696",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1704",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1714",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1716",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1716-12-03",
+      "source": "26b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1721",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1722",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten (Romeins en Hedendaags Burgerlijk Recht)",
+      "location": "Leiden",
+      "date": "1723-06-16",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1725",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1733",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De usuris (bij oom Jodocus van Gesseler)",
+      "location": null,
+      "date": null,
+      "source": "21,26b"
+    },
+    {
+      "particularity": "Aanbod Groningen afgewezen",
+      "location": "Groningen",
+      "date": "1726",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: f 600",
+      "location": null,
+      "date": "1694",
+      "source": "10"
+    },
+    {
+      "particularity": "Salaris: f 1000",
+      "location": null,
+      "date": "1716",
+      "source": "10"
+    },
+    {
+      "particularity": "Salaris: f 1500",
+      "location": null,
+      "date": "1720",
+      "source": "10"
+    },
+    {
+      "particularity": "Oratie",
+      "location": "Leiden",
+      "date": "1723-09-27",
+      "source": "25"
+    },
+    {
+      "particularity": "Wegens hoge leeftijd Burgerlijk Recht door een lector vervangen",
+      "location": "Leiden",
+      "date": "1733-03-14",
+      "source": "25"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Mathilde",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Duitsland",
+      "BirthCity": "Neuenhaus",
+      "BirthDate": null,
+      "DeathDate": "1698",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Gertrude",
+      "LastName": "WIT",
+      "Affix": "de",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1674-01-07",
+      "DeathDate": "1734-07-12",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johannes Ortwinus",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,18",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gertrude",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "PALTHE",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Aleijda",
+      "LastName": "LOHMAN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Harmen",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1638",
+      "DeathDate": "1713",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "CLOPPENBURCH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerhard",
+      "LastName": "WIT",
+      "Affix": "de",
+      "Gender": "Man",
+      "source": "a,c",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruid",
+      "LastName": "UPWICH",
+      "Affix": "van der",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Geertruid",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1717-07-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Margretha",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1717-07-05",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan Gerhard",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Harderwijk",
+      "BirthDate": "1713-08-20",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Aleid",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jan",
+      "LastName": "LOHMAN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ernst",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jodocus",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joost",
+      "LastName": "GESSELER",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alida",
+      "LastName": "ALSTORPHIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wijnand",
+      "LastName": "ALSTORPHIUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pieter",
+      "LastName": "MUSSCHENBROEK",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Ernst Willem",
+      "LastName": "WESTENBERG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "ALSTORPHIUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 3,
+  "faculty": "Rechten",
+  "BirthCountry": "Duitsland",
+  "BirthCity": "Neuenhaus",
+  "BirthDate": "1667-05-28",
+  "DeathDate": "1737-06-30",
+  "DeathCity": "Leiden"
+}
