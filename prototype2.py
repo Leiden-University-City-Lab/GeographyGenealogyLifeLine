@@ -2,13 +2,6 @@
 Life Paths v2 — Leiden University Professor Geography
 ======================================================
 Stack: Dash 4 · Mantine 2.7 · AG Grid · deck.gl · Cytoscape · Plotly
-
-Architecture
-------------
-DATA      Pure-Python loader → events_df, people_df (cached)
-LAYOUT    DMC AppShell (persistent navbar + scrollable main)
-STATE     Three dcc.Store: selection, year-range, hover
-CALLBACKS Grouped by concern; linked-brushing across all views
 """
 
 # ── Imports ───────────────────────────────────────────────────────────────────
