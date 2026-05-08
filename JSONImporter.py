@@ -46,7 +46,7 @@ def clean_text(value):
         return None
     if not isinstance(value, str):
         value = str(value)
-    value = value.strip()
+    value = value.replace("\x00", "").strip()
     return value or None
 
 
@@ -253,13 +253,13 @@ def add_event(lines, person_first, person_last, person_affix, person_alt,
     lines.append(
         "INSERT INTO event "
         "(person_id, location_id, event_type_id, begin_date, end_date, description, source_ref) "
-        "VALUES ("
+        "SELECT "
         f"(SELECT MIN(person_id) FROM person WHERE {person_w}), "
         f"{loc_expr}, "
         f"(SELECT event_type_id FROM event_type WHERE event_type_name = {sql_quote(event_type)}), "
         f"{sql_quote(begin_date)}, {sql_quote(end_date)}, "
-        f"{sql_quote(description)}, {sql_quote(source_ref)}"
-        ");"
+        f"{sql_quote(description)}, {sql_quote(source_ref)} "
+        f"WHERE (SELECT MIN(person_id) FROM person WHERE {person_w}) IS NOT NULL;"
     )
 
 
@@ -298,7 +298,9 @@ def add_relation(lines,
         f"(SELECT MIN(person_id) FROM person WHERE {rel_w}), "
         f"(SELECT relation_type_id FROM relation_type WHERE relation_type_name = {sql_quote(relation_type)}), "
         f"{sql_quote(source_ref)} "
-        "WHERE NOT EXISTS ("
+        f"WHERE (SELECT MIN(person_id) FROM person WHERE {prof_w}) IS NOT NULL "
+        f"  AND (SELECT MIN(person_id) FROM person WHERE {rel_w}) IS NOT NULL "
+        "  AND NOT EXISTS ("
         "  SELECT 1 FROM relation r "
         f" JOIN person p1 ON p1.person_id = r.person_id_1 AND {prof_w_alias} "
         f" JOIN person p2 ON p2.person_id = r.person_id_2 AND {rel_w_alias} "
