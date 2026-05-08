@@ -12,7 +12,7 @@ import dash
 from dash import Dash, dcc, html, Input, Output, State, ctx, ALL, no_update
 import dash_mantine_components as dmc
 import dash_ag_grid as dag
-from person_card_component.person_card import PersonCard
+from person_card_component.person_card import PersonCard  # kept for future use
 import numpy as np
 import plotly.graph_objects as go
 import pandas as pd
@@ -291,44 +291,64 @@ def filter_events(year_range=None, person_ids=None) -> pd.DataFrame:
     return df
 
 
+def _effective_year_range(year_range, anim: dict) -> list:
+    """Return effective [start, end] taking animation state into account."""
+    base_s, base_e = sorted(year_range or [YEAR_MIN, YEAR_MAX])
+    if not anim or not anim.get("active"):
+        return [base_s, base_e]
+    yr   = int(anim.get("year", base_s))
+    mode = anim.get("mode", "cumulative")
+    if mode == "snapshot":
+        return [yr, yr]
+    if mode == "window":
+        w = int(anim.get("window_size", 10))
+        return [max(base_s, yr - w), yr]
+    # cumulative (default)
+    return [base_s, yr]
+
+
 # ── Deck.gl map builder ───────────────────────────────────────────────────────
 
-def build_map(year_range, selected_ids, visible_types=None):
+def build_map(year_range, selected_ids, visible_types=None, focus_mode="all"):
     if not HAS_DECK or EVENTS_DF.empty:
         return {}
 
     visible_types = set(visible_types or EVENT_COLORS.keys())
-    df = filter_events(year_range)
+    df    = filter_events(year_range)
     s_ids = set(selected_ids or [])
     cmap  = sel_color_map(selected_ids)
+    # When no one selected, focus mode has no effect
+    active_focus = focus_mode if s_ids else "all"
 
     layers = []
 
     # ── Background paths (all people, low opacity) ────────────────────────────
-    bg_segs = []
-    for pid, pdf in df.groupby("person_id"):
-        if int(pid) in s_ids:
-            continue
-        pdf = pdf.sort_values(["date", "event_order"], na_position="last")
-        pts = [[float(r.lon), float(r.lat)] for r in pdf.itertuples()
-               if r.lon is not None]
-        if len(pts) < 2:
-            continue
-        for i in range(len(pts) - 1):
-            bg_segs.append({
-                "path":        [pts[i], pts[i + 1]],
-                "color":       [120, 120, 120, 30],
-                "person_id":   int(pid),
-                "person_name": str(pdf["person_name"].iloc[0]),
-                "tooltip":     str(pdf["person_name"].iloc[0]),
+    if active_focus != "hide":
+        bg_alpha = 8 if active_focus == "dim" else 30
+        bg_segs  = []
+        for pid, pdf in df.groupby("person_id"):
+            if int(pid) in s_ids:
+                continue
+            pdf = pdf.sort_values(["date", "event_order"], na_position="last")
+            pts = [[float(r.lon), float(r.lat)] for r in pdf.itertuples()
+                   if r.lon is not None]
+            if len(pts) < 2:
+                continue
+            for i in range(len(pts) - 1):
+                bg_segs.append({
+                    "path":        [pts[i], pts[i + 1]],
+                    "color":       [120, 120, 120, bg_alpha],
+                    "person_id":   int(pid),
+                    "person_name": str(pdf["person_name"].iloc[0]),
+                    "tooltip":     str(pdf["person_name"].iloc[0]),
+                })
+        if bg_segs:
+            layers.append({
+                "@@type": "PathLayer", "id": "bg-paths", "data": bg_segs,
+                "getPath": "@@=path", "getColor": "@@=color",
+                "getWidth": 2, "widthUnits": "pixels",
+                "pickable": True,
             })
-    if bg_segs:
-        layers.append({
-            "@@type": "PathLayer", "id": "bg-paths", "data": bg_segs,
-            "getPath": "@@=path", "getColor": "@@=color",
-            "getWidth": 2, "widthUnits": "pixels",
-            "pickable": True,
-        })
 
     # ── Selected people paths (bright, per-segment) ───────────────────────────
     for pid in s_ids:
@@ -356,7 +376,12 @@ def build_map(year_range, selected_ids, visible_types=None):
     for etype, grp in df.groupby("event_type"):
         if etype not in visible_types:
             continue
-        rgba = hex_rgba(EVENT_COLORS.get(etype, "#888"), 210)
+        if active_focus == "hide":
+            grp = grp[grp["person_id"].isin(s_ids)]
+            if grp.empty:
+                continue
+        base_alpha = 20 if active_focus == "dim" else 210
+        rgba = hex_rgba(EVENT_COLORS.get(etype, "#888"), base_alpha)
         data = [{
             "position":    [float(r.lon), float(r.lat)],
             "color":       hex_rgba(cmap.get(int(r.person_id), EVENT_COLORS.get(etype, "#888")), 240)
@@ -397,8 +422,9 @@ def build_map(year_range, selected_ids, visible_types=None):
 
 # ── Timeline chart ────────────────────────────────────────────────────────────
 
-def build_timeline(year_range=None, selected_ids=None):
+def build_timeline(year_range=None, selected_ids=None, focus_mode="all"):
     s, e = sorted(year_range) if year_range else (YEAR_MIN, YEAR_MAX)
+    active_focus = focus_mode if selected_ids else "all"
 
     # ── Per-person life-event chart when professors are selected ──────────────
     if selected_ids:
@@ -1030,6 +1056,85 @@ def _navbar():
 
                 dmc.Divider(),
 
+                # ── Animation player ───────────────────────────────────────
+                dmc.Stack(gap="xs", children=[
+                    dmc.Text("Animation", size="sm", fw=600),
+
+                    # Mode selector
+                    dmc.SegmentedControl(
+                        id="anim-mode",
+                        value="cumulative",
+                        size="xs",
+                        fullWidth=True,
+                        data=[
+                            {"value": "snapshot",   "label": "Snapshot"},
+                            {"value": "cumulative", "label": "Cumulative"},
+                            {"value": "window",     "label": "Window"},
+                        ],
+                    ),
+
+                    # Window size (shown only in Window mode)
+                    html.Div(
+                        id="anim-window-row",
+                        style={"display": "none"},
+                        children=[
+                            dmc.Text(id="anim-window-label",
+                                     children="Window  (10 yrs)",
+                                     size="xs", c="dimmed"),
+                            dmc.Slider(
+                                id="anim-window-size",
+                                min=1, max=50, step=1, value=10,
+                                styles={"root": {"paddingBottom": "16px"}},
+                            ),
+                        ],
+                    ),
+
+                    # Speed selector
+                    dmc.Group(gap="xs", children=[
+                        dmc.Text("Speed", size="xs", c="dimmed",
+                                 style={"whiteSpace": "nowrap"}),
+                        dmc.Select(
+                            id="anim-speed",
+                            value="800",
+                            size="xs",
+                            style={"flex": 1},
+                            data=[
+                                {"value": "2000", "label": "Slow"},
+                                {"value": "800",  "label": "Normal"},
+                                {"value": "400",  "label": "Fast"},
+                                {"value": "150",  "label": "Very fast"},
+                            ],
+                        ),
+                    ]),
+
+                    # Year display
+                    dmc.Text(id="anim-year-display",
+                             children="–",
+                             size="xs", c="dimmed", ta="center"),
+
+                    # Play / Pause / Stop buttons
+                    dmc.Group(gap="xs", justify="center", children=[
+                        dmc.Button(
+                            "▶ Play",
+                            id="anim-play-btn",
+                            size="xs",
+                            variant="filled",
+                            color="blue",
+                            style={"flex": 1},
+                        ),
+                        dmc.Button(
+                            "■ Stop",
+                            id="anim-stop-btn",
+                            size="xs",
+                            variant="outline",
+                            color="gray",
+                            style={"flex": 1},
+                        ),
+                    ]),
+                ]),
+
+                dmc.Divider(),
+
                 # Event type filter
                 dmc.Stack(gap="xs", children=[
                     dmc.Text("Show event types", size="sm", fw=600),
@@ -1059,6 +1164,22 @@ def _navbar():
                         ),
                     ], justify="space-between"),
                     html.Div(id="selection-chips"),
+
+                    # Focus mode — only meaningful when people are selected
+                    dmc.Stack(gap=4, children=[
+                        dmc.Text("Others", size="xs", c="dimmed"),
+                        dmc.SegmentedControl(
+                            id="focus-mode",
+                            value="all",
+                            size="xs",
+                            fullWidth=True,
+                            data=[
+                                {"value": "all",  "label": "Show"},
+                                {"value": "dim",  "label": "Dim"},
+                                {"value": "hide", "label": "Hide"},
+                            ],
+                        ),
+                    ]),
                 ]),
 
                 dmc.Divider(),
@@ -1186,96 +1307,21 @@ def _panel_copresence():
 
 
 def _panel_people():
-    faculties = (
-        sorted(PEOPLE_DF["faculty"].dropna().unique().tolist())
-        if not PEOPLE_DF.empty else []
-    )
     return html.Div(
         style={"display": "flex", "flexDirection": "column",
                "height": "calc(100vh - 74px)"},
         children=[
-            # ── Controls bar ──────────────────────────────────────────────────
-            html.Div(
-                style={
-                    "display": "flex", "gap": "10px", "alignItems": "center",
-                    "padding": "8px 14px", "background": "#f8f9fa",
-                    "borderBottom": "1px solid #e9ecef", "flexShrink": 0,
-                    "flexWrap": "wrap",
+            dag.AgGrid(
+                id="people-grid",
+                columnDefs=PEOPLE_COLS,
+                rowData=PEOPLE_DF.to_dict("records") if not PEOPLE_DF.empty else [],
+                defaultColDef={
+                    "sortable": True, "filter": True,
+                    "resizable": True, "floatingFilter": True,
                 },
-                children=[
-                    dmc.TextInput(
-                        id="people-search-input",
-                        placeholder="Search name…",
-                        style={"width": "200px"},
-                        size="sm",
-                        debounce=300,
-                    ),
-                    dmc.MultiSelect(
-                        id="people-fac-filter",
-                        data=[{"value": f, "label": f} for f in faculties],
-                        placeholder="All faculties",
-                        style={"width": "250px"},
-                        size="sm",
-                        clearable=True,
-                    ),
-                    dmc.Select(
-                        id="people-sort",
-                        data=[
-                            {"value": "name",       "label": "Name A→Z"},
-                            {"value": "birth_year", "label": "Birth year ↑"},
-                            {"value": "events",     "label": "# Events ↓"},
-                        ],
-                        value="name",
-                        style={"width": "145px"},
-                        size="sm",
-                    ),
-                    dmc.SegmentedControl(
-                        id="people-view-mode",
-                        value="cards",
-                        data=[
-                            {"value": "cards", "label": "Cards"},
-                            {"value": "table", "label": "Table"},
-                        ],
-                        size="sm",
-                    ),
-                    html.Span(
-                        id="people-card-count",
-                        style={"fontSize": "12px", "color": "#888", "marginLeft": "auto"},
-                    ),
-                ],
-            ),
-
-            # ── Card grid (default view) ───────────────────────────────────
-            html.Div(
-                id="people-cards-grid",
-                style={
-                    "flex": 1, "overflowY": "auto",
-                    "padding": "12px 16px",
-                    "display": "grid",
-                    "gridTemplateColumns": "repeat(auto-fill, minmax(320px, 1fr))",
-                    "gap": "8px",
-                    "alignContent": "start",
-                },
-            ),
-
-            # ── Table view (hidden by default) ────────────────────────────
-            html.Div(
-                id="people-table-container",
-                style={"flex": 1, "padding": "12px 16px", "display": "none"},
-                children=[
-                    dag.AgGrid(
-                        id="people-grid",
-                        columnDefs=PEOPLE_COLS,
-                        rowData=PEOPLE_DF.to_dict("records") if not PEOPLE_DF.empty else [],
-                        defaultColDef={
-                            "sortable": True, "filter": True,
-                            "resizable": True, "floatingFilter": True,
-                        },
-                        dashGridOptions={"rowSelection": "multiple", "animateRows": True},
-                        style={"height": "100%"},
-                        className="ag-theme-quartz",
-                    ),
-                ],
+                dashGridOptions={"rowSelection": "multiple", "animateRows": True},
+                style={"flex": 1, "width": "100%"},
+                className="ag-theme-quartz",
             ),
         ],
     )
@@ -1286,10 +1332,11 @@ def _panel_people():
 def build_sankey(year_range, selected_ids, faculty_filter,
                  event_type_filter, top_n, min_flow,
                  expanded_countries, trace_node,
-                 color_mode, arrangement):
+                 color_mode, arrangement, focus_mode="all"):
     yr = sorted(year_range or [YEAR_MIN, YEAR_MAX])
     expanded_countries = set(expanded_countries or [])
     selected_ids = list(map(int, selected_ids or []))
+    active_focus = focus_mode if selected_ids else "all"
 
     # 1. Filter events
     df = filter_events(yr, None)
@@ -1335,6 +1382,13 @@ def build_sankey(year_range, selected_ids, faculty_filter,
         return empty_fig("No location transitions found."), [], {}, {}
 
     flows_df = pd.DataFrame(raw_flows)
+
+    # When hiding unselected: restrict diagram to selected people's flows only
+    if active_focus == "hide" and selected_ids:
+        flows_df = flows_df[flows_df["person_id"].isin(selected_ids)]
+        if flows_df.empty:
+            return empty_fig("No flows for selected people."), [], {}, {}
+
     flows_agg = flows_df.groupby(["from", "to"]).size().reset_index(name="count")
 
     # 4. Top-N nodes by total volume
@@ -1435,7 +1489,7 @@ def build_sankey(year_range, selected_ids, faculty_filter,
         for _, r in unsel.iterrows():
             src, tgt = r["from"], r["to"]
             if src not in node_idx or tgt not in node_idx: continue
-            alpha = 0.12 if _link_active(src, tgt) else 0.03
+            alpha = (0.02 if active_focus == "dim" else 0.12) if _link_active(src, tgt) else 0.01
             _add_link(src, tgt, int(r["count"]), f"rgba(180,180,180,{alpha})")
         sel_pf = flows_df[flows_df["person_id"].isin(sel_set)].groupby(["from","to","person_id"]).size().reset_index(name="count")
         for _, r in sel_pf.iterrows():
@@ -1526,11 +1580,32 @@ def _arc_points(lat1: float, lon1: float, lat2: float, lon2: float,
     return lats.tolist(), lons.tolist()
 
 
+def _empty_flowmap(msg: str = "No flows in range"):
+    """Mapbox figure with carto-positron base but no data traces."""
+    fig = go.Figure()
+    fig.update_layout(
+        map=dict(style="carto-positron", center=dict(lat=52.2, lon=5.3), zoom=4),
+        margin=dict(l=0, r=0, t=40, b=0),
+        height=600,
+        showlegend=False,
+        uirevision="flowmap",
+        annotations=[dict(
+            text=msg, xref="paper", yref="paper",
+            x=0.5, y=0.05, showarrow=False,
+            font=dict(size=13, color="#555"),
+            bgcolor="rgba(255,255,255,0.75)",
+            bordercolor="#ccc", borderwidth=1, borderpad=6,
+        )],
+    )
+    return fig
+
+
 def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
-                  top_n, min_flow, expanded_countries, color_mode):
+                  top_n, min_flow, expanded_countries, color_mode, focus_mode="all"):
     yr = sorted(year_range or [YEAR_MIN, YEAR_MAX])
     expanded_countries = set(expanded_countries or [])
     selected_ids = list(map(int, selected_ids or []))
+    active_focus = focus_mode if selected_ids else "all"
 
     # 1. Filter events
     df = filter_events(yr, None)
@@ -1539,7 +1614,7 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
     if event_type_filter:
         df = df[df["event_type"].isin(event_type_filter)]
     if df.empty:
-        return empty_fig("No events in range."), [], {}
+        return _empty_flowmap("No events in range."), [], {}
 
     df = df.dropna(subset=["location"]).copy()
 
@@ -1569,9 +1644,16 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
                     "year_from": int(years[i]) if pd.notna(years[i]) else yr[0],
                 })
     if not raw_flows:
-        return empty_fig("No location transitions found."), [], {}
+        return _empty_flowmap("No location transitions found."), [], {}
 
-    flows_df  = pd.DataFrame(raw_flows)
+    flows_df = pd.DataFrame(raw_flows)
+
+    # When hiding unselected: restrict to selected people's flows only
+    if active_focus == "hide" and selected_ids:
+        flows_df = flows_df[flows_df["person_id"].isin(selected_ids)]
+        if flows_df.empty:
+            return _empty_flowmap("No flows for selected people."), [], {}
+
     flows_agg = flows_df.groupby(["from", "to"]).size().reset_index(name="count")
 
     # 4. Top-N + expand override
@@ -1597,7 +1679,7 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
         flows_df  = flows_df.merge(keep, on=["from","to"])
 
     if flows_agg.empty:
-        return empty_fig("No flows meet the minimum threshold."), [], {}
+        return _empty_flowmap("No flows meet the minimum threshold."), [], {}
 
     all_in_diagram = set(flows_agg["from"]) | set(flows_agg["to"])
     country_nodes  = sorted(all_in_diagram & _country_node_labels)
@@ -1612,7 +1694,7 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
     flows_df    = flows_df [flows_df ["from"].isin(has_coords) & flows_df ["to"].isin(has_coords)]
 
     if flows_agg.empty:
-        return empty_fig("No flows with known coordinates."), [], {}
+        return _empty_flowmap("No flows with known coordinates."), [], {}
 
     all_in_diagram = set(flows_agg["from"]) | set(flows_agg["to"])
     pid_to_name    = {r["person_id"]: r["name"] for r in PEOPLE}
@@ -1629,6 +1711,26 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
         slat, slon = node_coords[src]
         tlat, tlon = node_coords[tgt]
         arc_lats, arc_lons = _arc_points(slat, slon, tlat, tlon)
+
+        # V-shaped arrowhead appended to the same trace so it inherits colour/width.
+        # Placed at ~75 % along the arc so it's clear of the destination node.
+        _n  = len(arc_lats)
+        _hi = int(0.75 * (_n - 1))
+        _bi = max(0, _hi - 4)
+        _hlat, _hlon = arc_lats[_hi], arc_lons[_hi]
+        _dlat = _hlat - arc_lats[_bi]
+        _dlon = _hlon - arc_lons[_bi]
+        _dist = (_dlat**2 + _dlon**2) ** 0.5 or 1e-9
+        _ux, _uy = _dlat / _dist, _dlon / _dist   # unit tangent
+        _px, _py = -_uy, _ux                        # perpendicular
+        _arc_len = ((tlat - slat)**2 + (tlon - slon)**2) ** 0.5
+        _wing = max(0.10, min(0.45, _arc_len * 0.14))
+        _w1lat = _hlat - _wing * _ux + _wing * 0.45 * _px
+        _w1lon = _hlon - _wing * _uy + _wing * 0.45 * _py
+        _w2lat = _hlat - _wing * _ux - _wing * 0.45 * _px
+        _w2lon = _hlon - _wing * _uy - _wing * 0.45 * _py
+        arc_lats = arc_lats + [None, _w1lat, _hlat, None, _w2lat, _hlat]
+        arc_lons = arc_lons + [None, _w1lon, _hlon, None, _w2lon, _hlon]
 
         fkey = f"{src}|{tgt}"
         grp  = flows_df[(flows_df["from"] == src) & (flows_df["to"] == tgt)]
@@ -1652,13 +1754,13 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
 
         alpha = 0.10 + 0.75 * (cnt / max_count) ** 0.5
         if sel_set and grp[grp["person_id"].isin(sel_set)].empty:
-            alpha *= 0.2
+            alpha *= (0.04 if active_focus == "dim" else 0.2)
         h = color.lstrip("#")
         rgba = f"rgba({int(h[0:2],16)},{int(h[2:4],16)},{int(h[4:6],16)},{alpha:.2f})"
         lw   = 1.5 + 6 * (cnt / max_count) ** 0.5
 
         cd = [fkey, src, tgt, cnt]
-        arc_traces.append(go.Scattermapbox(
+        arc_traces.append(go.Scattermap(
             lat=arc_lats, lon=arc_lons,
             mode="lines",
             line=dict(width=lw, color=rgba),
@@ -1712,7 +1814,7 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
         for n in node_list
     ]
 
-    node_trace = go.Scattermapbox(
+    node_trace = go.Scattermap(
         lat=node_lats, lon=node_lons,
         mode="markers+text",
         marker=dict(size=node_sizes, color=node_colors, opacity=0.92),
@@ -1736,7 +1838,7 @@ def build_flowmap(year_range, selected_ids, faculty_filter, event_type_filter,
     fig = go.Figure(data=arc_traces + [node_trace])
     fig.update_layout(
         title=dict(text="  |  ".join(title_parts), font=dict(size=12)),
-        mapbox=dict(style="open-street-map", center=center, zoom=4),
+        map=dict(style="carto-positron", center=center, zoom=4),
         margin=dict(l=0, r=0, t=40, b=0),
         height=600,
         showlegend=False,
@@ -1757,9 +1859,23 @@ CAMERA_PRESETS = {
     "tlat": {"eye": {"x": 0,   "y": -2.5,"z": 0.3}},
 }
 
+# Marker shape and size per event type
+_CUBE_SYMBOLS = {
+    "birth":     "circle",
+    "education": "diamond",
+    "career":    "square",
+    "death":     "cross",
+}
+_CUBE_SIZES = {
+    "birth":     7,
+    "education": 5,
+    "career":    5,
+    "death":     8,
+}
+
 
 def build_cube(year_range, selected_ids, color_mode, type_filter,
-               show_proj, show_copresence, camera_preset):
+               show_proj, show_copresence, camera_preset, focus_mode="all"):
     yr = sorted(year_range or [YEAR_MIN, YEAR_MAX])
     cube_df = filter_events(yr, None)
     if cube_df.empty:
@@ -1768,130 +1884,216 @@ def build_cube(year_range, selected_ids, color_mode, type_filter,
     cube_df = cube_df.dropna(subset=["lat", "lon", "year"]).copy()
     cube_df["year_int"] = cube_df["year"].astype(int)
 
-    s_ids   = set(selected_ids or [])
-    cmap    = sel_color_map(selected_ids)
+    s_ids        = set(selected_ids or [])
+    cmap         = sel_color_map(selected_ids)
+    floor_z      = yr[0] - 10
+    active_focus = focus_mode if s_ids else "all"
 
     fig = go.Figure()
 
     # ── Layer A — background paths (unselected, batched with None separators) ──
     xs_bg, ys_bg, zs_bg = [], [], []
+    ht_bg = []  # hover text per point (None for gap points)
     for pid, pdf in cube_df[~cube_df["person_id"].isin(s_ids)].groupby("person_id"):
-        pdf = pdf.sort_values(["date", "event_order"], na_position="last")
+        pdf   = pdf.sort_values(["date", "event_order"], na_position="last")
+        pname = str(pdf["person_name"].iloc[0])
+        yr0   = int(pdf["year_int"].min())
+        yr1   = int(pdf["year_int"].max())
+        hover = f"<b>{pname}</b><br>{yr0}–{yr1}"
         if len(pdf) < 2:
             continue
-        xs_bg += list(pdf["lon"]) + [None]
-        ys_bg += list(pdf["lat"]) + [None]
-        zs_bg += list(pdf["year_int"]) + [None]
-    if xs_bg:
+        xs_bg  += list(pdf["lon"])   + [None]
+        ys_bg  += list(pdf["lat"])   + [None]
+        zs_bg  += list(pdf["year_int"]) + [None]
+        ht_bg  += [hover] * len(pdf) + [None]
+    if xs_bg and active_focus != "hide":
+        bg_opacity = 0.07 if active_focus == "dim" else 0.30
         fig.add_trace(go.Scatter3d(
             x=xs_bg, y=ys_bg, z=zs_bg,
             mode="lines",
-            line={"color": "#bdc3c7", "width": 1},
-            opacity=0.15,
-            hoverinfo="none",
+            line={"color": "#adb5bd", "width": 1.5},
+            opacity=bg_opacity,
+            text=ht_bg,
+            hovertemplate="%{text}<extra></extra>",
             showlegend=False,
-            name="_bg",
+            name="Paths",
         ))
 
     # ── Layer B — floor projection shadows ────────────────────────────────────
-    if show_proj:
-        floor_z = yr[0] - 10
+    if show_proj and active_focus != "hide":
         xs_fl, ys_fl, zs_fl = [], [], []
         for pid, pdf in cube_df[~cube_df["person_id"].isin(s_ids)].groupby("person_id"):
             pdf = pdf.sort_values(["date", "event_order"], na_position="last")
             if len(pdf) < 2:
                 continue
-            xs_fl += list(pdf["lon"]) + [None]
-            ys_fl += list(pdf["lat"]) + [None]
+            xs_fl += list(pdf["lon"])  + [None]
+            ys_fl += list(pdf["lat"])  + [None]
             zs_fl += [floor_z] * len(pdf) + [None]
         if xs_fl:
+            proj_opacity = 0.04 if active_focus == "dim" else 0.12
             fig.add_trace(go.Scatter3d(
                 x=xs_fl, y=ys_fl, z=zs_fl,
                 mode="lines",
                 line={"color": "#95a5a6", "width": 1},
-                opacity=0.12,
+                opacity=proj_opacity,
                 hoverinfo="none",
                 showlegend=False,
                 name="_proj",
             ))
 
-    # ── Layer C — event markers (one trace per event type in type_filter) ─────
+    # ── Layer B2 — vertical pillars (event → floor) ───────────────────────────
+    if show_proj and active_focus != "hide":
+        xs_pl, ys_pl, zs_pl = [], [], []
+        for _, row in cube_df[~cube_df["person_id"].isin(s_ids)].iterrows():
+            xs_pl += [row["lon"], row["lon"], None]
+            ys_pl += [row["lat"], row["lat"], None]
+            zs_pl += [row["year_int"], floor_z,     None]
+        if xs_pl:
+            pill_opacity = 0.05 if active_focus == "dim" else 0.18
+            fig.add_trace(go.Scatter3d(
+                x=xs_pl, y=ys_pl, z=zs_pl,
+                mode="lines",
+                line={"color": "#ced4da", "width": 0.8},
+                opacity=pill_opacity,
+                hoverinfo="none",
+                showlegend=False,
+                name="_pillars",
+            ))
+
+    # ── Layer C — event markers (distinct shape per event type) ───────────────
     type_filter = list(type_filter or EVENT_COLORS.keys())
     for etype in type_filter:
         sub = cube_df[cube_df["event_type"] == etype]
         if sub.empty:
             continue
 
-        if color_mode == "event":
-            marker_colors = EVENT_COLORS.get(etype, "#888")
-        elif color_mode == "faculty":
-            marker_colors = [
-                FACULTY_COLORS.get(fac, FACULTY_COLORS_DEFAULT)
-                for fac in sub["faculty"]
-            ]
-        else:  # person
-            marker_colors = [
-                cmap.get(int(pid), "#aaa") for pid in sub["person_id"]
-            ]
+        sym = _CUBE_SYMBOLS.get(etype, "circle")
+        sz  = _CUBE_SIZES.get(etype, 5)
 
-        fig.add_trace(go.Scatter3d(
-            x=sub["lon"],
-            y=sub["lat"],
-            z=sub["year_int"],
-            mode="markers",
-            marker={"size": 5, "color": marker_colors, "opacity": 0.85},
-            text=sub["person_name"] + " · " + sub["location"],
-            customdata=sub["person_id"],
-            hovertemplate="<b>%{text}</b><br>%{z}<extra></extra>",
-            name=etype.title(),
-            legendgroup=etype,
-        ))
+        # Split into selected vs unselected for independent opacity
+        for is_sel in ([True, False] if s_ids else [False]):
+            if is_sel:
+                chunk = sub[sub["person_id"].isin(s_ids)]
+            else:
+                if active_focus == "hide":
+                    continue
+                chunk = sub[~sub["person_id"].isin(s_ids)]
+            if chunk.empty:
+                continue
 
-    # ── Layer D — selected professor paths (one trace per person) ─────────────
+            if color_mode == "event":
+                mc = EVENT_COLORS.get(etype, "#888")
+            elif color_mode == "faculty":
+                mc = [FACULTY_COLORS.get(fac, FACULTY_COLORS_DEFAULT)
+                      for fac in chunk["faculty"]]
+            else:
+                mc = [cmap.get(int(p), "#aaa") for p in chunk["person_id"]]
+
+            opacity = 0.85 if is_sel else (0.12 if active_focus == "dim" else 0.82)
+            fig.add_trace(go.Scatter3d(
+                x=chunk["lon"], y=chunk["lat"], z=chunk["year_int"],
+                mode="markers",
+                marker=dict(
+                    size=sz, symbol=sym, color=mc,
+                    opacity=opacity,
+                    line=dict(color="white", width=0.5),
+                ),
+                text=chunk["person_name"] + " · " + chunk["location"],
+                customdata=chunk["person_id"],
+                hovertemplate=(
+                    f"<b>{etype.title()}</b><br>"
+                    "%{text}<br>%{z}<extra></extra>"
+                ),
+                name=etype.title(),
+                legendgroup=etype,
+                showlegend=not is_sel,
+            ))
+
+    # ── Layer D — selected professor paths ────────────────────────────────────
     for pid in selected_ids or []:
         pdf = cube_df[cube_df["person_id"] == pid].sort_values(
             ["date", "event_order"], na_position="last"
         )
-        if len(pdf) < 2:
+        if pdf.empty:
             continue
         color = cmap.get(int(pid), "#7f8c8d")
         pname = str(pdf["person_name"].iloc[0])
 
         # Shared-location keys for other selected people (gold segment highlight)
         others_df = cube_df[cube_df["person_id"].isin(s_ids - {pid})]
-        loc_keys = set(
-            zip(others_df["lat"].round(3), others_df["lon"].round(3))
-        )
+        loc_keys  = set(zip(others_df["lat"].round(3), others_df["lon"].round(3)))
 
-        # Batch same-colour consecutive segments (avoids one trace per segment)
-        pts = list(pdf[["lon", "lat", "year_int"]].itertuples(index=False, name=None))
-        gold = "#f1c40f"
-        # group consecutive segments by color
-        batches: dict = {}  # color -> (xs, ys, zs)
-        for i in range(len(pts) - 1):
-            a, b = pts[i], pts[i + 1]
-            a_key = (round(float(a[1]), 3), round(float(a[0]), 3))
-            b_key = (round(float(b[1]), 3), round(float(b[0]), 3))
-            seg_c = gold if (a_key in loc_keys and b_key in loc_keys) else color
-            if seg_c not in batches:
-                batches[seg_c] = ([], [], [])
-            batches[seg_c][0].extend([a[0], b[0], None])
-            batches[seg_c][1].extend([a[1], b[1], None])
-            batches[seg_c][2].extend([a[2], b[2], None])
+        # ── D1: path line (segment-batched, with gold co-presence highlight) ──
+        if len(pdf) >= 2:
+            pts = list(pdf[["lon", "lat", "year_int"]].itertuples(index=False, name=None))
+            gold    = "#f1c40f"
+            batches: dict = {}
+            for i in range(len(pts) - 1):
+                a, b  = pts[i], pts[i + 1]
+                a_key = (round(float(a[1]), 3), round(float(a[0]), 3))
+                b_key = (round(float(b[1]), 3), round(float(b[0]), 3))
+                seg_c = gold if (a_key in loc_keys and b_key in loc_keys) else color
+                batches.setdefault(seg_c, ([], [], []))
+                batches[seg_c][0].extend([a[0], b[0], None])
+                batches[seg_c][1].extend([a[1], b[1], None])
+                batches[seg_c][2].extend([a[2], b[2], None])
 
-        first = True
-        for seg_c, (bx, by, bz) in batches.items():
+            first = True
+            for seg_c, (bx, by, bz) in batches.items():
+                fig.add_trace(go.Scatter3d(
+                    x=bx, y=by, z=bz,
+                    mode="lines",
+                    line={"color": seg_c, "width": 5 if seg_c != gold else 7},
+                    opacity=1.0,
+                    hoverinfo="none",
+                    showlegend=first,
+                    legendgroup=f"sel-{pid}",
+                    name=pname,
+                ))
+                first = False
+
+        # ── D2: vertical pillars for this person ─────────────────────────────
+        if show_proj:
+            xp, yp, zp = [], [], []
+            for _, row in pdf.iterrows():
+                xp += [row["lon"], row["lon"], None]
+                yp += [row["lat"], row["lat"], None]
+                zp += [row["year_int"], floor_z, None]
             fig.add_trace(go.Scatter3d(
-                x=bx, y=by, z=bz,
+                x=xp, y=yp, z=zp,
                 mode="lines",
-                line={"color": seg_c, "width": 5 if seg_c != gold else 7},
-                opacity=1.0,
+                line={"color": color, "width": 1},
+                opacity=0.35,
                 hoverinfo="none",
-                showlegend=first,
+                showlegend=False,
                 legendgroup=f"sel-{pid}",
-                name=pname,
             ))
-            first = False
+
+        # ── D3: event markers + year labels on the path ───────────────────────
+        hover_pts = [
+            f"<b>{pname}</b><br>{et.title()} · {yr}<br>{loc}"
+            for et, yr, loc in zip(
+                pdf["event_type"], pdf["year_int"], pdf["location"]
+            )
+        ]
+        fig.add_trace(go.Scatter3d(
+            x=pdf["lon"], y=pdf["lat"], z=pdf["year_int"],
+            mode="markers+text",
+            marker=dict(
+                size=[_CUBE_SIZES.get(et, 5) * 1.8 for et in pdf["event_type"]],
+                symbol=[_CUBE_SYMBOLS.get(et, "circle") for et in pdf["event_type"]],
+                color=color,
+                opacity=1.0,
+                line=dict(color="white", width=1.5),
+            ),
+            text=[str(y) for y in pdf["year_int"]],
+            textposition="top center",
+            textfont=dict(size=9, color=color),
+            hovertemplate="%{customdata}<extra></extra>",
+            customdata=hover_pts,
+            showlegend=False,
+            legendgroup=f"sel-{pid}",
+        ))
 
     # ── Layer E — co-presence markers ─────────────────────────────────────────
     if show_copresence:
@@ -1912,13 +2114,13 @@ def build_cube(year_range, selected_ids, color_mode, type_filter,
             fig.add_trace(go.Scatter3d(
                 x=co_df["lon"], y=co_df["lat"], z=co_df["year"],
                 mode="markers",
-                marker={
-                    "symbol": "diamond",
-                    "size": (co_df["n"] * 3).clip(upper=20).tolist(),
-                    "color": "#f1c40f",
-                    "opacity": 0.9,
-                    "line": {"color": "#e67e22", "width": 1},
-                },
+                marker=dict(
+                    symbol="diamond",
+                    size=(co_df["n"] * 3).clip(upper=20).tolist(),
+                    color="#f1c40f",
+                    opacity=0.9,
+                    line=dict(color="#e67e22", width=1),
+                ),
                 text=co_df["names"],
                 hovertemplate="Co-presence: %{text}<extra></extra>",
                 name="Co-presence",
@@ -1929,17 +2131,106 @@ def build_cube(year_range, selected_ids, color_mode, type_filter,
     fig.update_layout(
         template="plotly_white",
         margin={"l": 0, "r": 0, "t": 0, "b": 0},
-        uirevision=camera_preset,  # change when preset changes to override saved camera
+        uirevision=camera_preset,
         scene=dict(
-            xaxis=dict(title="Longitude", gridcolor="#eee"),
-            yaxis=dict(title="Latitude",  gridcolor="#eee"),
-            zaxis=dict(title="Year",      gridcolor="#eee"),
-            bgcolor="#f8f9fa",
+            xaxis=dict(title="Longitude",  gridcolor="#e9ecef", showbackground=True,
+                       backgroundcolor="#f8f9fa"),
+            yaxis=dict(title="Latitude",   gridcolor="#e9ecef", showbackground=True,
+                       backgroundcolor="#f1f3f5"),
+            zaxis=dict(title="Year",       gridcolor="#e9ecef", showbackground=True,
+                       backgroundcolor="#f8f9fa"),
+            bgcolor="#fff",
             aspectmode="manual",
             aspectratio={"x": 1.2, "y": 1.0, "z": 1.4},
             camera=CAMERA_PRESETS.get(camera_preset, CAMERA_PRESETS["3d"]),
         ),
         legend=dict(orientation="h", y=-0.02, font={"size": 11}),
+    )
+    return fig
+
+
+def build_cube_map(year_range, selected_ids, focus_mode="all"):
+    """2D Scattergeo companion map for the Space-Time Cube."""
+    df = filter_events(year_range)
+    s_ids = set(map(int, selected_ids or []))
+    active_focus = focus_mode if s_ids else "all"
+    cmap = sel_color_map(list(s_ids))
+
+    fig = go.Figure()
+
+    # Unselected background events
+    if active_focus != "hide":
+        bg = df[~df["person_id"].isin(s_ids)].dropna(subset=["lat", "lon"])
+        if not bg.empty:
+            opacity = 0.12 if active_focus == "dim" else 0.40
+            fig.add_trace(go.Scattergeo(
+                lat=bg["lat"], lon=bg["lon"],
+                mode="markers",
+                marker=dict(size=4, color="#adb5bd", opacity=opacity),
+                hoverinfo="skip",
+                showlegend=False,
+                name="",
+            ))
+
+    # Selected person paths
+    for pid in s_ids:
+        pdf = df[df["person_id"] == pid].dropna(subset=["lat", "lon"]).sort_values("year")
+        if pdf.empty:
+            continue
+        color = cmap.get(int(pid), "#7f8c8d")
+        name_val = pdf.iloc[0].get("name", f"Person {pid}") if "name" in pdf.columns else f"Person {pid}"
+        # Path line
+        fig.add_trace(go.Scattergeo(
+            lat=pdf["lat"], lon=pdf["lon"],
+            mode="lines+markers",
+            line=dict(color=color, width=1.5),
+            marker=dict(
+                size=[_CUBE_SIZES.get(str(et), 5) * 1.4 for et in pdf["event_type"]],
+                color=color,
+                symbol="circle",
+                opacity=0.85,
+            ),
+            hovertemplate=(
+                "<b>%{customdata[0]}</b><br>"
+                "%{customdata[1]} · %{customdata[2]}<br>"
+                "%{lat:.2f}, %{lon:.2f}<extra></extra>"
+            ),
+            customdata=list(zip(
+                pdf["name"].fillna(f"Person {pid}") if "name" in pdf.columns else [f"Person {pid}"] * len(pdf),
+                pdf["event_type"].fillna(""),
+                pdf["year"].fillna("").astype(str),
+            )),
+            name=name_val,
+            showlegend=True,
+        ))
+
+    # Geo layout
+    lats = df["lat"].dropna()
+    lons = df["lon"].dropna()
+    if not lats.empty:
+        pad = 3.0
+        lat_min, lat_max = float(lats.min()) - pad, float(lats.max()) + pad
+        lon_min, lon_max = float(lons.min()) - pad, float(lons.max()) + pad
+    else:
+        lat_min, lat_max, lon_min, lon_max = 40, 65, -10, 30
+
+    fig.update_layout(
+        geo=dict(
+            showland=True, landcolor="#f0ede8",
+            showocean=True, oceancolor="#d6eaf8",
+            showcoastlines=True, coastlinecolor="#aaa",
+            showcountries=True, countrycolor="#ccc",
+            showlakes=True, lakecolor="#d6eaf8",
+            showrivers=True, rivercolor="#d6eaf8",
+            projection_type="mercator",
+            lataxis_range=[lat_min, lat_max],
+            lonaxis_range=[lon_min, lon_max],
+        ),
+        margin=dict(l=0, r=0, t=0, b=0),
+        height=210,
+        showlegend=bool(s_ids),
+        legend=dict(orientation="h", y=1.02, font=dict(size=10)),
+        uirevision="cube-geomap",
     )
     return fig
 
@@ -2004,6 +2295,12 @@ def _panel_cube():
                     "modeBarButtonsToRemove": ["toImage"],
                     "scrollZoom": True, "responsive": True},
             style={"flex": 1},
+        ),
+        # 2D geographic companion map
+        dcc.Graph(
+            id="cube-geomap",
+            config=GRAPH_CONFIG,
+            style={"height": "220px", "flexShrink": 0},
         ),
     ])
 
@@ -2189,12 +2486,650 @@ def _panel_flowmap():
     )
 
 
+# ── Experimental Flow Map ────────────────────────────────────────────────────
+#
+# Techniques (all toggleable):
+#   • Line type       — Straight / Cubic-Bézier / Great-circle geodesic
+#   • Edge bundling   — Off / FDEB (Holten & van Wijk 2009) / Hierarchical (faculty hubs)
+#   • Directed arrows — dot marker at destination
+#   • Semantic zoom   — manual slider or auto-adjust from map viewport
+#   • Color           — uniform / faculty / count gradient
+
+
+def _great_circle_pts(lat1, lon1, lat2, lon2, n=50):
+    """Points along the great-circle arc between two coordinates."""
+    la1, lo1, la2, lo2 = np.radians([lat1, lon1, lat2, lon2])
+    cos_d = np.clip(np.sin(la1)*np.sin(la2) + np.cos(la1)*np.cos(la2)*np.cos(lo2-lo1), -1, 1)
+    d = np.arccos(cos_d)
+    if d < 1e-9:
+        return [lat1]*n, [lon1]*n
+    t  = np.linspace(0, 1, n)
+    A  = np.sin((1-t)*d) / np.sin(d)
+    B  = np.sin(t*d)     / np.sin(d)
+    x  = A*np.cos(la1)*np.cos(lo1) + B*np.cos(la2)*np.cos(lo2)
+    y  = A*np.cos(la1)*np.sin(lo1) + B*np.cos(la2)*np.sin(lo2)
+    z  = A*np.sin(la1)              + B*np.sin(la2)
+    return (np.degrees(np.arctan2(z, np.sqrt(x**2+y**2))).tolist(),
+            np.degrees(np.arctan2(y, x)).tolist())
+
+
+def _bezier_pts(lat1, lon1, lat2, lon2, n=50, curvature=0.22):
+    """
+    Cubic Bézier arc: two control points placed at 1/3 and 2/3 of the chord,
+    offset perpendicularly by a fraction of the chord length.
+    Produces smoother, more geographic-looking curves than the quadratic version.
+    """
+    t    = np.linspace(0, 1, n)
+    dlat, dlon = lat2 - lat1, lon2 - lon1
+    dist = (dlat**2 + dlon**2)**0.5 or 1
+    perp_lat, perp_lon = -dlon / dist, dlat / dist      # CCW perpendicular unit vector
+    off = curvature * dist
+    c1lat = lat1 + dlat / 3 + off * perp_lat
+    c1lon = lon1 + dlon / 3 + off * perp_lon
+    c2lat = lat1 + 2*dlat / 3 + off * 0.85 * perp_lat
+    c2lon = lon1 + 2*dlon / 3 + off * 0.85 * perp_lon
+    lats = (1-t)**3*lat1 + 3*(1-t)**2*t*c1lat + 3*(1-t)*t**2*c2lat + t**3*lat2
+    lons = (1-t)**3*lon1 + 3*(1-t)**2*t*c1lon + 3*(1-t)*t**2*c2lon + t**3*lon2
+    return lats.tolist(), lons.tolist()
+
+
+def _fdeb(edge_endpoints, strength=0.5, n_cycles=3, n_iter=15, ks=0.05):
+    """
+    Holten & van Wijk (2009) Force-Directed Edge Bundling.
+
+    Algorithm:
+      1. Pre-compute pairwise compatibility: angle × scale × position.
+      2. Start with edges as straight 2-point segments.
+      3. Each cycle: subdivide (double interior points) then run n_iter force steps.
+         Spring forces hold adjacent control points together (prevents collapse).
+         Electrostatic forces pull compatible edges toward each other.
+      4. Endpoints are always kept fixed.
+
+    edge_endpoints : [(slat, slon, dlat, dlon), ...]
+    strength       : 0-1 global bundling pull multiplier
+    n_cycles       : subdivision cycles (more → tighter bundles, slower)
+    n_iter         : gradient-descent steps per cycle
+    ks             : spring stiffness constant
+    """
+    n = len(edge_endpoints)
+    if n < 2 or strength < 0.01:
+        return [(np.linspace(ep[0], ep[2], 9).tolist(),
+                 np.linspace(ep[1], ep[3], 9).tolist())
+                for ep in edge_endpoints]
+
+    eps   = np.array(edge_endpoints, dtype=float)      # (n, 4)
+    s_pts = eps[:, :2]                                  # (n, 2) starts
+    d_pts = eps[:, 2:]                                  # (n, 2) ends
+    vecs  = d_pts - s_pts                               # (n, 2)
+    lens  = np.linalg.norm(vecs, axis=1).clip(1e-9)    # (n,)
+    dirs  = vecs / lens[:, None]                        # (n, 2) unit dirs
+    mids  = (s_pts + d_pts) / 2                         # (n, 2) midpoints
+
+    # ── Compatibility matrix (angle × scale × position) ──────────────────────
+    Ca   = np.abs(dirs @ dirs.T)                        # (n, n) — |cos θ|
+    lavg = (lens[:, None] + lens[None, :]) / 2
+    lmin = np.minimum(lens[:, None], lens[None, :])
+    lmax = np.maximum(lens[:, None], lens[None, :])
+    Cs   = 2 / (lavg / lmin + lavg / lmax)             # harmonic scale ratio
+    d_m  = np.linalg.norm(mids[:, None, :] - mids[None, :, :], axis=2)
+    Cp   = lavg / (lavg + d_m)                         # position closeness
+    C    = Ca * Cs * Cp
+    np.fill_diagonal(C, 0)
+    C[C < 0.4] = 0                                      # prune weak pairs
+
+    # ── Initialize: (n, 2, 2) — just start and end ───────────────────────────
+    pts   = np.stack([s_pts, d_pts], axis=1).copy().astype(float)
+    step0 = 0.04 * strength
+
+    for cycle in range(n_cycles):
+        # Subdivide: linear interpolation doubles interior resolution
+        n_old = pts.shape[1]
+        t_new = np.linspace(0, 1, n_old * 2 - 1)
+        t_old = np.linspace(0, 1, n_old)
+        new_lat = np.array([np.interp(t_new, t_old, pts[i, :, 0]) for i in range(n)])
+        new_lon = np.array([np.interp(t_new, t_old, pts[i, :, 1]) for i in range(n)])
+        pts     = np.stack([new_lat, new_lon], axis=2)  # (n, n_ctrl, 2)
+
+        cur_step = step0 / (2 ** cycle)
+        cur_ks   = ks   / (2 ** cycle)
+
+        for _ in range(n_iter):
+            F = np.zeros_like(pts)
+            # Spring: pull each interior point toward both neighbors
+            F[:, 1:-1] += cur_ks * (
+                pts[:, :-2, :] - pts[:, 1:-1, :] +
+                pts[:,  2:, :] - pts[:, 1:-1, :]
+            )
+            # Electrostatic: compatible edges pull corresponding control points
+            for i in range(n):
+                w = C[i]
+                mask = w > 0
+                if not mask.any():
+                    continue
+                wk     = w[mask][:, None, None]        # (k, 1, 1)
+                pull   = (wk * (pts[mask] - pts[i])).sum(axis=0)  # (n_ctrl, 2)
+                F[i, 1:-1] += pull[1:-1]
+            pts[:, 1:-1] += cur_step * F[:, 1:-1]
+
+    return [(pts[i, :, 0].tolist(), pts[i, :, 1].tolist()) for i in range(n)]
+
+
+def _hierarchical_bundle(edge_endpoints, faculty_list, faculty_centroids, strength=0.5):
+    """
+    Hierarchical edge bundling via faculty geographic hubs.
+
+    Each flow is re-routed as a quadratic Bézier through the centroid of all
+    events belonging to the flow's dominant faculty.  Flows with the same
+    faculty naturally converge; strength blends between direct and hub-routed.
+
+    faculty_centroids : {faculty_name: (lat, lon)}
+    """
+    t     = np.linspace(0, 1, 50)
+    paths = []
+    for (slat, slon, dlat, dlon), fac in zip(edge_endpoints, faculty_list):
+        hub = faculty_centroids.get(fac) if fac else None
+        if hub is None:
+            paths.append(_bezier_pts(slat, slon, dlat, dlon))
+            continue
+        hlat, hlon = hub
+        hub_lats = (1-t)**2 * slat + 2*(1-t)*t * hlat + t**2 * dlat
+        hub_lons = (1-t)**2 * slon + 2*(1-t)*t * hlon + t**2 * dlon
+        if strength < 1.0:
+            dl, dln = np.array(_bezier_pts(slat, slon, dlat, dlon))
+            hub_lats = strength * hub_lats + (1 - strength) * dl
+            hub_lons = strength * hub_lons + (1 - strength) * dln
+        paths.append((hub_lats.tolist(), hub_lons.tolist()))
+    return paths
+
+
+def _viewport_semantic_pct(relayout_data):
+    """Derive an automatic semantic threshold from the current map viewport span."""
+    if not relayout_data:
+        return None
+    lat_r = relayout_data.get("geo.lataxis.range")
+    lon_r = relayout_data.get("geo.lonaxis.range")
+    if not (lat_r and lon_r):
+        return None
+    span = max(abs(lat_r[1] - lat_r[0]), abs(lon_r[1] - lon_r[0]))
+    # Zoomed out (span≥60°) → 70% threshold; zoomed in (span≤5°) → 0%
+    return max(0, min(70, int((span - 5) * 70 / 55)))
+
+
+TEMPORAL_PALETTE = ["#3a86ff", "#4cc9f0", "#06d6a0", "#ffd166", "#ef476f"]
+
+
+def _temporal_color(bin_idx, n_bins):
+    """Interpolated color across TEMPORAL_PALETTE for a given temporal bin index."""
+    t  = bin_idx / max(n_bins - 1, 1)
+    p  = t * (len(TEMPORAL_PALETTE) - 1)
+    lo = int(p)
+    hi = min(lo + 1, len(TEMPORAL_PALETTE) - 1)
+    f  = p - lo
+    def _h(h): return [int(h.lstrip("#")[i:i+2], 16) for i in (0, 2, 4)]
+    c0, c1 = _h(TEMPORAL_PALETTE[lo]), _h(TEMPORAL_PALETTE[hi])
+    r, g, b = (int(c0[i] + f*(c1[i]-c0[i])) for i in range(3))
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+
+def _temporal_bundle(edge_endpoints, year_per_flow, n_bins=5, strength=0.5):
+    """
+    Temporal edge bundling: run FDEB independently within each time period.
+
+    Flows in different eras are never merged together, so temporal patterns
+    (e.g. early-career vs late-career migration routes) are preserved.
+    Each returned path belongs to a numbered bin used for color encoding.
+
+    Returns (paths, bin_indices).
+    """
+    n = len(edge_endpoints)
+    if n == 0:
+        return [], []
+
+    y       = np.array(year_per_flow, dtype=float)
+    y_min, y_max = y.min(), y.max()
+    span    = max(y_max - y_min, 1)
+    bin_idx = np.floor((y - y_min) / span * n_bins).clip(0, n_bins - 1).astype(int)
+
+    all_paths = [None] * n
+    for b in range(n_bins):
+        sel = np.where(bin_idx == b)[0]
+        if len(sel) == 0:
+            continue
+        sub_eps   = [edge_endpoints[i] for i in sel]
+        sub_paths = _fdeb(sub_eps, strength=strength, n_cycles=2, n_iter=10)
+        for j, i in enumerate(sel):
+            all_paths[i] = sub_paths[j]
+
+    for i in range(n):
+        if all_paths[i] is None:
+            ep = edge_endpoints[i]
+            all_paths[i] = (np.linspace(ep[0], ep[2], 9).tolist(),
+                            np.linspace(ep[1], ep[3], 9).tolist())
+
+    return all_paths, bin_idx.tolist()
+
+
+def build_expflowmap(year_range, selected_ids,
+                     line_type="bezier",
+                     bundling_mode="off", bundling_strength=0.5,
+                     show_arrows=True,
+                     semantic_pct=0,
+                     top_n=20, min_flow=1,
+                     color_mode="uniform",
+                     faculty_filter=None,
+                     expanded_countries=None,
+                     n_time_bins=5):
+    yr = sorted(year_range or [YEAR_MIN, YEAR_MAX])
+    selected_ids = list(map(int, selected_ids or []))
+    sel_set      = set(selected_ids)
+    cmap         = sel_color_map(selected_ids)
+
+    # ── 1. Filter events and build flows ─────────────────────────────────────
+    df = filter_events(yr)
+    if faculty_filter:
+        df = df[df["faculty"].isin(faculty_filter)]
+    df = df.dropna(subset=["location"]).copy()
+    if df.empty:
+        return empty_fig("No events in range.", 600), []
+
+    # Node labels with country expansion support
+    expanded_set    = set(expanded_countries or [])
+    _lr             = df.apply(lambda r: _sankey_node_label(r["location"], r["country"], expanded_set), axis=1)
+    df["node"]      = _lr.apply(lambda t: t[0])
+    _country_labels = {t[0] for t in _lr if t[1]}
+
+    raw_flows = []
+    for pid, pdf in df.sort_values(["date","event_order"], na_position="last").groupby("person_id"):
+        pdf   = pdf.reset_index(drop=True)
+        pname = str(pdf["person_name"].iloc[0])
+        fac   = str(pdf["faculty"].iloc[0]) if pd.notna(pdf["faculty"].iloc[0]) else ""
+        nodes = pdf["node"].tolist()
+        years = pdf["year"].tolist()
+        for i in range(len(nodes)-1):
+            s, t_ = nodes[i], nodes[i+1]
+            if s and t_ and s != t_:
+                raw_flows.append({"from": s, "to": t_,
+                                   "person_id": int(pid), "person_name": pname,
+                                   "faculty": fac,
+                                   "year_from": int(years[i]) if pd.notna(years[i]) else yr[0]})
+    if not raw_flows:
+        return empty_fig("No location transitions found.", 600), []
+
+    flows_df  = pd.DataFrame(raw_flows)
+    flows_agg = (
+        flows_df.groupby(["from", "to"])
+        .agg(count=("person_id", "count"), year_med=("year_from", "median"))
+        .reset_index()
+    )
+
+    # ── 2. Top-N + min-flow ──────────────────────────────────────────────────
+    vol = (pd.concat([
+        flows_agg[["from","count"]].rename(columns={"from":"city"}),
+        flows_agg[["to","count"]].rename(columns={"to":"city"}),
+    ]).groupby("city")["count"].sum().nlargest(int(top_n or 20)))
+    top_nodes = set(vol.index)
+    if selected_ids:
+        sr = flows_df[flows_df["person_id"].isin(selected_ids)]
+        top_nodes |= set(sr["from"]) | set(sr["to"])
+
+    flows_agg = flows_agg[flows_agg["from"].isin(top_nodes) & flows_agg["to"].isin(top_nodes)]
+    if min_flow and min_flow > 1:
+        flows_agg = flows_agg[flows_agg["count"] >= min_flow]
+    if flows_agg.empty:
+        return empty_fig("No flows after filtering.", 600), []
+
+    # ── 3. Semantic threshold ────────────────────────────────────────────────
+    if semantic_pct and semantic_pct > 0:
+        thresh = flows_agg["count"].max() * (semantic_pct / 100)
+        flows_agg = flows_agg[flows_agg["count"] >= thresh]
+    if flows_agg.empty:
+        return empty_fig("All flows below semantic threshold.", 600), []
+
+    # ── 4. Resolve node coordinates ──────────────────────────────────────────
+    all_nodes     = set(flows_agg["from"]) | set(flows_agg["to"])
+    country_nodes = sorted(all_nodes & _country_labels)
+    node_coords   = {n: CITY_COORDS.get(n) or COUNTRY_COORDS.get(n) for n in all_nodes}
+    valid         = {n for n, c in node_coords.items() if c is not None}
+    flows_agg     = flows_agg[flows_agg["from"].isin(valid) & flows_agg["to"].isin(valid)]
+    if flows_agg.empty:
+        return empty_fig("No flows with known coordinates.", 600), []
+
+    max_cnt = int(flows_agg["count"].max()) or 1
+
+    # ── 5. Compute raw paths ─────────────────────────────────────────────────
+    edge_endpoints, raw_paths = [], []
+    for _, row in flows_agg.iterrows():
+        slat, slon = node_coords[row["from"]]
+        dlat, dlon = node_coords[row["to"]]
+        edge_endpoints.append((slat, slon, dlat, dlon))
+
+        if line_type == "straight":
+            lats = np.linspace(slat, dlat, 50).tolist()
+            lons = np.linspace(slon, dlon, 50).tolist()
+        elif line_type == "greatcircle":
+            lats, lons = _great_circle_pts(slat, slon, dlat, dlon)
+        else:                                     # bezier (default)
+            lats, lons = _bezier_pts(slat, slon, dlat, dlon)
+        raw_paths.append((lats, lons))
+
+    # ── 6. Optional edge bundling ─────────────────────────────────────────────
+    bstrength = float(bundling_strength or 0.5)
+
+    if bundling_mode == "fdeb":
+        # Full Holten & van Wijk FDEB with compatibility scoring and subdivision
+        final_paths = _fdeb(edge_endpoints, strength=bstrength, n_cycles=3, n_iter=15)
+        temporal_bin_indices = []
+
+    elif bundling_mode == "hier":
+        # Hierarchical: route each flow through its faculty's geographic centroid
+        fac_evts = df.dropna(subset=["lat", "lon", "faculty"])
+        fac_centroids = (
+            fac_evts.groupby("faculty")[["lat", "lon"]]
+            .mean()
+            .apply(lambda r: (float(r["lat"]), float(r["lon"])), axis=1)
+            .to_dict()
+        )
+        # Dominant faculty for each aggregated flow
+        fac_per_flow = []
+        for _, row in flows_agg.iterrows():
+            grp = flows_df[(flows_df["from"] == row["from"]) & (flows_df["to"] == row["to"])]
+            dom = grp["faculty"].value_counts()
+            fac_per_flow.append(dom.index[0] if not dom.empty else "")
+        final_paths = _hierarchical_bundle(
+            edge_endpoints, fac_per_flow, fac_centroids, strength=bstrength
+        )
+        temporal_bin_indices = []
+
+    elif bundling_mode == "temporal":
+        # Temporal: bundle flows within each time period independently
+        year_per_flow = flows_agg["year_med"].fillna(yr[0]).astype(int).tolist()
+        final_paths, temporal_bin_indices = _temporal_bundle(
+            edge_endpoints, year_per_flow, n_bins=int(n_time_bins or 5), strength=bstrength
+        )
+
+    else:
+        # No bundling — use raw line-type paths
+        final_paths = raw_paths
+        temporal_bin_indices = []
+
+    # ── 7. Build Scattergeo traces ────────────────────────────────────────────
+    fig      = go.Figure()
+    n_bins_eff = int(n_time_bins or 5)
+
+    for flow_idx, ((_, row), (lats, lons)) in enumerate(zip(flows_agg.iterrows(), final_paths)):
+        src, tgt, cnt = row["from"], row["to"], int(row["count"])
+        alpha = 0.12 + 0.75 * (cnt / max_cnt) ** 0.5
+        lw    = 1.0  + 5.0  * (cnt / max_cnt) ** 0.5
+
+        # Colour — temporal mode assigns hue by time period, overriding color_mode
+        if bundling_mode == "temporal" and temporal_bin_indices:
+            base = _temporal_color(temporal_bin_indices[flow_idx], n_bins_eff)
+        elif color_mode == "faculty":
+            grp   = flows_df[(flows_df["from"]==src) & (flows_df["to"]==tgt)]
+            dom   = grp["faculty"].value_counts()
+            fac   = dom.index[0] if not dom.empty else ""
+            base  = FACULTY_COLORS.get(fac, FACULTY_COLORS_DEFAULT)
+        elif color_mode == "count":
+            # Blue (low) → red (high)
+            r_ = int(255 * (cnt/max_cnt))
+            b_ = int(255 * (1 - cnt/max_cnt))
+            base = f"#{r_:02x}33{b_:02x}"
+        else:
+            base = "#457b9d"
+
+        # Dim if selection active and this flow doesn't involve selected person
+        if sel_set:
+            grp_f = flows_df[(flows_df["from"]==src) & (flows_df["to"]==tgt)]
+            if grp_f[grp_f["person_id"].isin(sel_set)].empty:
+                alpha *= 0.12
+                lw    *= 0.5
+
+        h = base.lstrip("#")
+        rgba = f"rgba({int(h[0:2],16)},{int(h[2:4],16)},{int(h[4:6],16)},{alpha:.2f})"
+
+        fig.add_trace(go.Scattergeo(
+            lat=lats + [None], lon=lons + [None],
+            mode="lines",
+            line=dict(width=lw, color=rgba),
+            hoverinfo="skip",
+            showlegend=False,
+        ))
+
+        # Directed arrow: extra marker at destination end
+        if show_arrows:
+            fig.add_trace(go.Scattergeo(
+                lat=[lats[-1]], lon=[lons[-1]],
+                mode="markers",
+                marker=dict(size=5 + 4*(cnt/max_cnt), color=rgba,
+                            symbol="circle", opacity=min(1.0, alpha*1.8)),
+                hovertemplate=f"<b>{src} → {tgt}</b><br>{cnt} move{'s' if cnt!=1 else ''}<extra></extra>",
+                showlegend=False,
+            ))
+
+    # ── 8. Node markers ───────────────────────────────────────────────────────
+    node_list  = sorted(valid)
+    cn_set     = set(country_nodes)
+    city_nodes = [n for n in node_list if n not in cn_set]
+    node_vols  = {}
+    for n in node_list:
+        v = (flows_agg[flows_agg["from"]==n]["count"].sum() +
+             flows_agg[flows_agg["to"]  ==n]["count"].sum())
+        node_vols[n] = int(v)
+    max_vol = max(node_vols.values()) or 1
+
+    if city_nodes:
+        fig.add_trace(go.Scattergeo(
+            lat=[node_coords[n][0] for n in city_nodes],
+            lon=[node_coords[n][1] for n in city_nodes],
+            mode="markers+text",
+            marker=dict(
+                size=[6 + 14*(node_vols[n]/max_vol)**0.5 for n in city_nodes],
+                color=["#c0392b" if "leiden" in n.lower() else "#2c3e50" for n in city_nodes],
+                symbol="circle", opacity=0.9,
+                line=dict(color="white", width=1),
+            ),
+            text=city_nodes,
+            textposition="top center",
+            textfont=dict(size=9, color="#333"),
+            hovertemplate="<b>%{text}</b><br>%{customdata} total moves<extra></extra>",
+            customdata=[node_vols[n] for n in city_nodes],
+            showlegend=False,
+        ))
+
+    if country_nodes:
+        fig.add_trace(go.Scattergeo(
+            lat=[node_coords[n][0] for n in country_nodes],
+            lon=[node_coords[n][1] for n in country_nodes],
+            mode="markers+text",
+            marker=dict(
+                size=[10 + 14*(node_vols.get(n, 0)/max_vol)**0.5 for n in country_nodes],
+                color="#6c757d", symbol="diamond", opacity=0.9,
+                line=dict(color="white", width=1.5),
+            ),
+            text=country_nodes,
+            textposition="top center",
+            textfont=dict(size=9, color="#555"),
+            hovertemplate="<b>%{text}</b><br>%{customdata} total moves<br><i>Click to expand</i><extra></extra>",
+            customdata=[node_vols.get(n, 0) for n in country_nodes],
+            showlegend=False,
+        ))
+
+    # ── 9. Layout ─────────────────────────────────────────────────────────────
+    all_lats = [c[0] for c in node_coords.values() if c]
+    all_lons = [c[1] for c in node_coords.values() if c]
+    pad = 3
+    technique_labels = [line_type.title()]
+    bundle_label = {"fdeb": "FDEB", "hier": "Hierarchical",
+                    "temporal": f"Temporal ({n_bins_eff})"}.get(bundling_mode)
+    if bundle_label:
+        technique_labels.append(f"{bundle_label} (s={bundling_strength:.2f})")
+    if show_arrows:
+        technique_labels.append("Directed")
+
+    fig.update_layout(
+        title=dict(text="Experimental Flow Map  ·  " + "  ·  ".join(technique_labels),
+                   font=dict(size=12)),
+        geo=dict(
+            showland=True,    landcolor="#f0ede8",
+            showocean=True,   oceancolor="#d6eaf8",
+            showcoastlines=True, coastlinecolor="#bbb",
+            showcountries=True, countrycolor="#ddd",
+            showlakes=True,   lakecolor="#d6eaf8",
+            projection_type="mercator",
+            lataxis_range=[min(all_lats)-pad, max(all_lats)+pad] if all_lats else [40, 65],
+            lonaxis_range=[min(all_lons)-pad, max(all_lons)+pad] if all_lons else [-10, 30],
+        ),
+        margin=dict(l=0, r=0, t=32, b=0),
+        showlegend=False,
+        uirevision="expflowmap",
+    )
+    return fig, country_nodes
+
+
+def _panel_expflowmap():
+    faculties = sorted({r["faculty"] for r in PEOPLE if r.get("faculty")})
+    return html.Div(
+        style={"display": "flex", "flexDirection": "column", "height": "calc(100vh - 74px)"},
+        children=[
+            # ── Controls ──────────────────────────────────────────────────────
+            # ── Controls ──────────────────────────────────────────────────────
+            html.Div(style={
+                "display": "flex", "flexWrap": "wrap", "gap": "8px",
+                "padding": "4px 10px", "borderBottom": "1px solid #e9ecef",
+                "background": "#f8f9fa", "alignItems": "flex-end",
+                "flexShrink": 0, "overflowX": "auto",
+            }, children=[
+
+                # Line type
+                dmc.Stack(gap=1, children=[
+                    dmc.Text("Line type", size="xs", c="dimmed"),
+                    dmc.SegmentedControl(
+                        id="expflow-line-type", value="bezier", size="xs",
+                        data=[{"value": "straight",    "label": "Straight"},
+                              {"value": "bezier",      "label": "Bezier"},
+                              {"value": "greatcircle", "label": "Great circle"}],
+                    ),
+                ]),
+
+                # Edge bundling — Off / FDEB / Hierarchical / Temporal
+                dmc.Stack(gap=1, children=[
+                    dmc.Text("Edge bundling", size="xs", c="dimmed"),
+                    dmc.SegmentedControl(
+                        id="expflow-bundling", value="off", size="xs",
+                        data=[{"value": "off",      "label": "Off"},
+                              {"value": "fdeb",     "label": "FDEB"},
+                              {"value": "hier",     "label": "Hierarchical"},
+                              {"value": "temporal", "label": "Temporal"}],
+                    ),
+                ]),
+                dmc.Stack(gap=1, children=[
+                    dmc.Text(id="expflow-strength-label", size="xs", c="dimmed"),
+                    dmc.Slider(
+                        id="expflow-bundling-strength", value=50, min=10, max=90, step=10,
+                        marks=[{"value": v, "label": str(v)} for v in [10, 50, 90]],
+                        style={"width": "100px"},
+                    ),
+                ]),
+                dmc.Stack(gap=1, children=[
+                    dmc.Text(id="expflow-timebins-label", size="xs", c="dimmed"),
+                    dmc.Slider(
+                        id="expflow-time-bins", value=5, min=2, max=10, step=1,
+                        marks=[{"value": v, "label": str(v)} for v in [2, 5, 10]],
+                        style={"width": "90px"},
+                    ),
+                ]),
+
+                # Directed arrows
+                dmc.Stack(gap=1, children=[
+                    dmc.Text("Direction", size="xs", c="dimmed"),
+                    dmc.Switch(id="expflow-arrows", checked=True, label="Arrows", size="xs"),
+                ]),
+
+                # Semantic threshold + auto-zoom
+                dmc.Stack(gap=1, children=[
+                    dmc.Text(id="expflow-semantic-label", size="xs", c="dimmed"),
+                    dmc.Slider(
+                        id="expflow-semantic-pct", value=0, min=0, max=80, step=10,
+                        marks=[{"value": v, "label": f"{v}%" } for v in [0, 40, 80]],
+                        style={"width": "110px"},
+                    ),
+                ]),
+                dmc.Stack(gap=1, children=[
+                    dmc.Text("Sem. zoom", size="xs", c="dimmed"),
+                    dmc.Switch(id="expflow-auto-zoom", checked=False, label="Auto", size="xs"),
+                ]),
+
+                # Top-N locations
+                dmc.Stack(gap=1, children=[
+                    dmc.Text(id="expflow-topn-label", size="xs", c="dimmed"),
+                    dmc.Slider(
+                        id="expflow-top-n", value=20, min=5, max=60, step=5,
+                        marks=[{"value": v, "label": str(v)} for v in [5, 20, 60]],
+                        style={"width": "110px"},
+                    ),
+                ]),
+
+                # Min flow
+                dmc.Stack(gap=1, children=[
+                    dmc.Text(id="expflow-minflow-label", size="xs", c="dimmed"),
+                    dmc.Slider(
+                        id="expflow-min-flow", value=1, min=1, max=20, step=1,
+                        marks=[{"value": v, "label": str(v)} for v in [1, 10, 20]],
+                        style={"width": "90px"},
+                    ),
+                ]),
+
+                # Colour mode
+                dmc.Stack(gap=1, children=[
+                    dmc.Text("Colour", size="xs", c="dimmed"),
+                    dmc.SegmentedControl(
+                        id="expflow-color-mode", value="uniform", size="xs",
+                        data=[{"value": "uniform", "label": "Uniform"},
+                              {"value": "faculty",  "label": "Faculty"},
+                              {"value": "count",    "label": "Count"}],
+                    ),
+                ]),
+
+                # Faculty filter
+                dmc.Stack(gap=1, children=[
+                    dmc.Text("Faculty", size="xs", c="dimmed"),
+                    dmc.MultiSelect(
+                        id="expflow-faculty-filter", data=faculties,
+                        placeholder="All", searchable=True, clearable=True,
+                        value=[], maxDropdownHeight=200, style={"minWidth": "115px"},
+                    ),
+                ]),
+
+                # Expand countries (populated from country nodes in the map)
+                dmc.Stack(gap=1, children=[
+                    dmc.Text("Expand countries", size="xs", c="dimmed"),
+                    dmc.MultiSelect(
+                        id="expflow-expand-select",
+                        value=[], data=[],
+                        placeholder="Click diamond node on map",
+                        clearable=True, searchable=True,
+                        style={"minWidth": "155px"},
+                    ),
+                ]),
+            ]),
+
+            # ── Map — fills all remaining vertical space ───────────────────────
+            dcc.Graph(
+                id="expflowmap-chart",
+                config={"displayModeBar": True, "responsive": True},
+                style={"flex": 1, "minHeight": 0},
+            ),
+        ],
+    )
+
+
 PAGES = [
     ("/",            "Map"),
     ("/timeline",    "Timeline"),
     ("/cube",        "Space-Time Cube"),
     ("/sankey",      "Life Flows"),
     ("/flowmap",     "Flow Map"),
+    ("/expflowmap",  "Flow Map ✦"),
     ("/copresence",  "Co-presence"),
     ("/people",      "People"),
 ]
@@ -2228,17 +3163,25 @@ def _nav_bar(current_path):
 
 app.layout = dmc.MantineProvider(
     children=[
+        # Animation interval (ticks when animation is active)
+        dcc.Interval(id="anim-interval", interval=800, n_intervals=0, disabled=True),
+
         # Shared state stores
-        dcc.Store(id="store-selection",  data=[]),
+        dcc.Store(id="store-selection",       data=[]),
         dcc.Store(id="store-year",       data=[YEAR_MIN, YEAR_MAX]),
+        dcc.Store(id="store-anim",       data={"active": False, "year": YEAR_MIN,
+                                               "mode": "cumulative", "window_size": 10}),
+        dcc.Store(id="store-focus",      data="all"),
         dcc.Store(id="store-copresence", data=[]),
         dcc.Store(id="store-sankey-expanded",      data=[]),
         dcc.Store(id="store-sankey-trace",         data=None),
         dcc.Store(id="store-sankey-country-nodes", data=[]),
         dcc.Store(id="store-sankey-detail",        data={"flows":{}, "nodes":{}}),
-        dcc.Store(id="store-flowmap-expanded",      data=[]),
-        dcc.Store(id="store-flowmap-country-nodes", data=[]),
-        dcc.Store(id="store-flowmap-detail",        data={"flows":{}, "nodes":{}}),
+        dcc.Store(id="store-flowmap-expanded",          data=[]),
+        dcc.Store(id="store-flowmap-country-nodes",    data=[]),
+        dcc.Store(id="store-flowmap-detail",           data={"flows":{}, "nodes":{}}),
+        dcc.Store(id="store-expflowmap-expanded",      data=[]),
+        dcc.Store(id="store-expflowmap-country-nodes", data=[]),
         dcc.Store(id="page-render-trigger",        data="/"),
 
         # Person detail modal (portal-rendered, not in flow)
@@ -2297,13 +3240,14 @@ app.layout = dmc.MantineProvider(
 
 # URL → page content
 _PATH_BUILDERS = {
-    "/":           _panel_map,
-    "/timeline":   _panel_timeline,
-    "/cube":       _panel_cube,
-    "/sankey":     _panel_sankey,
-    "/flowmap":    _panel_flowmap,
-    "/copresence": _panel_copresence,
-    "/people":     _panel_people,
+    "/":            _panel_map,
+    "/timeline":    _panel_timeline,
+    "/cube":        _panel_cube,
+    "/sankey":      _panel_sankey,
+    "/flowmap":     _panel_flowmap,
+    "/expflowmap":  _panel_expflowmap,
+    "/copresence":  _panel_copresence,
+    "/people":      _panel_people,
 }
 
 @app.callback(
@@ -2326,6 +3270,15 @@ def render_page(pathname):
 def update_year(value):
     s, e = sorted(value or [YEAR_MIN, YEAR_MAX])
     return [s, e], f"{s} – {e}"
+
+
+# Focus mode control → store
+@app.callback(
+    Output("store-focus", "data"),
+    Input("focus-mode", "value"),
+)
+def update_focus(value):
+    return value or "all"
 
 
 # Sidebar selection sources → store (clear btn, badge click, search dropdown)
@@ -2400,12 +3353,15 @@ if HAS_DECK:
         Input("store-year", "data"),
         Input("store-selection", "data"),
         Input("type-filter", "value"),
+        Input("store-anim", "data"),
+        Input("store-focus", "data"),
         State("url", "pathname"),
     )
-    def update_map_cb(page, year_range, selected, visible_types, pathname):
+    def update_map_cb(page, year_range, selected, visible_types, anim, focus, pathname):
         if (pathname or "/") not in ("/", ""):
             raise dash.exceptions.PreventUpdate
-        return build_map(year_range, selected, visible_types)
+        yr = _effective_year_range(year_range, anim)
+        return build_map(yr, selected, visible_types, focus or "all")
 
 
 # Event bar
@@ -2413,12 +3369,14 @@ if HAS_DECK:
     Output("event-bar", "figure"),
     Input("page-render-trigger", "data"),
     Input("store-year", "data"),
+    Input("store-anim", "data"),
     State("url", "pathname"),
 )
-def update_event_bar(page, year_range, pathname):
+def update_event_bar(page, year_range, anim, pathname):
     if (pathname or "/") not in ("/", ""):
         raise dash.exceptions.PreventUpdate
-    return build_event_bar(year_range or [YEAR_MIN, YEAR_MAX])
+    yr = _effective_year_range(year_range, anim)
+    return build_event_bar(yr)
 
 
 # Timeline histogram
@@ -2427,12 +3385,15 @@ def update_event_bar(page, year_range, pathname):
     Input("page-render-trigger", "data"),
     Input("store-year", "data"),
     Input("store-selection", "data"),
+    Input("store-anim", "data"),
+    Input("store-focus", "data"),
     State("url", "pathname"),
 )
-def update_timeline(page, year_range, selected, pathname):
+def update_timeline(page, year_range, selected, anim, focus, pathname):
     if (pathname or "/").rstrip("/") != "/timeline":
         raise dash.exceptions.PreventUpdate
-    return build_timeline(year_range or [YEAR_MIN, YEAR_MAX], selected or None)
+    yr = _effective_year_range(year_range, anim)
+    return build_timeline(yr, selected or None, focus or "all")
 
 
 # Co-presence calculation
@@ -2442,12 +3403,13 @@ def update_timeline(page, year_range, selected, pathname):
     Input("page-render-trigger", "data"),
     Input("store-selection", "data"),
     Input("store-year", "data"),
+    Input("store-anim", "data"),
     State("url", "pathname"),
 )
-def update_copresence(page, selected, year_range, pathname):
+def update_copresence(page, selected, year_range, anim, pathname):
     if (pathname or "/").rstrip("/") != "/copresence":
         return no_update, no_update
-    yr = year_range or [YEAR_MIN, YEAR_MAX]
+    yr = _effective_year_range(year_range, anim)
     if selected and len(selected) >= 2:
         rows = _copresence_selected(selected, yr)
     elif selected and len(selected) == 1:
@@ -2472,120 +3434,23 @@ def copresence_select(rows):
     return pids, [str(p) for p in pids]
 
 
-# People grid → select (table-view clicks)
+# People grid → select (table row selection)
 @app.callback(
-    Output("store-selection", "data", allow_duplicate=True),
-    Output("person-search", "value", allow_duplicate=True),
-    Input("people-grid", "cellClicked"),
+    Output("store-selection", "data",  allow_duplicate=True),
+    Output("person-search",   "value", allow_duplicate=True),
+    Input("people-grid", "selectedRows"),
     State("store-selection", "data"),
     prevent_initial_call=True,
 )
-def people_grid_click(cell, stored):
-    if not cell:
+def people_grid_selection(selected_rows, stored):
+    if not selected_rows:
         raise dash.exceptions.PreventUpdate
-    row = cell.get("rowData", {})
-    pid = row.get("person_id")
-    if pid is None:
+    new_pids = {int(r["person_id"]) for r in selected_rows if "person_id" in r}
+    current  = set(map(int, stored or []))
+    merged   = sorted(current | new_pids)
+    if merged == sorted(current):
         raise dash.exceptions.PreventUpdate
-    pid    = int(pid)
-    stored = list(stored or [])
-    stored = [p for p in stored if p != pid] if pid in stored \
-             else sorted(stored + [pid])
-    return stored, [str(p) for p in stored]
-
-
-# People cards — build / refresh card grid
-@app.callback(
-    Output("people-cards-grid", "children"),
-    Output("people-card-count", "children"),
-    Output("people-cards-grid", "style"),
-    Output("people-table-container", "style"),
-    Input("page-render-trigger", "data"),
-    Input("people-search-input", "value"),
-    Input("people-fac-filter", "value"),
-    Input("people-sort", "value"),
-    Input("people-view-mode", "value"),
-    Input("store-selection", "data"),
-    State("url", "pathname"),
-)
-def update_people_cards(page, search, faculties, sort_by, view_mode, selected_ids, pathname):
-    if (pathname or "/").rstrip("/") != "/people":
-        raise dash.exceptions.PreventUpdate
-
-    selected_set = set(map(int, selected_ids or []))
-    view_mode    = view_mode or "cards"
-
-    cards_style = {
-        "flex": 1, "overflowY": "auto", "padding": "12px 16px",
-        "display": "grid" if view_mode == "cards" else "none",
-        "gridTemplateColumns": "repeat(auto-fill, minmax(320px, 1fr))",
-        "gap": "8px", "alignContent": "start",
-    }
-    table_style = {
-        "flex": 1, "padding": "12px 16px",
-        "display": "block" if view_mode == "table" else "none",
-    }
-
-    if view_mode == "table":
-        count_text = f"{len(PEOPLE_DF)} professors · {len(selected_set)} selected"
-        return no_update, count_text, cards_style, table_style
-
-    df = PEOPLE_DF.copy()
-    if search:
-        df = df[df["name"].str.lower().str.contains(search.lower(), na=False)]
-    if faculties:
-        df = df[df["faculty"].isin(faculties)]
-    if sort_by == "birth_year":
-        df = df.sort_values("birth_year", na_position="last")
-    elif sort_by == "events":
-        df["_ne"] = df["person_id"].apply(lambda pid: len(PERSON_EVENTS.get(int(pid), [])))
-        df = df.sort_values("_ne", ascending=False)
-    else:
-        df = df.sort_values("name")
-
-    total = len(df)
-    cmap  = sel_color_map(list(selected_set))
-
-    cards = []
-    for row in df.itertuples():
-        pid   = int(row.person_id)
-        fac   = str(row.faculty) if pd.notna(row.faculty) else None
-        color = cmap.get(pid, FACULTY_COLORS.get(fac or "", FACULTY_COLORS_DEFAULT))
-        cards.append(PersonCard(
-            id={"type": "person-card", "index": pid},
-            name=str(row.name),
-            faculty=fac,
-            color=color,
-            birth_year=int(row.birth_year) if pd.notna(row.birth_year) else None,
-            death_year=int(row.death_year) if pd.notna(row.death_year) else None,
-            events=PERSON_EVENTS.get(pid, []),
-            selected=(pid in selected_set),
-        ))
-
-    count_text = (
-        f"{total} matching · {len(selected_set)} selected"
-        if (search or faculties)
-        else f"{total} professors · {len(selected_set)} selected"
-    )
-    return cards, count_text, cards_style, table_style
-
-
-# PersonCard click → update global selection
-@app.callback(
-    Output("store-selection", "data", allow_duplicate=True),
-    Input({"type": "person-card", "index": ALL}, "selected"),
-    State({"type": "person-card", "index": ALL}, "id"),
-    State("store-selection", "data"),
-    prevent_initial_call=True,
-)
-def person_card_click(selected_vals, ids, stored):
-    if not ids:
-        raise dash.exceptions.PreventUpdate
-    new_sel = sorted([c["index"] for c, s in zip(ids, selected_vals) if s])
-    old_sel = sorted(list(map(int, stored or [])))
-    if new_sel == old_sel:
-        raise dash.exceptions.PreventUpdate
-    return new_sel
+    return merged, [str(p) for p in merged]
 
 
 # Network graph (Cytoscape elements + node-click selection)
@@ -2634,6 +3499,7 @@ def open_detail_modal(n_clicks_list):
 @app.callback(
     Output("cube-chart", "figure"),
     Output("cube-stats", "children"),
+    Output("cube-geomap", "figure"),
     Input("page-render-trigger", "data"),
     Input("store-year", "data"),
     Input("store-selection", "data"),
@@ -2642,22 +3508,26 @@ def open_detail_modal(n_clicks_list):
     Input("cube-projections", "checked"),
     Input("cube-copresence", "checked"),
     Input("cube-camera", "value"),
+    Input("store-anim", "data"),
+    Input("store-focus", "data"),
     State("url", "pathname"),
 )
 def update_cube(page, year_range, selected, color_mode,
                 type_filter, show_proj, show_copresence, camera_preset,
-                pathname):
+                anim, focus, pathname):
     if (pathname or "/").rstrip("/") != "/cube":
         raise dash.exceptions.PreventUpdate
-    yr = year_range or [YEAR_MIN, YEAR_MAX]
+    yr = _effective_year_range(year_range, anim)
     fig = build_cube(yr, selected or [], color_mode or "event",
                      type_filter or list(EVENT_COLORS.keys()),
-                     show_proj, show_copresence, camera_preset or "3d")
+                     show_proj, show_copresence, camera_preset or "3d",
+                     focus or "all")
     df = filter_events(yr, selected if selected else None)
     n_people = df["person_id"].nunique()
     n_events = len(df)
     stat_text = f"{n_people} professors · {n_events} events · {yr[0]}–{yr[1]}"
-    return fig, stat_text
+    geomap_fig = build_cube_map(yr, selected or [], focus or "all")
+    return fig, stat_text, geomap_fig
 
 
 # Space-Time Cube click → select person
@@ -2701,20 +3571,23 @@ def cube_click_select(click_data, stored):
     Input("store-sankey-trace", "data"),
     Input("sankey-color-mode", "value"),
     Input("sankey-arrangement", "value"),
+    Input("store-anim", "data"),
+    Input("store-focus", "data"),
     State("url", "pathname"),
 )
 def update_sankey(page, year_range, selected, event_filter,
                   faculty_filter, top_n, min_flow, expanded,
-                  trace_node, color_mode, arrangement, pathname):
+                  trace_node, color_mode, arrangement, anim, focus, pathname):
     if (pathname or "/").rstrip("/") != "/sankey":
         raise dash.exceptions.PreventUpdate
-    yr    = year_range or [YEAR_MIN, YEAR_MAX]
+    yr    = _effective_year_range(year_range, anim)
     fig, country_nodes, flow_detail, node_detail = build_sankey(
         yr, selected or [], faculty_filter or [],
         event_filter or list(EVENT_COLORS.keys()),
         top_n or 20, min_flow or 1,
         expanded or [], trace_node,
         color_mode or "uniform", arrangement or "snap",
+        focus or "all",
     )
     detail = {"flows": flow_detail, "nodes": node_detail}
     topn_label    = f"Top-N nodes  ({top_n or 20})"
@@ -2852,18 +3725,21 @@ def expand_select_changed(value, current):
     Input("flowmap-min-flow",       "value"),
     Input("store-flowmap-expanded", "data"),
     Input("flowmap-color-mode",     "value"),
+    Input("store-anim",             "data"),
+    Input("store-focus",            "data"),
     State("url", "pathname"),
 )
 def update_flowmap(page, year_range, selected, event_filter, faculty_filter,
-                   top_n, min_flow, expanded, color_mode, pathname):
+                   top_n, min_flow, expanded, color_mode, anim, focus, pathname):
     if (pathname or "/").rstrip("/") != "/flowmap":
         raise dash.exceptions.PreventUpdate
-    yr = year_range or [YEAR_MIN, YEAR_MAX]
+    yr = _effective_year_range(year_range, anim)
     fig, country_nodes, detail = build_flowmap(
         yr, selected or [], faculty_filter or [],
         event_filter or list(EVENT_COLORS.keys()),
         top_n or 20, min_flow or 1,
         expanded or [], color_mode or "uniform",
+        focus or "all",
     )
     return (fig, country_nodes, detail,
             f"Top-N nodes  ({top_n or 20})",
@@ -2960,5 +3836,201 @@ def flowmap_expand_select_changed(value, current):
     return new
 
 
+# ── Animation callbacks ───────────────────────────────────────────────────────
+
+# Show/hide window-size row and update its label
+@app.callback(
+    Output("anim-window-row",   "style"),
+    Output("anim-window-label", "children"),
+    Input("anim-mode",        "value"),
+    Input("anim-window-size", "value"),
+)
+def toggle_window_row(mode, window_size):
+    visible = {"display": "block"} if mode == "window" else {"display": "none"}
+    label   = f"Window  ({window_size or 10} yrs)"
+    return visible, label
+
+
+# Play / Pause / Stop + interval tick → update store-anim + button label
+@app.callback(
+    Output("store-anim",         "data"),
+    Output("anim-interval",      "disabled"),
+    Output("anim-interval",      "interval"),
+    Output("anim-play-btn",      "children"),
+    Output("anim-year-display",  "children"),
+    Input("anim-play-btn",   "n_clicks"),
+    Input("anim-stop-btn",   "n_clicks"),
+    Input("anim-interval",   "n_intervals"),
+    State("store-anim",      "data"),
+    State("store-year",      "data"),
+    State("anim-mode",       "value"),
+    State("anim-window-size","value"),
+    State("anim-speed",      "value"),
+    prevent_initial_call=True,
+)
+def control_animation(play_n, stop_n, tick, anim, year_range, mode, window_size, speed):
+    triggered = ctx.triggered_id
+    anim      = dict(anim or {})
+    base_s, base_e = sorted(year_range or [YEAR_MIN, YEAR_MAX])
+
+    speed_ms  = int(speed or 800)
+    mode      = mode or "cumulative"
+    win_size  = int(window_size or 10)
+
+    if triggered == "anim-stop-btn":
+        anim.update(active=False, year=base_s, mode=mode, window_size=win_size)
+        return anim, True, speed_ms, "▶ Play", "–"
+
+    if triggered == "anim-play-btn":
+        if anim.get("active"):
+            # Pause
+            anim.update(active=False, mode=mode, window_size=win_size)
+            yr_str = str(anim.get("year", base_s))
+            return anim, True, speed_ms, "▶ Play", yr_str
+        else:
+            # Start / Resume
+            start_yr = int(anim.get("year", base_s))
+            # If already at the end, restart
+            if start_yr >= base_e:
+                start_yr = base_s
+            anim.update(active=True, year=start_yr, mode=mode, window_size=win_size)
+            return anim, False, speed_ms, "⏸ Pause", str(start_yr)
+
+    # Interval tick — advance year by 1
+    if triggered == "anim-interval":
+        if not anim.get("active"):
+            raise dash.exceptions.PreventUpdate
+        current_yr = int(anim.get("year", base_s))
+        next_yr    = current_yr + 1
+        if next_yr > base_e:
+            # Reached end — stop
+            anim.update(active=False, year=base_e, mode=mode, window_size=win_size)
+            return anim, True, speed_ms, "▶ Play", str(base_e)
+        anim.update(year=next_yr, mode=mode, window_size=win_size)
+        return anim, False, speed_ms, "⏸ Pause", str(next_yr)
+
+    raise dash.exceptions.PreventUpdate
+
+
+@app.callback(
+    Output("expflowmap-chart",                "figure"),
+    Output("expflow-topn-label",              "children"),
+    Output("expflow-minflow-label",           "children"),
+    Output("expflow-strength-label",          "children"),
+    Output("expflow-semantic-label",          "children"),
+    Output("expflow-timebins-label",          "children"),
+    Output("store-expflowmap-country-nodes",  "data"),
+    Input("page-render-trigger",              "data"),
+    Input("store-year",                       "data"),
+    Input("store-selection",                  "data"),
+    Input("expflow-line-type",                "value"),
+    Input("expflow-bundling",                 "value"),
+    Input("expflow-bundling-strength",        "value"),
+    Input("expflow-arrows",                   "checked"),
+    Input("expflow-semantic-pct",             "value"),
+    Input("expflow-top-n",                    "value"),
+    Input("expflow-min-flow",                 "value"),
+    Input("expflow-color-mode",               "value"),
+    Input("expflow-faculty-filter",           "value"),
+    Input("expflow-auto-zoom",                "checked"),
+    Input("expflow-time-bins",                "value"),
+    Input("expflowmap-chart",                 "relayoutData"),
+    Input("store-expflowmap-expanded",        "data"),
+    State("url", "pathname"),
+)
+def update_expflowmap(page, year_range, selected, line_type, bundling,
+                      bundling_strength, arrows, semantic_pct,
+                      top_n, min_flow, color_mode, faculty_filter,
+                      auto_zoom, n_time_bins, relayout_data, expanded, pathname):
+    if (pathname or "/").rstrip("/") != "/expflowmap":
+        raise dash.exceptions.PreventUpdate
+
+    eff_semantic = semantic_pct or 0
+    if auto_zoom:
+        vp_pct = _viewport_semantic_pct(relayout_data)
+        if vp_pct is not None:
+            eff_semantic = vp_pct
+
+    bstrength = (bundling_strength or 50) / 100
+    n_bins    = int(n_time_bins or 5)
+
+    fig, country_nodes = build_expflowmap(
+        year_range or [YEAR_MIN, YEAR_MAX],
+        selected or [],
+        line_type or "bezier",
+        bundling or "off",
+        bstrength,
+        arrows if arrows is not None else True,
+        eff_semantic,
+        top_n or 20,
+        min_flow or 1,
+        color_mode or "uniform",
+        faculty_filter or [],
+        expanded_countries=expanded or [],
+        n_time_bins=n_bins,
+    )
+
+    bundling_lbl = {"fdeb": "FDEB strength", "hier": "Hub blend",
+                    "temporal": "Temporal strength"}.get(bundling or "off", "Bundling strength")
+    zoom_lbl = " (auto)" if auto_zoom else ""
+    return (
+        fig,
+        f"Top-N locations ({top_n or 20})",
+        f"Min flow (>={min_flow or 1})",
+        f"{bundling_lbl} ({bundling_strength or 50}%)",
+        f"Semantic filter{zoom_lbl} (hide <{eff_semantic}% of max)",
+        f"Time bins ({n_bins})",
+        country_nodes,
+    )
+
+
+@app.callback(
+    Output("store-expflowmap-expanded", "data"),
+    Input("expflowmap-chart",           "clickData"),
+    State("store-expflowmap-country-nodes", "data"),
+    State("store-expflowmap-expanded",      "data"),
+    prevent_initial_call=True,
+)
+def expflowmap_click(click_data, country_nodes, expanded):
+    if not click_data:
+        raise dash.exceptions.PreventUpdate
+    pt    = click_data["points"][0]
+    label = pt.get("text") or pt.get("hovertext", "")
+    if not label or label not in (country_nodes or []):
+        raise dash.exceptions.PreventUpdate
+    expanded = list(expanded or [])
+    if label in expanded:
+        expanded.remove(label)
+    else:
+        expanded.append(label)
+    return expanded
+
+
+@app.callback(
+    Output("expflow-expand-select", "data"),
+    Output("expflow-expand-select", "value"),
+    Input("store-expflowmap-country-nodes", "data"),
+    State("store-expflowmap-expanded",      "data"),
+    prevent_initial_call=True,
+)
+def sync_expflow_expand_options(country_nodes, expanded):
+    options = [{"value": n, "label": n} for n in sorted(country_nodes or [])]
+    valid   = {o["value"] for o in options}
+    value   = [v for v in (expanded or []) if v in valid]
+    return options, value
+
+
+@app.callback(
+    Output("store-expflowmap-expanded", "data", allow_duplicate=True),
+    Input("expflow-expand-select", "value"),
+    State("store-expflowmap-expanded",  "data"),
+    prevent_initial_call=True,
+)
+def expflow_expand_select_changed(value, current):
+    if sorted(value or []) == sorted(current or []):
+        raise dash.exceptions.PreventUpdate
+    return value or []
+
+
 if __name__ == "__main__":
-    app.run(debug=True, port=8051)
+    app.run(debug=True, port=8051, dev_tools_ui=False)
