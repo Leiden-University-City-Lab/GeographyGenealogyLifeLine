@@ -1,0 +1,11 @@
+/* Suppress Dash error overlay and dev-tools popup */
+._dash-error-card,
+._dash-error-card--front,
+._dash-error-card--back,
+._dash-error-card__title,
+._dash-error-card__content,
+._dash-errors-container,
+#_dash-errors-content,
+.dash-error-card {
+    display: none !important;
+}
