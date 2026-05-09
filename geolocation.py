@@ -70,15 +70,15 @@ def main():
 
     cache = load_cache(args.cache)  # Load any previously saved geocoding results
 
-    rows = read_select_rows(  # Query the database for locations missing coordinates
-        args.database,  
-        args.user,  
+    rows = read_select_rows(  # Query the database for locations missing coordinates or country
+        args.database,
+        args.user,
         """
         SELECT location_id, country, city
         FROM location
-        WHERE latitude IS NULL OR longitude IS NULL
+        WHERE latitude IS NULL OR longitude IS NULL OR country IS NULL
         ORDER BY location_id;
-        """  
+        """
     )
 
     if args.limit is not None:  
@@ -116,10 +116,14 @@ def main():
         else:  # Otherwise, perform a new geocoding lookup.
             try: 
                 loc = geocode(query)  # Send the place query to Nominatim
-                if loc is None: 
-                    result = {"lat": None, "lon": None}  
-                else: 
-                    result = {"lat": loc.latitude, "lon": loc.longitude} 
+                if loc is None:
+                    result = {"lat": None, "lon": None, "country": None}
+                else:
+                    result = {
+                        "lat": loc.latitude,
+                        "lon": loc.longitude,
+                        "country": loc.raw.get("address", {}).get("country"),
+                    }
                 cache[query] = result  
                 save_cache(args.cache, cache) 
             except Exception as e: 
@@ -127,23 +131,29 @@ def main():
                 failed += 1  
                 continue  
 
-        lat = result.get("lat")  
-        lon = result.get("lon") 
+        lat = result.get("lat")
+        lon = result.get("lon")
+        resolved_country = result.get("country")
 
-        if lat is None or lon is None:  
-            print(f"No match for: {query}") 
-            skipped += 1 
-            continue 
+        if lat is None or lon is None:
+            print(f"No match for: {query}")
+            skipped += 1
+            continue
 
-        update_sql = f""" 
+        set_clauses = [f"latitude = {lat}", f"longitude = {lon}"]
+        if country is None and resolved_country is not None:
+            set_clauses.append(f"country = {sql_quote(resolved_country)}")
+
+        update_sql = f"""
         UPDATE location
-        SET latitude = {lat}, longitude = {lon}
+        SET {', '.join(set_clauses)}
         WHERE location_id = {location_id};
-        """  
+        """
 
         try:  # Try to update the database row
-            exec_update(args.database, args.user, update_sql)  
-            print(f"Updated {location_id}: {query} -> ({lat}, {lon})")  
+            exec_update(args.database, args.user, update_sql)
+            country_note = f", country={resolved_country}" if country is None and resolved_country else ""
+            print(f"Updated {location_id}: {query} -> ({lat}, {lon}){country_note}")
             updated += 1 
         except Exception as e: 
             print(f"Failed update for location_id={location_id}: {e}", file=sys.stderr) 

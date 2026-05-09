@@ -7,7 +7,7 @@
 set -e  # exit immediately on any error
 
 # ── Defaults (override with flags) ───────────────────────────────────────────
-JSON_DIR="Corrected_JSON"
+JSON_DIR="GPT5-JSON"
 DB_NAME="peopledb"
 DB_USER="monetdb"
 

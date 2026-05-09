@@ -27,7 +27,6 @@ networkx==3.6.1
 numpy==2.4.4
 packaging==26.0
 pandas==3.0.2
--e git+ssh://git@github.com/Leiden-University-City-Lab/GeographyGenealogyLifeLine.git@00c381bbef65596b15495d39147d94c3042acbcf#egg=person_card&subdirectory=person_card_component
 pillow==12.2.0
 plotly==6.6.0
 pydeck==0.9.2

@@ -2734,9 +2734,10 @@ def build_expflowmap(year_range, selected_ids,
 
     # Node labels with country expansion support
     expanded_set    = set(expanded_countries or [])
-    _lr             = df.apply(lambda r: _sankey_node_label(r["location"], r["country"], expanded_set), axis=1)
-    df["node"]      = _lr.apply(lambda t: t[0])
-    _country_labels = {t[0] for t in _lr if t[1]}
+    _lr                  = df.apply(lambda r: _sankey_node_label(r["location"], r["country"], expanded_set), axis=1)
+    df["node"]           = _lr.apply(lambda t: t[0])
+    df["resolved_cntry"] = _lr.apply(lambda t: t[2])
+    _country_labels      = {t[0] for t in _lr if t[1]}
 
     raw_flows = []
     for pid, pdf in df.sort_values(["date","event_order"], na_position="last").groupby("person_id"):
@@ -2771,6 +2772,9 @@ def build_expflowmap(year_range, selected_ids,
     if selected_ids:
         sr = flows_df[flows_df["person_id"].isin(selected_ids)]
         top_nodes |= set(sr["from"]) | set(sr["to"])
+    # All cities that belong to an expanded country bypass the top-N cap
+    if expanded_set:
+        top_nodes |= set(df[df["resolved_cntry"].isin(expanded_set)]["node"])
 
     flows_agg = flows_agg[flows_agg["from"].isin(top_nodes) & flows_agg["to"].isin(top_nodes)]
     if min_flow and min_flow > 1:
@@ -2843,6 +2847,9 @@ def build_expflowmap(year_range, selected_ids,
     elif bundling_mode == "temporal":
         # Temporal: bundle flows within each time period independently
         year_per_flow = flows_agg["year_med"].fillna(yr[0]).astype(int).tolist()
+        _ypf_arr = np.array(year_per_flow, dtype=float)
+        temporal_y_min = int(_ypf_arr.min()) if len(_ypf_arr) else yr[0]
+        temporal_y_max = int(_ypf_arr.max()) if len(_ypf_arr) else yr[1]
         final_paths, temporal_bin_indices = _temporal_bundle(
             edge_endpoints, year_per_flow, n_bins=int(n_time_bins or 5), strength=bstrength
         )
@@ -2853,8 +2860,10 @@ def build_expflowmap(year_range, selected_ids,
         temporal_bin_indices = []
 
     # ── 7. Build Scattergeo traces ────────────────────────────────────────────
-    fig      = go.Figure()
+    fig        = go.Figure()
     n_bins_eff = int(n_time_bins or 5)
+    if bundling_mode != "temporal":
+        temporal_y_min, temporal_y_max = yr[0], yr[1]
 
     for flow_idx, ((_, row), (lats, lons)) in enumerate(zip(flows_agg.iterrows(), final_paths)):
         src, tgt, cnt = row["from"], row["to"], int(row["count"])
@@ -2887,24 +2896,36 @@ def build_expflowmap(year_range, selected_ids,
         h = base.lstrip("#")
         rgba = f"rgba({int(h[0:2],16)},{int(h[2:4],16)},{int(h[4:6],16)},{alpha:.2f})"
 
+        if show_arrows:
+            # Particle CSS animation shows direction — use clean arc
+            trace_lats = lats + [None]
+            trace_lons = lons + [None]
+        else:
+            # No particles — append V-shaped arrowhead wings to the arc
+            _n   = len(lats)
+            _hi  = int(0.75 * (_n - 1))
+            _bi  = max(0, _hi - 4)
+            _hlat, _hlon = lats[_hi], lons[_hi]
+            _dlat = _hlat - lats[_bi];  _dlon = _hlon - lons[_bi]
+            _dist = (_dlat**2 + _dlon**2) ** 0.5 or 1e-9
+            _ux, _uy = _dlat / _dist, _dlon / _dist
+            _px, _py = -_uy, _ux
+            _arc_len = ((lats[-1]-lats[0])**2 + (lons[-1]-lons[0])**2) ** 0.5
+            _wing = max(0.10, min(0.45, _arc_len * 0.14))
+            _w1lat = _hlat - _wing*_ux + _wing*0.45*_px
+            _w1lon = _hlon - _wing*_uy + _wing*0.45*_py
+            _w2lat = _hlat - _wing*_ux - _wing*0.45*_px
+            _w2lon = _hlon - _wing*_uy - _wing*0.45*_py
+            trace_lats = lats + [None, _w1lat, _hlat, None, _w2lat, _hlat, None]
+            trace_lons = lons + [None, _w1lon, _hlon, None, _w2lon, _hlon, None]
+
         fig.add_trace(go.Scattergeo(
-            lat=lats + [None], lon=lons + [None],
+            lat=trace_lats, lon=trace_lons,
             mode="lines",
             line=dict(width=lw, color=rgba),
-            hoverinfo="skip",
+            hovertemplate=f"<b>{src} → {tgt}</b><br>{cnt} move{'s' if cnt != 1 else ''}<extra></extra>",
             showlegend=False,
         ))
-
-        # Directed arrow: extra marker at destination end
-        if show_arrows:
-            fig.add_trace(go.Scattergeo(
-                lat=[lats[-1]], lon=[lons[-1]],
-                mode="markers",
-                marker=dict(size=5 + 4*(cnt/max_cnt), color=rgba,
-                            symbol="circle", opacity=min(1.0, alpha*1.8)),
-                hovertemplate=f"<b>{src} → {tgt}</b><br>{cnt} move{'s' if cnt!=1 else ''}<extra></extra>",
-                showlegend=False,
-            ))
 
     # ── 8. Node markers ───────────────────────────────────────────────────────
     node_list  = sorted(valid)
@@ -2954,7 +2975,42 @@ def build_expflowmap(year_range, selected_ids,
             showlegend=False,
         ))
 
-    # ── 9. Layout ─────────────────────────────────────────────────────────────
+    # ── 9. Temporal legend (annotations) ─────────────────────────────────────
+    temporal_annotations = []
+    if bundling_mode == "temporal" and n_bins_eff > 0:
+        span    = max(temporal_y_max - temporal_y_min, 1)
+        x_leg   = 0.01
+        y_start = 0.99
+        row_h   = 0.048
+        # Title row
+        temporal_annotations.append(dict(
+            text="<b>Time period</b>",
+            x=x_leg, y=y_start,
+            xref="paper", yref="paper",
+            xanchor="left", yanchor="top",
+            showarrow=False,
+            font=dict(size=11, color="#333"),
+            bgcolor="rgba(255,255,255,0.88)",
+            borderpad=4,
+        ))
+        for b in range(n_bins_eff):
+            b_start = int(temporal_y_min + b       * span / n_bins_eff)
+            b_end   = int(temporal_y_min + (b + 1) * span / n_bins_eff) - (0 if b == n_bins_eff - 1 else 1)
+            color   = _temporal_color(b, n_bins_eff)
+            y_pos   = y_start - (b + 1) * row_h
+            # Coloured swatch annotation
+            temporal_annotations.append(dict(
+                text=f"<span style='color:{color}; font-size:16px;'>■</span> {b_start}–{b_end}",
+                x=x_leg, y=y_pos,
+                xref="paper", yref="paper",
+                xanchor="left", yanchor="middle",
+                showarrow=False,
+                font=dict(size=10, color="#333"),
+                bgcolor="rgba(255,255,255,0.82)",
+                borderpad=2,
+            ))
+
+    # ── 10. Layout ────────────────────────────────────────────────────────────
     all_lats = [c[0] for c in node_coords.values() if c]
     all_lons = [c[1] for c in node_coords.values() if c]
     pad = 3
@@ -2964,7 +3020,7 @@ def build_expflowmap(year_range, selected_ids,
     if bundle_label:
         technique_labels.append(f"{bundle_label} (s={bundling_strength:.2f})")
     if show_arrows:
-        technique_labels.append("Directed")
+        technique_labels.append("Particles")
 
     fig.update_layout(
         title=dict(text="Experimental Flow Map  ·  " + "  ·  ".join(technique_labels),
@@ -2981,6 +3037,7 @@ def build_expflowmap(year_range, selected_ids,
         ),
         margin=dict(l=0, r=0, t=32, b=0),
         showlegend=False,
+        annotations=temporal_annotations,
         uirevision="expflowmap",
     )
     return fig, country_nodes
@@ -3042,7 +3099,7 @@ def _panel_expflowmap():
                 # Directed arrows
                 dmc.Stack(gap=1, children=[
                     dmc.Text("Direction", size="xs", c="dimmed"),
-                    dmc.Switch(id="expflow-arrows", checked=True, label="Arrows", size="xs"),
+                    dmc.Switch(id="expflow-arrows", checked=True, label="Particles", size="xs"),
                 ]),
 
                 # Semantic threshold + auto-zoom
@@ -3180,8 +3237,9 @@ app.layout = dmc.MantineProvider(
         dcc.Store(id="store-flowmap-expanded",          data=[]),
         dcc.Store(id="store-flowmap-country-nodes",    data=[]),
         dcc.Store(id="store-flowmap-detail",           data={"flows":{}, "nodes":{}}),
-        dcc.Store(id="store-expflowmap-expanded",      data=[]),
+        dcc.Store(id="store-expflowmap-expanded",      data=[], storage_type="local"),
         dcc.Store(id="store-expflowmap-country-nodes", data=[]),
+        dcc.Store(id="store-expflow-particles",        data=True),
         dcc.Store(id="page-render-trigger",        data="/"),
 
         # Person detail modal (portal-rendered, not in flow)
@@ -3936,12 +3994,13 @@ def control_animation(play_n, stop_n, tick, anim, year_range, mode, window_size,
     Input("expflow-time-bins",                "value"),
     Input("expflowmap-chart",                 "relayoutData"),
     Input("store-expflowmap-expanded",        "data"),
+    Input("store-anim",                       "data"),
     State("url", "pathname"),
 )
 def update_expflowmap(page, year_range, selected, line_type, bundling,
                       bundling_strength, arrows, semantic_pct,
                       top_n, min_flow, color_mode, faculty_filter,
-                      auto_zoom, n_time_bins, relayout_data, expanded, pathname):
+                      auto_zoom, n_time_bins, relayout_data, expanded, anim, pathname):
     if (pathname or "/").rstrip("/") != "/expflowmap":
         raise dash.exceptions.PreventUpdate
 
@@ -3953,9 +4012,10 @@ def update_expflowmap(page, year_range, selected, line_type, bundling,
 
     bstrength = (bundling_strength or 50) / 100
     n_bins    = int(n_time_bins or 5)
+    yr        = _effective_year_range(year_range, anim)
 
     fig, country_nodes = build_expflowmap(
-        year_range or [YEAR_MIN, YEAR_MAX],
+        yr or [YEAR_MIN, YEAR_MAX],
         selected or [],
         line_type or "bezier",
         bundling or "off",
@@ -4008,28 +4068,74 @@ def expflowmap_click(click_data, country_nodes, expanded):
 
 @app.callback(
     Output("expflow-expand-select", "data"),
-    Output("expflow-expand-select", "value"),
     Input("store-expflowmap-country-nodes", "data"),
     State("store-expflowmap-expanded",      "data"),
     prevent_initial_call=True,
 )
 def sync_expflow_expand_options(country_nodes, expanded):
-    options = [{"value": n, "label": n} for n in sorted(country_nodes or [])]
-    valid   = {o["value"] for o in options}
-    value   = [v for v in (expanded or []) if v in valid]
-    return options, value
+    # Include both current country nodes and already-expanded countries so the
+    # dropdown always shows expanded entries as selected (even when a country is
+    # not a node this year because it is already broken into cities).
+    all_opts = set(country_nodes or []) | set(expanded or [])
+    return [{"value": n, "label": n} for n in sorted(all_opts)]
+
+
+@app.callback(
+    Output("expflow-expand-select", "value"),
+    Input("store-expflowmap-expanded", "data"),
+)
+def sync_expand_select_value(expanded):
+    # One-way sync: store → dropdown display.  Fires on initial load so the
+    # dropdown reflects any value restored from localStorage.
+    return expanded or []
 
 
 @app.callback(
     Output("store-expflowmap-expanded", "data", allow_duplicate=True),
     Input("expflow-expand-select", "value"),
-    State("store-expflowmap-expanded",  "data"),
+    State("store-expflowmap-expanded", "data"),
     prevent_initial_call=True,
 )
 def expflow_expand_select_changed(value, current):
+    # Allows collapsing via the dropdown.  sync_expand_select_value always sets
+    # value == current (same store content), so this only fires meaningfully when
+    # the user actually removes a country from the selection.
     if sorted(value or []) == sorted(current or []):
         raise dash.exceptions.PreventUpdate
     return value or []
+
+
+# Flowing particle animation for expflowmap edges.
+# Injects / removes a <style> tag that animates stroke-dashoffset on all
+# path.js-line elements inside the Scattergeo chart, making dots appear to
+# flow from source to destination.  Controlled by the "Particles" switch.
+app.clientside_callback(
+    """
+    function(checked) {
+        var id  = 'expflow-particle-style';
+        var el  = document.getElementById(id);
+        if (checked) {
+            if (!el) {
+                el = document.createElement('style');
+                el.id = id;
+                // period = 5 + 25 = 30 px;  animate dashoffset 0 → -30 (forward)
+                el.textContent =
+                    '@keyframes xfp { to { stroke-dashoffset: -30px; } }' +
+                    '#expflowmap-chart path.js-line {' +
+                    '  stroke-dasharray: 5px 25px;' +
+                    '  animation: xfp 0.7s linear infinite;' +
+                    '}';
+                document.head.appendChild(el);
+            }
+        } else if (el) {
+            el.parentNode.removeChild(el);
+        }
+        return checked;
+    }
+    """,
+    Output("store-expflow-particles", "data"),
+    Input("expflow-arrows", "checked"),
+)
 
 
 if __name__ == "__main__":
